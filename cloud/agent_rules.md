@@ -40,6 +40,7 @@ Mọi đường dẫn dưới đây tính từ thư mục gốc repo; chạy l�
   kiểu cho cả gói), đúng nghĩa của mục, dùng đúng từ/mẫu của mục trong câu. Viết Kanji như giáo trình (không đổi sang kana để né).
   Tên người chỉ dùng 私, 田中さん, 山田さん, 先生, 友だち, 部長, 課長, 社長... Độ dài `ja` không tính khoảng trắng:
   N2 8–50, N1 8–60 ký tự. N2 không dùng từ/ngữ pháp/kanji N1.
+- EXAMPLE_ABOVE_LEVEL do chính kanji của từ/mẫu đang soạn (vd từ N2 独り言 có chữ 独): GIỮ NGUYÊN cách viết của từ đó, bỏ qua cảnh báo này; chỉ đổi những từ KHÁC trong câu bị vượt cấp.
 - Furigana: mỗi cụm kanji liền nhau đặt cách đọc (hiragana) trong ngoặc tròn ASCII ngay sau cụm đó; okurigana để ngoài:
   `食(た)べる`, `結婚式(けっこんしき)`, `今日(きょう)`, `一人(ひとり)`. Bỏ hết `(...)` phải ra đúng `ja`. Kiểm kỹ cách đọc
   (âm đục, trường âm, 促音: 学校(がっこう), 一緒(いっしょ)).
