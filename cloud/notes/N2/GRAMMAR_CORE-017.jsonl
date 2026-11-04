@@ -1,0 +1,9 @@
+{"id": "JG-6ede4e0d0d", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 viết '心配の病気' (sai chính tả)", "suggest": "心配な病気"}
+{"id": "JG-6112a4cac3", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 viết 'かのようだたった' (thừa chữ)", "suggest": "かのようだった"}
+{"id": "JG-9eb7e4f640", "type": "CONTEXT_ERROR", "detail": "pattern '〜からというと/いえば/いって' sai; ví dụ dùng からすれば/からいえば/からすると", "suggest": "〜からいうと/いえば/いって"}
+{"id": "JG-3732659b12", "type": "CONTEXT_ERROR", "detail": "pattern '〜勝つとはない' sai/thiếu; ví dụ dùng とは限らない", "suggest": "〜とは限らない"}
+{"id": "JG-028fdb49dc", "type": "CONTEXT_ERROR", "detail": "pattern '〜勝つにている' sai chữ; ví dụ dùng に決まっている/に違いない (ví dụ 2 là に違いない, không phải に決まっている)", "suggest": "〜に決まっている; thay ví dụ 2"}
+{"id": "JG-52f805d7fd", "type": "CONTEXT_ERROR", "detail": "pattern '〜話そうかまいか' thiếu 話す", "suggest": "〜話そうか話すまいか"}
+{"id": "JG-c3a4f10ae3", "type": "CONTEXT_ERROR", "detail": "trùng chức năng với JG-5e4be5b0bf (cả hai là 〜ぬく)", "suggest": "gộp hoặc giữ một mẫu"}
+{"id": "JG-6dddb5617e", "type": "CONTEXT_ERROR", "detail": "trùng mẫu 〜にほかならない với JG-fdde427113, JG-0e73ffbf79 (gói 016)", "suggest": "gộp thành một mẫu"}
+{"id": "JG-5107bc2bee", "type": "CONTEXT_ERROR", "detail": "trùng chức năng với JG-028fdb49dc (〜に決まっている)", "suggest": "gộp thành một mẫu"}
