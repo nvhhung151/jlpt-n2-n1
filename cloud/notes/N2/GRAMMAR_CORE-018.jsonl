@@ -1,0 +1,7 @@
+{"id": "JG-4fd7473e2a", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 chỉ là '済む', không phải câu", "suggest": "thay bằng câu dùng 〜ずにすむ"}
+{"id": "JG-9a0e75b3dc", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 viết 'しないではいらなかった' (thiếu られ)", "suggest": "しないではいられなかった"}
+{"id": "JG-db5ba671d2", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 là danh sách cụm '・宗教上理由・金銭上のトラブル…', không phải câu; '宗教上理由' thiếu の", "suggest": "thay bằng câu hoàn chỉnh dùng 〜上"}
+{"id": "JG-15d5da51f6", "type": "CONTEXT_ERROR", "detail": "ví dụ 2 là thông báo bảng tin nhiều câu bắt đầu '〈大学の掲示板〉'; mẫu còn trùng JG-e1765791b8 và JG-9553592555 (gói 016) cùng là 〜に際して", "suggest": "bỏ tiền tố bảng tin; gộp các mẫu 〜に際して"}
+{"id": "JG-fec8709a49", "type": "CONTEXT_ERROR", "detail": "pattern '〜見るにつけにつけ' gõ sai; ví dụ 1 có ngoặc '（、歌を聞くにつけ）'", "suggest": "pattern 〜につけ(〜につけ); viết lại ví dụ 1 thành câu hoàn chỉnh"}
+{"id": "JG-4c5a658adc", "type": "CONTEXT_ERROR", "detail": "trùng mẫu 〜にて với JG-52b077d3c9", "suggest": "gộp thành một mẫu"}
+{"id": "JG-2762feb3ad", "type": "CONTEXT_ERROR", "detail": "pattern '〜中国語をはじめアジアの国々が' không khớp ví dụ (中国をはじめ); trùng JG-d21f8eda96 (gói 017)", "suggest": "pattern 〜をはじめ(として); gộp mẫu"}
