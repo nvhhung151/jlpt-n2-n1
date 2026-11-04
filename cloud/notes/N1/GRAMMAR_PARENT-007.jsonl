@@ -1,0 +1,11 @@
+{"id": "JG-9943860b58", "type": "SKIPPED", "detail": "〜ぶって (ra vẻ, giả bộ) không có mẫu chính cùng chức năng trong candidates hay header.mains", "suggest": "cần mẫu chính 〜ぶる"}
+{"id": "JG-d01126affa", "type": "SKIPPED", "detail": "〜ぶった (làm như) không có mẫu chính cùng chức năng", "suggest": "gộp vào mẫu chính 〜ぶる"}
+{"id": "JG-270569e469", "type": "SKIPPED", "detail": "〜ぶる (tỏ ra) không có mẫu chính cùng chức năng", "suggest": "cần mẫu chính 〜ぶる"}
+{"id": "JG-6899499a74", "type": "SKIPPED", "detail": "〜をいいことに (lợi dụng) không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜をいいことに"}
+{"id": "JG-bbc418a588", "type": "SKIPPED", "detail": "〜たことにしてください không có mẫu chính tương ứng (mẫu ngữ pháp cấp thấp hơn N1)", "suggest": "có thể là mẫu N3/N2, không thuộc N1"}
+{"id": "JG-85f1cfef4f", "type": "SKIPPED", "detail": "〜にかこつけて (vin cớ) không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜にかこつけて"}
+{"id": "JG-0bc2ddba7a", "type": "CONTEXT_ERROR", "detail": "mục là 〜びる (古びる, 大人びる) nhưng pattern/meaning ghi 'Có vẻ...' mơ hồ; gán tạm N+めく (JG-10d85a43f2) vì cùng chức năng mang dáng vẻ, không chắc chắn", "suggest": "kiểm lại; nên có mẫu chính 〜びる"}
+{"id": "JG-26c19c3dd0", "type": "CONTEXT_ERROR", "detail": "〜びる (大人びる) gán tạm N+めく (JG-10d85a43f2), tương tự JG-0bc2ddba7a", "suggest": "gộp hai mục 〜びる"}
+{"id": "JG-0e93433c36", "type": "CONTEXT_ERROR", "detail": "〜にして (ベテランにして…=ngay cả bậc thầy) gán tạm 〜といえども; header.mains chỉ có N+にして初めて (JG-d2f9db227b) khác nghĩa", "suggest": "kiểm lại; nên có mẫu chính 〜にして"}
+{"id": "JG-aaf2309fd2", "type": "CONTEXT_ERROR", "detail": "mục nói 'Chỉ đến thế thôi' nhưng ví dụ 直すまでだ là Vる+までだ (chỉ cần làm vậy thôi); header.mains có 3 mẫu trùng: JG-66a4a4d50a, JG-e7030da81f (るまでだ), JG-7741b551bb (たまでだ)", "suggest": "gộp các mẫu までだ"}
+{"id": "JG-1cde84695a", "type": "CONTEXT_ERROR", "detail": "trùng chức năng với JG-aaf2309fd2 (Vる+までだ); gán cùng JG-66a4a4d50a", "suggest": "gộp"}
