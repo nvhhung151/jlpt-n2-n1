@@ -1,0 +1,10 @@
+{"id": "JG-a88085f5a4", "type": "SKIPPED", "detail": "〜拍子に (đúng lúc một sự việc ngẫu nhiên xảy ra) không có mẫu chính cùng chức năng; が早いか/そばから khác sắc thái (kế tiếp liền/lặp lại)", "suggest": "cần mẫu chính 〜拍子に hoặc 〜途端に"}
+{"id": "JG-f3cf2a3086", "type": "SKIPPED", "detail": "〜てみせる (sẽ làm cho xem) không có mẫu chính tương ứng trong candidates hay header.mains", "suggest": "cần mẫu chính 〜てみせる"}
+{"id": "JG-63f857781b", "type": "SKIPPED", "detail": "〜るがままに (đúng theo, mặc cho) không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜がままに"}
+{"id": "JG-6e7347f8a1", "type": "SKIPPED", "detail": "〜たて(の) (vừa mới làm xong) không có mẫu chính tương ứng; そばから/が早いか khác chức năng", "suggest": "cần mẫu chính 〜たて"}
+{"id": "JG-558f225c92", "type": "SKIPPED", "detail": "〜ての+名詞 (連れての来日) không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜ての+N"}
+{"id": "JG-1b53b4c1b6", "type": "SKIPPED", "detail": "〜ても〜きれない không có mẫu chính tương ứng (に堪えない/て止まない khác chức năng)", "suggest": "cần mẫu chính 〜きれない"}
+{"id": "JG-98d93a4460", "type": "SKIPPED", "detail": "〜っぱなし (để nguyên, cứ mãi) không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜っぱなし"}
+{"id": "JG-d33d109988", "type": "CONTEXT_ERROR", "detail": "〜はめになる không có mẫu chính trùng khớp; gán tạm を余儀なくされる (JG-4ff9faacdc) vì cùng ý bị đẩy vào tình cảnh phải làm; 始末だ (candidate) lệch hơn", "suggest": "kiểm lại; nên có mẫu chính 〜羽目になる"}
+{"id": "JG-59281be09b", "type": "CONTEXT_ERROR", "detail": "JG-59281be09b và JG-6781753da5 đều là 言わんばかり, trùng nội dung; gán cùng JG-ff9f6b1283 (んばかりに) trong khi mains cũng có JG-cccef551a3 (V-ない bỏ ない+んばかり) trùng chức năng", "suggest": "gộp hai mẫu chính んばかり hoặc bỏ một trong hai mục trùng"}
+{"id": "JG-519729c1da", "type": "CONTEXT_ERROR", "detail": "header.mains có hai mẫu trùng chức năng: JG-a78a390699 (を措いて他に〜ない) và JG-ad914becd3 (N+をおいて); mục này gán JG-a78a390699", "suggest": "gộp hai mẫu chính"}

@@ -4,7 +4,23 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "formation": "Vる / Vている / Vた + はずだった",
+    "nuance_vi": "Lẽ ra đã/phải xảy ra theo dự định hay căn cứ nào đó nhưng thực tế khác đi; thể hiện ngạc nhiên hoặc tiếc nuối. Khác つもりだった (ý định của chính người nói).",
+    "common_mistakes_vi": "Người học hay nhầm với つもりだった (đã định làm) và べきだった (lẽ ra nên làm). はずだった dựa vào căn cứ khách quan hay dự kiến, không nói về ý chí cá nhân.",
+    "examples": [
+     {
+      "ja": "今日の会議は三時に始まるはずだったが、部長が遅れて四時になった。",
+      "ja_furigana": "今日(きょう)の会議(かいぎ)は三時(さんじ)に始(はじ)まるはずだったが、部長(ぶちょう)が遅(おく)れて四時(よじ)になった。",
+      "vi": "Cuộc họp hôm nay lẽ ra bắt đầu lúc ba giờ, nhưng trưởng phòng đến muộn nên thành bốn giờ."
+     },
+     {
+      "ja": "彼は今日出社するはずだったのに、連絡もなく休んだ。",
+      "ja_furigana": "彼(かれ)は今日(きょう)出社(しゅっしゃ)するはずだったのに、連絡(れんらく)もなく休(やす)んだ。",
+      "vi": "Lẽ ra hôm nay anh ấy phải đi làm, vậy mà nghỉ không báo gì."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -27,7 +43,23 @@
    "id": "JG-8a3b0bdb94"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "Vる / Vない + つもりだった",
+    "nuance_vi": "Trước đây đã có ý định làm gì nhưng rốt cuộc không thực hiện được hoặc kết quả khác; dùng khi nói về ý định của chính mình. Cũng có Vた + つもりだった với nghĩa 'cứ tưởng đã …'.",
+    "common_mistakes_vi": "Người học hay dùng cho ý định của người khác mà không thêm căn cứ, hoặc nhầm với はずだった (dự kiến khách quan). Vế sau thường có が, のに để nêu thực tế khác.",
+    "examples": [
+     {
+      "ja": "先月、友だちと旅行に行くつもりだったが、仕事が忙しくてやめた。",
+      "ja_furigana": "先月(せんげつ)、友(とも)だちと旅行(りょこう)に行(い)くつもりだったが、仕事(しごと)が忙(いそが)しくてやめた。",
+      "vi": "Tháng trước tôi định đi du lịch với bạn nhưng công việc bận nên đã thôi."
+     },
+     {
+      "ja": "昨日は早く寝るつもりだったのに、ゲームをして遅くなってしまった。",
+      "ja_furigana": "昨日(きのう)は早(はや)く寝(ね)るつもりだったのに、ゲームをして遅(おそ)くなってしまった。",
+      "vi": "Hôm qua tôi định đi ngủ sớm vậy mà chơi game nên thành khuya."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -50,7 +82,23 @@
    "id": "JG-6f1e2ebec5"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "V-て / Aくて / Aな・N + で + ならない",
+    "nuance_vi": "Cảm xúc hay cảm giác tự nhiên trào lên, không kiềm chế được; hơi cứng, nghiêng về văn viết, hay đi với 気になる, 心配で, 残念で, 思われて. Gần てたまらない nhưng trang trọng hơn.",
+    "common_mistakes_vi": "Người học hay gắn với động từ ý chí (×食べてならない) hoặc dùng cho cảm xúc của người khác. Chỉ dùng cho cảm giác, cảm xúc của chính người nói.",
+    "examples": [
+     {
+      "ja": "試験の結果が心配でならなくて、昨日は眠れなかった。",
+      "ja_furigana": "試験(しけん)の結果(けっか)が心配(しんぱい)でならなくて、昨日(きのう)は眠(ねむ)れなかった。",
+      "vi": "Tôi lo về kết quả kỳ thi đến mức hôm qua không ngủ được."
+     },
+     {
+      "ja": "子どものころの友だちのことが、最近なぜか思い出されてならない。",
+      "ja_furigana": "子(こ)どものころの友(とも)だちのことが、最近(さいきん)なぜか思(おも)い出(だ)されてならない。",
+      "vi": "Dạo này không hiểu sao tôi cứ nhớ mãi về những người bạn thời thơ ấu."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -73,7 +121,18 @@
    "id": "JG-e53aa76f2f"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "Thể thường + というか + thể thường + というか; N + というか + N + というか",
+    "nuance_vi": "Không biết nên diễn đạt thế nào cho đúng nên đưa ra hai cách nói, thể hiện cảm nhận mơ hồ; khẩu ngữ, ngữ điệu mềm. Vế sau thường là nhận xét tổng quát.",
+    "common_mistakes_vi": "Người học hay dùng khi muốn khẳng định chắc chắn, trong khi mẫu này là cách nói chưa chắc. Cặp từ hai vế cần gần nghĩa nhau, không phải hai ý đối lập.",
+    "examples": [
+     {
+      "ja": "田中さんは、おもしろい人というか変わった人というか、一緒にいると楽しい。",
+      "ja_furigana": "田中(たなか)さんは、おもしろい人(ひと)というか変(か)わった人(ひと)というか、一緒(いっしょ)にいると楽(たの)しい。",
+      "vi": "Anh Tanaka là người thú vị hay là người khác thường thì không biết nữa, ở cạnh anh ấy lúc nào cũng vui."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -100,7 +159,23 @@
    "id": "JG-fb5bb90c3b"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "Vた / Nの + つもりで",
+    "nuance_vi": "Làm việc gì với tâm thế coi như đã/đang là như vậy; hay dùng khi khuyên bảo hoặc tự nhắc mình lấy hình dung để cố gắng. Vế sau là hành động có chủ ý.",
+    "common_mistakes_vi": "Người học hay nhầm với つもりだ (ý định) và つもりが (tưởng là … nhưng thực tế khác). Mẫu này dùng つもりで để nêu tâm thế rồi làm một việc cụ thể.",
+    "examples": [
+     {
+      "ja": "新入社員になったつもりで、もう一度初めから勉強し直すことにした。",
+      "ja_furigana": "新入社員(しんにゅうしゃいん)になったつもりで、もう一度(いちど)初(はじ)めから勉強(べんきょう)し直(なお)すことにした。",
+      "vi": "Tôi quyết định coi như mình là nhân viên mới, học lại từ đầu."
+     },
+     {
+      "ja": "明日が最後の日のつもりで、今日を無駄にしないように過ごしたい。",
+      "ja_furigana": "明日(あした)が最後(さいご)の日(ひ)のつもりで、今日(きょう)を無駄(むだ)にしないように過(す)ごしたい。",
+      "vi": "Tôi muốn sống hôm nay sao cho không lãng phí, như thể ngày mai là ngày cuối cùng."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -123,7 +198,23 @@
    "id": "JG-d82dc8138b"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "V-て / Aくて / Aな・N + で + しかたがない",
+    "nuance_vi": "Cảm giác, cảm xúc mạnh đến mức không chịu nổi; dùng cả nói lẫn viết, hơi trung tính hơn てしようがない. Hay đi với từ chỉ cảm giác như 眠い, 楽しみ, 気になる.",
+    "common_mistakes_vi": "Người học hay dùng với động từ ý chí, hoặc nhầm với 仕方がない nghĩa là 'hết cách'. Chủ thể thường là người nói; với ngôi thứ ba cần thêm ようだ.",
+    "examples": [
+     {
+      "ja": "明日の旅行が楽しみでしかたがなくて、昨夜はなかなか寝られなかった。",
+      "ja_furigana": "明日(あした)の旅行(りょこう)が楽(たの)しみでしかたがなくて、昨夜(ゆうべ)はなかなか寝(ね)られなかった。",
+      "vi": "Tôi háo hức về chuyến đi ngày mai đến mức tối qua mãi không ngủ được."
+     },
+     {
+      "ja": "朝から何も食べていないので、おなかがすいてしかたがない。",
+      "ja_furigana": "朝(あさ)から何(なに)も食(た)べていないので、おなかがすいてしかたがない。",
+      "vi": "Từ sáng chưa ăn gì nên tôi đói không chịu nổi."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -148,7 +239,18 @@
    "id": "JG-b8b10e17a8"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "V-て + 以来; N + 以来",
+    "nuance_vi": "Kể từ mốc đó cho đến hiện tại, trạng thái hay việc lặp lại vẫn tiếp diễn; trang trọng hơn てから. Vế sau là trạng thái kéo dài hay thay đổi.",
+    "common_mistakes_vi": "Người học hay để vế sau là hành động chỉ xảy ra một lần, hoặc nói về tương lai. Không nhầm với 〜てから (chỉ thứ tự trước sau).",
+    "examples": [
+     {
+      "ja": "彼女は去年の事故以来、車に乗るのが怖くなったそうだ。",
+      "ja_furigana": "彼女(かのじょ)は去年(きょねん)の事故(じこ)以来(いらい)、車(くるま)に乗(の)るのが怖(こわ)くなったそうだ。",
+      "vi": "Nghe nói từ vụ tai nạn năm ngoái, cô ấy trở nên sợ đi ô tô."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -175,7 +277,23 @@
    "id": "JG-99c17c7b01"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "N + にもならない; Vる + 足しにもならない",
+    "nuance_vi": "Đánh giá thấp: không đạt được cả mức tối thiểu, 'chẳng ra gì, chẳng thành'; hay gặp ở 話にもならない, 慰めにもならない, 足しにもならない. Giọng chê bai mạnh.",
+    "common_mistakes_vi": "Người học hay nhầm với 〜にならない (không trở thành, không được tính). も ở đây nhấn mạnh 'đến cả … cũng không'; chỉ dùng với danh từ chỉ giá trị, tác dụng.",
+    "examples": [
+     {
+      "ja": "一日だけ勉強しても、試験の対策にもならないよ。",
+      "ja_furigana": "一日(いちにち)だけ勉強(べんきょう)しても、試験(しけん)の対策(たいさく)にもならないよ。",
+      "vi": "Chỉ học một ngày thì đến đối phó cho kỳ thi cũng chẳng ra gì đâu."
+     },
+     {
+      "ja": "少しのお金では、旅行の足しにもならない。",
+      "ja_furigana": "少(すこ)しのお金(かね)では、旅行(りょこう)の足(た)しにもならない。",
+      "vi": "Chút tiền ít ỏi này thì chẳng giúp ích gì cho chuyến du lịch."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -198,7 +316,18 @@
    "id": "JG-68ec2cf92f"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "N + はともかく(として); Thể thường + かどうかはともかく(として)",
+    "nuance_vi": "Tạm gác N sang một bên, chưa bàn đến, để nói điều quan trọng hơn hay đáng nói hơn ở vế sau. Khác はもちろん (N là đương nhiên, còn thêm điều khác).",
+    "common_mistakes_vi": "Người học hay nhầm với N + はもちろん (không chỉ N mà còn). ともかく ở đây là gác lại, vế sau thường nêu điều ưu tiên; dùng với một hay hai danh từ tương phản.",
+    "examples": [
+     {
+      "ja": "見た目はともかく、この料理は味がとてもいい。",
+      "ja_furigana": "見(み)た目(め)はともかく、この料理(りょうり)は味(あじ)がとてもいい。",
+      "vi": "Tạm không bàn đến vẻ ngoài, món ăn này vị rất ngon."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -225,7 +354,23 @@
    "id": "JG-08d5822005"
   },
   {
-   "answer": null,
+   "answer": {
+    "formation": "N + やら + N + やら; Aい + やら + Aい + やら; Vる + やら + Vる + やら",
+    "nuance_vi": "Liệt kê vài sự việc hay cảm xúc lẫn lộn, ngụ ý còn nhiều nữa và trạng thái rối rắm; khẩu ngữ. Khác や (liệt kê trung tính) và たり〜たり (hành động luân phiên).",
+    "common_mistakes_vi": "Người học hay chỉ dùng một やら hoặc dùng cho những thứ tích cực rõ ràng, không rối. Hai vế phải cùng loại (hai cảm xúc, hai sự cố); vế sau thường kèm で nói lên hệ quả.",
+    "examples": [
+     {
+      "ja": "急に雨が降るやら電車が遅れるやらで、今日は大変な一日だった。",
+      "ja_furigana": "急(きゅう)に雨(あめ)が降(ふ)るやら電車(でんしゃ)が遅(おく)れるやらで、今日(きょう)は大変(たいへん)な一日(いちにち)だった。",
+      "vi": "Nào là đột nhiên mưa, nào là tàu chạy trễ, hôm nay thật là một ngày vất vả."
+     },
+     {
+      "ja": "試験の前は、不安やら心配やらで、昨夜はほとんど眠れなかった。",
+      "ja_furigana": "試験(しけん)の前(まえ)は、不安(ふあん)やら心配(しんぱい)やらで、昨夜(ゆうべ)はほとんど眠(ねむ)れなかった。",
+      "vi": "Trước kỳ thi, nào bất an nào lo lắng nên đêm qua gần như không ngủ được."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

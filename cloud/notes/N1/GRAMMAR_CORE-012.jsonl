@@ -1,0 +1,5 @@
+{"id": "JG-2a3dee5855", "type": "CONTEXT_ERROR", "detail": "Pattern 'Thì ra là... / cái gọi là...' không khớp ví dụ: 'N + とは' ở đây là nêu bất ngờ/định nghĩa (にわかには信じがたい; 〜とは〜ことだ), không có nghĩa 'thì ra là'", "suggest": "Đổi nhãn thành 'N + とは (nêu bất ngờ / định nghĩa)'"}
+{"id": "JG-eb0427240c", "type": "CONTEXT_ERROR", "detail": "Pattern 'Lấy... làm mốc' lệch với meaning 'bằng/qua/nhờ' và ví dụ 結果はメールをもって; chỉ hợp ví dụ 本日をもって", "suggest": "Đổi thành 'Bằng...; vào thời điểm...(kết thúc)'"}
+{"id": "JG-26c19c3dd0", "type": "CONTEXT_ERROR", "detail": "Trùng mẫu 〜びる với JG-0bc2ddba7a", "suggest": "Gộp hoặc loại một trong hai mục"}
+{"id": "JG-a6554c1992", "type": "CONTEXT_ERROR", "detail": "Trùng mẫu にはあたらない với JG-7932222b32", "suggest": "Gộp hoặc loại một trong hai mục"}
+{"id": "JG-bacda60924", "type": "CONTEXT_ERROR", "detail": "Trùng mẫu にあるまじき với JG-0905a75d71 (GRAMMAR_CORE-013)", "suggest": "Gộp hoặc loại một trong hai mục"}
