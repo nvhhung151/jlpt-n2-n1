@@ -1,0 +1,9 @@
+{"id": "JG-86b3a73ff6", "type": "SKIPPED", "detail": "〜とは比べものにならない (không thể so sánh) không có mẫu chính cùng chức năng trong header.mains", "suggest": "tạo mẫu chính 〜は比べものにならない"}
+{"id": "JG-406ac0e278", "type": "SKIPPED", "detail": "〜ばきりがない (nếu bắt đầu thì vô tận) không có mẫu chính cùng chức năng", "suggest": "tạo mẫu chính 〜きりがない (gộp với たらきりがない)"}
+{"id": "JG-a020602f52", "type": "SKIPPED", "detail": "〜かいがある/ない (đáng công/uổng công) không có mẫu chính cùng chức năng", "suggest": "tạo mẫu chính 〜甲斐がある/ない"}
+{"id": "JG-97ea375bd0", "type": "SKIPPED", "detail": "〜といい〜といい (xét cả A lẫn B) không có mẫu chính cùng chức năng trong header.mains", "suggest": "tạo mẫu chính 〜といい〜といい"}
+{"id": "JG-14c35d37ef", "type": "SKIPPED", "detail": "〜ものだろうか (liệu có thể... không nhỉ) không có mẫu chính cùng chức năng", "suggest": "tạo mẫu chính 〜ものだろうか"}
+{"id": "JG-9f8124f185", "type": "SKIPPED", "detail": "〜とみえて (có vẻ như) không có mẫu chính cùng chức năng", "suggest": "tạo mẫu chính 〜とみえて"}
+{"id": "JG-5996811f1a", "type": "SKIPPED", "detail": "〜とみると (hễ thấy là) không có mẫu chính cùng chức năng; が早いか/そばから khác sắc thái", "suggest": "tạo mẫu chính 〜とみると/〜とみえて"}
+{"id": "JG-8e7f4287fc", "type": "CONTEXT_ERROR", "detail": "Không chắc: 〜にして (五十歳にして, 三度目にして...) gán tạm vào にして初めて; nghĩa 'chỉ ở địa vị đó mới có thể' cũng có, mẫu chính chưa bao quát", "suggest": "xem lại, có thể cần mẫu chính 〜にして riêng"}
+{"id": "JG-eefca939b9", "type": "CONTEXT_ERROR", "detail": "meaning_vi nói 'Mạnh hơn さえ' nhưng đây là 〜にすら; chọn JG-852f6e7919 (〜すら) thay vì JG-d93f258ae0 (pattern 'Ngay cả...' không rõ dạng)", "suggest": "pattern của JG-d93f258ae0 là mô tả tiếng Việt, nên đổi thành 〜ですら"}
