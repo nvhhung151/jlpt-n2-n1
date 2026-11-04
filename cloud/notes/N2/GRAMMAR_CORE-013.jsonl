@@ -1,0 +1,5 @@
+{"id": "JG-596bc19f9b", "type": "SKIPPED", "detail": "pattern chỉ ghi 'Nhân dịp..., nhờ... mà...' không có mẫu tiếng Nhật, meaning_vi rác ('Đã trình bày chi tiết ở khối 411.'), không có ví dụ nên không xác định được mẫu", "suggest": "bổ sung pattern tiếng Nhật (có thể là 〜をきっかけに / 〜を機に) rồi soạn lại"}
+{"id": "JG-2123cbe4e3", "type": "CONTEXT_ERROR", "detail": "pattern '〜楽しいいつつ' sai chính tả/chữ thừa; ví dụ dùng 言いつつ, 思いつつ", "suggest": "〜つつ"}
+{"id": "JG-55e72f7974", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 '続けるざるをえない' sai (ざるをえない nối với Vない bỏ ない); pattern '〜続けざるをえない'", "suggest": "いやな仕事でも、生活のためには続けざるをえない。"}
+{"id": "JG-f682293b70", "type": "CONTEXT_ERROR", "detail": "ví dụ 2 dùng 'による' (không phải 'により') nên lệch khỏi tên mẫu 〜により", "suggest": "tách thành mẫu 〜による hoặc đổi ví dụ dùng により"}
+{"id": "JG-84cedb1840", "type": "CONTEXT_ERROR", "detail": "pattern '〜ものだ/ではない' ghi dạng gộp khó hiểu, ví dụ đều ở dạng lời thoại trong ngoặc kép; ví dụ không có câu 'ものではない'", "suggest": "〜ものだ / 〜ものではない, thêm ví dụ ものではない"}
