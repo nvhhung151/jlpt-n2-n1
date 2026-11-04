@@ -1,0 +1,5 @@
+{"id": "JG-77adb928c4", "type": "CONTEXT_ERROR", "detail": "Hai câu ví dụ trong context viết 一歩で thay vì 一方で (sai chữ); câu 1 còn 'のってくる' nên là 乗ってくれる/相談にのってくれる", "suggest": "あの先生は厳しく指導する一方で、学生の相談にもよくのってくれる。 / 高度経済成長は急速な発展の一方で、深刻な公害問題を引き起こした。"}
+{"id": "JG-3797ca9f8e", "type": "CONTEXT_ERROR", "detail": "Ví dụ 1 có '縮退をして来なかった日' (lỗi OCR/chính tả)", "suggest": "宿題をして来なかった日に限って先生に当てられる。"}
+{"id": "JG-b574313082", "type": "CONTEXT_ERROR", "detail": "Trùng chức năng với JG-77ec44ca3e (đều là 〜にしろ〜にしろ / にしても 'dù là… hay là…'); pattern 'Dù... hay...' chung chung", "suggest": "Cân nhắc gộp làm một mẫu, hoặc đặt pattern rõ: 〜にしろ〜にしろ / 〜にしても〜にしても"}
+{"id": "JG-b2d86ae21b", "type": "CONTEXT_ERROR", "detail": "pattern 'Cả... lẫn...' lạc nghĩa; 〜もあれば〜もある nghĩa là 'có A mà cũng có B'", "suggest": "pattern: 〜もあれば〜もある (có… cũng có…)"}
+{"id": "JG-a27727adb4", "type": "CONTEXT_ERROR", "detail": "meaning_vi null; ví dụ 2 'B: すぐ楽をしようとする。' không chứa mẫu ないものか; vi cuối câu có '。' kiểu Nhật", "suggest": "Thay ví dụ 2 bằng câu có ないものか hoặc bỏ lời thoại B; vi dùng dấu '.'"}
