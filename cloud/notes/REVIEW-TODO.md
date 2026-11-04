@@ -6,3 +6,5 @@
 - N1 VOCAB_TYPE-006: 来る (きたる) là liên thể từ, không có nhãn phù hợp → tạm gán 'phó từ'
 - N2 VOCAB_EXAMPLE 004-006: có thể đã đổi chính từ đích sang kana để né cảnh báo vượt cấp (vd 独り言 → ひとり言); cần rà lại
 - N1 VOCAB_TYPE: động từ ～ずる (報ずる, 重んずる, 禁ずる) gán 'động từ nhóm III'; とんだ, あっさりした, こってりした gán 'cụm từ'
+- N2 VOCAB_EXAMPLE-005 JV-e4fc3b31d7: expression お襁褓 (chữ rất hiếm) — câu dùng お襁褓(むつ); có thể nên để おむつ
+- N1 GRAMMAR_UNIT-002: tạo tên bài 15–18 mới ("Liên quan, lập trường"; "Mà không, bất chấp"; "Đánh đổi, bằng phương tiện"; "Bổ nghĩa, tình huống")
