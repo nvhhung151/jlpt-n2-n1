@@ -1,0 +1,7 @@
+{"id": "JG-8202e3f75e", "type": "SKIPPED", "detail": "〜ごとく (văn chương, như) không có mẫu chính cùng chức năng trong header.mains (không thấy ごとし/ごとく/ごとき)", "suggest": "cần một mẫu chính 〜ごとし/ごとく/ごとき hoặc coi là mẫu chính riêng"}
+{"id": "JG-30fb121e88", "type": "SKIPPED", "detail": "〜ごとき (văn chương, giống như) không có mẫu chính cùng chức năng trong header.mains", "suggest": "gộp cùng mẫu chính 〜ごとし/ごとく/ごとき nếu có"}
+{"id": "JG-b2a9bf8cc0", "type": "SKIPPED", "detail": "N並み (tương đương N) không có mẫu chính phù hợp trong candidates hay header.mains", "suggest": "cần mẫu chính 〜並み"}
+{"id": "JG-41815ce73f", "type": "SKIPPED", "detail": "NこそNだが (nhấn mạnh rồi nhượng bộ) khác chức năng với N/Vば+こそ (JG-b33c37f6ec, chính vì...mới), không chắc nên không gán", "suggest": "gán vào mẫu chính 〜こそ nếu có, hoặc JG-b33c37f6ec nếu chấp nhận gộp"}
+{"id": "JG-7232875874", "type": "CONTEXT_ERROR", "detail": "meaning_vi 'Từ... (giá tiền)' mơ hồ; 〜からする là 'giá tới tận/ít nhất cỡ ...' (không phải 'từ')", "suggest": "Giá tới tận…; đắt cỡ…"}
+{"id": "JG-5e96430f87", "type": "CONTEXT_ERROR", "detail": "ví dụ 年齢によらず nhưng candidates không có mẫu cùng chức năng; gán tạm vào 〜にかかわらず", "suggest": "kiểm lại nếu có mẫu chính 〜によらず"}
+{"id": "JG-807b8cece7", "type": "CONTEXT_ERROR", "detail": "耐える (chịu được) là động từ riêng, mẫu chính gần nhất là に堪える (JG-4312a5c796) chỉ gần nghĩa; candidates đều lạc chủ đề", "suggest": "xem lại candidates; mục này có thể là từ vựng hơn là mẫu"}
