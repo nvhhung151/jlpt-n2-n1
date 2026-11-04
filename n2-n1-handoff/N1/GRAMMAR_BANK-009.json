@@ -4,7 +4,192 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "新人が一度ミスをしたくらいで、そんなに責める（　　）。",
+      "options": [
+       "にかたくない",
+       "には当たらない",
+       "ずにはおかない",
+       "てやまない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「には当たらない」: Vる + には当たらない nói việc đó không đáng, không cần phải làm. Nghĩa: Chỉ vì người mới mắc lỗi một lần thì không đáng trách đến thế."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この店の料理が高いのは材料が特別だからで、驚く（　　）。",
+      "options": [
+       "といったらない",
+       "限りだ",
+       "には当たらない",
+       "でなくてなんだろう"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「には当たらない」: đi sau động từ đánh giá 驚く để nói không có gì đáng ngạc nhiên. Các mẫu còn lại không nối trực tiếp với Vる. Nghĩa: Món ăn ở quán này đắt là vì nguyên liệu đặc biệt, không có gì đáng ngạc nhiên."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼が反対したのは＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "非難される",
+       "当たらない",
+       "当然のことで",
+       "には"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼が反対したのは当然のことで、非難されるには当たらない。 (Anh ấy phản đối là chuyện đương nhiên, không đáng bị chỉ trích.). Mảnh ở ô ★ là 「には」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "子どもが野菜を嫌がるのは＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "には",
+       "心配する",
+       "当たらない",
+       "よくあることなので"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 子どもが野菜を嫌がるのはよくあることなので、心配するには当たらない。 (Trẻ con ghét rau là chuyện thường gặp nên không cần phải lo.). Mảnh ở ô ★ là 「心配する」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "一度負けたからといって、彼の実力を疑うには当たらない。",
+      "options": [
+       "Chỉ vì thua một lần thì không đáng để nghi ngờ thực lực của anh ấy.",
+       "Vì đã thua một lần nên đương nhiên phải nghi ngờ thực lực của anh ấy.",
+       "Thua một lần thì không thể không nghi ngờ thực lực của anh ấy.",
+       "Anh ấy thua một lần vì đã tự nghi ngờ thực lực của mình."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜には当たらない (không đáng, không cần phải): \"Chỉ vì thua một lần thì không đáng để nghi ngờ thực lực của anh ấy.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女が会社を辞めたのは家族のためで、責めるには当たらないよ。",
+      "options": [
+       "Cô ấy nghỉ việc vì gia đình nên ai cũng trách cô ấy.",
+       "Cô ấy nghỉ việc vì sợ bị gia đình trách mắng.",
+       "Cô ấy không trách gia đình dù phải nghỉ việc.",
+       "Cô ấy nghỉ việc là vì gia đình, không đáng để trách đâu."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜には当たらない (không đáng, không cần phải): \"Cô ấy nghỉ việc là vì gia đình, không đáng để trách đâu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "結果が少し悪かったくらいで、悲観するには当たらない。",
+       "彼の発言はただの冗談なので、怒るには当たらない。",
+       "雨が降りそうなので、傘を持っていくには当たらない。",
+       "彼が合格したのは努力の結果で、驚くには当たらない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「雨が降りそうなので、傘を持っていくには当たらない。」 sai: には当たらない đi với động từ đánh giá hay cảm xúc (驚く, 責める, 心配する), không dùng cho hành động thường ngày, và vế trước cũng mâu thuẫn. Câu đúng: 雨が降りそうなので、傘を持っていったほうがいい。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この程度の失敗で落ち込むには当たらない。",
+       "彼のミスは小さいので、責めたには当たらない。",
+       "子どもがけんかをするのは普通のことで、心配するには当たらない。",
+       "値段が少し上がったくらいで、騒ぐには当たらない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼のミスは小さいので、責めたには当たらない。」 sai: trước には当たらない phải là thể từ điển Vる, không dùng Vた. Câu đúng: 彼のミスは小さいので、責めるには当たらない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "当たらない。",
+       "には",
+       "この程度の失敗で",
+       "落ち込む"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Thất bại cỡ này thì không đáng để buồn chán."
+     },
+     {
+      "pieces": [
+       "驚くには",
+       "彼が合格したのは",
+       "当たらない。",
+       "努力の結果で"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Anh ấy đỗ là kết quả của sự nỗ lực, không có gì đáng ngạc nhiên."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "子どもがけんかをするのは普通のことで、心配するには＿＿。",
+      "answer": "当たらない",
+      "accept": [
+       "あたらない",
+       "当たりません"
+      ],
+      "translation_vi": "Trẻ con cãi nhau là chuyện bình thường, không cần phải lo."
+     },
+     {
+      "sentence_ja": "彼の判断は正しかったので、非難する＿＿当たらない。",
+      "answer": "には",
+      "translation_vi": "Phán đoán của anh ấy là đúng nên không đáng bị chỉ trích."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "上司に一度注意されたぐらいで、落ち込む（　　）。",
+      "options": [
+       "限りだ",
+       "てやまない",
+       "といったらない",
+       "には当たらない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「には当たらない」: Vる + には当たらない nói việc buồn chán là không đáng. Nghĩa: Chỉ bị cấp trên nhắc nhở một lần thì không đáng phải buồn."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この程度の値上げなら、騒ぐには当たらないだろう。",
+      "options": [
+       "Giá tăng cỡ này thì ai cũng sẽ làm ầm lên.",
+       "Giá tăng cỡ này thì có lẽ không đáng để làm ầm lên.",
+       "Nếu không làm ầm lên thì giá sẽ còn tăng nữa.",
+       "Giá chưa tăng nên không ai làm ầm lên cả."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜には当たらない (không đáng, không cần phải): \"Giá tăng cỡ này thì có lẽ không đáng để làm ầm lên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の成功は努力の結果で、驚くには当たる。",
+       "一度負けたくらいで、彼を責めるには当たらない。",
+       "この程度の値上げなら、騒ぐには当たらない。",
+       "彼女の判断は正しく、非難されるには当たらない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼の成功は努力の結果で、驚くには当たる。」 sai: mẫu này chỉ dùng ở dạng phủ định には当たらない. Câu đúng: 彼の成功は努力の結果で、驚くには当たらない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -33,7 +218,186 @@
    "id": "JG-b4e607e0e7"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "親が子のために毎日休まず働き続ける。これが愛（　　）。",
+      "options": [
+       "限りだ",
+       "てやまない",
+       "でなくてなんだろう",
+       "ずにはおかない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「でなくてなんだろう」: N + でなくてなんだろう là câu hỏi tu từ khẳng định mạnh rằng đó chính là N. Nghĩa: Cha mẹ ngày nào cũng làm việc không nghỉ vì con. Đây không phải là tình yêu thì là gì?"
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "わずか一年で町を立て直したのは、奇跡（　　）。",
+      "options": [
+       "でなくてなんだろう",
+       "でなくてなんでもない",
+       "でもなんだろう",
+       "であってなんだろう"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「でなくてなんだろう」: hình thức cố định là N + でなくて + なんだろう; các phương án kia sai hình thức. Nghĩa: Chỉ trong một năm mà vực dậy được cả thị trấn, nếu không phải phép màu thì là gì?"
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "二人が＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "なんだろう",
+       "でなくて",
+       "運命",
+       "同じ日に生まれたことが"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 二人が同じ日に生まれたことが運命でなくてなんだろう。 (Hai người sinh cùng một ngày, đó không phải định mệnh thì là gì?). Mảnh ở ô ★ là 「でなくて」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "見返りを求めずに人を助ける、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "でなくて",
+       "なんだろう",
+       "それが",
+       "優しさ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 見返りを求めずに人を助ける、それが優しさでなくてなんだろう。 (Giúp người mà không cần đền đáp, đó không phải lòng tốt thì là gì?). Mảnh ở ô ★ là 「優しさ」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "家族を守るために自分の夢を捨てた父の決断は、愛情でなくてなんだろう。",
+      "options": [
+       "Quyết định từ bỏ ước mơ để bảo vệ gia đình của bố không phải vì tình yêu thương.",
+       "Không ai biết bố từ bỏ ước mơ để bảo vệ gia đình là vì điều gì.",
+       "Quyết định từ bỏ ước mơ để bảo vệ gia đình của bố, nếu không phải tình yêu thương thì là gì?",
+       "Quyết định từ bỏ ước mơ của bố chưa chắc đã là vì tình yêu thương."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜でなくてなんだろう (không phải là... thì là gì, khẳng định mạnh): \"Quyết định từ bỏ ước mơ để bảo vệ gia đình của bố, nếu không phải tình yêu thương thì là gì?\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "これほど多くの命を救った彼の行動が、英雄の行いでなくてなんだろう。",
+      "options": [
+       "Hành động của anh ấy cứu được nhiều người nhưng chưa thể gọi là anh hùng.",
+       "Hành động cứu được ngần ấy sinh mạng của anh ấy chính là việc làm của một anh hùng.",
+       "Không biết anh ấy đã làm gì để cứu được nhiều sinh mạng như vậy.",
+       "Anh ấy muốn trở thành anh hùng nên đã cứu nhiều người."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜でなくてなんだろう (không phải là... thì là gì, khẳng định mạnh): \"Hành động cứu được ngần ấy sinh mạng của anh ấy chính là việc làm của một anh hùng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "二人が同じ日に生まれたことが、運命でなくてなんだろう。",
+       "わずか一年で町を立て直したのは、奇跡でなくてなんだろう。",
+       "見返りを求めずに人を助ける、それが優しさでなくてなんだろう。",
+       "彼が毎日欠かさず練習するでなくてなんだろう。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「彼が毎日欠かさず練習するでなくてなんだろう。」 sai: でなくてなんだろう chỉ đứng sau danh từ, không nối với động từ. Câu đúng: 毎日欠かさず練習する彼の姿が、努力でなくてなんだろう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "これが友情だなくてなんだろう。",
+       "長年の夢が叶った今、これが幸せでなくてなんだろう。",
+       "親が子のために働き続ける、これが愛でなくてなんだろう。",
+       "十年かけて完成させたこの作品が、努力の成果でなくてなんだろう。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「これが友情だなくてなんだろう。」 sai: sau danh từ phải là でなくて, không dùng だなくて. Câu đúng: これが友情でなくてなんだろう。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "でなくて",
+       "これが",
+       "なんだろう。",
+       "青春"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Đây không phải là tuổi thanh xuân thì là gì?"
+     },
+     {
+      "pieces": [
+       "努力の成果",
+       "でなくてなんだろう。",
+       "十年かけて完成させたこの作品が"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Tác phẩm mất mười năm mới hoàn thành này không phải là thành quả của nỗ lực thì là gì?"
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "倒れた選手に手を貸した相手チームの行動が、友情で＿＿なんだろう。",
+      "answer": "なくて",
+      "translation_vi": "Hành động của đội bạn khi đỡ cầu thủ bị ngã dậy, không phải tình bạn thì là gì?"
+     },
+     {
+      "sentence_ja": "毎朝五時から店を開ける祖母の姿が、職人の誇り＿＿なんだろう。",
+      "answer": "でなくて",
+      "translation_vi": "Hình ảnh bà tôi mở cửa tiệm từ năm giờ sáng mỗi ngày, không phải niềm tự hào của người thợ thì là gì?"
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "戦争で家族を失った人々の悲しみが、悲劇（　　）。",
+      "options": [
+       "限りだ",
+       "てやまない",
+       "ずにはおかない",
+       "でなくてなんだろう"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「でなくてなんだろう」: N (悲劇) + でなくてなんだろう khẳng định mạnh rằng đó chính là bi kịch. Nghĩa: Nỗi đau của những người mất gia đình vì chiến tranh, không phải bi kịch thì là gì?"
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "長年の夢がついに叶った。＿＿ ＿＿ ＿＿ ★。",
+      "options": [
+       "幸せ",
+       "なんだろう",
+       "これが",
+       "でなくて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 長年の夢がついに叶った。これが幸せでなくてなんだろう。 (Giấc mơ bao năm cuối cùng đã thành hiện thực. Đây không phải hạnh phúc thì là gì?). Mảnh ở ô ★ là 「なんだろう」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "給料を一円も受け取らずに村のために働き続けた彼の人生は、奉仕でなくてなんだろう。",
+      "options": [
+       "Cuộc đời làm việc cho làng mà không nhận một đồng lương của ông ấy, nếu không phải là sự phụng sự thì là gì?",
+       "Ông ấy làm việc cho làng nhưng không biết mình làm vì điều gì.",
+       "Ông ấy không nhận lương nên cuộc đời không phải là sự phụng sự.",
+       "Không ai hiểu vì sao ông ấy không nhận lương khi làm việc cho làng."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜でなくてなんだろう (không phải là... thì là gì, khẳng định mạnh): \"Cuộc đời làm việc cho làng mà không nhận một đồng lương của ông ấy, nếu không phải là sự phụng sự thì là gì?\""
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -58,7 +422,195 @@
    "id": "JG-6f207ea31f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の説明には、信用する（　　）根拠が一つもない。",
+      "options": [
+       "てやまない",
+       "に足る",
+       "ずにはおかない",
+       "といったらない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に足る」: Vる + に足る + N nghĩa là đáng để, đủ giá trị để làm gì. Nghĩa: Lời giải thích của anh ta không có lấy một căn cứ nào đáng để tin."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この報告書は、社長に提出する（　　）内容とは言えない。",
+      "options": [
+       "といったらない",
+       "でなくて",
+       "に足る",
+       "極まりない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に足る」: Vる + に足る bổ nghĩa cho danh từ 内容, chỉ nội dung đủ giá trị để nộp. Nghĩa: Bản báo cáo này không thể gọi là có nội dung đủ để nộp lên giám đốc."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "山田さんは＿＿ ＿＿ ★ ＿＿だ。",
+      "options": [
+       "人物",
+       "に足る",
+       "部長として",
+       "尊敬する"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 山田さんは部長として尊敬するに足る人物だ。 (Anh Yamada là người đáng được kính trọng trên cương vị trưởng phòng.). Mảnh ở ô ★ là 「に足る」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この結果は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ものではない",
+       "に足る",
+       "証明する",
+       "新しい薬の効果を"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この結果は新しい薬の効果を証明するに足るものではない。 (Kết quả này chưa đủ để chứng minh hiệu quả của loại thuốc mới.). Mảnh ở ô ★ là 「証明する」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の話は、信じるに足るものだった。",
+      "options": [
+       "Câu chuyện của anh ấy khó mà tin được.",
+       "Tôi đã tin câu chuyện của anh ấy quá dễ dàng.",
+       "Câu chuyện của anh ấy chưa đủ dài để kể hết.",
+       "Câu chuyện của anh ấy đáng để tin."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に足る (đáng để, đủ giá trị để): \"Câu chuyện của anh ấy đáng để tin.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "そんな噂は、取るに足らない話だ。",
+      "options": [
+       "Tin đồn như thế là chuyện vặt không đáng bận tâm.",
+       "Tin đồn như thế rất đáng để điều tra kỹ.",
+       "Tin đồn như thế vẫn chưa lan ra đủ rộng.",
+       "Tin đồn như thế khiến ai cũng phải lo lắng."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng dạng phủ định của 〜に足る là 取るに足らない (không đáng kể, không đáng bận tâm): \"Tin đồn như thế là chuyện vặt không đáng bận tâm.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は部下を任せるに足る人物だ。",
+       "この資料は論文の根拠とするに足る内容だ。",
+       "彼女は尊敬のに足る先輩だ。",
+       "その話は信じるに足るものだった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼女は尊敬のに足る先輩だ。」 sai: danh từ nối thẳng với に足る, không chen の. Câu đúng: 彼女は尊敬に足る先輩だ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "山田さんは信頼に足る人物だ。",
+       "彼は信頼したに足る人物だ。",
+       "この大学は学ぶに足る環境が整っている。",
+       "その噂は取るに足らない話だ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は信頼したに足る人物だ。」 sai: trước に足る dùng thể từ điển Vる hoặc danh từ, không dùng Vた. Câu đúng: 彼は信頼するに足る人物だ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "に足る",
+       "この大学は",
+       "学ぶ",
+       "環境が整っている。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Trường đại học này có môi trường đáng để theo học."
+     },
+     {
+      "pieces": [
+       "語るに足る",
+       "経験はない。",
+       "私にはまだ",
+       "人に"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Tôi vẫn chưa có kinh nghiệm nào đáng để kể với người khác."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この店の料理は、わざわざ遠くから来るに＿＿味だ。",
+      "answer": "足る",
+      "accept": [
+       "たる"
+      ],
+      "translation_vi": "Món ăn của quán này có hương vị đáng để cất công từ xa đến."
+     },
+     {
+      "sentence_ja": "そのデータは、結論を出すに＿＿ものではない。",
+      "answer": "足る",
+      "accept": [
+       "たる",
+       "足りる"
+      ],
+      "translation_vi": "Dữ liệu đó chưa đủ để đưa ra kết luận."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の勇気ある行動は、称賛（　　）ものだった。",
+      "options": [
+       "でなくて",
+       "限りの",
+       "てやまない",
+       "に足る"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に足る」: N + に足る (称賛に足る) nghĩa là đáng được khen ngợi. Nghĩa: Hành động dũng cảm của anh ấy thật đáng được ca ngợi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この論文は、読むに足らない内容だ。",
+      "options": [
+       "Luận văn này dài đến mức đọc mãi không hết.",
+       "Luận văn này cần phải đọc kỹ nhiều lần.",
+       "Luận văn này có nội dung không đáng để đọc.",
+       "Luận văn này chưa được ai đọc cả."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng dạng phủ định 〜に足らない (không đáng để): \"Luận văn này có nội dung không đáng để đọc.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "その噂は取るに足らない話だ。",
+       "彼は尊敬するに足るない人物だ。",
+       "彼の行動は称賛に足るものだった。",
+       "このデータは結論を出すに足るものではない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は尊敬するに足るない人物だ。」 sai: dạng phủ định của に足る là に足らない hoặc に足りない, không phải に足るない. Câu đúng: 彼は尊敬するに足らない人物だ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -84,7 +636,194 @@
    "id": "JG-efdade21ab"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "酔った客たちの言い争いは、聞く（　　）ものだった。",
+      "options": [
+       "てやまない",
+       "極まりない",
+       "に堪えない",
+       "といったらない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に堪えない」: Vる (聞く, 見る) + に堪えない nghĩa là tệ đến mức không nghe hay nhìn nổi. Nghĩa: Cuộc cãi vã của mấy vị khách say rượu thật không nghe nổi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "皆様の温かいご支援に、感謝の念（　　）。",
+      "options": [
+       "に足りません",
+       "に堪えません",
+       "に当たりません",
+       "でなりません"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に堪えません」: N chỉ cảm xúc (感謝の念) + に堪えない diễn tả cảm xúc dâng lên tột cùng. Nghĩa: Tôi vô cùng biết ơn sự ủng hộ ấm áp của quý vị."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿ものだった。",
+      "options": [
+       "堪えない",
+       "見るに",
+       "様子は",
+       "事故現場の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 事故現場の様子は見るに堪えないものだった。 (Cảnh hiện trường vụ tai nạn thật không nỡ nhìn.). Mảnh ở ô ★ là 「見るに」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このような結果に＿＿ ＿＿ ＿＿ ★。",
+      "options": [
+       "誠に",
+       "遺憾に",
+       "なったことは",
+       "堪えません"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: このような結果になったことは誠に遺憾に堪えません。 (Việc dẫn đến kết quả như thế này thật vô cùng đáng tiếc.). Mảnh ở ô ★ là 「堪えません」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の書いた記事は、読むに堪えないほどひどかった。",
+      "options": [
+       "Bài báo anh ấy viết hay đến mức ai cũng muốn đọc.",
+       "Bài báo anh ấy viết quá dài nên tôi chưa đọc xong.",
+       "Bài báo anh ấy viết tệ đến mức không thể đọc nổi.",
+       "Tôi không có thời gian đọc bài báo anh ấy viết."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜に堪えない (không chịu nổi): \"Bài báo anh ấy viết tệ đến mức không thể đọc nổi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "恩師の突然の訃報に接し、悲しみに堪えません。",
+      "options": [
+       "Nhận tin thầy cũ đột ngột qua đời, tôi vô cùng đau buồn.",
+       "Nhận tin thầy cũ qua đời, tôi cố gắng không để lộ nỗi buồn.",
+       "Thầy cũ báo tin buồn cho tôi một cách đột ngột.",
+       "Tôi không buồn lắm khi nghe tin về thầy cũ."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜に堪えない (cảm xúc dâng lên tột cùng): \"Nhận tin thầy cũ đột ngột qua đời, tôi vô cùng đau buồn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "事故現場の様子は見るに堪えないものだった。",
+       "このたびのご支援には感謝に堪えません。",
+       "他人への悪口は聞くに堪えない。",
+       "このケーキはとてもおいしくて、食べるに堪えない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「このケーキはとてもおいしくて、食べるに堪えない。」 sai: に堪えない (với 見る, 聞く, 読む...) nói điều gì tệ đến mức không chịu nổi, không dùng để khen món ngon. Câu đúng: このケーキはとてもおいしくて、いくらでも食べられる。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "今回の不祥事は誠に遺憾に堪えません。",
+       "その番組は見たに堪えない内容だった。",
+       "酔った客の言い争いは聞くに堪えなかった。",
+       "長年のご指導に感謝の念に堪えません。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「その番組は見たに堪えない内容だった。」 sai: trước に堪えない dùng thể từ điển Vる, không dùng Vた. Câu đúng: その番組は見るに堪えない内容だった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "聞くに",
+       "悪口は",
+       "堪えない。",
+       "他人への"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Những lời nói xấu người khác thật không nghe nổi."
+     },
+     {
+      "pieces": [
+       "堪えません。",
+       "喜びに",
+       "このような賞をいただき、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Được nhận giải thưởng như thế này, tôi vô cùng vui mừng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "地震の被害の様子は、見るに＿＿ものだった。",
+      "answer": "堪えない",
+      "accept": [
+       "たえない"
+      ],
+      "translation_vi": "Cảnh thiệt hại do động đất thật không nỡ nhìn."
+     },
+     {
+      "sentence_ja": "長年のご指導に、感謝の念に＿＿。",
+      "answer": "堪えません",
+      "accept": [
+       "たえません",
+       "堪えない",
+       "たえない"
+      ],
+      "translation_vi": "Tôi vô cùng biết ơn sự chỉ dạy suốt bao năm qua."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもに向けられた乱暴な言葉は、聞く（　　）。",
+      "options": [
+       "に堪えない",
+       "てやまない",
+       "限りだ",
+       "でなくてなんだろう"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「に堪えない」: 聞く + に堪えない nghĩa là nghe không nổi. Các mẫu còn lại không nối được với Vる theo cách này. Nghĩa: Những lời lẽ thô bạo nhắm vào trẻ con thật không nghe nổi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "今回の不祥事は、誠に遺憾に堪えません。",
+      "options": [
+       "Vụ bê bối lần này không có gì đáng tiếc.",
+       "Vụ bê bối lần này vẫn chưa được làm rõ.",
+       "Chúng tôi không thể chịu trách nhiệm về vụ bê bối lần này.",
+       "Vụ bê bối lần này thật vô cùng đáng tiếc."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に堪えない (cảm xúc dâng lên tột cùng): \"Vụ bê bối lần này thật vô cùng đáng tiếc.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の書いた記事は読むに堪えなかった。",
+       "このたびのご厚意には感謝に堪えません。",
+       "この映画は感動的で、見るに堪えない名作だ。",
+       "差別的な発言ばかりの番組は聞くに堪えない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「この映画は感動的で、見るに堪えない名作だ。」 sai: 見るに堪えない là tệ đến mức không xem nổi, mâu thuẫn với 感動的, 名作. Câu đúng: この映画は感動的で、見る価値のある名作だ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -110,7 +849,194 @@
    "id": "JG-75a72344bb"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "初めて舞台に立った時の緊張（　　）。",
+      "options": [
+       "に足りなかった",
+       "てやまなかった",
+       "といったらなかった",
+       "には当たらなかった"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「といったらなかった」: N + といったらない nhấn mạnh mức độ cao đến mức không tả nổi; kể chuyện quá khứ dùng といったらなかった. Nghĩa: Lần đầu đứng trên sân khấu, tôi hồi hộp không sao tả nổi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "あの店員の態度の悪さ（　　）。二度と行きたくない。",
+      "options": [
+       "といったらない",
+       "限りだ",
+       "てやまない",
+       "に足る"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「といったらない」: N (悪さ) + といったらない nói mức độ tệ không tả nổi; 限りだ cần の khi đi với danh từ. Nghĩa: Thái độ của nhân viên quán đó tệ không sao tả nổi. Tôi không muốn đến lần nào nữa."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "徹夜明けで＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "なかった",
+       "受けた試験の",
+       "といったら",
+       "眠さ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 徹夜明けで受けた試験の眠さといったらなかった。 (Đi thi sau một đêm thức trắng, buồn ngủ không sao tả nổi.). Mảnh ở ô ★ là 「といったら」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "孫の",
+       "かわいさ",
+       "久しぶりに会った",
+       "といったらない"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 久しぶりに会った孫のかわいさといったらない。 (Đứa cháu lâu ngày mới gặp đáng yêu không sao tả xiết.). Mảnh ở ô ★ là 「孫の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "山頂から見た朝日の美しさといったらなかった。",
+      "options": [
+       "Mặt trời buổi sáng nhìn từ đỉnh núi không đẹp như tôi tưởng.",
+       "Mặt trời buổi sáng nhìn từ đỉnh núi đẹp không lời nào tả xiết.",
+       "Trời nhiều mây nên tôi không nhìn thấy mặt trời buổi sáng từ đỉnh núi.",
+       "Tôi không biết nói gì về mặt trời buổi sáng nhìn từ đỉnh núi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜といったらない (không sao tả nổi, mức độ cực cao): \"Mặt trời buổi sáng nhìn từ đỉnh núi đẹp không lời nào tả xiết.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "財布をなくしたと気づいた時の焦りといったらない。",
+      "options": [
+       "Tôi không hề cuống khi nhận ra mình mất ví.",
+       "Tôi chưa bao giờ làm mất ví nên không biết cảm giác đó.",
+       "Mất ví thì đừng cuống mà hãy bình tĩnh tìm lại.",
+       "Lúc nhận ra mình mất ví thì cuống cả lên, không sao tả nổi."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜といったらない (không sao tả nổi, mức độ cực cao): \"Lúc nhận ra mình mất ví thì cuống cả lên, không sao tả nổi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "合格した時の喜びといったらあった。",
+       "あの日の暑さといったらなかった。",
+       "初めて舞台に立った時の緊張といったらなかった。",
+       "店員の態度の悪さといったらない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「合格した時の喜びといったらあった。」 sai: vế sau của mẫu luôn ở dạng phủ định ない hoặc なかった. Câu đúng: 合格した時の喜びといったらなかった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "久しぶりに会った孫のかわいさといったらない。",
+       "真夏の工事現場の暑さといったらなかった。",
+       "彼の部屋が汚いだといったらない。",
+       "財布をなくした時の焦りといったらなかった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼の部屋が汚いだといったらない。」 sai: tính từ い nối thẳng với といったらない, không thêm だ; tự nhiên hơn là dùng danh từ hóa 汚さ. Câu đúng: 彼の部屋の汚さといったらない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "といったらない。",
+       "恥ずかしさ",
+       "社長の名前を",
+       "間違えて呼んだ時の"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Lúc gọi nhầm tên giám đốc, tôi xấu hổ không sao tả nổi."
+     },
+     {
+      "pieces": [
+       "暑さ",
+       "といったらなかった。",
+       "真夏の工事現場の"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Cái nóng ở công trường giữa mùa hè thật không sao tả nổi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "一人で海外の空港に着いた時の心細さ＿＿。",
+      "answer": "といったらなかった",
+      "accept": [
+       "といったらない",
+       "ったらなかった",
+       "ったらない"
+      ],
+      "translation_vi": "Lúc một mình đến sân bay ở nước ngoài, tôi bất an không sao tả nổi."
+     },
+     {
+      "sentence_ja": "この店のラーメンのおいしさといったら＿＿。",
+      "answer": "ない",
+      "accept": [
+       "なかった"
+      ],
+      "translation_vi": "Mì ramen của quán này ngon không sao tả xiết."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の話のつまらなさ（　　）。途中で寝てしまった。",
+      "options": [
+       "限りだ",
+       "といったらなかった",
+       "に足る",
+       "でなくて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「といったらなかった」: N (つまらなさ) + といったらなかった nói mức độ chán không tả nổi trong quá khứ. Nghĩa: Câu chuyện của anh ta chán không sao tả nổi. Tôi đã ngủ gật giữa chừng."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもが初めて歩いた日のうれしさといったらなかった。",
+      "options": [
+       "Ngày con lần đầu biết đi, tôi không vui lắm.",
+       "Tôi không nhớ ngày con lần đầu biết đi.",
+       "Niềm vui ngày con lần đầu biết đi thật không sao tả xiết.",
+       "Con tôi vẫn chưa biết đi nên tôi chưa vui được."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜といったらない (không sao tả nổi, mức độ cực cao): \"Niềm vui ngày con lần đầu biết đi thật không sao tả xiết.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "引っ越しの日の＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "大変さ",
+       "なかった",
+       "片付けの",
+       "といったら"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 引っ越しの日の片付けの大変さといったらなかった。 (Việc dọn dẹp hôm chuyển nhà vất vả không sao tả nổi.). Mảnh ở ô ★ là 「といったら」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -136,7 +1062,192 @@
    "id": "JG-995f2a671e"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "楽しみにしていた旅行が中止になって、残念な（　　）。",
+      "options": [
+       "に堪えない",
+       "といったらない",
+       "でなくてなんだろう",
+       "限りだ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「限りだ」: Aな + 限りだ bày tỏ cảm xúc mạnh của người nói. 残念な đã có な nên không nối được với といったらない hay でなくてなんだろう. Nghĩa: Chuyến du lịch mong đợi bị hủy, thật đáng tiếc vô cùng."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "息子が希望の大学に合格して、うれしい（　　）です。",
+      "options": [
+       "限り",
+       "極まり",
+       "だらけ",
+       "といったら"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「限り」: Aい + 限りです diễn tả niềm vui tột cùng của chính người nói. Nghĩa: Con trai đỗ vào trường đại học mong muốn, tôi vui vô cùng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "ふるさとの小学校が＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "とは",
+       "限りだ",
+       "閉校になる",
+       "寂しい"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: ふるさとの小学校が閉校になるとは寂しい限りだ。 (Trường tiểu học ở quê sắp đóng cửa, tôi buồn vô cùng.). Mảnh ở ô ★ là 「寂しい」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "こんなに立派な＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "限り",
+       "光栄の",
+       "です",
+       "賞をいただけるとは"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: こんなに立派な賞をいただけるとは光栄の限りです。 (Được nhận một giải thưởng danh giá thế này, tôi vô cùng vinh dự.). Mảnh ở ô ★ là 「光栄の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "友人が始めた店が大成功しているとは、羨ましい限りだ。",
+      "options": [
+       "Bạn tôi mở cửa hàng nhưng chẳng ai ghen tị cả.",
+       "Tôi muốn mở cửa hàng giống bạn nhưng không đủ tiền.",
+       "Cửa hàng bạn tôi mở thành công lớn, tôi thật ghen tị vô cùng.",
+       "Cửa hàng bạn tôi mở vẫn chưa thành công lắm."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜限りだ (thật là vô cùng, cảm xúc của người nói): \"Cửa hàng bạn tôi mở thành công lớn, tôi thật ghen tị vô cùng.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "皆さんにこんなに応援していただいて、心強い限りです。",
+      "options": [
+       "Mọi người ủng hộ nhiều quá nên tôi thấy áp lực.",
+       "Được mọi người ủng hộ nhiều thế này, tôi thấy vô cùng vững dạ.",
+       "Tôi chỉ cần mọi người ủng hộ đến mức này là đủ.",
+       "Mọi người không ủng hộ nên tôi thấy lo lắng."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜限りだ (thật là vô cùng, cảm xúc của người nói): \"Được mọi người ủng hộ nhiều thế này, tôi thấy vô cùng vững dạ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "駅前に新しくできたこのビルは高い限りだ。",
+       "楽しみにしていた旅行が中止になって、残念な限りだ。",
+       "長年の友人と連絡が取れなくなり、寂しい限りです。",
+       "こんなに立派な賞をいただけるとは、光栄の限りです。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「駅前に新しくできたこのビルは高い限りだ。」 sai: 限りだ chỉ đi với tính từ cảm xúc của người nói (うれしい, 残念な, 寂しい), không dùng cho tính chất khách quan như 高い. Câu đúng: 駅前に新しくできたこのビルはとても高い。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "人前で転んでしまい、恥ずかしい限りだ。",
+       "皆さんに応援していただいて、心強い限りです。",
+       "同僚が次々と昇進して、羨ましい限りだ。",
+       "息子の結婚が決まり、喜ばしいの限りです。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「息子の結婚が決まり、喜ばしいの限りです。」 sai: tính từ い nối thẳng với 限り, không thêm の (の chỉ dùng sau danh từ như 光栄の限り). Câu đúng: 息子の結婚が決まり、喜ばしい限りです。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "限りだ。",
+       "恥ずかしい",
+       "人前で転んでしまい、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Bị ngã trước mặt mọi người, tôi xấu hổ vô cùng."
+     },
+     {
+      "pieces": [
+       "心細い",
+       "一人で暮らすのは",
+       "限りです。",
+       "知らない町で"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Sống một mình ở một thành phố xa lạ, tôi thấy bất an vô cùng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "長年勤めた会社が倒産するとは、残念な＿＿だ。",
+      "answer": "限り",
+      "accept": [
+       "かぎり"
+      ],
+      "translation_vi": "Công ty mình làm bao năm lại phá sản, thật đáng tiếc vô cùng."
+     },
+     {
+      "sentence_ja": "あの若さで社長になるとは、うらやましい＿＿です。",
+      "answer": "限り",
+      "accept": [
+       "かぎり"
+      ],
+      "translation_vi": "Trẻ như vậy mà đã làm giám đốc, thật đáng ghen tị vô cùng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "卒業式で先生のお言葉を聞き、感激の（　　）でした。",
+      "options": [
+       "だらけ",
+       "極まり",
+       "限り",
+       "ばかり"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「限り」: N + の + 限りだ (感激の限り) diễn tả cảm xúc tột cùng của người nói. Nghĩa: Nghe lời thầy nói trong lễ tốt nghiệp, tôi xúc động vô cùng."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "せっかく準備したのに雨で中止とは、残念な限りだ。",
+      "options": [
+       "Đã chuẩn bị kỹ nên dù mưa vẫn không bị hủy.",
+       "Vì trời mưa nên chúng tôi chưa kịp chuẩn bị.",
+       "Bị hủy vì mưa nhưng cũng không đáng tiếc lắm.",
+       "Đã chuẩn bị công phu mà bị hủy vì mưa, thật đáng tiếc vô cùng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜限りだ (thật là vô cùng, cảm xúc của người nói): \"Đã chuẩn bị công phu mà bị hủy vì mưa, thật đáng tiếc vô cùng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "知らない町で一人で暮らすのは心細い限りです。",
+       "この道は車が通れないほど狭い限りだ。",
+       "ふるさとの小学校が閉校になるとは寂しい限りだ。",
+       "卒業式で先生のお言葉を聞き、感激の限りでした。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この道は車が通れないほど狭い限りだ。」 sai: 狭い là tính chất khách quan, không phải cảm xúc của người nói nên không dùng 限りだ. Câu đúng: この道は車が通れないほど狭い。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -161,7 +1272,192 @@
    "id": "JG-e767e7e344"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "人の話を最後まで聞かずに帰るなんて、失礼（　　）。",
+      "options": [
+       "てやまない",
+       "極まりない",
+       "限りだ",
+       "に足る"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「極まりない」: N/Aな (失礼) + 極まりない nhấn mạnh mức độ tiêu cực đã tới cực điểm. 限りだ cần な (失礼な限り) nên không hợp. Nghĩa: Không nghe người ta nói hết đã bỏ về, thật là thất lễ hết mức."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "隣の部屋の工事の音が、うるさいこと（　　）。",
+      "options": [
+       "極まりない",
+       "でならない",
+       "に足る",
+       "を禁じ得ない"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「極まりない」: Aい + こと + 極まりない là cách nối cố định với tính từ い. Nghĩa: Tiếng thi công ở phòng bên cạnh ồn ào hết sức."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "雨の日に＿＿ ＿＿ ★ ＿＿行為だ。",
+      "options": [
+       "極まりない",
+       "危険",
+       "山道を",
+       "車で飛ばすのは"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 雨の日に山道を車で飛ばすのは危険極まりない行為だ。 (Phóng xe trên đường núi vào ngày mưa là hành vi cực kỳ nguy hiểm.). Mảnh ở ô ★ là 「危険」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "客に対する＿＿ ＿＿ ＿＿ ★。",
+      "options": [
+       "ものだった",
+       "無礼",
+       "極まりない",
+       "店員の態度は"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 客に対する店員の態度は無礼極まりないものだった。 (Thái độ của nhân viên đối với khách thật vô lễ hết mức.). Mảnh ở ô ★ là 「ものだった」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "自分のミスを部下のせいにするとは、卑怯極まりない。",
+      "options": [
+       "Đổ lỗi cho cấp dưới đôi khi cũng là chuyện khó tránh.",
+       "Cấp dưới đổ lỗi của mình cho cấp trên thật đáng thương.",
+       "Nhận lỗi thay cho cấp dưới là việc làm đáng khen.",
+       "Đổ lỗi của mình cho cấp dưới thì thật là hèn hạ hết mức."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜極まりない (cực kỳ, hết mức, thường tiêu cực): \"Đổ lỗi của mình cho cấp dưới thì thật là hèn hạ hết mức.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この会社の書類の手続きは、面倒なこと極まりない。",
+      "options": [
+       "Thủ tục giấy tờ của công ty này đơn giản đến bất ngờ.",
+       "Công ty này đã bỏ bớt thủ tục giấy tờ phiền phức.",
+       "Thủ tục giấy tờ của công ty này phiền phức hết sức.",
+       "Tôi không biết thủ tục giấy tờ của công ty này thế nào."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜極まりない (cực kỳ, hết mức, thường tiêu cực): \"Thủ tục giấy tờ của công ty này phiền phức hết sức.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "約束に三十分も遅れるなんて、失礼極まりない。",
+       "このケーキはおいしい極まりない。",
+       "雨の夜に山道を歩くのは危険極まりない。",
+       "駅前の工事の音はうるさいこと極まりない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「このケーキはおいしい極まりない。」 sai: tính từ い phải thêm こと (Aいこと極まりない), và mẫu này thường dùng cho điều tiêu cực, không dùng để khen món ăn. Câu đúng: このケーキはとてもおいしい。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "自分のミスを部下のせいにするとは、卑怯極まりない。",
+       "客に対する店員の態度は無礼極まりないものだった。",
+       "書類の手続きが面倒なこと極まりない。",
+       "彼の運転は危険な極まりない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「彼の運転は危険な極まりない。」 sai: tính từ な nối thẳng phần gốc với 極まりない, không giữ な. Câu đúng: 彼の運転は危険極まりない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "極まりない。",
+       "退屈",
+       "会議は",
+       "結論の出ない"
+      ],
+      "answer_order": [
+       3,
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Những cuộc họp không đi đến kết luận thì chán ngắt hết mức."
+     },
+     {
+      "pieces": [
+       "不愉快",
+       "極まりない",
+       "彼の言い方は",
+       "ものだった。"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1,
+       3
+      ],
+      "translation_vi": "Cách nói của anh ta khó chịu vô cùng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "信号を無視して道を渡るのは、危険＿＿。",
+      "answer": "極まりない",
+      "accept": [
+       "きわまりない",
+       "極まる"
+      ],
+      "translation_vi": "Băng qua đường bất chấp đèn tín hiệu là cực kỳ nguy hiểm."
+     },
+     {
+      "sentence_ja": "夜中に響く隣の犬の鳴き声は、うるさい＿＿極まりない。",
+      "answer": "こと",
+      "translation_vi": "Tiếng chó nhà bên sủa vang lúc nửa đêm thật ồn ào hết sức."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "約束を三回も破るなんて、無責任（　　）。",
+      "options": [
+       "限りだ",
+       "に堪えない",
+       "極まりない",
+       "てやまない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「極まりない」: N/Aな (無責任) + 極まりない nhấn mạnh sự vô trách nhiệm đến cực điểm. Nghĩa: Thất hứa tận ba lần thì thật vô trách nhiệm hết mức."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女の言葉は、失礼極まりないものだった。",
+      "options": [
+       "Lời nói của cô ấy cực kỳ thất lễ.",
+       "Lời nói của cô ấy rất lịch sự và chu đáo.",
+       "Cô ấy xin lỗi vì lời nói thất lễ của mình.",
+       "Lời nói của cô ấy hơi thất lễ một chút."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜極まりない (cực kỳ, hết mức, thường tiêu cực): \"Lời nói của cô ấy cực kỳ thất lễ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "約束を三回も破るなんて、無責任極まりない。",
+       "信号を無視して道を渡るのは危険極まりない。",
+       "結論の出ない会議は退屈な極まりない。",
+       "夜中の犬の鳴き声はうるさいこと極まりない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「結論の出ない会議は退屈な極まりない。」 sai: tính từ な bỏ な rồi nối với 極まりない. Câu đúng: 結論の出ない会議は退屈極まりない。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -179,7 +1475,195 @@
    "id": "JG-c103e4096c"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "まさかあの真面目な田中さんが、会社のお金を盗む（　　）。",
+      "options": [
+       "からには",
+       "とは",
+       "ものの",
+       "以上"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「とは」: thể thường + とは, lược vế sau, bày tỏ sự kinh ngạc về điều không ngờ. からには, ものの, 以上 đều cần vế sau nên không kết câu được. Nghĩa: Không ngờ anh Tanaka nghiêm túc như thế lại ăn cắp tiền công ty."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "「ブログ」（　　）、インターネット上で公開する日記のようなもののことだ。",
+      "options": [
+       "だけに",
+       "にしては",
+       "からして",
+       "とは"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「とは」: N + とは 〜のことだ dùng để nêu định nghĩa. Nghĩa: 'Blog' là thứ giống như nhật ký được công khai trên mạng internet."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "十年ぶりに会った友だちが＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "驚いた",
+       "とは",
+       "もう",
+       "三人の子どもの親だ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 十年ぶりに会った友だちがもう三人の子どもの親だとは驚いた。 (Người bạn mười năm mới gặp lại đã là bố của ba đứa con, tôi thật ngạc nhiên.). Mảnh ở ô ★ là 「とは」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "「猫舌」＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "苦手な",
+       "ことだ",
+       "熱い食べ物が",
+       "とは"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 「猫舌」とは熱い食べ物が苦手なことだ。 ('Lưỡi mèo' là việc không ăn được đồ nóng.). Mảnh ở ô ★ là 「熱い食べ物が」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あんなに練習したのに一回戦で負けるとは。",
+      "options": [
+       "Luyện tập nhiều đến thế mà lại thua ngay vòng một, thật không ngờ.",
+       "Vì luyện tập nhiều nên thắng vòng một là đương nhiên.",
+       "Nếu luyện tập nhiều hơn thì đã không thua ở vòng một.",
+       "Thua ở vòng một nên phải luyện tập nhiều hơn."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜とは (thế mà lại, bày tỏ kinh ngạc): \"Luyện tập nhiều đến thế mà lại thua ngay vòng một, thật không ngờ.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "「一期一会」とは、一生に一度の出会いを大切にするという意味だ。",
+      "options": [
+       "'Nhất kỳ nhất hội' là câu nói chỉ dùng trong lễ hội.",
+       "'Nhất kỳ nhất hội' có nghĩa là trân trọng cuộc gặp gỡ chỉ có một lần trong đời.",
+       "Tôi không biết 'nhất kỳ nhất hội' có nghĩa là gì.",
+       "Cả đời chỉ nên gặp mỗi người một lần."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N + とは (cái gọi là..., nêu định nghĩa): \"'Nhất kỳ nhất hội' có nghĩa là trân trọng cuộc gặp gỡ chỉ có một lần trong đời.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あの無口な山田さんが司会をするとは、誰も思わなかった。",
+       "「猫舌」とは、熱い食べ物が苦手なことだ。",
+       "彼が会社を辞めるだとは思わなかった。",
+       "あんなに練習したのに一回戦で負けるとは。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼が会社を辞めるだとは思わなかった。」 sai: động từ ở thể thường nối thẳng với とは, không thêm だ. Câu đúng: 彼が会社を辞めるとは思わなかった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女がプロの歌手なとは知らなかった。",
+       "まさか自分が宝くじに当たるとは。",
+       "「ブログ」とは、インターネット上で公開する日記のようなものだ。",
+       "十年ぶりに会った友だちがもう親だとは驚いた。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼女がプロの歌手なとは知らなかった。」 sai: trước とは danh từ để nguyên hoặc ở thể thường N だ, không dùng な. Câu đúng: 彼女がプロの歌手だとは知らなかった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "とは",
+       "思わなかった。",
+       "こんなに",
+       "雪が積もる"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Tôi không ngờ tuyết lại dày đến thế này."
+     },
+     {
+      "pieces": [
+       "ことである。",
+       "一年中",
+       "常夏とは",
+       "夏のような気候が続く"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "'Thường hạ' là việc khí hậu như mùa hè kéo dài suốt cả năm."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "あの優しい課長が、あんなに怒る＿＿驚いた。",
+      "answer": "とは",
+      "accept": [
+       "なんて"
+      ],
+      "translation_vi": "Tôi ngạc nhiên vì trưởng nhóm hiền lành đó lại nổi giận đến thế."
+     },
+     {
+      "sentence_ja": "「リモートワーク」＿＿、会社以外の場所で働くことだ。",
+      "answer": "とは",
+      "accept": [
+       "というのは",
+       "って"
+      ],
+      "translation_vi": "'Làm việc từ xa' là làm việc ở nơi khác ngoài công ty."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "たった一年で日本語がこんなに上手になる（　　）、本当にすごい。",
+      "options": [
+       "ものの",
+       "からには",
+       "とは",
+       "ばかりに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「とは」: thể thường + とは nêu điều đáng kinh ngạc rồi vế sau bày tỏ cảm xúc (本当にすごい). Nghĩa: Chỉ một năm mà tiếng Nhật giỏi đến thế này, thật là đáng nể."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "まさか自分が宝くじに当たるとは。",
+      "options": [
+       "Tôi chắc chắn mình sẽ trúng xổ số.",
+       "Tôi chưa bao giờ mua vé xổ số.",
+       "Nếu trúng xổ số thì tôi sẽ rất vui.",
+       "Không ngờ chính mình lại trúng xổ số."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜とは (thế mà lại, bày tỏ kinh ngạc): \"Không ngờ chính mình lại trúng xổ số.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あの優しい課長があんなに怒るとは驚いた。",
+       "日本へ行くとは、パスポートが必要だ。",
+       "「リモートワーク」とは、会社以外の場所で働くことだ。",
+       "まさか自分が宝くじに当たるとは。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「日本へ行くとは、パスポートが必要だ。」 sai: とは dùng để bày tỏ kinh ngạc hoặc nêu định nghĩa, không mang nghĩa điều kiện 'nếu'. Câu đúng: 日本へ行くには、パスポートが必要だ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -204,7 +1688,192 @@
    "id": "JG-faea0bfbce"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "皆様のご健康とご活躍を心よりお祈りし（　　）。",
+      "options": [
+       "てなりません",
+       "てかまいません",
+       "てやみません",
+       "てたまりません"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「てやみません」: V-て + やみません là dạng lịch sự của てやまない, diễn tả mong ước tha thiết không dứt, hay dùng ở cuối thư, bài phát biểu. Nghĩa: Tôi xin chân thành cầu chúc quý vị luôn mạnh khỏe và thành công."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "私は、この町の人々が平和に暮らせることを（　　）。",
+      "options": [
+       "願ってやまない",
+       "願うにやまない",
+       "願ってやむ",
+       "願わずやまない"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「願ってやまない」: hình thức đúng là V-て + やまない; các phương án kia sai cách nối hoặc ở dạng khẳng định. Nghĩa: Tôi tha thiết mong người dân thị trấn này được sống trong hòa bình."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は今でも＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "やまない",
+       "尊敬して",
+       "恩師を",
+       "亡くなった"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼は今でも亡くなった恩師を尊敬してやまない。 (Đến giờ anh ấy vẫn luôn kính trọng người thầy đã khuất.). Mảnh ở ô ★ là 「尊敬して」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "子どもたちの未来が＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "信じて",
+       "やまない",
+       "あることを",
+       "明るいもので"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 子どもたちの未来が明るいものであることを信じてやまない。 (Tôi luôn tin tha thiết rằng tương lai của bọn trẻ sẽ tươi sáng.). Mảnh ở ô ★ là 「あることを」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "これは多くの人に愛されてやまない名曲だ。",
+      "options": [
+       "Đây là bản nhạc mà nhiều người đã thôi không còn yêu thích.",
+       "Đây là bản nhạc nổi tiếng được nhiều người yêu mến không dứt.",
+       "Nhiều người muốn bản nhạc này ngừng phát.",
+       "Đây là bản nhạc mà tôi không thể ngừng nghe."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜てやまない (tình cảm mạnh, không dứt): \"Đây là bản nhạc nổi tiếng được nhiều người yêu mến không dứt.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "皆様のますますのご発展を願ってやみません。",
+      "options": [
+       "Tôi không mong quý vị phát triển thêm nữa.",
+       "Quý vị đã phát triển đến mức không thể hơn được nữa.",
+       "Tôi đã ngừng mong ước cho sự phát triển của quý vị.",
+       "Tôi tha thiết mong quý vị ngày càng phát triển."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜てやまない (tình cảm mạnh, không dứt), dạng lịch sự 〜てやみません: \"Tôi tha thiết mong quý vị ngày càng phát triển.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "私は毎朝コーヒーを飲んでやまない。",
+       "故郷の復興が早く進むことを願ってやまない。",
+       "私が尊敬してやまない先生が今年退職される。",
+       "子どもたちの未来が明るいことを信じてやまない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「私は毎朝コーヒーを飲んでやまない。」 sai: てやまない chỉ đi với động từ tình cảm, mong ước (願う, 祈る, 愛する, 尊敬する), không dùng cho hành động thường ngày. Câu đúng: 私は毎朝コーヒーを飲まずにはいられない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "皆様のご健康を心よりお祈りしてやみません。",
+       "多くの人に愛されてやまない名曲だ。",
+       "彼は亡くなった恩師を今でも尊敬してやまない。",
+       "私は彼の成功を祈るやまない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「私は彼の成功を祈るやまない。」 sai: trước やまない phải là thể て. Câu đúng: 私は彼の成功を祈ってやまない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "やまない。",
+       "願って",
+       "友人の早い回復を"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Tôi tha thiết mong bạn mình sớm bình phục."
+     },
+     {
+      "pieces": [
+       "愛して",
+       "やまない",
+       "ふるさとの海は",
+       "私が",
+       "今日も美しい。"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2,
+       4
+      ],
+      "translation_vi": "Biển quê hương mà tôi luôn yêu tha thiết hôm nay vẫn đẹp."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "皆様のご健康を心よりお祈りして＿＿。",
+      "answer": "やみません",
+      "accept": [
+       "やまない",
+       "止みません"
+      ],
+      "translation_vi": "Tôi xin chân thành cầu chúc quý vị luôn mạnh khỏe."
+     },
+     {
+      "sentence_ja": "母は、息子が無事に帰ってくることを信じ＿＿やまなかった。",
+      "answer": "て",
+      "translation_vi": "Mẹ đã luôn tin chắc rằng con trai sẽ trở về bình an."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "多くの読者に愛され（　　）作家が、昨日亡くなった。",
+      "options": [
+       "に足る",
+       "てやまない",
+       "極まりない",
+       "といったらない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「てやまない」: V-て + やまない bổ nghĩa cho 作家, chỉ tình cảm yêu mến kéo dài không dứt. Nghĩa: Nhà văn luôn được đông đảo độc giả yêu mến đã qua đời hôm qua."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は、自分の夢がいつか叶うと信じてやまなかった。",
+      "options": [
+       "Cô ấy luôn tin chắc rằng giấc mơ của mình một ngày nào đó sẽ thành hiện thực.",
+       "Cô ấy đã thôi tin vào giấc mơ của mình.",
+       "Cô ấy không dám nói với ai về giấc mơ của mình.",
+       "Giấc mơ của cô ấy đã thành hiện thực từ lâu."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜てやまない (tình cảm mạnh, không dứt): \"Cô ấy luôn tin chắc rằng giấc mơ của mình một ngày nào đó sẽ thành hiện thực.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "私は友人の早い回復を願ってやまない。",
+       "母は息子の無事を信じてやまなかった。",
+       "昨日は友だちと映画を見てやまなかった。",
+       "私が愛してやまないふるさとの海は今日も美しい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「昨日は友だちと映画を見てやまなかった。」 sai: てやまない không đi với hành động cụ thể như 見る, chỉ dùng cho tình cảm, mong ước kéo dài. Câu đúng: 昨日は友だちと映画を見た。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -230,7 +1899,191 @@
    "id": "JG-05dee881b7"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の情熱的な演説は、聞く人の心を動かさ（　　）。",
+      "options": [
+       "ないにはおかない",
+       "ずではおかない",
+       "ずにはやまない",
+       "ずにはおかない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ずにはおかない」: Vない (bỏ ない) + ずにはおかない nói sự việc chắc chắn tác động, gây ra phản ứng ở người khác. Nghĩa: Bài diễn thuyết đầy nhiệt huyết của anh ấy nhất định làm lay động lòng người nghe."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この作品は、見る人に戦争の悲惨さを考え（　　）。",
+      "options": [
+       "させずにはおかない",
+       "させるにはおかない",
+       "させてにはおかない",
+       "させずにはおく"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「させずにはおかない」: thể sai khiến 考えさせる → 考えさせずにはおかない, nhấn mạnh tác phẩm chắc chắn khiến người xem phải suy nghĩ. Nghĩa: Tác phẩm này nhất định khiến người xem phải nghĩ về sự thảm khốc của chiến tranh."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "子どもたちの必死な姿は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "おかない",
+       "させずには",
+       "見る人を",
+       "感動"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 子どもたちの必死な姿は見る人を感動させずにはおかない。 (Hình ảnh nỗ lực hết mình của bọn trẻ chắc chắn khiến người xem xúc động.). Mảnh ở ô ★ là 「させずには」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "今度こそ＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "捕まえずには",
+       "おかない",
+       "逃げた",
+       "犯人を"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 今度こそ逃げた犯人を捕まえずにはおかない。 (Lần này nhất định tôi sẽ bắt được tên tội phạm đã bỏ trốn.). Mảnh ở ô ★ là 「犯人を」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の無責任な発言は、国民の怒りを招かずにはおかないだろう。",
+      "options": [
+       "Phát ngôn của ông ta có lẽ sẽ không khiến người dân tức giận.",
+       "Người dân tức giận nên ông ta buộc phải phát ngôn.",
+       "Phát ngôn vô trách nhiệm của ông ta chắc chắn sẽ gây ra sự phẫn nộ của người dân.",
+       "Ông ta không thể kìm được cơn giận khi nghe người dân phát ngôn."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ずにはおかない (nhất định sẽ gây ra phản ứng): \"Phát ngôn vô trách nhiệm của ông ta chắc chắn sẽ gây ra sự phẫn nộ của người dân.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この事件の真相は、必ず明らかにせずにはおかない。",
+      "options": [
+       "Tôi nhất định sẽ làm sáng tỏ sự thật của vụ án này.",
+       "Sự thật của vụ án này không cần phải làm sáng tỏ.",
+       "Sự thật của vụ án này đã được làm sáng tỏ từ lâu.",
+       "Tôi không muốn làm sáng tỏ sự thật của vụ án này."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ずにはおかない (quyết tâm nhất định làm): \"Tôi nhất định sẽ làm sáng tỏ sự thật của vụ án này.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この映画の結末は、観る人を考え込ませずにはおかない。",
+       "彼の歌声は、聞く人を感動させるずにはおかない。",
+       "彼の不誠実な対応は、周りの人々を怒らせずにはおかなかった。",
+       "今度こそ逃げた犯人を捕まえずにはおかない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼の歌声は、聞く人を感動させるずにはおかない。」 sai: ず nối với thể ない bỏ ない, không nối với Vる. Câu đúng: 彼の歌声は、聞く人を感動させずにはおかない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の勇気ある行動は人々の心を打たずにはおかない。",
+       "この作品は見る人に戦争の悲惨さを考えさせずにはおかない。",
+       "社長は今回の不正を問題にしずにはおかないだろう。",
+       "彼の無責任な発言は国民の怒りを招かずにはおかない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「社長は今回の不正を問題にしずにはおかないだろう。」 sai: động từ する chuyển thành せずにはおかない, không phải しずには. Câu đúng: 社長は今回の不正を問題にせずにはおかないだろう。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "おかない。",
+       "人々の心を",
+       "打たずには",
+       "彼の勇気ある行動は"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Hành động dũng cảm của anh ấy chắc chắn làm lay động lòng người."
+     },
+     {
+      "pieces": [
+       "させずには",
+       "この問題を",
+       "おかない。",
+       "はっきり"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Tôi nhất định sẽ làm rõ vấn đề này."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "その写真は、見る人に平和の大切さを考えさせ＿＿。",
+      "answer": "ずにはおかない",
+      "accept": [
+       "ないではおかない"
+      ],
+      "translation_vi": "Bức ảnh đó nhất định khiến người xem phải nghĩ về giá trị của hòa bình."
+     },
+     {
+      "sentence_ja": "彼の裏切りは、仲間たちを怒らせずには＿＿だろう。",
+      "answer": "おかない",
+      "translation_vi": "Sự phản bội của anh ta chắc chắn sẽ khiến đồng đội nổi giận."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "監督の厳しい言葉は、選手たちを奮い立たせ（　　）。",
+      "options": [
+       "るにはおかなかった",
+       "ずにはおかなかった",
+       "ないにはおかなかった",
+       "てはおかなかった"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ずにはおかなかった」: 奮い立たせる → 奮い立たせずにはおかなかった, nói lời nói của huấn luyện viên chắc chắn đã tác động lên các cầu thủ. Nghĩa: Những lời nghiêm khắc của huấn luyện viên đã khiến các cầu thủ hừng hực khí thế."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この映画は、観る人を泣かせずにはおかない。",
+      "options": [
+       "Bộ phim này không có cảnh nào khiến người xem khóc.",
+       "Người xem phim này không được phép khóc.",
+       "Tôi không kìm được nước mắt khi xem phim này một mình.",
+       "Bộ phim này chắc chắn khiến người xem phải khóc."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ずにはおかない (nhất định sẽ gây ra phản ứng): \"Bộ phim này chắc chắn khiến người xem phải khóc.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "私は毎朝パンを食べずにはおかない。",
+       "この映画は観る人を泣かせずにはおかない。",
+       "彼の裏切りは仲間たちを怒らせずにはおかないだろう。",
+       "その写真は見る人に平和の大切さを考えさせずにはおかない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「私は毎朝パンを食べずにはおかない。」 sai: ずにはおかない nói tác động chắc chắn lên người khác hoặc quyết tâm mạnh, không dùng cho thói quen thường ngày. Câu đúng: 私は毎朝パンを食べないと気が済まない。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,

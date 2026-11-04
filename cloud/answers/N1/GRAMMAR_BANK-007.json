@@ -1,0 +1,697 @@
+{
+ "JG-602ecab654": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "皆さんのご支援（　　）、この事業を成功させることはできませんでした。",
+    "options": ["ともあろう", "ときたら", "なくしては", "とばかりに"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「なくしては」: N + なくしては, nếu thiếu điều đó thì không thể làm được việc ở vế sau (vế sau phủ định). Nghĩa: Nếu không có sự ủng hộ của mọi người thì chúng tôi đã không thể làm dự án này thành công."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "両親の理解（　　）、留学という夢は実現できなかっただろう。",
+    "options": ["なくしては", "ないまでも", "ずにはすまない", "べくもない"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「なくしては」: sự thông cảm của bố mẹ là điều kiện không thể thiếu, vế sau là không thể thực hiện. Nghĩa: Nếu không có sự thấu hiểu của bố mẹ thì giấc mơ du học có lẽ đã không thành hiện thực."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この町の歴史は、＿＿ ＿＿ ★ ＿＿語れない。",
+    "options": ["なくしては", "祭り", "毎年夏に", "行われる"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この町の歴史は、毎年夏に行われる祭りなくしては語れない。 (Không thể nói về lịch sử thị trấn này mà thiếu lễ hội được tổ chức mỗi mùa hè.). Mảnh ở ô ★ là 「祭り」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "今回の優勝は、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["あり得なかった", "努力なくしては", "日々の", "選手たちの"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 今回の優勝は、選手たちの日々の努力なくしてはあり得なかった。 (Chức vô địch lần này sẽ không thể có nếu thiếu nỗ lực hằng ngày của các tuyển thủ.). Mảnh ở ô ★ là 「日々の」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "地域住民の協力なくしては、この計画を進めることはできない。",
+    "options": [
+     "Kế hoạch này có thể tiến hành mà không cần sự hợp tác của cư dân địa phương.",
+     "Nếu không có sự hợp tác của cư dân địa phương thì không thể tiến hành kế hoạch này.",
+     "Cư dân địa phương đã từ chối hợp tác nên kế hoạch bị hủy.",
+     "Chính vì cư dân địa phương hợp tác nên kế hoạch đã xong sớm hơn dự kiến."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜なくしては (nếu không có... thì không thể): \"Nếu không có sự hợp tác của cư dân địa phương thì không thể tiến hành kế hoạch này.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "信頼関係なくしては、よいチームは作れない。",
+    "options": [
+     "Dù không có quan hệ tin cậy vẫn có thể xây dựng được một đội tốt.",
+     "Một đội tốt sẽ tự khắc tạo ra quan hệ tin cậy.",
+     "Muốn xây dựng đội tốt thì không nên quá tin tưởng nhau.",
+     "Không có quan hệ tin cậy thì không thể xây dựng được một đội tốt."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜なくしては (nếu không có... thì không thể): \"Không có quan hệ tin cậy thì không thể xây dựng được một đội tốt.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "皆さんのご支援なくしては、この事業を成功させることはできませんでした。",
+     "両親の理解なくしては、留学という夢は実現できなかっただろう。",
+     "先輩の助言なくしては、この仕事を無事に終えることができた。",
+     "地域住民の協力なくしては、この計画を進めることはできない。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「先輩の助言なくしては、この仕事を無事に終えることができた。」 sai: vế sau của なくしては phải là phủ định hay không thể, không dùng khẳng định. Câu đúng: 先輩の助言なくしては、この仕事を無事に終えることはできなかった。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "努力するなくしては、成功はあり得ない。",
+     "信頼関係なくしては、よいチームは作れない。",
+     "今回の優勝は、選手たちの日々の努力なくしてはあり得なかった。",
+     "この町の歴史は、毎年夏に行われる祭りなくしては語れない。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「努力するなくしては、成功はあり得ない。」 sai: động từ phải thêm こと trước なくしては (Vる + こと + なくしては), hoặc dùng danh từ. Câu đúng: 努力することなくしては、成功はあり得ない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["存在", "戦後の日本経済は語れない。", "この会社の", "なくしては"],
+    "answer_order": [2, 0, 3, 1],
+    "translation_vi": "Không có sự tồn tại của công ty này thì không thể nói về kinh tế Nhật Bản thời hậu chiến."
+   },
+   {
+    "pieces": ["患者の回復は", "支え", "なくしては望めない。", "家族の"],
+    "answer_order": [0, 3, 1, 2],
+    "translation_vi": "Nếu không có sự hỗ trợ của gia đình thì khó mong bệnh nhân hồi phục."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "スタッフ全員の協力＿＿、このイベントは成功しなかっただろう。",
+    "answer": "なくしては",
+    "accept": ["なくして", "なしには", "なしでは", "がなければ"],
+    "translation_vi": "Nếu không có sự hợp tác của toàn bộ nhân viên thì sự kiện này có lẽ đã không thành công."
+   },
+   {
+    "sentence_ja": "互いへの思いやり＿＿、長く続く友情は築けない。",
+    "answer": "なくしては",
+    "accept": ["なくして", "なしには", "なしでは", "がなければ"],
+    "translation_vi": "Không có sự quan tâm lẫn nhau thì không thể xây dựng một tình bạn lâu bền."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "十分な資金（　　）、新しい研究所の建設は不可能だ。",
+    "options": ["ときたら", "とばかりに", "ともあろう", "なくしては"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「なくしては」: nếu thiếu vốn thì không thể xây, vế sau là 不可能だ. Nghĩa: Không có đủ vốn thì không thể xây viện nghiên cứu mới."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "現地の人々の助けなくしては、私たちは山を越えられなかった。",
+    "options": [
+     "Nếu không có sự giúp đỡ của người dân địa phương thì chúng tôi đã không thể vượt qua núi.",
+     "Chúng tôi đã vượt núi mà không cần ai giúp đỡ.",
+     "Người dân địa phương không thể vượt núi nếu không có chúng tôi.",
+     "Chúng tôi đã giúp người dân địa phương vượt qua núi."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜なくしては (nếu không có... thì không thể): \"Nếu không có sự giúp đỡ của người dân địa phương thì chúng tôi đã không thể vượt qua núi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "スタッフ全員の協力なくしては、このイベントは成功しなかっただろう。",
+     "十分な資金なくしては、新しい研究所の建設は不可能だ。",
+     "互いへの思いやりなくしては、長く続く友情は築けない。",
+     "毎朝のコーヒーなくしては、一日を元気に始められる。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「毎朝のコーヒーなくしては、一日を元気に始められる。」 sai: なくしては đòi hỏi vế sau phủ định hay không thể. Câu đúng: 毎朝のコーヒーなくしては、一日を元気に始められない。"
+   }
+  ]
+ },
+ "JG-a1acc3407c": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "几帳面な姉（　　）、妹は部屋をいつも散らかしている。",
+    "options": ["ときたら", "なくしては", "にひきかえ", "ともあろう"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にひきかえ」: N + にひきかえ đối chiếu hai người trái ngược hẳn (chị ngăn nắp, em bừa bộn). Nghĩa: Trái hẳn với người chị ngăn nắp, cô em lúc nào cũng bày bừa phòng."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "前の課長が厳しかった（　　）、新しい課長はとても穏やかだ。",
+    "options": ["のにひきかえ", "にひきかえ", "ときたら", "とばかりに"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「のにひきかえ」: sau tính từ, động từ phải thêm の rồi mới nối にひきかえ. Nghĩa: Trái với trưởng nhóm cũ nghiêm khắc, trưởng nhóm mới rất ôn hòa."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿、今年は雪がほとんど降らない。",
+    "options": ["にひきかえ", "去年", "大雪が", "続いた"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 大雪が続いた去年にひきかえ、今年は雪がほとんど降らない。 (Trái với năm ngoái tuyết lớn liên tục, năm nay hầu như không có tuyết.). Mảnh ở ô ★ là 「去年」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "口ばかりで何もしない＿＿ ★ ＿＿ ＿＿。",
+    "options": ["妻は", "黙って家計を支えている", "ひきかえ、", "夫に"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 口ばかりで何もしない夫にひきかえ、妻は黙って家計を支えている。 (Trái hẳn với ông chồng chỉ được cái nói mà chẳng làm gì, người vợ lặng lẽ gánh vác kinh tế gia đình.). Mảnh ở ô ★ là 「ひきかえ、」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "都会の騒がしさにひきかえ、この村は驚くほど静かだ。",
+    "options": [
+     "Ngôi làng này cũng ồn ào chẳng kém gì thành phố.",
+     "Vì thành phố ồn ào nên mọi người chuyển đến làng này.",
+     "Trái hẳn với sự ồn ào của thành phố, ngôi làng này yên tĩnh đến kinh ngạc.",
+     "Ngôi làng này đang dần trở nên ồn ào giống thành phố."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu にひきかえ (trái ngược hẳn với): \"Trái hẳn với sự ồn ào của thành phố, ngôi làng này yên tĩnh đến kinh ngạc.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "去年の売り上げが好調だったのにひきかえ、今年は大幅に落ち込んでいる。",
+    "options": [
+     "Doanh số năm nay cũng khả quan như năm ngoái.",
+     "Trái với doanh số năm ngoái rất khả quan, năm nay lại sụt giảm mạnh.",
+     "Vì doanh số năm ngoái giảm nên năm nay tăng mạnh.",
+     "Doanh số năm nay tăng mạnh hơn hẳn năm ngoái."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu にひきかえ (trái ngược hẳn với): \"Trái với doanh số năm ngoái rất khả quan, năm nay lại sụt giảm mạnh.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "几帳面な姉にひきかえ、妹は部屋をいつも散らかしている。",
+     "前の課長が厳しかったのにひきかえ、新しい課長はとても穏やかだ。",
+     "都会の騒がしさにひきかえ、この村は驚くほど静かだ。",
+     "兄は背が高いのにひきかえ、弟も背が高い。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「兄は背が高いのにひきかえ、弟も背が高い。」 sai: にひきかえ dùng cho hai bên trái ngược, không dùng cho hai bên giống nhau. Câu đúng: 兄も弟も背が高い。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "口ばかりで何もしない夫にひきかえ、妻は黙って家計を支えている。",
+     "去年は大雪が続いたにひきかえ、今年は雪がほとんど降らない。",
+     "派手な兄の生活にひきかえ、弟は質素に暮らしている。",
+     "去年の売り上げが好調だったのにひきかえ、今年は大幅に落ち込んでいる。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「去年は大雪が続いたにひきかえ、…」 sai: sau động từ phải thêm の (続いたのにひきかえ). Câu đúng: 去年は大雪が続いたのにひきかえ、今年は雪がほとんど降らない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["にひきかえ、", "最近の私は", "すっかり運動不足だ。", "学生時代"],
+    "answer_order": [3, 0, 1, 2],
+    "translation_vi": "Trái với hồi còn sinh viên, dạo này tôi thiếu vận động trầm trọng."
+   },
+   {
+    "pieces": ["のにひきかえ、", "兄が社交的な", "弟は", "人見知りが激しい。"],
+    "answer_order": [1, 0, 2, 3],
+    "translation_vi": "Trái với người anh hòa đồng, cậu em lại rất ngại người lạ."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "冷静な部長＿＿、課長はすぐに感情的になる。",
+    "answer": "にひきかえ",
+    "accept": ["に引き換え"],
+    "translation_vi": "Trái hẳn với trưởng phòng điềm tĩnh, trưởng nhóm thì hễ chút là nổi nóng."
+   },
+   {
+    "sentence_ja": "姉が料理上手なのに＿＿、私は卵焼きさえうまく作れない。",
+    "answer": "ひきかえ",
+    "accept": ["引き換え"],
+    "translation_vi": "Trái với chị gái nấu ăn giỏi, tôi đến món trứng cuộn cũng làm không ra hồn."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "にぎやかだった昼間（　　）、夜の公園はしんと静まり返っている。",
+    "options": ["ときたら", "にひきかえ", "ともあろう", "べくもない"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「にひきかえ」: đối chiếu ban ngày nhộn nhịp với ban đêm im ắng. Nghĩa: Trái với ban ngày nhộn nhịp, công viên về đêm im phăng phắc."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "何でも自分で決める妹にひきかえ、私はいつも人の意見に流されてしまう。",
+    "options": [
+     "Giống như em gái, tôi chuyện gì cũng tự mình quyết định.",
+     "Em gái tôi lúc nào cũng nghe theo ý kiến của tôi.",
+     "Tôi muốn tự quyết mọi chuyện nhưng em gái không cho phép.",
+     "Trái hẳn với em gái chuyện gì cũng tự quyết, tôi lúc nào cũng bị ý kiến người khác cuốn theo."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu にひきかえ (trái ngược hẳn với): \"Trái hẳn với em gái chuyện gì cũng tự quyết, tôi lúc nào cũng bị ý kiến người khác cuốn theo.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "冷静な部長にひきかえ、課長はすぐに感情的になる。",
+     "学生時代にひきかえ、最近の私はすっかり運動不足だ。",
+     "料理が得意な姉にひきかえ、私も料理が大好きだ。",
+     "兄が社交的なのにひきかえ、弟は人見知りが激しい。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「料理が得意な姉にひきかえ、私も料理が大好きだ。」 sai: にひきかえ cần hai vế trái ngược, còn も lại nói hai bên giống nhau. Câu đúng: 料理が得意な姉にひきかえ、私は料理がまったくできない。"
+   }
+  ]
+ },
+ "JG-cd63a1d628": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "満点は取れ（　　）、せめて平均点ぐらいは取りたい。",
+    "options": ["ないことには", "なくしては", "ないまでも", "ずにはすまない"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「ないまでも」: Vない + までも, dù không đạt mức cao (điểm tuyệt đối) thì ít nhất cũng muốn đạt mức thấp hơn. Nghĩa: Dù không được điểm tuyệt đối thì ít nhất tôi cũng muốn được điểm trung bình."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "プロ並みとは言わ（　　）、もう少し上手に絵が描けるようになりたい。",
+    "options": ["ないまでも", "ずにはすまない", "ないことには", "べくもない"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「ないまでも」: 〜とは言わないまでも = chưa dám nói đến mức đó, nhưng ít nhất... Nghĩa: Không dám nói là ngang dân chuyên nghiệp, nhưng tôi muốn vẽ khá hơn một chút."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿行きたい。",
+    "options": ["近くの温泉ぐらいは", "までも", "海外には", "行けない"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 海外には行けないまでも近くの温泉ぐらいは行きたい。 (Dù không đi nước ngoài được thì ít nhất cũng muốn đi suối nước nóng gần nhà.). Mảnh ở ô ★ là 「までも」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "病気が＿＿ ★ ＿＿ ＿＿和らげたい。",
+    "options": ["までも", "痛みぐらいは", "治らない", "完全には"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 病気が完全には治らないまでも痛みぐらいは和らげたい。 (Dù bệnh không khỏi hẳn được thì ít nhất cũng muốn làm dịu cơn đau.). Mảnh ở ô ★ là 「治らない」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "全部は理解できないまでも、話の大まかな内容はつかめた。",
+    "options": [
+     "Tôi đã hiểu hết toàn bộ câu chuyện đến từng chi tiết.",
+     "Vì không hiểu hết nên tôi không nắm được nội dung câu chuyện.",
+     "Dù không hiểu được hết, tôi cũng đã nắm được nội dung đại khái của câu chuyện.",
+     "Nếu không nắm được nội dung đại khái thì không thể hiểu hết."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜ないまでも (dù không đến mức... thì ít nhất): \"Dù không hiểu được hết, tôi cũng đã nắm được nội dung đại khái của câu chuyện.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "謝罪はしないまでも、せめて事情ぐらいは説明すべきだ。",
+    "options": [
+     "Dù không xin lỗi thì ít nhất cũng nên giải thích sự tình.",
+     "Không cần xin lỗi, cũng không cần giải thích sự tình.",
+     "Phải xin lỗi trước rồi mới giải thích sự tình.",
+     "Vì đã giải thích sự tình nên không cần xin lỗi nữa."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜ないまでも (dù không đến mức... thì ít nhất): \"Dù không xin lỗi thì ít nhất cũng nên giải thích sự tình.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "満点は取れないまでも、せめて平均点ぐらいは取りたい。",
+     "平均点は取れないまでも、せめて満点を取りたい。",
+     "プロ並みとは言わないまでも、もう少し上手に絵が描けるようになりたい。",
+     "全部は理解できないまでも、話の大まかな内容はつかめた。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「平均点は取れないまでも、せめて満点を取りたい。」 sai: vế sau của ないまでも phải là mức thấp hơn, ở đây lại là mức cao hơn. Câu đúng: 満点は取れないまでも、せめて平均点は取りたい。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "謝罪はしないまでも、せめて事情ぐらいは説明すべきだ。",
+     "海外には行けないまでも近くの温泉ぐらいは行きたい。",
+     "毎日は行かなかったまでも、週に一回はジムに通うつもりだ。",
+     "病気が完全には治らないまでも痛みぐらいは和らげたい。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「毎日は行かなかったまでも、…」 sai: までも đi sau thể ない (行かない), không đi sau thể なかった. Câu đúng: 毎日は行かないまでも、週に一回はジムに通うつもりだ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["少しは", "までも、", "手伝ってほしい。", "全部とは言わない"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Không đòi hết đâu, nhưng ít nhất cũng mong giúp một chút."
+   },
+   {
+    "pieces": ["書くべきだ。", "お礼の手紙ぐらいは", "直接会えない", "までも、"],
+    "answer_order": [2, 3, 1, 0],
+    "translation_vi": "Dù không thể gặp trực tiếp thì ít nhất cũng nên viết thư cảm ơn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "毎日とは言わ＿＿、週に一度は部屋を掃除してほしい。",
+    "answer": "ないまでも",
+    "accept": ["ないにしても", "ないにせよ"],
+    "translation_vi": "Không nói là mỗi ngày, nhưng ít nhất mỗi tuần cũng mong dọn phòng một lần."
+   },
+   {
+    "sentence_ja": "新車は買え＿＿、せめて状態のいい中古車に乗りたい。",
+    "answer": "ないまでも",
+    "accept": ["ないにしても", "ないにせよ"],
+    "translation_vi": "Dù không mua được xe mới thì ít nhất cũng muốn đi một chiếc xe cũ còn tốt."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "一位にはなれ（　　）、入賞ぐらいはしたいものだ。",
+    "options": ["ずにはすまない", "ないまでも", "なくしては", "べくもない"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「ないまでも」: dù không đạt hạng nhất (mức cao) thì ít nhất cũng muốn đoạt giải (mức thấp hơn). Nghĩa: Dù không giành được hạng nhất thì ít nhất cũng muốn lọt vào nhóm đoạt giải."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "毎日とは言わないまでも、なるべく自炊するようにしている。",
+    "options": [
+     "Tôi tự nấu ăn mỗi ngày, không bỏ bữa nào.",
+     "Tôi không bao giờ tự nấu ăn.",
+     "Vì không tự nấu được mỗi ngày nên tôi bỏ hẳn.",
+     "Không dám nói là mỗi ngày, nhưng tôi cố gắng tự nấu ăn nhiều nhất có thể."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜ないまでも (dù không đến mức... thì ít nhất): \"Không dám nói là mỗi ngày, nhưng tôi cố gắng tự nấu ăn nhiều nhất có thể.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "新車は買えないまでも、せめて状態のいい中古車に乗りたい。",
+     "一位にはなれないまでも、入賞ぐらいはしたいものだ。",
+     "雨は降らないまでも、今日は一日中いい天気だった。",
+     "毎日とは言わないまでも、週に一度は部屋を掃除してほしい。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「雨は降らないまでも、今日は一日中いい天気だった。」 sai: vế sau của ないまでも phải là mức thấp hơn trên cùng một thang (vd trời âm u), không phải điều trái ngược. Câu đúng: 雨は降らないまでも、今日は一日中どんよりと曇っていた。"
+   }
+  ]
+ },
+ "JG-7ebd8471a3": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "父は「もう話すことはない」（　　）、黙って部屋を出ていった。",
+    "options": ["にひきかえ", "とばかりに", "ともあろう", "ときたら"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「とばかりに」: câu trích + とばかりに, không nói ra nhưng thái độ như muốn nói vậy. Nghĩa: Bố lặng lẽ ra khỏi phòng như thể muốn nói 'không còn gì để nói nữa'."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "犬は散歩に行こう（　　）、玄関で尻尾を振って待っている。",
+    "options": ["ときたら", "なくしては", "ないまでも", "とばかりに"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「とばかりに」: con chó không nói được nhưng dáng vẻ như muốn nói 'đi dạo thôi'. Nghĩa: Con chó vẫy đuôi chờ ở cửa như thể muốn nói 'đi dạo nào'."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "私たちが話していると、隣の席の客が＿＿ ★ ＿＿ ＿＿。",
+    "options": ["とばかりに", "こちらをにらんだ", "しろ", "静かに"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 私たちが話していると、隣の席の客が静かにしろとばかりにこちらをにらんだ。 (Khi chúng tôi đang nói chuyện, vị khách bàn bên lườm sang như thể muốn nói 'im lặng đi'.). Mảnh ở ô ★ là 「しろ」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "ベルが鳴ると、子どもたちは＿＿ ＿＿ ★ ＿＿。",
+    "options": ["ました", "教室を飛び出した", "とばかりに", "待って"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: ベルが鳴ると、子どもたちは待ってましたとばかりに教室を飛び出した。 (Chuông vừa reo, bọn trẻ lao ra khỏi lớp như thể muốn nói 'chờ mãi rồi'.). Mảnh ở ô ★ là 「とばかりに」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "部長は、そんな案は話にならないとばかりに、資料を机に放り投げた。",
+    "options": [
+     "Trưởng phòng nói thẳng rằng phương án đó chẳng đáng bàn rồi cẩn thận cất tài liệu đi.",
+     "Trưởng phòng ném tập tài liệu xuống bàn như thể muốn nói phương án đó chẳng đáng bàn.",
+     "Vì tài liệu bị ném xuống bàn nên trưởng phòng không thể bàn về phương án.",
+     "Trưởng phòng cho rằng phương án đó rất đáng bàn và đọc kỹ tài liệu."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜とばかりに (thái độ như muốn nói...): \"Trưởng phòng ném tập tài liệu xuống bàn như thể muốn nói phương án đó chẳng đáng bàn.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "子どもは、もう我慢できないとばかりに泣き出した。",
+    "options": [
+     "Đứa bé cố nhịn để không khóc.",
+     "Đứa bé nói rằng nó sẽ không khóc nữa.",
+     "Vì không chịu được tiếng khóc, đứa bé bỏ đi.",
+     "Đứa bé òa khóc như thể muốn nói nó không chịu nổi nữa."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜とばかりに (thái độ như muốn nói...): \"Đứa bé òa khóc như thể muốn nói nó không chịu nổi nữa.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "父は「もう話すことはない」とばかりに、黙って部屋を出ていった。",
+     "犬は散歩に行こうとばかりに、玄関で尻尾を振って待っている。",
+     "彼は「もう帰る」とばかりに、みんなの前ではっきり言った。",
+     "部長は、そんな案は話にならないとばかりに、資料を机に放り投げた。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「彼は「もう帰る」とばかりに、みんなの前ではっきり言った。」 sai: とばかりに nghĩa là không nói ra mà chỉ thể hiện qua thái độ, nên không đi với động từ nói thật như はっきり言った. Câu đúng: 彼は「もう帰る」とばかりに、さっさと荷物をまとめ始めた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "彼は退屈のとばかりに、大きなあくびをした。",
+     "子どもは、もう我慢できないとばかりに泣き出した。",
+     "ベルが鳴ると、子どもたちは待ってましたとばかりに教室を飛び出した。",
+     "私たちが話していると、隣の席の客が静かにしろとばかりにこちらをにらんだ。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「彼は退屈のとばかりに…」 sai: trước とばかりに là một câu trích ở thể thường, danh từ hay tính từ な phải có だ (退屈だ), không dùng の. Câu đúng: 彼は退屈だとばかりに、大きなあくびをした。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["私が話しかけても、彼女は", "とばかりに", "そっぽを向いた。", "知らない"],
+    "answer_order": [0, 3, 1, 2],
+    "translation_vi": "Tôi bắt chuyện mà cô ấy quay mặt đi như thể muốn nói 'không biết'."
+   },
+   {
+    "pieces": ["相手が転んだ瞬間、彼は", "チャンス", "とばかりに", "一気にゴールを狙った。", "今が"],
+    "answer_order": [0, 4, 1, 2, 3],
+    "translation_vi": "Ngay lúc đối thủ ngã, anh ấy lao lên nhắm khung thành như thể muốn nói 'cơ hội là lúc này'."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "母は早く起きなさい＿＿、カーテンを勢いよく開けた。",
+    "answer": "とばかりに",
+    "accept": ["と言わんばかりに"],
+    "translation_vi": "Mẹ kéo mạnh rèm cửa như thể muốn nói 'dậy mau lên'."
+   },
+   {
+    "sentence_ja": "彼は自分には関係ない＿＿、知らん顔をしていた。",
+    "answer": "とばかりに",
+    "accept": ["と言わんばかりに"],
+    "translation_vi": "Anh ta làm như không biết gì, như thể muốn nói 'chẳng liên quan đến mình'."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "観客は「もっと聞きたい」（　　）、いつまでも拍手を続けた。",
+    "options": ["ときたら", "ともあろう", "にひきかえ", "とばかりに"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「とばかりに」: khán giả không nói ra nhưng tràng vỗ tay như muốn nói 'muốn nghe thêm'. Nghĩa: Khán giả vỗ tay mãi không thôi như thể muốn nói 'muốn nghe thêm nữa'."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "母は「あなたにはがっかりした」とばかりに、大きなため息をついた。",
+    "options": [
+     "Mẹ thở dài thườn thượt như thể muốn nói 'mẹ thất vọng về con'.",
+     "Mẹ nói thẳng 'mẹ thất vọng về con' rồi mỉm cười.",
+     "Mẹ thở dài vì thất vọng về chính bản thân mình.",
+     "Vì con thở dài nên mẹ cảm thấy thất vọng."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜とばかりに (thái độ như muốn nói...): \"Mẹ thở dài thườn thượt như thể muốn nói 'mẹ thất vọng về con'.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "観客は「もっと聞きたい」とばかりに、いつまでも拍手を続けた。",
+     "母は早く起きなさいとばかりに、カーテンを勢いよく開けた。",
+     "私は友だちに「いいよ」とばかりに、電話ではっきり返事をした。",
+     "彼は自分には関係ないとばかりに、知らん顔をしていた。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「私は友だちに「いいよ」とばかりに、電話ではっきり返事をした。」 sai: とばかりに mô tả thái độ người khác như muốn nói gì đó mà không nói ra; ở đây người nói trả lời thành lời. Câu đúng: 私は友だちに「いいよ」と、電話ではっきり返事をした。"
+   }
+  ]
+ },
+ "JG-b2eed14f62": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "死者が出る（　　）、ようやく市は危険な交差点に信号を設置した。",
+    "options": ["に至るまで", "にひきかえ", "に至って", "ないまでも"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「に至って」: Vる + に至って, tình hình đến mức nghiêm trọng (có người chết) thì mới hành động, đi với ようやく. Nghĩa: Đến khi có người chết, thành phố mới chịu lắp đèn tín hiệu ở ngã tư nguy hiểm."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "社員の半数が辞める（　　）初めて、経営陣は職場環境の問題に気づいた。",
+    "options": ["ときたら", "べくもない", "とばかりに", "に至って"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「に至って」: 〜に至って初めて = đến tận mức đó mới nhận ra. Nghĩa: Đến khi một nửa nhân viên nghỉ việc, ban lãnh đạo mới nhận ra vấn đề về môi trường làm việc."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "健康診断で＿＿ ＿＿ ★ ＿＿、彼はようやく禁煙を決意した。",
+    "options": ["に至って", "異常が", "肺に", "見つかる"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 健康診断で肺に異常が見つかるに至って、彼はようやく禁煙を決意した。 (Đến khi khám sức khỏe phát hiện phổi có vấn đề, anh ấy mới quyết tâm bỏ thuốc.). Mảnh ở ô ★ là 「見つかる」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "被害が＿＿ ★ ＿＿ ＿＿やっと対策に乗り出した。",
+    "options": ["政府は", "に至って、", "広がる", "全国に"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 被害が全国に広がるに至って、政府はやっと対策に乗り出した。 (Đến khi thiệt hại lan ra khắp cả nước, chính phủ mới bắt tay vào đối phó.). Mảnh ở ô ★ là 「広がる」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "子どもが家出するに至って、両親は初めて事の重大さを知った。",
+    "options": [
+     "Bố mẹ đã sớm nhận ra sự việc nghiêm trọng nên ngăn được đứa con bỏ nhà đi.",
+     "Dù đứa con bỏ nhà đi, bố mẹ vẫn không nhận ra mức độ nghiêm trọng.",
+     "Đến khi đứa con bỏ nhà đi, bố mẹ mới lần đầu nhận ra mức độ nghiêm trọng của sự việc.",
+     "Đứa con bỏ nhà đi vì bố mẹ làm to chuyện."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu に至って (đến tận mức đó mới...): \"Đến khi đứa con bỏ nhà đi, bố mẹ mới lần đầu nhận ra mức độ nghiêm trọng của sự việc.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "工場の排水で川の魚が大量に死ぬに至って、住民たちは抗議の声を上げた。",
+    "options": [
+     "Đến khi cá trên sông chết hàng loạt vì nước thải nhà máy, cư dân mới lên tiếng phản đối.",
+     "Cư dân lên tiếng phản đối nên cá trên sông không còn chết nữa.",
+     "Dù cá chết hàng loạt, cư dân vẫn im lặng không phản đối.",
+     "Cư dân phản đối trước khi nhà máy xả nước thải ra sông."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu に至って (đến tận mức đó mới...): \"Đến khi cá trên sông chết hàng loạt vì nước thải nhà máy, cư dân mới lên tiếng phản đối.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "死者が出るに至って、ようやく市は危険な交差点に信号を設置した。",
+     "春になるに至って、公園の桜がきれいに咲いた。",
+     "社員の半数が辞めるに至って初めて、経営陣は職場環境の問題に気づいた。",
+     "子どもが家出するに至って、両親は初めて事の重大さを知った。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「春になるに至って、公園の桜がきれいに咲いた。」 sai: に至って dùng khi tình hình tiến tới mức nghiêm trọng rồi mới có hành động muộn màng, không dùng cho diễn biến tự nhiên. Câu đúng: 春になって、公園の桜がきれいに咲いた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "健康診断で肺に異常が見つかるに至って、彼はようやく禁煙を決意した。",
+     "工場の排水で川の魚が大量に死ぬに至って、住民たちは抗議の声を上げた。",
+     "借金が返せない額にまで膨らむに至って、彼はやっと家族に打ち明けた。",
+     "被害が全国に広がったに至って、政府はやっと対策に乗り出した。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「被害が全国に広がったに至って、…」 sai: に至って đi sau danh từ hoặc thể từ điển (広がる), không đi sau thể た. Câu đúng: 被害が全国に広がるに至って、政府はやっと対策に乗り出した。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["に至って、", "彼はやっと仕事を休んだ。", "倒れて", "入院する"],
+    "answer_order": [2, 3, 0, 1],
+    "translation_vi": "Đến khi ngã bệnh phải nhập viện, anh ấy mới chịu nghỉ làm."
+   },
+   {
+    "pieces": ["に至って", "初めて", "事故が起きる", "住民は安全対策の必要性を感じた。"],
+    "answer_order": [2, 0, 1, 3],
+    "translation_vi": "Đến khi xảy ra tai nạn, cư dân mới lần đầu thấy cần có biện pháp an toàn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "借金が返せない額にまで膨らむ＿＿、彼はやっと家族に打ち明けた。",
+    "answer": "に至って",
+    "accept": ["に至り", "に及んで"],
+    "translation_vi": "Đến khi nợ phình to tới mức không trả nổi, anh ấy mới chịu thú thật với gia đình."
+   },
+   {
+    "sentence_ja": "大規模な停電が起きる＿＿初めて、市は設備の老朽化を認めた。",
+    "answer": "に至って",
+    "accept": ["に及んで"],
+    "translation_vi": "Đến khi xảy ra mất điện trên diện rộng, thành phố mới lần đầu thừa nhận thiết bị đã xuống cấp."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "大切な取引先を失う（　　）、部長はようやく自分のやり方を改めた。",
+    "options": ["に至っても", "に至って", "にひきかえ", "ともあろう"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「に至って」: đến mức mất khách hàng quan trọng thì mới thay đổi, hợp với ようやく. に至っても nghĩa là 'dù đến mức đó vẫn không', trái nghĩa với vế sau. Nghĩa: Đến khi mất một đối tác quan trọng, trưởng phòng mới chịu thay đổi cách làm của mình."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "視力がかなり落ちるに至って、やっと彼は眼科に行った。",
+    "options": [
+     "Anh ấy đi khám mắt định kỳ nên thị lực không bị giảm.",
+     "Dù thị lực giảm sút nhiều, anh ấy vẫn không đi khám mắt.",
+     "Sau khi đi khám mắt, thị lực của anh ấy giảm sút nhiều.",
+     "Đến khi thị lực giảm sút khá nhiều, anh ấy mới chịu đi khám mắt."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu に至って (đến tận mức đó mới...): \"Đến khi thị lực giảm sút khá nhiều, anh ấy mới chịu đi khám mắt.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "大切な取引先を失うに至って、部長はようやく自分のやり方を改めた。",
+     "来年、子どもが小学生になるに至って、新しい机を買う予定だ。",
+     "大規模な停電が起きるに至って初めて、市は設備の老朽化を認めた。",
+     "視力がかなり落ちるに至って、やっと彼は眼科に行った。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「来年、子どもが小学生になるに至って、新しい机を買う予定だ。」 sai: に至って nói sự việc đã tiến tới mức nghiêm trọng rồi mới hành động, không dùng cho dự định bình thường trong tương lai. Câu đúng: 来年、子どもが小学生になるので、新しい机を買う予定だ。"
+   }
+  ]
+ }
+}

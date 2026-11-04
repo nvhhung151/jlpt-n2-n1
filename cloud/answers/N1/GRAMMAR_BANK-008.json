@@ -1,0 +1,512 @@
+{
+ "JG-d9d59b8cbe": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "被害がここまで広がる（　　）、政府はまだ対策を発表していない。",
+    "options": ["に至っては", "をもって", "に至っても", "にあって"], "answer_index": 2,
+    "explanation_vi": "Điền 「に至っても」: Vる + に至っても nói tình hình đã nghiêm trọng đến mức đó mà vế sau vẫn không thay đổi. に至っては nêu ví dụ cực đoan sau danh từ; をもって, にあって đi sau danh từ. Nghĩa: Thiệt hại đã lan rộng đến mức này mà chính phủ vẫn chưa công bố biện pháp đối phó."},
+   {"type": "FILL", "prompt_ja": "死者が出る（　　）、会社は安全対策を見直そうとしない。",
+    "options": ["が早いか", "に至っても", "を皮切りに", "に至って初めて"], "answer_index": 1,
+    "explanation_vi": "Điền 「に至っても」: vế sau là phủ định (không chịu xem lại), hợp nghĩa 'dù đến mức đó vẫn không'. に至って初めて cần vế sau là việc cuối cùng đã làm; が早いか, を皮切りに không hợp nghĩa. Nghĩa: Dù đã có người chết, công ty vẫn không chịu xem lại biện pháp an toàn."},
+   {"type": "ORDER_STAR", "prompt_ja": "何度も＿＿ ＿＿ ★ ＿＿。",
+    "options": ["生活を改めなかった", "警告を", "至っても、彼は", "受けるに"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: 何度も警告を受けるに至っても、彼は生活を改めなかった。 (Dù đã bị cảnh cáo nhiều lần, anh ta vẫn không thay đổi lối sống.). Mảnh ở ô ★ là 「至っても、彼は」."},
+   {"type": "ORDER_STAR", "prompt_ja": "試合開始の＿＿ ＿＿ ★ ＿＿いた。",
+    "options": ["監督は", "メンバーを決めかねて", "直前に", "至っても、"], "answer_index": 0,
+    "explanation_vi": "Câu đúng: 試合開始の直前に至っても、監督はメンバーを決めかねていた。 (Dù đã sát giờ bắt đầu trận đấu, huấn luyện viên vẫn chưa quyết được đội hình.). Mảnh ở ô ★ là 「監督は」."},
+   {"type": "MEANING", "prompt_ja": "赤字が三年続くに至っても、社長は経営方針を変えようとしない。",
+    "options": ["Vì thua lỗ ba năm liền nên giám đốc đã thay đổi phương châm kinh doanh.", "Phải đến khi thua lỗ ba năm liền, giám đốc mới thay đổi phương châm kinh doanh.", "Trước khi thua lỗ ba năm liền, giám đốc đã kịp thay đổi phương châm kinh doanh.", "Dù đã thua lỗ ba năm liền, giám đốc vẫn không chịu thay đổi phương châm kinh doanh."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜に至っても (dù đã đến mức đó vẫn không...): \"Dù đã thua lỗ ba năm liền, giám đốc vẫn không chịu thay đổi phương châm kinh doanh.\""},
+   {"type": "MEANING", "prompt_ja": "交通事故が相次ぐに至っても、市はその交差点に信号を付けていない。",
+    "options": ["Dù tai nạn giao thông liên tiếp xảy ra, thành phố vẫn chưa lắp đèn tín hiệu ở ngã tư đó.", "Chính vì tai nạn giao thông liên tiếp xảy ra nên thành phố đã lắp đèn tín hiệu ở ngã tư đó.", "Thành phố lắp đèn tín hiệu ở ngã tư đó để tai nạn giao thông không xảy ra nữa.", "Từ khi có đèn tín hiệu, ở ngã tư đó không còn tai nạn giao thông."], "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜に至っても (dù đã đến mức đó vẫn không...): \"Dù tai nạn giao thông liên tiếp xảy ra, thành phố vẫn chưa lắp đèn tín hiệu ở ngã tư đó.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["証拠を突きつけられるに至っても、彼は自分の非を認めようとしなかった。", "締め切りの前日に至っても、レポートはまだ一行も書けていない。", "問題が明らかになるに至っても、ようやく会社は謝罪した。", "赤字が三年続くに至っても、社長は経営方針を変えようとしない。"], "answer_index": 2,
+    "explanation_vi": "「問題が明らかになるに至っても、ようやく会社は謝罪した。」 sai: に至っても cần vế sau là không thay đổi, không hành động; việc cuối cùng cũng làm (ようやく謝罪した) phải dùng に至って. Câu đúng: 問題が明らかになるに至って、ようやく会社は謝罪した。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["工場が閉鎖されるに至っても、経営陣は責任を取ろうとしない。", "死者が出るに至っても、会社は安全対策を見直そうとしない。", "何度も警告を受けるに至っても、彼は生活を改めなかった。", "期限を過ぎたに至っても、彼はまだ書類を出していない。"], "answer_index": 3,
+    "explanation_vi": "「期限を過ぎたに至っても、彼はまだ書類を出していない。」 sai: に至っても đi sau danh từ hoặc động từ thể từ điển, không đi sau thể た. Câu đúng: 期限を過ぎるに至っても、彼はまだ書類を出していない。"}
+  ],
+  "order_items": [
+   {"pieces": ["病院へ行こうとしない。", "父は", "病状が悪化するに", "至っても、"], "answer_order": [2, 3, 1, 0],
+    "translation_vi": "Dù bệnh tình đã trở nặng, bố tôi vẫn không chịu đi bệnh viện."},
+   {"pieces": ["やり方を変えなかった。", "人気が落ちるに", "店は", "ここまで", "至っても、"], "answer_order": [3, 1, 4, 2, 0],
+    "translation_vi": "Dù độ nổi tiếng đã sụt giảm đến mức này, cửa hàng vẫn không thay đổi cách làm."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "大臣は辞任を求められるに＿＿、その座にとどまり続けた。", "answer": "至っても", "accept": ["いたっても"],
+    "translation_vi": "Dù đã bị yêu cầu từ chức, vị bộ trưởng vẫn tiếp tục giữ ghế."},
+   {"sentence_ja": "期限の前日に至って＿＿、資料は一枚もそろっていなかった。", "answer": "も",
+    "translation_vi": "Dù đã đến ngày trước hạn chót, tài liệu vẫn chưa có đủ dù chỉ một tờ."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "住民の反対運動が起きる（　　）、計画は少しも見直されなかった。",
+    "options": ["ずくめで", "なしに", "に至っても", "に至っては"], "answer_index": 2,
+    "explanation_vi": "Điền 「に至っても」: sự việc đã đến mức có phong trào phản đối mà kế hoạch vẫn không được xem lại. ずくめで, なしに không đi sau Vる như vậy; に至っては dùng để nêu ví dụ cực đoan. Nghĩa: Dù cư dân đã nổi lên phản đối, kế hoạch vẫn không hề được xem lại."},
+   {"type": "MEANING", "prompt_ja": "患者が亡くなるに至っても、病院側はミスを認めていない。",
+    "options": ["Bệnh nhân qua đời nên bệnh viện đã thừa nhận sai sót.", "Dù bệnh nhân đã qua đời, phía bệnh viện vẫn chưa thừa nhận sai sót.", "Phải đến khi bệnh nhân qua đời, bệnh viện mới thừa nhận sai sót.", "Bệnh viện đã thừa nhận sai sót trước khi bệnh nhân qua đời."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜に至っても (dù đã đến mức đó vẫn không...): \"Dù bệnh nhân đã qua đời, phía bệnh viện vẫn chưa thừa nhận sai sót.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["大雨で川があふれるに至っても、住民はすぐに避難した。", "被害がここまで広がるに至っても、政府はまだ対策を発表していない。", "交通事故が相次ぐに至っても、市はその交差点に信号を付けていない。", "病状が悪化するに至っても、父は病院へ行こうとしない。"], "answer_index": 0,
+    "explanation_vi": "「大雨で川があふれるに至っても、住民はすぐに避難した。」 sai: vế sau 'lập tức sơ tán' là phản ứng bình thường, không phải sự không thay đổi nên không hợp に至っても. Câu đúng: 大雨で川があふれるに至っても、住民は避難しようとしなかった。"}
+  ]
+ },
+ "JG-64f9a61403": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "家族はみんな朝が弱いが、弟（　　）昼まで起きてこない。",
+    "options": ["にとっては", "に至っては", "にしては", "に至って"], "answer_index": 1,
+    "explanation_vi": "Điền 「に至っては」: sau khi nói cả nhà đều dậy muộn, N + に至っては nêu trường hợp cực đoan nhất. にとっては cần vế sau là đánh giá; にしては là 'so với... thì'; に至って nói đi đến một giai đoạn. Nghĩa: Cả nhà ai cũng khó dậy sớm, riêng em trai tôi thì đến trưa vẫn chưa dậy."},
+   {"type": "FILL", "prompt_ja": "クラスの半分が宿題を忘れ、田中さん（　　）教科書まで忘れてきた。",
+    "options": ["をはじめ", "に応じて", "にかけては", "に至っては"], "answer_index": 3,
+    "explanation_vi": "Điền 「に至っては」: nửa lớp quên bài tập, còn trường hợp tệ nhất là Tanaka quên cả sách giáo khoa. をはじめ, に応じて, にかけては không nêu được ví dụ cực đoan. Nghĩa: Nửa lớp quên bài tập, riêng Tanaka thì quên luôn cả sách giáo khoa."},
+   {"type": "ORDER_STAR", "prompt_ja": "社員の多くが残業を嫌がり、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["帰ってしまう", "至っては", "定時前に", "部長に"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: 社員の多くが残業を嫌がり、部長に至っては定時前に帰ってしまう。 (Nhiều nhân viên ngại làm thêm giờ, riêng trưởng phòng thì về luôn trước giờ tan làm.). Mảnh ở ô ★ là 「定時前に」."},
+   {"type": "ORDER_STAR", "prompt_ja": "どの科目も成績が悪いが、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["十点しか", "至っては", "取れなかった", "数学に"], "answer_index": 1,
+    "explanation_vi": "Câu đúng: どの科目も成績が悪いが、数学に至っては十点しか取れなかった。 (Môn nào điểm cũng kém, riêng môn toán thì chỉ được mười điểm.). Mảnh ở ô ★ là 「至っては」."},
+   {"type": "MEANING", "prompt_ja": "野菜の値段が軒並み上がり、キャベツに至っては去年の三倍だ。",
+    "options": ["Giá rau tăng đồng loạt, chỉ có bắp cải là không tăng.", "Vì bắp cải tăng giá gấp ba nên các loại rau khác cũng tăng theo.", "Giá rau đồng loạt tăng, riêng bắp cải thì đắt gấp ba năm ngoái.", "Giá rau sẽ còn tăng cho đến khi bắp cải đắt gấp ba năm ngoái."], "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜に至っては (riêng trường hợp cực đoan... thì): \"Giá rau đồng loạt tăng, riêng bắp cải thì đắt gấp ba năm ngoái.\""},
+   {"type": "MEANING", "prompt_ja": "最近の若者は新聞を読まないし、弟に至ってはテレビのニュースすら見ない。",
+    "options": ["Giới trẻ dạo này không đọc báo, còn em trai tôi thì đến tin tức trên tivi cũng không xem.", "Giới trẻ dạo này không đọc báo, nhưng em trai tôi thì ngày nào cũng xem tin tức trên tivi.", "Em trai tôi không đọc báo vì đã xem tin tức trên tivi rồi.", "Đối với em trai tôi, tin tức trên tivi dễ hiểu hơn báo giấy."], "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜に至っては (riêng trường hợp cực đoan... thì): \"Giới trẻ dạo này không đọc báo, còn em trai tôi thì đến tin tức trên tivi cũng không xem.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["部員の多くが練習をさぼり、キャプテンに至っては一か月も顔を出していない。", "どの科目も成績が悪いが、数学に至っては十点しか取れなかった。", "この問題に至っては、来週の会議で話し合いましょう。", "野菜の値段が軒並み上がり、キャベツに至っては去年の三倍だ。"], "answer_index": 2,
+    "explanation_vi": "「この問題に至っては、来週の会議で話し合いましょう。」 sai: に至っては không dùng như については để nêu một đề tài trung tính; nó nêu ví dụ cực đoan sau khi kể các trường hợp nhẹ hơn. Câu đúng: この問題については、来週の会議で話し合いましょう。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["家族はみんな朝が弱いが、弟に至っては昼まで起きてこない。", "クラスの半分が宿題を忘れ、田中さんに至っては教科書まで忘れてきた。", "社員の多くが残業を嫌がり、部長に至っては定時前に帰ってしまう。", "今日の予定に至っては、午後三時から会議があります。"], "answer_index": 3,
+    "explanation_vi": "「今日の予定に至っては、午後三時から会議があります。」 sai: câu chỉ báo lịch bình thường, không có loạt trường hợp nào và không có gì cực đoan. Câu đúng: 今日の予定としては、午後三時から会議があります。"}
+  ],
+  "order_items": [
+   {"pieces": ["会議中に寝ていた。", "至っては", "課長に", "社員は誰も意見を言わず、"], "answer_order": [3, 2, 1, 0],
+    "translation_vi": "Không nhân viên nào phát biểu ý kiến, còn trưởng nhóm thì ngủ gật ngay trong cuộc họp."},
+   {"pieces": ["二倍になった。", "あの店に", "どの店も値上げをしたが、", "至っては"], "answer_order": [2, 1, 3, 0],
+    "translation_vi": "Cửa hàng nào cũng tăng giá, riêng cửa hàng kia thì giá tăng gấp đôi."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "うちの家族は機械が苦手で、祖母に＿＿電話のかけ方も知らない。", "answer": "至っては", "accept": ["いたっては"],
+    "translation_vi": "Nhà tôi ai cũng kém về máy móc, riêng bà tôi thì đến cách gọi điện thoại cũng không biết."},
+   {"sentence_ja": "どのチームも練習不足だが、うちのチームに至って＿＿一度も集まっていない。", "answer": "は",
+    "translation_vi": "Đội nào cũng thiếu luyện tập, riêng đội chúng tôi thì chưa tập trung lần nào."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "応募者は少なく、経験者（　　）一人もいなかった。",
+    "options": ["にもまして", "に沿って", "に至っては", "にかけては"], "answer_index": 2,
+    "explanation_vi": "Điền 「に至っては」: người nộp đơn đã ít, trường hợp tệ nhất là người có kinh nghiệm thì không có ai. にもまして, に沿って, にかけては không hợp nghĩa. Nghĩa: Người nộp đơn đã ít, còn người có kinh nghiệm thì không có lấy một ai."},
+   {"type": "ORDER_STAR", "prompt_ja": "兄弟はみな背が高いが、＿＿ ＿＿ ★ ＿＿超えている。",
+    "options": ["至っては", "百九十センチを", "末の弟に", "身長が"], "answer_index": 3,
+    "explanation_vi": "Câu đúng: 兄弟はみな背が高いが、末の弟に至っては身長が百九十センチを超えている。 (Anh em nhà tôi ai cũng cao, riêng em út thì cao hơn một mét chín.). Mảnh ở ô ★ là 「身長が」."},
+   {"type": "MEANING", "prompt_ja": "部屋は散らかっていて、台所に至っては足の踏み場もない。",
+    "options": ["Căn phòng bừa bộn nên tôi phải dọn nhà bếp trước tiên.", "Căn phòng tuy bừa bộn nhưng nhà bếp thì rất gọn gàng.", "Vì nhà bếp bừa bộn nên cả căn phòng cũng bẩn theo.", "Căn phòng bừa bộn, riêng nhà bếp thì không còn chỗ đặt chân."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜に至っては (riêng trường hợp cực đoan... thì): \"Căn phòng bừa bộn, riêng nhà bếp thì không còn chỗ đặt chân.\""}
+  ]
+ },
+ "JG-5efbdb0e7f": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "弟は遊んでばかりいて、ついには大学を退学させられる（　　）。",
+    "options": ["わけがない", "ことはない", "始末だ", "ものだ"], "answer_index": 2,
+    "explanation_vi": "Điền 「始末だ」: Vる + 始末だ nói kết cục tồi tệ sau một quá trình xấu đi (chỉ lo chơi → bị đuổi học). わけがない, ことはない ngược nghĩa; ものだ nói chân lý chung. Nghĩa: Em trai tôi chỉ lo chơi bời, rốt cuộc đến nỗi bị đuổi học."},
+   {"type": "FILL", "prompt_ja": "彼は毎日遅刻し、最近では無断で休む（　　）。",
+    "options": ["始末だ", "までもない", "どころではない", "にすぎない"], "answer_index": 0,
+    "explanation_vi": "Điền 「始末だ」: từ đi muộn mỗi ngày tệ dần tới mức nghỉ không báo, đúng nghĩa kết cục xấu. までもない, どころではない, にすぎない không hợp nghĩa. Nghĩa: Ngày nào anh ta cũng đi muộn, dạo này còn đến mức nghỉ không xin phép."},
+   {"type": "ORDER_STAR", "prompt_ja": "彼は酒に酔って、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["窓ガラスを", "始末だった", "店の", "割る"], "answer_index": 3,
+    "explanation_vi": "Câu đúng: 彼は酒に酔って、店の窓ガラスを割る始末だった。 (Anh ta say rượu, rốt cuộc đến mức đập vỡ cả kính cửa sổ của quán.). Mảnh ở ô ★ là 「割る」."},
+   {"type": "ORDER_STAR", "prompt_ja": "準備を怠ったせいで、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["真っ白になる", "頭が", "始末だった", "本番で"], "answer_index": 1,
+    "explanation_vi": "Câu đúng: 準備を怠ったせいで、本番で頭が真っ白になる始末だった。 (Vì lơ là chuẩn bị, đến lúc thật thì đầu óc tôi trống rỗng.). Mảnh ở ô ★ là 「頭が」."},
+   {"type": "MEANING", "prompt_ja": "甘やかして育てた結果、息子は親に暴言を吐く始末だ。",
+    "options": ["Nhờ được nuông chiều nên con trai tôi rất lễ phép với cha mẹ.", "Cha mẹ nuông chiều con trai vì sợ nó buông lời thô lỗ.", "Con trai tôi buông lời thô lỗ nên đã bị cha mẹ xử lý nghiêm.", "Hậu quả của việc nuông chiều là con trai tôi đến mức buông lời thô lỗ với cha mẹ."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜始末だ (rốt cuộc đến nông nỗi...): \"Hậu quả của việc nuông chiều là con trai tôi đến mức buông lời thô lỗ với cha mẹ.\""},
+   {"type": "MEANING", "prompt_ja": "何度も同じミスを繰り返し、ついには取引先を怒らせる始末だった。",
+    "options": ["Lặp đi lặp lại cùng một lỗi, rốt cuộc anh ta còn làm đối tác nổi giận.", "Anh ta mắc lỗi nhiều lần nhưng đối tác chưa hề nổi giận.", "Để đối tác không nổi giận, anh ta đã sửa hết các lỗi.", "Anh ta mắc lỗi một lần rồi tự mình dọn dẹp hậu quả."], "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜始末だ (rốt cuộc đến nông nỗi...): \"Lặp đi lặp lại cùng một lỗi, rốt cuộc anh ta còn làm đối tác nổi giận.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["何度言っても宿題をやらず、最後には先生に呼び出される始末だ。", "毎日努力を続け、ついに試験に合格する始末だ。", "彼は毎日遅刻し、最近では無断で休む始末だ。", "借金を重ね、とうとう家まで売る始末だった。"], "answer_index": 1,
+    "explanation_vi": "「毎日努力を続け、ついに試験に合格する始末だ。」 sai: 始末だ chỉ dùng cho kết cục xấu, không dùng cho kết quả tốt như thi đỗ. Câu đúng: 毎日努力を続け、ついに試験に合格した。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼は酒に酔って、店の窓ガラスを割る始末だった。", "弟は遊んでばかりいて、ついには大学を退学させられる始末だ。", "部屋のごみは自分で片付ける始末だ。", "何度も同じミスを繰り返し、ついには取引先を怒らせる始末だった。"], "answer_index": 2,
+    "explanation_vi": "「部屋のごみは自分で片付ける始末だ。」 sai: 始末だ trong mẫu này là kết cục xấu sau một quá trình tệ đi, không phải nghĩa 'dọn dẹp, xử lý'; câu không có diễn biến xấu nào. Câu đúng: 部屋のごみは自分で片付けなさい。"}
+  ],
+  "order_items": [
+   {"pieces": ["忘れる", "食事も", "始末だ。", "ゲームに夢中になり、"], "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Mải mê chơi game, đến mức quên cả ăn."},
+   {"pieces": ["会議を途中で", "始末だった。", "文句ばかり言って、", "抜け出す", "最後には"], "answer_order": [2, 4, 0, 3, 1],
+    "translation_vi": "Chỉ toàn than phiền, cuối cùng anh ta còn bỏ ra ngoài giữa cuộc họp."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "あれほど注意したのに、また財布をなくす＿＿だ。", "answer": "始末", "accept": ["しまつ"],
+    "translation_vi": "Đã nhắc nhở đến thế mà rốt cuộc lại làm mất ví lần nữa."},
+   {"sentence_ja": "夫は片付けが苦手で、脱いだ靴下を部屋中に放っておく始末＿＿。", "answer": "だ", "accept": ["です"],
+    "translation_vi": "Chồng tôi rất kém dọn dẹp, đến mức vứt tất đã cởi khắp nhà."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "練習をさぼり続け、試合ではボールにも触れない（　　）だった。",
+    "options": ["以上", "反面", "一方", "始末"], "answer_index": 3,
+    "explanation_vi": "Điền 「始末」: bỏ tập liên tục dẫn tới kết cục tệ là chạm bóng cũng không được. 以上, 反面 không đứng trước だった như vậy; 一方 cần động từ chỉ sự thay đổi. Nghĩa: Cứ trốn tập mãi, đến trận đấu thì chạm được bóng cũng không."},
+   {"type": "MEANING", "prompt_ja": "隣の家は夜中まで騒ぎ、最近では警察が来る始末だ。",
+    "options": ["Nhà bên cạnh ồn ào đến nửa đêm nên tôi định gọi cảnh sát.", "Nhà bên cạnh làm ồn đến nửa đêm, dạo này đến mức cảnh sát phải tới.", "Từ khi cảnh sát đến, nhà bên cạnh không còn ồn ào nữa.", "Cảnh sát đã đến dọn dẹp nhà bên cạnh lúc nửa đêm."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜始末だ (rốt cuộc đến nông nỗi...): \"Nhà bên cạnh làm ồn đến nửa đêm, dạo này đến mức cảnh sát phải tới.\""},
+   {"type": "ORDER_STAR", "prompt_ja": "体調を崩しても休まず、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["始末だった", "結局", "運ばれる", "救急車で"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: 体調を崩しても休まず、結局救急車で運ばれる始末だった。 (Ốm rồi mà vẫn không nghỉ, rốt cuộc đến mức phải đi xe cấp cứu.). Mảnh ở ô ★ là 「運ばれる」."}
+  ]
+ },
+ "JG-706c98d04f": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "工事現場の入口に「関係者以外、立ち入る（　　）」と書いてある。",
+    "options": ["べく", "べからず", "べからざる", "べきで"], "answer_index": 1,
+    "explanation_vi": "Điền 「べからず」: Vる + べからず là lời cấm trên biển báo, đứng cuối câu. べからざる phải đứng trước danh từ; べく là 'để'; べきで chưa kết thúc câu. Nghĩa: Ở lối vào công trường có ghi 'Người không phận sự cấm vào'."},
+   {"type": "FILL", "prompt_ja": "彼の発言は、教師として許す（　　）ものだ。",
+    "options": ["べからず", "べく", "べくして", "べからざる"], "answer_index": 3,
+    "explanation_vi": "Điền 「べからざる」: trước danh từ (もの) phải dùng dạng bổ nghĩa べからざる. べからず chỉ đứng cuối câu; べく, べくして không hợp nghĩa. Nghĩa: Phát ngôn của anh ta là điều không thể tha thứ đối với một giáo viên."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+    "options": ["べからず", "触れる", "展示品に", "手を"], "answer_index": 1,
+    "explanation_vi": "Câu đúng: 展示品に手を触れるべからず。 (Cấm chạm tay vào hiện vật trưng bày.). Mảnh ở ô ★ là 「触れる」."},
+   {"type": "ORDER_STAR", "prompt_ja": "それは＿＿ ＿＿ ★ ＿＿。",
+    "options": ["不正だった", "研究者として", "べからざる", "行う"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: それは研究者として行うべからざる不正だった。 (Đó là hành vi gian lận mà một nhà nghiên cứu tuyệt đối không được làm.). Mảnh ở ô ★ là 「べからざる」."},
+   {"type": "MEANING", "prompt_ja": "池のそばに「ここで釣りをすべからず」という札が立っていた。",
+    "options": ["Cạnh ao có tấm bảng ghi 'Nên câu cá ở đây'.", "Cạnh ao có tấm bảng ghi 'Không cần câu cá ở đây'.", "Cạnh ao có tấm bảng ghi 'Cấm câu cá ở đây'.", "Cạnh ao có tấm bảng ghi 'Câu cá ở đây miễn phí'."], "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜べからず (cấm, không được): \"Cạnh ao có tấm bảng ghi 'Cấm câu cá ở đây'.\""},
+   {"type": "MEANING", "prompt_ja": "時間を守ることは、社会人として欠くべからざる条件だ。",
+    "options": ["Đúng giờ là điều kiện không thể thiếu đối với người đi làm.", "Đúng giờ không phải là điều kiện bắt buộc với người đi làm.", "Người đi làm không nhất thiết phải giữ đúng giờ.", "Chỉ người đi làm mới cần giữ đúng giờ."], "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜べからざる + N (không thể, không được): \"Đúng giờ là điều kiện không thể thiếu đối với người đi làm.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["展示品に手を触れるべからず。", "人として許すべからざる行為だと、世論は厳しく批判した。", "ここにごみを捨てるべからざる。", "時間を守ることは、社会人として欠くべからざる条件だ。"], "answer_index": 2,
+    "explanation_vi": "「ここにごみを捨てるべからざる。」 sai: べからざる là dạng bổ nghĩa, phải đứng trước danh từ; kết thúc câu phải dùng べからず. Câu đúng: ここにごみを捨てるべからず。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["山田さん、廊下を走るべからずですよ。", "池のそばに「ここで釣りをすべからず」という札が立っていた。", "それは研究者として行うべからざる不正だった。", "芝生に入るべからず、と書かれた看板が公園の入口に立っている。"], "answer_index": 0,
+    "explanation_vi": "「山田さん、廊下を走るべからずですよ。」 sai: べからず là lối cấm đoán cổ, cứng, dùng trên biển cấm hay văn viết; không dùng để nhắc nhở trực tiếp trong hội thoại, càng không ghép với ですよ. Câu đúng: 山田さん、廊下を走らないでくださいね。"}
+  ],
+  "order_items": [
+   {"pieces": ["折る", "花壇の", "べからず。", "花を"], "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Cấm bẻ hoa trong bồn hoa."},
+   {"pieces": ["資質だ。", "欠く", "誠実さは医師として", "べからざる"], "answer_order": [2, 1, 3, 0],
+    "translation_vi": "Sự trung thực là phẩm chất không thể thiếu của một bác sĩ."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "「この池で泳ぐ＿＿」と書かれた看板を見た。", "answer": "べからず",
+    "translation_vi": "Tôi đã thấy tấm biển ghi 'Cấm bơi ở ao này'."},
+   {"sentence_ja": "失敗を恐れる＿＿。挑戦してこそ人は成長する。", "answer": "べからず",
+    "translation_vi": "Chớ sợ thất bại. Có dám thử thách thì con người mới trưởng thành."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "試験中は隣の人の答案を見る（　　）。",
+    "options": ["べからざる", "べくして", "べからず", "べく"], "answer_index": 2,
+    "explanation_vi": "Điền 「べからず」: lời cấm đứng cuối câu dùng べからず. べからざる phải đi trước danh từ; べくして, べく không kết thúc câu và sai nghĩa. Nghĩa: Trong giờ thi cấm nhìn bài của người bên cạnh."},
+   {"type": "MEANING", "prompt_ja": "橋の前に「危険につき、この橋を渡るべからず」と書かれていた。",
+    "options": ["Trước cầu có ghi 'Vì nguy hiểm, hãy đi qua cầu thật nhanh'.", "Trước cầu có ghi 'Nguy hiểm, cấm đi qua cầu này'.", "Trước cầu có ghi 'Cầu đang được sửa vì nguy hiểm'.", "Trước cầu có ghi 'Nguy hiểm, hãy cẩn thận khi qua cầu'."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜べからず (cấm, không được): \"Trước cầu có ghi 'Nguy hiểm, cấm đi qua cầu này'.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["展示品に手を触れるべからず。", "それは研究者として行うべからざる不正だった。", "工事現場の入口に「関係者以外、立ち入るべからず」と書いてある。", "ここで喫煙しべからず。"], "answer_index": 3,
+    "explanation_vi": "「ここで喫煙しべからず。」 sai: べからず đi sau động từ thể từ điển; với する thì dùng dạng すべからず. Câu đúng: ここで喫煙すべからず。"}
+  ]
+ },
+ "JG-063713e7c8": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "預かったお金は一円（　　）無駄にはできない。",
+    "options": ["ばかりか", "にかけて", "ならでは", "たりとも"], "answer_index": 3,
+    "explanation_vi": "Điền 「たりとも」: 一 + đơn vị + たりとも + phủ định nghĩa 'dù chỉ một... cũng không'. ばかりか, にかけて, ならでは không hợp với phủ định tuyệt đối. Nghĩa: Tiền được gửi giữ thì dù chỉ một yên cũng không được lãng phí."},
+   {"type": "FILL", "prompt_ja": "試合終了まで、一瞬（　　）気を抜いてはいけない。",
+    "options": ["こそ", "たりとも", "ずつ", "ごとに"], "answer_index": 1,
+    "explanation_vi": "Điền 「たりとも」: nhấn mạnh không được lơ là dù chỉ một khoảnh khắc. こそ, ずつ, ごとに không đi với phủ định tuyệt đối như vậy. Nghĩa: Cho đến khi trận đấu kết thúc, không được lơ là dù chỉ một khoảnh khắc."},
+   {"type": "ORDER_STAR", "prompt_ja": "彼は約束の時間に＿＿ ＿＿ ★ ＿＿。",
+    "options": ["ことがない", "たりとも", "遅れた", "一分"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: 彼は約束の時間に一分たりとも遅れたことがない。 (Anh ấy chưa từng trễ hẹn dù chỉ một phút.). Mảnh ở ô ★ là 「遅れた」."},
+   {"type": "ORDER_STAR", "prompt_ja": "この書類は＿＿ ★ ＿＿ ＿＿。",
+    "options": ["外に持ち出しては", "ならない", "一枚", "たりとも"], "answer_index": 3,
+    "explanation_vi": "Câu đúng: この書類は一枚たりとも外に持ち出してはならない。 (Tài liệu này không được mang ra ngoài dù chỉ một tờ.). Mảnh ở ô ★ là 「たりとも」."},
+   {"type": "MEANING", "prompt_ja": "留学中、私は一日たりとも家族のことを忘れなかった。",
+    "options": ["Trong thời gian du học, có một ngày tôi đã quên mất gia đình.", "Trong thời gian du học, tôi chưa một ngày nào quên gia đình.", "Trong thời gian du học, tôi chỉ nhớ gia đình được một ngày.", "Trong thời gian du học, mỗi ngày tôi chỉ nghĩ đến gia đình một lần."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 一〜たりとも〜ない (dù chỉ một... cũng không): \"Trong thời gian du học, tôi chưa một ngày nào quên gia đình.\""},
+   {"type": "MEANING", "prompt_ja": "選手たちは、一点たりとも相手に与えまいと必死に守った。",
+    "options": ["Các cầu thủ đã cố gắng ghi ít nhất một điểm.", "Các cầu thủ phòng ngự cẩn thận nhưng vẫn để thua một điểm.", "Mỗi cầu thủ phải tự giữ một điểm cho đội.", "Các cầu thủ phòng ngự quyết liệt để không cho đối thủ ghi dù chỉ một điểm."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 一〜たりとも〜ない (dù chỉ một... cũng không): \"Các cầu thủ phòng ngự quyết liệt để không cho đối thủ ghi dù chỉ một điểm.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼女は、一秒たりとも無駄にしないよう、時間を細かく区切って勉強していた。", "毎日一時間たりとも日本語を勉強している。", "この書類は一枚たりとも外に持ち出してはならない。", "預かったお金は一円たりとも無駄にはできない。"], "answer_index": 1,
+    "explanation_vi": "「毎日一時間たりとも日本語を勉強している。」 sai: たりとも luôn đi với vế phủ định, không dùng cho câu khẳng định. Câu đúng: 毎日一時間は日本語を勉強している。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["百人たりとも参加者を減らしてはならない。", "試合終了まで、一瞬たりとも気を抜いてはいけない。", "彼は約束の時間に一分たりとも遅れたことがない。", "留学中、私は一日たりとも家族のことを忘れなかった。"], "answer_index": 0,
+    "explanation_vi": "「百人たりとも参加者を減らしてはならない。」 sai: たりとも chỉ đi với lượng nhỏ nhất là một đơn vị (一人, 一円), không dùng với số lớn. Câu đúng: 一人たりとも参加者を減らしてはならない。"}
+  ],
+  "order_items": [
+   {"pieces": ["目を離せない。", "一瞬", "赤ちゃんからは", "たりとも"], "answer_order": [2, 1, 3, 0],
+    "translation_vi": "Với em bé thì không thể rời mắt dù chỉ một khoảnh khắc."},
+   {"pieces": ["譲るつもりはない。", "この件では", "たりとも", "一歩"], "answer_order": [1, 3, 2, 0],
+    "translation_vi": "Về việc này, tôi không định nhượng bộ dù chỉ một bước."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "会議の資料は一枚＿＿なくしてはいけない。", "answer": "たりとも", "accept": ["も"],
+    "translation_vi": "Tài liệu cuộc họp thì không được làm mất dù chỉ một tờ."},
+   {"sentence_ja": "彼は入院するまで、練習を一日＿＿休まなかった。", "answer": "たりとも", "accept": ["も"],
+    "translation_vi": "Cho đến khi nhập viện, anh ấy không nghỉ tập dù chỉ một ngày."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "入場券のない人は、一人（　　）中に入れてはいけない。",
+    "options": ["につき", "たりとも", "を通じて", "からして"], "answer_index": 1,
+    "explanation_vi": "Điền 「たりとも」: 一人たりとも + phủ định nghĩa 'không cho vào dù chỉ một người'. につき, を通じて, からして không hợp nghĩa. Nghĩa: Người không có vé thì không được cho vào dù chỉ một người."},
+   {"type": "MEANING", "prompt_ja": "社長は、会社のお金を一円たりとも私用に使ったことはない。",
+    "options": ["Giám đốc chỉ dùng một yên tiền công ty vào việc riêng.", "Giám đốc từng dùng tiền công ty vào việc riêng nhưng chỉ một lần.", "Giám đốc chưa từng dùng dù chỉ một yên tiền công ty vào việc riêng.", "Giám đốc không bỏ một yên tiền riêng nào cho công ty."], "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 一〜たりとも〜ない (dù chỉ một... cũng không): \"Giám đốc chưa từng dùng dù chỉ một yên tiền công ty vào việc riêng.\""},
+   {"type": "ORDER_STAR", "prompt_ja": "ここから先は＿＿ ＿＿ ★ ＿＿。",
+    "options": ["通す", "わけにはいかない", "一歩", "たりとも"], "answer_index": 0,
+    "explanation_vi": "Câu đúng: ここから先は一歩たりとも通すわけにはいかない。 (Từ đây trở đi, không thể cho đi qua dù chỉ một bước.). Mảnh ở ô ★ là 「通す」."}
+  ]
+ },
+ "JG-cd73777207": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "あの事故の様子は、思い出す（　　）身震いがする。",
+    "options": ["とて", "べく", "ものの", "だに"], "answer_index": 3,
+    "explanation_vi": "Điền 「だに」: 思い出すだに nghĩa là chỉ nhớ lại thôi đã thấy rùng mình. とて, べく, ものの không hợp nghĩa và cách nối. Nghĩa: Cảnh vụ tai nạn đó, chỉ nhớ lại thôi tôi đã rùng mình."},
+   {"type": "FILL", "prompt_ja": "そんな結末になるとは、夢（　　）しなかった。",
+    "options": ["だに", "ばかり", "こそ", "まで"], "answer_index": 0,
+    "explanation_vi": "Điền 「だに」: 夢だにしない là cách nói cố định 'ngay cả trong mơ cũng không nghĩ tới'. ばかり, こそ, まで không tạo thành cụm này. Nghĩa: Tôi chưa từng mơ rằng mọi chuyện lại kết thúc như thế."},
+   {"type": "ORDER_STAR", "prompt_ja": "それは＿＿ ＿＿ ★ ＿＿。",
+    "options": ["話だった", "聞く", "恐ろしい", "だに"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: それは聞くだに恐ろしい話だった。 (Đó là câu chuyện mà chỉ nghe thôi đã thấy rợn người.). Mảnh ở ô ★ là 「恐ろしい」."},
+   {"type": "ORDER_STAR", "prompt_ja": "このまま温暖化が進んだらと、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["寒くなる", "背筋が", "想像する", "だに"], "answer_index": 3,
+    "explanation_vi": "Câu đúng: このまま温暖化が進んだらと、想像するだに背筋が寒くなる。 (Chỉ tưởng tượng nếu trái đất cứ nóng lên thế này thôi đã thấy lạnh sống lưng.). Mảnh ở ô ★ là 「だに」."},
+   {"type": "MEANING", "prompt_ja": "一人で夜の山道を歩くなんて、考えるだに恐ろしい。",
+    "options": ["Đi bộ một mình trên đường núi ban đêm, nghĩ kỹ thì cũng không đáng sợ lắm.", "Đi bộ một mình trên đường núi ban đêm, chỉ nghĩ đến thôi đã thấy sợ.", "Càng đi bộ một mình trên đường núi ban đêm càng thấy sợ.", "Tôi đã nghĩ cách đi bộ một mình trên đường núi ban đêm cho đỡ sợ."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜だに (chỉ cần... thôi đã thấy): \"Đi bộ một mình trên đường núi ban đêm, chỉ nghĩ đến thôi đã thấy sợ.\""},
+   {"type": "MEANING", "prompt_ja": "彼が会社を辞めるなんて、夢だに思わなかった。",
+    "options": ["Tôi đã mơ thấy anh ấy nghỉ việc.", "Anh ấy nghỉ việc để theo đuổi ước mơ của mình.", "Tôi chưa từng nghĩ, dù chỉ trong mơ, rằng anh ấy sẽ nghỉ việc.", "Tôi chỉ nghĩ anh ấy nghỉ việc trong giấc mơ thôi."], "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 夢だに〜ない (ngay cả trong mơ cũng không): \"Tôi chưa từng nghĩ, dù chỉ trong mơ, rằng anh ấy sẽ nghỉ việc.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["巨大地震が再び起きることなど、考えるだに恐ろしい。", "愛犬を失う悲しみは、想像するだに胸が痛む。", "あの事故の様子は、思い出すだに身震いがする。", "コーヒーを飲むだに目が覚める。"], "answer_index": 3,
+    "explanation_vi": "「コーヒーを飲むだに目が覚める。」 sai: だに chỉ đi với vài động từ cố định như 想像する, 考える, 思い出す, 聞く và vế sau là cảm xúc mạnh. Câu đúng: コーヒーを飲むだけで目が覚める。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["それは聞くだに恐ろしい話だった。", "考えるだに、来週の会議に出席するつもりだ。", "一人で夜の山道を歩くなんて、考えるだに恐ろしい。", "そんな結末になるとは、夢だにしなかった。"], "answer_index": 1,
+    "explanation_vi": "「考えるだに、来週の会議に出席するつもりだ。」 sai: sau 考えるだに phải là cảm xúc mạnh (恐ろしい, 胸が痛む), không phải quyết định hay dự định. Câu đúng: よく考えた結果、来週の会議に出席するつもりだ。"}
+  ],
+  "order_items": [
+   {"pieces": ["気が重い。", "考える", "失敗した時のことは、", "だに"], "answer_order": [2, 1, 3, 0],
+    "translation_vi": "Chuyện lúc thất bại, chỉ nghĩ đến thôi đã thấy nặng lòng."},
+   {"pieces": ["だに", "体が震える。", "あの日の地震は、", "思い出す"], "answer_order": [2, 3, 0, 1],
+    "translation_vi": "Trận động đất hôm đó, chỉ nhớ lại thôi người tôi đã run lên."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "子どもが迷子になるなんて、想像する＿＿ぞっとする。", "answer": "だに", "accept": ["だけで"],
+    "translation_vi": "Chuyện con bị lạc, chỉ tưởng tượng thôi đã thấy rùng mình."},
+   {"sentence_ja": "まさか自分が社長になるとは、夢＿＿思わなかった。", "answer": "だに", "accept": ["にも", "にだに"],
+    "translation_vi": "Tôi chưa từng nghĩ, dù chỉ trong mơ, rằng mình sẽ trở thành giám đốc."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "借金が返せなくなったらと考える（　　）、夜も眠れない。",
+    "options": ["とは", "だに", "ものを", "べく"], "answer_index": 1,
+    "explanation_vi": "Điền 「だに」: 考えるだに nghĩa là chỉ nghĩ đến thôi đã lo đến mất ngủ. とは, ものを, べく không hợp nghĩa. Nghĩa: Chỉ nghĩ đến chuyện không trả nổi nợ thôi, tôi đã mất ngủ cả đêm."},
+   {"type": "MEANING", "prompt_ja": "あんな高い所から落ちたらと、想像するだに足がすくむ。",
+    "options": ["Tôi từng tưởng tượng mình rơi từ chỗ cao như thế mà không sợ.", "Càng lên cao tôi càng thấy chân run.", "Tôi đã ngã từ chỗ cao như thế nên chân bị thương.", "Chỉ tưởng tượng cảnh rơi từ chỗ cao như thế thôi đã thấy chân run."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜だに (chỉ cần... thôi đã thấy): \"Chỉ tưởng tượng cảnh rơi từ chỗ cao như thế thôi đã thấy chân run.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["失敗した時のことは、考えるだに気が重い。", "あの日の地震は、思い出すだに体が震える。", "このケーキは、見るだにおいしそうだ。", "まさか自分が社長になるとは、夢だに思わなかった。"], "answer_index": 2,
+    "explanation_vi": "「このケーキは、見るだにおいしそうだ。」 sai: だに không đi với động từ tùy ý như 見る và thường nói cảm xúc nặng nề như sợ hãi, đau lòng. Câu đúng: このケーキは、見るからにおいしそうだ。"}
+  ]
+ },
+ "JG-1056242cda": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "彼が乗っている車は、一台二千万円（　　）高級車だ。",
+    "options": ["からして", "からといって", "からある", "からする"], "answer_index": 3,
+    "explanation_vi": "Điền 「からする」: số tiền + からする nhấn mạnh giá rất cao, ít nhất là mức đó. からある dùng cho kích thước, trọng lượng; からして, からといって không hợp nghĩa. Nghĩa: Chiếc xe anh ấy đi là xe sang giá từ hai mươi triệu yên trở lên."},
+   {"type": "FILL", "prompt_ja": "この腕時計は百万円（　　）そうだ。",
+    "options": ["からなる", "からする", "からには", "からといって"], "answer_index": 1,
+    "explanation_vi": "Điền 「からする」: nói giá trị cao, từ một triệu yên trở lên. からなる là 'gồm có'; からには, からといって cần vế sau. Nghĩa: Nghe nói chiếc đồng hồ đeo tay này có giá từ một triệu yên trở lên."},
+   {"type": "ORDER_STAR", "prompt_ja": "社長は出張で＿＿ ＿＿ ★ ＿＿泊まった。",
+    "options": ["ホテルに", "一泊", "する", "十万円から"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: 社長は出張で一泊十万円からするホテルに泊まった。 (Đi công tác, giám đốc ở khách sạn giá từ mười vạn yên một đêm trở lên.). Mảnh ở ô ★ là 「する」."},
+   {"type": "ORDER_STAR", "prompt_ja": "このワインは＿＿ ★ ＿＿ ＿＿。",
+    "options": ["らしい", "からする", "一本", "五十万円"], "answer_index": 3,
+    "explanation_vi": "Câu đúng: このワインは一本五十万円からするらしい。 (Nghe đâu chai rượu vang này giá từ năm mươi vạn yên một chai trở lên.). Mảnh ở ô ★ là 「五十万円」."},
+   {"type": "MEANING", "prompt_ja": "彼女は一着三十万円からするドレスを何着も持っている。",
+    "options": ["Cô ấy có nhiều chiếc váy, mỗi chiếc giá chưa đến ba mươi vạn yên.", "Cô ấy có nhiều chiếc váy, mỗi chiếc giá từ ba mươi vạn yên trở lên.", "Cô ấy đã bán nhiều chiếc váy với giá ba mươi vạn yên.", "Cô ấy tiết kiệm ba mươi vạn yên để mua một chiếc váy."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜からする (giá từ... trở lên): \"Cô ấy có nhiều chiếc váy, mỗi chiếc giá từ ba mươi vạn yên trở lên.\""},
+   {"type": "MEANING", "prompt_ja": "有名な画家の作品なので、小さな絵でも五百万円からする。",
+    "options": ["Vì là tác phẩm của họa sĩ nổi tiếng nên dù là bức tranh nhỏ cũng có giá từ năm triệu yên trở lên.", "Dù là họa sĩ nổi tiếng nhưng tranh nhỏ chỉ bán được năm triệu yên.", "Họa sĩ nổi tiếng đã vẽ bức tranh nhỏ này với chi phí năm triệu yên.", "Tranh nhỏ của họa sĩ nổi tiếng được bán từ năm triệu yên trở xuống."], "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜からする (giá từ... trở lên): \"Vì là tác phẩm của họa sĩ nổi tiếng nên dù là bức tranh nhỏ cũng có giá từ năm triệu yên trở lên.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼女が持っているバッグは、百万円からするそうだ。", "駅前の寿司屋は、一人二万円からする高級店だ。", "このボールペンは百円からする高級品だ。", "社長は出張で一泊十万円からするホテルに泊まった。"], "answer_index": 2,
+    "explanation_vi": "「このボールペンは百円からする高級品だ。」 sai: からする chỉ dùng với số tiền lớn để nhấn mạnh giá cao; một trăm yên là giá rẻ. Câu đúng: このボールペンは十万円からする高級品だ。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["このワインは一本五十万円からするらしい。", "彼が乗っている車は、一台二千万円からする高級車だ。", "有名な画家の作品なので、小さな絵でも五百万円からする。", "このスイカは重さが十キロからする。"], "answer_index": 3,
+    "explanation_vi": "「このスイカは重さが十キロからする。」 sai: からする chỉ dùng cho giá tiền; trọng lượng, kích thước dùng からある. Câu đúng: このスイカは重さが十キロからある。"}
+  ],
+  "order_items": [
+   {"pieces": ["そうだ。", "一億円", "駅前のマンションは", "からする", "一部屋"], "answer_order": [2, 4, 1, 3, 0],
+    "translation_vi": "Nghe nói căn hộ trước ga có giá từ một trăm triệu yên một căn trở lên."},
+   {"pieces": ["壊してしまった。", "機械を", "数百万円から", "する"], "answer_order": [2, 3, 1, 0],
+    "translation_vi": "Tôi đã làm hỏng cái máy giá đến mấy triệu yên."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "このバイオリンは一億円から＿＿名器だ。", "answer": "する",
+    "translation_vi": "Cây vĩ cầm này là cây đàn quý giá từ một trăm triệu yên trở lên."},
+   {"sentence_ja": "その治療費は一回五十万円＿＿するという。", "answer": "から",
+    "translation_vi": "Nghe nói chi phí điều trị đó mỗi lần từ năm mươi vạn yên trở lên."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "あのレストランのコース料理は、一人五万円（　　）。",
+    "options": ["からある", "からすると", "からする", "からなる"], "answer_index": 2,
+    "explanation_vi": "Điền 「からする」: nói giá rất cao, từ năm vạn yên mỗi người trở lên. からある dùng cho kích thước, trọng lượng; からすると cần vế sau; からなる là 'gồm có'. Nghĩa: Thực đơn theo set ở nhà hàng đó từ năm vạn yên mỗi người trở lên."},
+   {"type": "MEANING", "prompt_ja": "一個三千円からするメロンが、飛ぶように売れている。",
+    "options": ["Dưa lưới chỉ ba nghìn yên một quả nên bán rất chạy.", "Dưa lưới bán được ba nghìn quả mỗi ngày.", "Dưa lưới bán chạy đến mức giá tăng lên ba nghìn yên.", "Những quả dưa lưới giá từ ba nghìn yên trở lên đang bán đắt như tôm tươi."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜からする (giá từ... trở lên): \"Những quả dưa lưới giá từ ba nghìn yên trở lên đang bán đắt như tôm tươi.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["日本に住む外国人は、二百万人からする。", "この腕時計は百万円からするそうだ。", "あのレストランのコース料理は、一人五万円からする。", "このバイオリンは一億円からする名器だ。"], "answer_index": 0,
+    "explanation_vi": "「日本に住む外国人は、二百万人からする。」 sai: からする chỉ dùng cho giá tiền; số người dùng からの. Câu đúng: 日本には二百万人からの外国人が住んでいる。"}
+  ]
+ },
+ "JG-e7030da81f": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "バスがなければ、タクシーで行く（　　）。",
+    "options": ["までもない", "ことはない", "までだ", "どころではない"], "answer_index": 2,
+    "explanation_vi": "Điền 「までだ」: Vる + までだ nói nếu cách này không được thì chỉ việc làm cách khác. までもない, ことはない là 'không cần'; どころではない là 'không phải lúc'. Nghĩa: Không có xe buýt thì đi taxi thôi."},
+   {"type": "FILL", "prompt_ja": "反対されても、自分が正しいと思う道を進む（　　）。",
+    "options": ["かねない", "っこない", "までもない", "までだ"], "answer_index": 3,
+    "explanation_vi": "Điền 「までだ」: thể hiện quyết tâm, dù bị phản đối thì cứ đi con đường mình cho là đúng. かねない, っこない không đi sau Vる; までもない là 'không cần'. Nghĩa: Dù bị phản đối, tôi cứ đi theo con đường mình cho là đúng thôi."},
+   {"type": "ORDER_STAR", "prompt_ja": "誰も手伝ってくれないなら、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["やる", "までだ", "自分", "一人で"], "answer_index": 0,
+    "explanation_vi": "Câu đúng: 誰も手伝ってくれないなら、自分一人でやるまでだ。 (Nếu không ai giúp thì tôi tự làm một mình thôi.). Mảnh ở ô ★ là 「やる」."},
+   {"type": "ORDER_STAR", "prompt_ja": "試験に落ちたら、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["受け直す", "来年の", "までだ", "試験を"], "answer_index": 3,
+    "explanation_vi": "Câu đúng: 試験に落ちたら、来年の試験を受け直すまでだ。 (Nếu trượt thì tôi thi lại vào kỳ thi năm sau thôi.). Mảnh ở ô ★ là 「試験を」."},
+   {"type": "MEANING", "prompt_ja": "会社が認めてくれないなら、辞めるまでだ。",
+    "options": ["Tôi sẽ làm việc cho đến khi công ty chấp nhận.", "Nếu công ty không chấp nhận thì tôi nghỉ việc thôi.", "Dù công ty không chấp nhận, tôi cũng không nghỉ việc.", "Tôi đã nghỉ việc chỉ vì công ty không chấp nhận."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vる + までだ (chỉ còn cách làm vậy thôi): \"Nếu công ty không chấp nhận thì tôi nghỉ việc thôi.\""},
+   {"type": "MEANING", "prompt_ja": "道が分からなければ、人に聞くまでのことだ。",
+    "options": ["Không biết đường thì tôi sẽ cứ đi cho đến khi tìm ra.", "Người ta hỏi đường tôi nhưng tôi không biết.", "Đã biết đường thì không cần phải hỏi người khác.", "Nếu không biết đường thì chỉ việc hỏi người khác thôi."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vる + までのことだ (chỉ việc làm vậy thôi): \"Nếu không biết đường thì chỉ việc hỏi người khác thôi.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["お礼はいりません。当然のことをするまでです。", "電車が止まっていたら、歩いて行くまでだ。", "バスがなければ、タクシーで行くまでだ。", "会社が認めてくれないなら、辞めるまでだ。"], "answer_index": 0,
+    "explanation_vi": "「お礼はいりません。当然のことをするまでです。」 sai: giải thích việc đã làm xong (chỉ làm điều đương nhiên thôi) phải dùng Vた + までだ. Câu đúng: お礼はいりません。当然のことをしたまでです。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["道が分からなければ、人に聞くまでのことだ。", "今回の面接がだめなら、また別の会社に応募するまでだ。", "駅に着くまでだ、本を読んでいた。", "誰も手伝ってくれないなら、自分一人でやるまでだ。"], "answer_index": 2,
+    "explanation_vi": "「駅に着くまでだ、本を読んでいた。」 sai: までだ không mang nghĩa 'cho đến khi'; muốn nói khoảng thời gian thì chỉ dùng まで. Câu đúng: 駅に着くまで、本を読んでいた。"}
+  ],
+  "order_items": [
+   {"pieces": ["コンビニで", "店が閉まっていたら、", "までだ。", "買う"], "answer_order": [1, 0, 3, 2],
+    "translation_vi": "Nếu cửa hàng đóng cửa thì mua ở cửa hàng tiện lợi thôi."},
+   {"pieces": ["計画を変える", "ことだ。", "許可が出ないなら、", "までの"], "answer_order": [2, 0, 3, 1],
+    "translation_vi": "Nếu không được cấp phép thì chỉ việc thay đổi kế hoạch thôi."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "就職できなかったら、自分で会社を作る＿＿。", "answer": "までだ", "accept": ["までのことだ"],
+    "translation_vi": "Nếu không xin được việc thì tôi tự lập công ty thôi."},
+   {"sentence_ja": "電話がつながらないなら、直接会いに行く＿＿のことだ。", "answer": "まで",
+    "translation_vi": "Nếu gọi điện không được thì chỉ việc đến gặp trực tiếp thôi."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "頼んでも直してくれないなら、自分で直す（　　）。",
+    "options": ["始末だ", "までだ", "までもない", "ことなしに"], "answer_index": 1,
+    "explanation_vi": "Điền 「までだ」: nếu nhờ không được thì chỉ việc tự sửa. 始末だ nói kết cục xấu đã xảy ra, không đi với điều kiện なら; までもない là 'không cần'; ことなしに cần vế sau. Nghĩa: Nhờ mà không sửa cho thì tôi tự sửa thôi."},
+   {"type": "MEANING", "prompt_ja": "手術しか方法がないなら、手術を受けるまでだ。",
+    "options": ["Nếu chỉ còn cách phẫu thuật thì tôi chấp nhận phẫu thuật thôi.", "Tôi sẽ chờ cho đến khi được phẫu thuật.", "Vẫn còn cách khác nên không cần phẫu thuật.", "Tôi chỉ phẫu thuật vì bác sĩ bảo vậy thôi."], "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vる + までだ (chỉ còn cách làm vậy thôi): \"Nếu chỉ còn cách phẫu thuật thì tôi chấp nhận phẫu thuật thôi.\""},
+   {"type": "ORDER_STAR", "prompt_ja": "飛行機が飛ばないなら、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["までだ", "最終に", "新幹線の", "乗る"], "answer_index": 3,
+    "explanation_vi": "Câu đúng: 飛行機が飛ばないなら、新幹線の最終に乗るまでだ。 (Nếu máy bay không cất cánh thì tôi đi chuyến tàu Shinkansen cuối cùng thôi.). Mảnh ở ô ★ là 「乗る」."}
+  ]
+ },
+ "JG-7741b551bb": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "道に迷っている人がいたので、案内し（　　）です。",
+    "options": ["てまで", "ながら", "たまで", "たきり"], "answer_index": 2,
+    "explanation_vi": "Điền 「たまで」: Vた + までです giải thích việc đã làm chỉ đơn giản vậy thôi. てまで, ながら không đứng trước です như vậy; たきり là 'từ đó đến giờ không...'. Nghĩa: Thấy có người lạc đường nên tôi chỉ dẫn đường thôi."},
+   {"type": "FILL", "prompt_ja": "昨日の会議では、ただ事実を（　　）までです。",
+    "options": ["述べよう", "述べた", "述べて", "述べ"], "answer_index": 1,
+    "explanation_vi": "Điền 「述べた」: nói về việc đã làm trong cuộc họp hôm qua nên dùng Vた + までです. 述べよう, 述べて, 述べ không nối với までです. Nghĩa: Trong cuộc họp hôm qua, tôi chỉ trình bày sự thật thôi."},
+   {"type": "ORDER_STAR", "prompt_ja": "誤解しないでください。＿＿ ＿＿ ★ ＿＿。",
+    "options": ["一言", "までです", "注意した", "気になったので"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: 誤解しないでください。気になったので一言注意したまでです。 (Xin đừng hiểu lầm. Tôi thấy để ý nên chỉ nhắc một câu thôi.). Mảnh ở ô ★ là 「注意した」."},
+   {"type": "ORDER_STAR", "prompt_ja": "責めるつもりはなく、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["ことです", "聞いた", "確認のために", "までの"], "answer_index": 1,
+    "explanation_vi": "Câu đúng: 責めるつもりはなく、確認のために聞いたまでのことです。 (Tôi không có ý trách móc, chỉ hỏi để xác nhận thôi.). Mảnh ở ô ★ là 「聞いた」."},
+   {"type": "MEANING", "prompt_ja": "褒められるようなことではありません。仕事としてやったまでです。",
+    "options": ["Không có gì đáng khen. Tôi sẽ làm cho đến khi xong việc.", "Không có gì đáng khen. Nếu là công việc thì sau này tôi cũng sẽ làm.", "Không có gì đáng khen đâu. Tôi chỉ làm vì đó là công việc thôi.", "Không có gì đáng khen. Tôi vừa mới làm xong việc."], "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu Vた + までだ (chỉ làm vậy thôi): \"Không có gì đáng khen đâu. Tôi chỉ làm vì đó là công việc thôi.\""},
+   {"type": "MEANING", "prompt_ja": "君の作品が一番よかったから、そう言ったまでだよ。",
+    "options": ["Tác phẩm của cậu tốt nhất nên tôi chỉ nói vậy thôi.", "Tôi sẽ nói cho đến khi tác phẩm của cậu tốt nhất.", "Nếu tác phẩm của cậu tốt nhất thì tôi sẽ nói vậy.", "Tôi nói vậy để tác phẩm của cậu được chọn là tốt nhất."], "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vた + までだ (chỉ làm vậy thôi): \"Tác phẩm của cậu tốt nhất nên tôi chỉ nói vậy thôi.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["お礼には及びません。当たり前のことをしたまでです。", "道に迷っている人がいたので、案内したまでです。", "別に怒っているわけではなく、事実を指摘したまでだ。", "明日もし雨なら、家で休んだまでだ。"], "answer_index": 3,
+    "explanation_vi": "「明日もし雨なら、家で休んだまでだ。」 sai: Vたまでだ giải thích việc đã làm; nói cách làm sắp tới khi có điều kiện thì dùng Vるまでだ. Câu đúng: 明日もし雨なら、家で休むまでだ。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["君の作品が一番よかったから、そう言ったまでだよ。", "母が帰ってきたまで、ずっとテレビを見ていた。", "私は、自分が正しいと思ったことを言ったまでのことです。", "誤解しないでください。気になったので一言注意したまでです。"], "answer_index": 1,
+    "explanation_vi": "「母が帰ってきたまで、ずっとテレビを見ていた。」 sai: たまで(だ) nghĩa là 'chỉ làm vậy thôi', không dùng để chỉ mốc thời gian 'cho đến khi'; mốc thời gian dùng Vる + まで. Câu đúng: 母が帰ってくるまで、ずっとテレビを見ていた。"}
+  ],
+  "order_items": [
+   {"pieces": ["手伝った", "までです。", "頼まれたから"], "answer_order": [2, 0, 1],
+    "translation_vi": "Tôi chỉ giúp vì được nhờ thôi."},
+   {"pieces": ["従った", "までの", "上司の指示に", "ことだ。"], "answer_order": [2, 0, 1, 3],
+    "translation_vi": "Tôi chỉ làm theo chỉ thị của cấp trên thôi."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "感謝されるほどのことはしていない。席を譲った＿＿だ。", "answer": "まで", "accept": ["だけ"],
+    "translation_vi": "Tôi chẳng làm gì đáng để được cảm ơn. Chỉ nhường ghế thôi."},
+   {"sentence_ja": "悪気はなかった。冗談を言った＿＿のことだ。", "answer": "まで", "accept": ["だけ"],
+    "translation_vi": "Tôi không có ác ý. Chỉ là nói đùa thôi."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "偉そうに聞こえたなら謝ります。思ったことを（　　）までです。",
+    "options": ["言って", "言わ", "言った", "言おう"], "answer_index": 2,
+    "explanation_vi": "Điền 「言った」: giải thích lời đã nói nên dùng Vた + までです. 言って, 言わ, 言おう không nối với までです. Nghĩa: Nếu nghe có vẻ kiêu ngạo thì tôi xin lỗi. Tôi chỉ nói điều mình nghĩ thôi."},
+   {"type": "MEANING", "prompt_ja": "頼まれたから来たまでで、特に用事があるわけではない。",
+    "options": ["Tôi đến đây vì có việc riêng chứ không phải được nhờ.", "Tôi sẽ ở đây cho đến khi có việc.", "Nếu được nhờ thì tôi sẽ đến.", "Tôi chỉ đến vì được nhờ thôi, chứ chẳng có việc gì đặc biệt."], "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vた + までだ (chỉ làm vậy thôi): \"Tôi chỉ đến vì được nhờ thôi, chứ chẳng có việc gì đặc biệt.\""},
+   {"type": "ORDER_STAR", "prompt_ja": "特別な理由はない。＿＿ ＿＿ ★ ＿＿。",
+    "options": ["までだ", "寄った", "通ったので", "近くを"], "answer_index": 1,
+    "explanation_vi": "Câu đúng: 特別な理由はない。近くを通ったので寄ったまでだ。 (Không có lý do gì đặc biệt. Tôi đi ngang qua gần đây nên ghé vào thôi.). Mảnh ở ô ★ là 「寄った」."}
+  ]
+ },
+ "JG-bffc8b1969": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "どんなに高価な時計でも、なくしてしまえば（　　）。",
+    "options": ["それなのに", "それからだ", "それまでに", "それまでだ"], "answer_index": 3,
+    "explanation_vi": "Điền 「それまでだ」: Vば + それまでだ nói nếu điều đó xảy ra thì mọi thứ coi như hết. それなのに, それまでに cần vế sau; それからだ là 'sau đó mới'. Nghĩa: Dù là đồng hồ đắt tiền đến đâu, làm mất rồi thì cũng coi như hết."},
+   {"type": "FILL", "prompt_ja": "一生懸命練習しても、本番で緊張して失敗したら（　　）。",
+    "options": ["それほどだ", "それまでだ", "それだけに", "それどころか"], "answer_index": 1,
+    "explanation_vi": "Điền 「それまでだ」: Vたら + それまでだ nói nếu thất bại thì mọi công sức luyện tập đều vô ích. それほどだ, それだけに, それどころか không hợp nghĩa. Nghĩa: Dù luyện tập chăm chỉ, nếu lúc thi thật căng thẳng mà thất bại thì cũng coi như mất hết."},
+   {"type": "ORDER_STAR", "prompt_ja": "いくら才能があっても、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["までだ", "努力", "それ", "しなければ"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: いくら才能があっても、努力しなければそれまでだ。 (Dù có tài năng đến đâu, không nỗ lực thì cũng chẳng đi đến đâu.). Mảnh ở ô ★ là 「それ」."},
+   {"type": "ORDER_STAR", "prompt_ja": "データを保存しておかないと、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["停電が", "それ", "起きたら", "までだ"], "answer_index": 2,
+    "explanation_vi": "Câu đúng: データを保存しておかないと、停電が起きたらそれまでだ。 (Nếu không lưu dữ liệu sẵn thì khi mất điện là coi như mất hết.). Mảnh ở ô ★ là 「起きたら」."},
+   {"type": "MEANING", "prompt_ja": "試験に合格しても、入学手続きを忘れたらそれまでだ。",
+    "options": ["Dù có thi đỗ, phải làm thủ tục nhập học trước thời điểm đó.", "Dù có thi đỗ, nếu quên làm thủ tục nhập học thì cũng coi như mất hết.", "Thi đỗ rồi thì không cần làm thủ tục nhập học nữa.", "Đến lúc thi đỗ thì tôi đã quên làm thủ tục nhập học."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜ば/たら それまでだ (nếu vậy thì coi như hết): \"Dù có thi đỗ, nếu quên làm thủ tục nhập học thì cũng coi như mất hết.\""},
+   {"type": "MEANING", "prompt_ja": "結婚式の写真も、データが消えてしまえばそれまでだ。",
+    "options": ["Ảnh cưới được lưu giữ cho đến khi dữ liệu bị xóa.", "Phải xóa dữ liệu ảnh cưới trước thời điểm đó.", "Ngay cả ảnh cưới, một khi dữ liệu bị mất thì cũng coi như hết.", "Nhờ còn ảnh cưới nên dữ liệu bị mất cũng không sao."], "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜ば/たら それまでだ (nếu vậy thì coi như hết): \"Ngay cả ảnh cưới, một khi dữ liệu bị mất thì cũng coi như hết.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["どんなに立派な計画を立てても、実行しなければそれまでだ。", "どんなに高価な時計でも、なくしてしまえばそれまでだ。", "いくら才能があっても、努力しなければそれまでだ。", "会議は三時からなので、それまでだ資料を準備してください。"], "answer_index": 3,
+    "explanation_vi": "「会議は三時からなので、それまでだ資料を準備してください。」 sai: nói 'trước thời điểm đó' phải dùng それまでに; それまでだ nghĩa là 'coi như hết' và đứng cuối câu. Câu đúng: 会議は三時からなので、それまでに資料を準備してください。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["健康だけが取り柄の人でも、無理を続けて倒れたらそれまでだ。", "毎日運動を続ければそれまでだ。だから健康になれる。", "データを保存しておかないと、停電が起きたらそれまでだ。", "結婚式の写真も、データが消えてしまえばそれまでだ。"], "answer_index": 1,
+    "explanation_vi": "「毎日運動を続ければそれまでだ。だから健康になれる。」 sai: それまでだ nói hậu quả xấu, mọi thứ trở nên vô ích; không dùng cho kết quả tốt. Câu đúng: 毎日運動を続ければ健康になれる。"}
+  ],
+  "order_items": [
+   {"pieces": ["それまでだ。", "落としたら", "無理をして", "命を"], "answer_order": [2, 3, 1, 0],
+    "translation_vi": "Cố quá sức mà mất mạng thì coi như hết."},
+   {"pieces": ["失えば", "客の", "それまでだ。", "信用を"], "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Một khi đánh mất lòng tin của khách hàng thì coi như hết."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "どんなに良い商品でも、売れなければ＿＿だ。", "answer": "それまで",
+    "translation_vi": "Dù là sản phẩm tốt đến đâu, không bán được thì cũng vô ích."},
+   {"sentence_ja": "せっかく作った料理も、焦がしてしまえばそれ＿＿だ。", "answer": "まで",
+    "translation_vi": "Món ăn mất công nấu, để cháy rồi thì cũng coi như bỏ."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "立派な家を建てても、地震で壊れたら（　　）。",
+    "options": ["それまでだ", "それまでに", "それにしても", "それでこそ"], "answer_index": 0,
+    "explanation_vi": "Điền 「それまでだ」: Vたら + それまでだ nói nếu nhà bị sập thì mọi thứ coi như hết. それまでに, それにしても, それでこそ đều cần vế sau và không hợp nghĩa. Nghĩa: Dù xây nhà khang trang, động đất làm sập thì cũng coi như hết."},
+   {"type": "MEANING", "prompt_ja": "約束を一度でも破ったら、それまでだと思いなさい。",
+    "options": ["Hãy giữ lời hứa cho đến lúc đó.", "Hãy nghĩ rằng chỉ cần thất hứa một lần thôi là coi như hết.", "Thất hứa một lần thì không sao, hãy nghĩ thoáng lên.", "Hãy suy nghĩ kỹ trước khi hứa với ai."], "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜たら それまでだ (nếu vậy thì coi như hết): \"Hãy nghĩ rằng chỉ cần thất hứa một lần thôi là coi như hết.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["夕方まで待って、彼が来なければそれまでだ。", "失敗したれば、それまでだ。", "客の信用を失えばそれまでだ。", "無理をして命を落としたらそれまでだ。"], "answer_index": 1,
+    "explanation_vi": "「失敗したれば、それまでだ。」 sai: trước それまでだ dùng thể ば (失敗すれば) hoặc thể たら (失敗したら); 「したれば」 là chia sai. Câu đúng: 失敗すれば、それまでだ。"}
+  ]
+ }
+}
