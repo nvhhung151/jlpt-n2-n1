@@ -1,0 +1,794 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "合同＜する＞",
+    "meaning_vi": "liên hợp; chung; kết hợp",
+    "reading": "ごうどう＜する＞",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-21ecc4ef10"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A社は求人案内に「大学引率が望ましい」と書いてあった。",
+      "vi": "Thông báo tuyển dụng của công ty A ghi: \"Ưu tiên người tốt nghiệp đại học\"."
+     },
+     {
+      "ja": "これ以上解決を先に延ばすのは望ましくない。",
+      "vi": "Việc tiếp tục trì hoãn giải quyết là điều không mong muốn."
+     }
+    ],
+    "expression": "望ましい",
+    "meaning_vi": "nên có; lý tưởng; được mong muốn",
+    "reading": "のぞましい",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1c3da89528"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "好ましい",
+    "meaning_vi": "đáng mong muốn; được ưa chuộng; đáng mến",
+    "reading": "このましい",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-44a4e194cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "せめて日曜日くらいはゆっくり休みたい。",
+      "vi": "Ít nhất thì cũng muốn chủ nhật được nghỉ ngơi thong thả."
+     },
+     {
+      "ja": "会えないときは、せめて声だけでも聞きたい。",
+      "vi": "Không gặp được thì ít nhất cũng muốn nghe giọng."
+     },
+     {
+      "ja": "給料はせめて15万円は欲しい。",
+      "vi": "Tôi muốn lương ít nhất cũng 150.000 yên."
+     }
+    ],
+    "expression": "せめて",
+    "meaning_vi": "ít ra thì; ít nhất; tối thiểu là",
+    "reading": "せめて",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f3e0faf630"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "内定＜する＞",
+    "meaning_vi": "quyết định tuyển dụng sơ bộ; nhận thông báo trúng tuyển",
+    "reading": "ないてい＜する＞",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a13e190582"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "辞退＜する＞",
+    "meaning_vi": "từ chối (một cách khiêm nhường); từ chối",
+    "reading": "じたい＜する＞",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-65b615b562"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "入社＜する＞",
+    "meaning_vi": "vào công ty; vào công ty làm việc",
+    "reading": "にゅうしゃ＜する＞",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-604f1ef8ee"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "心得る",
+    "meaning_vi": "nắm rõ; hiểu ý; thấu hiểu",
+    "reading": "こころえる",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-cdfd0921db"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「新入社員の皆さん、社会人としての自覚を持って働いてください。」",
+      "vi": "\"Tất cả các nhân viên mới hãy tự ý thức mình là người trưởng thành và làm việc.\""
+     },
+     {
+      "ja": "自分の立場を自覚して行動する。",
+      "vi": "Tự ý thức lập trường của bản thân và hành động."
+     },
+     {
+      "ja": "この病気は、初期の頃は自覚症状がない。",
+      "vi": "Với căn bệnh này, thời kỳ đầu không có triệu chứng tự phát."
+     }
+    ],
+    "expression": "自覚＜する＞",
+    "meaning_vi": "tự ý thức; tự giác; tự nhận thức",
+    "reading": "じかく＜する＞",
+    "topic_vi": "Tìm việc, việc làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-666d86518f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大企業",
+    "meaning_vi": "doanh nghiệp lớn",
+    "reading": "だいきぎょう",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-86fff05add"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大手",
+    "meaning_vi": "",
+    "reading": "おおて",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c616c278f3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "民間",
+    "meaning_vi": "dân gian; tư nhân",
+    "reading": "みんかん",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b9e38e8c8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "従業員",
+    "meaning_vi": "nhân viên",
+    "reading": "じゅうぎょういん",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d3dc6618f6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "新入社員",
+    "meaning_vi": "nhân viên mới",
+    "reading": "しんにゅうしゃいん",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7903d07740"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "派遣社員",
+    "meaning_vi": "nhân viên do công ty phái cử cung ứng; nhân viên phái cử",
+    "reading": "はけんしゃいん",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9383f71ecc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "オーナー",
+    "meaning_vi": "người chủ",
+    "reading": "おーなー",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d7c7676c3f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "重役",
+    "meaning_vi": "thành viên ban lãnh đạo; lãnh đạo cấp cao; giám đốc điều hành",
+    "reading": "じゅうやく",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7160efe78e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "出世もしたいが、仕事ばかりの人生も嫌だ。",
+      "vi": "Dù thành đạt nhưng nếu cuộc sống toàn là công việc thì cũng chán."
+     },
+     {
+      "ja": "同期の中で、山口さんが一番出世が早い。",
+      "vi": "Trong những người cùng thời kì thì anh Yamaguchi là người thành đạt nhất."
+     }
+    ],
+    "expression": "出世＜する＞",
+    "meaning_vi": "thăng tiến; làm nên sự nghiệp; sự thăng tiến",
+    "reading": "しゅっせ＜する＞",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-467a42a589"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "昇進＜する＞",
+    "meaning_vi": "thăng chức",
+    "reading": "しょうしん＜する＞",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9bb2e43908"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "辞令を受けて東京本社から大阪支社｛へ／に｝赴任した。",
+      "vi": "Sau khi nhận quyết định bổ nhiệm, tôi đã từ trụ sở Tokyo chuyển đến công tác mới tại chi nhánh Osaka."
+     }
+    ],
+    "expression": "赴任＜する＞",
+    "meaning_vi": "đến nhận nhiệm sở; nhậm chức; đến nơi công tác",
+    "reading": "ふにん＜する＞",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e8fa6d1267"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "有給休暇",
+    "meaning_vi": "nghỉ phép có lương; nghỉ có lương",
+    "reading": "ゆうきゅうきゅうか",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-86c10c1972"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "人事",
+    "meaning_vi": "nhân sự",
+    "reading": "じんじ",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-92a774d469"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "我が社には有能な人材が集まっている。",
+      "vi": "Công ty chúng tôi tập trung nhiều người có năng lực."
+     },
+     {
+      "ja": "管理職の仕事は人材を育てることだ。",
+      "vi": "Công việc của người quản lý là đào tạo nhân lực."
+     },
+     {
+      "ja": "他社から人材をスカウトする。",
+      "vi": "Thu hút nhân lực từ công ty khác."
+     }
+    ],
+    "expression": "人材",
+    "meaning_vi": "nhân tài; nguồn nhân lực; nhân sự",
+    "reading": "じんざい",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-661bd39d2a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "注文が増えているのに、人手が足りないので増産できない。",
+      "vi": "Đơn hàng tăng nhưng vì thiếu nhân lực nên không thể tăng sản lượng."
+     },
+     {
+      "ja": "ピラミッドの建設には、どれほどの人手がかかったことだろう。",
+      "vi": "Xây dựng kim tự tháp chắc hẳn đã tiêu tốn một lượng nhân lực khổng lồ."
+     },
+     {
+      "ja": "これくらいの仕事なら、人手を借りなくても、一人でできる。",
+      "vi": "Việc này đơn giản, tôi có thể làm một mình mà không cần nhờ ai."
+     }
+    ],
+    "expression": "人手",
+    "meaning_vi": "nhân lực; người làm; nhân công",
+    "reading": "ひとで",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b991a59b0d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "警備室には、建物内部を映すモニターがある。",
+      "vi": "Trong phòng bảo vệ có màn hình hiển thị bên trong tòa nhà."
+     },
+     {
+      "ja": "パソコンのモニター",
+      "vi": "Màn hình máy tính."
+     },
+     {
+      "ja": "ATM は監視カメラで常にモニターさせている。",
+      "vi": "ATM luôn được giám sát bằng camera."
+     }
+    ],
+    "expression": "モニター",
+    "meaning_vi": "màn hình; người dùng thử; người dùng thử hoặc giám sát",
+    "reading": "もにたー",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-320900a7ce"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "業績",
+    "meaning_vi": "thành tích; kết quả kinh doanh",
+    "reading": "ぎょうせき",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-87320a42b3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会社の方針に沿って、働く。",
+      "vi": "Làm việc theo phương châm của công ty."
+     },
+     {
+      "ja": "将来の方針を定める。",
+      "vi": "Xác định phương hướng tương lai."
+     },
+     {
+      "ja": "子供の教育方針を立てる。",
+      "vi": "Đề ra phương châm giáo dục cho trẻ em."
+     }
+    ],
+    "expression": "方針",
+    "meaning_vi": "phương châm; định hướng; hướng không gian",
+    "reading": "ほうしん",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f0aa771e5f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "売れ行き",
+    "meaning_vi": "tình hình tiêu thụ; tình hình bán hàng; tình hình kinh doanh",
+    "reading": "うれゆき",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-74a4a82464"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "コスト",
+    "meaning_vi": "chi phí",
+    "reading": "こすと",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ec9c4994b4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子供が成人して、ようやく親の責任を果たした。",
+      "vi": "Con cái trưởng thành, cuối cùng cha mẹ cũng hoàn thành trách nhiệm."
+     },
+     {
+      "ja": "友達の約束を果たす。",
+      "vi": "Giữ/hoàn thành lời hứa với bạn."
+     },
+     {
+      "ja": "子供が9階から落ちたが、木がクッションの役割を果たして、骨折で済んだ。",
+      "vi": "Đứa bé rơi từ tầng 9 xuống, nhưng cái cây đóng vai trò như “tấm đệm”, nên chỉ bị gãy xương và vẫn sống."
+     }
+    ],
+    "expression": "果たす",
+    "meaning_vi": "hoàn thành; thực hiện trọn; thực hiện trọn vẹn",
+    "reading": "はたす",
+    "topic_vi": "Công ty",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a2429195d9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は今の仕事に生きがいを感じている。",
+      "vi": "Tôi cảm thấy công việc hiện tại là lẽ sống của mình."
+     },
+     {
+      "ja": "母は子供が生きがいだと言っている。",
+      "vi": "Mẹ tôi nói rằng con cái là lẽ sống của bà."
+     },
+     {
+      "ja": "練習のかいがあって、入賞することができた。",
+      "vi": "Nhờ công luyện tập, tôi đã có thể đạt giải."
+     }
+    ],
+    "expression": "生きがい",
+    "meaning_vi": "mục đích sống; lẽ sống; điều làm cuộc sống đáng sống",
+    "reading": "いきがい",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3d8067df51"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "やりがい",
+    "meaning_vi": "cảm giác đáng làm; giá trị của công việc",
+    "reading": "やりがい",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bb94db9fb3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "アポイント",
+    "meaning_vi": "cuộc hẹn gặp",
+    "reading": "あぽいんと",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9bb81d7c91"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "応対＜する＞",
+    "meaning_vi": "ứng đối; tiếp chuyện; tiếp đón",
+    "reading": "おうたい＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6f372d3292"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "改めて",
+    "meaning_vi": "vào dịp khác; một lần nữa; lại một lần nữa theo cách chính thức hoặc sau khi suy nghĩ",
+    "reading": "あらためて",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a0b9944fce"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "提案の意図を説明した。",
+      "vi": "Tôi đã giải thích mục đích của đề xuất."
+     },
+     {
+      "ja": "この法律は、低所得者層の税負担の軽減を意図して制定された。",
+      "vi": "Luật này được ban hành nhằm giảm gánh nặng thuế cho người thu nhập thấp."
+     }
+    ],
+    "expression": "意図＜する＞",
+    "meaning_vi": "ý đồ; chủ đích; mục đích",
+    "reading": "いと＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2e42c63031"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "裁判で新たな証人が現れた。",
+      "vi": "Một nhân chứng mới đã xuất hiện trong phiên tòa."
+     },
+     {
+      "ja": "新たな｛発見/事実/証拠/気持ち…｝",
+      "vi": "Phát hiện mới / sự thật mới / chứng cứ mới / cảm xúc mới..."
+     },
+     {
+      "ja": "会社に新たにパソコンが導入された。",
+      "vi": "Máy tính mới đã được đưa vào sử dụng trong công ty."
+     }
+    ],
+    "expression": "新たな",
+    "meaning_vi": "mới",
+    "reading": "あらたな",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d8517a4119"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最近は東南アジアとの取り引きが増えた。",
+      "vi": "Gần đây các giao dịch với Đông Nam Á đang gia tăng."
+     },
+     {
+      "ja": "我が社はA社と取り引きがある。",
+      "vi": "Công ty chúng tôi có quan hệ làm ăn với công ty A."
+     },
+     {
+      "ja": "法案を通すため、裏で与党と野党が取り引きをしたようだ。",
+      "vi": "Để thông qua dự luật, đảng cầm quyền và đối lập dường như đã có thỏa thuận ngầm."
+     }
+    ],
+    "expression": "取り引き＜する＞",
+    "meaning_vi": "giao dịch; quan hệ làm ăn; mua bán",
+    "reading": "とりひき＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-13935f42f0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの俳優はどんな役でもうまくこなす。",
+      "vi": "Diễn viên đó thành thục mọi vai diễn."
+     },
+     {
+      "ja": "これだけの仕事量を一人でこなすのは大変だ。",
+      "vi": "Hoàn thành lượng công việc này một mình thì rất vất vả."
+     },
+     {
+      "ja": "｛ノルマ／多量の注文｝をこなす。",
+      "vi": "Hoàn thành (chỉ tiêu sản xuất/ lượng lớn đơn đặt hàng)."
+     }
+    ],
+    "expression": "こなす",
+    "meaning_vi": "xử lý; hoàn thành thành thạo; nắm vững",
+    "reading": "こなす",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9f3d195b81"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この高得点は、今までの努力の成果だ。",
+      "vi": "Có được thành tích cao là thành quả của sự luyện tập bấy lâu nay."
+     },
+     {
+      "ja": "彼は学問の上で輝かしい成果をあげた。",
+      "vi": "Anh đấy đạt được những thành tích sáng ngời trong lĩnh vực học tập."
+     }
+    ],
+    "expression": "成果",
+    "meaning_vi": "thành quả; kết quả／thành quả",
+    "reading": "せいか",
+    "topic_vi": "Công việc",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2e2da85abf"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N2",
+ "packet_id": "VOCAB_MNEMONIC-011"
+}

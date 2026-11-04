@@ -1,0 +1,268 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "高いものが必ずしもいいとは限らない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chưa chắc đã — Không phải lúc nào cũng đúng như vậy.",
+    "pattern": "Thể thường + とは限らない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d6391adf9c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "人生には失敗もあれば成功もある。",
+      "vi": "Trong đời có lúc thất bại cũng có lúc thành công."
+     },
+     {
+      "ja": "この仕事は楽しい時もあれば、大変な時もある。",
+      "vi": "Công việc này có lúc vui cũng có lúc vất vả."
+     }
+    ],
+    "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+    "pattern": "Cả... lẫn...",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b2d86ae21b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このパソコンは軽い。しかも、バッテリーが長持ちする。",
+      "vi": "Chiếc máy tính này nhẹ. Hơn nữa, pin còn rất bền."
+     },
+     {
+      "ja": "彼は若い。しかも経験が豊富だ。",
+      "vi": "Anh ấy trẻ. Đã thế kinh nghiệm còn phong phú."
+     }
+    ],
+    "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+    "pattern": "Hơn nữa, lại còn",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-daf20dc114"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "部屋には本やら服やらが散らかっている。",
+      "vi": "Trong phòng nào là sách nào là quần áo vứt bừa bãi."
+     },
+     {
+      "ja": "朝から電話が鳴るやら来客が来るやらで、全然休めない。",
+      "vi": "Từ sáng nào là điện thoại reo nào là khách tới, chẳng nghỉ được chút nào."
+     }
+    ],
+    "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+    "pattern": "Nào là... nào là...",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e4f12b1fe2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本の食べ物というと、寿司を思い出す。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nói đến là nghĩ ngay — Nghe từ đó là liên tưởng ngay tới điều gì.",
+    "pattern": "N + というと",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-58bec52e00"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "食べられないことはないが、好きではない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Cũng không phải là không — Khẳng định dè dặt, thừa nhận một khả năng nhỏ.",
+    "pattern": "V-ない + ことはない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2211a2d329"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今日中に漢字を１００字覚えるなんて無理だ。できっこない。",
+      "vi": "Trong hôm nay phải nhớ 100 chữ Hán là nhiệm vụ bất khả thi."
+     },
+     {
+      "ja": "こんな話、だれも信じてくれっこないと思う。",
+      "vi": "Tôi nghĩ rằng chắc chắn không ai tin câu chuyện này của tôi đâu."
+     }
+    ],
+    "meaning_vi": "Không thể, nhất định không",
+    "pattern": "〜っこない",
+    "pattern_variants": [
+     "V thể ます (bỏ ます) + っこない"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-71a3367faf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの先生は厳しく指導する一歩で、学生の相談にもよくのってくる。",
+      "vi": "Giáo viên đó chỉ dạy rất khắt khe nhưng cũng thường tư vấn cho học sinh chúng tôi."
+     },
+     {
+      "ja": "高度経済成長は急速な発展の一歩で、深刻な公害問題を引き起こした。",
+      "vi": "Tăng trưởng kinh tế cao là sự phát triển nhanh chóng, mặt khác kéo theo vấn đề ô nhiễm môi trường trầm trọng."
+     }
+    ],
+    "meaning_vi": "Đổi lại, một mặt thì...mặt khác thì...",
+    "pattern": "〜一方(で)",
+    "pattern_variants": [
+     "Thể thường + 一方(で)"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-77adb928c4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会議は毎週月曜に開かれることになっている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Theo quy định là — Nêu quy tắc, lịch trình hoặc thông lệ đã được định sẵn.",
+    "pattern": "V từ điển / V-ない + ことになっている",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3f965c1d06"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "行くにしろ行かないにしろ、前日までに連絡してください。",
+      "vi": "Dù đi hay không đi, hãy liên lạc trước ngày hôm trước."
+     },
+     {
+      "ja": "好きにしろ嫌いにしろ、彼の努力は認めるべきだ。",
+      "vi": "Dù thích hay ghét, cũng nên công nhận nỗ lực của anh ấy."
+     }
+    ],
+    "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+    "pattern": "Dù... hay...",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b574313082"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-013"
+}

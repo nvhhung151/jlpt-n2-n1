@@ -1,0 +1,128 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": {
+    "mnemonic_vi": "たった (chỉ vừa) + 今 (bây giờ): việc chỉ vừa xảy ra trước lúc này một chút, tức là \"vừa mới\".",
+    "confusable_ids": []
+   },
+   "context": {
+    "examples": [],
+    "expression": "たった今",
+    "meaning_vi": "vừa mới",
+    "reading": "たったいま",
+    "topic_vi": "Thời gian",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3d5a1fb007"
+  },
+  {
+   "answer": {
+    "mnemonic_vi": "今にも = \"ngay bây giờ cũng (có thể)\": việc gì đó sắp xảy ra đến nơi, thường đi với 〜そうだ (今にも雨が降りそうだ).",
+    "confusable_ids": []
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "今にも雨が降りそうだ。",
+      "vi": "Trời như sắp mưa đến nơi."
+     },
+     {
+      "ja": "今にも雨が降り出しそうだ。",
+      "vi": "Trời có vẻ sắp mưa bây giờ."
+     }
+    ],
+    "expression": "今にも",
+    "meaning_vi": "sắp sửa đến nơi; sắp sửa",
+    "reading": "いまにも",
+    "topic_vi": "Thời gian",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-dd2ab00729"
+  },
+  {
+   "answer": {
+    "mnemonic_vi": "Đọc gần như \"sắc-ki\": \"Cái túi xắc kia đâu rồi? — Mới để đây lúc nãy (さっき) mà!\"",
+    "confusable_ids": []
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "さっき ごはんを たべた ばかりです。",
+      "vi": "Lúc nãy tôi vừa mới ăn cơm."
+     },
+     {
+      "ja": "さっき昼ごはんを食べたばかりです。",
+      "vi": "Tôi vừa mới ăn trưa xong lúc nãy."
+     }
+    ],
+    "expression": "さっき",
+    "meaning_vi": "lúc nãy",
+    "reading": "さっき",
+    "topic_vi": "Thời gian",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3ef5c54bf6"
+  },
+  {
+   "answer": {
+    "mnemonic_vi": "Chữ 頃 \"khoảnh\" (khoảng thời gian) kết hợp cách đọc このごろ giúp ghi nhớ nghĩa \"thời gian gần đây\".",
+    "confusable_ids": []
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "妹はこのごろ元気がないです。",
+      "vi": "Em gái tôi thời gian gần đây không được khỏe."
+     }
+    ],
+    "expression": "この頃",
+    "meaning_vi": "thời gian gần đây; dạo này",
+    "reading": "このごろ",
+    "topic_vi": "Thời gian",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ac67470ff3"
+  },
+  {
+   "answer": {
+    "mnemonic_vi": "Chữ 間 \"gian\" (thời gian) kết hợp cách đọc このあいだ giúp ghi nhớ nghĩa \"hôm nọ\".",
+    "confusable_ids": []
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "この間、駅で先生に会いました。",
+      "vi": "Vài hôm trước tôi đã gặp thầy giáo ở nhà ga."
+     }
+    ],
+    "expression": "この間",
+    "meaning_vi": "hôm nọ; dạo trước; vài ngày trước",
+    "reading": "このあいだ",
+    "topic_vi": "Thời gian",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-78ced9cde8"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N4",
+ "packet_id": "VOCAB_MNEMONIC-001"
+}

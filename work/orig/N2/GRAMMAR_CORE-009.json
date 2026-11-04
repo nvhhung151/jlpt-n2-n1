@@ -1,0 +1,893 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の説明は、最初の数字からして間違っていた。",
+      "vi": "Phần giải thích của anh ấy sai ngay từ con số đầu tiên."
+     },
+     {
+      "ja": "玄関の飾りからして、この店は細部にこだわっている。",
+      "vi": "Xét ngay từ đồ trang trí ở lối vào cũng thấy cửa hàng này chăm chút từng chi tiết."
+     }
+    ],
+    "meaning_vi": "Ngay từ, xét ngay ở",
+    "pattern": "Ngay từ, xét ngay ở",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-afa0ccc3ab"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "三日間にわたって、町の文化祭が行われた。",
+      "vi": "Lễ hội văn hóa của thị trấn đã diễn ra suốt ba ngày."
+     },
+     {
+      "ja": "大雨の影響は沿岸部の広い範囲にわたって確認された。",
+      "vi": "Ảnh hưởng của mưa lớn được ghi nhận trên một vùng rộng dọc bờ biển."
+     }
+    ],
+    "meaning_vi": "Suốt, trên khắp phạm vi",
+    "pattern": "Suốt, trên khắp phạm vi",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-39ded058ba"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この島では一年を通じて穏やかな風が吹く。",
+      "vi": "Trên hòn đảo này có gió nhẹ suốt cả năm."
+     },
+     {
+      "ja": "共通の友人を通して、設計者を紹介してもらった。",
+      "vi": "Tôi được giới thiệu với nhà thiết kế thông qua một người bạn chung."
+     }
+    ],
+    "meaning_vi": "Thông qua; trong suốt",
+    "pattern": "Thông qua; trong suốt",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9e1fa79a9d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "苦しかったからこそ、今の喜びがある。",
+      "vi": "Chính vì đã khổ cực nên mới có niềm vui hiện tại."
+     },
+     {
+      "ja": "あなたが大切だからこそ、厳しく注意するのです。",
+      "vi": "Chính vì coi trọng bạn nên tôi mới nhắc nhở nghiêm khắc."
+     }
+    ],
+    "meaning_vi": "Nhấn mạnh nguyên nhân mang tính quyết định: “chính vì A nên mới B”. Hàm ý nếu không có A thì khó đạt/không có B; thể hiện lập luận, biện minh mạnh mẽ. Thường dùng để phản biện, khuyến khích, hoặc nêu giá trị tích cực của yếu tố A (nhiều khi A là nghịch cảnh).",
+    "pattern": "Chính vì...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f14c832a6a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "値段が安ければ良いというものでもない。品質も大事だ。",
+      "vi": "Không phải cứ rẻ là tốt; chất lượng cũng quan trọng."
+     },
+     {
+      "ja": "速ければいいというものでもない。安全性が最優先だ。",
+      "vi": "Không phải cứ nhanh là được. An toàn mới là ưu tiên."
+     }
+    ],
+    "meaning_vi": "“Không phải cứ… là … đâu”: Phản biện quan điểm đơn giản hóa (giá rẻ, nhanh, nhiều… là tốt). Ngữ dụng: Dùng trong lập luận, giải thích, phê bình. Thường đi với từ đánh giá như いい／十分／大丈夫／完璧. Tính chuẩn mực: Ngụ ý “điều kiện A chỉ là một phần; cần yếu tố khác”.",
+    "pattern": "Không phải cứ... là được",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f5e07d3a9a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼に本当のことを話そうか話すまいか、ずっと悩んでいる。",
+      "vi": "Tôi lăn tăn mãi có nên nói thật với anh ấy hay không."
+     },
+     {
+      "ja": "就職するか進学するまいか、親と相談して決めるつもりだ。",
+      "vi": "Đi làm hay thôi không học tiếp, tôi định bàn với bố mẹ rồi quyết."
+     }
+    ],
+    "meaning_vi": "Diễn tả sự do dự, lưỡng lự giữa hai lựa chọn “làm hay không làm”. Sắc thái trang trọng hơn VるかVないか; mang màu sắc văn viết/diễn văn. Chủ ngữ thường là người nói hoặc người ra quyết định; diễn tả quá trình cân nhắc. Đôi khi dùng để nêu bối cảnh do dự trước khi quyết định: ～か～まいか、結局…",
+    "pattern": "Làm hay không làm",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f1b83c75bb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "帰れるものなら、今すぐ故郷に帰りたい。",
+      "vi": "Nếu có thể về được thì tôi muốn về quê ngay."
+     },
+     {
+      "ja": "もう一度やり直せるものなら、最初からやり直したい。",
+      "vi": "Nếu có thể làm lại lần nữa, tôi muốn bắt đầu từ đầu."
+     }
+    ],
+    "meaning_vi": "Giả định gần như phi thực (counterfactual/low probability): “nếu mà có thể…/giá như…”. Dùng để bộc lộ mong muốn mạnh mẽ, nuối tiếc, hoặc nêu điều kiện khó đạt. Biến thể thách thức: sắc thái gắt/khích tướng, thường ở văn nói.",
+    "pattern": "Nếu có thể..., nếu như...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9a705e4b3e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "専門家から見ると、この計画には問題点が多い。",
+      "vi": "Từ góc nhìn của chuyên gia, kế hoạch này có nhiều điểm vấn đề."
+     },
+     {
+      "ja": "データから見れば、景気は回復しつつある。",
+      "vi": "Nếu nhìn từ dữ liệu, kinh tế đang dần phục hồi."
+     }
+    ],
+    "meaning_vi": "～から見ると: “Nhìn từ/ nếu xét từ (góc độ/tiêu chí/nguồn thông tin)… thì…”. Biểu thị phán đoán/nhận xét dựa trên một quan điểm hoặc dữ kiện cụ thể. Trọng tâm ở góc nhìn/quan sát (visual/metaphorical). “見る” gợi cảm giác dựa trên thứ có thể quan sát hoặc diễn giải được. Thường dùng với các N chỉ nguồn: データ・統計・専門家・第三者・子どもの目・外部・安全面・コスト面… Biểu thị tính khách quan tương đối; tuy nhiên vẫn là nhận định của người nói dựa trên góc nhìn đã nêu. Biến thể 見れば (giả định), 見ても (nhấn mạnh dù xét từ đó cũng…).",
+    "pattern": "Nhìn từ góc độ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7df1b6b4cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この店は雰囲気からして高級だ。",
+      "vi": "Từ bầu không khí của quán này đã thấy sang chảnh rồi."
+     },
+     {
+      "ja": "彼は服装からしてだらしない。",
+      "vi": "Chỉ nhìn cách ăn mặc thôi đã thấy cẩu thả."
+     }
+    ],
+    "meaning_vi": "Phán đoán dựa trên dấu hiệu nhỏ: “Nhìn vào/Chỉ xét từ N đã thấy…”. Ví dụ: 見た目からして高そうだ。 Nêu ví dụ tiêu biểu, “ngay từ/đến cả N cũng…”, thường hàm ý tiêu cực hoặc bất thường: 彼は挨拶からしてできていない。 Nhấn “điểm khởi đầu” để suy ra tổng thể: Một phần nhỏ đã cho thấy bức tranh lớn. Sắc thái: chủ quan, cảm tính hơn からすると; hay dùng để chê, phàn nàn, nghi ngờ tính đúng đắn.",
+    "pattern": "Nhìn từ..., xét từ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d36cbb33ea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼はもう来るまい。",
+      "vi": "Chắc là anh ấy sẽ không đến nữa."
+     },
+     {
+      "ja": "二度と同じ過ちを繰り返すまいと心に誓った。",
+      "vi": "Thề trong lòng sẽ không lặp lại sai lầm thêm lần nữa."
+     }
+    ],
+    "meaning_vi": "Suy đoán phủ định: “chắc là không/khó mà …” (= ～ないだろう). Văn viết, trang trọng, đôi khi cổ điển. Ý chí phủ định: “quyết không/nhất định không …” khi người nói tự nhủ, thể hiện quyết tâm cao. “～まいと（して）” nghĩa “cố gắng để không …”. “～まいか” dùng như nghi vấn tu từ nhấn mạnh kỳ vọng khẳng định.",
+    "pattern": "Quyết không..., sẽ không...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7bc9d20758"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この足跡からすると、鹿ではなく熊だ。",
+      "vi": "Căn cứ vào dấu chân này, không phải hươu mà là gấu."
+     },
+     {
+      "ja": "症状からすると、インフルエンザの可能性が高い。",
+      "vi": "Dựa vào triệu chứng, khả năng cúm cao."
+     }
+    ],
+    "meaning_vi": "Suy luận: “Căn cứ vào N mà suy ra…”. Ví dụ: 症状からすると風邪だろう。 Lập trường/góc nhìn: “Xét từ phía N thì…”. Ví dụ: 消費者からすると値上げは痛い。 Sắc thái trung tính, lý tính hơn からして; dùng được cho cả kết luận tích cực/tiêu cực. Thường đi kèm phán đoán không chắc chắn: ～だろう／～と思われる／～ようだ。",
+    "pattern": "Theo..., dựa vào...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7b0e2d54b8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お忙しいところを恐れ入りますが、こちらにご署名ください。",
+      "vi": "Xin thứ lỗi vì làm phiền lúc anh/chị đang bận, vui lòng ký vào đây ạ."
+     },
+     {
+      "ja": "会議を始めようとするところを、社長から電話が入った。",
+      "vi": "Đúng lúc chúng tôi định bắt đầu họp thì có điện thoại từ giám đốc."
+     }
+    ],
+    "meaning_vi": "Nghĩa 1: Chỉ thời điểm đúng lúc hành động diễn ra. Nhấn mạnh “trúng thời điểm” (đang/vừa/sắp). Tùy dạng của ところ: - V-るところ: sắp, chuẩn bị - V-ているところ: đang - V-たところ: vừa mới Nghĩa 2: Lịch sự/nhận lỗi khi can thiệp vào tình huống của đối phương. Mẫu: お忙しいところを／お休みのところを／夜分のところを + 失礼しますなど. Nghĩa 3: Nhượng bộ trang trọng “mặc dù/đáng lẽ”. Dùng khi đưa ra phán quyết nhẹ tay, cảm ơn, xin lỗi: 例: 厳しく叱るべきところを、温かい言葉をいただいた。 Sắc thái: Trang trọng hơn ところで/のに. Trong nghĩa nhượng bộ thường thấy trong văn bản chính thức, biên bản, phát biểu.",
+    "pattern": "Trong lúc..., mặc dù... (trái hoàn cảnh)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-3bc8201ece"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "連休初日とあって、空港はどこも混雑している。",
+      "vi": "Vì là ngày đầu kỳ nghỉ dài nên sân bay đâu đâu cũng đông đúc."
+     },
+     {
+      "ja": "有名店の閉店とあって、朝から長い列ができた。",
+      "vi": "Vì là việc đóng cửa của cửa hàng nổi tiếng nên từ sáng đã có hàng dài."
+     }
+    ],
+    "meaning_vi": "Lý do mang tính “đặc thù/đáng chú ý” dẫn đến kết quả tự nhiên được quan sát. Giọng tường thuật/khách quan; không phù hợp khi nêu ý chí/yêu cầu của người nói. Thường dùng trong tin tức, bài viết, bình luận hiện tượng xã hội.",
+    "pattern": "Vì..., bởi vì... (đặc biệt)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0bf3d32913"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "博士でも間違うことはありえる。",
+      "vi": "Cho dù có là tiến sĩ cũng có thể nhầm lẫn."
+     },
+     {
+      "ja": "これが私の知りうるすべての情報です。",
+      "vi": "Đây là tất cả thông tin mà tôi có thể biết."
+     }
+    ],
+    "meaning_vi": "Có thể ~ / Trong phạm vi có thể ~",
+    "pattern": "〜ありえる/ありうる",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-30ef427f2b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "大変な仕事でも、やり抜く自信があります。",
+      "vi": "Cho dẫu là công việc vất vả, tôi tin sẽ làm được tới cùng."
+     },
+     {
+      "ja": "彼はあきらめずにゴールまで走り抜いた。",
+      "vi": "Anh ấy không từ bỏ mà cố chạy tới đích."
+     }
+    ],
+    "meaning_vi": "Làm xong tất cả và trọn vẹn một quá trình hay một hành động. Nhấn mạnh nghĩa hoàn thành sau khi chịu đựng gian khổ.",
+    "pattern": "〜やり抜く",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-48c1d8dd63"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "読みかけの本が何冊もある。",
+      "vi": "Có cả mấy cuốn sách đang đọc dang dở luôn."
+     },
+     {
+      "ja": "彼女は何か言いかけてやめた。",
+      "vi": "Cô ấy đang nói gì đó thì dừng lại."
+     }
+    ],
+    "meaning_vi": "Chưa xong, đang dở dang",
+    "pattern": "〜読みかける",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4f17089ed3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この小説はおもしろくて、１日で読み切った。",
+      "vi": "Cuốn tiểu thuyết này hấp dẫn, đã đọc hết sạch trong một ngày."
+     },
+     {
+      "ja": "彼は疲れ切った顔をしている。",
+      "vi": "Anh ấy tỏ vẻ mặt quá mệt mỏi."
+     }
+    ],
+    "meaning_vi": "Làm cho xong, toàn bộ xong",
+    "pattern": "〜読み切る",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1d45c93405"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "７０歳以上の方に限り、入場無料。",
+      "vi": "Chỉ những vị trên 70 tuổi mới vào cửa miễn phí."
+     },
+     {
+      "ja": "最近は、女性に限らず男性も化粧をする。",
+      "vi": "Gần đây không chỉ phụ nữ mà cả đàn ông cũng trang điểm."
+     }
+    ],
+    "meaning_vi": "Chỉ…/ Giới hạn …",
+    "pattern": "〜70歳以上の方に限り",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e21ae0e323"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "忘れないうちに、メモしておこう。",
+      "vi": "Trong lúc chưa quên thì hãy ghi chú lại nào."
+     },
+     {
+      "ja": "桜がきれいなうちに、お花見に行きましょう。",
+      "vi": "Trong lúc hoa anh đào còn đẹp, đi ngắm hoa nào."
+     }
+    ],
+    "meaning_vi": "Trong lúc …",
+    "pattern": "〜忘れないうちに",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-ca0a2eb477"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本にいる限り、日本語は必要だ。",
+      "vi": "Suốt trong thời gian ở Nhật thì tiếng Nhật là cần thiết."
+     },
+     {
+      "ja": "悪い生活習慣を改めない限り、健康にはなれない。",
+      "vi": "Chừng nào mà không sửa đổi thói quen sinh hoạt xấu thì không thể khỏe mạnh được."
+     }
+    ],
+    "meaning_vi": "Giới hạn, hạn chế, hạn trong ~ Chỉ phạm vi",
+    "pattern": "〜日本にいる限り",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-eb0c71a74a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "授業が終わるか終わらないかのうちに、彼は教室を出た。",
+      "vi": "Trong khi giờ học chưa kết thúc thì anh ấy đã đi ra khỏi phòng."
+     },
+     {
+      "ja": "布団に入るか入らないかのうちに眠ってしまう。",
+      "vi": "Mới vừa nằm vào nệm đã ngủ mất tiêu."
+     }
+    ],
+    "meaning_vi": "Trong khi chưa…thì đã",
+    "pattern": "〜終わるかないかのうちに",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-51c215a901"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼とはあまり話さない。というのも、性格が合わないからだ。",
+      "vi": "Tôi không nói chuyện với anh ấy nhiều. Sở dĩ vậy là vì tính cách không hợp."
+     },
+     {
+      "ja": "来週は忙しくなる。というのも、新しいプロジェクトが始まるからだ。",
+      "vi": "Tuần sau sẽ bận. Lý do là vì dự án mới sẽ bắt đầu."
+     }
+    ],
+    "meaning_vi": "Dùng để đưa ra lý do hoặc giải thích cho mệnh đề phía trước. Tương đương với “Sở dĩ… là vì…”, “Lý do là…”. Mệnh đề A là kết luận hoặc sự thật. Mệnh đề B (sau というのも) là nguyên nhân, lý do. Thường dùng trong văn viết, văn nói trang trọng, đặc biệt là văn nghị luận, giải thích, hoặc thuyết phục.",
+    "pattern": "Bởi vì..., lý do là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-300480ba17"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "努力してこそ、夢は現実になる。",
+      "vi": "Chỉ khi nỗ lực thì ước mơ mới trở thành hiện thực."
+     },
+     {
+      "ja": "親になってこそ、親の有り難みがわかる。",
+      "vi": "Chỉ khi trở thành cha mẹ mới hiểu được ân nghĩa của cha mẹ."
+     }
+    ],
+    "meaning_vi": "～てこそ diễn tả “chỉ khi đã/đúng là làm V thì mới…”. Nhấn mạnh điều kiện tiên quyết để một giá trị/thấu hiểu/khả năng thực sự xuất hiện. Hàm ý loại trừ: nếu chưa V thì điều nói sau chưa thể thành hiện thực/đúng nghĩa. Mệnh đề sau thường là: khả năng (～できる), nhận thức (～わかる), đánh giá bản chất (本当の～だ), phát hiện (～というものだ). Thời điểm: thường nói về hiện tại/ tương lai; ít dùng để quy chiếu một việc quá khứ cụ thể. Sắc thái tôn vinh “giá trị chân chính” chỉ bộc lộ sau kinh nghiệm thật sự: 会ってこそ, 苦労してこそ, 失敗してこそ, 親になってこそ…",
+    "pattern": "Chỉ khi..., phải... thì mới...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-62639caa96"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "都市部で人口が増えつつある。",
+      "vi": "Dân số ở khu đô thị đang dần tăng."
+     },
+     {
+      "ja": "オンライン教育の需要は高まりつつある。",
+      "vi": "Nhu cầu giáo dục trực tuyến đang ngày càng tăng."
+     }
+    ],
+    "meaning_vi": "Diễn tả một xu hướng/biến đổi đang tiếp diễn và có khả năng còn tiếp tục trong hiện tại. Nêu trạng thái chuyển tiếp, “đang trong quá trình” thay vì “đã đạt tới”. Thường xuất hiện trong ngôn ngữ học thuật, báo chí, báo cáo: tính khách quan, trang trọng. Hay dùng với động từ chỉ sự thay đổi: 増える、減る、広がる、進む、深まる、弱まる、安定する(しつつある).",
+    "pattern": "Đang dần..., ngày càng...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e683aa5e21"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "高いからといって、品質がいいとは限らない。",
+      "vi": "Không phải cứ đắt là chất lượng tốt."
+     },
+     {
+      "ja": "日本人だからといって、みんな寿司が好きなわけではない。",
+      "vi": "Không phải người Nhật ai cũng thích sushi."
+     }
+    ],
+    "meaning_vi": "“Chỉ vì… mà … (không hẳn/không nhất thiết/không nên)”: phủ định suy nghĩ máy móc dựa trên lý do trước đó. Thường kết hợp với biểu thức phủ định một phần: ～とは限らない／わけではない／とは言えない. Cũng dùng để nhắc nhở, phê phán hành vi dựa trên lý do chưa thỏa đáng. Sắc thái: phản biện định kiến, khuyên sống có chừng mực/không ngụy biện.",
+    "pattern": "Không phải cứ... là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-dca0ed2c36"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "遅くなってすみません。道が混んでいたものだから。",
+      "vi": "Xin lỗi vì đến muộn. Vì đường kẹt xe ấy mà."
+     },
+     {
+      "ja": "彼は真面目なものだから、冗談が通じないこともある。",
+      "vi": "Anh ấy nghiêm túc nên đôi khi không hiểu chuyện đùa."
+     }
+    ],
+    "meaning_vi": "Nêu lý do mang tính chủ quan, thường là biện hộ, phân trần, giải thích hoàn cảnh: “vì…/do… (nên…)”. Thường xuất hiện trong lời xin lỗi, gọi điện, giao tiếp: nêu lý do trước khi đưa ra kết quả/nhờ vả. Sắc thái “không tránh khỏi/vì sự tình là thế”: người nói kỳ vọng người nghe thông cảm. Ít dùng với mệnh lệnh/trực tiếp sai khiến ở mệnh đề sau. Hay đứng cuối câu như một lời bỏ lửng lý do.",
+    "pattern": "Tại vì..., do...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-874e4db493"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "道路がぬれていることから、昨夜雨が降ったと分かる。",
+      "vi": "Từ việc đường ướt, hiểu rằng đêm qua đã mưa."
+     },
+     {
+      "ja": "彼が鍵を持っていたことから、内部の人だと考えられる。",
+      "vi": "Từ việc anh ta có chìa khóa, có thể nghĩ là người nội bộ."
+     }
+    ],
+    "meaning_vi": "～ことから có hai dùng chính: Căn cứ suy luận/đánh giá: “Từ việc/fact là … nên (có thể) suy ra/hiểu rằng …”. Nhấn mạnh tính căn cứ khách quan. Lý do đặt tên/nguồn gốc: “Vì … nên được gọi là/được đặt tên là …”. Sắc thái trang trọng, thường gặp trong báo cáo, bài viết, bản tin. Không dùng cho quan hệ nhân-quả trực tiếp mang ý chí (mua, quyết định…). Khi cần nói lý do hành động, dùng ので/から.",
+    "pattern": "Từ việc..., vì...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b886261d66"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "田中さんのことだから、きっと間に合うだろう。",
+      "vi": "Biết tính anh Tanaka, chắc chắn sẽ kịp."
+     },
+     {
+      "ja": "子どものことだから、これくらいのけんかはすぐ忘れるよ。",
+      "vi": "Vì là trẻ con nên cãi nhau chút thế này sẽ quên ngay."
+     }
+    ],
+    "meaning_vi": "Dựa vào hiểu biết về tính cách/thói quen của N để đưa ra suy đoán hay đánh giá. Sắc thái “đương nhiên khi xét đến con người đó”: Vì là anh ấy nên chắc là..., vốn là trẻ con nên... Thường dùng với tên riêng, nhóm người, tổ chức: 田中さん／子ども／彼女／あの会社... Mức độ chủ quan cao; mang tính người nói “hiểu rõ đối tượng”. Thường đi kèm các kết từ suy đoán: だろう／に違いない／はずだ; cũng có thể diễn đạt sự khoan dung: 子どものことだから、失敗もある。",
+    "pattern": "Vì (tính cách/đặc điểm)...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1ed9a81abf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "資料を確認しつつ、発表の準備を進める。",
+      "vi": "Vừa kiểm tra tài liệu vừa tiến hành chuẩn bị thuyết trình."
+     },
+     {
+      "ja": "将来に不安を感じつつ、新しい挑戦を始めた。",
+      "vi": "Dù cảm thấy bất an về tương lai, tôi đã bắt đầu thử thách mới."
+     }
+    ],
+    "meaning_vi": "Đồng thời: thực hiện hai hành động song song, có tính ý thức. Mang sắc thái formal, gãy gọn. Nhượng bộ: “dù biết/nhận thức là ... nhưng ...”. Thường đi với động từ tri nhận: 知る、思う、感じる、悩む. Cùng chủ ngữ cho cả hai vế. Khác với ～ながら, つつ ít dùng trong hội thoại đời thường. Không dùng cho hành vi chốc lát, đột ngột; phù hợp quá trình kéo dài, có chủ đích.",
+    "pattern": "Vừa... vừa..., mặc dù...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-371ec7351b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "値段から言うと、こちらの機種が一番お得だ。",
+      "vi": "Xét về giá, mẫu này lợi nhất."
+     },
+     {
+      "ja": "品質から言えば、国産のほうが安心だ。",
+      "vi": "Xét về chất lượng, hàng nội an tâm hơn."
+     }
+    ],
+    "meaning_vi": "～から言うと: “Xét theo/ về mặt/ nếu nói về (tiêu chí)… thì…”. Dùng khi đặt ra tiêu chí đánh giá rồi đưa ra nhận định. N thường là các tiêu chí: 値段・品質・安全・法律・文法・効率・デザイン・立場等. Sắc thái mang tính lý lẽ/chuẩn mực hơn 〜から見ると; ít tính cảm tính. Biến thể から言えば/から言って thay đổi nhịp văn, mức độ trang trọng.",
+    "pattern": "Xét theo..., theo quan điểm...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-6df687cacb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "一度はこういう高級ホテルに泊ってみたいものです。",
+      "vi": "Ít nhất một lần tôi muốn được ở một khách sạn sang trọng như thế này."
+     },
+     {
+      "ja": "こんなに働いているんだから、もう少し給料を上げてもらいたいものだね。",
+      "vi": "Vì làm việc nhiều như vậy, thật mong được tăng lương thêm chút nữa nhỉ."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜たいものだ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-46607b45bf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A: 今年はまだ一回しか旅行に行ってない。",
+      "vi": "A: Năm nay mình mới chỉ đi du lịch một lần thôi。"
+     },
+     {
+      "ja": "B: 行けるだけましだよ。私なんか、まだどこにも行ってないよ。",
+      "vi": "B: Được đi đã là may rồi。Tôi thì còn chưa đi đâu cả。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜だけまし",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-57deec867f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "小学生までこの環境調査に参加した。",
+      "vi": "Đến cả học sinh tiểu học cũng tham gia cuộc khảo sát môi trường này."
+     },
+     {
+      "ja": "彼は借金までして小さな店を守ろうとした。",
+      "vi": "Anh ấy thậm chí vay nợ để cố giữ cửa hàng nhỏ."
+     }
+    ],
+    "meaning_vi": "Đến cả; đến mức làm cả",
+    "pattern": "Đến cả; đến mức làm cả",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5676978342"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "遠回りしてでも安全な道を選びたい。",
+      "vi": "Dù phải đi đường vòng, tôi vẫn muốn chọn con đường an toàn."
+     },
+     {
+      "ja": "彼は徹夜してでも今夜中に報告書を仕上げるつもりだ。",
+      "vi": "Anh ấy định hoàn thành báo cáo ngay đêm nay dù phải thức trắng."
+     }
+    ],
+    "meaning_vi": "Dù phải làm… cũng",
+    "pattern": "Dù phải làm... cũng",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-797ca702d5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "急いでいる日に限って、電車が遅れる。",
+      "vi": "Cứ đúng những ngày đang vội thì tàu lại trễ."
+     },
+     {
+      "ja": "彼に限って約束を破るはずがない。",
+      "vi": "Riêng anh ấy thì chắc chắn không thể thất hứa."
+     }
+    ],
+    "meaning_vi": "Đúng vào; riêng trường hợp ấy",
+    "pattern": "Đúng vào; riêng trường hợp ấy",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c50999c29e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "声が出なくなるくらい応援した。",
+      "vi": "Tôi đã cổ vũ đến mức khản cả giọng."
+     },
+     {
+      "ja": "駅まで歩いて十分ぐらいかかる。",
+      "vi": "Đi bộ đến ga mất khoảng mười phút."
+     }
+    ],
+    "meaning_vi": "Khoảng, cỡ; đến mức",
+    "pattern": "Khoảng, cỡ; đến mức",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-ba851c621b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "参加者は一人として途中で帰らなかった。",
+      "vi": "Không một người tham gia nào về giữa chừng."
+     },
+     {
+      "ja": "この海岸には同じ形の石は一つとしてない。",
+      "vi": "Trên bờ biển này không có lấy một hòn đá nào giống hệt nhau."
+     }
+    ],
+    "meaning_vi": "Không một… nào",
+    "pattern": "Không một... nào",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-268d4af3c3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "忙しくて、昼ご飯を食べる時間さえなかった。",
+      "vi": "Tôi bận đến mức ngay cả thời gian ăn trưa cũng không có."
+     },
+     {
+      "ja": "この問題は専門家でさえ判断に迷う。",
+      "vi": "Vấn đề này ngay cả chuyên gia cũng khó đưa ra phán đoán."
+     }
+    ],
+    "meaning_vi": "Ngay cả; chỉ cần",
+    "pattern": "Ngay cả; chỉ cần",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-41ef030401"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "休日は料理や散歩などをして過ごす。",
+      "vi": "Ngày nghỉ tôi dành thời gian làm những việc như nấu ăn và đi dạo."
+     },
+     {
+      "ja": "私なんか、まだ人に教えられるほど経験がありません。",
+      "vi": "Một người như tôi vẫn chưa có đủ kinh nghiệm để dạy người khác."
+     }
+    ],
+    "meaning_vi": "Như là; nào là; đến cả chuyện",
+    "pattern": "Như là; nào là; đến cả chuyện",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-90f1034d04"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私が調べた限りでは、この制度に年齢制限はない。",
+      "vi": "Theo phạm vi tôi đã tìm hiểu, chế độ này không có giới hạn tuổi."
+     },
+     {
+      "ja": "記憶している限りでは、彼に会うのは今日が初めてだ。",
+      "vi": "Trong phạm vi tôi nhớ thì hôm nay là lần đầu tôi gặp anh ấy."
+     }
+    ],
+    "meaning_vi": "Theo phạm vi biết hoặc quan sát",
+    "pattern": "Theo phạm vi biết hoặc quan sát",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-36d4285f8d"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N2",
+ "packet_id": "GRAMMAR_CORE-009"
+}

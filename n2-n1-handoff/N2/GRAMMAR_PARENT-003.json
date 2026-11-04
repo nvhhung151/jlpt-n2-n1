@@ -1,0 +1,2939 @@
+{
+ "header": {
+  "instructions": "parent_id: id một mẫu CHÍNH (MAIN) cùng chức năng; chọn trong context.candidates, không hợp thì chọn trong header.mains. Mẫu phụ được học ở cuối bài của mẫu chính đó.",
+  "mains": [
+   {
+    "id": "JG-c0cb0dc65c",
+    "meaning_vi": "Bắt đầu từ... và toàn bộ những thứ khác",
+    "pattern": "〜からして"
+   },
+   {
+    "id": "JG-bf620ebf50",
+    "meaning_vi": null,
+    "pattern": "際(さい)に"
+   },
+   {
+    "id": "JG-73d7edfcf0",
+    "meaning_vi": "Nhân dịp, khi — Vào đúng dịp làm một việc quan trọng.",
+    "pattern": "に際(さい)して"
+   },
+   {
+    "id": "JG-a515679c9f",
+    "meaning_vi": "Trước khi bước vào — Vào thời điểm bắt đầu một việc lớn, thường mang tính tích cực.",
+    "pattern": "に当(あ)たって"
+   },
+   {
+    "id": "JG-aea8d1a828",
+    "meaning_vi": null,
+    "pattern": "た途端(とたん)に"
+   },
+   {
+    "id": "JG-1703b7bb03",
+    "meaning_vi": null,
+    "pattern": "かと思(おも)うと"
+   },
+   {
+    "id": "JG-d46e3e0d3d",
+    "meaning_vi": "Ngay lập tức, gần như đồng thời",
+    "pattern": "か〜ないかの内(うち)に"
+   },
+   {
+    "id": "JG-d3569a6699",
+    "meaning_vi": null,
+    "pattern": "〜てでも"
+   },
+   {
+    "id": "JG-5231e44ea7",
+    "meaning_vi": null,
+    "pattern": "最中(さいちゅう)に"
+   },
+   {
+    "id": "JG-5ef1fdd4ce",
+    "meaning_vi": null,
+    "pattern": "ない内(うち)に"
+   },
+   {
+    "id": "JG-02b110a23d",
+    "meaning_vi": "Ngày càng — Xu hướng chỉ tiến về một phía, thường là xấu đi.",
+    "pattern": "一方(いっぽう)だ"
+   },
+   {
+    "id": "JG-f139f0f53e",
+    "meaning_vi": "Đang dần…; đang trong quá trình biến đổi… (văn viết)",
+    "pattern": "〜つつある"
+   },
+   {
+    "id": "JG-adea88bcc1",
+    "meaning_vi": "Vừa vừa, tuy nhưng — Hai hành động đồng thời, hoặc nghĩa nhượng bộ.",
+    "pattern": "つつ"
+   },
+   {
+    "id": "JG-a5726f37e1",
+    "meaning_vi": null,
+    "pattern": "〜てしょうがない"
+   },
+   {
+    "id": "JG-6111c4dcc9",
+    "meaning_vi": null,
+    "pattern": "〜にしても"
+   },
+   {
+    "id": "JG-dda7948a72",
+    "meaning_vi": "Dù (khác nhiều so với tưởng tượng )",
+    "pattern": "〜にしては"
+   },
+   {
+    "id": "JG-ff63b13f6c",
+    "meaning_vi": "Chỉ vì",
+    "pattern": "〜ばかりに"
+   },
+   {
+    "id": "JG-e39bbbe15e",
+    "meaning_vi": null,
+    "pattern": "〜ことだし"
+   },
+   {
+    "id": "JG-908254002b",
+    "meaning_vi": "Sau khi mới — Chỉ sau khi trải qua việc đó mới nhận ra hoặc làm được điều kia.",
+    "pattern": "〜て初(はじ)めて"
+   },
+   {
+    "id": "JG-b68ace6869",
+    "meaning_vi": "Theo, với điều kiện dựa trên",
+    "pattern": "上(うえ)で"
+   },
+   {
+    "id": "JG-2a89ac62ec",
+    "meaning_vi": "Với lý do đó, vì, dùng khi muốn nói đến kết quả là",
+    "pattern": "次第(しだい)"
+   },
+   {
+    "id": "JG-1764c1c2de",
+    "meaning_vi": null,
+    "pattern": "以来(いらい)"
+   },
+   {
+    "id": "JG-0c216759c7",
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜ながら(も)"
+   },
+   {
+    "id": "JG-be5070da57",
+    "meaning_vi": "Khó làm",
+    "pattern": "〜がたい"
+   },
+   {
+    "id": "JG-bf5466998a",
+    "meaning_vi": "Do lý do đó nên không thể",
+    "pattern": "〜〜どころではない"
+   },
+   {
+    "id": "JG-d2849dbd11",
+    "meaning_vi": null,
+    "pattern": "を始(はじ)め"
+   },
+   {
+    "id": "JG-7c2abc8efb",
+    "meaning_vi": "Suốt, trải khắp — Phạm vi hoặc thời gian rộng lớn trải dài.",
+    "pattern": "に渡(わた)って"
+   },
+   {
+    "id": "JG-c6afc41f7a",
+    "meaning_vi": "Thông qua, suốt — Nêu phương tiện trung gian, hoặc khoảng thời gian liên tục.",
+    "pattern": "を通(つう)じて"
+   },
+   {
+    "id": "JG-e31f878921",
+    "meaning_vi": "Rốt cuộc kết thúc mà không làm...; cuối cùng vẫn chưa/không...",
+    "pattern": "〜ずじまい"
+   },
+   {
+    "id": "JG-b30884c906",
+    "meaning_vi": "Giả định, điều kiện, chừng nào, mà",
+    "pattern": "限(かぎ)り"
+   },
+   {
+    "id": "JG-2d74d0b254",
+    "meaning_vi": null,
+    "pattern": "〜ないではいられない"
+   },
+   {
+    "id": "JG-8ee65c6820",
+    "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+    "pattern": "に限(かぎ)らず"
+   },
+   {
+    "id": "JG-50ac9e29c0",
+    "meaning_vi": null,
+    "pattern": "〜のみならず"
+   },
+   {
+    "id": "JG-98b6a42d2d",
+    "meaning_vi": "Đã đành là, khỏi nói — Điều trước là hiển nhiên, điều sau mới đáng nói.",
+    "pattern": "は元(もと)より"
+   },
+   {
+    "id": "JG-52fc31fea7",
+    "meaning_vi": "Không chỉ, thêm vào",
+    "pattern": "上(うえ)に"
+   },
+   {
+    "id": "JG-32a1397fd5",
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜ものの"
+   },
+   {
+    "id": "JG-e1bbe9f345",
+    "meaning_vi": "Liên quan đến — Nêu đề tài, trang trọng hơn について.",
+    "pattern": "に関(かん)して"
+   },
+   {
+    "id": "JG-9ae2b388c1",
+    "meaning_vi": "Xoay quanh — Nhiều ý kiến hoặc tranh luận xoay quanh một vấn đề.",
+    "pattern": "を巡(めぐ)って"
+   },
+   {
+    "id": "JG-f37665334b",
+    "meaning_vi": "Nếu nói về",
+    "pattern": "〜にかけては"
+   },
+   {
+    "id": "JG-1cf614ee6b",
+    "meaning_vi": "Đáp lại — Thực hiện theo mong đợi hoặc yêu cầu của ai.",
+    "pattern": "に応(こた)えて"
+   },
+   {
+    "id": "JG-c1dbd760b4",
+    "meaning_vi": "Dựa trên — Lấy cái gì làm nguyên liệu hoặc căn cứ để tạo ra cái mới.",
+    "pattern": "を元(もと)に"
+   },
+   {
+    "id": "JG-073f255e7b",
+    "meaning_vi": "Căn cứ theo — Làm theo đúng quy định, dữ liệu hoặc nguyên tắc đã có.",
+    "pattern": "に基(もと)づいて"
+   },
+   {
+    "id": "JG-54de130bab",
+    "meaning_vi": "Dọc theo, theo đúng — Đi dọc theo vật gì, hoặc làm theo đúng phương châm.",
+    "pattern": "に沿(そ)って"
+   },
+   {
+    "id": "JG-a8d183b035",
+    "meaning_vi": "Dưới (sự quản lí, chỉ đạo,... )",
+    "pattern": "の下(もと)で"
+   },
+   {
+    "id": "JG-ad5812757d",
+    "meaning_vi": null,
+    "pattern": "向(む)け"
+   },
+   {
+    "id": "JG-f98bfaa66f",
+    "meaning_vi": "Càng thì càng — Hai bên biến đổi tỉ lệ với nhau một cách tự nhiên.",
+    "pattern": "に連(つ)れて"
+   },
+   {
+    "id": "JG-3c3ff1bf18",
+    "meaning_vi": "Theo, càng thì càng — Biến đổi song song, hoặc tuân theo chỉ dẫn.",
+    "pattern": "に従(したが)って"
+   },
+   {
+    "id": "JG-2ba858f748",
+    "meaning_vi": "Cùng với, kéo theo — Việc này thay đổi thì việc kia thay đổi theo.",
+    "pattern": "に伴(ともな)って"
+   },
+   {
+    "id": "JG-06a468d591",
+    "meaning_vi": "Cùng với, đồng thời — Hai việc xảy ra song song, hoặc cùng ai đó làm gì.",
+    "pattern": "と共(とも)に"
+   },
+   {
+    "id": "JG-0d2b9dbee5",
+    "meaning_vi": "Phụ thuộc vào, ứng với",
+    "pattern": "に応(おう)じて"
+   },
+   {
+    "id": "JG-3a3cd2583d",
+    "meaning_vi": "Bằng với cách nói tari... tari",
+    "pattern": "やら〜やら"
+   },
+   {
+    "id": "JG-e3ad9c21ab",
+    "meaning_vi": null,
+    "pattern": "にしても〜にしても"
+   },
+   {
+    "id": "JG-305014dc7a",
+    "meaning_vi": null,
+    "pattern": "〜にしろ〜にしろ"
+   },
+   {
+    "id": "JG-ec9c4a56a1",
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜といった"
+   },
+   {
+    "id": "JG-6dbab8dc1a",
+    "meaning_vi": "Không liên quan, không quan tâm tới",
+    "pattern": "を問(と)わず"
+   },
+   {
+    "id": "JG-e2dfa20f95",
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "に関(かか)わらず"
+   },
+   {
+    "id": "JG-b5f7aacef7",
+    "meaning_vi": "Không bận tâm đến, không màng đến",
+    "pattern": "も構(かま)わず"
+   },
+   {
+    "id": "JG-e9ce7dc234",
+    "meaning_vi": "Khoan hãy nói tới — Tạm gác điều đó sang một bên để bàn điều quan trọng hơn.",
+    "pattern": "は兎(と)も角(かく)"
+   },
+   {
+    "id": "JG-fcc35b2c34",
+    "meaning_vi": null,
+    "pattern": "〜はさておき"
+   },
+   {
+    "id": "JG-9d942cb4a7",
+    "meaning_vi": "Diễn đạt 1 việc quá xa trang thái mong đợi, ý sau thể hiện điều khác ý trước",
+    "pattern": "〜どころか"
+   },
+   {
+    "id": "JG-4caad28958",
+    "meaning_vi": null,
+    "pattern": "と言(い)うものでもない"
+   },
+   {
+    "id": "JG-340193e839",
+    "meaning_vi": null,
+    "pattern": "〜といえば"
+   },
+   {
+    "id": "JG-e3970662f6",
+    "meaning_vi": null,
+    "pattern": "ったら"
+   },
+   {
+    "id": "JG-e899b34293",
+    "meaning_vi": "Mặc dù",
+    "pattern": "にも拘(かか)わらず"
+   },
+   {
+    "id": "JG-3f3aed94a1",
+    "meaning_vi": null,
+    "pattern": "とは言(い)うものの"
+   },
+   {
+    "id": "JG-697778b4b6",
+    "meaning_vi": "Vừa… vừa…; trong khi làm… thì đồng thời… (văn viết)",
+    "pattern": "〜つつも"
+   },
+   {
+    "id": "JG-358de01ace",
+    "meaning_vi": null,
+    "pattern": "と言(い)っても"
+   },
+   {
+    "id": "JG-7f3985b154",
+    "meaning_vi": null,
+    "pattern": "とすると"
+   },
+   {
+    "id": "JG-3c08138fb5",
+    "meaning_vi": "Nếu làm được... muốn làm",
+    "pattern": "ものなら 1"
+   },
+   {
+    "id": "JG-e3751c49ba",
+    "meaning_vi": null,
+    "pattern": "ない事(こと)には〜ない"
+   },
+   {
+    "id": "JG-008a7944cc",
+    "meaning_vi": null,
+    "pattern": "にせよ"
+   },
+   {
+    "id": "JG-8cf1c12392",
+    "meaning_vi": "Vì quá mà — Cảm xúc hoặc mức độ quá lớn dẫn đến kết quả bất thường.",
+    "pattern": "余(あま)り"
+   },
+   {
+    "id": "JG-e1aef7d3cf",
+    "meaning_vi": "Vì bất thường, kết quả quá",
+    "pattern": "余(あま)りに"
+   },
+   {
+    "id": "JG-9926065b20",
+    "meaning_vi": "Với lý do, vì",
+    "pattern": "に就(つ)き"
+   },
+   {
+    "id": "JG-f2ed843b34",
+    "meaning_vi": "Vì là nên chắc — Dựa vào tính cách quen thuộc của ai đó mà suy đoán.",
+    "pattern": "事(こと)だから"
+   },
+   {
+    "id": "JG-7e78c871a0",
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜だけに"
+   },
+   {
+    "id": "JG-301506980b",
+    "meaning_vi": null,
+    "pattern": "以上(いじょう) 2"
+   },
+   {
+    "id": "JG-f2b90cfa77",
+    "meaning_vi": "Về mặt thì — Xét trên phương diện chính thức hoặc hình thức.",
+    "pattern": "上(うえ)は"
+   },
+   {
+    "id": "JG-aedcbdd728",
+    "meaning_vi": "Không thể (vì lý do xã hội) — Về lý thuyết thì làm được nhưng vì hoàn cảnh hoặc đạo lý nên không thể.",
+    "pattern": "訳(わけ)には行(い)かない"
+   },
+   {
+    "id": "JG-ce44d82e34",
+    "meaning_vi": "Không thể",
+    "pattern": "兼(か)ねる"
+   },
+   {
+    "id": "JG-df00d02bd4",
+    "meaning_vi": "Không còn cách nào — Muốn làm cũng không có cách nào thực hiện.",
+    "pattern": "様(よう)がない"
+   },
+   {
+    "id": "JG-55be0484f3",
+    "meaning_vi": "Có khả năng",
+    "pattern": "得(え)る"
+   },
+   {
+    "id": "JG-8a99154124",
+    "meaning_vi": null,
+    "pattern": "得(え)ない"
+   },
+   {
+    "id": "JG-248bff19fa",
+    "meaning_vi": null,
+    "pattern": "割(わり)に"
+   },
+   {
+    "id": "JG-3d5aec3c0e",
+    "meaning_vi": null,
+    "pattern": "〜だけのことはある"
+   },
+   {
+    "id": "JG-7fd1a327d3",
+    "meaning_vi": "Đối lập, đứng trên lập trường",
+    "pattern": "にしたら"
+   },
+   {
+    "id": "JG-0c3c3e8eee",
+    "meaning_vi": null,
+    "pattern": "にして + 見(み)れば"
+   },
+   {
+    "id": "JG-8063225e20",
+    "meaning_vi": "Kể từ, sau khi",
+    "pattern": "〜きり"
+   },
+   {
+    "id": "JG-9f9f613812",
+    "meaning_vi": "Sau bao nhiêu rốt cuộc — Sau một quá trình dài loay hoay thì dẫn tới kết quả, thường không tốt.",
+    "pattern": "挙句(あげく)"
+   },
+   {
+    "id": "JG-c618bda8fe",
+    "meaning_vi": null,
+    "pattern": "〜た末(すえ)"
+   },
+   {
+    "id": "JG-50f80c3ad9",
+    "meaning_vi": null,
+    "pattern": "ところだった 2"
+   },
+   {
+    "id": "JG-7f1f0796af",
+    "meaning_vi": "Biểu thị cảm giác ngạc nhiên, ngoài tưởng tượng",
+    "pattern": "なんて"
+   },
+   {
+    "id": "JG-8bd4d36a97",
+    "meaning_vi": null,
+    "pattern": "と見(み)える"
+   },
+   {
+    "id": "JG-8ae98e3128",
+    "meaning_vi": "Có thể dẫn đến (điều xấu) — Khả năng xảy ra hậu quả không mong muốn.",
+    "pattern": "兼(か)ねない"
+   },
+   {
+    "id": "JG-cd49023dc1",
+    "meaning_vi": "Có nguy cơ — Cảnh báo khả năng xảy ra điều xấu.",
+    "pattern": "恐(おそ)れがある"
+   },
+   {
+    "id": "JG-cde47d89cb",
+    "meaning_vi": "Quyết không",
+    "pattern": "〜まい"
+   },
+   {
+    "id": "JG-0fd265b39a",
+    "meaning_vi": null,
+    "pattern": "に違(ちが)いない"
+   },
+   {
+    "id": "JG-50e25efeaa",
+    "meaning_vi": "Không sai, chắc chắn",
+    "pattern": "に相違(そうい)ない"
+   },
+   {
+    "id": "JG-c833c02a7c",
+    "meaning_vi": "Chắc chắn là rồi — Khẳng định chủ quan mạnh, giọng văn nói.",
+    "pattern": "に決(き)まっている"
+   },
+   {
+    "id": "JG-ac95ddc4c8",
+    "meaning_vi": "Không hẳn là, không thể nói là",
+    "pattern": "と言(い)うものだ"
+   },
+   {
+    "id": "JG-f346952c3f",
+    "meaning_vi": "Chẳng qua chỉ là — Hạ thấp mức độ, nhấn mạnh chỉ có vậy thôi.",
+    "pattern": "に過(す)ぎない"
+   },
+   {
+    "id": "JG-48986bc5b2",
+    "meaning_vi": "Không có cái nào khác, chính là",
+    "pattern": "に他(ほか)ならない"
+   },
+   {
+    "id": "JG-3ba05d9a36",
+    "meaning_vi": "Đương nhiên... sẽ tốt hơn",
+    "pattern": "に越(こ)したことはない"
+   },
+   {
+    "id": "JG-d4acb4d144",
+    "meaning_vi": null,
+    "pattern": "しかない"
+   },
+   {
+    "id": "JG-3a7fb2a615",
+    "meaning_vi": "Chỉ còn cách — Không còn lựa chọn nào khác ngoài việc đó.",
+    "pattern": "より他(ほか)ない"
+   },
+   {
+    "id": "JG-44389c41d5",
+    "meaning_vi": null,
+    "pattern": "う・よう + ではないか"
+   },
+   {
+    "id": "JG-6219b84892",
+    "meaning_vi": "Nên, cần phải — Khuyên bảo hoặc nêu điều nên làm, giọng của người có kinh nghiệm.",
+    "pattern": "事(こと)だ"
+   },
+   {
+    "id": "JG-9477c9f64b",
+    "meaning_vi": "Không cần phải — Trấn an rằng việc đó là không cần thiết.",
+    "pattern": "事(こと)はない"
+   },
+   {
+    "id": "JG-f0197c90bb",
+    "meaning_vi": "Đến không chịu nổi — Cảm giác hoặc mong muốn mạnh đến mức không chịu được.",
+    "pattern": "〜て堪(たま)らない"
+   },
+   {
+    "id": "JG-4d7879d020",
+    "meaning_vi": "Không thể không — Không kìm được, buộc phải làm theo cảm xúc.",
+    "pattern": "ずには居(い)られない"
+   },
+   {
+    "id": "JG-98cf004509",
+    "meaning_vi": null,
+    "pattern": "ない訳(わけ)にはいかない"
+   },
+   {
+    "id": "JG-b06b782d7b",
+    "meaning_vi": "Phải làm",
+    "pattern": "ざるを得(え)ない"
+   },
+   {
+    "id": "JG-f8c1050c9a",
+    "meaning_vi": null,
+    "pattern": "〜たものだ"
+   },
+   {
+    "id": "JG-d25295d5da",
+    "meaning_vi": null,
+    "pattern": "ないものだろうか"
+   },
+   {
+    "id": "JG-fbcb453cbc",
+    "meaning_vi": "Có điều khiến người ta cảm thấy…; có một phương diện… đáng ghi nhận",
+    "pattern": "〜ものがある"
+   },
+   {
+    "id": "JG-c1f1f9e9dc",
+    "meaning_vi": "Cảm thán, thở dài không biết thế nào đây",
+    "pattern": "事(こと)か"
+   },
+   {
+    "id": "JG-2f6d68d69c",
+    "meaning_vi": "Tại, trong lĩnh vực — Nêu nơi chốn, thời điểm hoặc phạm vi, dùng trong văn viết trang trọng.",
+    "pattern": "N + において / における"
+   },
+   {
+    "id": "JG-a1275b8738",
+    "meaning_vi": "Hoặc là hoặc là — Đưa ra vài lựa chọn để người nghe tự chọn.",
+    "pattern": "N なり N + なり"
+   },
+   {
+    "id": "JG-bf5dd7803d",
+    "meaning_vi": "Không hẳn là — Phủ định một phần, không phủ định hoàn toàn.",
+    "pattern": "Thể thường + わけではない"
+   },
+   {
+    "id": "JG-41aceb4407",
+    "meaning_vi": "Chỉ trạng thái cảm xúc, ra vẻ",
+    "pattern": "〜げ"
+   },
+   {
+    "id": "JG-d6391adf9c",
+    "meaning_vi": "Chưa chắc đã — Không phải lúc nào cũng đúng như vậy.",
+    "pattern": "Thể thường + とは限らない"
+   },
+   {
+    "id": "JG-b2d86ae21b",
+    "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+    "pattern": "Cả... lẫn..."
+   },
+   {
+    "id": "JG-daf20dc114",
+    "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+    "pattern": "Hơn nữa, lại còn"
+   },
+   {
+    "id": "JG-e4f12b1fe2",
+    "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+    "pattern": "Nào là... nào là..."
+   },
+   {
+    "id": "JG-58bec52e00",
+    "meaning_vi": "Nói đến là nghĩ ngay — Nghe từ đó là liên tưởng ngay tới điều gì.",
+    "pattern": "N + というと"
+   },
+   {
+    "id": "JG-2211a2d329",
+    "meaning_vi": "Cũng không phải là không — Khẳng định dè dặt, thừa nhận một khả năng nhỏ.",
+    "pattern": "V-ない + ことはない"
+   },
+   {
+    "id": "JG-71a3367faf",
+    "meaning_vi": "Không thể, nhất định không",
+    "pattern": "〜っこない"
+   },
+   {
+    "id": "JG-77adb928c4",
+    "meaning_vi": "Đổi lại, một mặt thì...mặt khác thì...",
+    "pattern": "〜一方(で)"
+   },
+   {
+    "id": "JG-3f965c1d06",
+    "meaning_vi": "Theo quy định là — Nêu quy tắc, lịch trình hoặc thông lệ đã được định sẵn.",
+    "pattern": "V từ điển / V-ない + ことになっている"
+   },
+   {
+    "id": "JG-b574313082",
+    "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+    "pattern": "Dù... hay..."
+   },
+   {
+    "id": "JG-77221bac28",
+    "meaning_vi": "Nếu giả sử — Giả định một điều kiện rồi suy ra kết quả.",
+    "pattern": "Thể thường + としたら / とすれば"
+   },
+   {
+    "id": "JG-53b643c40d",
+    "meaning_vi": "Trước khi — Làm việc chuẩn bị trước một sự kiện chính thức.",
+    "pattern": "V từ điển / N + に先立って"
+   },
+   {
+    "id": "JG-0da3916dbd",
+    "meaning_vi": "Không chỉ",
+    "pattern": "〜ばかりか"
+   },
+   {
+    "id": "JG-c9497d34a5",
+    "meaning_vi": "Hơi hơi, có vẻ — Cảm thấy hơi nghiêng về trạng thái đó, thường không tốt.",
+    "pattern": "V thể ます (bỏ ます) / N + 気味"
+   },
+   {
+    "id": "JG-0b9f6dacde",
+    "meaning_vi": "Làm đến cùng — Vượt qua khó khăn để hoàn thành trọn vẹn.",
+    "pattern": "V thể ます (bỏ ます) + 抜く"
+   },
+   {
+    "id": "JG-c9419a4141",
+    "meaning_vi": "Hoàn toàn không định — Phủ định dứt khoát ý định làm gì.",
+    "pattern": "V từ điển + つもりはない"
+   },
+   {
+    "id": "JG-a4bf823751",
+    "meaning_vi": "Nếu cứ như thế thì — Nếu duy trì tình trạng không tốt đó thì kết quả sẽ xấu.",
+    "pattern": "V-る / V-ている + ようでは"
+   },
+   {
+    "id": "JG-5b89028992",
+    "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+    "pattern": "Không thể không..."
+   },
+   {
+    "id": "JG-389dda7559",
+    "meaning_vi": "Ra vẻ, trông — Biểu hiện ra bên ngoài một cảm xúc.",
+    "pattern": "A bỏ い / V thể ます (bỏ ます) + げ"
+   },
+   {
+    "id": "JG-5e8fe7d8eb",
+    "meaning_vi": "Lấy làm trung tâm — Đặt cái gì làm trọng tâm rồi triển khai xung quanh.",
+    "pattern": "N + を中心に"
+   },
+   {
+    "id": "JG-6c82539add",
+    "meaning_vi": "Thà còn hơn là — Thà chọn phương án kia còn hơn phải chịu điều này.",
+    "pattern": "V từ điển + くらいなら"
+   },
+   {
+    "id": "JG-a71291afe4",
+    "meaning_vi": "Không thể cứ mãi — Hoàn cảnh không cho phép tiếp tục ở trạng thái đó.",
+    "pattern": "V-て + はいられない"
+   },
+   {
+    "id": "JG-a27727adb4",
+    "meaning_vi": null,
+    "pattern": "〜ないものか"
+   },
+   {
+    "id": "JG-e0417c6e22",
+    "meaning_vi": "Mãi đến mới, vừa lại vừa — Đến tận giai đoạn đó mới xảy ra, hoặc mang cả hai tính chất.",
+    "pattern": "N + にして"
+   },
+   {
+    "id": "JG-96e1cfe428",
+    "meaning_vi": "Bỏ qua, không tính — Loại bỏ phần nào đó ra khỏi việc đang làm.",
+    "pattern": "N + 抜きで / は抜きにして"
+   },
+   {
+    "id": "JG-25a0a40527",
+    "meaning_vi": "Hết cách, quá đỗi — Dạng trang trọng hơn của しょうがない.",
+    "pattern": "V-て + しようがない"
+   },
+   {
+    "id": "JG-77ec44ca3e",
+    "meaning_vi": "Dù là... hay là...",
+    "pattern": "Dù là... hay là..."
+   },
+   {
+    "id": "JG-03416c5da3",
+    "meaning_vi": "Với trọn, dồn cả — Dồn tình cảm hoặc tâm huyết vào việc gì.",
+    "pattern": "N + を込めて"
+   },
+   {
+    "id": "JG-db6f287fa4",
+    "meaning_vi": "Không đến mức phải — Việc đó nhỏ, không đáng để phản ứng mạnh như vậy.",
+    "pattern": "V từ điển + ほどのことではない"
+   },
+   {
+    "id": "JG-97d8466d44",
+    "meaning_vi": "Thêm vào đó — Bổ sung thêm yếu tố nữa vào điều đã có.",
+    "pattern": "N + に加えて"
+   },
+   {
+    "id": "JG-5a0249bec4",
+    "meaning_vi": "Ngoại trừ — Loại một đối tượng ra khỏi phạm vi đang nói.",
+    "pattern": "N + を除いて"
+   },
+   {
+    "id": "JG-0012ecbc4c",
+    "meaning_vi": "Trái lại, mặt trái là — Nêu hai mặt trái ngược của cùng một đối tượng.",
+    "pattern": "Thể thường + 反面"
+   },
+   {
+    "id": "JG-1bcafa12d5",
+    "meaning_vi": "Để mà thì cần — Nêu mục đích rồi đưa ra điều kiện cần thiết.",
+    "pattern": "V từ điển + には"
+   },
+   {
+    "id": "JG-71bd86ae87",
+    "meaning_vi": "Nếu chưa thì không — Phải xong việc trước mới làm được việc sau.",
+    "pattern": "V-て + からでないと"
+   },
+   {
+    "id": "JG-04534b5fc2",
+    "meaning_vi": "Trái với — Kết quả đi ngược lại điều mong đợi hoặc dự đoán.",
+    "pattern": "N + に反して"
+   },
+   {
+    "id": "JG-2a0c30d330",
+    "meaning_vi": "Ngoài ra còn — Nêu thêm điều khác ngoài cái đã biết.",
+    "pattern": "N + 以外に"
+   },
+   {
+    "id": "JG-4f4e542b56",
+    "meaning_vi": "Tức là, hoá ra là — Kết luận logic rút ra từ điều đã biết.",
+    "pattern": "Thể thường + ことになる"
+   },
+   {
+    "id": "JG-6ef0399b6b",
+    "meaning_vi": "Kể từ khi — Từ mốc đó đến nay trạng thái vẫn tiếp diễn.",
+    "pattern": "V-て + 以来"
+   },
+   {
+    "id": "JG-880c4c509b",
+    "meaning_vi": "Không, không có",
+    "pattern": "〜ことなく"
+   },
+   {
+    "id": "JG-3797ca9f8e",
+    "meaning_vi": "Đặc biệt là... đúng",
+    "pattern": "〜に限って"
+   },
+   {
+    "id": "JG-3a8712710c",
+    "meaning_vi": "Dù có phải đánh đổi — Thề nguyện, lấy điều quý giá ra bảo đảm.",
+    "pattern": "N + にかけても"
+   },
+   {
+    "id": "JG-c6c7acbe5b",
+    "meaning_vi": "Ngay khi xong là — Việc gì vừa xong thì lập tức làm việc tiếp theo.",
+    "pattern": "V thể ます (bỏ ます) + 次第"
+   },
+   {
+    "id": "JG-be19eef3a1",
+    "meaning_vi": "Sau khi rồi mới — Hoàn tất bước quan trọng trước rồi mới tiến hành bước sau.",
+    "pattern": "V-た + 上で"
+   },
+   {
+    "id": "JG-94da15f04c",
+    "meaning_vi": "Trong quá trình, khi — Nêu bối cảnh mà điều gì đó phát sinh.",
+    "pattern": "N の + 上での"
+   },
+   {
+    "id": "JG-7b69d2b044",
+    "meaning_vi": "Là bởi vì ạ — Dạng lịch sự của ものだから, dùng để biện minh.",
+    "pattern": "Thể thường + ものですから"
+   },
+   {
+    "id": "JG-e3638c550a",
+    "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+    "pattern": "Dựa trên..."
+   },
+   {
+    "id": "JG-4e40720b25",
+    "meaning_vi": "Không cần phải…; không đến mức phải…",
+    "pattern": "〜には及ばない"
+   },
+   {
+    "id": "JG-dfcbabddef",
+    "meaning_vi": "Do lỡ đà, trong lúc vô ý — Việc xảy ra ngoài ý muốn do một động tác bất chợt.",
+    "pattern": "N + のはずみで"
+   },
+   {
+    "id": "JG-bb43bfae7b",
+    "meaning_vi": "Về mặt — Xét trên phương diện nào đó.",
+    "pattern": "N + 上"
+   },
+   {
+    "id": "JG-4f77441a6c",
+    "meaning_vi": "Dù là — Giống にしても nhưng văn viết và cứng hơn.",
+    "pattern": "Thể thường / N + にしろ / にせよ"
+   },
+   {
+    "id": "JG-f121d4f779",
+    "meaning_vi": "Sở dĩ là vì, cái gọi là — Giải thích lý do hoặc định nghĩa một khái niệm.",
+    "pattern": "Thể thường + というのは"
+   },
+   {
+    "id": "JG-f668f8f016",
+    "meaning_vi": "Đã thì phải — Đã ở trong tình huống đó thì đương nhiên phải làm theo.",
+    "pattern": "Thể thường + 以上(は)"
+   },
+   {
+    "id": "JG-e30085d13c",
+    "meaning_vi": "Khi làm thử thì — Làm một việc rồi phát hiện ra kết quả, thường bất ngờ.",
+    "pattern": "V-た + ところ"
+   },
+   {
+    "id": "JG-ecd465b37a",
+    "meaning_vi": "Cuối cùng thì — Sau thời gian dài chờ đợi thì cũng xảy ra.",
+    "pattern": "ついに + V"
+   },
+   {
+    "id": "JG-2a477664d5",
+    "meaning_vi": "Tuỳ trường hợp có khi — Trong một số trường hợp thì khác đi.",
+    "pattern": "N + によっては"
+   },
+   {
+    "id": "JG-df7e54aa49",
+    "meaning_vi": "Đã thì — Nhấn mạnh quyết tâm hoặc trách nhiệm đi kèm.",
+    "pattern": "Thể thường + からには"
+   },
+   {
+    "id": "JG-662017380b",
+    "meaning_vi": "Vừa mới thì lập tức — Ngay khoảnh khắc việc trước xảy ra thì việc sau xảy ra ngay, thường ngoài dự tính.",
+    "pattern": "V-た + とたん"
+   },
+   {
+    "id": "JG-70726b4123",
+    "meaning_vi": "Có thì mới — Chỉ khi làm việc đó thì mới đạt được kết quả thật sự.",
+    "pattern": "V-て + こそ"
+   },
+   {
+    "id": "JG-a6dbabf484",
+    "meaning_vi": "Không phải cứ là — Không thể chỉ vì lý do đó mà kết luận như vậy.",
+    "pattern": "Thể thường + からといって"
+   },
+   {
+    "id": "JG-a713831f5c",
+    "meaning_vi": "Đến mức là — Nêu ví dụ cụ thể để minh hoạ mức độ.",
+    "pattern": "Thể thường + ほどだ"
+   },
+   {
+    "id": "JG-e7a86f086c",
+    "meaning_vi": "Vừa mới chưa kịp thì — Việc trước còn chưa dứt hẳn thì việc sau đã xảy ra.",
+    "pattern": "V từ điển + か + V-ない + かのうちに"
+   },
+   {
+    "id": "JG-95ee052f8f",
+    "meaning_vi": "Nếu không... thì không",
+    "pattern": "〜ないことには"
+   },
+   {
+    "id": "JG-b6b1ffdabc",
+    "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+    "pattern": "Vừa mới... thì..."
+   },
+   {
+    "id": "JG-4941a90846",
+    "meaning_vi": "Không chỉ mà còn — Bổ sung thêm phạm vi ngoài điều đã nêu.",
+    "pattern": "Thể thường + ばかりでなく"
+   },
+   {
+    "id": "JG-708ac96399",
+    "meaning_vi": "Vừa là ngay lập tức — Hai việc nối nhau tức thì, văn viết trang trọng.",
+    "pattern": "V từ điển + やいなや"
+   },
+   {
+    "id": "JG-bee2c11c8f",
+    "meaning_vi": "Xét từ góc độ — Đứng từ lập trường hoặc căn cứ nào đó mà phán đoán.",
+    "pattern": "N + からすると / からすれば"
+   },
+   {
+    "id": "JG-0e47af37c7",
+    "meaning_vi": "Là tại vì — Biện minh cho việc mình làm, mang tính bào chữa.",
+    "pattern": "Thể thường + ものだから"
+   },
+   {
+    "id": "JG-2b6a2972f7",
+    "meaning_vi": "Vì, quả đúng là, tương xứng",
+    "pattern": "〜だけあって"
+   },
+   {
+    "id": "JG-a315841251",
+    "meaning_vi": "Sau khi, vào cuối",
+    "pattern": "〜末(に)"
+   },
+   {
+    "id": "JG-8e8e8b9bd8",
+    "meaning_vi": "Đối với — Nêu lập trường của người hoặc tổ chức để đánh giá.",
+    "pattern": "N + にとって"
+   },
+   {
+    "id": "JG-283fac2c9c",
+    "meaning_vi": "Mỗi khi... thì luôn... (gợi lên một cảm xúc có liên quan).",
+    "pattern": "〜につけ"
+   },
+   {
+    "id": "JG-b4fd2bd83f",
+    "meaning_vi": "Dù có",
+    "pattern": "〜たところで"
+   },
+   {
+    "id": "JG-74fc007f88",
+    "meaning_vi": "Đang lúc A thì B (biểu thị cảm tạ, nhờ vả, xin lỗi)",
+    "pattern": "〜ところを"
+   },
+   {
+    "id": "JG-fcc107604f",
+    "meaning_vi": "Nhân cơ hội, từ đó mà — Một sự kiện trở thành khởi điểm cho thay đổi.",
+    "pattern": "N + をきっかけに"
+   },
+   {
+    "id": "JG-b7b621bc09",
+    "meaning_vi": "Chừng nào còn — Trong phạm vi điều kiện đó còn duy trì.",
+    "pattern": "V từ điển / Thể thường + かぎり(は)"
+   },
+   {
+    "id": "JG-2b9520bd6c",
+    "meaning_vi": "Lấy làm bước ngoặt — Giống をきっかけに nhưng trang trọng hơn hẳn.",
+    "pattern": "N + を契機に"
+   },
+   {
+    "id": "JG-217ba9f715",
+    "meaning_vi": "Từ việc đó mà — Nêu căn cứ dẫn đến một kết luận hoặc tên gọi.",
+    "pattern": "Thể thường + ことから"
+   },
+   {
+    "id": "JG-8a0ba93ab4",
+    "meaning_vi": "Theo như mà tôi — Giới hạn phán đoán trong phạm vi thông tin mình có.",
+    "pattern": "V từ điển / V-た + かぎりでは"
+   },
+   {
+    "id": "JG-0668d251f9",
+    "meaning_vi": "Thật là — Nêu cảm xúc của người nói trước khi kể sự việc.",
+    "pattern": "A / V-た + ことに"
+   },
+   {
+    "id": "JG-2556b5fda7",
+    "meaning_vi": "Khi đến giai đoạn ～ thì nảy sinh tình huống tiếp theo; nếu đúng là tình huống ～ thì có thể suy ra điều tiếp theo.",
+    "pattern": "〜となると"
+   },
+   {
+    "id": "JG-8a3b0bdb94",
+    "meaning_vi": "Lẽ ra đã phải — Dự định hoặc kỳ vọng nhưng thực tế không xảy ra.",
+    "pattern": "V từ điển + はずだった"
+   },
+   {
+    "id": "JG-6f1e2ebec5",
+    "meaning_vi": "Đã định nhưng — Ý định trong quá khứ nhưng không thực hiện được.",
+    "pattern": "V từ điển + つもりだった"
+   },
+   {
+    "id": "JG-e53aa76f2f",
+    "meaning_vi": "Cứ mãi, không sao dứt được — Cảm xúc hoặc suy nghĩ tự nhiên trào lên không kiểm soát được.",
+    "pattern": "V-て / A-くて + ならない"
+   },
+   {
+    "id": "JG-fb5bb90c3b",
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜というか・・・というか"
+   },
+   {
+    "id": "JG-d82dc8138b",
+    "meaning_vi": "Cứ coi như là — Hành động với tâm thế như thể điều đó là thật.",
+    "pattern": "V-た / N の + つもりで"
+   },
+   {
+    "id": "JG-b8b10e17a8",
+    "meaning_vi": "Hết cách, quá đỗi — Mức độ cảm giác quá lớn, không làm gì được.",
+    "pattern": "V-て / A-くて + しかたがない"
+   },
+   {
+    "id": "JG-99c17c7b01",
+    "meaning_vi": "Kể từ khi … (đến nay). Nhấn mạnh sự kéo dài/duy trì. Vế sau mô tả trạng thái tiếp diễn hoặc thay đổi kéo dài đến hiện tại. Không dùng với mệnh lệnh/ý chí trực tiếp.",
+    "pattern": "Kể từ..."
+   },
+   {
+    "id": "JG-68ec2cf92f",
+    "meaning_vi": "Chẳng ra gì, không thành — Không đạt được cả mức tối thiểu.",
+    "pattern": "Thể thường + にもならない"
+   },
+   {
+    "id": "JG-08d5822005",
+    "meaning_vi": "Tạm gác… sang một bên",
+    "pattern": "Tạm gác... sang một bên"
+   },
+   {
+    "id": "JG-6b7a6ce4bb",
+    "meaning_vi": "Nào là nào là, lẫn lộn — Liệt kê nhiều thứ trong tình trạng bối rối hoặc lộn xộn.",
+    "pattern": "N やら N + やら"
+   }
+  ]
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "帰れるものなら、今すぐ故郷に帰りたい。",
+      "vi": "Nếu có thể về được thì tôi muốn về quê ngay."
+     },
+     {
+      "ja": "もう一度やり直せるものなら、最初からやり直したい。",
+      "vi": "Nếu có thể làm lại lần nữa, tôi muốn bắt đầu từ đầu."
+     }
+    ],
+    "meaning_vi": "Giả định gần như phi thực (counterfactual/low probability): “nếu mà có thể…/giá như…”. Dùng để bộc lộ mong muốn mạnh mẽ, nuối tiếc, hoặc nêu điều kiện khó đạt. Biến thể thách thức: sắc thái gắt/khích tướng, thường ở văn nói.",
+    "pattern": "Nếu có thể..., nếu như...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-9a705e4b3e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "専門家から見ると、この計画には問題点が多い。",
+      "vi": "Từ góc nhìn của chuyên gia, kế hoạch này có nhiều điểm vấn đề."
+     },
+     {
+      "ja": "データから見れば、景気は回復しつつある。",
+      "vi": "Nếu nhìn từ dữ liệu, kinh tế đang dần phục hồi."
+     }
+    ],
+    "meaning_vi": "～から見ると: “Nhìn từ/ nếu xét từ (góc độ/tiêu chí/nguồn thông tin)… thì…”. Biểu thị phán đoán/nhận xét dựa trên một quan điểm hoặc dữ kiện cụ thể. Trọng tâm ở góc nhìn/quan sát (visual/metaphorical). “見る” gợi cảm giác dựa trên thứ có thể quan sát hoặc diễn giải được. Thường dùng với các N chỉ nguồn: データ・統計・専門家・第三者・子どもの目・外部・安全面・コスト面… Biểu thị tính khách quan tương đối; tuy nhiên vẫn là nhận định của người nói dựa trên góc nhìn đã nêu. Biến thể 見れば (giả định), 見ても (nhấn mạnh dù xét từ đó cũng…).",
+    "pattern": "Nhìn từ góc độ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-7df1b6b4cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "この店は雰囲気からして高級だ。",
+      "vi": "Từ bầu không khí của quán này đã thấy sang chảnh rồi."
+     },
+     {
+      "ja": "彼は服装からしてだらしない。",
+      "vi": "Chỉ nhìn cách ăn mặc thôi đã thấy cẩu thả."
+     }
+    ],
+    "meaning_vi": "Phán đoán dựa trên dấu hiệu nhỏ: “Nhìn vào/Chỉ xét từ N đã thấy…”. Ví dụ: 見た目からして高そうだ。 Nêu ví dụ tiêu biểu, “ngay từ/đến cả N cũng…”, thường hàm ý tiêu cực hoặc bất thường: 彼は挨拶からしてできていない。 Nhấn “điểm khởi đầu” để suy ra tổng thể: Một phần nhỏ đã cho thấy bức tranh lớn. Sắc thái: chủ quan, cảm tính hơn からすると; hay dùng để chê, phàn nàn, nghi ngờ tính đúng đắn.",
+    "pattern": "Nhìn từ..., xét từ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-d36cbb33ea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-c833c02a7c",
+      "meaning_vi": "Chắc chắn là rồi — Khẳng định chủ quan mạnh, giọng văn nói.",
+      "pattern": "に決(き)まっている"
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "彼はもう来るまい。",
+      "vi": "Chắc là anh ấy sẽ không đến nữa."
+     },
+     {
+      "ja": "二度と同じ過ちを繰り返すまいと心に誓った。",
+      "vi": "Thề trong lòng sẽ không lặp lại sai lầm thêm lần nữa."
+     }
+    ],
+    "meaning_vi": "Suy đoán phủ định: “chắc là không/khó mà …” (= ～ないだろう). Văn viết, trang trọng, đôi khi cổ điển. Ý chí phủ định: “quyết không/nhất định không …” khi người nói tự nhủ, thể hiện quyết tâm cao. “～まいと（して）” nghĩa “cố gắng để không …”. “～まいか” dùng như nghi vấn tu từ nhấn mạnh kỳ vọng khẳng định.",
+    "pattern": "Quyết không..., sẽ không...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-7bc9d20758"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-bee2c11c8f",
+      "meaning_vi": "Xét từ góc độ — Đứng từ lập trường hoặc căn cứ nào đó mà phán đoán.",
+      "pattern": "N + からすると / からすれば"
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-f2ed843b34",
+      "meaning_vi": "Vì là nên chắc — Dựa vào tính cách quen thuộc của ai đó mà suy đoán.",
+      "pattern": "事(こと)だから"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "この足跡からすると、鹿ではなく熊だ。",
+      "vi": "Căn cứ vào dấu chân này, không phải hươu mà là gấu."
+     },
+     {
+      "ja": "症状からすると、インフルエンザの可能性が高い。",
+      "vi": "Dựa vào triệu chứng, khả năng cúm cao."
+     }
+    ],
+    "meaning_vi": "Suy luận: “Căn cứ vào N mà suy ra…”. Ví dụ: 症状からすると風邪だろう。 Lập trường/góc nhìn: “Xét từ phía N thì…”. Ví dụ: 消費者からすると値上げは痛い。 Sắc thái trung tính, lý tính hơn からして; dùng được cho cả kết luận tích cực/tiêu cực. Thường đi kèm phán đoán không chắc chắn: ～だろう／～と思われる／～ようだ。",
+    "pattern": "Theo..., dựa vào...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-7b0e2d54b8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "お忙しいところを恐れ入りますが、こちらにご署名ください。",
+      "vi": "Xin thứ lỗi vì làm phiền lúc anh/chị đang bận, vui lòng ký vào đây ạ."
+     },
+     {
+      "ja": "会議を始めようとするところを、社長から電話が入った。",
+      "vi": "Đúng lúc chúng tôi định bắt đầu họp thì có điện thoại từ giám đốc."
+     }
+    ],
+    "meaning_vi": "Nghĩa 1: Chỉ thời điểm đúng lúc hành động diễn ra. Nhấn mạnh “trúng thời điểm” (đang/vừa/sắp). Tùy dạng của ところ: - V-るところ: sắp, chuẩn bị - V-ているところ: đang - V-たところ: vừa mới Nghĩa 2: Lịch sự/nhận lỗi khi can thiệp vào tình huống của đối phương. Mẫu: お忙しいところを／お休みのところを／夜分のところを + 失礼しますなど. Nghĩa 3: Nhượng bộ trang trọng “mặc dù/đáng lẽ”. Dùng khi đưa ra phán quyết nhẹ tay, cảm ơn, xin lỗi: 例: 厳しく叱るべきところを、温かい言葉をいただいた。 Sắc thái: Trang trọng hơn ところで/のに. Trong nghĩa nhượng bộ thường thấy trong văn bản chính thức, biên bản, phát biểu.",
+    "pattern": "Trong lúc..., mặc dù... (trái hoàn cảnh)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-3bc8201ece"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "連休初日とあって、空港はどこも混雑している。",
+      "vi": "Vì là ngày đầu kỳ nghỉ dài nên sân bay đâu đâu cũng đông đúc."
+     },
+     {
+      "ja": "有名店の閉店とあって、朝から長い列ができた。",
+      "vi": "Vì là việc đóng cửa của cửa hàng nổi tiếng nên từ sáng đã có hàng dài."
+     }
+    ],
+    "meaning_vi": "Lý do mang tính “đặc thù/đáng chú ý” dẫn đến kết quả tự nhiên được quan sát. Giọng tường thuật/khách quan; không phù hợp khi nêu ý chí/yêu cầu của người nói. Thường dùng trong tin tức, bài viết, bình luận hiện tượng xã hội.",
+    "pattern": "Vì..., bởi vì... (đặc biệt)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-0bf3d32913"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-55be0484f3",
+      "meaning_vi": "Có khả năng",
+      "pattern": "得(え)る"
+     },
+     {
+      "id": "JG-7c2abc8efb",
+      "meaning_vi": "Suốt, trải khắp — Phạm vi hoặc thời gian rộng lớn trải dài.",
+      "pattern": "に渡(わた)って"
+     },
+     {
+      "id": "JG-8ee65c6820",
+      "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+      "pattern": "に限(かぎ)らず"
+     },
+     {
+      "id": "JG-2f6d68d69c",
+      "meaning_vi": "Tại, trong lĩnh vực — Nêu nơi chốn, thời điểm hoặc phạm vi, dùng trong văn viết trang trọng.",
+      "pattern": "N + において / における"
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "博士でも間違うことはありえる。",
+      "vi": "Cho dù có là tiến sĩ cũng có thể nhầm lẫn."
+     },
+     {
+      "ja": "これが私の知りうるすべての情報です。",
+      "vi": "Đây là tất cả thông tin mà tôi có thể biết."
+     }
+    ],
+    "meaning_vi": "Có thể ~ / Trong phạm vi có thể ~",
+    "pattern": "〜ありえる/ありうる",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-30ef427f2b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-0b9f6dacde",
+      "meaning_vi": "Làm đến cùng — Vượt qua khó khăn để hoàn thành trọn vẹn.",
+      "pattern": "V thể ます (bỏ ます) + 抜く"
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-be19eef3a1",
+      "meaning_vi": "Sau khi rồi mới — Hoàn tất bước quan trọng trước rồi mới tiến hành bước sau.",
+      "pattern": "V-た + 上で"
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "大変な仕事でも、やり抜く自信があります。",
+      "vi": "Cho dẫu là công việc vất vả, tôi tin sẽ làm được tới cùng."
+     },
+     {
+      "ja": "彼はあきらめずにゴールまで走り抜いた。",
+      "vi": "Anh ấy không từ bỏ mà cố chạy tới đích."
+     }
+    ],
+    "meaning_vi": "Làm xong tất cả và trọn vẹn một quá trình hay một hành động. Nhấn mạnh nghĩa hoàn thành sau khi chịu đựng gian khổ.",
+    "pattern": "〜やり抜く",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-48c1d8dd63"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-71bd86ae87",
+      "meaning_vi": "Nếu chưa thì không — Phải xong việc trước mới làm được việc sau.",
+      "pattern": "V-て + からでないと"
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-e31f878921",
+      "meaning_vi": "Rốt cuộc kết thúc mà không làm...; cuối cùng vẫn chưa/không...",
+      "pattern": "〜ずじまい"
+     },
+     {
+      "id": "JG-d6391adf9c",
+      "meaning_vi": "Chưa chắc đã — Không phải lúc nào cũng đúng như vậy.",
+      "pattern": "Thể thường + とは限らない"
+     },
+     {
+      "id": "JG-c6c7acbe5b",
+      "meaning_vi": "Ngay khi xong là — Việc gì vừa xong thì lập tức làm việc tiếp theo.",
+      "pattern": "V thể ます (bỏ ます) + 次第"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "読みかけの本が何冊もある。",
+      "vi": "Có cả mấy cuốn sách đang đọc dang dở luôn."
+     },
+     {
+      "ja": "彼女は何か言いかけてやめた。",
+      "vi": "Cô ấy đang nói gì đó thì dừng lại."
+     }
+    ],
+    "meaning_vi": "Chưa xong, đang dở dang",
+    "pattern": "〜読みかける",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-4f17089ed3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-c0cb0dc65c",
+      "meaning_vi": "Bắt đầu từ... và toàn bộ những thứ khác",
+      "pattern": "〜からして"
+     },
+     {
+      "id": "JG-adea88bcc1",
+      "meaning_vi": "Vừa vừa, tuy nhưng — Hai hành động đồng thời, hoặc nghĩa nhượng bộ.",
+      "pattern": "つつ"
+     },
+     {
+      "id": "JG-bf5dd7803d",
+      "meaning_vi": "Không hẳn là — Phủ định một phần, không phủ định hoàn toàn.",
+      "pattern": "Thể thường + わけではない"
+     },
+     {
+      "id": "JG-c9419a4141",
+      "meaning_vi": "Hoàn toàn không định — Phủ định dứt khoát ý định làm gì.",
+      "pattern": "V từ điển + つもりはない"
+     },
+     {
+      "id": "JG-71bd86ae87",
+      "meaning_vi": "Nếu chưa thì không — Phải xong việc trước mới làm được việc sau.",
+      "pattern": "V-て + からでないと"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "この小説はおもしろくて、１日で読み切った。",
+      "vi": "Cuốn tiểu thuyết này hấp dẫn, đã đọc hết sạch trong một ngày."
+     },
+     {
+      "ja": "彼は疲れ切った顔をしている。",
+      "vi": "Anh ấy tỏ vẻ mặt quá mệt mỏi."
+     }
+    ],
+    "meaning_vi": "Làm cho xong, toàn bộ xong",
+    "pattern": "〜読み切る",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-1d45c93405"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b30884c906",
+      "meaning_vi": "Giả định, điều kiện, chừng nào, mà",
+      "pattern": "限(かぎ)り"
+     },
+     {
+      "id": "JG-301506980b",
+      "meaning_vi": null,
+      "pattern": "以上(いじょう) 2"
+     },
+     {
+      "id": "JG-8ee65c6820",
+      "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+      "pattern": "に限(かぎ)らず"
+     },
+     {
+      "id": "JG-8a0ba93ab4",
+      "meaning_vi": "Theo như mà tôi — Giới hạn phán đoán trong phạm vi thông tin mình có.",
+      "pattern": "V từ điển / V-た + かぎりでは"
+     },
+     {
+      "id": "JG-02b110a23d",
+      "meaning_vi": "Ngày càng — Xu hướng chỉ tiến về một phía, thường là xấu đi.",
+      "pattern": "一方(いっぽう)だ"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "７０歳以上の方に限り、入場無料。",
+      "vi": "Chỉ những vị trên 70 tuổi mới vào cửa miễn phí."
+     },
+     {
+      "ja": "最近は、女性に限らず男性も化粧をする。",
+      "vi": "Gần đây không chỉ phụ nữ mà cả đàn ông cũng trang điểm."
+     }
+    ],
+    "meaning_vi": "Chỉ…/ Giới hạn …",
+    "pattern": "〜70歳以上の方に限り",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-e21ae0e323"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b30884c906",
+      "meaning_vi": "Giả định, điều kiện, chừng nào, mà",
+      "pattern": "限(かぎ)り"
+     },
+     {
+      "id": "JG-8ee65c6820",
+      "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+      "pattern": "に限(かぎ)らず"
+     },
+     {
+      "id": "JG-8a0ba93ab4",
+      "meaning_vi": "Theo như mà tôi — Giới hạn phán đoán trong phạm vi thông tin mình có.",
+      "pattern": "V từ điển / V-た + かぎりでは"
+     },
+     {
+      "id": "JG-4941a90846",
+      "meaning_vi": "Không chỉ mà còn — Bổ sung thêm phạm vi ngoài điều đã nêu.",
+      "pattern": "Thể thường + ばかりでなく"
+     },
+     {
+      "id": "JG-7c2abc8efb",
+      "meaning_vi": "Suốt, trải khắp — Phạm vi hoặc thời gian rộng lớn trải dài.",
+      "pattern": "に渡(わた)って"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "日本にいる限り、日本語は必要だ。",
+      "vi": "Suốt trong thời gian ở Nhật thì tiếng Nhật là cần thiết."
+     },
+     {
+      "ja": "悪い生活習慣を改めない限り、健康にはなれない。",
+      "vi": "Chừng nào mà không sửa đổi thói quen sinh hoạt xấu thì không thể khỏe mạnh được."
+     }
+    ],
+    "meaning_vi": "Giới hạn, hạn chế, hạn trong ~ Chỉ phạm vi",
+    "pattern": "〜日本にいる限り",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-eb0c71a74a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-2f6d68d69c",
+      "meaning_vi": "Tại, trong lĩnh vực — Nêu nơi chốn, thời điểm hoặc phạm vi, dùng trong văn viết trang trọng.",
+      "pattern": "N + において / における"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "彼とはあまり話さない。というのも、性格が合わないからだ。",
+      "vi": "Tôi không nói chuyện với anh ấy nhiều. Sở dĩ vậy là vì tính cách không hợp."
+     },
+     {
+      "ja": "来週は忙しくなる。というのも、新しいプロジェクトが始まるからだ。",
+      "vi": "Tuần sau sẽ bận. Lý do là vì dự án mới sẽ bắt đầu."
+     }
+    ],
+    "meaning_vi": "Dùng để đưa ra lý do hoặc giải thích cho mệnh đề phía trước. Tương đương với “Sở dĩ… là vì…”, “Lý do là…”. Mệnh đề A là kết luận hoặc sự thật. Mệnh đề B (sau というのも) là nguyên nhân, lý do. Thường dùng trong văn viết, văn nói trang trọng, đặc biệt là văn nghị luận, giải thích, hoặc thuyết phục.",
+    "pattern": "Bởi vì..., lý do là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-300480ba17"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-99c17c7b01",
+      "meaning_vi": "Kể từ khi … (đến nay). Nhấn mạnh sự kéo dài/duy trì. Vế sau mô tả trạng thái tiếp diễn hoặc thay đổi kéo dài đến hiện tại. Không dùng với mệnh lệnh/ý chí trực tiếp.",
+      "pattern": "Kể từ..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "努力してこそ、夢は現実になる。",
+      "vi": "Chỉ khi nỗ lực thì ước mơ mới trở thành hiện thực."
+     },
+     {
+      "ja": "親になってこそ、親の有り難みがわかる。",
+      "vi": "Chỉ khi trở thành cha mẹ mới hiểu được ân nghĩa của cha mẹ."
+     }
+    ],
+    "meaning_vi": "～てこそ diễn tả “chỉ khi đã/đúng là làm V thì mới…”. Nhấn mạnh điều kiện tiên quyết để một giá trị/thấu hiểu/khả năng thực sự xuất hiện. Hàm ý loại trừ: nếu chưa V thì điều nói sau chưa thể thành hiện thực/đúng nghĩa. Mệnh đề sau thường là: khả năng (～できる), nhận thức (～わかる), đánh giá bản chất (本当の～だ), phát hiện (～というものだ). Thời điểm: thường nói về hiện tại/ tương lai; ít dùng để quy chiếu một việc quá khứ cụ thể. Sắc thái tôn vinh “giá trị chân chính” chỉ bộc lộ sau kinh nghiệm thật sự: 会ってこそ, 苦労してこそ, 失敗してこそ, 親になってこそ…",
+    "pattern": "Chỉ khi..., phải... thì mới...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-62639caa96"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-99c17c7b01",
+      "meaning_vi": "Kể từ khi … (đến nay). Nhấn mạnh sự kéo dài/duy trì. Vế sau mô tả trạng thái tiếp diễn hoặc thay đổi kéo dài đến hiện tại. Không dùng với mệnh lệnh/ý chí trực tiếp.",
+      "pattern": "Kể từ..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "都市部で人口が増えつつある。",
+      "vi": "Dân số ở khu đô thị đang dần tăng."
+     },
+     {
+      "ja": "オンライン教育の需要は高まりつつある。",
+      "vi": "Nhu cầu giáo dục trực tuyến đang ngày càng tăng."
+     }
+    ],
+    "meaning_vi": "Diễn tả một xu hướng/biến đổi đang tiếp diễn và có khả năng còn tiếp tục trong hiện tại. Nêu trạng thái chuyển tiếp, “đang trong quá trình” thay vì “đã đạt tới”. Thường xuất hiện trong ngôn ngữ học thuật, báo chí, báo cáo: tính khách quan, trang trọng. Hay dùng với động từ chỉ sự thay đổi: 増える、減る、広がる、進む、深まる、弱まる、安定する(しつつある).",
+    "pattern": "Đang dần..., ngày càng...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-e683aa5e21"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     },
+     {
+      "id": "JG-a6dbabf484",
+      "meaning_vi": "Không phải cứ là — Không thể chỉ vì lý do đó mà kết luận như vậy.",
+      "pattern": "Thể thường + からといって"
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "高いからといって、品質がいいとは限らない。",
+      "vi": "Không phải cứ đắt là chất lượng tốt."
+     },
+     {
+      "ja": "日本人だからといって、みんな寿司が好きなわけではない。",
+      "vi": "Không phải người Nhật ai cũng thích sushi."
+     }
+    ],
+    "meaning_vi": "“Chỉ vì… mà … (không hẳn/không nhất thiết/không nên)”: phủ định suy nghĩ máy móc dựa trên lý do trước đó. Thường kết hợp với biểu thức phủ định một phần: ～とは限らない／わけではない／とは言えない. Cũng dùng để nhắc nhở, phê phán hành vi dựa trên lý do chưa thỏa đáng. Sắc thái: phản biện định kiến, khuyên sống có chừng mực/không ngụy biện.",
+    "pattern": "Không phải cứ... là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-dca0ed2c36"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-99c17c7b01",
+      "meaning_vi": "Kể từ khi … (đến nay). Nhấn mạnh sự kéo dài/duy trì. Vế sau mô tả trạng thái tiếp diễn hoặc thay đổi kéo dài đến hiện tại. Không dùng với mệnh lệnh/ý chí trực tiếp.",
+      "pattern": "Kể từ..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "遅くなってすみません。道が混んでいたものだから。",
+      "vi": "Xin lỗi vì đến muộn. Vì đường kẹt xe ấy mà."
+     },
+     {
+      "ja": "彼は真面目なものだから、冗談が通じないこともある。",
+      "vi": "Anh ấy nghiêm túc nên đôi khi không hiểu chuyện đùa."
+     }
+    ],
+    "meaning_vi": "Nêu lý do mang tính chủ quan, thường là biện hộ, phân trần, giải thích hoàn cảnh: “vì…/do… (nên…)”. Thường xuất hiện trong lời xin lỗi, gọi điện, giao tiếp: nêu lý do trước khi đưa ra kết quả/nhờ vả. Sắc thái “không tránh khỏi/vì sự tình là thế”: người nói kỳ vọng người nghe thông cảm. Ít dùng với mệnh lệnh/trực tiếp sai khiến ở mệnh đề sau. Hay đứng cuối câu như một lời bỏ lửng lý do.",
+    "pattern": "Tại vì..., do...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-874e4db493"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "道路がぬれていることから、昨夜雨が降ったと分かる。",
+      "vi": "Từ việc đường ướt, hiểu rằng đêm qua đã mưa."
+     },
+     {
+      "ja": "彼が鍵を持っていたことから、内部の人だと考えられる。",
+      "vi": "Từ việc anh ta có chìa khóa, có thể nghĩ là người nội bộ."
+     }
+    ],
+    "meaning_vi": "～ことから có hai dùng chính: Căn cứ suy luận/đánh giá: “Từ việc/fact là … nên (có thể) suy ra/hiểu rằng …”. Nhấn mạnh tính căn cứ khách quan. Lý do đặt tên/nguồn gốc: “Vì … nên được gọi là/được đặt tên là …”. Sắc thái trang trọng, thường gặp trong báo cáo, bài viết, bản tin. Không dùng cho quan hệ nhân-quả trực tiếp mang ý chí (mua, quyết định…). Khi cần nói lý do hành động, dùng ので/から.",
+    "pattern": "Từ việc..., vì...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-b886261d66"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-f2ed843b34",
+      "meaning_vi": "Vì là nên chắc — Dựa vào tính cách quen thuộc của ai đó mà suy đoán.",
+      "pattern": "事(こと)だから"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "田中さんのことだから、きっと間に合うだろう。",
+      "vi": "Biết tính anh Tanaka, chắc chắn sẽ kịp."
+     },
+     {
+      "ja": "子どものことだから、これくらいのけんかはすぐ忘れるよ。",
+      "vi": "Vì là trẻ con nên cãi nhau chút thế này sẽ quên ngay."
+     }
+    ],
+    "meaning_vi": "Dựa vào hiểu biết về tính cách/thói quen của N để đưa ra suy đoán hay đánh giá. Sắc thái “đương nhiên khi xét đến con người đó”: Vì là anh ấy nên chắc là..., vốn là trẻ con nên... Thường dùng với tên riêng, nhóm người, tổ chức: 田中さん／子ども／彼女／あの会社... Mức độ chủ quan cao; mang tính người nói “hiểu rõ đối tượng”. Thường đi kèm các kết từ suy đoán: だろう／に違いない／はずだ; cũng có thể diễn đạt sự khoan dung: 子どものことだから、失敗もある。",
+    "pattern": "Vì (tính cách/đặc điểm)...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-1ed9a81abf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-adea88bcc1",
+      "meaning_vi": "Vừa vừa, tuy nhưng — Hai hành động đồng thời, hoặc nghĩa nhượng bộ.",
+      "pattern": "つつ"
+     },
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "資料を確認しつつ、発表の準備を進める。",
+      "vi": "Vừa kiểm tra tài liệu vừa tiến hành chuẩn bị thuyết trình."
+     },
+     {
+      "ja": "将来に不安を感じつつ、新しい挑戦を始めた。",
+      "vi": "Dù cảm thấy bất an về tương lai, tôi đã bắt đầu thử thách mới."
+     }
+    ],
+    "meaning_vi": "Đồng thời: thực hiện hai hành động song song, có tính ý thức. Mang sắc thái formal, gãy gọn. Nhượng bộ: “dù biết/nhận thức là ... nhưng ...”. Thường đi với động từ tri nhận: 知る、思う、感じる、悩む. Cùng chủ ngữ cho cả hai vế. Khác với ～ながら, つつ ít dùng trong hội thoại đời thường. Không dùng cho hành vi chốc lát, đột ngột; phù hợp quá trình kéo dài, có chủ đích.",
+    "pattern": "Vừa... vừa..., mặc dù...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-371ec7351b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-5b89028992",
+      "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+      "pattern": "Không thể không..."
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "値段から言うと、こちらの機種が一番お得だ。",
+      "vi": "Xét về giá, mẫu này lợi nhất."
+     },
+     {
+      "ja": "品質から言えば、国産のほうが安心だ。",
+      "vi": "Xét về chất lượng, hàng nội an tâm hơn."
+     }
+    ],
+    "meaning_vi": "～から言うと: “Xét theo/ về mặt/ nếu nói về (tiêu chí)… thì…”. Dùng khi đặt ra tiêu chí đánh giá rồi đưa ra nhận định. N thường là các tiêu chí: 値段・品質・安全・法律・文法・効率・デザイン・立場等. Sắc thái mang tính lý lẽ/chuẩn mực hơn 〜から見ると; ít tính cảm tính. Biến thể から言えば/から言って thay đổi nhịp văn, mức độ trang trọng.",
+    "pattern": "Xét theo..., theo quan điểm...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-6df687cacb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [],
+    "examples": [
+     {
+      "ja": "一度はこういう高級ホテルに泊ってみたいものです。",
+      "vi": "Ít nhất một lần tôi muốn được ở một khách sạn sang trọng như thế này."
+     },
+     {
+      "ja": "こんなに働いているんだから、もう少し給料を上げてもらいたいものだね。",
+      "vi": "Vì làm việc nhiều như vậy, thật mong được tăng lương thêm chút nữa nhỉ."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜たいものだ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-46607b45bf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [],
+    "examples": [
+     {
+      "ja": "A: 今年はまだ一回しか旅行に行ってない。",
+      "vi": "A: Năm nay mình mới chỉ đi du lịch một lần thôi。"
+     },
+     {
+      "ja": "B: 行けるだけましだよ。私なんか、まだどこにも行ってないよ。",
+      "vi": "B: Được đi đã là may rồi。Tôi thì còn chưa đi đâu cả。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜だけまし",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-57deec867f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-68ec2cf92f",
+      "meaning_vi": "Chẳng ra gì, không thành — Không đạt được cả mức tối thiểu.",
+      "pattern": "Thể thường + にもならない"
+     },
+     {
+      "id": "JG-8cf1c12392",
+      "meaning_vi": "Vì quá mà — Cảm xúc hoặc mức độ quá lớn dẫn đến kết quả bất thường.",
+      "pattern": "余(あま)り"
+     },
+     {
+      "id": "JG-f346952c3f",
+      "meaning_vi": "Chẳng qua chỉ là — Hạ thấp mức độ, nhấn mạnh chỉ có vậy thôi.",
+      "pattern": "に過(す)ぎない"
+     },
+     {
+      "id": "JG-f0197c90bb",
+      "meaning_vi": "Đến không chịu nổi — Cảm giác hoặc mong muốn mạnh đến mức không chịu được.",
+      "pattern": "〜て堪(たま)らない"
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "小学生までこの環境調査に参加した。",
+      "vi": "Đến cả học sinh tiểu học cũng tham gia cuộc khảo sát môi trường này."
+     },
+     {
+      "ja": "彼は借金までして小さな店を守ろうとした。",
+      "vi": "Anh ấy thậm chí vay nợ để cố giữ cửa hàng nhỏ."
+     }
+    ],
+    "meaning_vi": "Đến cả; đến mức làm cả",
+    "pattern": "Đến cả; đến mức làm cả",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-5676978342"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-3a8712710c",
+      "meaning_vi": "Dù có phải đánh đổi — Thề nguyện, lấy điều quý giá ra bảo đảm.",
+      "pattern": "N + にかけても"
+     },
+     {
+      "id": "JG-dda7948a72",
+      "meaning_vi": "Dù (khác nhiều so với tưởng tượng )",
+      "pattern": "〜にしては"
+     },
+     {
+      "id": "JG-e899b34293",
+      "meaning_vi": "Mặc dù",
+      "pattern": "にも拘(かか)わらず"
+     },
+     {
+      "id": "JG-6219b84892",
+      "meaning_vi": "Nên, cần phải — Khuyên bảo hoặc nêu điều nên làm, giọng của người có kinh nghiệm.",
+      "pattern": "事(こと)だ"
+     },
+     {
+      "id": "JG-9477c9f64b",
+      "meaning_vi": "Không cần phải — Trấn an rằng việc đó là không cần thiết.",
+      "pattern": "事(こと)はない"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "遠回りしてでも安全な道を選びたい。",
+      "vi": "Dù phải đi đường vòng, tôi vẫn muốn chọn con đường an toàn."
+     },
+     {
+      "ja": "彼は徹夜してでも今夜中に報告書を仕上げるつもりだ。",
+      "vi": "Anh ấy định hoàn thành báo cáo ngay đêm nay dù phải thức trắng."
+     }
+    ],
+    "meaning_vi": "Dù phải làm… cũng",
+    "pattern": "Dù phải làm... cũng",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-797ca702d5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-2a477664d5",
+      "meaning_vi": "Tuỳ trường hợp có khi — Trong một số trường hợp thì khác đi.",
+      "pattern": "N + によっては"
+     },
+     {
+      "id": "JG-73d7edfcf0",
+      "meaning_vi": "Nhân dịp, khi — Vào đúng dịp làm một việc quan trọng.",
+      "pattern": "に際(さい)して"
+     },
+     {
+      "id": "JG-0c216759c7",
+      "meaning_vi": "Cách kết hợp:",
+      "pattern": "〜ながら(も)"
+     },
+     {
+      "id": "JG-8ee65c6820",
+      "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+      "pattern": "に限(かぎ)らず"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "急いでいる日に限って、電車が遅れる。",
+      "vi": "Cứ đúng những ngày đang vội thì tàu lại trễ."
+     },
+     {
+      "ja": "彼に限って約束を破るはずがない。",
+      "vi": "Riêng anh ấy thì chắc chắn không thể thất hứa."
+     }
+    ],
+    "meaning_vi": "Đúng vào; riêng trường hợp ấy",
+    "pattern": "Đúng vào; riêng trường hợp ấy",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-c50999c29e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-c6afc41f7a",
+      "meaning_vi": "Thông qua, suốt — Nêu phương tiện trung gian, hoặc khoảng thời gian liên tục.",
+      "pattern": "を通(つう)じて"
+     },
+     {
+      "id": "JG-8cf1c12392",
+      "meaning_vi": "Vì quá mà — Cảm xúc hoặc mức độ quá lớn dẫn đến kết quả bất thường.",
+      "pattern": "余(あま)り"
+     },
+     {
+      "id": "JG-f346952c3f",
+      "meaning_vi": "Chẳng qua chỉ là — Hạ thấp mức độ, nhấn mạnh chỉ có vậy thôi.",
+      "pattern": "に過(す)ぎない"
+     },
+     {
+      "id": "JG-f0197c90bb",
+      "meaning_vi": "Đến không chịu nổi — Cảm giác hoặc mong muốn mạnh đến mức không chịu được.",
+      "pattern": "〜て堪(たま)らない"
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "声が出なくなるくらい応援した。",
+      "vi": "Tôi đã cổ vũ đến mức khản cả giọng."
+     },
+     {
+      "ja": "駅まで歩いて十分ぐらいかかる。",
+      "vi": "Đi bộ đến ga mất khoảng mười phút."
+     }
+    ],
+    "meaning_vi": "Khoảng, cỡ; đến mức",
+    "pattern": "Khoảng, cỡ; đến mức",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-ba851c621b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b30884c906",
+      "meaning_vi": "Giả định, điều kiện, chừng nào, mà",
+      "pattern": "限(かぎ)り"
+     },
+     {
+      "id": "JG-df00d02bd4",
+      "meaning_vi": "Không còn cách nào — Muốn làm cũng không có cách nào thực hiện.",
+      "pattern": "様(よう)がない"
+     },
+     {
+      "id": "JG-48986bc5b2",
+      "meaning_vi": "Không có cái nào khác, chính là",
+      "pattern": "に他(ほか)ならない"
+     },
+     {
+      "id": "JG-3a7fb2a615",
+      "meaning_vi": "Chỉ còn cách — Không còn lựa chọn nào khác ngoài việc đó.",
+      "pattern": "より他(ほか)ない"
+     },
+     {
+      "id": "JG-c1f1f9e9dc",
+      "meaning_vi": "Cảm thán, thở dài không biết thế nào đây",
+      "pattern": "事(こと)か"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "参加者は一人として途中で帰らなかった。",
+      "vi": "Không một người tham gia nào về giữa chừng."
+     },
+     {
+      "ja": "この海岸には同じ形の石は一つとしてない。",
+      "vi": "Trên bờ biển này không có lấy một hòn đá nào giống hệt nhau."
+     }
+    ],
+    "meaning_vi": "Không một… nào",
+    "pattern": "Không một... nào",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-268d4af3c3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-d46e3e0d3d",
+      "meaning_vi": "Ngay lập tức, gần như đồng thời",
+      "pattern": "か〜ないかの内(うち)に"
+     },
+     {
+      "id": "JG-02b110a23d",
+      "meaning_vi": "Ngày càng — Xu hướng chỉ tiến về một phía, thường là xấu đi.",
+      "pattern": "一方(いっぽう)だ"
+     },
+     {
+      "id": "JG-ff63b13f6c",
+      "meaning_vi": "Chỉ vì",
+      "pattern": "〜ばかりに"
+     },
+     {
+      "id": "JG-908254002b",
+      "meaning_vi": "Sau khi mới — Chỉ sau khi trải qua việc đó mới nhận ra hoặc làm được điều kia.",
+      "pattern": "〜て初(はじ)めて"
+     },
+     {
+      "id": "JG-8ee65c6820",
+      "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+      "pattern": "に限(かぎ)らず"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "忙しくて、昼ご飯を食べる時間さえなかった。",
+      "vi": "Tôi bận đến mức ngay cả thời gian ăn trưa cũng không có."
+     },
+     {
+      "ja": "この問題は専門家でさえ判断に迷う。",
+      "vi": "Vấn đề này ngay cả chuyên gia cũng khó đưa ra phán đoán."
+     }
+    ],
+    "meaning_vi": "Ngay cả; chỉ cần",
+    "pattern": "Ngay cả; chỉ cần",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-41ef030401"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b30884c906",
+      "meaning_vi": "Giả định, điều kiện, chừng nào, mà",
+      "pattern": "限(かぎ)り"
+     },
+     {
+      "id": "JG-df00d02bd4",
+      "meaning_vi": "Không còn cách nào — Muốn làm cũng không có cách nào thực hiện.",
+      "pattern": "様(よう)がない"
+     },
+     {
+      "id": "JG-48986bc5b2",
+      "meaning_vi": "Không có cái nào khác, chính là",
+      "pattern": "に他(ほか)ならない"
+     },
+     {
+      "id": "JG-3a7fb2a615",
+      "meaning_vi": "Chỉ còn cách — Không còn lựa chọn nào khác ngoài việc đó.",
+      "pattern": "より他(ほか)ない"
+     },
+     {
+      "id": "JG-c1f1f9e9dc",
+      "meaning_vi": "Cảm thán, thở dài không biết thế nào đây",
+      "pattern": "事(こと)か"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "休日は料理や散歩などをして過ごす。",
+      "vi": "Ngày nghỉ tôi dành thời gian làm những việc như nấu ăn và đi dạo."
+     },
+     {
+      "ja": "私なんか、まだ人に教えられるほど経験がありません。",
+      "vi": "Một người như tôi vẫn chưa có đủ kinh nghiệm để dạy người khác."
+     }
+    ],
+    "meaning_vi": "Như là; nào là; đến cả chuyện",
+    "pattern": "Như là; nào là; đến cả chuyện",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-90f1034d04"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-7c2abc8efb",
+      "meaning_vi": "Suốt, trải khắp — Phạm vi hoặc thời gian rộng lớn trải dài.",
+      "pattern": "に渡(わた)って"
+     },
+     {
+      "id": "JG-8ee65c6820",
+      "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+      "pattern": "に限(かぎ)らず"
+     },
+     {
+      "id": "JG-2f6d68d69c",
+      "meaning_vi": "Tại, trong lĩnh vực — Nêu nơi chốn, thời điểm hoặc phạm vi, dùng trong văn viết trang trọng.",
+      "pattern": "N + において / における"
+     },
+     {
+      "id": "JG-5a0249bec4",
+      "meaning_vi": "Ngoại trừ — Loại một đối tượng ra khỏi phạm vi đang nói.",
+      "pattern": "N + を除いて"
+     },
+     {
+      "id": "JG-4941a90846",
+      "meaning_vi": "Không chỉ mà còn — Bổ sung thêm phạm vi ngoài điều đã nêu.",
+      "pattern": "Thể thường + ばかりでなく"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "私が調べた限りでは、この制度に年齢制限はない。",
+      "vi": "Theo phạm vi tôi đã tìm hiểu, chế độ này không có giới hạn tuổi."
+     },
+     {
+      "ja": "記憶している限りでは、彼に会うのは今日が初めてだ。",
+      "vi": "Trong phạm vi tôi nhớ thì hôm nay là lần đầu tôi gặp anh ấy."
+     }
+    ],
+    "meaning_vi": "Theo phạm vi biết hoặc quan sát",
+    "pattern": "Theo phạm vi biết hoặc quan sát",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-36d4285f8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-f2b90cfa77",
+      "meaning_vi": "Về mặt thì — Xét trên phương diện chính thức hoặc hình thức.",
+      "pattern": "上(うえ)は"
+     },
+     {
+      "id": "JG-48986bc5b2",
+      "meaning_vi": "Không có cái nào khác, chính là",
+      "pattern": "に他(ほか)ならない"
+     },
+     {
+      "id": "JG-53b643c40d",
+      "meaning_vi": "Trước khi — Làm việc chuẩn bị trước một sự kiện chính thức.",
+      "pattern": "V từ điển / N + に先立って"
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "子どもがかわいいからこそ、しかるんです。",
+      "vi": "Tôi la rầy bọn trẻ chính vì yêu thương chúng."
+     },
+     {
+      "ja": "努力したからこそ、成功したんです。",
+      "vi": "Chính vì đã nỗ lực nên thành công."
+     }
+    ],
+    "meaning_vi": "Chính vì…",
+    "pattern": "〜かわいいからこそ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-6069d6d2d0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-02b110a23d",
+      "meaning_vi": "Ngày càng — Xu hướng chỉ tiến về một phía, thường là xấu đi.",
+      "pattern": "一方(いっぽう)だ"
+     },
+     {
+      "id": "JG-ff63b13f6c",
+      "meaning_vi": "Chỉ vì",
+      "pattern": "〜ばかりに"
+     },
+     {
+      "id": "JG-908254002b",
+      "meaning_vi": "Sau khi mới — Chỉ sau khi trải qua việc đó mới nhận ra hoặc làm được điều kia.",
+      "pattern": "〜て初(はじ)めて"
+     },
+     {
+      "id": "JG-8ee65c6820",
+      "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+      "pattern": "に限(かぎ)らず"
+     },
+     {
+      "id": "JG-52fc31fea7",
+      "meaning_vi": "Không chỉ, thêm vào",
+      "pattern": "上(うえ)に"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "携帯電話を買った。これさえあれば、時計もカメラもいらない。",
+      "vi": "Đã mua điện thoại. Chỉ cần có cái này, đồng hồ cũng như máy ảnh thì không cần thiết."
+     },
+     {
+      "ja": "この薬を飲みさえすれば、すぐに治ります。",
+      "vi": "Chỉ cần uống thuốc này vào, là khỏi liền thôi."
+     }
+    ],
+    "meaning_vi": "Chỉ cần…",
+    "pattern": "〜これさえあれば",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-3a68e48f55"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-02b110a23d",
+      "meaning_vi": "Ngày càng — Xu hướng chỉ tiến về một phía, thường là xấu đi.",
+      "pattern": "一方(いっぽう)だ"
+     },
+     {
+      "id": "JG-2f6d68d69c",
+      "meaning_vi": "Tại, trong lĩnh vực — Nêu nơi chốn, thời điểm hoặc phạm vi, dùng trong văn viết trang trọng.",
+      "pattern": "N + において / における"
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-f139f0f53e",
+      "meaning_vi": "Đang dần…; đang trong quá trình biến đổi… (văn viết)",
+      "pattern": "〜つつある"
+     },
+     {
+      "id": "JG-3c3ff1bf18",
+      "meaning_vi": "Theo, càng thì càng — Biến đổi song song, hoặc tuân theo chỉ dẫn.",
+      "pattern": "に従(したが)って"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "物価は上がるばかりだ。",
+      "vi": "Giá cả cứ tăng mãi."
+     },
+     {
+      "ja": "状況は悪化するばかりだ。",
+      "vi": "Tình hình có xu hướng xấu đi."
+     }
+    ],
+    "meaning_vi": "(1) ngày càng (2)(3) chỉ * 「のみだ」： dùng trong văn viết.",
+    "pattern": "〜上がるばかりだ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-40613f1b9f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [],
+    "examples": [
+     {
+      "ja": "この祭りは、住民の社会参加を目的として始められた。",
+      "vi": "Lễ hội này được bắt đầu hướng đến mục tiêu tham gia xã hội của cư dân."
+     },
+     {
+      "ja": "山田さんをリーダーとするサークルを作る。",
+      "vi": "Lập câu lạc bộ thể thao chọn anh Yamada làm thủ lĩnh."
+     }
+    ],
+    "meaning_vi": "Lấｙ ～ làm ～",
+    "pattern": "〜社会参加を目的として",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-0334df3da9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-dda7948a72",
+      "meaning_vi": "Dù (khác nhiều so với tưởng tượng )",
+      "pattern": "〜にしては"
+     },
+     {
+      "id": "JG-e899b34293",
+      "meaning_vi": "Mặc dù",
+      "pattern": "にも拘(かか)わらず"
+     },
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-77ec44ca3e",
+      "meaning_vi": "Dù là... hay là...",
+      "pattern": "Dù là... hay là..."
+     },
+     {
+      "id": "JG-3a8712710c",
+      "meaning_vi": "Dù có phải đánh đổi — Thề nguyện, lấy điều quý giá ra bảo đảm.",
+      "pattern": "N + にかけても"
+     }
+    ],
+    "examples": [
+     {
+      "ja": "行くとしても、旅行者としてしか行けない。",
+      "vi": "Cho dẫu có đi, thì chỉ có thể đi với tư cách người du lịch."
+     },
+     {
+      "ja": "負けてくやしいのは、選手だけでなく監督にしても同じだ。",
+      "vi": "Ân hận vì thất bại, không chỉ riêng các tuyển thủ mà ngay cả huấn luyện viên cũng giống vậy."
+     }
+    ],
+    "meaning_vi": "Dù cho…",
+    "pattern": "〜行くとしても",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-5ba03484fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     },
+     {
+      "id": "JG-b2d86ae21b",
+      "meaning_vi": "Liệt kê hai mặt song song: vừa có A vừa có B; đôi khi mang sắc thái “có chỗ này cũng có chỗ kia”. Kiểu “NもNならNもNだ” thường mang đánh giá (hay tiêu cực): “A thế nào thì B cũng thế nấy”. Thường dùng để nêu đặc điểm tổng quát hoặc bình luận cân bằng (ưu/nhược) về một đối tượng.",
+      "pattern": "Cả... lẫn..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "年を取るとともに、記憶力が弱くなる。",
+      "vi": "Cùng với tuổi tác tăng lên, trí nhớ cũng yếu đi."
+     },
+     {
+      "ja": "春の訪れとともに、花が咲き始めた。",
+      "vi": "Cùng với mùa xuân đến, hoa bắt đầu nở."
+     }
+    ],
+    "meaning_vi": "① Cùng với, đồng thời với: Hai hành động/sự việc xảy ra đồng thời. ② Cùng với sự thay đổi của A thì B cũng thay đổi: Biểu thị sự biến đổi theo xu hướng song song. ③ Đồng thời kiêm nhiệm nhiều vai trò/tính chất: “Vừa là…, đồng thời cũng là…”. Ngữ cảnh thường mang tính trang trọng, văn viết hoặc diễn đạt mang tính luận lý.",
+    "pattern": "Cùng với..., đồng thời...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-3d048d5620"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-2f6d68d69c",
+      "meaning_vi": "Tại, trong lĩnh vực — Nêu nơi chốn, thời điểm hoặc phạm vi, dùng trong văn viết trang trọng.",
+      "pattern": "N + において / における"
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "経済の回復にともなって、消費が増加している。",
+      "vi": "Cùng với phục hồi kinh tế, tiêu dùng đang tăng."
+     },
+     {
+      "ja": "人口が増えるのにともなって、交通渋滞が深刻化した。",
+      "vi": "Cùng với dân số tăng, tắc nghẽn giao thông trở nên nghiêm trọng."
+     }
+    ],
+    "meaning_vi": "- Nghĩa 1 (biến đổi đồng thời): “Cùng với/đồng thời với A, B cũng thay đổi/tiếp diễn.” - Nghĩa 2 (đi kèm/hệ quả): “Do A kéo theo, phát sinh B (hệ quả/ảnh hưởng/biện pháp).” - Trang trọng hơn ～につれて; dùng được trong văn nói trang trọng, văn viết, thông báo hành chính.",
+    "pattern": "Cùng với..., kéo theo...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-0ee731d7d3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "candidates": [
+     {
+      "id": "JG-b574313082",
+      "meaning_vi": "- Diễn đạt “dù … hay … thì (kết luận chung)”, nhấn mạnh tính bao quát: bất kể thuộc trường hợp nào trong hai (hoặc nhiều) khả năng nêu ra, kết quả/phán đoán phía sau không đổi. - Thường dùng với cặp đối nghĩa, cặp cực trị, hoặc hai ví dụ tiêu biểu để đại diện cho “trường hợp nào đi nữa”. - Sắc thái: lý lẽ, khách quan; mức độ trang trọng trung bình (thân mật hơn ～であれ, hơi trung lập so với ～にせよ).",
+      "pattern": "Dù... hay..."
+     },
+     {
+      "id": "JG-e4f12b1fe2",
+      "meaning_vi": "Liệt kê hai (hoặc hơn) ví dụ trong số nhiều thứ tương tự: “nào là A nào là B…”. Gợi cảm giác không kiểm soát, lộn xộn, hoặc tâm trạng đan xen; thường mang tính nói. Hai vế thường cùng loại nghĩa hoặc cùng trường ngữ nghĩa (đồ vật bừa bộn, sự cố liên tiếp, cảm xúc trái ngược...). Hàm ý “còn nhiều nữa” ngoài các mục được nêu.",
+      "pattern": "Nào là... nào là..."
+     },
+     {
+      "id": "JG-b6b1ffdabc",
+      "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+      "pattern": "Vừa mới... thì..."
+     },
+     {
+      "id": "JG-daf20dc114",
+      "meaning_vi": "しかも: “hơn nữa, vả lại, đã thế lại (còn)”, nhấn mạnh rằng S2 là một yếu tố bổ sung có tính bất ngờ/đáng chú ý, làm gia tăng mức độ đánh giá cùng chiều với S1. Tác dụng tăng cường: S2 khiến ấn tượng mạnh hơn (tốt hơn hoặc xấu hơn). Phong cách: trung tính đến trang trọng; dùng được trong báo cáo/bài viết. Không biểu đạt quan hệ nguyên nhân; chỉ là bổ sung nhấn mạnh.",
+      "pattern": "Hơn nữa, lại còn"
+     },
+     {
+      "id": "JG-e3638c550a",
+      "meaning_vi": "Diễn tả lấy N làm “cơ sở, chất liệu, nguồn tư liệu” để tạo ra, phát triển, đánh giá, quyết định điều gì đó mới. Thường dùng với hành động sáng tạo, thiết kế, cải tiến, phân tích, đánh giá. So với ～に基づいて: ～をもとに nhấn vào “chất liệu/nguồn tham khảo” linh hoạt; không nhất thiết là quy tắc chính thức. Không dùng cho nghĩa “dưới sự bảo trợ/giám sát” (dùng ～のもとで/～のもとに).",
+      "pattern": "Dựa trên..."
+     }
+    ],
+    "examples": [
+     {
+      "ja": "忙しくて、休みどころか、昼ご飯を食べる時間もない。",
+      "vi": "Bận đến mức, nghỉ ngơi còn chẳng có, đến ăn trưa cũng không có thời gian."
+     },
+     {
+      "ja": "この部屋は静かどころか、夜になるとうるさい。",
+      "vi": "Phòng này yên tĩnh đâu, tối đến còn ồn nữa."
+     }
+    ],
+    "meaning_vi": "- Diễn đạt sự thật trái ngược hoàn toàn với mong đợi/giả định A: “A đâu mà/ chứ đừng nói A, (thực ra) B…”. - Hai cách dùng cơ bản: 1) “Chứ nói gì đến A, ngay cả B (mức thấp hơn/cơ bản hơn) còn không/đã …”. 2) “Không những không A, mà còn ngược lại là B (đối lập).” - Thường đi với các cặp từ trái nghĩa hoặc thang mức độ để nhấn mạnh khoảng cách.",
+    "pattern": "Không những không... mà còn...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "parent_id"
+   ],
+   "id": "JG-0f82a479ae"
+  }
+ ],
+ "kind": "GRAMMAR_PARENT",
+ "level": "N2",
+ "packet_id": "GRAMMAR_PARENT-003"
+}

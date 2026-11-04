@@ -1,0 +1,242 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "一日たりとも忘れたことはない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dù chỉ một cũng không — Phủ định tuyệt đối, dù mức nhỏ nhất cũng không.",
+    "pattern": "Lượng từ + たりとも",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2136a88b44"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "結果いかんによっては計画を見直す。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tuỳ vào mà có thể — Kết quả thay đổi tuỳ theo yếu tố đó.",
+    "pattern": "N + いかんによっては",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-1dc7f7c74d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ご心配には及びません。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không cần phải, không bằng — Không cần thiết làm việc đó, hoặc không sánh bằng.",
+    "pattern": "N / V từ điển + には及ばない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3fced588e4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "借金までして車を買った。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đến mức phải — Làm đến cả việc cực đoan đó để đạt mục đích.",
+    "pattern": "V-て / N + までして",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ed72e08347"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "来るはずの人がまだ来ない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Lẽ ra phải, vốn dĩ — Dạng định ngữ của はずだ, đứng trước danh từ.",
+    "pattern": "V từ điển + はずの",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-cd24635624"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お忙しいところをありがとうございます。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Trong lúc đang mà — Lời xin lỗi vì làm phiền người khác đúng lúc họ bận.",
+    "pattern": "N の / Thể thường + ところを",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-60e64f7984"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この作品は鑑賞に堪える。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đáng để, chịu được — Có đủ giá trị để làm việc đó.",
+    "pattern": "V từ điển + に堪える",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4312a5c796"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "理由のいかんにかかわらず返金はできません。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bất kể như thế nào — Không phụ thuộc vào yếu tố đó.",
+    "pattern": "N + いかんにかかわらず",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2bd2d88400"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の実力をもってすれば、優勝も可能だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu dùng thì — Với năng lực hoặc phương tiện đó thì việc gì cũng được.",
+    "pattern": "N + をもってすれば",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b8afbf51ce"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子供ではあるまいし、自分でやりなさい。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đâu phải là mà — Nhắc nhở rằng đối phương không phải như vậy nên đừng hành xử thế.",
+    "pattern": "Thể thường + ではあるまいし",
+    "pattern_variants": [
+     "〜ではあるまいし"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d523018562"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-016"
+}

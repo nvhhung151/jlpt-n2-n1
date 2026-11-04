@@ -1,0 +1,264 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "一生懸命勉強する子供たちを見るにつけ、この仕事をやっていて、本当によかったと思う。",
+      "vi": "Mỗi lần thấy các em học chăm chỉ, tôi lại thấy thật may mắn khi làm công việc này。"
+     },
+     {
+      "ja": "あの客は何かにつけ文句を言ってくるから、本当に困る。",
+      "vi": "Khách đó hễ có chuyện gì là phàn nàn, thật là phiền。"
+     }
+    ],
+    "meaning_vi": "Mỗi khi... thì luôn... (gợi lên một cảm xúc có liên quan).",
+    "pattern": "〜につけ",
+    "pattern_variants": [
+     "V từ điển + につけ"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-283fac2c9c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "本当のことを言ったところで、だれも信じてくれないだろう。",
+      "vi": "Dù có nói thật cách mấy, cũng không ai tin."
+     },
+     {
+      "ja": "この病気は手術をしたところで回復は難しいと思われる。",
+      "vi": "Bệnh này dù có phẫu thuật cách mấy, hồi phục là rất khó."
+     }
+    ],
+    "meaning_vi": "Dù có",
+    "pattern": "〜たところで",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b4fd2bd83f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「お忙しいところをわざわざ来ていただき、ありがとうございました」",
+      "vi": "Đang lúc bận rộn mà anh phải đến tận đây cám ơn anh."
+     },
+     {
+      "ja": "「お話し中ところをちょっと失礼します」",
+      "vi": "Đang lúc nói chuyện xin thất lễ một chút."
+     }
+    ],
+    "meaning_vi": "Đang lúc A thì B (biểu thị cảm tạ, nhờ vả, xin lỗi)",
+    "pattern": "〜ところを",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-74fc007f88"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "留学をきっかけに、考え方が変わった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nhân cơ hội, từ đó mà — Một sự kiện trở thành khởi điểm cho thay đổi.",
+    "pattern": "N + をきっかけに",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-fcc107604f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "体が丈夫なかぎり、働き続けたい。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chừng nào còn — Trong phạm vi điều kiện đó còn duy trì.",
+    "pattern": "V từ điển / Thể thường + かぎり(は)",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b7b621bc09"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この事故を契機に、安全基準が見直された。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Lấy làm bước ngoặt — Giống をきっかけに nhưng trang trọng hơn hẳn.",
+    "pattern": "N + を契機に",
+    "pattern_variants": [
+     "〜を契機に"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2b9520bd6c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "窓が割れていることから、泥棒が入ったと分かった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Từ việc đó mà — Nêu căn cứ dẫn đến một kết luận hoặc tên gọi.",
+    "pattern": "Thể thường + ことから",
+    "pattern_variants": [
+     "〜ことから"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-217ba9f715"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私が知るかぎりでは、彼は正直な人だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Theo như mà tôi — Giới hạn phán đoán trong phạm vi thông tin mình có.",
+    "pattern": "V từ điển / V-た + かぎりでは",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8a0ba93ab4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "驚いたことに、彼は全部知っていた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thật là — Nêu cảm xúc của người nói trước khi kể sự việc.",
+    "pattern": "A / V-た + ことに",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0668d251f9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は普段は大人しいけど、ゲームの話となると、急におしゃべりになる。",
+      "vi": "Anh ấy bình thường trầm lặng nhưng cứ nhắc đến trò chơi là bỗng nhiên trở nên nói nhiều。"
+     },
+     {
+      "ja": "森先生が来られないとなると、日にちを変えたほうがいいね。",
+      "vi": "Nếu thầy Mori không thể đến, thì nên đổi ngày nhỉ。」"
+     }
+    ],
+    "meaning_vi": "Khi đến giai đoạn ～ thì nảy sinh tình huống tiếp theo; nếu đúng là tình huống ～ thì có thể suy ra điều tiếp theo.",
+    "pattern": "〜となると",
+    "pattern_variants": [
+     "となると"
+    ],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2556b5fda7"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-020"
+}

@@ -1,0 +1,380 @@
+{
+ "header": {
+  "instructions": "topic_key/topic_vi: chọn chủ đề gần nghĩa nhất trong header.topics; không hợp thì \"khac\"/\"Từ thông dụng khác\".",
+  "topics": [
+   {
+    "topic_key": "gia-dinh",
+    "topic_vi": "Gia đình"
+   },
+   {
+    "topic_key": "ban-be",
+    "topic_vi": "Bạn bè"
+   },
+   {
+    "topic_key": "nguoi-quen",
+    "topic_vi": "Người quen"
+   },
+   {
+    "topic_key": "nguoi-yeu",
+    "topic_vi": "Người yêu"
+   },
+   {
+    "topic_key": "moi-quan-he-rong",
+    "topic_vi": "Mối quan hệ rộng"
+   },
+   {
+    "topic_key": "noi-o",
+    "topic_vi": "Nơi ở"
+   },
+   {
+    "topic_key": "do-an",
+    "topic_vi": "Đồ ăn"
+   },
+   {
+    "topic_key": "nau-an",
+    "topic_vi": "Nấu ăn"
+   },
+   {
+    "topic_key": "nhat-trinh",
+    "topic_vi": "Nhật trình"
+   },
+   {
+    "topic_key": "tu-the-hien-thoi-gian",
+    "topic_vi": "Từ thể hiện thời gian"
+   },
+   {
+    "topic_key": "viec-nha",
+    "topic_vi": "Việc nhà"
+   },
+   {
+    "topic_key": "ngay-nghi",
+    "topic_vi": "Ngày nghỉ"
+   },
+   {
+    "topic_key": "chuyen-nha",
+    "topic_vi": "Chuyển nhà"
+   },
+   {
+    "topic_key": "truong-hoc",
+    "topic_vi": "Trường học"
+   },
+   {
+    "topic_key": "hoc-tap",
+    "topic_vi": "Học tập"
+   },
+   {
+    "topic_key": "thi-cu",
+    "topic_vi": "Thi cử"
+   },
+   {
+    "topic_key": "len-dai-hoc",
+    "topic_vi": "Lên Đại học"
+   },
+   {
+    "topic_key": "laptop-dien-thoai",
+    "topic_vi": "Laptop, điện thoại"
+   },
+   {
+    "topic_key": "tim-viec",
+    "topic_vi": "Tìm việc"
+   },
+   {
+    "topic_key": "cong-ty",
+    "topic_vi": "Công ty"
+   },
+   {
+    "topic_key": "cong-viec",
+    "topic_vi": "Công việc"
+   },
+   {
+    "topic_key": "quan-he-tren-duoi",
+    "topic_vi": "Quan hệ trên dưới"
+   },
+   {
+    "topic_key": "nghi-viec-chuyen-cho-lam",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm"
+   },
+   {
+    "topic_key": "thanh-pho",
+    "topic_vi": "Thành phố"
+   },
+   {
+    "topic_key": "cong-cong",
+    "topic_vi": "Công cộng"
+   },
+   {
+    "topic_key": "giao-thong",
+    "topic_vi": "Giao thông"
+   },
+   {
+    "topic_key": "san-xuat",
+    "topic_vi": "Sản xuất"
+   },
+   {
+    "topic_key": "nong-thon",
+    "topic_vi": "Nông thôn"
+   },
+   {
+    "topic_key": "co-the-va-suc-khoe",
+    "topic_vi": "Cơ thể và sức khỏe"
+   },
+   {
+    "topic_key": "trieu-chung-benh",
+    "topic_vi": "Triệu chứng bệnh"
+   },
+   {
+    "topic_key": "benh-va-dieu-tri",
+    "topic_vi": "Bệnh và điều trị"
+   },
+   {
+    "topic_key": "lam-dep",
+    "topic_vi": "Làm đẹp"
+   },
+   {
+    "topic_key": "thi-dau",
+    "topic_vi": "Thi đấu"
+   },
+   {
+    "topic_key": "thoi-trang",
+    "topic_vi": "Thời trang"
+   },
+   {
+    "topic_key": "sach",
+    "topic_vi": "Sách"
+   },
+   {
+    "topic_key": "ke-hoach-du-lich",
+    "topic_vi": "Kế hoạch du lịch"
+   },
+   {
+    "topic_key": "tai-noi-du-lich",
+    "topic_vi": "Tại nơi du lịch"
+   },
+   {
+    "topic_key": "dat-nuoc",
+    "topic_vi": "Đất nước"
+   },
+   {
+    "topic_key": "quan-he-quoc-te",
+    "topic_vi": "Quan hệ quốc tế"
+   },
+   {
+    "topic_key": "thoi-tiet-khi-hau",
+    "topic_vi": "Thời tiết, khí hậu"
+   },
+   {
+    "topic_key": "thien-tai",
+    "topic_vi": "Thiên tai"
+   },
+   {
+    "topic_key": "moi-truong-the-gioi",
+    "topic_vi": "Môi trường thế giới"
+   },
+   {
+    "topic_key": "tu-nhien",
+    "topic_vi": "Tự nhiên"
+   },
+   {
+    "topic_key": "giai-tri",
+    "topic_vi": "Giải trí"
+   },
+   {
+    "topic_key": "su-co",
+    "topic_vi": "Sự cố"
+   },
+   {
+    "topic_key": "su-kien-su-co",
+    "topic_vi": "Sự kiện, sự cố"
+   },
+   {
+    "topic_key": "xa-hoi",
+    "topic_vi": "Xã hội"
+   },
+   {
+    "topic_key": "chinh-tri",
+    "topic_vi": "Chính trị"
+   },
+   {
+    "topic_key": "kinh-te",
+    "topic_vi": "Kinh tế"
+   },
+   {
+    "topic_key": "tinh-cach",
+    "topic_vi": "Tính cách"
+   },
+   {
+    "topic_key": "tam-trang-tot",
+    "topic_vi": "Tâm trạng tốt"
+   },
+   {
+    "topic_key": "tam-trang-xau",
+    "topic_vi": "Tâm trạng xấu"
+   },
+   {
+    "topic_key": "hinh-anh-tich-cuc",
+    "topic_vi": "Hình ảnh tích cực"
+   },
+   {
+    "topic_key": "hinh-anh-tieu-cuc",
+    "topic_vi": "Hình ảnh tiêu cực"
+   },
+   {
+    "topic_key": "trang-tu",
+    "topic_vi": "Trạng từ ③"
+   },
+   {
+    "topic_key": "tu-de-nham-lan",
+    "topic_vi": "Từ dễ nhầm lẫn ②"
+   },
+   {
+    "topic_key": "thanh-ngu-khuon-mat",
+    "topic_vi": "Thành ngữ: Khuôn mặt"
+   },
+   {
+    "topic_key": "thanh-ngu-than-the",
+    "topic_vi": "Thành ngữ: Thân thể"
+   },
+   {
+    "topic_key": "thanh-ngu-bo-phan-khac",
+    "topic_vi": "Thành ngữ: Bộ phận khác"
+   },
+   {
+    "topic_key": "tu-nhieu-nghia",
+    "topic_vi": "Từ nhiều nghĩa"
+   }
+  ]
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "安静を保つ",
+    "meaning_vi": "giữ trạng thái nghỉ ngơi tuyệt đối",
+    "reading": "あんせいをたもつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-f4e65a162a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "寒気がする",
+    "meaning_vi": "cảm thấy ớn lạnh",
+    "reading": "さむけがする",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-7516b69152"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "往診に来てもらう",
+    "meaning_vi": "mời bác sĩ đến khám tại nhà",
+    "reading": "おうしんにきてもらう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-21fa54049e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "応急処置をする",
+    "meaning_vi": "sơ cứu",
+    "reading": "おうきゅうしょちをする",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-716b52c97d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "患部に薬を塗る",
+    "meaning_vi": "bôi thuốc lên vùng bị bệnh",
+    "reading": "かんぶにくすりをぬる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-7896fad9c2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "慢性の ― 急性の",
+    "meaning_vi": "mãn tính — cấp tính",
+    "reading": "まんせいの ― きゅうせいの",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-018a7a8edf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "持病がある",
+    "meaning_vi": "có bệnh mãn tính／bệnh nền",
+    "reading": "じびょうがある",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-e4d712e937"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "早寝早起き",
+    "meaning_vi": "ngủ sớm; dậy sớm",
+    "reading": "はやねはやおき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-949a9eadc3"
+  }
+ ],
+ "kind": "TOPIC_ASSIGN",
+ "level": "N1",
+ "packet_id": "TOPIC_ASSIGN-016"
+}

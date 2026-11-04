@@ -1,0 +1,258 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ところだった 2",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-50f80c3ad9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本での生活はこんなに忙しいとは（夢にも思わなかった）。",
+      "vi": "Không ngờ ở Nhật, cuộc sống lại bận rộn thế này."
+     },
+     {
+      "ja": "セミットの警備がこんなに厳重とは（知らなかった）。",
+      "vi": "Bảo mật của hội nghị thượng đỉnh nghiêm ngặt đến mức không hề hay biết luôn."
+     }
+    ],
+    "meaning_vi": "Biểu thị cảm giác ngạc nhiên, ngoài tưởng tượng",
+    "pattern": "なんて",
+    "pattern_variants": [
+     "〜なんて/とは"
+    ],
+    "source_questions": [],
+    "unit_no": 21
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7f1f0796af"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "と見(み)える",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 22
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8bd4d36a97"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そんな運転では事故を起こしかねない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Có thể dẫn đến (điều xấu) — Khả năng xảy ra hậu quả không mong muốn.",
+    "pattern": "兼(か)ねない",
+    "pattern_variants": [
+     "V thể ます (bỏ ます) + かねない"
+    ],
+    "source_questions": [],
+    "unit_no": 22
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8ae98e3128"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "大雨のおそれがあります。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Có nguy cơ — Cảnh báo khả năng xảy ra điều xấu.",
+    "pattern": "恐(おそ)れがある",
+    "pattern_variants": [
+     "V từ điển / N の + おそれがある"
+    ],
+    "source_questions": [],
+    "unit_no": 22
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-cd49023dc1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "人の忠告を聞こうとしない彼には、もう何も言うまい。",
+      "vi": "Tôi sẽ không nói gì với người không muốn nghe lời khuyên của mọi người như anh ta nữa."
+     },
+     {
+      "ja": "もう甘いものは食べまいと思っても、ついつい食べてしまう。",
+      "vi": "Quyết không ăn đồ ăn ngọt mà lỡ ăn nó mất."
+     }
+    ],
+    "meaning_vi": "Quyết không",
+    "pattern": "〜まい",
+    "pattern_variants": [
+     "まい",
+     "V từ điển + まい"
+    ],
+    "source_questions": [],
+    "unit_no": 22
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-cde47d89cb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "に違(ちが)いない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 22
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0fd265b39a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これだけの証拠がある以上、犯人はあの人の男に相違ないと思われる。",
+      "vi": "Có chứng cứ ngần này, thủ phạm chính là thằng đó không sai đâu."
+     },
+     {
+      "ja": "双方が譲歩しなければ、交渉は初列するに相違ない。",
+      "vi": "Nếu cả hai bên không nhượng bộ thì chắc chắn cuộc đàm phán sẽ thất bại."
+     }
+    ],
+    "meaning_vi": "Không sai, chắc chắn",
+    "pattern": "に相違(そうい)ない",
+    "pattern_variants": [
+     "〜に相違ない",
+     "Thể thường + に相違ない"
+    ],
+    "source_questions": [],
+    "unit_no": 22
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-50e25efeaa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そんな話、嘘に決まっている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chắc chắn là rồi — Khẳng định chủ quan mạnh, giọng văn nói.",
+    "pattern": "に決(き)まっている",
+    "pattern_variants": [
+     "Thể thường + に決まっている"
+    ],
+    "source_questions": [],
+    "unit_no": 22
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c833c02a7c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "初対面なのにあれこれ個人的なことを聞くのは失礼というものだ。",
+      "vi": "Lần đầu gặt mặt, à cứ hỏi suốt thông tin cá nhân, thật bất lịch sự."
+     },
+     {
+      "ja": "学歴がないから能力がないという見方があるが、それは偏見というものだ。",
+      "vi": "Cứ không có bằng cấp là không có năng lực là cách nghĩ đầy thành kiến."
+     }
+    ],
+    "meaning_vi": "Không hẳn là, không thể nói là",
+    "pattern": "と言(い)うものだ",
+    "pattern_variants": [
+     "〜というものだ",
+     "Thể thường + というものだ"
+    ],
+    "source_questions": [],
+    "unit_no": 23
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ac95ddc4c8"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-010"
+}

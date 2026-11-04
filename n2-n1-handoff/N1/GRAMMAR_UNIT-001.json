@@ -1,0 +1,900 @@
+{
+ "header": {
+  "instructions": "unit_no: số bài (theo header.units) phù hợp nhất; unit_title_vi tùy chọn.",
+  "units": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ]
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この仕事を任せられるのは、彼をおいてほかにいない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Ngoài ra không còn ai khác — Chỉ có duy nhất đối tượng đó là xứng đáng, không có lựa chọn thứ hai.",
+    "pattern": "N + をおいて",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-ad914becd3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "前回の反省を踏まえて計画を練り直した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dựa trên, căn cứ vào — Lấy kết quả hoặc bài học trước làm nền để tiến hành bước tiếp.",
+    "pattern": "N + を踏まえて",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-a4fac6dbdc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "柄にもなく緊張してしまった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chẳng có chút nào — Phủ định tuyệt đối sự tồn tại của tính chất nào đó.",
+    "pattern": "柄にもなく / らしくもない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-4e4984d193"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私とて同じ気持ちだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dù là cũng — Ngay cả trường hợp đó cũng không ngoại lệ, văn cổ.",
+    "pattern": "N + とて",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-ffffd49942"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "実情に即した対策が必要だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Sát với, theo đúng — Bám sát thực tế hoặc quy định mà xử lý.",
+    "pattern": "N + に即して",
+    "pattern_variants": [
+     "〜に即して"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-5c48712a01"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "眼鏡なしでは何も見えない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu thiếu thì không — Không có cái đó thì không thể tiến hành.",
+    "pattern": "N + なしでは",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-89ec3d8e50"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "規定に照らして判断する。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đối chiếu với — So với chuẩn mực hoặc tiền lệ để phán xét.",
+    "pattern": "N + に照らして",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-518201f8b0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "社長をはじめ、全社員が参加した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Trước hết là, đứng đầu là — Nêu đại diện tiêu biểu rồi hàm ý còn nhiều nữa.",
+    "pattern": "N + をはじめ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-c72e625510"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "三年の準備期間を経て開店した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Trải qua rồi mới — Đi qua một quá trình hoặc giai đoạn rồi mới đến kết quả.",
+    "pattern": "N + を経て",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-76f74074ab"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "それにつけても彼のことが思い出される。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Mỗi khi nghĩ đến lại — Cứ nhớ đến việc đó là cảm xúc lại dâng lên.",
+    "pattern": "N / V từ điển + につけても",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-a7f865cc2d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "交渉は決裂するに至った。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đi đến mức, dẫn tới — Cuối cùng đạt tới một trạng thái hoặc kết quả nghiêm trọng.",
+    "pattern": "N / V từ điển + に至る",
+    "pattern_variants": [
+     "〜に至る/至るまで/至って"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-226fa5b12e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "駅の前を行きつ戻りつしていた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Lúc thì lúc thì — Hai động tác trái nghiều lặp đi lặp lại.",
+    "pattern": "V thể ます (bỏ ます) + つ + V thể ます (bỏ ます) + つ",
+    "pattern_variants": [
+     "〜つ〜つ"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-f3e4754c1c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "費用は甲が負担するものとする。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Được quy định là — Quy định trong văn bản pháp lý hoặc hợp đồng.",
+    "pattern": "Thể thường + ものとする",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-ae0bab0fb7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "原因は配線の不具合によるものと思われる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Được cho là — Phán đoán khách quan, tránh nói thẳng ý kiến cá nhân.",
+    "pattern": "Thể thường + ものと思われる",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-480dabd39d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の努力は賞賛に値する。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Xứng đáng với — Có đủ giá trị để nhận được điều đó.",
+    "pattern": "N / V từ điển + に値する",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-e8e246d5a8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "年齢にかかわらず応募できます。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bất kể — Không phân biệt, không phụ thuộc vào yếu tố đó.",
+    "pattern": "N / Thể thường + にかかわらず",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-2a6543aff7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は天才だと言っても過言ではない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nói là cũng không ngoa — Khẳng định mạnh rằng cách nói đó không hề phóng đại.",
+    "pattern": "Thể thường + と言っても過言ではない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-14fde66764"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "昔ながらの製法を守っている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nguyên vẹn như xưa — Giữ nguyên trạng thái từ trước đến nay.",
+    "pattern": "N + ながらの",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-06a618e57d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "努力なくして成功はない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu không có thì — Thiếu điều kiện đó thì việc kia không thành.",
+    "pattern": "N + なくして",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-4280cd120e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "好天と相まって、来場者は過去最多となった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Kết hợp với — Hai yếu tố cộng hưởng tạo nên kết quả lớn hơn.",
+    "pattern": "N + と相まって",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-d0a31bf7c9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "感謝こそすれ、恨むことはない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chỉ có chứ không — Khẳng định một chiều và phủ định chiều ngược lại.",
+    "pattern": "V thể ます (bỏ ます) + こそすれ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-603137e58e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "誰であろうと規則は守るべきだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dù là gì đi nữa — Bất kể trường hợp nào, kết luận vẫn không đổi.",
+    "pattern": "Câu hỏi + であろうと",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-f137d9a329"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "考え方ひとつで人生は変わる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chỉ cần một cái thôi — Một yếu tố nhỏ cũng đủ thay đổi cục diện.",
+    "pattern": "N + ひとつ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-2055c54251"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "努力があればこそ、今の成功がある。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chính vì có mà — Nhấn mạnh rằng đúng điều đó mới là nguyên nhân thật sự.",
+    "pattern": "N / V thể ば + こそ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-b33c37f6ec"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "努力なしには成功はあり得ない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu không có thì không — Thiếu điều kiện đó thì không thể thực hiện được.",
+    "pattern": "N + なしには",
+    "pattern_variants": [
+     "〜なしに(は)"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-ec06e7092f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この説明は子どもですら理解できる。",
+      "vi": "Lời giải thích này ngay cả trẻ con cũng hiểu được."
+     },
+     {
+      "ja": "彼は忙しすぎて、昼食の時間すらない。",
+      "vi": "Anh ấy bận đến mức ngay cả thời gian ăn trưa cũng không có."
+     }
+    ],
+    "meaning_vi": "Nhấn mạnh mức độ bất ngờ: ngay cả đối tượng ở rìa dưới/ngoài dự kiến cũng (không) … “ですら” mang sắc thái trang trọng; “すら/でさえ/さえ” dùng thông dụng hơn. Khi cần trợ từ cách (に/と/から…), “ですら” không chen vào được; dùng “N＋助詞＋すら”.",
+    "pattern": "Ngay cả...",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-d93f258ae0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "断られたら、他を当たるまでだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thì chỉ còn cách — Nếu không được thì đơn giản là làm cách khác, giọng dứt khoát.",
+    "pattern": "V từ điển + までだ / までのことだ",
+    "pattern_variants": [
+     "〜までだ/のことだ"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-66a4a4d50a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は泣かんばかりの顔をしていた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Như thể sắp — Trông như sắp làm việc gì đến nơi, dù thực tế chưa làm.",
+    "pattern": "V-ない bỏ ない + んばかり",
+    "pattern_variants": [
+     "〜んばかりだ/に/の"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-cccef551a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "用心するに越したことはない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thì tốt hơn cả — Được như vậy là tốt nhất, dù không bắt buộc.",
+    "pattern": "Thể thường + に越したことはない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-9191cc0ad4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "多少なりともお役に立てれば幸いです。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dù chỉ một chút — Dù ít ỏi cũng được, mang tính khiêm nhường.",
+    "pattern": "N + なりとも",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-d3080453f3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼に貸したが最後、返ってこない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Một khi đã là xong — Một khi làm việc đó thì hậu quả xấu không tránh khỏi.",
+    "pattern": "V-た + が最後",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-0eb4ec670f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この年齢にして初めて分かることがある。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Phải đến mới — Phải đạt tới mức đó rồi mới có được điều kia.",
+    "pattern": "N + にして初めて",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-d2f9db227b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "黒ずくめの男が立っていた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Toàn một màu, toàn những — Toàn bộ đều là thứ đó, không có gì khác.",
+    "pattern": "N + ずくめ",
+    "pattern_variants": [
+     "〜ずくめ"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-ba7630b905"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "もはや他人事にあらず。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không phải là — Phủ định theo lối văn cổ, dùng trong châm ngôn và khẩu hiệu.",
+    "pattern": "N + にあらず",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-58b0580c68"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "汗まみれになって働いた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bê bết, dính đầy — Bề mặt bám đầy chất lỏng hoặc bụi bẩn.",
+    "pattern": "N + まみれ",
+    "pattern_variants": [
+     "〜まみれ"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-3bce8ac5d2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ようやく春めいてきた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Ngả sang, nhuốm vẻ — Bắt đầu mang dáng vẻ hoặc không khí của thứ gì đó.",
+    "pattern": "N + めく",
+    "pattern_variants": [
+     "〜めく"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-10d85a43f2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の態度は失礼極まりない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vô cùng, hết mức — Mức độ đạt tới cực điểm, hầu như luôn tiêu cực.",
+    "pattern": "A / N + 極まる / 極まりない",
+    "pattern_variants": [
+     "〜極まる/極まりない"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-6f8d19f2a1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "狭いながらも楽しい我が家。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tuy mà vẫn — Nhượng bộ: dù ở trạng thái đó nhưng vẫn làm được điều khác.",
+    "pattern": "V thể ます (bỏ ます) / A / N + ながらも",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-30182cd916"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これは贅沢の極みだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tột đỉnh của — Đạt tới đỉnh điểm của một trạng thái, dùng trong văn viết.",
+    "pattern": "N + の極み",
+    "pattern_variants": [
+     "〜の極み"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-0d541f4f87"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お招きいただき光栄の至りです。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thật là, vô cùng — Cảm xúc dâng đến mức cao nhất, dùng trong lời chào trang trọng.",
+    "pattern": "N + の至り",
+    "pattern_variants": [
+     "〜の至り"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-5a9d864924"
+  }
+ ],
+ "kind": "GRAMMAR_UNIT",
+ "level": "N1",
+ "packet_id": "GRAMMAR_UNIT-001"
+}

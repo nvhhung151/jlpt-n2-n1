@@ -1,0 +1,260 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "美人だから幸せになれるというものでもない。",
+      "vi": "Không phải cứ xinh đẹp là sẽ hạnh phúc."
+     },
+     {
+      "ja": "物価が安くなるのはうれしいけど、何でも安くなればいいというものでもない。",
+      "vi": "Việc giá cả giảm thì đáng mừng, nhưng không phải mọi thứ rẻ hơn đều tốt."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "と言(い)うものでもない",
+    "pattern_variants": [
+     "〜というものでもない"
+    ],
+    "source_questions": [],
+    "unit_no": 12
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4caad28958"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本料理といえば、やはりおすしが有名ですね。",
+      "vi": "Nói đến ẩm thực Nhật Bản thì đúng là sushi nổi tiếng nhỉ。"
+     },
+     {
+      "ja": "「母の日」といえば、カーネーションがすぐに浮かぶけど、ほかの花でもいいんですよ。",
+      "vi": "Nói đến Ngày của mẹ thì ngay lập tức nghĩ đến hoa cẩm chướng, nhưng hoa khác cũng được mà。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜といえば",
+    "pattern_variants": [
+     "といえば",
+     "N + といえば"
+    ],
+    "source_questions": [],
+    "unit_no": 13
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-340193e839"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ったら",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 13
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e3970662f6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は熱が高いにもかかわらず、仕事に行った。",
+      "vi": "Mặc dù anh ấy sốt cao, nhưng vẫn đi làm."
+     },
+     {
+      "ja": "深夜にもかかわらず、大勢の人が病院に駆けつけた。",
+      "vi": "Dù đã khuya, nhiều người vẫn tới bệnh viện."
+     }
+    ],
+    "meaning_vi": "Mặc dù",
+    "pattern": "にも拘(かか)わらず",
+    "pattern_variants": [
+     "〜にもかかわらず",
+     "Thể thường / N + にもかかわらず"
+    ],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e899b34293"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "3月とはいうものの、まだまだ寒い日が続きますね。",
+      "vi": "Dù đã là tháng 3 nhưng những ngày lạnh vẫn tiếp tục nhỉ。"
+     },
+     {
+      "ja": "工場の火災は、大きな事故にならなかったとはいうものの、周辺住民に大変な不安を与えた。",
+      "vi": "Mặc dù vụ cháy nhà máy không trở thành một tai nạn lớn nhưng đã gây ra sự lo lắng lớn cho cư dân xung quanh。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "とは言(い)うものの",
+    "pattern_variants": [
+     "〜とはいうものの"
+    ],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3f3aed94a1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "もう間に合わないと半分諦めつつも、必死で走った。",
+      "vi": "Mặc dù đã phần nào từ bỏ vì nghĩ không kịp, nhưng tôi vẫn chạy hết sức."
+     },
+     {
+      "ja": "勉強しようと思いつつも、彼女のことが気になって、できない。",
+      "vi": "Dù có định học, nhưng lại bận tâm về cô ấy nên không thể tập trung được."
+     }
+    ],
+    "meaning_vi": "Vừa… vừa…; trong khi làm… thì đồng thời… (văn viết)",
+    "pattern": "〜つつも",
+    "pattern_variants": [
+     "つつも"
+    ],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-697778b4b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "と言(い)っても",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-358de01ace"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "とすると",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 15
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7f3985b154"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "人生をやり直せるものならやり直したい。",
+      "vi": "Nếu làm lại được cuộc đời này, muốn làm lại quá."
+     },
+     {
+      "ja": "（病気の子どもに対し）代われるものなら代わってやりたい。",
+      "vi": "Nếu có thể thay sẽ thay cho con."
+     }
+    ],
+    "meaning_vi": "Nếu làm được... muốn làm",
+    "pattern": "ものなら 1",
+    "pattern_variants": [
+     "ものなら 2",
+     "〜ものなら",
+     "V thể khả năng + ものなら"
+    ],
+    "source_questions": [],
+    "unit_no": 15
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3c08138fb5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ない事(こと)には〜ない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 15
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e3751c49ba"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-007"
+}

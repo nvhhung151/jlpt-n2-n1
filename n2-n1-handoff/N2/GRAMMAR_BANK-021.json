@@ -1,0 +1,254 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今日着くはずだったのに、まだ届かない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Lẽ ra đã phải — Dự định hoặc kỳ vọng nhưng thực tế không xảy ra.",
+    "pattern": "V từ điển + はずだった",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8a3b0bdb94"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "早く帰るつもりだったが、残業になった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đã định nhưng — Ý định trong quá khứ nhưng không thực hiện được.",
+    "pattern": "V từ điển + つもりだった",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-6f1e2ebec5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "残念でならない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Cứ mãi, không sao dứt được — Cảm xúc hoặc suy nghĩ tự nhiên trào lên không kiểm soát được.",
+    "pattern": "V-て / A-くて + ならない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e53aa76f2f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女はかわいいというか子どもっぽいというか、とにかく年よりはずいぶん若く見える。",
+      "vi": "Nói cô ấy là dễ thương hay là giống trẻ con, nhưng dù sao đi nữa dù nhiều tuổi nhưng trông rất trẻ."
+     },
+     {
+      "ja": "「父は曲がったことが大嫌いな人です。くそまじめと言うか融通が利かないと言うか・・・・・」",
+      "vi": "Bố tôi là người rất ghét loanh quanh. Bố vừa cực kỳ nghiêm túc lại vừa cứng nhắc."
+     }
+    ],
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜というか・・・というか",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-fb5bb90c3b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "死んだつもりで頑張ります。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Cứ coi như là — Hành động với tâm thế như thể điều đó là thật.",
+    "pattern": "V-た / N の + つもりで",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d82dc8138b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "眠くてしかたがない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Hết cách, quá đỗi — Mức độ cảm giác quá lớn, không làm gì được.",
+    "pattern": "V-て / A-くて + しかたがない",
+    "pattern_variants": [
+     "〜 てしかたがない"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b8b10e17a8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼と別れて以来、仕事に没頭している。",
+      "vi": "Từ khi chia tay anh ấy, tôi vùi đầu vào công việc."
+     },
+     {
+      "ja": "引っ越して以来、近所づきあいが増えた。",
+      "vi": "Từ khi chuyển nhà, giao lưu với hàng xóm nhiều hơn."
+     }
+    ],
+    "meaning_vi": "Kể từ khi … (đến nay). Nhấn mạnh sự kéo dài/duy trì. Vế sau mô tả trạng thái tiếp diễn hoặc thay đổi kéo dài đến hiện tại. Không dùng với mệnh lệnh/ý chí trực tiếp.",
+    "pattern": "Kể từ...",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-99c17c7b01"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そんな計画では話にもならない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chẳng ra gì, không thành — Không đạt được cả mức tối thiểu.",
+    "pattern": "Thể thường + にもならない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-68ec2cf92f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "外観はともかく、この道具は使いやすい。",
+      "vi": "Tạm không bàn đến vẻ ngoài, dụng cụ này rất dễ dùng."
+     },
+     {
+      "ja": "採用するかどうかはともかくとして、まず本人の話を聞こう。",
+      "vi": "Tạm gác chuyện có tuyển hay không, trước hết hãy nghe chính người đó trình bày."
+     }
+    ],
+    "meaning_vi": "Tạm gác… sang một bên",
+    "pattern": "Tạm gác... sang một bên",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-08d5822005"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うれしいやら悲しいやら、複雑な気持ちだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nào là nào là, lẫn lộn — Liệt kê nhiều thứ trong tình trạng bối rối hoặc lộn xộn.",
+    "pattern": "N やら N + やら",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-6b7a6ce4bb"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-021"
+}

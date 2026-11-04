@@ -1,0 +1,893 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会議は三日間にわたって行われた。",
+      "vi": "Cuộc họp được tổ chức suốt ba ngày."
+     },
+     {
+      "ja": "台風の影響は関東全域にわたり広がった。",
+      "vi": "Ảnh hưởng của bão lan rộng khắp toàn vùng Kanto."
+     }
+    ],
+    "meaning_vi": "Diễn tả sự kéo dài/bao trùm “trải suốt/trên khắp” một khoảng thời gian, phạm vi, số lượng hay lĩnh vực. Tập trung vào độ rộng và thời lượng, không nhất thiết liên tục không ngừng, nhưng mức độ bao phủ lớn. Thường dùng cho những phạm vi đáng kể (vài ngày, nhiều năm, toàn quốc...). Văn phong trang trọng, phổ biến trong báo cáo, tin tức.",
+    "pattern": "Trải suốt..., trong suốt...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-98da335f79"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "雨が降ってはやみ、降ってはやみしている。",
+      "vi": "Mưa rồi lại tạnh, mưa rồi lại tạnh."
+     },
+     {
+      "ja": "書いては消し、書いては消しで、レポートがなかなか進まない。",
+      "vi": "Viết rồi xóa, viết rồi xóa, mãi mà bản báo cáo không tiến triển."
+     }
+    ],
+    "meaning_vi": "Hành động lặp đi lặp lại",
+    "pattern": "〜ては・・・〜ては・・・",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-2968adfb08"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本へ来た矢先にバッグを置き忘れ、パスポートをなくしてしまった。",
+      "vi": "Ngay sau khi đến Nhật để quên cặp, nên mất hộ chiếu."
+     },
+     {
+      "ja": "突然彼女が婚約解消を言い出した。式場を決めた矢先のことだった。",
+      "vi": "Đột nhiên cô ấy nói hủy hôn. Ngay sau khi quyết định nơi tổ chức hôn lễ."
+     }
+    ],
+    "meaning_vi": "Ngay sau khi làm gì đó",
+    "pattern": "〜矢先に/の",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c2beb0600a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "野球の全国大会に出場できるのは１県に1枚のみだ。",
+      "vi": "Tham dự giải bóng chày toàn quốc, mỗi tỉnh chỉ 1 trường thôi."
+     },
+     {
+      "ja": "今はただ、父が無事であるよう、祈るのみです。",
+      "vi": "Bây giờ tôi chỉ cầu mong bố tôi bình an vô sự thôi."
+     }
+    ],
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "(ただ)〜のみ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7635e5f8a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "黒沢監督の映画は日本国内のみならず、海外でも高い評価を得ている。",
+      "vi": "Phim của đạo diễn Kurosawa không chỉ trong nước Nhật mà nước ngoài cũng nhận được sự đánh giá cao."
+     },
+     {
+      "ja": "この機械は性能が良いのみならず、操作も簡単だ。",
+      "vi": "Máy này tính năng không chỉ tốt, mà còn thao tác đơn giản."
+     }
+    ],
+    "meaning_vi": "Không chỉ mà còn",
+    "pattern": "(ただ)〜のみならず",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-2ee9b8c30c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "父は働きすぎた。それで病気になった。",
+      "vi": "Cha tôi đã làm việc quá sức. Vì thế đã bị bệnh."
+     },
+     {
+      "ja": "「田中君、インフルエンザにかかったんだって。」 「それで学校を休んだんだね。」",
+      "vi": "Nghe nói bé Tanaka bị cảm cúm. Vì vậy, hôm nay nghỉ học ấy nhỉ."
+     }
+    ],
+    "meaning_vi": "（1）Vì thế, do đó （2）Vậy, ～?",
+    "pattern": "〜働きすぎた。それで病気になった。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b5fab584b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "外は大雨だ。それでも出かけないといけない。",
+      "vi": "Bên ngoài trời mưa. Dù vậy không ra ngoài không được."
+     },
+     {
+      "ja": "みんなに反対されている。それでも私は彼と結婚したい。",
+      "vi": "Bị mọi người phản đối. Dù vậy tôi muốn kết hôn với anh ấy."
+     }
+    ],
+    "meaning_vi": "Tuy nhiêｎ, dù vậy ～",
+    "pattern": "〜大雨だ。それでも出かける。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-04790caee5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「道がすごく渋滞しているようだよ。」 「それなら、電車で行こう。」",
+      "vi": "Ngoài đường hình như là đang kẹt xe dữ lắm. Nếu vậy thì, đi bằng tàu điện thôi."
+     },
+     {
+      "ja": "「今、それ、やりたくない。」「それならやらなくていいよ。」",
+      "vi": "Bây giờ không muốn làm vậy. Nếu vậy thì không làm cũng được."
+     }
+    ],
+    "meaning_vi": "Nếu vậy, vậy thì～",
+    "pattern": "〜渋滞だとか。それなら電車で行こう。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-784d520593"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この時計は高かった。それなのにすぐに壊れた。",
+      "vi": "Cái đồng hồ này đắt tiền. Thế nhưng lại nhanh hỏng."
+     },
+     {
+      "ja": "一生懸命勉強している。それなのに成績はよくならない。",
+      "vi": "Đang học hành chăm chỉ. Thế nhưng thành tích không tiến bộ."
+     }
+    ],
+    "meaning_vi": "Thế nhưng, thế mà ～",
+    "pattern": "〜高かった。それなのにすぐ壊れた。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-951bcac695"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「そういえば、田中君、元気かな？」",
+      "vi": "Nói vậy thì bé Tanaka khỏe nhỉ."
+     },
+     {
+      "ja": "「いい家ですね。そういえば、お父様は設計士さんでしたよね。」",
+      "vi": "Thật là một gia đình tốt. À, bố bạn là nhà thiết kế nhỉ."
+     }
+    ],
+    "meaning_vi": "Nói vậy thì; À có phải ～",
+    "pattern": "〜そういえば田中君、元気?",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1b9634b82c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「お嬢さん、もう大学をご卒業されましたでしょう？」 「それが、まだなんですよ。」",
+      "vi": "Hình như con gái chị tốt nghiệp đại học rồi nhỉ. Cái đó vẫn chưa mà."
+     },
+     {
+      "ja": "たばこをやめると誓った。それが、たった三日でまた吸ってしまった。",
+      "vi": "Đã thề sẽ bỏ thuốc. Thế nhưng, chỉ 3 ngày đã hút lại mất rồi."
+     }
+    ],
+    "meaning_vi": "(1)(Chuyện) đó thì ～, nhưng mà ～ (2) Thế nhưng ～",
+    "pattern": "〜それがまだなんです。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4dcd0baecb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「今日の授業、おもしろかったね。」 「うん、すごくためになった。それはそうと、今度の試験いつだっけ？」",
+      "vi": "Buổi học hôm nay thú vị nhỉ. Ừ, học được khá nhiều. À mà kì thi lần tới là khi nào vậy nhỉ?"
+     },
+     {
+      "ja": "「春になりましたね。それはそうと、田中さんの息子さん、大学受かったでしょうか。」",
+      "vi": "Đã là mùa xuân rồi nhỉ. À mà hình như con trai của anh Tanaka đậu đại học rồi nhỉ."
+     }
+    ],
+    "meaning_vi": "À, thế còn ～",
+    "pattern": "〜それはそうと試験はいつだっけ?",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fd407d27d0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "明日は車が混むらしい。そこで我々は朝早く出発するつもりだ。",
+      "vi": "Nghe nói ngày mai xe sẽ đông đấy. Do đó, chúng tôi dự định sẽ xuất phát vào sáng sớm."
+     },
+     {
+      "ja": "「今度アメリカに旅行します。そこでお願いがあるのですが．．．。」",
+      "vi": "Lần này tôi sẽ đi du lịch Mỹ. Do đó, tôi có chút việc nhờ vả…"
+     }
+    ],
+    "meaning_vi": "Vì vậy, do đó ～",
+    "pattern": "〜渋滞するらしい。そこで早く出発したい。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a317d7befe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ファックス、あるいはメールでお知らせください。",
+      "vi": "Hãy thông báo qua fax hoặc mail."
+     },
+     {
+      "ja": "来週の火曜日の午後はどうですか。あるいは水曜日の午前でもかまいませんが・・・。",
+      "vi": "Chiều thứ ba tuần tới thế nào? Hoặc là sáng thứ tư cũng được không vấn đề gì…"
+     }
+    ],
+    "meaning_vi": "Hoặc là ～",
+    "pattern": "〜ファックスあるいはメールで",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f54ae00e79"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「何を怒ってるの？」「だって、約束を破ったじゃないか。」",
+      "vi": "Anh giận gì vậy? Chẳng phải là bởi vì thất hứa hay sao."
+     },
+     {
+      "ja": "「テストの点、よかったんだって？」 「うん。だってやさしかったんだもん。」",
+      "vi": "Nghe nói điểm thi tốt lắm hả. Vâng, đó là bởi vì dễ thôi."
+     }
+    ],
+    "meaning_vi": "Bởi vì, là vì～",
+    "pattern": "〜怒ってる。だって約束を破ったから。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7bcfe67809"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「母の兄、すなわち僕のおじですが・・・・・・」",
+      "vi": "Anh trai của mẹ, hay nói cách khác là chú tôi…"
+     },
+     {
+      "ja": "このペットボトルには１０００ミリリットル、すなわち１リットルの水が入っています。",
+      "vi": "Cái chai này chứa được 1000 ml hay là 1 lít nước."
+     }
+    ],
+    "meaning_vi": "Nói cách khác, tức là",
+    "pattern": "〜母の兄、すなわちおじさん",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b13fbb7d0f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これは難しい挑戦だ。だが失敗を恐れてはいけない。",
+      "vi": "Đây là một thách thức khó khăn. Thế nhưng sợ thất bại là không được."
+     },
+     {
+      "ja": "生活は貧しい。だが幸せだ。",
+      "vi": "Cuộc sống nghèo. Thế nhưng hạnh phúc."
+     }
+    ],
+    "meaning_vi": "Thế nhưng ～",
+    "pattern": "〜貧しい。だが幸せだ。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-2dfb439e10"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この商品がどれだけ売れるのか、社長にしたところで実際のところは分からない。",
+      "vi": "Cho dù hỏi giám đốc, thực tế vẫn không biết được sản phẩm này sẽ bán được bao nhiêu。"
+     },
+     {
+      "ja": "携帯の使用を禁止にしたところで、どのくらいの生徒が従うかわらない。",
+      "vi": "Dù cấm sử dụng điện thoại di động, cũng không biết có bao nhiêu học sinh sẽ chấp hành。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜にしたところで",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-31814fc7c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A: ホテル、まだ取れないの？",
+      "vi": "A: Khách sạn vẫn chưa đặt được à?"
+     },
+     {
+      "ja": "B: うん、すごく混んでて。こんなことなら、もっと早く予約しておくんだった。",
+      "vi": "B: Ừ, rất đông. Giá mà mình đã đặt sớm hơn."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜んだった",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-f7f2fa645f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は周囲の視線もかまわず、大声で友人を呼んだ。",
+      "vi": "Anh ấy chẳng màng ánh mắt xung quanh, lớn tiếng gọi bạn."
+     },
+     {
+      "ja": "子どもたちは服が汚れるのもかまわず、泥の中で遊んだ。",
+      "vi": "Bọn trẻ chơi trong bùn, chẳng quan tâm quần áo sẽ bị bẩn."
+     }
+    ],
+    "meaning_vi": "Bất chấp, chẳng màng đến",
+    "pattern": "Bất chấp, chẳng màng đến",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1e415205c6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "申し込みの順番にかかわらず、全員に同じ案内を送ります。",
+      "vi": "Bất kể thứ tự đăng ký, chúng tôi sẽ gửi cùng một hướng dẫn cho tất cả mọi người."
+     },
+     {
+      "ja": "参加するかどうかにかかわりなく、資料には目を通してください。",
+      "vi": "Dù có tham gia hay không, xin hãy đọc qua tài liệu."
+     }
+    ],
+    "meaning_vi": "Bất kể, không phụ thuộc vào",
+    "pattern": "Bất kể, không phụ thuộc vào",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8583337f9d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "根拠のないうわさを、専門家が信じるものか。",
+      "vi": "Đời nào chuyên gia lại tin một tin đồn không có căn cứ."
+     },
+     {
+      "ja": "こんな短い説明だけで、複雑な問題が解決できるものか。",
+      "vi": "Làm sao một vấn đề phức tạp có thể được giải quyết chỉ bằng lời giải thích ngắn như vậy."
+     }
+    ],
+    "meaning_vi": "Đời nào; làm sao có thể...",
+    "pattern": "Đời nào; làm sao có thể...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-02c73c4dee"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "原因の分析はさておき、まず被害の拡大を防ごう。",
+      "vi": "Tạm gác việc phân tích nguyên nhân, trước hết hãy ngăn thiệt hại lan rộng."
+     },
+     {
+      "ja": "冗談はさておき、来月の予算について話し合いましょう。",
+      "vi": "Gác chuyện đùa sang một bên, chúng ta hãy bàn về ngân sách tháng tới."
+     }
+    ],
+    "meaning_vi": "Gác chuyện… lại đã",
+    "pattern": "Gác chuyện... lại đã",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d06e4e4e72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "甘い物が嫌いなわけではないが、毎日は食べない。",
+      "vi": "Không hẳn là tôi ghét đồ ngọt, nhưng tôi không ăn hằng ngày."
+     },
+     {
+      "ja": "在宅勤務だからといって、いつでも自由というわけではない。",
+      "vi": "Làm việc tại nhà không có nghĩa là lúc nào cũng tự do."
+     }
+    ],
+    "meaning_vi": "Không hẳn là; không có nghĩa là",
+    "pattern": "Không hẳn là; không có nghĩa là",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fe9555fbb9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "締め切りが明日なので、週末を楽しむどころではない。",
+      "vi": "Hạn chót là ngày mai nên không phải lúc để tận hưởng cuối tuần."
+     },
+     {
+      "ja": "この部屋は静かなどころか、隣の工事の音で会話もできない。",
+      "vi": "Căn phòng này chẳng những không yên tĩnh mà tiếng công trình bên cạnh còn khiến không thể trò chuyện."
+     }
+    ],
+    "meaning_vi": "Không phải lúc để; không những không… mà còn",
+    "pattern": "Không phải lúc để; không những không... mà còn",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8573b424c6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "経験の有無を問わず、意欲のある方を募集します。",
+      "vi": "Chúng tôi tuyển người có nhiệt huyết, không phân biệt có kinh nghiệm hay không."
+     },
+     {
+      "ja": "この図書室は年齢を問わず利用できます。",
+      "vi": "Phòng đọc này ai cũng có thể sử dụng, không phân biệt tuổi tác."
+     }
+    ],
+    "meaning_vi": "Không phân biệt, bất kể",
+    "pattern": "Không phân biệt, bất kể",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9566393c71"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼が約束を忘れるわけがない。毎朝、予定を確認しているからだ。",
+      "vi": "Anh ấy không thể nào quên lời hứa, vì sáng nào cũng kiểm tra lịch."
+     },
+     {
+      "ja": "こんな狭い箱に全部の資料が入るわけがない。",
+      "vi": "Không thể nào toàn bộ tài liệu lại vừa trong chiếc hộp chật thế này."
+     }
+    ],
+    "meaning_vi": "Không thể nào",
+    "pattern": "Không thể nào",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5b1827aaf1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "時間をかければ必ず良い作品になるというものではない。",
+      "vi": "Không thể nói cứ bỏ nhiều thời gian thì nhất định sẽ tạo ra tác phẩm hay."
+     },
+     {
+      "ja": "謝ればそれで責任がなくなるというものでもない。",
+      "vi": "Không phải cứ xin lỗi là trách nhiệm sẽ vì thế mà biến mất."
+     }
+    ],
+    "meaning_vi": "Không thể nói cứ… là được",
+    "pattern": "Không thể nói cứ... là được",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-ea328860bd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "全商品３割引です。ただし、この棚の商品は除きます。",
+      "vi": "Toàn bộ sản phẩm giảm giá 30%. Tuy nhiên, ngoại trừ sản phẩm ở kệ này."
+     },
+     {
+      "ja": "明日は９時に集合です。ただし、雨の場合は中止です。",
+      "vi": "Ngày mai tập trung lúc 9 giờ. Thế nhưng, trường hợp trời mưa sẽ tạm hoãn."
+     }
+    ],
+    "meaning_vi": "Tuy nhiên, thế nhưng",
+    "pattern": "〜3割引。ただしこの棚の商品を除く。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0a824181e2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「彼は、まだ来ませんね。ということは、欠席ということですね。」",
+      "vi": "Anh ấy vẫn chưa đến nhỉ. Điều đó có nghĩa là không tham gia ấy nhỉ."
+     },
+     {
+      "ja": "「私はもうお酒を飲めます。」 「ということは二十歳を過ぎてるんだね。」",
+      "vi": "Tôi đã bỏ rượu rồi. Điều đó có nghĩa là quá 20 tuổi rồi nhỉ."
+     }
+    ],
+    "meaning_vi": "Có nghĩa là ～",
+    "pattern": "〜まだ来ない。ということは欠席だ。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b59cfc6d23"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「今日は家を出られないんです。というのは父の具合が悪くなりまして・・・。」",
+      "vi": "Hôm nay không thể ra khỏi nhà. Đó là bởi vì tình trạng sức khỏe của cha xấu…"
+     },
+     {
+      "ja": "「ぼくは卵を食べないんです。というのは、アレルギーがあるんですよ。」",
+      "vi": "Tôi không ăn trứng. Đó là bởi vì, tôi bị dị ứng."
+     }
+    ],
+    "meaning_vi": "Là vì ～",
+    "pattern": "〜外出できない。というのは父の具合が悪いんです。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e0dba38760"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼はまじめて誠実な人だ。したがってみんなから信頼されている。",
+      "vi": "Anh ấy là người nghiêm túc, thành thật. Do vậy, được mọi người tin cậy."
+     },
+     {
+      "ja": "教授は急用で来られません。したがって講義は中止です。",
+      "vi": "Vì có việc gấp không thể đến dạy. Do vậy, buổi học tạm dừng."
+     }
+    ],
+    "meaning_vi": "Do vậy ～",
+    "pattern": "〜彼はまじめだ。したがって信頼されている。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8e7ebb1f88"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "Những nhóm như わけ・はず, ざるを得ない・ないわけにはいかない, かねない・恐れがある, にすぎない・にほかならない, ものの・とはいえ・にもかかわらず",
+      "vi": "thường xuất hiện trong phần ngữ pháp và đọc hiểu JLPT N2."
+     },
+     {
+      "ja": "Mức độ gần đúng: はずだ → に違いない → に決まっている",
+      "vi": "Xem chi tiết 3 mẫu phán đoán →"
+     }
+    ],
+    "meaning_vi": "Tổng hợp ngữ pháp N2 dễ nhầm: Phân biệt theo từng nhóm",
+    "pattern": "N2 dễ nhầm",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e9a6dc7f88"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "雨は降るには（/ことは）降ったが、たった３ミリだった。これでは水不足は解消しない。",
+      "vi": "Mưa thì cũng có mưa nhưng chỉ 3 mili. Thế này không giải quyết được việc thiếu nước."
+     },
+     {
+      "ja": "「あなたの言いたいこともわかることはわけるけど・・・・・」",
+      "vi": "“Những điều bạn muốn nói hiểu thì tôi hiểu nhưng…”"
+     }
+    ],
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜(に)は・・・が/けど",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-07b94593fa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「この問題について、みなで考えようではありませんか」",
+      "vi": "Về vấn đề này, mọi người nghĩ cùng nhau chứ nhỉ."
+     },
+     {
+      "ja": "一人一人がごみを減らす努力をしようではないか。",
+      "vi": "Mỗi người hãy cùng nỗ lực để giảm thiểu rác thải."
+     }
+    ],
+    "meaning_vi": "Cùng nhau…làm gì",
+    "pattern": "〜(よ)うではないか",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-617e156bc7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私が生まれたのは１９６０年、日本が高度経済成長の時代を迎えようとしている時期だった。",
+      "vi": "Tôi sinh năm 1960, đúng thời điểm nước Nhật đón thời kì kinh tế phát triển cao."
+     },
+     {
+      "ja": "宇宙飛行士である妻が乗るロケットが、今、打ち上げられようとしている。成功を祈るばかりだ。",
+      "vi": "Tên lửa vợ tôi, nhà du hành vũ trụ lái, bây giờ đang được phóng. Tôi chỉ cầu mong là sẽ thành công thôi."
+     }
+    ],
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜(よ)うとする/している",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e4c4fd3225"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "歯が痛くて食べようにも食べられない。",
+      "vi": "Đau răng muốn ăn tí cũng không được."
+     },
+     {
+      "ja": "大雪で電車が止まってしまい、学校に行こうにも行けなかった。",
+      "vi": "Vì tuyết dày đặc nên xe điện phải ngừng hoạt động, tôi muốn đến trường lắm nhưng không thể đến được."
+     }
+    ],
+    "meaning_vi": "Muốn làm tí cũng không được",
+    "pattern": "〜(よ)うにも〜ない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-42e0bd21c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "踏まえる",
+      "vi": "Cách kết hợp:"
+     },
+     {
+      "ja": "先行研究を踏まえて論文を書く。",
+      "vi": "Dựa vào nghiên cứu trước đây để viết luận văn."
+     }
+    ],
+    "meaning_vi": "Dựa trên",
+    "pattern": "〜(を)踏まえ(て)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9be786a20e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "熱帯雨林の減少の影響は周辺地域にとどまらず、地球全体に及んでいる。",
+      "vi": "Ảnh hưởng của việc giảm rừng mưa nhiệt đới không chỉ đối với khu vực lân cận mà là còn đối với toàn địa cầu."
+     },
+     {
+      "ja": "そのアニメは子どもや若者にとどまらず、広く大人にも受け入れられた。",
+      "vi": "Truyện tranh đó không chỉ trẻ em và người trẻ, mà rất nhiều người lớn cũng đón nhận."
+     }
+    ],
+    "meaning_vi": "Không chỉ",
+    "pattern": "〜にとどまらず",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-65520070d3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "合格できるかどうかは、これから１か月のがんばりにかかっている",
+      "vi": "Đỗ hay không hụ thuộc vào cố gắng trong vòng 1 tháng tính từ giờ."
+     },
+     {
+      "ja": "契約の成否は、取り引き先がこの条件をどう考えるかにかかっている。",
+      "vi": "Có ký được hợp đồng hay không phụ thuộc vào việc đối tác nghĩ thế nào về điều kiện này."
+     }
+    ],
+    "meaning_vi": "Phụ thuộc, dựa vào",
+    "pattern": "〜は・・・にかかっている",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a454643dc9"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N2",
+ "packet_id": "GRAMMAR_CORE-020"
+}

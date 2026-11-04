@@ -1,0 +1,285 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この曲を聴くと、歌わないではいられなくなるんです。",
+      "vi": "Nghe bài này, tôi không thể không hát."
+     },
+     {
+      "ja": "親もだいぶ年をとってきたので、私も家事を手伝わないではいられなくなった。",
+      "vi": "Bố mẹ đã già đi nhiều, nên tôi cũng không thể không giúp việc nhà."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜ないではいられない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2d74d0b254"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本に限らず、世界中で問題になっている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không chỉ riêng — Không giới hạn ở phạm vi đó mà còn rộng hơn.",
+    "pattern": "に限(かぎ)らず",
+    "pattern_variants": [
+     "N + に限らず"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8ee65c6820"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A: 社長、B社も来月、新商品を出すそうです。",
+      "vi": "A: Giám đốc, nghe nói công ty B tháng tới cũng ra mắt sản phẩm mới。"
+     },
+     {
+      "ja": "B: そうか。A社のみならず、B社もか。うちも頑張らないとな。",
+      "vi": "B: Thế à。Không chỉ công ty A, mà cả công ty B nữa sao。Công ty mình cũng phải cố gắng。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜のみならず",
+    "pattern_variants": [
+     "のみならず",
+     "Thể thường / N + のみならず"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-50ac9e29c0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子供はもとより大人も楽しめる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đã đành là, khỏi nói — Điều trước là hiển nhiên, điều sau mới đáng nói.",
+    "pattern": "は元(もと)より",
+    "pattern_variants": [
+     "N + はもとより",
+     "〜はもとより"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-98b6a42d2d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の妹は美人の上に性格も良い/成績優秀な上、スポーツもよくできる。",
+      "vi": "Em gái cậu ấy không chỉ đẹp mà tính cách cũng tốt, học giỏi và chơi thể thao cũng hay nữa."
+     },
+     {
+      "ja": "今日は曇っている上に風が強いので、とても寒く感じられる。",
+      "vi": "Hôm nay trời nhiều mây, gió lại mạnh nữa nên cảm giác rất là lạnh."
+     }
+    ],
+    "meaning_vi": "Không chỉ, thêm vào",
+    "pattern": "上(うえ)に",
+    "pattern_variants": [
+     "〜上(に)"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-52fc31fea7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "たばこは体に悪いとわかってはいるものの、泣かなやめられない。",
+      "vi": "Dù biết là thuốc lá có hại cho cơ thể nhưng tôi không thể nào bỏ được."
+     },
+     {
+      "ja": "大学は卒業したものの、就職先が見つからない。",
+      "vi": "Dù đã tốt nghiệp đại học, nhưng vẫn chưa tìm được nơi làm việc."
+     }
+    ],
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜ものの",
+    "pattern_variants": [
+     "Thể thường + ものの"
+    ],
+    "source_questions": [],
+    "unit_no": 7
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-32a1397fd5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この件に関しては後日ご連絡します。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Liên quan đến — Nêu đề tài, trang trọng hơn について.",
+    "pattern": "に関(かん)して",
+    "pattern_variants": [
+     "N + に関して / に関する"
+    ],
+    "source_questions": [],
+    "unit_no": 7
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e1bbe9f345"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "新しい法律をめぐって議論が続いている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Xoay quanh — Nhiều ý kiến hoặc tranh luận xoay quanh một vấn đề.",
+    "pattern": "を巡(めぐ)って",
+    "pattern_variants": [
+     "N + をめぐって",
+     "〜をめぐって",
+     "〜をめぐって/めぐり"
+    ],
+    "source_questions": [],
+    "unit_no": 7
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-9ae2b388c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は足の速さにかけてはだれにも負けない自信がある。",
+      "vi": "Nếu nói về tốc độ thì tôi tin mình không thua kém ai."
+     },
+     {
+      "ja": "B社のブランドはデザインにかけては定評がある。",
+      "vi": "Nhãn hiệu của công ty B nói về thiết kế thì có tiếng rồi."
+     }
+    ],
+    "meaning_vi": "Nếu nói về",
+    "pattern": "〜にかけては",
+    "pattern_variants": [
+     "にかけては",
+     "N + にかけては"
+    ],
+    "source_questions": [],
+    "unit_no": 7
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f37665334b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "皆様のご期待にこたえて、新商品を発売します。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đáp lại — Thực hiện theo mong đợi hoặc yêu cầu của ai.",
+    "pattern": "に応(こた)えて",
+    "pattern_variants": [
+     "N + にこたえて",
+     "〜に応えて",
+     "〜にこたえ(て)"
+    ],
+    "source_questions": [],
+    "unit_no": 7
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-1cf614ee6b"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-004"
+}

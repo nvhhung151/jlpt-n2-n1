@@ -1,0 +1,249 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ない訳(わけ)にはいかない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 25
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-98cf004509"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "学校の規則なので、髪を切らざるを得ない。",
+      "vi": "Vì là nội quy của trường nên không thể không cắt tóc."
+     },
+     {
+      "ja": "未経験者だけで冬山に登るなど、無謀と言わざるを得ない。",
+      "vi": "Với người không có kinh nghiệm, việc leo núi vào mùa đông, phải nói là không suy nghĩ."
+     }
+    ],
+    "meaning_vi": "Phải làm",
+    "pattern": "ざるを得(え)ない",
+    "pattern_variants": [
+     "〜ざるを得ない",
+     "V-ない bỏ ない + ざるを得ない"
+    ],
+    "source_questions": [],
+    "unit_no": 25
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b06b782d7b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜たものだ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 26
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f8c1050c9a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ないものだろうか",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 26
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d25295d5da"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最近の携帯電話の技術には、目を見張るものがあります。",
+      "vi": "Công nghệ điện thoại di động gần đây thật đáng kinh ngạc."
+     },
+     {
+      "ja": "A: このCD、いいね。女性の声がいい。",
+      "vi": "A: Đĩa CD này hay nhỉ. Giọng nữ hay."
+     }
+    ],
+    "meaning_vi": "Có điều khiến người ta cảm thấy…; có một phương diện… đáng ghi nhận",
+    "pattern": "〜ものがある",
+    "pattern_variants": [
+     "ものがある",
+     "Thể thường + ものがある"
+    ],
+    "source_questions": [],
+    "unit_no": 26
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-fbcb453cbc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "外国での一人暮らしはどんなに寂しいことか。",
+      "vi": "Sống ở nước ngoài một mình. Không biết buồn như thế nào đây."
+     },
+     {
+      "ja": "我が子が生まれた時、どんなにうれしかったことか！",
+      "vi": "Tôi đã vui mừng khôn xiết lúc con tôi chào đời."
+     }
+    ],
+    "meaning_vi": "Cảm thán, thở dài không biết thế nào đây",
+    "pattern": "事(こと)か",
+    "pattern_variants": [
+     "〜ことか/どろう"
+    ],
+    "source_questions": [],
+    "unit_no": 26
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c1f1f9e9dc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会議は大ホールにおいて行われます。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tại, trong lĩnh vực — Nêu nơi chốn, thời điểm hoặc phạm vi, dùng trong văn viết trang trọng.",
+    "pattern": "N + において / における",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2f6d68d69c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "電話なりメールなりで連絡してください。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Hoặc là hoặc là — Đưa ra vài lựa chọn để người nghe tự chọn.",
+    "pattern": "N なり N + なり",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a1275b8738"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "嫌いなわけではないが、あまり食べない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không hẳn là — Phủ định một phần, không phủ định hoàn toàn.",
+    "pattern": "Thể thường + わけではない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bf5dd7803d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "息子は得意げに１００点を取ったテストを差し出した。",
+      "vi": "Con trai ra vẻ đắc ý, đưa bài test 100 điểm."
+     },
+     {
+      "ja": "ハンバーガーショップは楽しげな若者たちでいっぱいだった。",
+      "vi": "Quán hamburger có nhiều bạn trẻ có vẻ đang rất vui vẻ."
+     }
+    ],
+    "meaning_vi": "Chỉ trạng thái cảm xúc, ra vẻ",
+    "pattern": "〜げ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-41aceb4407"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-012"
+}

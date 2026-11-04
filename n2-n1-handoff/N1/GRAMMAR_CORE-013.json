@@ -1,0 +1,363 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子どもの手前、弱音は吐けない。",
+      "vi": "Vì trước mặt con, tôi không thể than thở yếu đuối."
+     },
+     {
+      "ja": "約束した手前、断るわけにはいかない。",
+      "vi": "Vì đã hứa rồi nên không thể từ chối."
+     }
+    ],
+    "meaning_vi": "Nghĩa: Vì ở trước mặt ai/vì thể diện/vì đã lỡ nói/làm gì đó nên khó làm điều trái ngược, buộc phải giữ kẽ/giữ lời. Sắc thái: Tự ràng buộc, chịu áp lực xã hội/thể diện; thường gắn với người nói hoặc người trong phe người nói. N + の手前 nhấn “trước mặt … nên khó xử”; V + 手前 nhấn “đã lỡ … nên không thể rút lại”.",
+    "pattern": "Vì thể diện...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-17673bd491"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "カンニングするなど、学生にあるまじき行為だ。",
+      "vi": "Gian lận thi cử là hành vi không thể có ở một học sinh."
+     },
+     {
+      "ja": "子どもを虐待して殺すとは、まったく親にあるまじきことだ。",
+      "vi": "Ngược đãi rồi giết con là chuyện hoàn toàn không thể chấp nhận ở một bậc cha mẹ."
+     }
+    ],
+    "meaning_vi": "Không thể chấp nhận/không được phép có ở một người mang cương vị...",
+    "pattern": "〜あるまじき",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0905a75d71"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は財産こそあれ、身寄りのない寂しい身の上だ。",
+      "vi": "Anh ấy có tài sản thì có, nhưng lại sống cô quạnh, không họ hàng thân thích."
+     },
+     {
+      "ja": "程度の差こそあれ、だれしも嫌いな人の一人や二人はいるのではないか。",
+      "vi": "Dù mức độ có khác nhau, có lẽ ai cũng có một hai người mình không ưa."
+     }
+    ],
+    "meaning_vi": "Có/làm/trở thành... thì có, nhưng tuyệt nhiên không...; chỉ... chứ không...",
+    "pattern": "〜こそあれ/〜こそすれ/〜こそなれ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-45028f4160"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "父は毎週仕事にかこつけてゴルフに行っている。",
+      "vi": "Tuần nào cha tôi cũng lấy cớ công việc để đi chơi golf."
+     },
+     {
+      "ja": "学校に行きたくないので、母の病気にかこつけて休んでしまった。",
+      "vi": "Vì không muốn đến trường, tôi vin vào việc mẹ bị bệnh để nghỉ học."
+     }
+    ],
+    "meaning_vi": "Vin/lấy một việc vốn không liên quan làm cớ để làm điều mình muốn.",
+    "pattern": "〜にかこつけて",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-85f1cfef4f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "歳しか違わないのに、大学生になった彼女は急に大人ぶって私に説教した。",
+      "vi": "Chỉ hơn tôi hai tuổi, vậy mà từ khi trở thành sinh viên đại học, cô ấy đột nhiên ra vẻ người lớn rồi lên lớp tôi."
+     },
+     {
+      "ja": "彼女は恋人といるときには妙に上品ぶっているのがおかしい。",
+      "vi": "Thật buồn cười là khi ở bên người yêu, cô ấy lại làm ra vẻ đoan trang một cách kỳ lạ."
+     }
+    ],
+    "meaning_vi": "Làm ra vẻ/ra dáng như... (thường mang sắc thái chê trách).",
+    "pattern": "〜ぶる",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-069b77dfee"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "その事故の原因が飲酒運転なら、事故は起こるべくして起こったと言えるだろう。",
+      "vi": "Nếu nguyên nhân là lái xe khi say rượu thì có thể nói tai nạn ấy xảy ra là điều tất yếu."
+     },
+     {
+      "ja": "「二人は出会うべくして出会ったんだね。お互いに、運命の人だったんだね」",
+      "vi": "“Hai người gặp nhau vì số phận vốn đã định phải gặp. Hai người đúng là người định mệnh của nhau.”"
+     }
+    ],
+    "meaning_vi": "Xảy ra đúng như điều tất yếu; vốn dĩ phải... nên đã...",
+    "pattern": "〜べくして",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-dbdce29ad7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "首を絞められた彼女は、苦しまぎれに彼の髪をつかんだ。",
+      "vi": "Bị bóp cổ, trong cơn vùng vẫy vì đau đớn cô ấy đã túm lấy tóc hắn."
+     },
+     {
+      "ja": "親に叱られ、悔しまぎれにドアを蹴飛ばした。",
+      "vi": "Bị cha mẹ mắng, trong cơn cay cú tôi đã đá mạnh vào cửa."
+     }
+    ],
+    "meaning_vi": "Vì quá.../trong cơn... mà làm một việc bột phát.",
+    "pattern": "〜まぎれに",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-407692f4e5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "罰則が強化されたにもかかわらず、飲酒運転は後を絶たない。",
+      "vi": "Mặc dù hình phạt đã được tăng nặng, tình trạng lái xe sau khi uống rượu vẫn không ngừng xảy ra."
+     },
+     {
+      "ja": "どんなにパトロールをしても、粗大ごみの不法投棄が後を絶たない。",
+      "vi": "Dù tuần tra đến mức nào, các vụ đổ trộm rác cồng kềnh vẫn nối tiếp không dứt."
+     }
+    ],
+    "meaning_vi": "Những việc tiêu cực cứ liên tiếp xảy ra, mãi không chấm dứt.",
+    "pattern": "〜後を絶たない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c75be10fc9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この論文は、筆者の言わんとする（＝言おうとする）ことはわかるが、表現が難解すぎる。",
+      "vi": "Đối với luận văn này, tôi hiểu điều tác giả muốn nói, nhưng cách diễn đạt quá khó hiểu."
+     },
+     {
+      "ja": "ロケットは今まさに火星に向けて旅立たんと（＝旅立とうと）している。",
+      "vi": "Tên lửa hiện đang chuẩn bị rời bệ để hướng tới Sao Hỏa."
+     }
+    ],
+    "meaning_vi": "～んとする tương đương ～ようとする, dùng để nói điều chủ thể định làm hoặc một sự việc đang ở ngay trước thời điểm xảy ra. Đây là lối diễn đạt mang màu sắc cổ và thường gặp trong văn viết.",
+    "pattern": "「〜ん」を使った表現",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-37aa545d9b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの記録映画は、見る者の良心を揺さぶらずにはおかない。",
+      "vi": "Bộ phim tư liệu ấy ắt lay động lương tâm người xem."
+     },
+     {
+      "ja": "度重なる遅延は、利用者の不信を招かないではおかない。",
+      "vi": "Trì hoãn lặp lại ắt chuốc lấy sự bất tín của người dùng."
+     }
+    ],
+    "meaning_vi": "Ắt sẽ khiến / không để yên",
+    "pattern": "Ắt sẽ khiến / không để yên",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8a2ae1eb28"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "海況の悪化で、定期便は欠航を余儀なくされた。",
+      "vi": "Vì biển động, chuyến tuyến phải đình, không còn cách khác."
+     },
+     {
+      "ja": "予算削減が、研究室に共同機器の返却を余儀なくさせた。",
+      "vi": "Cắt ngân sách đã buộc phòng thí nghiệm phải trả thiết bị dùng chung."
+     }
+    ],
+    "meaning_vi": "Buộc phải / bắt phải",
+    "pattern": "Buộc phải / bắt phải",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-ddf07c6810"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "閉館が決まった町の図書室の棚を見るたびに、寂しさを禁じ得ない。",
+      "vi": "Mỗi lần nhìn kệ phòng sách thị trấn đã quyết đóng cửa, tôi không cầm được nỗi trống trải."
+     },
+     {
+      "ja": "同じミスが三度続く報告に、苛立ちを禁じ得なかった。",
+      "vi": "Trước báo cáo cùng một lỗi lặp ba lần, tôi đã không cầm được sự bực."
+     }
+    ],
+    "meaning_vi": "Không cầm được",
+    "pattern": "Không cầm được",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-44e91e2443"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "深夜に届けられた差し入れの数々に、感謝の念に堪えない。",
+      "vi": "Trước những phần quà tiếp tế chuyển đến đêm khuya, tôi không kìm được lòng biết ơn."
+     },
+     {
+      "ja": "今回の誤送付については、遺憾の意に堪えない。",
+      "vi": "Về việc gửi nhầm lần này, chúng tôi lấy làm tiếc không nguôi."
+     }
+    ],
+    "meaning_vi": "Không kìm được (cảm xúc)",
+    "pattern": "Không kìm được (cảm xúc)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c49cc1adeb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "数値を誤って議会資料に載せた以上、訂正を出さないではすまない。",
+      "vi": "Đã đưa số sai vào tài liệu hội đồng thì không thể xong nếu không phát đính chính."
+     },
+     {
+      "ja": "借用した機材を破損したのだから、弁償せずにはすまないだろう。",
+      "vi": "Đã làm hỏng thiết bị mượn thì hẳn không xong nếu không bồi thường."
+     }
+    ],
+    "meaning_vi": "Không xong nếu không…",
+    "pattern": "Không xong nếu không...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-aaaf4e4006"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "被災した同僚の一日も早い回復を願ってやまない。",
+      "vi": "Tôi không ngừng cầu mong đồng nghiệp bị nạn sớm bình phục."
+     },
+     {
+      "ja": "地域医療を支えてきた院長の功績を、私たちは敬してやまない。",
+      "vi": "Chúng tôi mãi kính trọng công lao vị viện trưởng đã chống đỡ y tế địa phương."
+     }
+    ],
+    "meaning_vi": "Mãi không nguôi",
+    "pattern": "Mãi không nguôi",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-90510a07bd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "元気である限り、働き続けたいです。",
+      "vi": "Chừng nào còn khỏe, tôi vẫn muốn tiếp tục làm việc."
+     },
+     {
+      "ja": "努力なくして成功はありません。",
+      "vi": "Không có nỗ lực thì không có thành công."
+     }
+    ],
+    "meaning_vi": "Tổng hợp ngữ pháp N1 dễ nhầm: Phân biệt theo từng nhóm",
+    "pattern": "N1 dễ nhầm",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-30359f632b"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N1",
+ "packet_id": "GRAMMAR_CORE-013"
+}

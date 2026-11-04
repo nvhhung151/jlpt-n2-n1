@@ -1,0 +1,272 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "父は来年ですが、うちには弟と妹がいます。私もアルバイトを減らしてもっと勉強したいと考えています。このようなわけでは奨学金を申請する次第です。",
+      "vi": "Bố tôi năm sau về hưu nhưng ở nhà có em trai và em gái tôi. Tôi cũng đang cân nhắc giảm làm thêm để tập trung cho việc học. Thế là vì tôi muốn xin học bổng."
+     },
+     {
+      "ja": "その件について一応お耳には入れておこうと考え、お手紙を差し上げる次第です。",
+      "vi": "Vì nhất thời nghe và nhớ chuyện đó, nên gửi thư."
+     }
+    ],
+    "meaning_vi": "Với lý do đó, vì, dùng khi muốn nói đến kết quả là",
+    "pattern": "次第(しだい)",
+    "pattern_variants": [
+     "次第(しだい)だ",
+     "〜次第だ",
+     "〜次第",
+     "N + 次第だ / 次第で",
+     "〜しだい"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2a89ac62ec"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "以来(いらい)",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-1764c1c2de"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子どもたちは文句をいながらも、後片付けを手伝ってくれた。",
+      "vi": "Bọn trẻ tuy có phàn nàn, nhưng sau đó vẫn giúp việc dọn dẹp."
+     },
+     {
+      "ja": "残念ながら曇っていて、初日の出は見られなかった。",
+      "vi": "Tiếc thật nhưng vì mây mù nên không thể nhìn thấy mặt trời mọc ngày đầu năm mới."
+     }
+    ],
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜ながら(も)",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0c216759c7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女のような正直な人が嘘をつくとは信じがたい。",
+      "vi": "Người trung thực như cố ấy khó mà tin được lại nói dối."
+     },
+     {
+      "ja": "古くなっても、このかばんには愛着があって捨てがたい。",
+      "vi": "Dù đã cũ nhưng vì rất lưu luyến nên tôi không thể vứt cái cặp này."
+     }
+    ],
+    "meaning_vi": "Khó làm",
+    "pattern": "〜がたい",
+    "pattern_variants": [
+     "V thể ます (bỏ ます) + がたい"
+    ],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-be5070da57"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今日はあまりに忙しくて、食事どころではなかった。",
+      "vi": "Hôm nay quá bận nên không thể ăn được."
+     },
+     {
+      "ja": "母が手術をすることになり、心配で勉強どころではない。",
+      "vi": "Vì mẹ phải phẫu thuật, lo lắng không học được."
+     }
+    ],
+    "meaning_vi": "Do lý do đó nên không thể",
+    "pattern": "〜〜どころではない",
+    "pattern_variants": [
+     "〜どころではない",
+     "V từ điển / N + どころではない"
+    ],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bf5466998a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "を始(はじ)め",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d2849dbd11"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "工事は三年にわたって続いた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Suốt, trải khắp — Phạm vi hoặc thời gian rộng lớn trải dài.",
+    "pattern": "に渡(わた)って",
+    "pattern_variants": [
+     "Khoảng thời gian hoặc phạm vi + にわたって"
+    ],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7c2abc8efb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "インターネットを通じて世界とつながる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thông qua, suốt — Nêu phương tiện trung gian, hoặc khoảng thời gian liên tục.",
+    "pattern": "を通(つう)じて",
+    "pattern_variants": [
+     "N + を通じて / を通して"
+    ],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c6afc41f7a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本にいる間に富士山を見たかったんですが、ずっと天気が悪く、見られずじまいでした。",
+      "vi": "Tôi muốn ngắm Núi Phú Sĩ khi còn ở Nhật, nhưng trời xấu mãi nên cuối cùng không được。"
+     },
+     {
+      "ja": "せっかくの連休だったけど、原稿を書かなければならなくて、どこにも行けずじまいだった。",
+      "vi": "Dù là kỳ nghỉ dài quý giá nhưng tôi phải viết bản thảo nên cuối cùng chẳng đi đâu được。」"
+     }
+    ],
+    "meaning_vi": "Rốt cuộc kết thúc mà không làm...; cuối cùng vẫn chưa/không...",
+    "pattern": "〜ずじまい",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e31f878921"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私たちが黙っている限り、この秘密を人に知られることはない。",
+      "vi": "Chừng nào chúng tôi còn im lặng, bí mật sẽ không truyền cho ai."
+     },
+     {
+      "ja": "学生である限り、校則は守らなければならない。",
+      "vi": "Nếu đã là sinh viên thì phải tuân thủ nội quy của trường."
+     }
+    ],
+    "meaning_vi": "Giả định, điều kiện, chừng nào, mà",
+    "pattern": "限(かぎ)り",
+    "pattern_variants": [
+     "〜限り",
+     "〜限りだ"
+    ],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b30884c906"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-003"
+}

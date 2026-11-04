@@ -1,0 +1,255 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "宝くじが当たったとしたら、何を買いますか。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu giả sử — Giả định một điều kiện rồi suy ra kết quả.",
+    "pattern": "Thể thường + としたら / とすれば",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-77221bac28"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "開会に先立って、写真撮影を行います。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Trước khi — Làm việc chuẩn bị trước một sự kiện chính thức.",
+    "pattern": "V từ điển / N + に先立って",
+    "pattern_variants": [
+     "〜に先立って",
+     "〜に先立って/先立ち"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-53b643c40d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "女王は美しいばかりか心も優しかった。",
+      "vi": "Nữ hoàng không chỉ xinh đẹp mà còn rất tốt bụng."
+     },
+     {
+      "ja": "この野菜はビタミンが豊富な(/である）ばかりか、がんを予防する働きもする。",
+      "vi": "Loại rau này không chỉ phong phú về vitamin, mà còn phòng ngừa ung thư."
+     }
+    ],
+    "meaning_vi": "Không chỉ",
+    "pattern": "〜ばかりか",
+    "pattern_variants": [
+     "Thể thường + ばかりか"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0da3916dbd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "風邪気味なので早退します。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Hơi hơi, có vẻ — Cảm thấy hơi nghiêng về trạng thái đó, thường không tốt.",
+    "pattern": "V thể ます (bỏ ます) / N + 気味",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c9497d34a5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最後まで走り抜いた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Làm đến cùng — Vượt qua khó khăn để hoàn thành trọn vẹn.",
+    "pattern": "V thể ます (bỏ ます) + 抜く",
+    "pattern_variants": [
+     "〜抜く"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0b9f6dacde"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会社を辞めるつもりはありません。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Hoàn toàn không định — Phủ định dứt khoát ý định làm gì.",
+    "pattern": "V từ điển + つもりはない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c9419a4141"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そんなに休むようでは、合格できないよ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu cứ như thế thì — Nếu duy trì tình trạng không tốt đó thì kết quả sẽ xấu.",
+    "pattern": "V-る / V-ている + ようでは",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a4bf823751"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "その映画は感動的で、涙を流さずにはいられなかった。",
+      "vi": "Bộ phim quá cảm động nên tôi không thể không rơi nước mắt."
+     },
+     {
+      "ja": "彼の冗談を聞くと、笑わないではいられない。",
+      "vi": "Nghe chuyện cười của anh ấy là tôi không nhịn cười được."
+     }
+    ],
+    "meaning_vi": "Biểu thị sự thôi thúc nội tâm/không kiểm soát được → “không thể không làm …”. Thường dùng với cảm xúc/hành vi vô thức: 笑う, 泣く, 言う, 叫ぶ, 欲しがる, 触る, 買う… Chủ ngữ thường là ngôi thứ nhất; với ngôi khác, thêm ようだ/らしい/という: 彼は見ると写真を撮らずにはいられないようだ。 Sắc thái mạnh, nhấn vào sự bất khả kiềm chế hơn so với ～てしまう（vốn trung tính, tường thuật kết quả).",
+    "pattern": "Không thể không...",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5b89028992"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は寂しげな表情をしていた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Ra vẻ, trông — Biểu hiện ra bên ngoài một cảm xúc.",
+    "pattern": "A bỏ い / V thể ます (bỏ ます) + げ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-389dda7559"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "若者を中心に人気が広がっている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Lấy làm trung tâm — Đặt cái gì làm trọng tâm rồi triển khai xung quanh.",
+    "pattern": "N + を中心に",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5e8fe7d8eb"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-014"
+}

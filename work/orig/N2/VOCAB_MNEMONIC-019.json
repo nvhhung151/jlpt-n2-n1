@@ -1,0 +1,804 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "事故の原因は明らかではない。",
+      "vi": "Nguyên nhân của vụ tai nạn chưa rõ ràng."
+     },
+     {
+      "ja": "明らかに彼は嘘をついている。",
+      "vi": "Rõ ràng là anh ấy đang nói dối."
+     },
+     {
+      "ja": "A社とB社が合併することが明らかになった。",
+      "vi": "Việc công ty A và công ty B sáp nhập đã được làm rõ."
+     }
+    ],
+    "expression": "明らかな",
+    "meaning_vi": "rõ ràng; sáng tỏ",
+    "reading": "あきらかな",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5c7a41a553"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "自ら",
+    "meaning_vi": "tự mình",
+    "reading": "みずから",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2eb8e1c4ed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "居場所",
+    "meaning_vi": "nơi ở; nơi mình thuộc về",
+    "reading": "いばしょ",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0a9996e843"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "持ち主",
+    "meaning_vi": "chủ nhân",
+    "reading": "もちぬし",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b187327d82"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "あくまで[も]",
+    "meaning_vi": "",
+    "reading": "あくまで[も]",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-28638a3e97"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「その遅刻癖を改めないと、信用を無くしますよ」",
+      "vi": "“Nếu không sửa cái tật đi trễ đó thì anh sẽ mất uy tín đấy.”"
+     },
+     {
+      "ja": "会社の名前を「XX」から「OO」に改めた。",
+      "vi": "Công ty đã đổi tên từ “XX” sang “OO”."
+     },
+     {
+      "ja": "夕方から友人の結婚式に出席するので、会社を出る前に服装を改めた。",
+      "vi": "Chiều nay đi dự đám cưới bạn nên trước khi rời công ty tôi đã chỉnh trang/thay đồ."
+     }
+    ],
+    "expression": "改める",
+    "meaning_vi": "sửa đổi; kiểm tra lại; thu nạp",
+    "reading": "あらためる",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8dbdeb73e5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "5年かかって、ようやく橋が完成した。",
+      "vi": "Mất 5 năm, cuối cùng cây cầu cũng hoàn thành."
+     },
+     {
+      "ja": "60歳を過ぎて、ようやく暮らしにも少し余裕ができた。",
+      "vi": "Qua 60 tuổi, cuối cùng cuộc sống cũng dư dả hơn chút."
+     }
+    ],
+    "expression": "漸く",
+    "meaning_vi": "cuối cùng mới; cuối cùng; sau cùng",
+    "reading": "ようやく",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4f4b527017"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今年は台風の上陸が相次いで、大きな被害が出た。",
+      "vi": "Năm nay các cơn bão nối tiếp nhau đổ bộ, gây thiệt hại lớn."
+     },
+     {
+      "ja": "相次ぐ汚職事件に、国民の怒りは頂点に達した。",
+      "vi": "Sự tức giận của dân chúng đạt đến đỉnh điểm trước các vụ tham nhũng liên tiếp."
+     }
+    ],
+    "expression": "相次ぐ",
+    "meaning_vi": "liên tục; liên tiếp",
+    "reading": "あいつぐ",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3828004706"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "あり得ない",
+    "meaning_vi": "không thể nào; không thể chấp nhận; không thể có",
+    "reading": "ありえない",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4854e366bc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "荒っぽい",
+    "meaning_vi": "thô bạo; ẩu; thô lỗ",
+    "reading": "あらっぽい",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-61f11c7fb4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "取り締まり",
+    "meaning_vi": "sự quản lý; trấn áp; kiểm soát",
+    "reading": "とりしまり",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-331667e501"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "有無",
+    "meaning_vi": "sự có hay không; việc có hay không",
+    "reading": "うむ",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ac9ee79ae0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "目撃＜する＞",
+    "meaning_vi": "chứng kiến; tận mắt thấy",
+    "reading": "もくげき＜する＞",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f1252ef3ca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "忙しくて映画館に行けず、話題の映画を見逃した。",
+      "vi": "Tôi bận rộn quá không đi xem phim được, bỏ lỡ mất bộ phim hot."
+     },
+     {
+      "ja": "道路標識を見逃して交通違反で罰金を取られた。",
+      "vi": "Tôi bỏ qua biển chỉ đường và bị phạt vì vi phạm giao thông."
+     },
+     {
+      "ja": "レポートの誤字を見逃してそのまま出してしまった。",
+      "vi": "Tôi bỏ qua chữ lỗi trong bài báo cáo và cứ thế gửi."
+     }
+    ],
+    "expression": "見逃す",
+    "meaning_vi": "bỏ sót; bỏ qua cho; bỏ lỡ",
+    "reading": "みのがす",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1af47f6ffc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "行方",
+    "meaning_vi": "",
+    "reading": "なめがた",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8651ed2969"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "3日前に出した手紙がいまだに着かないのはおかしい。",
+      "vi": "Thư gửi 3 ngày trước mà đến giờ chưa tới thì lạ thật."
+     },
+     {
+      "ja": "あの時の悔しさはいまだに忘れられない。",
+      "vi": "Nỗi tức tưởi khi đó đến giờ tôi vẫn không quên."
+     }
+    ],
+    "expression": "未だに",
+    "meaning_vi": "đến nay vẫn; bây giờ; cho đến giờ vẫn",
+    "reading": "いまだに",
+    "topic_vi": "Tai nạn",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-dcf6e2176d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "不明＜する＞",
+    "meaning_vi": "không rõ; chưa xác định",
+    "reading": "ふめい＜する＞",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b6abfd913a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "事故の原因は、相手側の過失にある。",
+      "vi": "Nguyên nhân của vụ tai nạn nằm ở sơ suất của phía bên kia."
+     }
+    ],
+    "expression": "過失",
+    "meaning_vi": "lỗi sơ suất; lỗi do sơ suất; bất cẩn",
+    "reading": "かしつ",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d483724beb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "運転を誤って、事故を起こしてしまった。",
+      "vi": "Lái xe sai nên gây tai nạn."
+     },
+     {
+      "ja": "山でリーダーが判断を誤ると遭難する恐れがある。",
+      "vi": "Trên núi, nếu trưởng nhóm phán đoán sai thì có nguy cơ gặp nạn."
+     },
+     {
+      "ja": "誤って花瓶を壊してしまった。",
+      "vi": "Lỡ làm vỡ bình hoa."
+     }
+    ],
+    "expression": "誤る",
+    "meaning_vi": "phạm sai lầm; mắc lỗi; sai lầm",
+    "reading": "あやまる",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3d27b1399e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "賃金をめぐって雇用側と労働側がもめている。",
+      "vi": "Chủ lao động và người làm thuê đang tranh cãi xung quanh tiền công."
+     },
+     {
+      "ja": "領土問題でA国とB国がもめている。",
+      "vi": "Quốc gia A và B đang tranh chấp vì vấn đề lãnh thổ."
+     },
+     {
+      "ja": "出席者の主張が対立し、会議はもめにもめた。",
+      "vi": "Quan điểm của những người tham gia đối lập nhau nên cuộc họp xảy ra tranh cãi."
+     }
+    ],
+    "expression": "揉める",
+    "meaning_vi": "tranh chấp; cãi cọ; gặp rắc rối",
+    "reading": "もめる",
+    "topic_vi": "Tai nạn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-01dd4dd5c0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "政策",
+    "meaning_vi": "chính sách",
+    "reading": "せいさく",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5e7825c889"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "治める",
+    "meaning_vi": "cai trị; bình định; trị",
+    "reading": "おさめる",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-dc93430eeb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会場に参加国の国旗を掲げる。",
+      "vi": "Treo cờ của các quốc gia tham gia tại hội trường."
+     },
+     {
+      "ja": "看板を掲げる。",
+      "vi": "Treo bảng hiệu."
+     },
+     {
+      "ja": "若者たちは理想を掲げて団体を設立した。",
+      "vi": "Các thanh niên đã thành lập tổ chức và nêu cao ý tưởng của mình."
+     }
+    ],
+    "expression": "掲げる",
+    "meaning_vi": "giương lên; nêu ra (khẩu hiệu); đưa ra",
+    "reading": "かかげる",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-14bc4c40bf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "評論家はテレビで経済についてコメントしていた。",
+      "vi": "Nhà bình luận nhận xét về kinh tế trên truyền hình."
+     },
+     {
+      "ja": "新聞に優勝者のコメントが載った。",
+      "vi": "Báo đăng bình luận của người chiến thắng."
+     },
+     {
+      "ja": "記者は取材をして関係者からコメントを取った。",
+      "vi": "Phóng viên phỏng vấn và lấy ý kiến từ người liên quan."
+     }
+    ],
+    "expression": "コメント＜する＞",
+    "meaning_vi": "bình luận; lời bình luận",
+    "reading": "こめんと＜する＞",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3cd2fe6d76"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は首相を支持している。",
+      "vi": "Tôi ủng hộ thủ tướng."
+     },
+     {
+      "ja": "高橋氏の意見は多くの支持を得た。",
+      "vi": "Ý kiến của ông Takahashi nhận được nhiều ủng hộ."
+     }
+    ],
+    "expression": "支持＜する＞",
+    "meaning_vi": "ủng hộ; hỗ trợ; sự ủng hộ",
+    "reading": "しじ＜する＞",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5d36df2591"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "各々",
+    "meaning_vi": "",
+    "reading": "かくかく",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-35a8f1a18d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "元会社社長の本田氏は、莫大な遺産を残した。",
+      "vi": "Cựu giám đốc công ty, ngài Honda đã để lại một khối tài sản khổng lồ."
+     },
+     {
+      "ja": "地震の被災地には、莫大な量のがれきの山が残った。",
+      "vi": "Tại vùng bị động đất còn sót lại một khối lượng rất lớn đất đá của núi bị sạc lở."
+     }
+    ],
+    "expression": "莫大な",
+    "meaning_vi": "không lồ; to lớn",
+    "reading": "ばくだいな",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e1410d42ae"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "｛国家/法律/予算/条約/契約/商談…｝が成立する。",
+      "vi": "{Quốc gia/luật/ngân sách/hiệp ước/hợp đồng/thương vụ…} được thông qua/được ký kết/được thành lập."
+     }
+    ],
+    "expression": "成立＜する＞",
+    "meaning_vi": "sự thành lập; được thông qua; hình thành",
+    "reading": "せいりつ＜する＞",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d58383a09e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "非難＜する＞",
+    "meaning_vi": "chỉ trích; lên án",
+    "reading": "ひなん＜する＞",
+    "topic_vi": "Chính trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6175e00ad8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "国民の声を政府に反映させよう。",
+      "vi": "Hãy để tiếng nói người dân được phản ánh đến chính phủ."
+     },
+     {
+      "ja": "新聞には世相を反映した川柳が載っている。",
+      "vi": "Báo chí đăng những bài thơ Senryuu phản ánh hiện thực xã hội."
+     },
+     {
+      "ja": "子供の行動は親の行動の反映だ。",
+      "vi": "Hành vi của trẻ phản ánh cách cư xử của cha mẹ."
+     }
+    ],
+    "expression": "反映＜する＞",
+    "meaning_vi": "phản ánh; phản chiếu",
+    "reading": "はんえい＜する＞",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3f71542778"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本は戦後数十年かけて戦災から復興した。",
+      "vi": "Nhật Bản mất hàng chục năm để phục hồi sau chiến tranh."
+     },
+     {
+      "ja": "地震の被害を受けた地域は、力を合わせて町を復興した。",
+      "vi": "Người dân vùng động đất đã cùng nhau khôi phục lại thị trấn."
+     }
+    ],
+    "expression": "復興＜する＞",
+    "meaning_vi": "tái thiết; phục hồi; phục hưng",
+    "reading": "ふっこう＜する＞",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-52de6249b1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "インフレ",
+    "meaning_vi": "lạm phát; lạm phát・giảm phát",
+    "reading": "いんふれ",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d2182f79b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "加速＜する＞",
+    "meaning_vi": "tăng tốc; gia tốc",
+    "reading": "かそく＜する＞",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1184f3b76e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "上回る",
+    "meaning_vi": "vượt trên mức; vượt quá; vượt hơn",
+    "reading": "うわまわる",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0d4da5497b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "猛暑によって深刻な水不足が起きた。",
+      "vi": "Nắng nóng khắc nghiệt gây thiếu nước nghiêm trọng."
+     },
+     {
+      "ja": "若者の活字離れが深刻になってきている。",
+      "vi": "Vấn đề giới trẻ “xa rời chữ nghĩa/đọc sách” đang trở nên nghiêm trọng."
+     },
+     {
+      "ja": "深刻な｛事態/問題/被害/悩み/話…｝",
+      "vi": "(Tình thế/vấn đề/thiệt hại/nỗi lo/câu chuyện…) nghiêm trọng."
+     }
+    ],
+    "expression": "深刻な",
+    "meaning_vi": "nghiêm trọng",
+    "reading": "しんこくな",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-07428208a6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "意識不明の母に呼び掛けた。",
+      "vi": "Tôi gọi/lay gọi mẹ đang hôn mê."
+     },
+     {
+      "ja": "仲間に呼び掛けて、寄付金を集めた。",
+      "vi": "Tôi kêu gọi bạn bè quyên góp, rồi gom tiền ủng hộ."
+     },
+     {
+      "ja": "平和の大切さを世界に呼び掛けよう。",
+      "vi": "Hãy kêu gọi thế giới hiểu tầm quan trọng của hòa bình."
+     }
+    ],
+    "expression": "呼びかける",
+    "meaning_vi": "gọi; kêu gọi; cất tiếng gọi",
+    "reading": "よびかける",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8917b6ae12"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "驚かす",
+    "meaning_vi": "làm cho giật mình; gây ngạc nhiên",
+    "reading": "おどろかす",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0bc3b2df2f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ニーズ",
+    "meaning_vi": "nhu cầu",
+    "reading": "にーず",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-582fb0fb6f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "了承＜する＞",
+    "meaning_vi": "sự chấp thuận; thông cảm cho; hiểu và chấp thuận",
+    "reading": "りょうしょう＜する＞",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-cfb137f177"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "個人情報",
+    "meaning_vi": "thông tin cá nhân",
+    "reading": "こじんじょうほう",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-aedd578cf9"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N2",
+ "packet_id": "VOCAB_MNEMONIC-019"
+}

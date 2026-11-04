@@ -1,0 +1,685 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この紙は字を書いても、インクがにじんで読めない。",
+      "vi": "Viết lên giấy này mực bị loang nên không thể đọc được."
+     },
+     {
+      "ja": "血のにじんだ包帯を取り替える。",
+      "vi": "Thay băng gạc đã thấm máu."
+     },
+     {
+      "ja": "涙で町の明かりがにじんで見えた。",
+      "vi": "Trong làn nước mắt, ánh đèn phố trở nên nhòe mờ."
+     }
+    ],
+    "expression": "滲む",
+    "meaning_vi": "thấm; rỉ; nhòe",
+    "reading": "にじむ",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-110fee7e42"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "しみる",
+    "meaning_vi": "",
+    "reading": "しみる",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-85cbe696d7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "捻挫＜する＞",
+    "meaning_vi": "",
+    "reading": "ねんざ＜する＞",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-09ca7bedea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "出血がひどいときは、傷口を強く圧迫するとよい。",
+      "vi": "Khi chảy máu nhiều, nên ấn chặt vào vết thương."
+     },
+     {
+      "ja": "何か胸を圧迫されるような感じがする。",
+      "vi": "Tôi cảm thấy như có gì đó đang đè nặng lên ngực."
+     },
+     {
+      "ja": "物価高が庶民の生活を圧迫した。",
+      "vi": "Giá cả tăng cao gây áp lực lên cuộc sống người dân."
+     }
+    ],
+    "expression": "圧迫＜する＞",
+    "meaning_vi": "áp bức; đè nén",
+    "reading": "あっぱく＜する＞",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ba94347459"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "剌さる",
+    "meaning_vi": "",
+    "reading": "ささる",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e05f30ff60"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "抓る",
+    "meaning_vi": "véo; cấu",
+    "reading": "つねる",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a6fceb7589"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "気持ちが悪かったので、背中をさすってもらった。",
+      "vi": "Vì cảm thấy khó chịu, tôi đã nhờ xoa bóp lưng."
+     }
+    ],
+    "expression": "さする",
+    "meaning_vi": "chà; xoa",
+    "reading": "さする",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-707f825fc4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "肺炎",
+    "meaning_vi": "",
+    "reading": "はいえん",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-48e5a4b46a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "気管支炎",
+    "meaning_vi": "",
+    "reading": "きかんしえん",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5ff3e621cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぜん息",
+    "meaning_vi": "",
+    "reading": "ぜんいき",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-fb01db3e1c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "皮膚炎",
+    "meaning_vi": "",
+    "reading": "ひふえん",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2021d5e924"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "アトピー",
+    "meaning_vi": "",
+    "reading": "あとぴー",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1b070c4f7f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "うつ病",
+    "meaning_vi": "",
+    "reading": "うつびょう",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-618d329063"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "認知症",
+    "meaning_vi": "",
+    "reading": "にんちしょう",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9bd415c137"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "発病＜する＞",
+    "meaning_vi": "phát bệnh",
+    "reading": "はつびょう＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8e2be3f72a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "慢性",
+    "meaning_vi": "",
+    "reading": "まんせい",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-26ef304366"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "応急",
+    "meaning_vi": "cấp cứu; ứng phó khẩn",
+    "reading": "おうきゅう",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5cd708e6ab"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最近忙しく、12時前に帰ることはまれだ。",
+      "vi": "Gần đây tôi rất bận và hiếm khi về nhà trước 12 giờ."
+     },
+     {
+      "ja": "温暖なこの地方でも、まれには雪が降ることもある。",
+      "vi": "Ngay cả ở vùng ấm áp này, đôi lúc cũng có tuyết rơi."
+     },
+     {
+      "ja": "田中君は近ごろまれな、礼儀正しい好青年だ。",
+      "vi": "Cậu Tanaka là một thanh niên tốt lễ phép hiếm có."
+     }
+    ],
+    "expression": "まれな",
+    "meaning_vi": "hiếm; không phổ biến",
+    "reading": "まれな",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f9ecc308b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "うつぶせ",
+    "meaning_vi": "",
+    "reading": "うつぶせ",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0ab3454425"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "カルテ",
+    "meaning_vi": "hồ sơ bệnh án",
+    "reading": "かるて",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3f9c800ad5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "冷却＜する＞",
+    "meaning_vi": "",
+    "reading": "れいきゃく＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0edc9680ed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "和らげる",
+    "meaning_vi": "làm dịu đi",
+    "reading": "やわらげる",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7869414a76"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "矯正＜する＞",
+    "meaning_vi": "",
+    "reading": "きょうせい＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-01f6b1ceed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "告知＜する＞",
+    "meaning_vi": "",
+    "reading": "こくち＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b3a99fb535"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "首相はホワイトハウスで大統領と面会した。",
+      "vi": "Thủ tướng đã gặp mặt Tổng thống tại Nhà Trắng."
+     },
+     {
+      "ja": "PTA が子供の指導について話し合いたいと、校長に面会を求めた。",
+      "vi": "Hội phụ huynh đề nghị gặp hiệu trưởng để bàn về việc giáo dục học sinh."
+     }
+    ],
+    "expression": "面会＜する＞",
+    "meaning_vi": "gặp mặt (bệnh nhân; người bị giam); gặp mặt",
+    "reading": "めんかい＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bc15163fcd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "付き添う",
+    "meaning_vi": "",
+    "reading": "つきそう",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-df0d270e4a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "安静",
+    "meaning_vi": "nghỉ ngơi tĩnh dưỡng",
+    "reading": "あんせい",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e7ef04c4f5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "政府はついに、消費税の値上げに踏み切った。",
+      "vi": "Cuối cùng, chính phủ đã đưa ra quyết định tăng thuế tiêu dùng."
+     },
+     {
+      "ja": "うまく踏み切らないと、ジャンプはうまくいかない。",
+      "vi": "Nếu không lấy đà đúng cách, cú nhảy sẽ không thành công."
+     }
+    ],
+    "expression": "踏み切る",
+    "meaning_vi": "quyết định; lao vào; bắt tay vào",
+    "reading": "ふみきる",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-10d7f8041d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "手遅れ",
+    "meaning_vi": "muộn mất rồi",
+    "reading": "ておくれ",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9d16585140"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "事件から３ヵ月が経過した。",
+      "vi": "Đã 3 tháng trôi qua kể từ vụ việc."
+     },
+     {
+      "ja": "手術後の経過は順調だ。",
+      "vi": "Tiến trình sau phẫu thuật rất thuận lợi."
+     },
+     {
+      "ja": "交渉の経過を見守る。",
+      "vi": "Theo dõi tiến triển của cuộc đàm phán."
+     }
+    ],
+    "expression": "経過",
+    "meaning_vi": "diễn biến; thời gian trôi; quá trình trôi qua",
+    "reading": "けいか",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e42e35fabb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "二の次",
+    "meaning_vi": "",
+    "reading": "にのつぎ",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bd20e15024"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "奇跡的な",
+    "meaning_vi": "",
+    "reading": "きせきてきな",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4fe536bae4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "全快＜する＞",
+    "meaning_vi": "khỏi bệnh hoàn toàn",
+    "reading": "ぜんかい＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-95e58fac3d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "処方せん",
+    "meaning_vi": "",
+    "reading": "しょほうせん",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2f9b0125f0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ガーゼ",
+    "meaning_vi": "",
+    "reading": "がーぜ",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e7e49104df"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "薬剤師",
+    "meaning_vi": "",
+    "reading": "やくざいし",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-23919f0262"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "容姿",
+    "meaning_vi": "",
+    "reading": "ようし",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-85fcd1d8cc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "はり",
+    "meaning_vi": "",
+    "reading": "はり",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c6324e0b5e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "突っ張る",
+    "meaning_vi": "chống cứng; căng ra; cứng đầu chống đối",
+    "reading": "つっぱる",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c1eef54671"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "つやつや＜な/する＞",
+    "meaning_vi": "",
+    "reading": "つやつや＜な/する＞",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-148e4c51b0"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N1",
+ "packet_id": "VOCAB_MNEMONIC-017"
+}

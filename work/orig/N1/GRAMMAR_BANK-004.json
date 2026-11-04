@@ -1,0 +1,259 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "けがをものともせず、最後まで走り切った。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bất chấp, không nao núng trước — Vượt qua khó khăn lớn một cách dũng cảm, luôn là lời khen.",
+    "pattern": "をものともせず",
+    "pattern_variants": [
+     "N + をものともせず"
+    ],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-809711d2a8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "親の心配をよそに、彼は一人で旅に出た。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Mặc kệ, phớt lờ — Bỏ ngoài tai sự lo lắng hay phản đối của người khác.",
+    "pattern": "を余所(よそ)に",
+    "pattern_variants": [
+     "N + をよそに",
+     "〜をよそに"
+    ],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-78c2a0f167"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ならいざ知(し)らず",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f14ab20b37"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "未成年といえども犯した罪は償うべきだ。",
+      "vi": "Cho dù là người chưa thành niên thì cũng phải chuộc tội cho hành vi mình đã gây ra."
+     },
+     {
+      "ja": "今は1時間といえども無駄にはできない。",
+      "vi": "Lúc này, dù chỉ một giờ tôi cũng không thể lãng phí."
+     }
+    ],
+    "meaning_vi": "Cho dù là…; ngay cả khi… (văn viết)",
+    "pattern": "〜といえども",
+    "pattern_variants": [
+     "Thể thường / N + といえども"
+    ],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0c15e847be"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "（あの学生は）もうちょっとがんばれば合格できたものを。",
+      "vi": "(Sinh viên ấy) giá mà cố gắng thêm một chút thì đã có thể đỗ rồi."
+     },
+     {
+      "ja": "「連絡してくだされば、駅までお迎えに行きましたものを」",
+      "vi": "“Giá mà anh chị báo trước thì chúng tôi đã ra ga đón rồi.”"
+     }
+    ],
+    "meaning_vi": "Mặc dù…; giá mà… thì đã… (bày tỏ tiếc nuối, bất mãn hoặc trách móc)",
+    "pattern": "〜ものを",
+    "pattern_variants": [
+     "Thể thường + ものを"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4c03b64379"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "んばかりに",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ff9f6b1283"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "見るともなくテレビを見ていた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vô thức, chẳng chủ ý — Làm việc gì mà không có ý định rõ ràng.",
+    "pattern": "とも無(な)く",
+    "pattern_variants": [
+     "V từ điển + ともなく",
+     "〜ともなく/なしに"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4065d8cfb2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は涙ながらに事情を語った。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nguyên trạng, trong khi — Giữ nguyên trạng thái đó mà làm việc gì.",
+    "pattern": "ながら + に",
+    "pattern_variants": [
+     "N / V thể ます (bỏ ます) + ながらに",
+     "〜ながらに/の"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-31e1f0c060"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は物事を悲観的に考えるきらいがある。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Có khuynh hướng xấu — Có xu hướng thiên về điều không tốt.",
+    "pattern": "嫌(きら)いがある",
+    "pattern_variants": [
+     "V từ điển / N の + きらいがある",
+     "〜きらいがある"
+    ],
+    "source_questions": [],
+    "unit_no": 6
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c3a1a22029"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お礼かたがたご挨拶に伺いました。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nhân tiện, kết hợp — Làm việc chính đồng thời kết hợp mục đích phụ, dùng trong giao tiếp lễ nghi.",
+    "pattern": "旁(かたがた)",
+    "pattern_variants": [
+     "N + かたがた",
+     "〜かたがた"
+    ],
+    "source_questions": [],
+    "unit_no": 7
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-40d95fbb62"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-004"
+}

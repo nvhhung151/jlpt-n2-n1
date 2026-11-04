@@ -1,0 +1,243 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "その話を聞いて涙を禁じ得なかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không kìm được — Không thể nén được cảm xúc trào lên.",
+    "pattern": "を禁(きん)じ得(え)ない",
+    "pattern_variants": [
+     "N + を禁じ得ない",
+     "〜を禁じ得ない"
+    ],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-1f6e8dbd43"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "台風で試合は中止を余儀なくされた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Buộc phải, đành phải — Do hoàn cảnh ngoài ý muốn mà buộc phải chấp nhận.",
+    "pattern": "を余儀(よぎ)なくされる",
+    "pattern_variants": [
+     "N + を余儀なくされる",
+     "〜を余儀なくされる/させる"
+    ],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4ff9faacdc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "を余儀(よぎ)なくさせる",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-48d4ee2414"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この仕事を任せられるのは、彼をおいてほかにいない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Ngoài ra không còn ai khác — Chỉ có duy nhất đối tượng đó là xứng đáng, không có lựa chọn thứ hai.",
+    "pattern": "N + をおいて",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ad914becd3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "前回の反省を踏まえて計画を練り直した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dựa trên, căn cứ vào — Lấy kết quả hoặc bài học trước làm nền để tiến hành bước tiếp.",
+    "pattern": "N + を踏まえて",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a4fac6dbdc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "柄にもなく緊張してしまった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chẳng có chút nào — Phủ định tuyệt đối sự tồn tại của tính chất nào đó.",
+    "pattern": "柄にもなく / らしくもない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4e4984d193"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私とて同じ気持ちだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dù là cũng — Ngay cả trường hợp đó cũng không ngoại lệ, văn cổ.",
+    "pattern": "N + とて",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ffffd49942"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "実情に即した対策が必要だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Sát với, theo đúng — Bám sát thực tế hoặc quy định mà xử lý.",
+    "pattern": "N + に即して",
+    "pattern_variants": [
+     "〜に即して"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5c48712a01"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "眼鏡なしでは何も見えない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu thiếu thì không — Không có cái đó thì không thể tiến hành.",
+    "pattern": "N + なしでは",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-89ec3d8e50"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "規定に照らして判断する。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đối chiếu với — So với chuẩn mực hoặc tiền lệ để phán xét.",
+    "pattern": "N + に照らして",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-518201f8b0"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-010"
+}

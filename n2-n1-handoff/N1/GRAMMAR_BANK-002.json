@@ -1,0 +1,246 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜まじき",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bcc2ed9564"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "東京公演を皮切りに、全国ツアーが始まった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Mở đầu bằng rồi lan ra — Bắt đầu từ một điểm rồi phát triển rộng liên tiếp.",
+    "pattern": "を皮切(かわき)りに",
+    "pattern_variants": [
+     "N + を皮切りに",
+     "〜を皮切りに/にして/として"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-10deccaf9a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "に至(いた)るまで",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2895cf9100"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今日を限りにたばこをやめる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Kể từ là chấm dứt — Lấy mốc đó làm điểm kết thúc.",
+    "pattern": "を限(かぎ)りに",
+    "pattern_variants": [
+     "N + を限りに",
+     "〜を限りに"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-10d430534e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "と言(い)うところ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c78ca420f7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "猛暑の今年は昨年にもまして食中毒が多い。",
+      "vi": "Năm nay nóng gay gắt nên số vụ ngộ độc thực phẩm còn nhiều hơn năm ngoái."
+     },
+     {
+      "ja": "ここ5年ほどの技術革新のスピードは、以前にもまして速くなっている。",
+      "vi": "Tốc độ đổi mới công nghệ trong khoảng năm năm gần đây đã nhanh hơn cả trước kia."
+     }
+    ],
+    "meaning_vi": "Hơn cả…; hơn trước nữa",
+    "pattern": "〜にもまして",
+    "pattern_variants": [
+     "N + にもまして"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f4ef21c746"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "散歩がてら、公園の花火大会に出かけた。",
+      "vi": "Nhân tiện đi dạo, tôi đã đến xem lễ hội pháo hoa ở công viên."
+     },
+     {
+      "ja": "買い物がてら、銀行へ行って用事を済ませた。",
+      "vi": "Nhân tiện đi mua sắm, tôi ghé ngân hàng giải quyết công việc."
+     }
+    ],
+    "meaning_vi": "Nhân tiện làm..., kết hợp làm thêm...",
+    "pattern": "〜がてら",
+    "pattern_variants": [
+     "N / V thể ます (bỏ ます) + がてら"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b079f39338"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ジョンさんは納豆を一口食べるなり吐き出してしまった。",
+      "vi": "John vừa ăn một miếng natto đã nhổ ra."
+     },
+     {
+      "ja": "彼女は恋人の顔を見るなり泣き出した。",
+      "vi": "Cô ấy vừa nhìn thấy mặt người yêu liền òa khóc."
+     }
+    ],
+    "meaning_vi": "Vừa… thì lập tức…",
+    "pattern": "〜なり",
+    "pattern_variants": [
+     "V từ điển + なり"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-85da526bc7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "を措(お)いて他(ほか)に〜ない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a78a390699"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "被害は国内にとどまらず、海外にも及んだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không dừng lại ở — Ảnh hưởng lan rộng vượt khỏi phạm vi ban đầu.",
+    "pattern": "に止(とど)まらず",
+    "pattern_variants": [
+     "V từ điển + にとどまらず"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7be2c41535"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-002"
+}

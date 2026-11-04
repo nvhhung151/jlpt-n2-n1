@@ -1,0 +1,242 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "取るに足りない問題だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không đáng để — Giá trị quá nhỏ, không xứng để bận tâm.",
+    "pattern": "V từ điển + に足りない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-835e6dd984"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あんな店、二度と行くものか。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Làm gì có chuyện — Phủ định mạnh kèm cảm xúc, giọng văn nói dứt khoát.",
+    "pattern": "Thể thường + ものか",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-1608c47ea8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "努力することなしに成功はない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Mà không cần — Không làm việc trước thì không đạt được việc sau.",
+    "pattern": "V từ điển + ことなしに",
+    "pattern_variants": [
+     "〜ことなしに"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3f91f30a0e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "忙しいどころの話ではない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Còn lâu mới là chuyện — Mức độ vượt xa điều vừa nêu, hoàn cảnh nghiêm trọng hơn nhiều.",
+    "pattern": "N / V từ điển + どころの話ではない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-931bf1f1dc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "経験不足ゆえのミスだった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Do mà có — Dạng định ngữ của ゆえに, nêu nguyên nhân của một đặc điểm.",
+    "pattern": "N / Thể thường + ゆえの",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ebdb682caf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "夏はビールに限る。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thì nhất — Theo ý người nói, cái đó là tốt nhất.",
+    "pattern": "N / V từ điển + に限る",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d7de15b4fe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は休むことなく働き続けた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Mà không hề — Không làm việc kia mà vẫn tiến hành việc này, văn viết.",
+    "pattern": "V từ điển + ことなく",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-74c2bca73a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は危険をかえりみず川に飛び込んだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bất chấp, không màng — Không đoái hoài đến điều đáng lẽ phải cân nhắc.",
+    "pattern": "N + をかえりみず",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-14ccd4d61b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "社会人ともなると、責任が重くなる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đã đến mức thì — Khi đạt tới giai đoạn hoặc vị trí đó thì mọi việc khác hẳn.",
+    "pattern": "N / V từ điển + ともなると",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-46d10864eb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "自由と引き換えに安定を得た。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đổi lấy — Đánh đổi cái này để lấy cái kia.",
+    "pattern": "N + と引き換えに",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-53bf6265b4"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-015"
+}

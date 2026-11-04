@@ -1,0 +1,1248 @@
+{
+ "header": {
+  "instructions": "topic_key/topic_vi: chọn chủ đề gần nghĩa nhất trong header.topics; không hợp thì \"khac\"/\"Từ thông dụng khác\".",
+  "topics": [
+   {
+    "topic_key": "gia-dinh",
+    "topic_vi": "Gia đình"
+   },
+   {
+    "topic_key": "ban-be",
+    "topic_vi": "Bạn bè"
+   },
+   {
+    "topic_key": "nguoi-quen",
+    "topic_vi": "Người quen"
+   },
+   {
+    "topic_key": "nguoi-yeu",
+    "topic_vi": "Người yêu"
+   },
+   {
+    "topic_key": "moi-quan-he-rong",
+    "topic_vi": "Mối quan hệ rộng"
+   },
+   {
+    "topic_key": "noi-o",
+    "topic_vi": "Nơi ở"
+   },
+   {
+    "topic_key": "do-an",
+    "topic_vi": "Đồ ăn"
+   },
+   {
+    "topic_key": "nau-an",
+    "topic_vi": "Nấu ăn"
+   },
+   {
+    "topic_key": "nhat-trinh",
+    "topic_vi": "Nhật trình"
+   },
+   {
+    "topic_key": "tu-the-hien-thoi-gian",
+    "topic_vi": "Từ thể hiện thời gian"
+   },
+   {
+    "topic_key": "viec-nha",
+    "topic_vi": "Việc nhà"
+   },
+   {
+    "topic_key": "ngay-nghi",
+    "topic_vi": "Ngày nghỉ"
+   },
+   {
+    "topic_key": "chuyen-nha",
+    "topic_vi": "Chuyển nhà"
+   },
+   {
+    "topic_key": "truong-hoc",
+    "topic_vi": "Trường học"
+   },
+   {
+    "topic_key": "hoc-tap",
+    "topic_vi": "Học tập"
+   },
+   {
+    "topic_key": "thi-cu",
+    "topic_vi": "Thi cử"
+   },
+   {
+    "topic_key": "len-dai-hoc",
+    "topic_vi": "Lên Đại học"
+   },
+   {
+    "topic_key": "laptop-dien-thoai",
+    "topic_vi": "Laptop, điện thoại"
+   },
+   {
+    "topic_key": "tim-viec",
+    "topic_vi": "Tìm việc"
+   },
+   {
+    "topic_key": "cong-ty",
+    "topic_vi": "Công ty"
+   },
+   {
+    "topic_key": "cong-viec",
+    "topic_vi": "Công việc"
+   },
+   {
+    "topic_key": "quan-he-tren-duoi",
+    "topic_vi": "Quan hệ trên dưới"
+   },
+   {
+    "topic_key": "nghi-viec-chuyen-cho-lam",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm"
+   },
+   {
+    "topic_key": "thanh-pho",
+    "topic_vi": "Thành phố"
+   },
+   {
+    "topic_key": "cong-cong",
+    "topic_vi": "Công cộng"
+   },
+   {
+    "topic_key": "giao-thong",
+    "topic_vi": "Giao thông"
+   },
+   {
+    "topic_key": "san-xuat",
+    "topic_vi": "Sản xuất"
+   },
+   {
+    "topic_key": "nong-thon",
+    "topic_vi": "Nông thôn"
+   },
+   {
+    "topic_key": "co-the-va-suc-khoe",
+    "topic_vi": "Cơ thể và sức khỏe"
+   },
+   {
+    "topic_key": "trieu-chung-benh",
+    "topic_vi": "Triệu chứng bệnh"
+   },
+   {
+    "topic_key": "benh-va-dieu-tri",
+    "topic_vi": "Bệnh và điều trị"
+   },
+   {
+    "topic_key": "lam-dep",
+    "topic_vi": "Làm đẹp"
+   },
+   {
+    "topic_key": "thi-dau",
+    "topic_vi": "Thi đấu"
+   },
+   {
+    "topic_key": "thoi-trang",
+    "topic_vi": "Thời trang"
+   },
+   {
+    "topic_key": "sach",
+    "topic_vi": "Sách"
+   },
+   {
+    "topic_key": "ke-hoach-du-lich",
+    "topic_vi": "Kế hoạch du lịch"
+   },
+   {
+    "topic_key": "tai-noi-du-lich",
+    "topic_vi": "Tại nơi du lịch"
+   },
+   {
+    "topic_key": "dat-nuoc",
+    "topic_vi": "Đất nước"
+   },
+   {
+    "topic_key": "quan-he-quoc-te",
+    "topic_vi": "Quan hệ quốc tế"
+   },
+   {
+    "topic_key": "thoi-tiet-khi-hau",
+    "topic_vi": "Thời tiết, khí hậu"
+   },
+   {
+    "topic_key": "thien-tai",
+    "topic_vi": "Thiên tai"
+   },
+   {
+    "topic_key": "moi-truong-the-gioi",
+    "topic_vi": "Môi trường thế giới"
+   },
+   {
+    "topic_key": "tu-nhien",
+    "topic_vi": "Tự nhiên"
+   },
+   {
+    "topic_key": "giai-tri",
+    "topic_vi": "Giải trí"
+   },
+   {
+    "topic_key": "su-co",
+    "topic_vi": "Sự cố"
+   },
+   {
+    "topic_key": "su-kien-su-co",
+    "topic_vi": "Sự kiện, sự cố"
+   },
+   {
+    "topic_key": "xa-hoi",
+    "topic_vi": "Xã hội"
+   },
+   {
+    "topic_key": "chinh-tri",
+    "topic_vi": "Chính trị"
+   },
+   {
+    "topic_key": "kinh-te",
+    "topic_vi": "Kinh tế"
+   },
+   {
+    "topic_key": "tinh-cach",
+    "topic_vi": "Tính cách"
+   },
+   {
+    "topic_key": "tam-trang-tot",
+    "topic_vi": "Tâm trạng tốt"
+   },
+   {
+    "topic_key": "tam-trang-xau",
+    "topic_vi": "Tâm trạng xấu"
+   },
+   {
+    "topic_key": "hinh-anh-tich-cuc",
+    "topic_vi": "Hình ảnh tích cực"
+   },
+   {
+    "topic_key": "hinh-anh-tieu-cuc",
+    "topic_vi": "Hình ảnh tiêu cực"
+   },
+   {
+    "topic_key": "trang-tu",
+    "topic_vi": "Trạng từ ③"
+   },
+   {
+    "topic_key": "tu-de-nham-lan",
+    "topic_vi": "Từ dễ nhầm lẫn ②"
+   },
+   {
+    "topic_key": "thanh-ngu-khuon-mat",
+    "topic_vi": "Thành ngữ: Khuôn mặt"
+   },
+   {
+    "topic_key": "thanh-ngu-than-the",
+    "topic_vi": "Thành ngữ: Thân thể"
+   },
+   {
+    "topic_key": "thanh-ngu-bo-phan-khac",
+    "topic_vi": "Thành ngữ: Bộ phận khác"
+   },
+   {
+    "topic_key": "tu-nhieu-nghia",
+    "topic_vi": "Từ nhiều nghĩa"
+   }
+  ]
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "タバコの箱には「タバコの吸い過ぎは健康を損なうおそれがあるので注意しましょう」と書いてある。",
+      "vi": "Trên hộp thuốc lá có ghi \"Hút thuốc lá quá nhiều sẽ có nguy cơ gây hại cho sức khỏe, vì vậy hãy chú ý\"."
+     },
+     {
+      "ja": "｛美観／景観／機嫌／命／器物．．．｝を損なう。",
+      "vi": "Gây hại (mỹ quan/ cảnh quan/ dụng cụ), làm hại (tâm trạng/ sinh mệnh)"
+     }
+    ],
+    "expression": "損なう",
+    "meaning_vi": "làm tổn hại; lỡ mất; làm đau",
+    "reading": "そこなう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-f7916d04d8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "努力すれば、いつか必ず夢はかなうと信じる。",
+      "vi": "Tôi tin rằng nếu cố gắng, ước mơ nhất định sẽ thành hiện thực."
+     },
+     {
+      "ja": "歌手になるのは、かなわぬ夢だとあきらめた。",
+      "vi": "Tôi đã từ bỏ giấc mơ không thể thành hiện thực là làm ca sĩ."
+     }
+    ],
+    "expression": "叶う",
+    "meaning_vi": "được toại nguyện; được như ý; làm được",
+    "reading": "かなう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-54fdbfa3bf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "青春時代を顧みると、恥ずかしかったことばかりが思い出される。",
+      "vi": "Nghĩ về thời thanh xuân, thì chỉ toàn những chuyện xấu hổ ùa về."
+     },
+     {
+      "ja": "母親は後ろからついてくる息子を顧みた。",
+      "vi": "Mẹ quay lại nhìn đứa con đang theo sau mình."
+     },
+     {
+      "ja": "父親は子供を救うため、危険を顧みず火の中に飛び込んだ。",
+      "vi": "Người cha lao vào biển lửa để cứu con, bất chấp nguy hiểm."
+     }
+    ],
+    "expression": "顧みる",
+    "meaning_vi": "nhìn lại; đoái hoài; quay lại",
+    "reading": "かえりみる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-a341d60718"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "救援活動のため、軍隊が被災地に赴いた。",
+      "vi": "Quân đội đi đến những vùng bị thiên tai để tiến hành hoạt động cứu trợ."
+     },
+     {
+      "ja": "任地に赴く。",
+      "vi": "Chuyển đến nơi công tác"
+     }
+    ],
+    "expression": "赴く",
+    "meaning_vi": "lên đường tới; tới; đến",
+    "reading": "おもむく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-da66d6d279"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "突如地面が揺れ、次の瞬間、家はつぶれていた。",
+      "vi": "Đột nhiên mặt đất rung chuyển, trong khoảnh khắc ngôi nhà bị đổ sụp."
+     },
+     {
+      "ja": "突如として体に力が入らなくなり、その場に倒れてしまった。",
+      "vi": "Đột nhiên cơ thể không còn chút sức lực nào, tôi ngã gục xuống đó."
+     }
+    ],
+    "expression": "突如",
+    "meaning_vi": "đột nhiên; đang gọi điện với bạn cùng lớp; tôi bỗng nhiên muốn trở về quê",
+    "reading": "とつじょ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-49137b5a4c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "久しぶりの雨で田畑が潤った。",
+      "vi": "Cánh đồng ướt đẫm do trận mưa dài."
+     },
+     {
+      "ja": "このクリームを塗ると、肌が潤う。",
+      "vi": "Bôi kem này sẽ giữ ẩm cho da."
+     },
+     {
+      "ja": "自然の中にいると、心が潤ってくる。",
+      "vi": "Sống trong tự nhiên sẽ khiến tâm hồn trở nên phong phú."
+     }
+    ],
+    "expression": "潤う",
+    "meaning_vi": "ẩm ướt; trở nên khấm khá; được lợi",
+    "reading": "うるおう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-e7c551416c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "都市部は一人住まいが多いので、世帯数が多い。",
+      "vi": "Khu vực thành thị có nhiều người sống một mình, nên số hộ gia đình cao."
+     },
+     {
+      "ja": "二世帯住宅で、三世代が一緒に暮してるご家庭もある。",
+      "vi": "Cũng có những gia đình sống chung ba thế hệ trong căn nhà hai thế hệ."
+     }
+    ],
+    "expression": "世帯",
+    "meaning_vi": "hộ gia đình",
+    "reading": "せたい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-2aa935f86b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "休みの前の日は、ビデオを見て夜更かしをする。",
+      "vi": "Trước ngày nghỉ, tôi thức khuya xem video."
+     }
+    ],
+    "expression": "夜更かし",
+    "meaning_vi": "thức khuya",
+    "reading": "よふかし",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-17c2ffbf36"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "こんな立派で広い家は、庶民には縁がない。",
+      "vi": "Ngôi nhà rộng và đẹp như thế này thì với thường dân thật là xa vời."
+     }
+    ],
+    "expression": "庶民",
+    "meaning_vi": "dân thường",
+    "reading": "しょみん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-13a49ab789"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "やむを得ずうそをついたが、いつまでも良心が｛痛んだ／とがめた｝。",
+      "vi": "Buộc phải nói dối, nhưng lương tâm tôi cứ cắn rứt mãi."
+     },
+     {
+      "ja": "彼女は良心の痛みに耐えられず、罪を告白した。",
+      "vi": "Cô ấy không chịu được sự giằng vặt lương tâm và đã thú tội."
+     }
+    ],
+    "expression": "良心",
+    "meaning_vi": "lương tâm",
+    "reading": "りょうしん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-0faf58f39a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このレストランの客は、みな立派な身なりをしている。",
+      "vi": "Khách hàng của nhà hàng này, ai cũng ăn mặc chỉnh tề."
+     },
+     {
+      "ja": "人前に立つ職業の人は、身なりにも気を遣うことが多い。",
+      "vi": "Người làm nghề mà phải đứng trước đám đông thường rất chú ý đến diện mạo của bản thân nữa."
+     }
+    ],
+    "expression": "身なり",
+    "meaning_vi": "cách ăn mặc; diện mạo; dáng vẻ ăn mặc",
+    "reading": "みなり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-f238a5e05c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "コミュニケーションでは、言葉だけでなく身振りも重要な役割を果たす。",
+      "vi": "Trong giao tiếp không chỉ ngôn từ mà cử chỉ cũng đóng vai trò quan trọng."
+     },
+     {
+      "ja": "外国で、道を身振り手振りで教えてもらった。",
+      "vi": "Ở nước ngoài, tôi được người ta chỉ đường bằng cử chỉ tay chân."
+     }
+    ],
+    "expression": "身振り",
+    "meaning_vi": "điệu bộ; cử chỉ",
+    "reading": "みぶり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-019c58fa5e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼はオリンピックで金メダルを取り、ついに夢をかなえた。",
+      "vi": "Anh ấy giành được huy chương vàng Olympic, cuối cùng đã hiện thực hóa giấc mơ."
+     }
+    ],
+    "expression": "叶える",
+    "meaning_vi": "hiện thực; thành hiện thực; làm cho thành hiện thực",
+    "reading": "かなえる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-3303ea8b59"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "月並み",
+    "meaning_vi": "tầm thường; sáo mòn; ～並み: dãy",
+    "reading": "つきなみ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-9ea65dedb5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "あざ笑う",
+    "meaning_vi": "cười nhạo; chế giễu",
+    "reading": "あざわらう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-45e26ae40e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女はドライな性格で、ものごとを割り切って考える。",
+      "vi": "Cô ấy là người có tính cách khô khan nên hay phân định rạch ròi mọi chuyện."
+     },
+     {
+      "ja": "ドライに｛考える/ 処理する…｝",
+      "vi": "(Suy nghĩ/ Giải quyết…) một cách lạnh lùng."
+     },
+     {
+      "ja": "バラを乾燥させてドライフラワーを作った。",
+      "vi": "Sấy khô hoa hồng để làm hoa khô."
+     }
+    ],
+    "expression": "ドライな",
+    "meaning_vi": "khô; khô khan; thực dụng",
+    "reading": "ドライな",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-17f13f1de2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "戦後日本人は勤勉に働き、短期間に復興を遂げた。",
+      "vi": "Sau chiến tranh, người Nhật đã làm việc chăm chỉ và nhanh chóng tái thiết đất nước."
+     }
+    ],
+    "expression": "勤勉な",
+    "meaning_vi": "cần cù; siêng năng; chăm chỉ",
+    "reading": "きんべんな",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-2da744a608"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は楽観的な性格で、あまり将来を心配していない。",
+      "vi": "Tôi là người lạc quan nên ít khi lo nghĩ về tương lai."
+     },
+     {
+      "ja": "楽観的な（見方／考え方／性格．．．｝",
+      "vi": "(Cách nhìn / suy nghĩ / tính cách) lạc quan"
+     },
+     {
+      "ja": "来年の景気の動向は楽観を許されない。",
+      "vi": "Tình hình kinh tế năm sau không cho phép thái độ lạc quan."
+     }
+    ],
+    "expression": "楽観的な",
+    "meaning_vi": "lạc quan",
+    "reading": "らっかんてきな",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-56571043e9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "温和な",
+    "meaning_vi": "ôn hòa",
+    "reading": "おんわな",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-67eff27e07"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "成績優秀な学生たちの中でも、彼女の頭の良さは際立っていた。",
+      "vi": "Trong số các sinh viên có điểm xuất sắc, cô ấy là xuất sắc hơn cả."
+     },
+     {
+      "ja": "バレーボール選手の中でも、彼は際立って肩が高い。",
+      "vi": "Ngay cả trong số những vận động viên bóng chuyền, anh ta có chiều cao nổi trội."
+     },
+     {
+      "ja": "横山氏の絵には、際立った特色がある。",
+      "vi": "Trong những bức họa của ông Yokohama có những điểm nổi bật."
+     }
+    ],
+    "expression": "際立つ",
+    "meaning_vi": "đáng chú ý; dễ thấy; nổi bật",
+    "reading": "きわだつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-0f65554e7e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今日はなんだかいいことがありそうな予感がする。",
+      "vi": "Hôm nay tôi có linh cảm như sẽ có điều gì đó tốt đẹp xảy ra."
+     },
+     {
+      "ja": "何か嫌な予感がする。",
+      "vi": "Có dự cảm không lành."
+     },
+     {
+      "ja": "彼が遺言状を書いたのは、死を予感したからかもしれない。",
+      "vi": "Việc ông ấy viết di chúc có lẽ là ổng đã dự cảm được cái chết của mình."
+     }
+    ],
+    "expression": "予感",
+    "meaning_vi": "linh cảm; dự cảm",
+    "reading": "よかん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-3775c3d1ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "人事異動で営業部の所属になった。",
+      "vi": "Do thay đổi nhân sự, tôi đã được chuyển sang bộ phận kinh doanh."
+     },
+     {
+      "ja": "私は区のボランティア会に所属している。",
+      "vi": "Tôi là thành viên của hội tình nguyện quận."
+     }
+    ],
+    "expression": "所属",
+    "meaning_vi": "trực thuộc; thuộc về",
+    "reading": "しょぞく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-446991fc10"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "所得の範囲内で生活する。",
+      "vi": "Tôi sống trong phạm vi thu nhập của mình."
+     },
+     {
+      "ja": "第二次世界大戦後、政府は「所得倍増計画」を打ち出した。",
+      "vi": "Sau Thế chiến II, chính phủ đã đề xuất kế hoạch nhân đôi thu nhập."
+     }
+    ],
+    "expression": "所得",
+    "meaning_vi": "thu nhập",
+    "reading": "しょとく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-04359c9833"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "戦争を起こしたA国に抗議するために、A国製品のボイコットが世界で相次いだ。",
+      "vi": "Nhằm phản đối quốc gia A vì đã gây ra chiến tranh, làn sóng tẩy chay sản phẩm của nước này đã lan rộng trên thế giới."
+     },
+     {
+      "ja": "学校に不満を抱く学生が卒業式をボイコットするという事件が起きた。",
+      "vi": "Đã xảy ra vụ việc học sinh bất mãn với trường học và tẩy chay lễ tốt nghiệp."
+     },
+     {
+      "ja": "上層部に抵抗して、社員たちは仕事をボイコットする手段に出た。",
+      "vi": "Để phản đối ban lãnh đạo, nhân viên đã quyết định đình công."
+     }
+    ],
+    "expression": "ボイコット",
+    "meaning_vi": "sự tẩy chay; tẩy chay",
+    "reading": "ボイコット",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-3fce927493"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "試合の形勢は後半になって逆転した。",
+      "vi": "Tình thế trận đấu đã đảo ngược trong nửa hiệp sau."
+     },
+     {
+      "ja": "２社が特許をめぐって争っているが、形勢はA社に有利だ。",
+      "vi": "Hai công ty đang tranh chấp bản quyền nhưng tình thế có lợi cho công ty A."
+     }
+    ],
+    "expression": "形勢",
+    "meaning_vi": "cục diện; tình thế; tình cảnh",
+    "reading": "けいせい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-2952489648"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今年の冬は例年になく寒いが、今晩はことに冷える。",
+      "vi": "Mùa đông năm nay lạnh khác với mọi năm, nhưng đêm nay đặc biệt thấy lạnh."
+     },
+     {
+      "ja": "このレポートには、ことに目新しいことは書かれていない。",
+      "vi": "Trong bài báo cáo này không có thứ gì đặc biệt mới lạ."
+     },
+     {
+      "ja": "今年の夏はことに暑い。",
+      "vi": "Mùa hè năm nay đặc biệt nóng."
+     }
+    ],
+    "expression": "殊に",
+    "meaning_vi": "đặc biệt là; một cách đặc biệt",
+    "reading": "ことに",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-781ccb0a28"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地震の揺れでビルの壁にひびが入った。",
+      "vi": "Vì dư chấn động đất, vết nứt đã xuất hiện trên tường tòa nhà."
+     },
+     {
+      "ja": "金銭問題で人間関係にひび入ることもある。",
+      "vi": "Đôi khi, vấn đề tiền bạc cũng khiến các mối quan hệ rạn nứt."
+     }
+    ],
+    "expression": "ひび",
+    "meaning_vi": "vết nứt; rạn nứt; vết nứt・rạn nứt",
+    "reading": "ひび",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-1342f2565c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "スカートの丈をつめる。",
+      "vi": "Tôi cắt ngắn chiều dài chân váy."
+     },
+     {
+      "ja": "彼女は彼に思いのたけをぶつけた手紙を書いた。",
+      "vi": "Cô ấy đã viết một lá thư dốc hết nỗi lòng gửi cho anh ấy."
+     }
+    ],
+    "expression": "丈",
+    "meaning_vi": "chiều dài; độ dài; độ dài (nhất là vải)",
+    "reading": "たけ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-00c2f47e5b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "バラにはとげがある。",
+      "vi": "Hoa hồng có gai."
+     },
+     {
+      "ja": "古い木材を触っていたら、とげが刺さってしまった。",
+      "vi": "Khi chạm vào gỗ cũ, tôi bị gai đâm."
+     },
+     {
+      "ja": "とげを抜く。",
+      "vi": "Rút gai ra"
+     }
+    ],
+    "expression": "刺",
+    "meaning_vi": "cái gai; lời nói có gai; gai",
+    "reading": "とげ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-c68f8beffc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今年は米が豊作だ。",
+      "vi": "Năm nay lúa được mùa."
+     }
+    ],
+    "expression": "豊作",
+    "meaning_vi": "được mùa; mùa bội thu",
+    "reading": "ほうさく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-5adf746d77"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "壁にぶつかった車は衝撃でひっくり返った。",
+      "vi": "Chiếc ô tô đâm vào tường bị lật do va đập."
+     },
+     {
+      "ja": "そのニュースは世界中に衝撃を与えた。",
+      "vi": "Tin tức đó gây sốc trên toàn thế giới."
+     },
+     {
+      "ja": "彼の発言に衝撃を受けた。",
+      "vi": "Tội bị sốc trước những lời nói của anh ta."
+     }
+    ],
+    "expression": "衝撃",
+    "meaning_vi": "cú sốc; chấn động; va đập",
+    "reading": "しょうげき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-80db7ab21a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "２５歳の姉は、まだ経済的には親に依存している。",
+      "vi": "Chị tôi 25 tuổi nhưng vẫn phụ thuộc tài chính vào bố mẹ."
+     },
+     {
+      "ja": "この国の経済はアメリカへの依存を強めつつある。",
+      "vi": "Kinh tế nước này ngày càng phụ thuộc vào Mỹ."
+     }
+    ],
+    "expression": "依存",
+    "meaning_vi": "sự phụ thuộc; phụ thuộc",
+    "reading": "いそん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-ab2dc01c6d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "脱原発を図るため、自然エネルギーの開発を促進する。",
+      "vi": "Để loại bỏ điện hạt nhân, người ta thúc đẩy phát triển năng lượng tái tạo."
+     },
+     {
+      "ja": "販売促進のため、取引先へのマージンを高くした。",
+      "vi": "Tăng chiết khấu cho đối tác để thúc đẩy bán hàng."
+     }
+    ],
+    "expression": "促進",
+    "meaning_vi": "xúc tiến; thúc đẩy",
+    "reading": "そくしん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-6bb3f245f6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "政党が二つに分裂した。",
+      "vi": "Đảng phái chia rẽ thành hai."
+     },
+     {
+      "ja": "｛国 ／ 細胞 ／ グループ ．．．｝が分裂する。",
+      "vi": "(Đất nước/tế bào/nhóm...) bị chia rẽ"
+     }
+    ],
+    "expression": "分裂",
+    "meaning_vi": "phân liệt; chia rẽ; phân裂",
+    "reading": "ぶんれつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-4feabdcaa3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "同志",
+    "meaning_vi": "đồng chí; người cùng chí hướng",
+    "reading": "どうし",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-d9068be644"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このマンションは大通りに面しているので、振動がひどい。",
+      "vi": "Chung cư này nằm sát đường lớn nên bị rung lắc mạnh."
+     },
+     {
+      "ja": "携帯電話は振動した。",
+      "vi": "Điện thoại rung."
+     },
+     {
+      "ja": "一分間の振り子の振動数は振り子の長さが長くなるほど少なくなる。",
+      "vi": "Độ dài con lắc càng lớn, tần suất rung của con lắc trong một phút càng giảm."
+     }
+    ],
+    "expression": "振動",
+    "meaning_vi": "dao động; rung",
+    "reading": "しんどう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-5b2b19bb10"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子供の死を嘆かない親はいない。",
+      "vi": "Không có cha mẹ nào không đau xót trước cái chết của con cái."
+     },
+     {
+      "ja": "｛不運／自分の愚かさ／身の上．．．｝を嘆く。",
+      "vi": "Đau buồn vì (sự không may mắn/ sự ngốc nghếch của bản thân/ thân phận)"
+     },
+     {
+      "ja": "多くの大学教授が、学生の学力低下を嘆いている。",
+      "vi": "Nhiều giảng viên đại học chán nản với học lực sa sút của sinh viên."
+     }
+    ],
+    "expression": "嘆く",
+    "meaning_vi": "than thở; đau buồn; thở dài",
+    "reading": "なげく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-e91c5554f8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "台風で街路樹が激しく揺さぶられている。",
+      "vi": "Cây cối ven đường bị rung chuyển mạnh vì bão."
+     },
+     {
+      "ja": "意識のない人を強く揺さぶってはいけない。",
+      "vi": "Đừng lay mạnh người bất tỉnh."
+     },
+     {
+      "ja": "盲目のピアニストの話を知って、｛心／胸｝を強く揺さぶられた。",
+      "vi": "Trái tim bị lay động khi biết câu chuyện của người nghệ sĩ piano mù."
+     }
+    ],
+    "expression": "揺さぶる",
+    "meaning_vi": "lay mạnh; làm lung lay; rung",
+    "reading": "ゆさぶる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-b7f26a747e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "企業は利益を消費者に還元することが求められる。",
+      "vi": "Công ty bị yêu cầu trả lại lợi nhuận cho người tiêu dùng."
+     }
+    ],
+    "expression": "還元",
+    "meaning_vi": "hoàn trả về; khử (hoá học); hoàn lại",
+    "reading": "かんげん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-428e9b22b5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "戦争に敗れ、王の権威は失われた。",
+      "vi": "Sau khi thất bại trong chiến tranh, nhà vua đánh mất uy quyền."
+     },
+     {
+      "ja": "ノーベル賞は、世界でも最も権威（の）ある賞の一つだ。",
+      "vi": "Giải Nobel là một trong những giải thưởng danh giá nhất trên thế giới."
+     },
+     {
+      "ja": "佐藤教授は植物学の権威だ。",
+      "vi": "Giáo sư Sato là chuyên gia đầu ngành trong lĩnh vực thực vật học."
+     }
+    ],
+    "expression": "権威",
+    "meaning_vi": "uy quyền; bậc thầy trong ngành; quyền uy",
+    "reading": "けんい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-d3c4b186a5"
+  }
+ ],
+ "kind": "TOPIC_ASSIGN",
+ "level": "N1",
+ "packet_id": "TOPIC_ASSIGN-001"
+}

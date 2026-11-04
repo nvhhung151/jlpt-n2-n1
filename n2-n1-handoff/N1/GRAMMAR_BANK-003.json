@@ -1,0 +1,242 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A氏はだまされて、貯金はおろか、住む所も失った。",
+      "vi": "Ông A bị lừa, chẳng những mất tiền tiết kiệm mà ngay cả chỗ ở cũng mất."
+     },
+     {
+      "ja": "A氏は株で大もうけをして、新しい家はおろかヨットまで手に入れた。",
+      "vi": "Ông A kiếm lời lớn từ cổ phiếu, không chỉ mua được nhà mới mà còn sắm được cả du thuyền."
+     }
+    ],
+    "meaning_vi": "Không chỉ ～ mà ngay cả … cũng.",
+    "pattern": "は疎(おろ)か",
+    "pattern_variants": [
+     "〜はおろか"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8a42524404"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "結果もさることながら、原因が問題だ。",
+      "vi": "Kết quả tất nhiên cũng quan trọng, nhưng nguyên nhân mới là vấn đề đáng bàn."
+     },
+     {
+      "ja": "進学先の決定については、親の希望もさることながら、本人の希望が第一だろう。",
+      "vi": "Khi quyết định nơi học tiếp, nguyện vọng của cha mẹ tất nhiên cũng cần xét đến, nhưng nguyện vọng của chính người học phải được đặt lên hàng đầu."
+     }
+    ],
+    "meaning_vi": "～ tất nhiên cũng quan trọng, nhưng điều ở vế sau còn đáng nhấn mạnh hơn.",
+    "pattern": "〜もさることながら",
+    "pattern_variants": [
+     "もさることながら"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bc1a2cff78"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子供は子供なりに考えている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Theo cách riêng của — Tuy hạn chế nhưng đã cố hết sức theo khả năng của mình.",
+    "pattern": "〜なりに",
+    "pattern_variants": [
+     "N + なりに / なりの",
+     "〜なりに/の"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-cea0279bff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "であれ〜であれ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-91a17e63be"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "と言(い)わず",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e17c9f5ca8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子供のためとあれば、何でもする。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu vì thì — Nếu vì mục đích đó thì sẵn sàng làm bất cứ gì.",
+    "pattern": "〜とあれば",
+    "pattern_variants": [
+     "Thể thường / N + とあれば"
+    ],
+    "source_questions": [],
+    "unit_no": 4
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7cef8a4a55"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これは職人ならではの技だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chỉ có ở mới có được — Đặc trưng riêng có, không nơi nào khác sánh được.",
+    "pattern": "〜ならでは",
+    "pattern_variants": [
+     "N + ならでは"
+    ],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4ad7cfc8df"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "言うまでもなく、健康が第一だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không cần phải đến mức — Việc đó hiển nhiên nên không cần thiết làm.",
+    "pattern": "〜までもない",
+    "pattern_variants": [
+     "V từ điển + までもない",
+     "〜までもない/なく"
+    ],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7c880109e5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "如何(いかん)",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ca0f67c17c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "いかん〜ず",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 5
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3b01723386"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-003"
+}

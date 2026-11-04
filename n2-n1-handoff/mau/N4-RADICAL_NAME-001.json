@@ -1,0 +1,75 @@
+{
+ "header": {
+  "instructions": "name_vi: tên bộ thủ tiếng Việt theo bảng 214 bộ (vd 亻 \"nhân đứng\")."
+ },
+ "items": [
+  {
+   "answer": {
+    "name_vi": "nhất"
+   },
+   "context": {
+    "number": 1,
+    "sample_kanji": "世"
+   },
+   "fields_needed": [
+    "name_vi"
+   ],
+   "id": "R-1"
+  },
+  {
+   "answer": {
+    "name_vi": "phiệt"
+   },
+   "context": {
+    "number": 4,
+    "sample_kanji": "久"
+   },
+   "fields_needed": [
+    "name_vi"
+   ],
+   "id": "R-4"
+  },
+  {
+   "answer": {
+    "name_vi": "quyết"
+   },
+   "context": {
+    "number": 6,
+    "sample_kanji": "予"
+   },
+   "fields_needed": [
+    "name_vi"
+   ],
+   "id": "R-6"
+  },
+  {
+   "answer": {
+    "name_vi": "đầu"
+   },
+   "context": {
+    "number": 8,
+    "sample_kanji": "交"
+   },
+   "fields_needed": [
+    "name_vi"
+   ],
+   "id": "R-8"
+  },
+  {
+   "answer": {
+    "name_vi": "nhân"
+   },
+   "context": {
+    "number": 9,
+    "sample_kanji": "代"
+   },
+   "fields_needed": [
+    "name_vi"
+   ],
+   "id": "R-9"
+  }
+ ],
+ "kind": "RADICAL_NAME",
+ "level": "N4",
+ "packet_id": "RADICAL_NAME-001"
+}

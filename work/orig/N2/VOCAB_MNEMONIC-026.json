@@ -1,0 +1,891 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うちの父は、釣りを娯楽として楽しんでいる。",
+      "vi": "Bố tôi lấy câu cá làm thú vui giải trí."
+     },
+     {
+      "ja": "「この辺は娯楽が少ないから、若い人は街へ出て行ってしまうんです」",
+      "vi": "Vì khu vực này ít hoạt động giải trí nên người trẻ thường lên thành phố."
+     }
+    ],
+    "expression": "娯楽",
+    "meaning_vi": "giải trí; vui chơi; thú vui",
+    "reading": "ごらく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8ade32df7c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "日の入り",
+    "meaning_vi": "hoàng hôn; mặt trời lặn",
+    "reading": "ひのいり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b67bba52b7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は株で100万円儲けた。",
+      "vi": "Anh ấy kiếm lời 1 triệu yên nhờ cổ phiếu."
+     },
+     {
+      "ja": "事業で受けた金を市に寄付した。",
+      "vi": "Anh ấy đã quyên góp cho thành phố số tiền kiếm được từ việc kinh doanh."
+     },
+     {
+      "ja": "結婚して子供を3人儲けた。",
+      "vi": "Kết hôn rồi tôi “kiếm” được 3 đứa con (có 3 con)."
+     }
+    ],
+    "expression": "儲ける",
+    "meaning_vi": "kiếm lời; kiếm lợi",
+    "reading": "もうける",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d8ebace9a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "為替",
+    "meaning_vi": "tỷ giá; hối đoái; chuyển tiền",
+    "reading": "かわせ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-242efe464c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "謙虚",
+    "meaning_vi": "khiêm tốn",
+    "reading": "けんきょ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d850a6f41a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "宣伝に経費をかけたので、売り上げが伸びた。",
+      "vi": "Vì chi tiền quảng cáo nên doanh số tăng."
+     },
+     {
+      "ja": "経費の削減が求められている。",
+      "vi": "Người ta đang yêu cầu cắt giảm chi phí."
+     }
+    ],
+    "expression": "経費",
+    "meaning_vi": "chi phí; kinh phí; chi phí nói chung",
+    "reading": "けいひ",
+    "topic_vi": "Công ty",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b693886830"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "未満",
+    "meaning_vi": "dưới (không tính số đó); chưa đến; dưới mức",
+    "reading": "みまん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2bd2f6293e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大ざっぱ",
+    "meaning_vi": "đại khái; qua loa; sơ sài",
+    "reading": "おおざっぱ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-916ce50794"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "強引",
+    "meaning_vi": "cưỡng ép; làm bừa; áp đặt",
+    "reading": "ごういん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7261fb9f72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "強気",
+    "meaning_vi": "cứng rắn; mạnh bạo; tự tin",
+    "reading": "つよき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-811763887a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "国際連合を略して国連と言う。",
+      "vi": "“Quốc tế liên hợp” được viết tắt là “quốc liên”."
+     },
+     {
+      "ja": "詳しい話を略して、結論だけ報告する。",
+      "vi": "Lược bỏ phần chi tiết, chỉ báo cáo kết luận."
+     }
+    ],
+    "expression": "略す",
+    "meaning_vi": "viết tắt; lược bỏ; lượt bớt",
+    "reading": "りゃくす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-50e431e0cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "泌み泌み",
+    "meaning_vi": "thấm thía; sâu lắng",
+    "reading": "しみじみ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a3a4e3b99e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "効率",
+    "meaning_vi": "hiệu suất; hiệu quả tác động; hiệu suất sử dụng nguồn lực",
+    "reading": "こうりつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0b15d0a8fb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "惨め",
+    "meaning_vi": "thảm hại; khốn khổ; đáng thương",
+    "reading": "みじめ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d5f4a70521"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "メーカーは海外に工場を持っていることが多い。",
+      "vi": "Nhiều hãng sản xuất có nhà máy ở nước ngoài."
+     },
+     {
+      "ja": "彼はクラスのムードメーカーだ。",
+      "vi": "Anh ấy là “cây tạo không khí” (mood maker) của lớp."
+     },
+     {
+      "ja": "結婚祝いにコーヒーメーカーをもらった。",
+      "vi": "Tôi được tặng một máy pha cà phê (coffee maker) làm quà cưới."
+     }
+    ],
+    "expression": "メーカー",
+    "meaning_vi": "hãng sản xuất; nhà chế tạo; người sản xuất",
+    "reading": "メーカー",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1a1ccbee04"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "構造",
+    "meaning_vi": "cấu trúc; kết cấu nội tại",
+    "reading": "こうぞう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6207e43359"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は胃腸が弱いので、消化｛が/に｝いいものを食べるようにしている。",
+      "vi": "Vì dạ dày yếu nên tôi cố ăn đồ dễ tiêu."
+     },
+     {
+      "ja": "調べたことを自分なりに消化しなければ、レポートを書くのは難しい。",
+      "vi": "Nếu không “tiêu hóa” theo cách của mình những gì tìm hiểu, sẽ khó viết báo cáo."
+     },
+     {
+      "ja": "厳しいスケジュールだったが、何とか消化できた。",
+      "vi": "Lịch trình căng nhưng cuối cùng cũng xử lý/hoàn thành được."
+     }
+    ],
+    "expression": "消化",
+    "meaning_vi": "tiêu hoá; xử lý hết (công việc); tiêu hóa",
+    "reading": "しょうか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d10d108349"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "磁石と磁石がくっついて離れない。",
+      "vi": "Nam châm dính vào nhau, không tách ra được."
+     },
+     {
+      "ja": "くつの底にガムにくっついてしまった。",
+      "vi": "Kẹo cao su dính vào đế giày tôi."
+     },
+     {
+      "ja": "3歳の娘はいつも私にくっついて離れようとしない。",
+      "vi": "Con gái 3 tuổi lúc nào cũng bám lấy tôi, không chịu rời."
+     }
+    ],
+    "expression": "くっ付く",
+    "meaning_vi": "dính vào; ở sát; bám sát",
+    "reading": "くっつく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-05b75aca27"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ジュースを固めてゼリーを作った。",
+      "vi": "Tôi làm đông nước ép để làm thạch."
+     },
+     {
+      "ja": "みんなの荷物を部屋の隅に固めて置いておいた。",
+      "vi": "Tôi gom hành lý của mọi người lại rồi để ở góc phòng."
+     },
+     {
+      "ja": "｛方針/決心/考え/結束…｝を固める。",
+      "vi": "Củng cố {phương châm/quyết tâm/suy nghĩ/sự đoàn kết…}."
+     }
+    ],
+    "expression": "固める",
+    "meaning_vi": "làm cho cứng; củng cố; làm cứng",
+    "reading": "かためる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9612d2df04"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ズボンが長すぎたので少し丈を縮めた。",
+      "vi": "Quần dài quá nên tôi rút ngắn ống một chút."
+     },
+     {
+      "ja": "2位のランナーが1位との「距離/差｝を縮めた。",
+      "vi": "Runner hạng 2 đã rút ngắn {cự ly/khoảng cách} với người hạng 1."
+     }
+    ],
+    "expression": "縮める",
+    "meaning_vi": "rút ngắn; thu nhỏ; làm ngắn",
+    "reading": "ちぢめる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3de94b6bdf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "店員たちは協力して泥棒を捕らえた。",
+      "vi": "Các nhân viên hợp sức bắt được tên trộm."
+     },
+     {
+      "ja": "猟師は動物を捕らえるのが仕事だ。",
+      "vi": "Công việc của thợ săn là bắt động vật."
+     },
+     {
+      "ja": "戦争中、祖父は敵に捕らえられて捕虜になったそうだ。",
+      "vi": "Nghe nói trong chiến tranh, ông tôi bị quân địch bắt và trở thành tù binh."
+     }
+    ],
+    "expression": "捕える",
+    "meaning_vi": "bắt giữ; nắm bắt",
+    "reading": "とらえる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-34c6531644"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "看護",
+    "meaning_vi": "điều dưỡng; chăm sóc điều dưỡng",
+    "reading": "かんご",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-408c2512d1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "診断",
+    "meaning_vi": "chẩn đoán; chẩn đoán chuyên môn",
+    "reading": "しんだん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e9722996a7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ずっと雨が降らないので、ダムの水が減っている。",
+      "vi": "Vì trời không mưa suốt thời gian dài, nên nước trong đập đang giảm."
+     },
+     {
+      "ja": "山奥にダムが建設された。",
+      "vi": "Một con đập được xây sâu trong núi."
+     }
+    ],
+    "expression": "ダム",
+    "meaning_vi": "đập nước; đê; đập",
+    "reading": "だむ",
+    "topic_vi": "Thời tiết, khí hậu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1540256741"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今年は稲がよく実っている。",
+      "vi": "Lúa năm nay được mùa."
+     },
+     {
+      "ja": "この地方ではリンゴは実らない。",
+      "vi": "Ở vùng này táo không ra trái."
+     },
+     {
+      "ja": "長年の努力が実った。",
+      "vi": "Nỗ lực nhiều năm cuối cùng cũng “đơm hoa kết trái”."
+     }
+    ],
+    "expression": "実る",
+    "meaning_vi": "kết trái; đơm hoa kết quả; mang lại kết quả tốt",
+    "reading": "みのる",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6e1854b8de"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "山は木が茂って暗いくらいだった。",
+      "vi": "Cây cối mọc um tùm khiến ngọn núi tối tăm."
+     },
+     {
+      "ja": "この木は葉は茂が花は咲かない。",
+      "vi": "Cây này lá rậm rạp nhưng không nở hoa."
+     }
+    ],
+    "expression": "茂る",
+    "meaning_vi": "rậm rạp; um tùm",
+    "reading": "しげる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7603d355d0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "険しい山道を登る。",
+      "vi": "Leo con đường núi dốc/khó."
+     },
+     {
+      "ja": "売り上げ減の報告を受けた社長は、険しい表情になった。",
+      "vi": "Nghe báo cáo doanh thu giảm, giám đốc lộ vẻ mặt nghiêm nghị."
+     },
+     {
+      "ja": "上司から険しい声で呼ばれた。",
+      "vi": "Cấp trên gọi tôi bằng giọng nghiêm khắc."
+     }
+    ],
+    "expression": "険しい",
+    "meaning_vi": "hiểm trở; nghiêm khắc (nét mặt); dốc (dựng đứng)",
+    "reading": "けわしい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-638e2549f1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うちの子はすぐに部屋を散らかしてしまう。",
+      "vi": "Con tôi hở chút là làm bừa bộn cả phòng."
+     },
+     {
+      "ja": "部屋に雑誌が散らかしてある。",
+      "vi": "Trong phòng bị bày bừa/bừa bộn (đồ đạc bị vứt lung tung)."
+     }
+    ],
+    "expression": "散らかす",
+    "meaning_vi": "bày bừa ra; làm lung tung; vương vãi",
+    "reading": "ちらかす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0dc035df93"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "月日",
+    "meaning_vi": "ngày tháng; năm tháng; thời gian",
+    "reading": "つきひ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d7f3b0a6ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "しばらく家にこもって、小説を書くつもりだ。",
+      "vi": "Tôi định giam mình trong nhà một thời gian ngắn để viết tiểu thuyết."
+     },
+     {
+      "ja": "僧が ｛寺／山｝にこもって修行する。",
+      "vi": "Nhà sư ẩn mình trong/ trên (chùa/ núi) tu hành."
+     },
+     {
+      "ja": "ふろ場は湿気がこもってカビが生えやすい。",
+      "vi": "Phòng tắm nhiều hơi ẩm nên dễ sinh ra nấm mốc."
+     }
+    ],
+    "expression": "篭る",
+    "meaning_vi": "ở lì; ẩn mình; tụ lại",
+    "reading": "こもる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-340381c6e8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "梅雨時は気温も温度も高くてうっとうしい。",
+      "vi": "Mùa mưa nhiệt độ và độ ẩm đều cao nên rất khó chịu."
+     },
+     {
+      "ja": "鼻が詰まって、うっとうしい気分だ。",
+      "vi": "Tâm trạng khó chịu vì bị nghẹt mũi."
+     },
+     {
+      "ja": "長い髪がうっとうしいので短く切った。",
+      "vi": "Vì tóc dài khó chịu nên tôi đã cắt ngắn."
+     }
+    ],
+    "expression": "鬱陶しい",
+    "meaning_vi": "khó chịu; phiền toái; âm u",
+    "reading": "うっとうしい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c44f6df0fa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "犯人は警察の目を逃れ、海外に逃亡したらしい。",
+      "vi": "Nghe nói tên tội phạm đã thoát khỏi tai mắt của cảnh sát và lưu vong ở nước ngoài."
+     },
+     {
+      "ja": "危ういところで難を逃れた。",
+      "vi": "Thoát nạn khỏi chỗ hiểm."
+     },
+     {
+      "ja": "｛苦しみ／恐怖／飢え／重荷．．．｝から逃れる。",
+      "vi": "Thoát khỏi (sự đau khổ/ nỗi sợ hãi/ nạn đói/ gánh nặng)"
+     }
+    ],
+    "expression": "逃れる",
+    "meaning_vi": "thoát khỏi; tránh; tránh khỏi",
+    "reading": "のがれる",
+    "topic_vi": "Sự kiện, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3ed8391d76"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "午後から気温が急激に上昇した。",
+      "vi": "Từ chiều nhiệt độ tăng vọt đột ngột."
+     },
+     {
+      "ja": "｛物価/人気/飛行機…｝が上昇する。",
+      "vi": "{Giá cả/độ nổi tiếng/máy bay...} tăng lên."
+     }
+    ],
+    "expression": "上昇＜する＞",
+    "meaning_vi": "tăng lên; tiến lên",
+    "reading": "じょうしょう＜する＞",
+    "topic_vi": "Kinh tế",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6c2e764f32"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "恋人に挙げるマフラーがやっと仕上がった。",
+      "vi": "Cuối cùng cũng đan xong chiếc khăn tặng người yêu."
+     },
+     {
+      "ja": "｛作品/論文…｝が仕上がる。",
+      "vi": "(Tác phẩm/luận văn…) hoàn thành xong."
+     },
+     {
+      "ja": "苦労したが、いい作品に仕上がった。",
+      "vi": "Vất vả nhưng đã hoàn thiện thành một tác phẩm tốt."
+     }
+    ],
+    "expression": "仕上がる",
+    "meaning_vi": "hoàn thành; xong xuôi; được hoàn thành",
+    "reading": "しあがる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9790bacf1f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "学校は生徒に読書を奨励した。",
+      "vi": "Trường khuyến khích học sinh đọc sách."
+     },
+     {
+      "ja": "奨励金をもらえるよう頑張ろう。",
+      "vi": "Hãy cố gắng để nhận được học bổng khuyến khích."
+     }
+    ],
+    "expression": "奨励",
+    "meaning_vi": "khuyến khích; động viên",
+    "reading": "しょうれい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a71d017825"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "山を崩して住宅地が造られている。",
+      "vi": "Phá núi/san núi để xây khu dân cư."
+     },
+     {
+      "ja": "｛バランス/体調/調子・ペース/姿勢・態勢/足/表情/お金…｝を崩す。",
+      "vi": "Làm rối/làm hỏng (cân bằng/sức khỏe/nhịp độ/tư thế/vẻ mặt/tiền bạc…)."
+     }
+    ],
+    "expression": "崩す",
+    "meaning_vi": "phá đổ; đổi tiền lẻ; phá",
+    "reading": "くずす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e8511b0d53"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "有名ブランド品だけあって、さすがに高い。",
+      "vi": "Đúng là hàng hiệu nên đắt thật."
+     },
+     {
+      "ja": "調子が悪くても優勝するとは、中野選手はさすがだ。",
+      "vi": "Dù phong độ không tốt mà vẫn vô địch—đúng là Nakano."
+     },
+     {
+      "ja": "「あんなに難しい問題が解けたんですか。さすがですね」",
+      "vi": "Bài khó thế mà giải được à? Đúng là giỏi thật."
+     }
+    ],
+    "expression": "流石",
+    "meaning_vi": "quả nhiên; không hổ danh; quả là",
+    "reading": "さすが",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-62c368920f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "（鉄道）この区間はトンネルが多い。",
+      "vi": "Đoạn đường này có nhiều hầm (tàu hỏa)."
+     },
+     {
+      "ja": "乗車区間",
+      "vi": "Quãng đường lên tàu"
+     },
+     {
+      "ja": "（駅伝）選手が走る距離は区間によって違う。",
+      "vi": "(Cuộc thi chạy tiếp sức) Độ dài quãng đường tuyển thủ sẽ khác nhau tùy theo chặng đường."
+     }
+    ],
+    "expression": "区間",
+    "meaning_vi": "đoạn; chặng; đoạn tuyến",
+    "reading": "くかん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-209aac5d5f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この嵐では休校もやむを得ない。",
+      "vi": "Bão thế này thì cho nghỉ học cũng là điều khó tránh."
+     },
+     {
+      "ja": "お金が足りなくなり、やむを得ず国の両親に送ってもらった。",
+      "vi": "Thiếu tiền nên đành nhờ bố mẹ ở quê gửi sang."
+     }
+    ],
+    "expression": "止むを得ない",
+    "meaning_vi": "bất đắc dĩ; không còn cách khác; không tránh khỏi",
+    "reading": "やむをえない",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-508d8c33a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一人でに",
+    "meaning_vi": "tự nó; tự nhiên; tự động",
+    "reading": "ひとりでに",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c15f02ce78"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N2",
+ "packet_id": "VOCAB_MNEMONIC-026"
+}

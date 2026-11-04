@@ -1,0 +1,755 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "接近＜する＞",
+    "meaning_vi": "tiếp cận; đến gần",
+    "reading": "せっきん＜する＞",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a6d6b1f8c3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "降水量",
+    "meaning_vi": "lượng nước mưa",
+    "reading": "こうすいりょう",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4d26cba7fa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地震の15分後に、高さ30センチの津波が観測された。",
+      "vi": "15 phút sau động đất, ghi nhận sóng thần cao 30 cm."
+     },
+     {
+      "ja": "｛星/雲の様子…｝を観測する。",
+      "vi": "Quan trắc/quan sát (sao/mây…)."
+     },
+     {
+      "ja": "｛経済/政治/ファッション…｝の動向を観測する。",
+      "vi": "Theo dõi xu hướng của kinh tế/chính trị/thời trang…"
+     }
+    ],
+    "expression": "観測＜する＞",
+    "meaning_vi": "quan trắc; sự quan trắc; sự quan sát",
+    "reading": "かんそく＜する＞",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-25e2af0708"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "台風の接近で山も海も荒れている。",
+      "vi": "Do bão tiến gần, cả núi lẫn biển đều động/dữ."
+     },
+     {
+      "ja": "荒れた天気",
+      "vi": "Thời tiết dữ dội (xấu, “động”)."
+     },
+     {
+      "ja": "｛会議/試合…｝が荒れる。",
+      "vi": "(Cuộc họp/trận đấu…) trở nên căng thẳng/hỗn loạn."
+     }
+    ],
+    "expression": "荒れる",
+    "meaning_vi": "bão bùng; hỗn loạn; (Biển) động",
+    "reading": "あれる",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e2012c7304"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ガードレールをまたいで車道に出る。",
+      "vi": "Bước qua rào chắn và đi vào đường dành cho ô tô."
+     },
+     {
+      "ja": "子供の頃、よく祖母に「横になっている人をまたいではいけない」を叱られた。",
+      "vi": "Hồi còn nhỏ, bà tôi thường nhắc nhở tôi rằng \"Không được bước qua một người khác đang nằm\"."
+     },
+     {
+      "ja": "大通りをまたぐ歩道橋がかけられた。",
+      "vi": "Chiếc cầu bộ hành bắc qua đường lớn được dựng lên."
+     }
+    ],
+    "expression": "跨ぐ",
+    "meaning_vi": "bước qua; băng qua; vượt qua",
+    "reading": "またぐ",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3caf2898a9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "応答＜する＞",
+    "meaning_vi": "phản hồi; đáp lại",
+    "reading": "おうとう＜する＞",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0bdbad73cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "静まる",
+    "meaning_vi": "lắng xuống; yên trở lại; tĩnh lặng",
+    "reading": "しずまる",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2d6f085bd4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この宝石は、身に付けると幸福をもたらすと言われている。",
+      "vi": "Người ta nói viên ngọc này khi đeo lên người sẽ mang lại hạnh phúc."
+     },
+     {
+      "ja": "首相の突然の辞任の知らせが、議員たちにもたらされた。",
+      "vi": "Thông báo từ chức đột ngột của thủ tướng đã được chuyển đến các đại biểu quốc hội."
+     },
+     {
+      "ja": "インターネットは情報の革命をもたらした。",
+      "vi": "Internet đã gây ra cuộc cách mạng thông tin."
+     }
+    ],
+    "expression": "齎らす",
+    "meaning_vi": "gây nên; mang đến; đem đến",
+    "reading": "もたらす",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4dc7772058"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "台風の被害は、九州地方全域に及んだ。",
+      "vi": "Thiệt hại do bão ảnh hưởng khắp toàn vùng Kyushu."
+     },
+     {
+      "ja": "手術は5時間に及んだ。",
+      "vi": "Ca phẫu thuật kéo dài 5 giờ."
+     },
+     {
+      "ja": "今回の優勝タイムは日本記録に及ばなかった。",
+      "vi": "Thành tích vô địch lần này vẫn chưa chạm tới kỷ lục Nhật Bản."
+     }
+    ],
+    "expression": "及ぶ",
+    "meaning_vi": "đạt tới; lan tới; đạt đến",
+    "reading": "およぶ",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-407784df6b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "直後",
+    "meaning_vi": "ngay sau đó; ngay sau khi",
+    "reading": "ちょくご",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a3c553ade8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地震や火事などの災害に会ったときのために、保険に入っておこう。",
+      "vi": "Để phòng lúc gặp thiên tai như động đất/hỏa hoạn, nên mua bảo hiểm."
+     }
+    ],
+    "expression": "災害",
+    "meaning_vi": "thiên tai; thảm họa (thiên nhiên); thảm họa",
+    "reading": "さいがい",
+    "topic_vi": "Bão, động đất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8a3a31408f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大地",
+    "meaning_vi": "mặt đất; vùng đất rộng lớn",
+    "reading": "だいち",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ce38434cca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "広大な",
+    "meaning_vi": "",
+    "reading": "こうだいな",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-84a22b8dd4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "滝",
+    "meaning_vi": "thác nước",
+    "reading": "たき",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cbe2207910"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "海辺",
+    "meaning_vi": "ven biển; bờ biển",
+    "reading": "うみべ",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-def7a57d9e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "水や空気は無色透明だ。",
+      "vi": "Nước và không khí không màu, trong suốt."
+     },
+     {
+      "ja": "透明な｛氷/ガラス/プラスチック…｝",
+      "vi": "Trong suốt {băng/kính/nhựa…}."
+     }
+    ],
+    "expression": "透明な",
+    "meaning_vi": "trong suốt",
+    "reading": "とうめいな",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7b576d171f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "日陰",
+    "meaning_vi": "bóng râm",
+    "reading": "ひかげ",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6b2ec0687a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "夕焼け",
+    "meaning_vi": "ráng chiều; hoàng hôn đỏ rực",
+    "reading": "ゆうやけ",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fb1b8d8413"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ミツバチがぶんぶん飛び回っている。",
+      "vi": "Ong bay vo ve khắp nơi."
+     },
+     {
+      "ja": "忙しい父は海外を飛び回って仕事をしている。",
+      "vi": "Bố bận rộn bay khắp nước ngoài để làm việc."
+     }
+    ],
+    "expression": "飛び回る",
+    "meaning_vi": "bay vòng quanh; bay quanh; bay khắp nơi",
+    "reading": "とびまわる",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-912d75fb42"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "鳴く",
+    "meaning_vi": "(Động vật) kêu; hót; hú",
+    "reading": "なく",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4433bfa242"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "し[い]んと＜する＞",
+    "meaning_vi": "",
+    "reading": "し[い]んと＜する＞",
+    "topic_vi": "Thiên nhiên",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0edd0cf28d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "休息＜する＞",
+    "meaning_vi": "nghỉ ngơi; nghỉ giải lao",
+    "reading": "きゅうそく＜する＞",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fe9187563e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ごろごろ＜する＞",
+    "meaning_vi": "lăn qua lăn lại; nằm không; mô tả tiếng động ầm ầm",
+    "reading": "ごろごろ＜する＞",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4fd3cb797e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "だらだら[と] ＜する＞",
+    "meaning_vi": "",
+    "reading": "だらだら[と] ＜する＞",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d7ea6fd5b1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "のびのび＜する＞",
+    "meaning_vi": "thong dong; nhàn nhã",
+    "reading": "のびのび＜する＞",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-68ed05946a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "こもる",
+    "meaning_vi": "",
+    "reading": "こもる",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2d3b22b007"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぐうぐう",
+    "meaning_vi": "ngủ khò khò; bụng sôi ùng ục",
+    "reading": "ぐうぐう",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a783184463"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "切り替える",
+    "meaning_vi": "chuyển đổi sang; chuyển đổi; thay đổi",
+    "reading": "きりかえる",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6f8584d02a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "桜の花びらがはらはらと散った。",
+      "vi": "Cánh hoa anh đào rơi lả tả."
+     },
+     {
+      "ja": "少女ははらはらと涙を流した。",
+      "vi": "Cô gái rơi nước mắt lã chã."
+     },
+     {
+      "ja": "綱渡りを見ながらはらはらした。",
+      "vi": "Xem đi dây mà thót tim."
+     }
+    ],
+    "expression": "はらはら＜する＞",
+    "meaning_vi": "lo lắng; hồi hộp; xào xạc (tiếng lá rơi)",
+    "reading": "はらはら＜する＞",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d0d39a32e8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "[お]墓",
+    "meaning_vi": "",
+    "reading": "[お]はか",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-777aa4d580"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "突っ込む",
+    "meaning_vi": "thọc vào; lao vào; vặn lại",
+    "reading": "つっこむ",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9c2eb302c6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "遠くにかすかに船が見える。",
+      "vi": "Thấp thoáng thấy con thuyền ở đằng xa."
+     },
+     {
+      "ja": "かすかな ｛音／ 匂い／ 光／ 記憶．．．｝",
+      "vi": "(Âm thanh / mùi hương / ánh sáng / ký ức) mờ nhạt, lờ mờ."
+     },
+     {
+      "ja": "彼は事故直後はまだかすかに息があったのだが、病院に運ばれる途中で亡くなった。",
+      "vi": "Ngay sau tai nạn, anh ấy vẫn còn thở yếu ớt nhưng đã qua đời trên đường đến bệnh viện."
+     }
+    ],
+    "expression": "微かな",
+    "meaning_vi": "thấp thoáng; nhợt nhạt",
+    "reading": "かすかな",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d3839e5c15"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "おぶう",
+    "meaning_vi": "cõng; địu",
+    "reading": "おぶう",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-23dc65e110"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "最適な",
+    "meaning_vi": "",
+    "reading": "さいてきな",
+    "topic_vi": "Ngày nghỉ",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2fa9c384cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "北国にも、ようやく春が訪れた。",
+      "vi": "Cuối cùng mùa xuân cũng đến với miền bắc."
+     },
+     {
+      "ja": "毎年、大勢の観光客が京都を訪れる。",
+      "vi": "Mỗi năm có rất nhiều du khách đến thăm Kyoto."
+     },
+     {
+      "ja": "取引先を訪れる。",
+      "vi": "Đến thăm/ghé thăm đối tác."
+     }
+    ],
+    "expression": "訪れる",
+    "meaning_vi": "ghé thăm; (mùa) đến; thăm",
+    "reading": "おとずれる",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-77bceb6acf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本では、戦争したことのない世代が増えている。",
+      "vi": "Ở Nhật, thế hệ không trải qua chiến tranh đang tăng lên."
+     }
+    ],
+    "expression": "体験＜する＞",
+    "meaning_vi": "trải nghiệm thực tế; trải nghiệm; kinh nghiệm tích lũy",
+    "reading": "たいけん＜する＞",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1bbdf6f470"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "見聞き＜する＞",
+    "meaning_vi": "nghe nhìn; học hỏi",
+    "reading": "みきき＜する＞",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b6881df483"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お土産をもらった子供は喜んで飛び回った。",
+      "vi": "Đứa trẻ được quà, vui quá chạy nhảy khắp nơi."
+     },
+     {
+      "ja": "地球は太陽の周りを巡っている。",
+      "vi": "Trái Đất quay quanh Mặt Trời."
+     },
+     {
+      "ja": "公園の中を歩道が巡っている。",
+      "vi": "Lối đi bộ chạy vòng quanh bên trong công viên."
+     }
+    ],
+    "expression": "巡る",
+    "meaning_vi": "đi vòng quanh; xoay quanh; quay quanh",
+    "reading": "めぐる",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8b18fc07dc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ブラン",
+    "meaning_vi": "",
+    "reading": "ぶらん",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2cc0ba3e22"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "思い立つ",
+    "meaning_vi": "nghĩ đến; nảy ra",
+    "reading": "おもいたつ",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5bcbb662b6"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-013"
+}

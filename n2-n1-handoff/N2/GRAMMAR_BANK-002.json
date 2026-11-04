@@ -1,0 +1,277 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "物価は上がる一方だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Ngày càng — Xu hướng chỉ tiến về một phía, thường là xấu đi.",
+    "pattern": "一方(いっぽう)だ",
+    "pattern_variants": [
+     "V từ điển + 一方だ"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-02b110a23d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "事故から一週間がたち、原因などが明らかになりつつある。",
+      "vi": "Một tuần đã trôi qua kể từ vụ tai nạn, các nguyên nhân đang dần được làm rõ."
+     },
+     {
+      "ja": "最近、車に興味のない若者が増えつつある。",
+      "vi": "Gần đây, ngày càng có nhiều bạn trẻ không quan tâm đến ô tô."
+     }
+    ],
+    "meaning_vi": "Đang dần…; đang trong quá trình biến đổi… (văn viết)",
+    "pattern": "〜つつある",
+    "pattern_variants": [
+     "つつある",
+     "V thể ます (bỏ ます) + つつある"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f139f0f53e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "結果を気にしつつ、待っている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vừa vừa, tuy nhưng — Hai hành động đồng thời, hoặc nghĩa nhượng bộ.",
+    "pattern": "つつ",
+    "pattern_variants": [
+     "V thể ます (bỏ ます) + つつ"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-adea88bcc1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜てしょうがない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a5726f37e1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "謝るにしても、もう少しちゃんと謝るべきだ。",
+      "vi": "Dù là xin lỗi đi nữa thì nên xin lỗi đàng hoàng hơn một chút。"
+     },
+     {
+      "ja": "忙しいにしても、次席の連絡をしてこないのはよくない。",
+      "vi": "Dù bận, nhưng không liên lạc với cấp phó là không tốt。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜にしても",
+    "pattern_variants": [
+     "Thể thường / N + にしても"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-6111c4dcc9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "父は50歳にしては若く見える。",
+      "vi": "Dù bố 50 tuổi những trông vẫn trẻ."
+     },
+     {
+      "ja": "「彼女、バレーボールの選手なんだって」「それにしては背が低いね」",
+      "vi": "“Cô ấy là tuyển thủ bóng chuyền đấy hả!” “Như thế thì thấp nhỉ”"
+     }
+    ],
+    "meaning_vi": "Dù (khác nhiều so với tưởng tượng )",
+    "pattern": "〜にしては",
+    "pattern_variants": [
+     "Thể thường / N + にしては"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-dda7948a72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私が遅刻をしたばかりに皆に迷惑をかけてしまった。",
+      "vi": "Chỉ vì tôi đến muộn mà làm phiền mọi người."
+     },
+     {
+      "ja": "彼の一言を信じたばかりにひどい目にあった。",
+      "vi": "Chỉ vì một lần tin lời anh ta thôi mà tôi đã gặp rắc rối."
+     }
+    ],
+    "meaning_vi": "Chỉ vì",
+    "pattern": "〜ばかりに",
+    "pattern_variants": [
+     "Thể thường + ばかりに"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ff63b13f6c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "〈父が息子に〉今日はお母さんもマキもいないことだし、夕飯は二人で外に食べに行こうか。",
+      "vi": "〈Bố nói với con〉 Hôm nay mẹ và Maki đều không có ở nhà, nên tối nay hai người mình đi ăn ngoài nhé。"
+     },
+     {
+      "ja": "A: どうしよう、レポートが間に合わない。体調もよくないことだし、明日、バイトを休ませてもらおうかなあ。",
+      "vi": "A: Chả biết làm sao, báo cáo không kịp。Lại còn sức khỏe không tốt nữa, mai mình định xin nghỉ làm thêm xem sao。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜ことだし",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e39bbbe15e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "親になってはじめて、親の気持ちが分かった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Sau khi mới — Chỉ sau khi trải qua việc đó mới nhận ra hoặc làm được điều kia.",
+    "pattern": "〜て初(はじ)めて",
+    "pattern_variants": [
+     "V-て + はじめて"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-908254002b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「家族と相談た上でご返事いたします」",
+      "vi": "Sau khi bàn bạc với gia đình, tôi sẽ trả lời."
+     },
+     {
+      "ja": "実物を見た上で、買うかどうか決めるつもりだ。",
+      "vi": "Sau khi nhìn thấy tận mắt tôi mới quyết định có mua hay không."
+     }
+    ],
+    "meaning_vi": "Theo, với điều kiện dựa trên",
+    "pattern": "上(うえ)で",
+    "pattern_variants": [
+     "〜上で",
+     "〜の上で"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b68ace6869"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-002"
+}

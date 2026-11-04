@@ -1,0 +1,744 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "利子",
+    "meaning_vi": "tiền lãi; lợi nhuận; tiền lãi của khoản vay",
+    "reading": "りし",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8cfd0709d6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "収益",
+    "meaning_vi": "lợi nhuận thu được; thu nhập nhận được; lợi nhuận từ hoạt động",
+    "reading": "しゅうえき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a4e144fe4c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "方式",
+    "meaning_vi": "phương thức; cách làm; hệ thống",
+    "reading": "ほうしき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-26573874e3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "申告",
+    "meaning_vi": "khai báo; tự khai báo thông tin",
+    "reading": "しんこく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f2896615aa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "高等教育",
+    "meaning_vi": "giáo dục cao đẳng; giáo dục đại học",
+    "reading": "こうとうきょういく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-feb4429e8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "男女とも、「誠実な人と結婚したい」と言う若者が多い。",
+      "vi": "Cả nam lẫn nữ, nhiều bạn trẻ nói “muốn kết hôn với người chân thành”."
+     },
+     {
+      "ja": "誠実な人柄",
+      "vi": "Nhân cách chân thành."
+     }
+    ],
+    "expression": "誠実な",
+    "meaning_vi": "thành thực; thật thà; chân thành",
+    "reading": "せいじつな",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-92de2ed818"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本チームは実力を発揮して優勝した。",
+      "vi": "Đội tuyển Nhật Bản đã phát huy thực lực và giành chức vô địch."
+     },
+     {
+      "ja": "新社長は指導力を発揮して会社を立て直した。",
+      "vi": "Tân giám đốc đã phát huy năng lực lãnh đạo để vực dậy công ty."
+     }
+    ],
+    "expression": "発揮",
+    "meaning_vi": "phát huy; gắng sức",
+    "reading": "はっき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-36e6f57f89"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "部署",
+    "meaning_vi": "bộ phận; phòng ban",
+    "reading": "ぶしょ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0e02c4bb1f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "再〜",
+    "meaning_vi": "lại; tái; lại (tiền tố)",
+    "reading": "さい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-361da52d9e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "普遍",
+    "meaning_vi": "phổ quát; phổ quát không giới hạn nơi hay thời",
+    "reading": "ふへん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-93b2d8eaa1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "進展",
+    "meaning_vi": "tiến triển; công việc hoặc tình hình có bước tiến",
+    "reading": "しんてん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7139885c84"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "区域",
+    "meaning_vi": "khu vực; địa hạt; khu vực được phân định",
+    "reading": "くいき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-453a97f2e3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ジャンル",
+    "meaning_vi": "thể loại",
+    "reading": "ジャンル",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a00d21d2fc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "〜員",
+    "meaning_vi": "thành viên hoặc nhân viên; thành viên; nhân viên",
+    "reading": "いん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4051b2a177"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "到達",
+    "meaning_vi": "đạt tới; tới nơi; đạt mốc",
+    "reading": "とうたつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-15f52fa82e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "予備の電池を買っておいた。",
+      "vi": "Tôi đã mua sẵn pin dự phòng."
+     }
+    ],
+    "expression": "予備",
+    "meaning_vi": "dự bị; dự trữ",
+    "reading": "よび",
+    "topic_vi": "Kế hoạch du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-676d7c0574"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "洪水、山火事、農作物の不作と、村に災難が続いた。",
+      "vi": "Lũ lụt, cháy rừng, mất mùa liên tiếp giáng xuống ngôi làng."
+     },
+     {
+      "ja": "「車を電信柱にぶつけて、修理代を40万も取られたよ」「それは災難だったね」",
+      "vi": "“Xe đâm vào cột điện, mất tới 400.000 yên tiền sửa.” “Đúng là tai họa.”"
+     }
+    ],
+    "expression": "災難",
+    "meaning_vi": "tai hoạ; vận rủi; thiên tai",
+    "reading": "さいなん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f1459a4231"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "毎週日曜日に、この公園でフリーマーケットが開かれる。",
+      "vi": "Mỗi chủ nhật hàng tuần, chợ trời được tổ chức tại công viên này."
+     },
+     {
+      "ja": "家で使わなくなった品を、フリーマーケットに出して売った。",
+      "vi": "Tôi mang những món đồ không còn dùng đến ở nhà ra chợ trời để bán."
+     }
+    ],
+    "expression": "フリーマーケット",
+    "meaning_vi": "chợ trời; hội chợ",
+    "reading": "フリーマーケット",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ef4ec0871e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女とロマンチックな映画を見た後は、とても良いムードになった。",
+      "vi": "Sau khi xem một bộ phim lãng mạn với cô ấy, tâm trạng tuyệt hơn nhiều."
+     }
+    ],
+    "expression": "ムード",
+    "meaning_vi": "bầu không khí; tâm trạng chung",
+    "reading": "ムード",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e2fb730b32"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "しくじる",
+    "meaning_vi": "thất bại; hỏng việc; làm hỏng do sơ suất",
+    "reading": "しくじる",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3c756f34b7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この植物は、西日本に広く分布している。",
+      "vi": "Loài thực vật này phân bố rộng ở miền Tây Nhật Bản."
+     },
+     {
+      "ja": "この国の人口の分布は南に片寄っている。",
+      "vi": "Dân số nước này phân bố lệch về phía Nam."
+     }
+    ],
+    "expression": "分布",
+    "meaning_vi": "sự phân bố; phân bố",
+    "reading": "ぶんぷ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3600419dbc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "気が散る",
+    "meaning_vi": "bị phân tâm; không tập trung; mất tập trung",
+    "reading": "きがちる",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-50531fa9ab"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "目を通す",
+    "meaning_vi": "xem qua; đọc lướt",
+    "reading": "めをとおす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a0f184cf17"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "肩を並べる",
+    "meaning_vi": "sánh ngang; sánh vai",
+    "reading": "かたをならべる",
+    "topic_vi": "Thành ngữ: Thân thể",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b0499bf56a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "身を引く",
+    "meaning_vi": "rút lui; nhường vị trí",
+    "reading": "みをひく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-afa27425bb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "頭が上がらない",
+    "meaning_vi": "không dám lên mặt; mang ơn; không dám tỏ vẻ hơn",
+    "reading": "あたまがあがらない",
+    "topic_vi": "Thành ngữ: Thân thể",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d1d4dd64d2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "頭に来る",
+    "meaning_vi": "nổi giận",
+    "reading": "あたまにくる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-44e8097809"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "頭を下げる",
+    "meaning_vi": "cúi đầu; xin lỗi",
+    "reading": "あたまをさげる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-79d24fb8a1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "首を長くする",
+    "meaning_vi": "mong ngóng chờ đợi; mong ngóng",
+    "reading": "くびをながくする",
+    "topic_vi": "Thành ngữ: Thân thể",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7119b609ea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "けれど",
+    "meaning_vi": "nhưng; tuy nhiên; nhưng mà",
+    "reading": "けれど",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-76d46ead05"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今度の衆議院選挙では、あの元大臣も当選が危ういそうだ。",
+      "vi": "Trong cuộc bầu cử Hạ viện lần này, vị cựu Bộ trưởng đó dường như có nguy cơ thất bại."
+     },
+     {
+      "ja": "線路に落ちそうになったが、駅員に危ういところを助けてもらった。",
+      "vi": "Tôi suýt ngã vào đường ray nhưng nhân viên nhà ga đã cứu tôi thoát chết."
+     },
+     {
+      "ja": "道路が渋滞し、危うく飛行機に乗り遅れるところだった。",
+      "vi": "Đường kẹt xe và tôi có nguy cơ bị lỡ chuyến bay."
+     }
+    ],
+    "expression": "危うい",
+    "meaning_vi": "nguy hiểm; suýt nữa; suýt",
+    "reading": "あやうい",
+    "topic_vi": "Quan hệ quốc tế",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-80f7ca4abb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "御手洗",
+    "meaning_vi": "nhà vệ sinh",
+    "reading": "おてあらい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7f068b4f20"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "（書類など）「ファックス番号はこの欄の中に書いてください。なければ空欄にしておいてください。」",
+      "vi": "(Giấy tờ...) “Vui lòng ghi số fax vào ô này. Nếu không có thì để trống.”"
+     },
+     {
+      "ja": "新聞の投書欄に私の投書が載った。",
+      "vi": "Bài viết của tôi đã được đăng trên mục bạn đọc của báo."
+     },
+     {
+      "ja": "（新聞・雑誌など） ｛社会 ／ 番組 ／ テレビ ／料理．．．｝欄",
+      "vi": "Mục (xã hội / chương trình / truyền hình / ẩm thực...) trên báo, tạp chí"
+     }
+    ],
+    "expression": "欄",
+    "meaning_vi": "cột; mục (trong biểu mẫu); mục (trong bảng",
+    "reading": "らん",
+    "topic_vi": "Tìm việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-96e55109fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "夜空に無数の星が輝いている。",
+      "vi": "Vô số ngôi sao tỏa sáng trên bầu trời đêm."
+     },
+     {
+      "ja": "地球上では、体に感じない地震が無数に起きているという。",
+      "vi": "Nghe nói có vô số trận động đất xảy ra trên trái đất mà cơ thể không cảm nhận được."
+     }
+    ],
+    "expression": "無数",
+    "meaning_vi": "vô số; vô kể",
+    "reading": "むすう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a9c9366ade"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "暗いところで突然大声を出して、友達を脅かした。",
+      "vi": "Trong chỗ tối bỗng hét to để hù bạn."
+     },
+     {
+      "ja": "「今日、試験だよ」「えっ？」「うそだよ」「なんだ、脅かさないでよ」",
+      "vi": "“Hôm nay có kiểm tra đấy.” “Hả?” “Đùa thôi.” “Trời, đừng hù vậy chứ!”"
+     },
+     {
+      "ja": "ひどい不況が庶民の生活を脅かした。",
+      "vi": "Cuộc khủng hoảng kinh tế nghiêm trọng đe dọa cuộc sống của người dân."
+     }
+    ],
+    "expression": "脅かす",
+    "meaning_vi": "hù dọa; đe dọa",
+    "reading": "おびやかす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-63813c3fb7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "鼻が高い",
+    "meaning_vi": "hãnh diện; tự hào",
+    "reading": "はながたかい",
+    "topic_vi": "Thành ngữ: Khuôn mặt",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-aef8da28c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "内戦中のこの国は生活物資がひどく欠乏している。",
+      "vi": "Đang nội chiến nên nước này thiếu thốn hàng thiết yếu nghiêm trọng."
+     },
+     {
+      "ja": "津波の被害地に救援物資を送る。",
+      "vi": "Gửi vật tư cứu trợ đến vùng bị thiệt hại do sóng thần."
+     },
+     {
+      "ja": "経済が発展しているこの国は、物資が豊かだ。",
+      "vi": "Ở nước có kinh tế phát triển, hàng hóa/vật tư rất dồi dào."
+     }
+    ],
+    "expression": "物資",
+    "meaning_vi": "vật tư",
+    "reading": "ぶっし",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ddc29258d6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うちへ帰ると、疲れてぐったりとベッドに横になった。",
+      "vi": "Khi về đến nhà, tôi mệt lả người nên ngả lưng trên giường luôn."
+     },
+     {
+      "ja": "水不足で植物がぐったりしている。",
+      "vi": "Do thiếu nước nên thực vật trở nên yếu ớt."
+     }
+    ],
+    "expression": "ぐったり",
+    "meaning_vi": "mệt lử; mệt mỏi; rã rời",
+    "reading": "ぐったり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-051fd654e7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "わくわく",
+    "meaning_vi": "háo hức",
+    "reading": "わくわく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d1162585cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "大きな工場ができ、それに付属して保育園も作られた。",
+      "vi": "Có một nhà máy lớn được xây, và kèm theo đó cũng xây luôn nhà trẻ."
+     },
+     {
+      "ja": "◯◯大学付属高等学校",
+      "vi": "Trường THPT trực thuộc Đại học ○○."
+     }
+    ],
+    "expression": "付属",
+    "meaning_vi": "trực thuộc; đi kèm; phụ thuộc",
+    "reading": "ふぞく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-64e2b3fe58"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-035"
+}

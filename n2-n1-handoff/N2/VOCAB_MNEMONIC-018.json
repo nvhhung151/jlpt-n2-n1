@@ -1,0 +1,869 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "けがの手当てをする。",
+      "vi": "Sơ cứu/điều trị vết thương."
+     },
+     {
+      "ja": "店を作る資金の手当てはできた。",
+      "vi": "Tôi đã lo/xoay được nguồn vốn để mở cửa hàng."
+     },
+     {
+      "ja": "原材料を手当てする。",
+      "vi": "Lo/thu xếp nguyên vật liệu."
+     }
+    ],
+    "expression": "手当て",
+    "meaning_vi": "trị liệu; phụ cấp; sơ cứu",
+    "reading": "てあて",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2b98881b18"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "行方不明になった娘を両親は手を尽くして探した。",
+      "vi": "Cha mẹ dốc sức tìm kiếm người con gái mất tích."
+     },
+     {
+      "ja": "「最善を尽くします。」",
+      "vi": "\"Tôi sẽ cố gắng tốt nhất có thể.\""
+     },
+     {
+      "ja": "一代で代金持ちになった大富豪は、ぜいたくの限りを尽くした豪邸を建てた。",
+      "vi": "Tên nhà giàu một bước mà trở nên giàu sang đã xây dinh thự xa hoa hết mức có thể."
+     }
+    ],
+    "expression": "尽くす",
+    "meaning_vi": "dốc hết sức; tận tuỵ; cống hiến",
+    "reading": "つくす",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-95a1d9bf0e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "薬品",
+    "meaning_vi": "dược phẩm; hoá chất",
+    "reading": "やくひん",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d03de90f6e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "薬の副作用で胃が悪くなった。",
+      "vi": "Tác dụng phụ của thuốc khiến dạ dày khó chịu."
+     },
+     {
+      "ja": "放射能は人体にどのような作用を及ぼすのだろうか。",
+      "vi": "Phóng xạ ảnh hưởng như thế nào đến cơ thể người nhỉ?"
+     },
+     {
+      "ja": "この薬は神経に作用して痛みを和らげる。",
+      "vi": "Thuốc này tác động lên thần kinh giúp giảm đau."
+     }
+    ],
+    "expression": "作用＜する＞",
+    "meaning_vi": "tác động; tác dụng; ảnh hưởng",
+    "reading": "さよう＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-46cc287918"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "尿や血液検査の結果は、健康状態を知る目安になる。",
+      "vi": "Kết quả xét nghiệm nước tiểu và máu là tiêu chuẩn để nhận biết tình trạng sức khỏe."
+     },
+     {
+      "ja": "毎日１万歩を目安にあるくようにしている。",
+      "vi": "Tôi cố gắng đi bộ với mục tiêu mười nghìn bước mỗi ngày."
+     }
+    ],
+    "expression": "目安",
+    "meaning_vi": "mốc tham khảo; mục tiêu; mục đích",
+    "reading": "めやす",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-160bc62e69"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "余計[に]",
+    "meaning_vi": "",
+    "reading": "よけい[に]",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bf8669872c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "荷物は軽い方がいいから、余計なものは入れないようにしている。",
+      "vi": "Vì hành lý nên càng nhẹ càng tốt, tôi cố gắng không nhét những thứ không cần thiết."
+     },
+     {
+      "ja": "弁当を一人分余計に注文してしまった。",
+      "vi": "Tôi lỡ đặt thừa một suất cơm hộp."
+     },
+     {
+      "ja": "親に余計な心配はかけたくない。",
+      "vi": "Tôi không muốn làm bố mẹ phải lo lắng thêm."
+     }
+    ],
+    "expression": "余計な",
+    "meaning_vi": "không cần thiết; dư thừa; vượt quá",
+    "reading": "よけいな",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-49985dbde0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "母が肩が凝ったというので、もんであげた。",
+      "vi": "Mẹ nói vai bị đau mỏi nên tôi đã mát xa cho mẹ."
+     },
+     {
+      "ja": "きゅうりを塩でもむ。",
+      "vi": "Bóp dưa chuột bằng muối."
+     },
+     {
+      "ja": "毎日人込みにもまれて通勤している。",
+      "vi": "Mỗi ngày, tôi đi làm và bị mọi người chèn ép."
+     }
+    ],
+    "expression": "揉む",
+    "meaning_vi": "xoa bóp; vò; xoa",
+    "reading": "もむ",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-40ad005ef4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は長年付き合った恋人に別れを告げた。",
+      "vi": "Cô ấy thông báo đã chia tay người yêu hẹn hò lâu năm."
+     },
+     {
+      "ja": "機長は、乗客にエンジン不調のため羽田に引き返すと告げた。",
+      "vi": "Cơ trưởng thông báo cho các hành khách rằng máy bay sẽ quay trở lại sân bay Haneda do không đủ nguyên liệu."
+     },
+     {
+      "ja": "辞任の意を告げる。",
+      "vi": "Thông báo ý định từ nhiệm."
+     }
+    ],
+    "expression": "告げる",
+    "meaning_vi": "báo cho biết; báo cáo; thông cáo",
+    "reading": "つげる",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4d17f8d429"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "看病＜する＞",
+    "meaning_vi": "chăm sóc người bệnh",
+    "reading": "かんびょう＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-add6d784c0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "歩きながらタバコを吸うのは、周りの人への配慮に欠けた行為だ。",
+      "vi": "Vừa đi bộ vừa hút thuốc là hành vi thiếu sự quan tâm đến những người xung quanh."
+     },
+     {
+      "ja": "精神的に弱っている彼女に「もっとがんばれ」と言ったのは、配慮が足りなかった。",
+      "vi": "Nói \"hãy cố gắng hơn nữa\" với một người yếu về tinh thần như cô ấy thì không đủ sự quan tâm."
+     },
+     {
+      "ja": "最近の冷蔵庫は、地球環境に配慮してフロンガス不使用のものが多い。",
+      "vi": "Những tủ lạnh gần đây có nhiều loại thân thiện với môi trường và không sử dụng chất CFC."
+     }
+    ],
+    "expression": "配慮＜する＞",
+    "meaning_vi": "sự lưu tâm; sự quan tâm; sự chăm sóc",
+    "reading": "はいりょ＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-dc30798ae7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私の左利きは親からの遺伝だ。",
+      "vi": "Tôi thuận tay trái là sự di truyền từ bố mẹ."
+     }
+    ],
+    "expression": "遺伝＜する＞",
+    "meaning_vi": "di truyền",
+    "reading": "いでん＜する＞",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-74bb851874"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "骨折で入院し、退院後もしばらくリハビリのため病院に通った。",
+      "vi": "Bị gãy xương phải nhập viện; sau khi xuất viện vẫn phải đi bệnh viện một thời gian để phục hồi chức năng."
+     }
+    ],
+    "expression": "リハビリ",
+    "meaning_vi": "điều trị phục hồi",
+    "reading": "りはびり",
+    "topic_vi": "Bệnh và điều trị",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ae931092b3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "週末に庭の手入れをするのが趣味です。",
+      "vi": "Sở thích của tôi là chăm sóc khu vườn vào cuối tuần."
+     }
+    ],
+    "expression": "手入れ＜する＞",
+    "meaning_vi": "bảo dưỡng; chăm chút",
+    "reading": "ていれ＜する＞",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-77484c1cab"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ケア＜する＞",
+    "meaning_vi": "",
+    "reading": "けあ＜する＞",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a4d76c0362"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "かさかさ＜な/する＞",
+    "meaning_vi": "",
+    "reading": "かさかさ＜な/する＞",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0e5b57f3ad"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "真っ青な空を背景に、富士山がくっきり見える。",
+      "vi": "Có thể nhìn thấy núi Phú Sĩ rõ ràng trên bầu trời trong xanh."
+     },
+     {
+      "ja": "（化粧で）眉をくっきりとかく。",
+      "vi": "(Trong trang điểm) Vẽ lông mày sắc nét."
+     },
+     {
+      "ja": "背中に日焼のあとがくっきり残っている。",
+      "vi": "Trên lưng vẫn còn hằn rõ vết cháy nắng."
+     }
+    ],
+    "expression": "くっきり＜する＞",
+    "meaning_vi": "rõ nét; sắc nét; rõ ràng",
+    "reading": "くっきり＜する＞",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d4798d9ed8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "｛家具／廊下／漆器．．．｝を磨いて艶を出す。",
+      "vi": "Mài (dụng cụ gia đình/ nền nhà/ sơn mài…) xong bóng láng."
+     },
+     {
+      "ja": "艶のある紙",
+      "vi": "Giấy dán bóng"
+     },
+     {
+      "ja": "祖母は８０歳だが、艶のある肌をしている。",
+      "vi": "Bà tôi đã 80 tuổi rồi, nhưng da vẫn bóng sáng."
+     }
+    ],
+    "expression": "艶",
+    "meaning_vi": "độ bóng; vẻ óng ả; vẻ quyến rũ",
+    "reading": "つや",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-10394a5b85"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "脂肪",
+    "meaning_vi": "mỡ; chất béo",
+    "reading": "しぼう",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d7d8be72ec"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "肥満＜する＞",
+    "meaning_vi": "béo phì",
+    "reading": "ひまん＜する＞",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b7bad86463"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "山で天候の急激な変化に気を付けなければならない。",
+      "vi": "Khi ở trên núi, cần cẩn thận với sự thay đổi thời tiết đột ngột."
+     },
+     {
+      "ja": "株価が急激に上昇した。",
+      "vi": "Giá cổ phiếu tăng vọt."
+     }
+    ],
+    "expression": "急激な",
+    "meaning_vi": "đột nhiên",
+    "reading": "きゅうげきな",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b23fef7e9f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一向に（〜ない）",
+    "meaning_vi": "",
+    "reading": "いっこうに（〜ない）",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e527113e13"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この記事が本当かどうかは疑わしい。",
+      "vi": "Tôi nghi ngờ tính xác thực của bài báo này."
+     },
+     {
+      "ja": "容疑者の中で最も疑わしいのはAだ。",
+      "vi": "Trong số nghi phạm, ông A là người khả nghi nhất."
+     },
+     {
+      "ja": "この実験の成功は疑わしい。",
+      "vi": "Khả năng thành công của thí nghiệm này còn đáng nghi ngờ."
+     }
+    ],
+    "expression": "疑わしい",
+    "meaning_vi": "nghi ngờ",
+    "reading": "うたがわしい",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e9806e6a38"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女はダンスをやっているので、いつも姿勢がいい。",
+      "vi": "Vì chơi nhảy múa nên cô ấy luôn có tư thế rất đẹp."
+     },
+     {
+      "ja": "首相は外交に｛積極的な/意欲的な/前向きの…｝姿勢を取っている。",
+      "vi": "Thủ tướng thể hiện lập trường tích cực / chủ động / cầu tiến trong ngoại giao."
+     },
+     {
+      "ja": "社員の抗議に経営側は強い姿勢でのぞんだ。",
+      "vi": "Ban lãnh đạo đã đối mặt với sự phản đối của nhân viên bằng thái độ cứng rắn."
+     }
+    ],
+    "expression": "姿勢",
+    "meaning_vi": "tư thế; thái độ; điệu bộ",
+    "reading": "しせい",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-39ad303d88"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "（医者に）かかる",
+    "meaning_vi": "",
+    "reading": "（いしゃに）かかる",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5d1d6ae5ca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "依存＜する＞",
+    "meaning_vi": "",
+    "reading": "いぞん＜する＞",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-601f6a52ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "全身を映せる鏡が欲しい。",
+      "vi": "Tôi muốn một chiếc gương soi được toàn thân."
+     },
+     {
+      "ja": "富士山が湖に姿を映している。",
+      "vi": "Núi Phú Sĩ phản chiếu hình dáng xuống mặt hồ."
+     },
+     {
+      "ja": "スクリーンに映画を映す。",
+      "vi": "Chiếu phim lên màn hình."
+     }
+    ],
+    "expression": "映す",
+    "meaning_vi": "chiếu lên; phản chiếu; chiếu",
+    "reading": "うつす",
+    "topic_vi": "Làm đẹp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-61a7b34e4b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "続出＜する＞",
+    "meaning_vi": "liên tục xuất hiện; xảy ra",
+    "reading": "ぞくしゅつ＜する＞",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1b758375a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "国会は与党と野党の対立が激しくなった。",
+      "vi": "Ở quốc hội, đối lập giữa đảng cầm quyền và đảng đối lập trở nên gay gắt."
+     },
+     {
+      "ja": "親の残した財産をめぐって、兄と弟が対立している。",
+      "vi": "Hai anh em đối đầu vì tài sản cha mẹ để lại."
+     }
+    ],
+    "expression": "対立＜する＞",
+    "meaning_vi": "đối lập; xung đột",
+    "reading": "たいりつ＜する＞",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2726fb202a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会社側は組合の要求を拒否した。",
+      "vi": "Phía công ty đã từ chối yêu cầu từ công đoàn."
+     },
+     {
+      "ja": "国連の常任理事国は拒否を持つ。",
+      "vi": "Các quốc gia thành viên thường trực của LHQ có quyền phủ quyết."
+     },
+     {
+      "ja": "国民の多くは増税に拒否反応を示した。",
+      "vi": "Nhiều người dân phản ứng tiêu cực trước việc tăng thuế."
+     }
+    ],
+    "expression": "拒否＜する＞",
+    "meaning_vi": "từ chối; khước từ",
+    "reading": "きょひ＜する＞",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a919b7f0d0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "将来は子供の教育にかかわる仕事がしたい。",
+      "vi": "Tương lai tôi muốn làm công việc liên quan đến giáo dục trẻ em."
+     },
+     {
+      "ja": "もうあの人とは関わりたくない。",
+      "vi": "Tôi không muốn dính dáng đến người đó nữa."
+     },
+     {
+      "ja": "検査の結果命に関わる病気ではないことが分かった。",
+      "vi": "Kết quả kiểm tra cho thấy đó không phải bệnh nguy hiểm đến tính mạng."
+     }
+    ],
+    "expression": "関わる",
+    "meaning_vi": "liên quan; có dính líu",
+    "reading": "かかわる",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-36e1c65d83"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "カエルは地面から大きく跳ねて、草の中へ消えた。",
+      "vi": "Con ếch nhảy mạnh rồi biến mất vào bụi cỏ."
+     },
+     {
+      "ja": "てんぷらを作っていたら、油がはねて、やけどをしてしまった。",
+      "vi": "Đang làm tempura thì dầu bắn lên làm tôi bị bỏng."
+     },
+     {
+      "ja": "弟は車にはねられて大けがをした。",
+      "vi": "Em trai tôi bị xe tông và bị thương nặng."
+     }
+    ],
+    "expression": "跳ねる",
+    "meaning_vi": "văng; bắn; nhảy",
+    "reading": "はねる",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-266f09ae68"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "乱暴＜な/する＞",
+    "meaning_vi": "thô bạo; ẩu; cẩu thả",
+    "reading": "らんぼう＜な/する＞",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-228ed22868"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "暴力",
+    "meaning_vi": "bạo lực",
+    "reading": "ぼうりょく",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e1213a904f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "脅かす",
+    "meaning_vi": "dọa dẫm; dọa; đe dọa",
+    "reading": "おどかす",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0b86babf08"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "進入＜する＞",
+    "meaning_vi": "đi vào; xâm nhập",
+    "reading": "しんにゅう＜する＞",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c4a48076d5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "見知らぬ",
+    "meaning_vi": "không quen biết; lạ",
+    "reading": "みしらぬ",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-58f0376d0f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "マラソンの世界記録はだんだん縮まっている。",
+      "vi": "Kỷ lục marathon thế giới đang dần được rút ngắn."
+     },
+     {
+      "ja": "トップとの差が縮まっている。",
+      "vi": "Khoảng cách với người top đầu đang thu hẹp."
+     }
+    ],
+    "expression": "縮まる",
+    "meaning_vi": "co ngắn lại; được làm ngắn; ngắn lại",
+    "reading": "ちぢまる",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-cf5a5ea277"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "無理やり",
+    "meaning_vi": "một cách cưỡng ép; bất chấp ý muốn; làm quá sức",
+    "reading": "むりやり",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-94cc6bdffd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "＜選挙で＞開票が始まって1時間ほどで、新市長が確定した。",
+      "vi": "(Trong bầu cử) Khoảng 1 tiếng sau khi bắt đầu kiểm phiếu, kết quả thị trưởng mới đã được xác định."
+     },
+     {
+      "ja": "刑が確定する。",
+      "vi": "Bản án được quyết định / xác định hình phạt"
+     },
+     {
+      "ja": "新しい方針を確定する。",
+      "vi": "Xác định chính sách mới"
+     }
+    ],
+    "expression": "確定＜する＞",
+    "meaning_vi": "xác định; chốt lại; quyết định",
+    "reading": "かくてい＜する＞",
+    "topic_vi": "Rắc rối, sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a3dc162a76"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N2",
+ "packet_id": "VOCAB_MNEMONIC-018"
+}

@@ -1,0 +1,187 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「この件の説明は以上です。なお、詳細についてはプリントをご覧ください。」",
+      "vi": "Giải thích vụ này coi như xong. Ngoài ra, về chi tiết xin hãy xem bản in."
+     },
+     {
+      "ja": "「今日はこれで終わります。なお次回の日時は・・・」",
+      "vi": "Hôm nay kết thúc ở đây. Ngoài ra, ngày giờ lần tới là…"
+     }
+    ],
+    "meaning_vi": "Ngoài ra ～",
+    "pattern": "〜以上です。なお詳細は・・・",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-988a750c56"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「これで授業を終わります。さて来週の予定ですが・・・」",
+      "vi": "Buổi học kết thúc ở đây. Và bây là về lịch tuần tới …"
+     },
+     {
+      "ja": "「以上、今日のニュースをお伝えしました。さて次に天気予報です。」",
+      "vi": "Phần truyền đạt tin tức hôm nay kết thúc. Và bây giờ là dự báo thời tiết."
+     }
+    ],
+    "meaning_vi": "Và bây giờ là ～",
+    "pattern": "〜終わります。さて来週は・・・",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1626cbf6ba"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "薬を塗った。すると痛みが治まった。",
+      "vi": "Đã bôi thuốc. Lập tức hết đau."
+     },
+     {
+      "ja": "窓を開けた。すると、蛾が入ってきた。",
+      "vi": "Đã ở cửa. Ngay lập tức bướm bay vào."
+     }
+    ],
+    "meaning_vi": "Ngay lập tức, thế là ～",
+    "pattern": "〜薬を塗った。すると痛みがた。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-34d7003451"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "検査の前夜から飲食禁止です。もっとも水は飲んでもかまいません。",
+      "vi": "Đêm trước hôm kiểm tra không được ăn uống. Nói thế nhưng mà uống nước thì không sao."
+     },
+     {
+      "ja": "全員が参加しなければなりません。もっとも病気の場合の別です。",
+      "vi": "Tất cả mọi người phải tham gia. Nói thế nhưng mà trường hợp bệnh tật là khác."
+     }
+    ],
+    "meaning_vi": "Nhưng mà ～",
+    "pattern": "〜飲食禁止。もっとも水はかまいません。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f8694f9d4f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最近は、ペットを飼う家が増えているようです。ちなみに、うちにも犬が１ 匹とネコが２ 匹います。",
+      "vi": "Gần đây trông có vẻ nhà nuôi động vật cảnh tăng lên. Tiện đây cũng nói luôn nhà tôi nuôi 1 con chó, 2 con mèo."
+     },
+     {
+      "ja": "燃えるゴミは月曜日と木曜日、燃えないゴミは金曜日に出してください。ちなみに資源ごみの収集日は第３水曜日です。",
+      "vi": "Rác cháy được đổ thứ 2 và thứ 5, rác không cháy được đổ thứ 6. Tiện đây cũng nói luôn ngày thu rác tài nguyên là ngày thứ 4 tuần thứ 3 của tháng."
+     }
+    ],
+    "meaning_vi": "Tiện đây",
+    "pattern": "〜一般に・・・。ちなみにうちにも・・・。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-6f866a8a5a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "試合に大負けした。要するに、相手のチームと力の差があったということだ。",
+      "vi": "Thi đấu thất bại nặng. Nói một cách ngắn gọn là có sự chênh lệch thực lực so với đối thủ."
+     },
+     {
+      "ja": "彼は一度も入賞しなかった。要するに、才能がなかったということだ。",
+      "vi": "Anh ấy chưa nhận thưởng một lần nào. Nói tóm lại là không có tài năng."
+     }
+    ],
+    "meaning_vi": "Nói một cách ngắn gọn, nói tóm lại là ～",
+    "pattern": "〜大敗した。要するに力の差があった。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-3624acdff4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は美人で頭がいい。しかも性格もいい。",
+      "vi": "Cô ấy vừa đẹp vừa thông thông minh. Hơn cả là tính cách tốt."
+     },
+     {
+      "ja": "先日泊まったホテルは、古くて高かった。しかもサービスが悪かったので、もう二度と行かない。",
+      "vi": "Khách sạn hôm trước ở lại vừa cũ vừa mắc. Hơn cả là dịch vụ kém quá nên nhất định là không đền lần thứ hai."
+     }
+    ],
+    "meaning_vi": "Hơn nữa, hơn cả",
+    "pattern": "〜美人だ。しかも性格もいい。",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-da70169d13"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本の夏は暑いし、おまけに湿気も多いです。",
+      "vi": "Mùa hè ở Nhật nóng, thêm vào đó lại còn không khí ẩm thấp nữa."
+     },
+     {
+      "ja": "あのそば屋は高いしまずい。おまけにサービスも悪い。",
+      "vi": "Tiệm mì đó vừa mắc vừa dở, thêm vào đó phục vụ kém nữa."
+     }
+    ],
+    "meaning_vi": "Thêm vào đó",
+    "pattern": "〜高いし、まずい。おまけにサービスも・・・",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-3f437aafe9"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N2",
+ "packet_id": "GRAMMAR_CORE-021"
+}

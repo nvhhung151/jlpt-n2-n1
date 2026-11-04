@@ -1,0 +1,254 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の才能は小学生のころから注目されていた。14歳で優勝したからといって驚くにはあたらない。",
+      "vi": "Tài năng của cậu ấy đã được chú ý từ hồi tiểu học. Vì vậy, việc cậu vô địch ở tuổi 14 cũng không có gì đáng ngạc nhiên."
+     },
+     {
+      "ja": "私の考えでは、彼女の行為は非難されるにはあたらないと思う。",
+      "vi": "Theo tôi, hành động của cô ấy không đáng bị chỉ trích."
+     }
+    ],
+    "meaning_vi": "Không đáng/không đến mức phải...; làm... là không thích hợp.",
+    "pattern": "には当(あ)たらない",
+    "pattern_variants": [
+     "〜にはあたらない"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b4e607e0e7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これが奇跡でなくてなんだろう。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nếu không phải là thì là gì — Khẳng định mạnh bằng câu hỏi tu từ, giọng văn chương.",
+    "pattern": "でなくてなんだろう",
+    "pattern_variants": [
+     "N + でなくてなんだろう"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-6f207ea31f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は信頼するに足る人物だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đủ để, xứng đáng — Có đủ giá trị hoặc phẩm chất để làm gì.",
+    "pattern": "に足(た)る",
+    "pattern_variants": [
+     "N / V từ điển + に足る",
+     "〜に足る"
+    ],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-efdade21ab"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "その光景は見るに堪えなかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không chịu nổi, vô cùng — Không thể chịu đựng được, hoặc cảm xúc dâng trào đến mức tột cùng.",
+    "pattern": "に堪(た)えない",
+    "pattern_variants": [
+     "N / V từ điển + に堪えない",
+     "〜にたえない"
+    ],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-75a72344bb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの日の暑さといったらなかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thì không gì bằng — Mức độ cao đến mức không diễn tả nổi.",
+    "pattern": "といっ + たらない",
+    "pattern_variants": [
+     "A / N + といったらない",
+     "〜といったらない"
+    ],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-995f2a671e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お会いできてうれしい限りです。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thật là vô cùng — Bày tỏ cảm xúc mạnh của chính người nói.",
+    "pattern": "(Adjective) + 限(かぎ)りだ",
+    "pattern_variants": [
+     "A / N + 限りだ"
+    ],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e767e7e344"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "極(きわ)まりない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c103e4096c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼が辞めるとは思わなかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thế mà lại, cái gọi là — Bày tỏ kinh ngạc, hoặc nêu định nghĩa.",
+    "pattern": "とは",
+    "pattern_variants": [
+     "N + とは"
+    ],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-faea0bfbce"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ご成功を願ってやみません。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không ngừng, tha thiết — Tình cảm mạnh mẽ kéo dài không dứt.",
+    "pattern": "〜て止(や)まない",
+    "pattern_variants": [
+     "V-て + やまない",
+     "〜てやまない"
+    ],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-05dee881b7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ずには措(お)かない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ec8bb98c0b"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-009"
+}

@@ -1,0 +1,610 @@
+{
+ "header": {
+  "instructions": "examples: 1–3 câu {ja, ja_furigana \"漢字(かんじ)\", vi}; chỉ dùng từ và ngữ pháp ≤ cấp; N5 dài 8–25 ký tự, N4 8–32, N3 ≤ 40, N2 ≤ 50, N1 ≤ 60; không tên riêng lạ; tự viết, không chép nguồn ngoài."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "燃やせないごみ",
+    "meaning_vi": "rác không cháy được",
+    "reading": "もやせないごみ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-c20937350c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "燃やせるごみ",
+    "meaning_vi": "rác cháy được",
+    "reading": "もやせるごみ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-6b76b3f3ca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "秘密がもれる",
+    "meaning_vi": "lộ bí mật",
+    "reading": "ひみつがもれる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-66a9707ef7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "秘密をもらす",
+    "meaning_vi": "làm lộ bí mật",
+    "reading": "ひみつをもらす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "động từ nhóm I"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-e9e09706d8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "買い換える",
+    "meaning_vi": "mua cái mới (thay cái cũ)",
+    "reading": "かいかえる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-2e7d48d0df"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "電気代を節約する",
+    "meaning_vi": "tiết kiệm chi phí điện",
+    "reading": "でんきだいをせつやくする",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "động từ nhóm III"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-76319d2b6e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "２ＬＤＫ",
+    "meaning_vi": "1 bedroom with living; dining and",
+    "reading": "２ＬＤＫ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-f1939e9d7e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "５階建て",
+    "meaning_vi": "5 tầng",
+    "reading": "５かいだて",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-2c2ecb0b69"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "エアコン付き",
+    "meaning_vi": "có điều hòa",
+    "reading": "エアコンつき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-0ceb679d76"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ペット不可",
+    "meaning_vi": "cấm nuôi thú cưng",
+    "reading": "ペットふか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-f07b6bd9c9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ユニットバス",
+    "meaning_vi": "phòng tắm liền",
+    "reading": "ユニットバス",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-9f572a4296"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "徒歩１０分",
+    "meaning_vi": "10 phút đi bộ",
+    "reading": "とほ１０ぶん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-c69090e849"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "最寄り",
+    "meaning_vi": "gần nhất",
+    "reading": "もより",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-1806e9086e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "物件",
+    "meaning_vi": "bất động sản",
+    "reading": "ぶっけん",
+    "topic_vi": "Chuyển nhà",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-bc859c4917"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "築１０年",
+    "meaning_vi": "xây 10 năm",
+    "reading": "ちく１０ねん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-7bdd5b93ed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "部屋を借りる",
+    "meaning_vi": "thuê phòng",
+    "reading": "へやをかりる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-e25dde332b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "防犯カメラ",
+    "meaning_vi": "camera an ninh",
+    "reading": "ぼうはんカメラ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-b26543d36f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "悪意",
+    "meaning_vi": "ác ý",
+    "reading": "あくい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-cd60b67334"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "テニスコート",
+    "meaning_vi": "sân tennis",
+    "reading": "テニスコート",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-1b385758c7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "全集",
+    "meaning_vi": "tuyển tập trọn bộ",
+    "reading": "ぜんしゅう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-854b35b7f2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "写生",
+    "meaning_vi": "vẽ ký hoạ từ thực tế",
+    "reading": "しゃせい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-cc1bead46e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "原始",
+    "meaning_vi": "nguyên thuỷ",
+    "reading": "げんし",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-099e0f7b77"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "噴水",
+    "meaning_vi": "đài phun nước",
+    "reading": "ふんすい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-b604ef93ea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "基盤",
+    "meaning_vi": "nền tảng",
+    "reading": "きばん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-e4fe51e846"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "広さ",
+    "meaning_vi": "diện tích; độ rộng",
+    "reading": "ひろさ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-62073881a8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "御覧",
+    "meaning_vi": "xin mời xem (kính ngữ)",
+    "reading": "ごらん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-1479146593"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "敷地",
+    "meaning_vi": "khuôn viên đất",
+    "reading": "しきち",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-9d8897af5d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "煉瓦",
+    "meaning_vi": "gạch",
+    "reading": "れんが",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-5996601ef9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "牧場",
+    "meaning_vi": "nông trại chăn nuôi",
+    "reading": "ぼくじょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-ff320b4f53"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "着々",
+    "meaning_vi": "đều đặn; vững chắc từng bước",
+    "reading": "ちゃくちゃく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-7b76291142"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "算盤",
+    "meaning_vi": "bàn tính",
+    "reading": "そろばん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-d8fe2b36d9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "緊張感",
+    "meaning_vi": "cảm giác căng thẳng",
+    "reading": "きんちょうかん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-926c63bccd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "送別",
+    "meaning_vi": "tiễn biệt",
+    "reading": "そうべつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-830b8bc604"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ゆっくりする",
+    "meaning_vi": "thoải mái nghỉ ngơi",
+    "reading": "ゆっくりする",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "động từ nhóm III"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-19a8a07077"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "半額セール",
+    "meaning_vi": "giảm nửa giá",
+    "reading": "はんがくセール",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-9931b461ff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "友人を家に招く",
+    "meaning_vi": "mời bạn đến nhà chơi",
+    "reading": "ゆうじんをいえにまねく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-3977860499"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "友人を家に招待する",
+    "meaning_vi": "mời bạn đến nhà chơi",
+    "reading": "ゆうじんをいえにしょうたいする",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-0849705914"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "家で過ごす",
+    "meaning_vi": "sống ở nhà",
+    "reading": "いえですごす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-c737ff5d12"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "寝心地がいいベッド",
+    "meaning_vi": "giường nằm thật thoải mái",
+    "reading": "ねごこちがいいベッド",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-d6713b80e0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "居心地がいい家",
+    "meaning_vi": "căn nhà thật thoải mái",
+    "reading": "いごこちがいいいえ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "examples"
+   ],
+   "id": "JV-19e88f91f6"
+  }
+ ],
+ "kind": "VOCAB_EXAMPLE",
+ "level": "N2",
+ "packet_id": "VOCAB_EXAMPLE-027"
+}

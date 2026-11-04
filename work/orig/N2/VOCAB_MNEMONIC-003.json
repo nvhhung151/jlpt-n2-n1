@@ -1,0 +1,710 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "馬鹿にする",
+    "meaning_vi": "coi thường; chế giễu; khinh thường",
+    "reading": "ばかにする",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c086b90914"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "嫌味（な）",
+    "meaning_vi": "mỉa mai",
+    "reading": "いやみ（な）",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bcda94c660"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "一生懸命描いた絵をけなされて、嫌になってしまった。",
+      "vi": "Bị chê bai bức tranh mà bản thân đã cố gắng hết sức để vẽ ra, tôi cảm thấy rất khó chịu."
+     }
+    ],
+    "expression": "貶す",
+    "meaning_vi": "chê bai; gièm pha; dèm pha",
+    "reading": "けなす",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-783d4099b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "その学生は注意されて、逆に先生をにらんだ。",
+      "vi": "Bị nhắc nhở, học sinh đó lại lườm thầy."
+     },
+     {
+      "ja": "いつも事件を起こす彼は、警察ににらまれている。",
+      "vi": "Anh ta hay gây chuyện nên đang bị cảnh sát để ý/“nhắm” tới."
+     }
+    ],
+    "expression": "睨む",
+    "meaning_vi": "trừng mắt nhìn; nhắm chừng; lườm",
+    "reading": "にらむ",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": "động từ nhóm I"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-32bc2ff388"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "行為",
+    "meaning_vi": "hành vi; hành động",
+    "reading": "こうい",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6894e366da"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "口論＜する＞",
+    "meaning_vi": "cãi nhau; khẩu chiến",
+    "reading": "こうろん＜する＞",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c6145677ca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「そんなに大声で怒鳴らなくても聞こえますよ」",
+      "vi": "Không cần hét to thế, tôi vẫn nghe được mà."
+     },
+     {
+      "ja": "父親に「出ていけ」と怒鳴られた。",
+      "vi": "Bố quát tôi: “Cút ra ngoài!”"
+     }
+    ],
+    "expression": "怒鳴る",
+    "meaning_vi": "quát tháo; hét lên; quát mắng",
+    "reading": "どなる",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-15fc512cbf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "貸し借り＜する＞",
+    "meaning_vi": "cho vay và vay mượn",
+    "reading": "かしかり＜する＞",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6dc4dbd16d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ばらす",
+    "meaning_vi": "tiết lộ; tháo rời ra; tiết lộ (bí mật)",
+    "reading": "ばらす",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b55daf6bba"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "気まずい",
+    "meaning_vi": "khó xử; ngại ngùng",
+    "reading": "きまずい",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ab8006598d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今さら慌てても、もう間に合わないだろう。",
+      "vi": "Đến bây giờ dù có vội vàng thì có lẽ cũng không kịp rồi."
+     },
+     {
+      "ja": "「今さら断られても困ります。」",
+      "vi": "\"Đến giờ dù có từ chối thì cũng khó khăn.\""
+     },
+     {
+      "ja": "省エネの大切さは、今さら言うまでもない。",
+      "vi": "Tầm quan trọng của tiết kiệm năng lượng không phải đến giờ mới nói."
+     }
+    ],
+    "expression": "今さら",
+    "meaning_vi": "giờ này (mà ~); bây giờ mới ~; đến giờ thì",
+    "reading": "いまさら",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e11a9ee14a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "せっかく美容院で結ってもらった髪が、雨で台無しになってしまった。",
+      "vi": "Mái tóc tôi đã mất công nối ở tiệm, vậy mà lại rối tung lên vì mưa."
+     },
+     {
+      "ja": "「君たちのけんかのせいで、パーティーが台無しだ。」",
+      "vi": "\"Do các bạn cãi nhau mà bữa tiệc thành mớ hỗn loạn.\""
+     }
+    ],
+    "expression": "台無し",
+    "meaning_vi": "hỏng bét; đổ sông đổ biển; hỏng hết",
+    "reading": "だいなし",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bc979fc00d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は今でも、私をいじめた同級生を恨んでいる。",
+      "vi": "Đến giờ tôi vẫn căm hận người bạn cùng lớp đã bắt nạt tôi."
+     }
+    ],
+    "expression": "恨む",
+    "meaning_vi": "oán hận; hận; căm ghét",
+    "reading": "うらむ",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-86c02f80c3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "入ってきた虫を追い出す。",
+      "vi": "Đuổi con côn trùng vừa bay vào ra ngoài."
+     }
+    ],
+    "expression": "追い出す",
+    "meaning_vi": "đuổi ra ngoài; đuổi đi; xua đi",
+    "reading": "おいだす",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": "động từ nhóm I"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-af270f8494"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "仲間外れ",
+    "meaning_vi": "",
+    "reading": "なかまはずれ",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-61e74a4f88"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "あいつ",
+    "meaning_vi": "",
+    "reading": "あいつ",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c3fd6c5610"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一人住まい",
+    "meaning_vi": "việc sống một mình; sống một mình",
+    "reading": "ひとりずまい",
+    "topic_vi": "Nơi ở",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b0a9214da4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "賃貸",
+    "meaning_vi": "cho thuê",
+    "reading": "ちんたい",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-80f1a66a14"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "敷金",
+    "meaning_vi": "tiền cọc; tiền đặt cọc (sau này hoàn trả lại)",
+    "reading": "しききん",
+    "topic_vi": "Nơi ở",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0775b1bef6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "吉田選手はレースのたびに日本記録を更新している。",
+      "vi": "Vận động viên Yoshida liên tục phá kỷ lục Nhật mỗi lần thi đấu."
+     },
+     {
+      "ja": "アパートの賃貸契約を更新する。",
+      "vi": "Gia hạn hợp đồng thuê nhà."
+     },
+     {
+      "ja": "{運転免許／ビザ／ブログ．．．｝の更新",
+      "vi": "Gia hạn (bằng lái xe / visa / blog…)"
+     }
+    ],
+    "expression": "更新＜する＞",
+    "meaning_vi": "cập nhật; gia hạn; đổi mới",
+    "reading": "こうしん＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-19cb009de4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一戸建て",
+    "meaning_vi": "nhà riêng; nhà biệt lập; nhà độc lập",
+    "reading": "いっこだて",
+    "topic_vi": "Nơi ở",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0ae12fa2c0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "マイホーム",
+    "meaning_vi": "nhà (của tôi - phân biệt với nhà thuê); nhà riêng",
+    "reading": "まいほーむ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c8badbcb8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "我が家",
+    "meaning_vi": "nhà mình; gia đình tôi; nhà chúng ta",
+    "reading": "わがや",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6a7968b21b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "家屋",
+    "meaning_vi": "nhà cửa; công trình nhà ở; nhà cửa (nói chung)",
+    "reading": "かおく",
+    "topic_vi": "Nơi ở",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9f41de437b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "間取り",
+    "meaning_vi": "cách bố trí phòng ốc trong nhà; sơ đồ nhà; bố trí phòng",
+    "reading": "まどり",
+    "topic_vi": "Nơi ở",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-fd38999b29"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "空間",
+    "meaning_vi": "không gian",
+    "reading": "くうかん",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5e11398598"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "南向き",
+    "meaning_vi": "hướng nam; hướng về phía nam",
+    "reading": "みなみむき",
+    "topic_vi": "Nơi ở",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4bcf4c64cb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "温もり",
+    "meaning_vi": "",
+    "reading": "あたたもり",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a189fe30c7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この家具は頑丈にできているから、100年でももつだろう。",
+      "vi": "Món đồ nội thất này được làm cực kỳ chắc chắn, có thể dùng tới cả trăm năm."
+     },
+     {
+      "ja": "頑丈な｛家／ドア／体つき．．．｝",
+      "vi": "(Nhà / cửa / vóc dáng) vững chắc, kiên cố"
+     }
+    ],
+    "expression": "頑丈な",
+    "meaning_vi": "chắc chắn; mạnh mẽ",
+    "reading": "がんじょうな",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c40d37af06"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "点検＜する＞",
+    "meaning_vi": "kiểm tra từng điểm; kiểm tra; bảo dưỡng",
+    "reading": "てんけん＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1d0abb89fe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そのスーパーは停電のため、営業を停止した。",
+      "vi": "Mất điện nên siêu thị tạm dừng hoạt động."
+     },
+     {
+      "ja": "踏切では車は一時停止なければならない。",
+      "vi": "Ở chắn tàu, xe phải dừng tạm thời."
+     },
+     {
+      "ja": "A 選手はドーピングで出場停止処分を受けた。",
+      "vi": "VĐV A bị cấm thi đấu vì doping."
+     }
+    ],
+    "expression": "停止＜する＞",
+    "meaning_vi": "dừng lại; tạm dừng; dừng",
+    "reading": "ていし＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-27d515f850"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "防犯",
+    "meaning_vi": "phòng chống tội phạm",
+    "reading": "ぼうはん",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4c2e6937c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぞっと＜する＞",
+    "meaning_vi": "",
+    "reading": "ぞっと＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-824996f339"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "警備＜する＞",
+    "meaning_vi": "canh gác; bảo vệ",
+    "reading": "けいび＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-770281f652"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "新築＜する＞",
+    "meaning_vi": "nhà xây mới; mới xây dựng",
+    "reading": "しんちく＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-cfcce6fd78"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "收入",
+    "meaning_vi": "",
+    "reading": "しゅうにゅう",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8432d9eb59"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今年は、子供の進学で出費がかさんだ。",
+      "vi": "Năm nay, con cái đi học cấp cao hơn cho nên là chi phí tăng lên."
+     }
+    ],
+    "expression": "出費",
+    "meaning_vi": "khoản chi; chi tiêu; khoản chi trong kế toán",
+    "reading": "しゅっぴ",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-629b16f6d5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大金",
+    "meaning_vi": "món tiền lớn; số tiền lớn",
+    "reading": "たいきん",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4ff3388e99"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "納める",
+    "meaning_vi": "nộp (thuế; tiền); cất vào",
+    "reading": "おさめる",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-76ca27f125"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今期の授業料を銀行に払い込んだ。",
+      "vi": "Tôi đã nộp học phí kỳ này ở ngân hàng."
+     }
+    ],
+    "expression": "払い込む",
+    "meaning_vi": "nộp tiền vào; trả vào; nộp tiền",
+    "reading": "はらいこむ",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9e6bc0954c"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N2",
+ "packet_id": "VOCAB_MNEMONIC-003"
+}

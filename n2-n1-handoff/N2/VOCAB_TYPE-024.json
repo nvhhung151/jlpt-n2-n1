@@ -1,0 +1,906 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "再生",
+    "meaning_vi": "tái sinh; tái tạo; sản xuất",
+    "reading": "さいせい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7749ebf6eb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "相手の意見を肯定する。",
+      "vi": "Khẳng định/đồng tình ý kiến của đối phương."
+     },
+     {
+      "ja": "私は何事も、肯定的に考えるようにしている。",
+      "vi": "Tôi luôn cố gắng nghĩ theo hướng tích cực."
+     }
+    ],
+    "expression": "肯定",
+    "meaning_vi": "khẳng định; xác nhận",
+    "reading": "こうてい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d43943a2a6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お金を蓄える。",
+      "vi": "Tích lũy tiền."
+     },
+     {
+      "ja": "食料を貯蔵庫に蓄える。",
+      "vi": "Tích trữ lương thực trong kho."
+     },
+     {
+      "ja": "植物は葉に養分を蓄えている。",
+      "vi": "Thực vật tích trữ dưỡng chất trong lá."
+     }
+    ],
+    "expression": "蓄える",
+    "meaning_vi": "tích trữ; dành dụm; bảo quản",
+    "reading": "たくわえる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e164f61fd8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ユニーク（な）",
+    "meaning_vi": "độc đáo; khác lạ",
+    "reading": "ユニーク（な）",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b2812798c5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私をいじめた人を、前は恨んでいたが、今は何とも思っていない。",
+      "vi": "Trước đây tôi từng căm người bắt nạt mình, nhưng giờ không còn cảm giác gì."
+     },
+     {
+      "ja": "同じものを食べて、弟はお腹を壊したが、私は何ともなかった。",
+      "vi": "Ăn cùng thứ đó, em tôi đau bụng còn tôi thì không sao."
+     },
+     {
+      "ja": "その肉は何とも言えない匂いがした。ちょっと古かったらしい。",
+      "vi": "Miếng thịt có mùi khó tả… chắc hơi cũ."
+     }
+    ],
+    "expression": "何とも",
+    "meaning_vi": "chẳng biết nói sao; chẳng hề; không...một chút nào",
+    "reading": "なんとも",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3b8f431499"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "抽象",
+    "meaning_vi": "trừu tượng",
+    "reading": "ちゅうしょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f7b8ee667e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "行政",
+    "meaning_vi": "hành chính; chính quyền; hành pháp／hành chính",
+    "reading": "ぎょうせい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-45e69e892b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "理論",
+    "meaning_vi": "lý thuyết",
+    "reading": "りろん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-84a3450e48"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このホールは音が良く響く。",
+      "vi": "Hội trường này âm thanh vang rất hay."
+     },
+     {
+      "ja": "彼の声はよく響く。",
+      "vi": "Giọng anh ấy vang và rõ."
+     },
+     {
+      "ja": "深夜の住宅地に突然銃声が響いた。",
+      "vi": "Nửa đêm trong khu dân cư bỗng vang lên tiếng súng."
+     }
+    ],
+    "expression": "響く",
+    "meaning_vi": "vang vọng; ảnh hưởng tới; vang",
+    "reading": "ひびく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ae8f5ae397"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "司法",
+    "meaning_vi": "tư pháp",
+    "reading": "しほう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-57c7684a73"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この辺は治安がいいので安心だ。",
+      "vi": "Khu vực này an ninh tốt nên rất an toàn."
+     }
+    ],
+    "expression": "治安",
+    "meaning_vi": "an ninh trật tự; trật tự; an ninh xã hội",
+    "reading": "ちあん",
+    "topic_vi": "Xã hội",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-704265c322"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "同僚と分担して仕事を進めている。",
+      "vi": "Tôi chia việc với đồng nghiệp rồi tiến hành."
+     },
+     {
+      "ja": "｛費用/作業/役割…｝を分担する。",
+      "vi": "Chia sẻ/phân担 {chi phí/công việc/vai trò...}."
+     }
+    ],
+    "expression": "分担＜する＞",
+    "meaning_vi": "chia nhau đảm nhận; chia sẻ; chia nhau trách nhiệm",
+    "reading": "ぶんたん＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a18d09c210"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "空気に圧力を加えて圧縮する。",
+      "vi": "Nén không khí bằng cách tăng áp lực."
+     },
+     {
+      "ja": "相手に圧力をかけて従わせる。",
+      "vi": "Gây áp lực lên đối phương để bắt họ nghe theo."
+     }
+    ],
+    "expression": "圧力",
+    "meaning_vi": "áp lực; áp suất; áp lực vật lý",
+    "reading": "あつりょく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9245c27e34"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このATMは24時間監視されている。",
+      "vi": "ATM này được giám sát suốt 24 giờ."
+     },
+     {
+      "ja": "ヘビースモーカーの彼は、入院中も監視の目を逃れて外で吸っていた。",
+      "vi": "Anh ta, người nghiện thuốc lá, ngay cả khi nhập viện cũng tránh sự giám sát của y tá để ra ngoài hút thuốc."
+     }
+    ],
+    "expression": "監視",
+    "meaning_vi": "giám sát",
+    "reading": "かんし",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-bac7f7c269"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "下品（な）",
+    "meaning_vi": "thô tục; kém tao nhã",
+    "reading": "げひん（な）",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2fc0a13a94"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "人質を解放する。",
+      "vi": "Giải phóng con tin."
+     },
+     {
+      "ja": "抑圧から解放された。",
+      "vi": "Được giải phóng khỏi áp bức."
+     }
+    ],
+    "expression": "解放",
+    "meaning_vi": "giải phóng; thoát khỏi; giải thoát khỏi ràng buộc",
+    "reading": "かいほう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cb5e22771c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "書類には一通り目を通したが、細かいチェックはこれからだ。",
+      "vi": "Tài liệu tôi có nhìn qua rồi, nhưng từ giờ tôi sẽ kiểm tra cụ thể."
+     },
+     {
+      "ja": "息子は中学生だが、うちのことは一通りできる。",
+      "vi": "Con trai tôi là học sinh cấp hai nhưng nhìn chung đã có thể làm được việc nhà rồi."
+     },
+     {
+      "ja": "あの人の日本文化に関する知識は、一通り（のもの）ではない。",
+      "vi": "Kiến thức về văn hóa Nhật Bản của người đó không phải chuyện thường."
+     }
+    ],
+    "expression": "一通り",
+    "meaning_vi": "một lượt; sơ qua; nhanh",
+    "reading": "ひととおり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2e8f3dd12a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "目覚ましい",
+    "meaning_vi": "đáng kinh ngạc; đáng chú ý; nhật Bản đã đạt được sự phát triển nổi bật",
+    "reading": "めざましい",
+    "topic_vi": "Đất nước",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-71bd205112"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "校庭は市民に開放されている。",
+      "vi": "Mở cho người dân."
+     },
+     {
+      "ja": "市場を開放する。",
+      "vi": "Mở cửa thị trường."
+     }
+    ],
+    "expression": "開放",
+    "meaning_vi": "mở rộng cửa; mở cho tự do; sự mở cửa",
+    "reading": "かいほう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-eccdcccd59"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "重力",
+    "meaning_vi": "trọng lực",
+    "reading": "じゅうりょく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-748454d152"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "娘は怒ると頬を膨らます。",
+      "vi": "Em gái tôi hễ giận là phồng má."
+     },
+     {
+      "ja": "タイヤに空気を入れて膨らます。",
+      "vi": "Bơm hơi vào lốp cho phồng."
+     },
+     {
+      "ja": "｛風船/気球/袋/パン…｝を膨らます。",
+      "vi": "Làm phồng (bóng bay/khí cầu/túi/bánh mì…)."
+     }
+    ],
+    "expression": "膨らます",
+    "meaning_vi": "thổi phồng lên; phồng; thổi phồng",
+    "reading": "ふくらます",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b3d07430a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "来年から消費税率が改定されることになった。",
+      "vi": "Từ năm sau thuế tiêu dùng sẽ được điều chỉnh."
+     },
+     {
+      "ja": "｛定価/規則…｝を改定する。",
+      "vi": "Điều chỉnh {giá niêm yết/quy định...}."
+     }
+    ],
+    "expression": "改定＜する＞",
+    "meaning_vi": "sửa đổi (giá; quy định); hiệu chỉnh",
+    "reading": "かいてい＜する＞",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-da424d7666"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この奨学金は、卒業後に返済するのが原則だ。",
+      "vi": "Học bổng này theo nguyên tắc là phải hoàn trả sau khi tốt nghiệp."
+     },
+     {
+      "ja": "私は原則的には消費税値上げに賛成だ。",
+      "vi": "Về nguyên tắc, tôi tán thành việc tăng thuế tiêu dùng."
+     },
+     {
+      "ja": "原則として大学卒以上の学歴がなければ、この仕事には応募できない。",
+      "vi": "Theo nguyên tắc, nếu không có bằng đại học trở lên thì không thể ứng tuyển vào công việc này."
+     }
+    ],
+    "expression": "原則",
+    "meaning_vi": "nguyên tắc",
+    "reading": "げんそく",
+    "topic_vi": "Tìm việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-965d283cd2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "問題に対して適切な処分を取る。",
+      "vi": "Áp dụng biện pháp xử lý phù hợp đối với vấn đề."
+     },
+     {
+      "ja": "大きくなったペットの処置に困って捨てる人がいる。",
+      "vi": "Có người bỏ rơi thú cưng vì không biết xử lý khi chúng lớn."
+     },
+     {
+      "ja": "教室で倒れた人がいたが、処置が早くて助かった。",
+      "vi": "Có người ngã trong lớp nhưng được xử lý kịp thời nên đã cứu được."
+     }
+    ],
+    "expression": "処置",
+    "meaning_vi": "xử lý y tế; xử trí; đối xử",
+    "reading": "しょち",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1a957ee553"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "電気屋にエアコンを取り付けてもらった。",
+      "vi": "Tôi nhờ cửa hàng điện tử lắp đặt điều hòa."
+     },
+     {
+      "ja": "台所に火災報知器を取り付ける。",
+      "vi": "Lắp đặt thiết bị báo cháy trong bếp."
+     },
+     {
+      "ja": "保険会社に勤めて１カ月で、大口契約を取り付けた。",
+      "vi": "Mới làm ở công ty bảo hiểm một tháng, tôi đã ký được một hợp đồng lớn."
+     }
+    ],
+    "expression": "取り付ける",
+    "meaning_vi": "thiết đặt; lắp đặt; gắn",
+    "reading": "とりつける",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-322f245a2f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "沈んだ船を引き上げる。",
+      "vi": "Kéo chiếc tàu bị đắm lên."
+     },
+     {
+      "ja": "消費税を引き下げる。",
+      "vi": "Giảm thuế tiêu dùng."
+     },
+     {
+      "ja": "社長は佐藤課長を部長に引き上げた。",
+      "vi": "Giám đốc đã thăng chức ông Sato từ trưởng ban lên trưởng phòng."
+     }
+    ],
+    "expression": "引き上げる",
+    "meaning_vi": "nâng lên; rút quân về; kéo lên",
+    "reading": "ひきあげる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cacb1d06f2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "気",
+    "meaning_vi": "tâm trạng; ý định; sự chú ý",
+    "reading": "き",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f087d1a20b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "客が続々と詰めかけ、会場はすぐに満員になった。",
+      "vi": "Khách ùn ùn kéo đến, địa điểm lập tức kín chỗ."
+     },
+     {
+      "ja": "新聞に広告が載ると、続々と注文が来た。",
+      "vi": "Quảng cáo lên báo là đơn hàng tới dồn dập."
+     }
+    ],
+    "expression": "続々",
+    "meaning_vi": "liên tiếp; dồn dập; liên tục",
+    "reading": "ぞくぞく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d0f5a9e5c2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "二人はそれぞれの観点から意見を述べた。",
+      "vi": "Hai người trình bày ý kiến của bản thân từ từng quan điểm khác nhau."
+     },
+     {
+      "ja": "観点を変えれば、解決策が見つかるかもしれない。",
+      "vi": "Nếu thay đổi quan điểm, có lẽ sẽ ra được cách giải quyết."
+     }
+    ],
+    "expression": "観点",
+    "meaning_vi": "góc nhìn; quan điểm",
+    "reading": "かんてん",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7e43e6acbf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この仕事はキャリアのある人ではないと務まらない。",
+      "vi": "Công việc này không có kinh nghiệm thì không đảm đương nổi."
+     },
+     {
+      "ja": "彼女は新入社員だが、仕事のキャリアが長い。",
+      "vi": "Cô ấy là nhân viên mới nhưng đã có thâm niên kinh nghiệm làm việc."
+     },
+     {
+      "ja": "社会人としてのキャリアを積んでから大学院に入る人が増えた。",
+      "vi": "Ngày càng nhiều người tích lũy kinh nghiệm đi làm rồi mới vào học cao học."
+     }
+    ],
+    "expression": "キャリア",
+    "meaning_vi": "sự nghiệp; quá trình làm việc; nghiệp vụ",
+    "reading": "きゃりあ",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-62dd92e645"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "音がうるさいと言われ、隣の家の人とトラブルになった。",
+      "vi": "Vì bị nói là gây ồn ào, tôi đã xích mích với hàng xóm."
+     },
+     {
+      "ja": "テレビの音のことでアパートの隣人とトラブルになった。",
+      "vi": "Tôi gặp rắc rối với hàng xóm căn hộ bên cạnh vì chuyện âm lượng TV."
+     }
+    ],
+    "expression": "トラブル",
+    "meaning_vi": "sự cố; rắc rối",
+    "reading": "トラブル",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-436e8d4610"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "思想・言論の自由は、憲法によって保障されている。",
+      "vi": "Tự do Tư tưởng - Tự do Ngôn luận được bảo đảm bởi Pháp luật."
+     },
+     {
+      "ja": "｛権利／生活／平和．．．｝を保障する。",
+      "vi": "Bảo đảm (quyền lợi/ cuộc sống/ hòa bình)."
+     }
+    ],
+    "expression": "保障＜する＞",
+    "meaning_vi": "bảo đảm (an ninh; quyền lợi); bảo đảm",
+    "reading": "ほしょう＜する＞",
+    "topic_vi": "Từ dễ nhầm lẫn ①",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-12ebd7c9a9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "銀行が倒産した場合、預金は1000円まで補償される。",
+      "vi": "Trường hợp ngân hàng phá sản, tiền gửi sẽ được bồi thường lên tới 10 triệu yên."
+     },
+     {
+      "ja": "被害者に補償する。",
+      "vi": "Bồi thường cho nạn nhân."
+     },
+     {
+      "ja": "地震の被災者には国が補償を行うべきだ。",
+      "vi": "Nhà nước nên bồi thường cho những người bị thiệt hại do động đất."
+     }
+    ],
+    "expression": "補償＜する＞",
+    "meaning_vi": "bồi thường; bảo đảm; bảo vệ",
+    "reading": "ほしょう＜する＞",
+    "topic_vi": "Từ dễ nhầm lẫn ①",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-39ba3b8333"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "事故を起こした会社の責任を追及するため、裁判を起こした。",
+      "vi": "Tôi khởi kiện để truy cứu trách nhiệm của công ty gây ra tai nạn."
+     },
+     {
+      "ja": "｛原因／犯人／犯行の動機／事件．．．｝を追及する。",
+      "vi": "Truy cứu (nguyên nhân, thủ phạm, động cơ phạm tội, vụ án...)"
+     }
+    ],
+    "expression": "追及＜する＞",
+    "meaning_vi": "truy cứu; truy vấn; truy trách",
+    "reading": "ついきゅう＜する＞",
+    "topic_vi": "Từ dễ nhầm lẫn ①",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-25d44b27aa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "クーベルタンが近代オリンピックの基礎を確立した。",
+      "vi": "Coubertin đã xây dựng nền tảng cho Thế vận hội hiện đại."
+     },
+     {
+      "ja": "｛制度／作風／名声／信頼関係／地位．．．｝｛が／を｝確立する。",
+      "vi": "Thiết lập (chế độ, phong cách sáng tác, danh tiếng, quan hệ, địa vị...)"
+     }
+    ],
+    "expression": "確立＜する＞",
+    "meaning_vi": "thiết lập vững chắc; xác nhận; xác lập",
+    "reading": "かくりつ＜する＞",
+    "topic_vi": "Quan hệ quốc tế",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cd14660af5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "慣習",
+    "meaning_vi": "tập quán; thói quen cá nhân; tập quán của cộng đồng",
+    "reading": "かんしゅう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-81f5d0e2bc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "田中さんの欠席の理由を知っ (A) 午いたが、知らないふりをした。",
+      "vi": "Tôi biết lý do Tanaka nghỉ học nhưng giả vờ như không biết."
+     },
+     {
+      "ja": "熊にあったときは死んだふりをすれば大丈夫だそうだ。",
+      "vi": "Nghe nói khi gặp gấu thì giả chết là sẽ an toàn."
+     }
+    ],
+    "expression": "振り",
+    "meaning_vi": "giả bộ; vẻ giả vờ; cách vung",
+    "reading": "ふり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8540060172"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "学園祭の運営は、全て学生たちによって行われた。",
+      "vi": "Việc tổ chức lễ hội trường hoàn toàn do học sinh đảm nhận."
+     },
+     {
+      "ja": "｛祖式 ／学校 ／会議 ．．．｝を運営する。",
+      "vi": "Điều hành (lễ, trường học, hội nghị...)"
+     }
+    ],
+    "expression": "運営",
+    "meaning_vi": "điều hành; vận hành; tổ chức vận hành hoạt động",
+    "reading": "うんえい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0964a959b7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "前提",
+    "meaning_vi": "tiền đề; điều kiện／tiền đề",
+    "reading": "ぜんてい",
+    "topic_vi": "Người yêu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a9fb3545bc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の話には何の根拠もない。",
+      "vi": "Câu chuyện của anh ta hoàn toàn không có căn cứ."
+     },
+     {
+      "ja": "相手を納得させるためには、根拠を示す必要がある。",
+      "vi": "Muốn thuyết phục đối phương thì cần phải đưa ra căn cứ."
+     },
+     {
+      "ja": "反政府勢力は首都郊外のビルを根拠地とした。",
+      "vi": "Lực lượng chống đối chính phủ lấy tòa nhà ở ngoại ô thủ đô làm căn cứ."
+     }
+    ],
+    "expression": "根拠",
+    "meaning_vi": "căn cứ",
+    "reading": "こんきょ",
+    "topic_vi": "Sự cố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1e8b5b60ff"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-024"
+}

@@ -1,0 +1,628 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "アワー",
+    "meaning_vi": "giờ (đơn vị thời gian)",
+    "reading": "アワー",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0120a79c3f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "健やか",
+    "meaning_vi": "khoẻ mạnh",
+    "reading": "すこやか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7ab30a3c41"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "其れ故",
+    "meaning_vi": "vì thế",
+    "reading": "それゆえ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-02107c2adf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "制約",
+    "meaning_vi": "ràng buộc; hạn chế",
+    "reading": "せいやく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-06213bd0b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "吐く",
+    "meaning_vi": "thốt ra; thở ra",
+    "reading": "つく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3f371a8f9c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "噛る",
+    "meaning_vi": "gặm; biết sơ sơ",
+    "reading": "かじる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b527152fb5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "報ずる",
+    "meaning_vi": "đưa tin; thông báo",
+    "reading": "ほうずる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1b5746aef1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "火星に移住するという壮大な計画が立てられた。",
+      "vi": "Một kế hoạch vĩ đại nhằm đưa con người lên định cư trên sao Hỏa đã được lập ra."
+     }
+    ],
+    "expression": "壮大",
+    "meaning_vi": "hùng vĩ; tráng lệ",
+    "reading": "そうだい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0889b8c65b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "変革",
+    "meaning_vi": "biến cách; cải biến",
+    "reading": "へんかく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4501f5d8dd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "審議",
+    "meaning_vi": "thẩm nghị; xem xét",
+    "reading": "しんぎ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d8475cdb41"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "屎尿",
+    "meaning_vi": "phân và nước tiểu",
+    "reading": "しにょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fad9f647ed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "崖",
+    "meaning_vi": "vách đá; vực",
+    "reading": "がけ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b62026a986"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "弱",
+    "meaning_vi": "yếu; non (số lượng)",
+    "reading": "じゃく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-64ba6814c6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "形態",
+    "meaning_vi": "hình thái",
+    "reading": "けいたい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2875a51a8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "愛でたい",
+    "meaning_vi": "đáng mừng",
+    "reading": "めでたい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-996dfa51c2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "戦災",
+    "meaning_vi": "thiệt hại chiến tranh",
+    "reading": "せんさい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9c9884f7d2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "書評",
+    "meaning_vi": "bài điểm sách",
+    "reading": "しょひょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-589adca988"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "校正",
+    "meaning_vi": "hiệu đính",
+    "reading": "こうせい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ad3989cfb8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "構想",
+    "meaning_vi": "ý tưởng; cấu tứ",
+    "reading": "こうそう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b18f83aa58"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "汚す",
+    "meaning_vi": "làm ô uế; bôi nhọ",
+    "reading": "けがす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c0587ebf2e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "無念",
+    "meaning_vi": "ấm ức; tiếc hận",
+    "reading": "むねん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b5e0bd39fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "異動",
+    "meaning_vi": "điều chuyển nhân sự",
+    "reading": "いどう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5c906d8009"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "着",
+    "meaning_vi": "bộ (đếm áo); thứ hạng về đích",
+    "reading": "ちゃく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-887580173c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "種々",
+    "meaning_vi": "đủ loại",
+    "reading": "くさぐさ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-62d8c3f4b1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "立体",
+    "meaning_vi": "khối ba chiều",
+    "reading": "りったい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-40bf4ec273"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "粘り",
+    "meaning_vi": "độ dẻo dính; sự bền bỉ",
+    "reading": "ねばり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2a72f6ad96"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "薄弱",
+    "meaning_vi": "yếu ớt; thiếu thuyết phục",
+    "reading": "はくじゃく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-027f3a619c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "西日",
+    "meaning_vi": "nắng chiều hướng tây",
+    "reading": "にしび",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-92c2a9b764"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "諦め",
+    "meaning_vi": "sự cam chịu; buông xuôi",
+    "reading": "あきらめ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f7ccca2fff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "踏襲",
+    "meaning_vi": "kế tục cách làm cũ",
+    "reading": "とうしゅう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2c51fb3532"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "進み",
+    "meaning_vi": "tiến độ",
+    "reading": "すすみ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-25ca8c4dae"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "過ぎ",
+    "meaning_vi": "quá; sau (thời điểm)",
+    "reading": "すぎ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1703bbff92"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "隠居",
+    "meaning_vi": "sống ẩn dật sau khi nghỉ hưu",
+    "reading": "いんきょ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9c19f10c74"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "雇用情勢",
+    "meaning_vi": "tình hình việc làm",
+    "reading": "こようじょうせい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ed96046504"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ナイアガラの滝は、近くで見るとすごい迫力だ。",
+      "vi": "Thác Niagara nhìn gần thật sự hoành tráng."
+     },
+     {
+      "ja": "「この大画面テレビでは、迫力のある映像をご覧になれます。」",
+      "vi": "TV màn hình lớn này mang lại hình ảnh sống động."
+     },
+     {
+      "ja": "この俳優は舞台で見ると迫力に欠ける。",
+      "vi": "Diễn viên này lên sân khấu lại thiếu sức hút."
+     }
+    ],
+    "expression": "迫力",
+    "meaning_vi": "uy lực; sức mạnh áp đảo; độ ấn tượng",
+    "reading": "はくりょく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-db24cc35e7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "トランジスター",
+    "meaning_vi": "bóng bán dẫn",
+    "reading": "トランジスター",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c20f30af7f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "丘陵",
+    "meaning_vi": "đồi gò",
+    "reading": "きゅうりょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a8de9f6f77"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "主権",
+    "meaning_vi": "chủ quyền",
+    "reading": "しゅけん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-08eb4384c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "何時の間にか",
+    "meaning_vi": "từ lúc nào không hay",
+    "reading": "いつのまにか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-99c95ef486"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "健在",
+    "meaning_vi": "vẫn mạnh khoẻ",
+    "reading": "けんざい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8d2038f75e"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N1",
+ "packet_id": "VOCAB_TYPE-044"
+}

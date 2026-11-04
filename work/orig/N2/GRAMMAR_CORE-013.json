@@ -1,0 +1,886 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "戻れるものなら、学生時代に戻ってもっと勉強したい。",
+      "vi": "Nếu có thể quay lại, tôi muốn trở về thời sinh viên và học nhiều hơn."
+     },
+     {
+      "ja": "この痛みを代わってあげられるものなら、代わってあげたい。",
+      "vi": "Nếu có thể chịu cơn đau thay em, tôi thật sự muốn làm vậy."
+     }
+    ],
+    "meaning_vi": "Nếu có thể… thì",
+    "pattern": "Nếu có thể... thì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8f80b3b9d0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "現物を見ないことには、買うかどうか決められない。",
+      "vi": "Nếu chưa xem hàng thật thì tôi không thể quyết định có mua hay không."
+     },
+     {
+      "ja": "担当者に確認しないことには、正確な日程はお伝えできません。",
+      "vi": "Nếu chưa xác nhận với người phụ trách, tôi không thể báo lịch trình chính xác."
+     }
+    ],
+    "meaning_vi": "Nếu không… thì không thể",
+    "pattern": "Nếu không... thì không thể",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b81c1a7c99"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この機密を外部に漏らそうものなら、会社の信用は一瞬で失われる。",
+      "vi": "Nếu lỡ tiết lộ bí mật này ra ngoài, uy tín công ty sẽ mất trong chớp mắt."
+     },
+     {
+      "ja": "今ここで弱音を吐こうものなら、仲間まで不安にさせてしまう。",
+      "vi": "Nếu lúc này mà buông lời yếu đuối, tôi sẽ khiến cả đồng đội bất an."
+     }
+    ],
+    "meaning_vi": "Nếu lỡ mà làm… thì",
+    "pattern": "Nếu lỡ mà làm... thì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fb42711dc8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地域住民の協力を抜きにしては、この祭りを続けることはできない。",
+      "vi": "Nếu thiếu sự hợp tác của cư dân địa phương thì không thể duy trì lễ hội này."
+     },
+     {
+      "ja": "安全性の検証を抜きにしては、新製品の発売は認められない。",
+      "vi": "Nếu bỏ qua việc kiểm chứng độ an toàn thì không thể chấp thuận bán sản phẩm mới."
+     }
+    ],
+    "meaning_vi": "Nếu thiếu, nếu không tính đến",
+    "pattern": "Nếu thiếu, nếu không tính đến",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-6ff9ccb285"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "料理ができるといっても、簡単なスープを作れる程度だ。",
+      "vi": "Tuy nói là biết nấu ăn, tôi chỉ nấu được món súp đơn giản."
+     },
+     {
+      "ja": "海外勤務といっても、月の半分は日本に戻ってくる。",
+      "vi": "Nói là làm việc ở nước ngoài nhưng nửa tháng tôi lại về Nhật."
+     }
+    ],
+    "meaning_vi": "Tuy nói là, nhưng thực ra",
+    "pattern": "Tuy nói là, nhưng thực ra",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-68fc79074a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "資格は取ったものの、実務ではまだ自信がない。",
+      "vi": "Tuy đã lấy được chứng chỉ, tôi vẫn chưa tự tin trong công việc thực tế."
+     },
+     {
+      "ja": "春になったとはいうものの、朝晩はコートが必要だ。",
+      "vi": "Nói là đã sang xuân nhưng sáng tối vẫn cần áo khoác."
+     }
+    ],
+    "meaning_vi": "Tuy rằng, nói là vậy nhưng",
+    "pattern": "Tuy rằng, nói là vậy nhưng",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fac057b2a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は汚職事件にかかわって逮捕された。",
+      "vi": "Anh ấy bị bắt vì liên quan đến việc tham nhũng."
+     },
+     {
+      "ja": "息子はマスコミにかかわる仕事をしている。",
+      "vi": "Con trai tôi đang làm công việc liên quan đến truyền thông."
+     }
+    ],
+    "meaning_vi": "Liên quan đến ～",
+    "pattern": "〜事件にかかわって",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c7171133e4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "客の意見にこたえて、営業時間を延長する。",
+      "vi": "Đáp ứng ý kiến của khách hàng, kéo dài thời gian kinh doanh."
+     },
+     {
+      "ja": "親の期待にこたえ、がんばった。",
+      "vi": "Đáp ứng kì vọng của bố mẹ, đã cố gắng."
+     }
+    ],
+    "meaning_vi": "Ứng với, đáp lại…",
+    "pattern": "〜客の意見にこたえて",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c65062239b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "未成年者の飲酒は、法律により禁じられている。",
+      "vi": "Uống rượu đối với người chưa thành niên theo pháp luật thì đang bị cấm."
+     },
+     {
+      "ja": "その地震による被害は、過去最大だった。",
+      "vi": "Thiệt hại do trận động đất đó, lớn nhất trong lịch sử."
+     }
+    ],
+    "meaning_vi": "Nhờ vào, do, bởi ～",
+    "pattern": "〜法律により",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f682293b70"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "目上の人に対して、そういう言い方は失礼ですよ。",
+      "vi": "Đối với cấp trên thì cách nói như vậy là thất lễ đấy."
+     },
+     {
+      "ja": "都市で人口が増えているのに対し、農村では減っている。",
+      "vi": "Đối ngược với việc dân số đang tăng ở thành thị thì ở nông thôn dân số đang giảm."
+     }
+    ],
+    "meaning_vi": "Đối với ～",
+    "pattern": "〜目上の人に対して",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7cf2f88fe2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これは子供向けの番組です。",
+      "vi": "Đây là chương trình dành cho trẻ em."
+     },
+     {
+      "ja": "初心者向けに、用語をやさしく説明しました。",
+      "vi": "Đã giải thích thuật ngữ một cách dễ hiểu cho người mới bắt đầu."
+     }
+    ],
+    "meaning_vi": "Chỉ mục tiêu được “nhắm tới” hoặc “thiết kế cho” một nhóm/đối tượng cụ thể. Sắc thái chủ ý của nhà sản xuất/ người tạo ra: “hướng sản phẩm/nội dung về phía …”. Khác với ～向き (phù hợp): ～向け là “định hướng, dành riêng”; ～向き là “thích hợp nói chung”.",
+    "pattern": "Dành cho..., hướng đến...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5402378f87"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お客様の声に応えて、営業時間を延長します。",
+      "vi": "Đáp lại ý kiến khách hàng, chúng tôi kéo dài thời gian mở cửa."
+     },
+     {
+      "ja": "ファンの期待に応えて、名演技を見せた。",
+      "vi": "Anh ấy thể hiện màn diễn xuất tuyệt vời để đáp lại kỳ vọng của fan."
+     }
+    ],
+    "meaning_vi": "～に応えて diễn tả hành động “đáp ứng, đáp lại” kỳ vọng, yêu cầu, lời kêu gọi, nhu cầu… từ người khác/xã hội. Đối tượng thường là mong muốn/chờ đợi/đề nghị từ con người/tổ chức: 期待, 要望, 依頼, 要請, リクエスト, 声援, ニーズ, 需要. Nhấn mạnh sự nỗ lực thỏa mãn phía chủ thể để đáp lại. Khác với ～に応じて: 「に応じて」 = “tùy theo/ứng với (điều kiện)”, còn 「に応えて」 = “đáp lại (yêu cầu/kỳ vọng)” của bên khác.",
+    "pattern": "Đáp ứng..., đáp lại...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-538f0cb04d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最新の統計に基づいて政策を見直す。",
+      "vi": "Xem xét lại chính sách dựa trên thống kê mới nhất."
+     },
+     {
+      "ja": "会社は社内規定に基づいて処分を行った。",
+      "vi": "Công ty đã xử lý dựa trên quy định nội bộ."
+     }
+    ],
+    "meaning_vi": "～に基づいて diễn tả “dựa trên, căn cứ trên” một cơ sở khách quan (dữ liệu, sự thật, luật lệ, tiêu chuẩn, kế hoạch) để tiến hành hành động/ra quyết định/đưa ra đánh giá. Tập trung vào nền tảng/cơ sở làm gốc cho hành động. Thường đi kèm các động từ như: 判断する, 決定する, 設計する, 作成する, 評価する, 対応する. Khác với ～をもとに: 「に基づいて」 nhấn mạnh tính chính thức, khách quan, quy chuẩn; 「をもとに」 có thể mang sắc thái “lấy cảm hứng/tư liệu” để chế biến, biên soạn. Gần với ～に則って/に即して (theo quy phạm, chuẩn mực), nhưng 「に基づいて」 nhấn mạnh “cơ sở” hơn là “tuân thủ khít khao”. Có thể dùng với cả cơ sở mang tính tiêu cực để khuyên tránh: 感情に基づいて判断してはいけない。",
+    "pattern": "Dựa trên..., căn cứ vào...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1e3b851866"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地図を頼りに目的地へ向かった。",
+      "vi": "Tôi dựa vào bản đồ để đi đến điểm đích."
+     },
+     {
+      "ja": "懐中電灯の明かりを頼りに山道を歩いた。",
+      "vi": "Tôi đi bộ đường núi nhờ ánh đèn pin."
+     }
+    ],
+    "meaning_vi": "Dựa vào/nhờ vào N làm manh mối, phương tiện, chỗ dựa để thực hiện hành động. Thường hàm ý N không hoàn hảo nhưng là thứ có thể bấu víu trong hoàn cảnh khó. Dùng cho cả vật cụ thể (杖, 地図, 明かり) và trừu tượng (記憶, 縁, 伝手, 言葉).",
+    "pattern": "Dựa vào..., nhờ vào...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fe5730b5ee"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この店は学生を中心に人気がある。",
+      "vi": "Cửa hàng này được ưa chuộng chủ yếu bởi sinh viên."
+     },
+     {
+      "ja": "明日は会議を中心にスケジュールを組みます。",
+      "vi": "Ngày mai lịch sẽ được sắp xếp xoay quanh các cuộc họp."
+     }
+    ],
+    "meaning_vi": "Lấy N làm trung tâm/lõi/chủ đạo: tổ chức, kế hoạch, hoạt động xoay quanh N. Chủ yếu là N: nhóm đối tượng chính, khu vực chính, nội dung trọng tâm. Phạm vi không gian/thời gian “xung quanh N”: tập trung ở/ quanh vùng N hoặc thời điểm N. Sắc thái: khách quan, mô tả phân bố/trọng tâm; phù hợp thông báo, tin tức, báo cáo. Khác với “chỉ về N”: nhấn vào mối quan hệ trung tâm - vệ tinh, không phải “về chủ đề N”.",
+    "pattern": "Lấy... làm trung tâm",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e5771b2baa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": "Đã trình bày chi tiết ở khối 411.",
+    "pattern": "Nhân dịp..., nhờ... mà...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation",
+    "examples"
+   ],
+   "id": "JG-596bc19f9b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この道は海岸線に沿って伸びている。",
+      "vi": "Con đường này kéo dài dọc theo bờ biển."
+     },
+     {
+      "ja": "マニュアルに沿って対応してください。",
+      "vi": "Vui lòng xử lý theo đúng sổ tay hướng dẫn."
+     }
+    ],
+    "meaning_vi": "～に沿って có hai lớp nghĩa chính: Dọc theo (nghĩa đen): đi/di chuyển theo đường, bờ sông, tuyến đường, ranh giới. Theo sát, bám theo (nghĩa bóng): tiến hành công việc bám theo chính sách, tiêu chí, kế hoạch, hướng dẫn, mục tiêu đã định, tránh lệch hướng. Nhấn mạnh sự tuân thủ “đường gân/tiêu chí”, khác với 「に基づいて」 (nhấn cơ sở khách quan) và 「に応じて」 (nhấn điều chỉnh linh hoạt).",
+    "pattern": "Theo..., dựa theo...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-cd0296a3f1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "収入に応じて納税額が決まる。",
+      "vi": "Tiền thuế được quyết định tùy theo thu nhập."
+     },
+     {
+      "ja": "人数に応じて席を増やします。",
+      "vi": "Tăng chỗ ngồi tùy theo số người."
+     }
+    ],
+    "meaning_vi": "～に応じて diễn tả sự thay đổi/điều chỉnh cho phù hợp với điều kiện, tình huống, số lượng, mức độ, năng lực… Thường dùng khi kết quả/biện pháp linh hoạt theo tiêu chí đầu vào. Đối tượng đi kèm: 年齢, 能力, 状況, 希望, 人数, 収入, 需要, レベル, 天候, 予算. Khác với ～によって (bởi do/tuỳ), 「に応じて」 nhấn mạnh sự điều chỉnh tương ứng, không nhất thiết là nguyên nhân. Khác với ～に応えて: 「に応じて」 không mang nghĩa “đáp lại” kỳ vọng/yêu cầu cụ thể của ai đó.",
+    "pattern": "Tùy theo..., ứng với...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-354aff14f2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "心を込めて料理を作りました。",
+      "vi": "Tôi đã nấu ăn với tất cả tấm lòng."
+     },
+     {
+      "ja": "感謝を込めて花を贈ります。",
+      "vi": "Tôi gửi hoa với lòng biết ơn."
+     }
+    ],
+    "meaning_vi": "Dồn/gửi gắm cảm xúc, ý nghĩa, nguyện vọng vào một hành động/sản phẩm. Nhấn người nói thực hiện với tấm lòng, sự chăm chút hoặc chủ đích. Sắc thái tích cực, lịch sự; thường đi với từ vựng: 心, 愛, 感謝, 願い, 祈り, 気持ち, 力.",
+    "pattern": "Với tất cả..., gửi gắm...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8aead7f93e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この寺を観光資源として活用する。",
+      "vi": "Tận dụng ngôi chùa này như một nguồn tài nguyên du lịch."
+     },
+     {
+      "ja": "彼を代表として会議に参加させる。",
+      "vi": "Cử anh ấy tham gia cuộc họp với tư cách đại diện."
+     }
+    ],
+    "meaning_vi": "N1をN2として: Xem/đặt/định vị N1 với tư cách/ vai trò/ mục đích N2. Dùng để chỉ: vai trò (代表/責任者), chức năng (材料/手段/目的), tiêu chuẩn/cơ sở (根拠/基準). Sắc thái: Hơi trang trọng, thường gặp trong văn viết, thuyết trình, mô tả chức năng. Khác với にとって: ～として nói “với tư cách/role”, không phải “đối với (quan điểm, lợi ích)”.",
+    "pattern": "Xem... là..., chọn... làm...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-cb4e0e8341"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は忙しいと言いつつ、長電話をしている。",
+      "vi": "Cô ấy dù nói là bận nhưng đang tám điện thoại kìa."
+     },
+     {
+      "ja": "今日こそがんばろうと思いつつ、また勉強しなかった。",
+      "vi": "Dù định là chính từ hôm nay phải cố gắng nhưng lại không học bài nữa rồi."
+     }
+    ],
+    "meaning_vi": "(1) Dù … (2) Vừa/cùng lúc …",
+    "pattern": "〜楽しいいつつ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-2123cbe4e3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "知らないくせして、知っているようなことを言うな。",
+      "vi": "Đừng có nói kiểu như biết mặc dù là không biết."
+     },
+     {
+      "ja": "大学生のくせして、そんなことも知らないの？",
+      "vi": "Mặc dù là sinh viên đại học nhưng chuyện như vậy cũng không biết sao?"
+     }
+    ],
+    "meaning_vi": "…thế mà…",
+    "pattern": "〜知らないくせして",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1ca1a700ed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "悪いことと知りながら、盗みを繰り返した。",
+      "vi": "Mặc dù biết là xấu nhưng vẫn cứ lặp lại việc trộm cắp."
+     },
+     {
+      "ja": "「狭いながらも楽しいわが家」という言葉がある。",
+      "vi": "Có từ nghĩa là ‘nhà ta dù nhỏ nhưng hạnh phúc’."
+     }
+    ],
+    "meaning_vi": "Mặc dù, tuy nhiên",
+    "pattern": "〜知りながら",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d89ed3a74f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "医療はますます進歩しつつある。",
+      "vi": "Y học dần dần ngày càng phát triển."
+     },
+     {
+      "ja": "新種のウイルスによる被害は、全国に広がりつつある。",
+      "vi": "Thiệt hại do virus mới dần dần mở rộng khắp đất nước."
+     }
+    ],
+    "meaning_vi": "Dần dần đang ～",
+    "pattern": "〜進歩しつつある",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8caffa3074"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「名前を呼ばれたら、返事ぐらいするものだ」",
+      "vi": "Khi bị gọi tên thì đương nhiên nên phản hồi lại."
+     },
+     {
+      "ja": "「悪いことをしたら謝るもんだ」",
+      "vi": "Nếu làm việc xấu thì tất nhiên là phải xin lỗi rồi."
+     }
+    ],
+    "meaning_vi": "Nói về những thứ coi là tự nhiên. Hoặc mệnh lệnh nhẹ nhàng",
+    "pattern": "〜ものだ/ではない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-84cedb1840"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そんなことをすべきではない。",
+      "vi": "Không nên làm những việc như vậy."
+     },
+     {
+      "ja": "もっと勉強するべきだった。",
+      "vi": "Nên học nhiều hơn."
+     }
+    ],
+    "meaning_vi": "Nên; không nên",
+    "pattern": "〜すべきではない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-21febc1e6e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "いやな仕事でも、生活のためには続けるざるをえない。",
+      "vi": "Cho dẫu là công việc không thích, vì cuộc sống không thể không tiếp tục."
+     },
+     {
+      "ja": "この戦争は間違いだったと言わざるをえない。",
+      "vi": "Không thể không nói rằng cuộc chiến tranh này đã sai lầm."
+     }
+    ],
+    "meaning_vi": "Đành phải ～",
+    "pattern": "〜続けざるをえない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-55e72f7974"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "単なる言い間違いにすぎない。",
+      "vi": "Đơn giản chẳng qua chỉ là nói nhầm."
+     },
+     {
+      "ja": "簡単な日常英会話ができるにすぎない。",
+      "vi": "Chẳng qua chỉ là có thể nói được đàm thoại thông thường đơn giản thôi."
+     }
+    ],
+    "meaning_vi": "Chỉ là ～",
+    "pattern": "〜言い間違いにすぎない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e5143f8c39"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの社長、事故について全然反省してなくて、あまりの責任感のなさにあきれたよ。",
+      "vi": "Ông giám đốc đó hoàn toàn không hối lỗi về vụ tai nạn, tôi thực sự sửng sốt vì ông ấy thiếu trách nhiệm đến vậy。"
+     },
+     {
+      "ja": "富士自動車から出た新しい電気自動車は、あまりの人気に生産が追いつかないようだ。",
+      "vi": "Chiếc xe điện mới của Fuji Motor được ưa chuộng đến mức dường như sản xuất không kịp。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜あまりの〜に",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-08cdab2b3b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "〈広告〉まるで本物の電車を運転しているかのように、リアルな感覚を楽しめるゲームです。",
+      "vi": "〈Quảng cáo〉 Đây là trò chơi cho bạn trải nghiệm chân thực, như thể đang điều khiển một đoàn tàu thật."
+     },
+     {
+      "ja": "ウェディングドレスの友人は、まるで光に包まれているかのように輝いて見えた。",
+      "vi": "Cô bạn mặc váy cưới trông rạng rỡ, như thể được bao quanh bởi ánh sáng."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜かのように",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-1d28ee219d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "現在、トンネル内における衝突事故の影響で、５キロの渋滞になっています。",
+      "vi": "Hiện tại, do một vụ va chạm trong đường hầm, đang xảy ra ùn tắc kéo dài 5 km。"
+     },
+     {
+      "ja": "2010年度における中国のGDPは、前年に比べて10.3％の増加となり、世界第2位となることが確実となった。",
+      "vi": "Trong năm tài chính 2010, GDP của Trung Quốc tăng 10,3% so với năm trước, và điều đó đã chắc chắn đưa nước này lên vị trí thứ hai thế giới。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜における",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-23e641b597"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "近道をしようとしたばかりに、かえって道に迷ってしまった。",
+      "vi": "Chỉ vì định đi đường tắt mà rốt cuộc tôi lại bị lạc."
+     },
+     {
+      "ja": "一度返事を先延ばしにしたばかりに、大切な機会を逃した。",
+      "vi": "Chỉ vì trì hoãn trả lời một lần mà tôi đã bỏ lỡ cơ hội quan trọng."
+     }
+    ],
+    "meaning_vi": "Chỉ vì",
+    "pattern": "Chỉ vì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-97f32297c4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "専門家が十年かけて書いただけに、この解説は細部まで正確だ。",
+      "vi": "Chính vì chuyên gia đã dành mười năm để viết nên phần giải thích này chính xác đến từng chi tiết."
+     },
+     {
+      "ja": "期待が大きかっただけに、計画の中止を聞いたときの失望も深かった。",
+      "vi": "Chính vì kỳ vọng lớn nên nỗi thất vọng khi nghe dự án bị hủy cũng sâu sắc."
+     }
+    ],
+    "meaning_vi": "Chính vì, bởi đúng là",
+    "pattern": "Chính vì, bởi đúng là",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-899eddedc1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "大雨によって、山間部の道路が三時間通行止めになった。",
+      "vi": "Do mưa lớn, đường ở vùng núi đã bị cấm lưu thông trong ba giờ."
+     },
+     {
+      "ja": "新しい制度によって、申請の手順が大きく変わった。",
+      "vi": "Do chế độ mới, thủ tục đăng ký đã thay đổi đáng kể."
+     }
+    ],
+    "meaning_vi": "Do, bởi, vì",
+    "pattern": "Do, bởi, vì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1aa0fc8a8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "館内整備につき、本日の展示は午後四時で終了いたします。",
+      "vi": "Do bảo trì bên trong tòa nhà, triển lãm hôm nay sẽ kết thúc lúc bốn giờ chiều."
+     },
+     {
+      "ja": "貸切営業につき、一般のお客様はご入店いただけません。",
+      "vi": "Do đang phục vụ khách đặt riêng, khách thông thường không thể vào cửa hàng."
+     }
+    ],
+    "meaning_vi": "Do, vì",
+    "pattern": "Do, vì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-3185e04549"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "代表を引き受けたからには、最後まで責任を持って務めます。",
+      "vi": "Một khi đã nhận làm đại diện, tôi sẽ có trách nhiệm làm đến cùng."
+     },
+     {
+      "ja": "専門家として意見を述べる以上は、根拠を明確に示すべきだ。",
+      "vi": "Đã phát biểu ý kiến với tư cách chuyên gia thì phải trình bày căn cứ rõ ràng."
+     }
+    ],
+    "meaning_vi": "Một khi đã, vì đã",
+    "pattern": "Một khi đã, vì đã",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-738eb10cae"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "先輩が具体的に助言してくれたおかげで、面接では落ち着いて話せた。",
+      "vi": "Nhờ đàn anh góp ý cụ thể, tôi đã có thể nói chuyện bình tĩnh trong buổi phỏng vấn."
+     },
+     {
+      "ja": "目覚まし時計が鳴らなかったせいで、朝の会議に遅れてしまった。",
+      "vi": "Tại đồng hồ báo thức không reo nên tôi đã đến muộn cuộc họp sáng."
+     }
+    ],
+    "meaning_vi": "Nhờ, tại",
+    "pattern": "Nhờ, tại",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-19639b8067"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "雨も上がったことだし、駅まで歩いて帰ろう。",
+      "vi": "Mưa cũng tạnh rồi, vậy chúng ta đi bộ về đến ga nhé."
+     },
+     {
+      "ja": "必要な資料が全部そろったことだし、そろそろ会議を始めましょう。",
+      "vi": "Tài liệu cần thiết cũng đã đủ cả rồi, chúng ta bắt đầu họp thôi."
+     }
+    ],
+    "meaning_vi": "Vì cũng, nhân vì",
+    "pattern": "Vì cũng, nhân vì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-cd8db48d70"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "約束を必ず守る佐藤さんのことだから、もう準備を終えているだろう。",
+      "vi": "Vì là anh Sato luôn giữ lời nên chắc anh ấy đã chuẩn bị xong rồi."
+     },
+     {
+      "ja": "子どもの好みをよく知る彼女のことだから、贈り物もきっと喜ばれる。",
+      "vi": "Vì cô ấy hiểu rõ sở thích của trẻ con nên món quà chắc chắn cũng sẽ được yêu thích."
+     }
+    ],
+    "meaning_vi": "Vì là người như",
+    "pattern": "Vì là người như",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4809581d81"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "発表の順番を待つ間、緊張のあまり手が冷たくなった。",
+      "vi": "Trong lúc chờ đến lượt thuyết trình, vì quá căng thẳng nên tay tôi lạnh đi."
+     },
+     {
+      "ja": "彼は合格を喜ぶあまり、まだ寝ている家族まで起こしてしまった。",
+      "vi": "Anh ấy vui mừng vì đỗ đến mức đánh thức cả người nhà vẫn đang ngủ."
+     }
+    ],
+    "meaning_vi": "Vì quá, do quá",
+    "pattern": "Vì quá, do quá",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-6b468248df"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N2",
+ "packet_id": "GRAMMAR_CORE-013"
+}

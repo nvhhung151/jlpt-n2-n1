@@ -1,0 +1,891 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "昔はいざ知らず、今はSNSで情報がすぐ広まる。",
+      "vi": "Thời xưa thì không biết, chứ nay thông tin lan truyền rất nhanh trên mạng xã hội."
+     },
+     {
+      "ja": "子どもならいざ知らず、大人がそんな言い訳は通らない。",
+      "vi": "Nếu là trẻ con thì còn tạm, chứ người lớn thì lời bao biện đó không chấp nhận được."
+     }
+    ],
+    "meaning_vi": "Nêu ngoại lệ “không rõ/không bàn” về đối tượng A, để nhấn mạnh phán đoán chắc chắn về B. “ならいざ知らず”: thừa nhận khả dĩ ở A (giả định), để phủ định B mạnh hơn. Sắc thái: lịch sự, hơi cổ điển; đậm chất văn viết, diễn thuyết, bài bình luận. Vế sau thường đi với cấu trúc đánh giá/khó khăn/không thể chấp nhận.",
+    "pattern": "... thì không nói làm gì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-3ddb034819"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子供ではあるまいし、そんなことで泣くな。",
+      "vi": "Không phải trẻ con đâu, đừng khóc vì chuyện đó."
+     },
+     {
+      "ja": "冗談ではあるまいし、そんな大金は払えないよ。",
+      "vi": "Đâu phải chuyện đùa, số tiền lớn như vậy làm sao mà trả được."
+     }
+    ],
+    "meaning_vi": "- Nghĩa: “Đâu phải/ có phải là N đâu mà…”, “Không phải N nên (đừng/không cần) …”. Dùng để trách nhẹ, khuyên răn, bác bỏ hành vi/quỳ chuẩn quá mức bằng cách nêu lý do “không phải là N”. - Sắc thái: Khá mạnh, mang tính phê bình/nhắc nhở. Thường đi kèm mệnh lệnh, cấm đoán, khuyên nhủ ở vế sau. Nghe hơi cổ điển, mang màu sắc nam tính/già dặn. - Phạm vi kết hợp: Chủ yếu gắn với danh từ chỉ thân phận/trạng thái đối chiếu (子供、素人、学生、冗談…). Dùng với mệnh đề là biến thể mở rộng, nên thận trọng.",
+    "pattern": "Đâu có phải...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e8e876f1eb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子どもじゃあるまいし、わがままを言うな。",
+      "vi": "Có phải trẻ con đâu, đừng nói ích kỷ thế."
+     },
+     {
+      "ja": "日曜日じゃあるまいし、そんなに遅くまで寝ていられない。",
+      "vi": "Có phải chủ nhật đâu mà ngủ đến trưa được."
+     }
+    ],
+    "meaning_vi": "“Có phải là A đâu mà …”: vì không phải A nên B (trách, nhắc nhở, khuyên). Sử dụng để bác bỏ lý do/viện cớ không phù hợp với tình huống. Đối tượng A thường là “trẻ con, chuyên gia, ngày nghỉ, trò đùa…” Độ lịch sự: じゃあるまいし (thân mật/mạnh) < ではあるまいし (trung tính).",
+    "pattern": "Đâu phải... đâu",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e5762ce2f4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "結果はどうであれ、プロセスを大切にしたい。",
+      "vi": "Dù kết quả thế nào, tôi vẫn coi trọng quá trình."
+     },
+     {
+      "ja": "彼が誰であれ、規則は守ってもらう。",
+      "vi": "Cho dù anh ta là ai, cũng phải tuân thủ quy định."
+     }
+    ],
+    "meaning_vi": "“Bất kể A thế nào đi nữa, B (không đổi).” Nhấn mạnh B không bị ảnh hưởng bởi A. Văn phong trang trọng, dùng khi phát biểu nguyên tắc/quan điểm/định hướng. Phạm vi A có thể là kết quả, hoàn cảnh, danh tính, nơi chốn,...",
+    "pattern": "Dù thế nào cũng...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-af9626daf4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は行くとも行かないとも言わなかった。",
+      "vi": "Anh ấy không nói là sẽ đi hay không đi."
+     },
+     {
+      "ja": "この計画は成功とも失敗とも断定できない。",
+      "vi": "Không thể kết luận kế hoạch này là thành công hay thất bại."
+     }
+    ],
+    "meaning_vi": "Nêu ra hai khả năng/lựa chọn A và B rồi phủ nhận khả năng xác quyết: “không thể nói là A hay B”, “chưa thể quyết là A hay B”. Dùng để mô tả việc người nói/đối phương “không nói rõ là A hay B”: AともBとも言わない. Nhấn mạnh tính mơ hồ, lưỡng khả: AともBともつかない／取れる → “có thể hiểu là A hoặc B”, “khó phân định”. Sắc thái trang trọng, thiên về viết hoặc phát biểu cẩn trọng; tránh khẳng định dứt khoát. Thường đi kèm các động từ/biểu thức: 言えない, 言わない, 決められない, 分からない, 断定できない, 判断がつかない, はっきりしない, つかない, 取れる. Hay kết hợp với cặp trái nghĩa: 賛成/反対, 成功/失敗, 良い/悪い, 高い/安い, 有罪/無罪… để làm nổi bật sự “không ngả về bên nào”.",
+    "pattern": "Không thể kết luận rõ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-32d8381bd4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うちの上司ときたら、会議にいつも遅れてくるんだ。",
+      "vi": "Sếp nhà tôi ấy à, lúc nào họp cũng đến muộn."
+     },
+     {
+      "ja": "隣の犬ときたら、夜中に吠えてばかりで困る。",
+      "vi": "Con chó nhà hàng xóm thì đêm nào cũng sủa, phiền phức thật."
+     }
+    ],
+    "meaning_vi": "Giới thiệu chủ đề để chê trách, than phiền, ngạc nhiên theo hướng tiêu cực về đối tượng N. Dùng nhiều trong hội thoại; không thích hợp trong văn bản trang trọng hoặc khi nói về người nghe (dễ thô). Thường theo sau là ví dụ cụ thể về thói quen xấu, điểm bất cập, sự cố lặp lại.",
+    "pattern": "Nói đến... thì... (phàn nàn)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b7f7f84bea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "大雨のため、野外コンサートは中止を余儀なくされた。",
+      "vi": "Do mưa lớn, buổi hòa nhạc ngoài trời buộc phải hủy."
+     },
+     {
+      "ja": "彼は病気で引退を余儀なくされた。",
+      "vi": "Anh ấy buộc phải giải nghệ vì bệnh."
+     }
+    ],
+    "meaning_vi": "“Bị buộc phải/Không còn cách nào ngoài N”: biểu thị tính bất đắc dĩ do hoàn cảnh/áp lực khách quan. Thành phần N phải là danh từ làm được bằng サ変 (hành vi/biện pháp): 中止・延期・変更・撤退・縮小・移行・辞任・閉鎖・解散・見直し… Thường có cụm nguyên nhân bằng により・ため・せいで ở trước. Sắc thái văn ngôn, thường dùng trong tin tức, báo cáo, thông cáo.",
+    "pattern": "Buộc phải...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5a6786e0da"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "京都ならではの風情がある。",
+      "vi": "Nơi đây có phong vị chỉ riêng Kyoto mới có."
+     },
+     {
+      "ja": "当店ならではのサービスをご提供します。",
+      "vi": "Chúng tôi cung cấp dịch vụ chỉ cửa hàng chúng tôi mới có."
+     }
+    ],
+    "meaning_vi": "“～ならでは” nhấn mạnh tính độc đáo/đặc trưng riêng chỉ có ở chủ thể N; khen ngợi, đề cao. Thường đi với văn cảnh tích cực: điểm mạnh, bản sắc, thế mạnh cạnh tranh. Đối tượng N thường là địa danh, tổ chức, cửa hàng, cá nhân có phong cách riêng, văn hóa vùng miền, chất liệu đặc thù. Sắc thái quảng cáo/giới thiệu mạnh, nhưng cũng dùng trong hội thoại đời thường để khen.",
+    "pattern": "Chỉ... mới có",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-ace7d752fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は借金してまでも店を続けた。",
+      "vi": "Anh ấy tiếp tục cửa hàng dù phải vay nợ."
+     },
+     {
+      "ja": "親に嘘をついてまでも彼女に会いに行った。",
+      "vi": "Anh ta đã đi gặp cô ấy dù phải nói dối bố mẹ."
+     }
+    ],
+    "meaning_vi": "Diễn tả mức độ quyết liệt: “dù phải làm V (thường là việc quá mức, không mong muốn, trái lẽ) thì cũng …”, “đến cả mức V cũng …”. Sắc thái đánh giá: thường bao hàm nhận định đó là biện pháp cực đoan, không bình thường; có thể là phê phán (tiêu cực) hoặc ca ngợi ý chí (tích cực) tùy ngữ cảnh. Trọng tâm là “mốc giới hạn” まで: người nói đặt V như ranh giới tối đa mà vẫn chấp nhận vượt qua để đạt mục tiêu. ～てまでも nhấn mạnh “ngay cả … cũng”, mang tính văn viết hơn ～てまで. Trong khẩu ngữ, ～てまで phổ biến hơn.",
+    "pattern": "Dù phải... vẫn...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e3aa8653d4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この病気は高齢者に限ったことではない。",
+      "vi": "Căn bệnh này không phải chỉ xảy ra ở người cao tuổi."
+     },
+     {
+      "ja": "SNSでの誹謗中傷は芸能人に限ったことではない。",
+      "vi": "Bôi nhọ trên mạng không phải chuyện chỉ xảy ra với nghệ sĩ."
+     }
+    ],
+    "meaning_vi": "“Không phải là chuyện chỉ riêng N” → hiện tượng/sự việc không chỉ xảy ra với N, mà mang tính phổ biến hơn. Cấu trúc: 限る (giới hạn) → 限った (đã giới hạn) + ことではない (không phải là chuyện) → “không phải chuyện bị giới hạn vào N”. Thường dùng để phản biện quan niệm “chỉ N mới…”, mở rộng phạm vi ra những đối tượng khác. Sắc thái trung lập, dùng được trong văn nói và viết. Dễ thấy trong tin tức/xã luận.",
+    "pattern": "Không chỉ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b55cf9968f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "説明が足りないので、誤解が生じた。",
+      "vi": "Do giải thích chưa đủ nên đã xảy ra hiểu lầm."
+     },
+     {
+      "ja": "成功するには、まだ練習が足りない。",
+      "vi": "Để thành công thì luyện tập vẫn chưa đủ."
+     }
+    ],
+    "meaning_vi": "- Nghĩa cơ bản: thiếu, không đủ (về thời gian, tiền, người, năng lực...). - Cấu trúc “～に足りない”: đánh giá không đáng để thực hiện một hành vi (検討・信頼・議論...). - Sắc thái: “Nが足りない” trung tính; “Nに足りない” trang trọng và phê phán.",
+    "pattern": "Không đủ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-6c0a2d09ed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "高い物が必ずしも良いとは限らない。",
+      "vi": "Đồ đắt không hẳn là tốt."
+     },
+     {
+      "ja": "日本人がみんな寿司好きとは限らない。",
+      "vi": "Không phải người Nhật nào cũng thích sushi."
+     }
+    ],
+    "meaning_vi": "Không hẳn/không phải lúc nào cũng ~; phủ định tính tất yếu/bao quát. Hay đi với 必ずしも để nhấn mạnh: 必ずしも～とは限らない. Dùng để phản biện định kiến/khái quát hóa: “A thì B” không phải lúc nào cũng đúng.",
+    "pattern": "Không hẳn là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-670324b1e4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "物価高は日本に限ったことでもない。",
+      "vi": "Giá cả leo thang đâu phải chỉ riêng Nhật."
+     },
+     {
+      "ja": "少子化は先進国に限ったことでもない。",
+      "vi": "Giảm tỷ lệ sinh đâu phải chỉ ở các nước phát triển."
+     }
+    ],
+    "meaning_vi": "Tương đương “không phải chuyện chỉ riêng N đâu”. “でもない” làm câu bớt sắc bén hơn “ではない”, mang sắc thái nhún nhường/đính chính nhẹ. Thường dùng khi xoa dịu, tránh khẳng định quá mạnh, hoặc khi nêu ví dụ phản biện.",
+    "pattern": "Không phải chỉ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0475bf12bd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "機密を漏らしたとなれば、謝罪ではすまない。",
+      "vi": "Nếu để lộ bí mật thì không thể chỉ xin lỗi mà xong."
+     },
+     {
+      "ja": "この事故は注意だけではすまない重大な問題だ。",
+      "vi": "Vụ tai nạn này nghiêm trọng, không thể chỉ cảnh cáo là xong."
+     }
+    ],
+    "meaning_vi": "Diễn tả mức độ nghiêm trọng: không thể giải quyết/chấm dứt chỉ bằng biện pháp N (xin lỗi, cảnh cáo, tiền phạt ít…). Đánh giá khách quan/hơi trang trọng; thường dùng trong tin tức, văn viết, phê bình nghiêm túc. Thường đi với các danh từ: 謝罪, 弁償, 注意, 罰金, 処分, 数量表現, この程度.",
+    "pattern": "Không thể bỏ qua...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4dee5e1610"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この映画は観る者を涙させないではおかない。",
+      "vi": "Bộ phim này ắt sẽ làm người xem rơi lệ."
+     },
+     {
+      "ja": "彼の無責任な発言は批判を招かないではおかない。",
+      "vi": "Phát ngôn vô trách nhiệm của anh ta chắc chắn sẽ chuốc lấy chỉ trích."
+     }
+    ],
+    "meaning_vi": "Khẳng định tính tất yếu: “chắc chắn sẽ dẫn đến/không thể không xảy ra hành động/biến đổi đó”. Thường dùng khi sự vật/sự kiện có sức tác động mạnh khiến người khác “không thể không” phản ứng. Sắc thái văn viết, khách quan/nhận định mạnh của người nói; không phải nghĩa “tôi buộc phải làm”. Hay đi với động từ chỉ phản ứng tâm lý-hành vi: 驚かせる, 考えさせる, 批判を招く, 物議を醸す.",
+    "pattern": "Nhất định sẽ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8ae7980f88"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あいつは約束の時間に来やしない。",
+      "vi": "Thằng đó chẳng thèm đến đúng giờ hẹn đâu."
+     },
+     {
+      "ja": "何度説明しても、彼は分かりゃしない。",
+      "vi": "Có giải thích mấy lần thì anh ta cũng chẳng hiểu đâu."
+     }
+    ],
+    "meaning_vi": "- Nhấn mạnh phủ định: “nhất quyết không/đời nào/đến chết cũng không…”. Thể hiện khó chịu, mỉa mai, phê phán. - Thường dùng trong văn nói, mang cảm xúc mạnh. Chủ thể thường là người/đối tượng bị chê trách. - Khác với ～もしないで: ～やしない không có ý “không làm rồi…” để nối mệnh đề; nó chỉ phủ định mạnh mẽ hành vi.",
+    "pattern": "Tuyệt đối không... (mỉa mai)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5728e6c02c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "田村選手は右手のけがをものともせずに戦った。",
+      "vi": "Vận động viên Tamura đã thi đấu bất chấp chấn thương ở tay phải."
+     },
+     {
+      "ja": "父親は炎をものともせずに、燃え盛る火の中から子どもを助け出した。",
+      "vi": "Người cha không hề nao núng trước ngọn lửa, cứu con mình ra khỏi đám cháy đang bùng dữ dội."
+     }
+    ],
+    "meaning_vi": "Không hề coi… là trở ngại; bất chấp…",
+    "pattern": "〜をものともせずに",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-564457c283"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "資料の正確さもさることながら、説明の分かりやすさが評価された。",
+      "vi": "Độ chính xác của tài liệu đã đáng kể, nhưng cách giải thích dễ hiểu mới được đánh giá cao."
+     },
+     {
+      "ja": "本人の語学力もさることながら、現地協力者のネットワークの広さが決め手となった。",
+      "vi": "Năng lực ngôn ngữ của bản thân đã vậy, mạng lưới cộng tác viên tại chỗ mới là yếu tố quyết định."
+     }
+    ],
+    "meaning_vi": "… đã đáng kể, … còn đáng nói hơn",
+    "pattern": "... đã đáng kể, ... còn đáng nói hơn",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-bb9779be3b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "閉架から関連文献を掘り起こしたのは、ベテラン司書ならではの選書眼だった。",
+      "vi": "Việc đào ra được tài liệu liên quan từ kho đóng là con mắt chọn sách chỉ thủ thư lão luyện mới có."
+     },
+     {
+      "ja": "このきめ細かな住民対応は、長年この地区を歩いてきた相談員ならではだ。",
+      "vi": "Cách tiếp xúc cư dân tỉ mỉ thế này đúng là chỉ có nhân viên tư vấn đã đi từng ngõ trong khu vực nhiều năm."
+     }
+    ],
+    "meaning_vi": "Đặc trưng chỉ có ở …",
+    "pattern": "Đặc trưng chỉ có ở ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5b3a5321dc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "正社員であれ契約社員であれ、安全研修の受講は義務である。",
+      "vi": "Dù nhân viên chính thức hay hợp đồng, việc dự tập huấn an toàn vẫn là nghĩa vụ."
+     },
+     {
+      "ja": "雨であろうと強風であろうと、測量の日程は動かせない。",
+      "vi": "Dù mưa hay gió mạnh, lịch đo đạc cũng không dời được."
+     }
+    ],
+    "meaning_vi": "Dù là … hay …",
+    "pattern": "Dù là ... hay ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b0c24de72f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "手順が分からなければ、規程を読み直すなり担当者に尋ねるなりして確認してほしい。",
+      "vi": "Nếu không rõ quy trình, hãy đọc lại quy chế hoặc hỏi người phụ trách mà xác nhận."
+     },
+     {
+      "ja": "空き時間は、資料室で調べるなり下書きを進めるなり、各自で使ってよい。",
+      "vi": "Giờ trống có thể dùng để tra cứu ở phòng tư liệu hoặc viết tiếp bản thảo, tùy mỗi người."
+     }
+    ],
+    "meaning_vi": "Hoặc … hoặc … (hãy chọn một cách)",
+    "pattern": "Hoặc ... hoặc ... (hãy chọn một cách)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5893f71e56"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "新配属の彼は、顧客折衝はおろか、定型の社内メールさえまだ覚束ない。",
+      "vi": "Anh mới phân công, thương lượng với khách đã đành, ngay cả thư nội bộ theo mẫu cũng còn chưa vững."
+     },
+     {
+      "ja": "その過疎集落では、専門医はおろか、常勤の看護師も確保できていない。",
+      "vi": "Ở cụm dân cư thưa ấy, bác sĩ chuyên khoa đã đành, ngay cả điều dưỡng thường trực cũng chưa tuyển được."
+     }
+    ],
+    "meaning_vi": "Huống hồ / nói chi đến …",
+    "pattern": "Huống hồ / nói chi đến ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-ef8aa4848e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "騒音の苦情は夜間にとどまらず、昼間の搬入音にまで寄せられている。",
+      "vi": "Khiếu nại về tiếng ồn không dừng ở ban đêm mà còn nhắm cả tiếng xe chuyển hàng ban ngày."
+     },
+     {
+      "ja": "その研究は基礎理論の整理にとどまらず、現場の計測手順まで提案している。",
+      "vi": "Nghiên cứu ấy không dừng ở việc sắp xếp lý thuyết cơ sở mà còn đề xuất cả quy trình đo đạc hiện trường."
+     }
+    ],
+    "meaning_vi": "Không chỉ dừng lại ở …",
+    "pattern": "Không chỉ dừng lại ở ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5905f655a4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "点検の連絡は、出勤前といわず退勤後といわず入ってくる。",
+      "vi": "Liên lạc kiểm tra tuôn đến cả trước giờ vào ca lẫn sau giờ tan, không chừa lúc nào."
+     },
+     {
+      "ja": "室内といわず廊下といわず、搬入した段ボールが通路を塞いでいた。",
+      "vi": "Trong phòng cũng như hành lang, thùng các-tông vừa chuyển vào chắn mất lối đi."
+     }
+    ],
+    "meaning_vi": "Không phân biệt … hay … / cả … lẫn …",
+    "pattern": "Không phân biệt ... hay ... / cả ... lẫn ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-16646e3cc8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この入札案件の統括は、現場経験二十年の田村課長をおいてほかにいない。",
+      "vi": "Người tổng phụ trách gói thầu này, ngoài trưởng phòng Tamura với hai mươi năm kinh nghiệm hiện trường, không còn ai khác."
+     },
+     {
+      "ja": "区の文化財修復を任せるなら、地元の漆工房をおいてほかに適当な相手はあるまい。",
+      "vi": "Nếu giao việc tu bổ di sản văn hóa của quận, ngoài xưởng sơn mài địa phương e không còn đối tác nào thích hợp."
+     }
+    ],
+    "meaning_vi": "Ngoài … ra không còn ai/gì phù hợp",
+    "pattern": "Ngoài ... ra không còn ai/gì phù hợp",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-60308ce74c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日当たりといい風通しといい、この研究室は機材の保管に向いている。",
+      "vi": "Xét ánh sáng cũng như thông gió, phòng thí nghiệm này hợp để cất thiết bị."
+     },
+     {
+      "ja": "字の丁寧さといい構成といい、今期の報告書は以前より格段に読みやすい。",
+      "vi": "Chữ viết cẩn thận cũng như bố cục, báo cáo kỳ này dễ đọc hơn hẳn trước."
+     }
+    ],
+    "meaning_vi": "Xét về … cũng như về …",
+    "pattern": "Xét về ... cũng như về ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5ee574f221"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は悪天候をものともせずに、山頂を目指した。",
+      "vi": "Anh ấy hướng tới đỉnh núi bất chấp thời tiết xấu."
+     },
+     {
+      "ja": "多くの批判をものともせずに、彼女は改革を進めた。",
+      "vi": "Bất chấp muôn vàn chỉ trích, cô ấy vẫn thúc đẩy cải cách."
+     }
+    ],
+    "meaning_vi": "“Bất chấp/không coi là gì” – biểu thị thái độ không nao núng trước nghịch cảnh. Sắc thái mạnh, văn vẻ; dùng khi đánh giá cao tinh thần vượt khó. Không áp dụng cho yếu tố tích cực; chỉ kết hợp với tác nhân tiêu cực/bất lợi.",
+    "pattern": "Bất chấp...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-bd8dd7fcfd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "勉強しては寝て、寝ては勉強する日々です。",
+      "vi": "Ngày nào cũng học rồi ngủ, ngủ rồi lại học."
+     },
+     {
+      "ja": "運動しては食べ、食べては運動する生活が続いている。",
+      "vi": "Cuộc sống cứ tập rồi ăn, ăn rồi lại tập cứ thế tiếp diễn."
+     }
+    ],
+    "meaning_vi": "Ý nghĩa: Diễn tả hai hành động hoặc trạng thái xảy ra liên tiếp và lặp lại nhiều lần theo chu kỳ. Dịch tự nhiên là: “cứ A rồi lại B, B rồi lại A”. Tính vòng lặp (反復・交替): Hai hành động đối ngược hoặc nối tiếp liên tiếp, lặp đi lặp lại. Sắc thái: Miêu tả cuộc sống đơn điệu, tình trạng kéo dài không thay đổi hoặc mang chút than phiền, mệt mỏi. Tính hình tượng: Thường dùng trong văn viết, nhật ký, diễn đạt nhịp sống, thời tiết, thói quen lặp.",
+    "pattern": "Cứ... thì... (kết xấu)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4d8291c74d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "公共の場でのあの態度は非常識極まる。",
+      "vi": "Thái độ đó nơi công cộng thật vô cùng thiếu ý thức."
+     },
+     {
+      "ja": "そんなことを言うなんて失礼極まる。",
+      "vi": "Nói điều như vậy thì vô lễ tột độ."
+     }
+    ],
+    "meaning_vi": "- Chỉ mức độ tột cùng của một tính chất (thường tiêu cực): “vô cùng/… tột độ”. - Sử dụng khi người nói đưa ra phán xét mạnh; thường gặp trong văn viết, bình luận. - Kết hợp tốt với từ Hán Nhật mang sắc thái đánh giá: 失礼, 無礼, 非常識, 危険, 愚劣, 不便, 不快...",
+    "pattern": "Cực độ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a74d615d93"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "公共の場でのその発言は、失礼極まりない。",
+      "vi": "Phát ngôn đó nơi công cộng là cực kỳ vô lễ."
+     },
+     {
+      "ja": "素人が単独で登頂を試みるのは危険極まりない。",
+      "vi": "Người không chuyên tự leo đỉnh là cực kỳ nguy hiểm."
+     }
+    ],
+    "meaning_vi": "- Nghĩa: “cực kỳ/tột độ”, nhấn phán xét cảm tính mạnh (thường tiêu cực: vô lễ, nguy hiểm, dại dột…). Sắc thái trang trọng, văn viết; mạnh hơn とても/非常に, gần nghĩa “quá đỗi/không thể chấp nhận”. Thường đi với tập hợp từ cố định: 失礼／不便／危険／不快／残念／愚か＋極まりない. Dùng với tích cực cũng được (嬉しいこと極まりない) nhưng ít và văn vẻ.",
+    "pattern": "Cực kỳ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-ca77c73f60"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "注意しても聞かず、期限も守らず、会社に損害まで与える始末だ。",
+      "vi": "Nhắc nhở cũng không nghe, hạn cũng không giữ, đến mức còn gây thiệt hại cho công ty."
+     },
+     {
+      "ja": "ギャンブルにのめり込み、借金する始末だ。",
+      "vi": "Mê cờ bạc đến nỗi đi vay nợ, rốt cuộc là như vậy."
+     }
+    ],
+    "meaning_vi": "Diễn đạt kết cục xấu sau hàng loạt vấn đề: “đến mức…”, “rốt cuộc lại…”. Sắc thái chê trách/hài lòng tiêu cực của người nói; không dùng cho kết quả tốt. Thường đi kèm các từ ngữ như ついには・とうとう・あげく・結局 để nhấn mạnh “cuối cùng thì”.",
+    "pattern": "Cuối cùng thì... (kết xấu)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f1c395aff1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "重要な商談中は、一秒たりとも気を抜いてはならない。",
+      "vi": "Trong lúc đàm phán quan trọng, dù chỉ một giây cũng không được lơ là."
+     },
+     {
+      "ja": "研究費は一円たりとも私的に使ってはならない。",
+      "vi": "Kinh phí nghiên cứu dù chỉ một yên cũng không được sử dụng cho mục đích cá nhân."
+     }
+    ],
+    "meaning_vi": "Nhấn mạnh mức độ tuyệt đối: “dù chỉ một … cũng không/không được”. Thường kết hợp với con số nhỏ nhất, diễn tả tính nghiêm ngặt, kỷ luật, cảnh giác. Văn phong cứng, trang trọng; hay dùng trong quy định, phát biểu chính thức.",
+    "pattern": "Dù chỉ... cũng không",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c356ef02df"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女に会っては、いつも緊張してしまいます。",
+      "vi": "Mỗi lần gặp cô ấy là tôi lại hồi hộp."
+     },
+     {
+      "ja": "忙しい時期になると、この曲を聞いては気持ちを落ち着かせる。",
+      "vi": "Vào thời kỳ bận rộn, cứ nghe bản nhạc này là tôi lại bình tâm."
+     }
+    ],
+    "meaning_vi": "Ý nghĩa: Diễn tả tình huống “ hễ/mỗi lần A xảy ra thì B” – trong đó A là tác nhân kích hoạt (trigger), B là phản ứng/kết quả lặp lại, thường là cảm xúc hay trạng thái tự nhiên ngoài chủ ý. Tính lặp: Hành vi/hoàn cảnh A lặp nhiều lần trong thực tế; mỗi lần lặp đều kéo theo phản ứng B. Sắc thái: Tự nhiên, thói quen; hay dùng cho tâm lý (“cứ gặp là hồi hộp”, “cứ nghe là nhớ nhà”). Khác với kiểu “luân phiên A rồi B” mang tính chu kỳ đối xứng. Ngữ dụng: Dùng khi người nói muốn nhấn mạnh tính chắc chắn của phản ứng mỗi lần có kích hoạt.",
+    "pattern": "Hễ... là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d071ce5c18"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "条件次第では、受け入れないものでもない。",
+      "vi": "Tuỳ điều kiện, cũng không phải là không chấp nhận."
+     },
+     {
+      "ja": "少しなら手伝えないものでもない。",
+      "vi": "Nếu một chút thì tôi cũng có thể giúp."
+     }
+    ],
+    "meaning_vi": "“Không phải là không…”, “Cũng có thể…/không hẳn là không…”. Khẳng định yếu, dè dặt, thường kèm điều kiện, ngoại lệ. Dùng để mở đường thương lượng, bày tỏ khả năng chấp nhận trong một số điều kiện.",
+    "pattern": "Không phải là không...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f8fddd1571"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ご支援いただき、ありがたい限りです。",
+      "vi": "Tôi vô cùng biết ơn vì đã nhận được sự hỗ trợ."
+     },
+     {
+      "ja": "結果が期待外れで、残念な限りだ。",
+      "vi": "Kết quả không như mong đợi, đáng tiếc vô cùng."
+     }
+    ],
+    "meaning_vi": "- Dùng để nhấn mạnh cảm xúc chủ quan ở mức tột độ: “vô cùng/rất/… hết sức”. - Trang trọng hơn so với とても/本当に; phổ biến trong bài phát biểu, thư từ, tin tức trang trọng. - Chủ yếu dùng cho cảm xúc người nói hiện tại hoặc sau khi nghe tin tức/sự kiện.",
+    "pattern": "Rất... vô cùng",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fdae1a2c4b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子どものこととて、どうか大目に見てください。",
+      "vi": "Vì cháu còn là trẻ con, mong hãy rộng lượng bỏ qua."
+     },
+     {
+      "ja": "初めてのこととて、手際が悪く失礼いたしました。",
+      "vi": "Vì là lần đầu nên tôi xử lý chưa khéo, xin thất lễ."
+     }
+    ],
+    "meaning_vi": "～こととて mang nghĩa “vì/ do là … nên …”, dùng để nêu lý do mang tính hoàn cảnh, cầu xin sự thông cảm/miễn thứ. Đây là lối nói cổ điển, trang trọng, thường thấy trong văn viết, lời xin lỗi, thông báo. Thường đi với N chỉ tình thế: 子ども, 初めて, 不慣れ, 急用, 留守, 多忙. Sau ～こととて thường là mệnh đề xin cảm thông, diễn đạt kết quả khó tránh. Ít dùng trong hội thoại đời thường; thay bằng ～ものですから, ～もので, ～ため. Không dùng trực tiếp cho mệnh lệnh/quyết tâm mạnh; thích hợp với xin phép, xin lỗi, giải thích.",
+    "pattern": "Vì... nên... (không tránh được)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e061592dff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の歌唱力もさることながら、表現力が圧倒的だ。",
+      "vi": "Không chỉ giọng hát của anh ấy ấn tượng, mà khả năng biểu đạt còn áp đảo."
+     },
+     {
+      "ja": "立地もさることながら、アフターサービスの良さが評判だ。",
+      "vi": "Không chỉ vị trí, mà dịch vụ hậu mãi tốt cũng nổi tiếng."
+     }
+    ],
+    "meaning_vi": "“Không chỉ A đáng kể, mà B còn hơn thế.” Nâng A lên trước, rồi chuyển trọng tâm sang B. Sắc thái lịch sự, quảng cáo/giới thiệu/đánh giá trang trọng; thường tích cực, nhưng cũng dùng được với tiêu cực. Phần sau là trọng tâm thông tin; tránh đặt nội dung quan trọng ở A.",
+    "pattern": "... cũng đã đành, ... còn...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b96f11b470"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "安くておいしいときているから、行列ができないわけがない。",
+      "vi": "Đã rẻ lại ngon, bảo sao không có xếp hàng."
+     },
+     {
+      "ja": "彼は頭がよくて努力家ときているので、結果を出すのも当然だ。",
+      "vi": "Anh ấy vừa giỏi lại chăm, nên ra kết quả cũng là điều đương nhiên."
+     }
+    ],
+    "meaning_vi": "- Nêu một đặc điểm/hoàn cảnh “đã thế lại còn…”, biểu thị đó là điều kiện rất thuận/không thuận dẫn đến hệ quả dễ hiểu. Mang sắc thái cảm thán, đôi khi mỉa, phàn nàn hoặc khâm phục. Thường liệt kê 2+ ưu/nhược điểm rồi kết luận “bảo sao…/thảo nào…”. Đi kèm から/ので/ものだから/のに để nối hệ quả. Chủ yếu với N/Adj hoặc cụm trạng thái (Aくて/Bで/Cも… + ときている).",
+    "pattern": "Đến mức là... (khen/chê)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b24740322d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "子どもといえども、他人に危害を加えてはならない。",
+      "vi": "Dù là trẻ con cũng không được gây hại cho người khác."
+     },
+     {
+      "ja": "いかに忙しいといえども、健康管理を怠ってはならない。",
+      "vi": "Dù bận đến đâu cũng không được lơ là sức khỏe."
+     }
+    ],
+    "meaning_vi": "- Mẫu nhượng bộ trang trọng: “Dù/cho dù … thì (cũng) …”. Nêu một thực tế/điều kiện mạnh, nhưng mệnh đề sau phủ định kỳ vọng hoặc khẳng định nguyên tắc không đổi. Tính trang trọng cao (văn viết, diễn văn, bài luận, tin tức). Thường dùng với N chỉ địa vị, thuộc tính chung: 天才・プロ・子ども・政府・法律… để nói “dù là … thì cũng không ngoại lệ”. Phó từ đi kèm hay gặp: たとえ, いかに, どれほど, 誰・何・いつ + といえども (ai/cái gì/khi nào đi nữa…). Mệnh đề sau thường mang phán đoán chuẩn mực, mệnh lệnh cứng, hoặc điều không thay đổi.",
+    "pattern": "Dù là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e862e4276f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "欠点を挙げたらきりがないから、このくらいでやめよう。",
+      "vi": "Nếu mà liệt kê khuyết điểm thì chẳng có hồi kết, dừng ở đây nhé."
+     },
+     {
+      "ja": "心配し始めたらきりがないよ。まずやってみよう。",
+      "vi": "Nếu mà bắt đầu lo thì lo hoài. Cứ làm thử trước đã."
+     }
+    ],
+    "meaning_vi": "Mẫu ～たらきりがない diễn tả: “Nếu mà (nói/kể/lo/đòi hỏi…) thì sẽ vô tận, không có hồi kết”. Thường dùng để kết thúc chủ đề, giảm sa đà, hoặc nhấn mạnh tính vô hạn của vấn đề. “きりがない” = “không có ranh giới/điểm dừng”. Nhấn mạnh tính vô hạn theo chiều liệt kê, lo lắng, tham muốn. Thường xuất hiện sau các động từ gợi mở chuỗi: 言い出す, 挙げる, 数え上げる, こだわる, 心配する.",
+    "pattern": "Kể ra thì vô số",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a5c45b57b1"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N1",
+ "packet_id": "GRAMMAR_CORE-007"
+}

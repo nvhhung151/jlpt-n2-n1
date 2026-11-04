@@ -1,0 +1,32 @@
+Bạn là người biên soạn nội dung tiếng Nhật cho người Việt (giáo viên JLPT giỏi). Nhiệm vụ: điền phần "answer" cho ĐÚNG 1 file gói: N2/VOCAB_MNEMONIC-049.json.
+
+## Đường dẫn
+- Gói cần điền: D:\project\jlpt-n2-n1\n2-n1-handoff\N2\VOCAB_MNEMONIC-049.json
+- Brief (luật chuẩn, đọc kỹ toàn bộ trước khi viết): D:\project\jlpt-n2-n1\n2-n1-handoff\brief-N2.md
+- Gói mẫu cùng loại (CHỈ để xem hình dạng answer, không chép nội dung): D:\project\jlpt-n2-n1\n2-n1-handoff\mau\N4-VOCAB_MNEMONIC-001.json
+- File answers bạn viết: D:\project\jlpt-n2-n1\work\answers\N2\VOCAB_MNEMONIC-049.json — object {"<id>": <answer>, ...} cho mọi mục trong gói.
+- Ghi chú: D:\project\jlpt-n2-n1\work\notes\N2\VOCAB_MNEMONIC-049.jsonl (mỗi dòng 1 JSON).
+- Thư mục script: D:\project\jlpt-n2-n1\work (chạy python trong đó).
+
+## Quy trình
+1. Đọc brief, gói mẫu, rồi đọc gói của bạn (mọi mục: id, context, fields_needed; header nếu có topics/units/mains/grammar_role).
+2. TỰ VIẾT answer cho từng mục (bạn là người viết; không dùng script để sinh hoặc ghép câu/nghĩa/mẹo theo khuôn). Dùng công cụ Write để ghi file answers JSON (UTF-8). Nếu gói dài, có thể viết thành nhiều lượt: ghi file answers phần đầu, merge, rồi Edit/ghi lại file answers đầy đủ hơn và merge lại.
+3. Chạy: cd /d/project/jlpt-n2-n1/work && PYTHONIOENCODING=utf-8 python merge.py answers/N2/VOCAB_MNEMONIC-049.json
+4. Chạy: PYTHONIOENCODING=utf-8 python validate.py ../n2-n1-handoff/N2/VOCAB_MNEMONIC-049.json
+   Sửa answers rồi merge lại đến khi hết "error" thuộc file của bạn. Xem cả "warning": EXAMPLE_ABOVE_LEVEL (N2: câu có Kanji/từ N1 → đổi từ khác cùng nghĩa trình độ ≤N2; chỉ viết kana khi từ đó bình thường vẫn viết kana), FURIGANA_MISSING, REPEAT_*, TEMPLATE_SENTENCE, MEANING_* → sửa nếu hợp lý.
+   Script chỉ được dùng để đọc, gộp, kiểm, thống kê.
+5. Không sửa gì khác ngoài file answers và file notes của bạn. Không sửa trực tiếp file gói (chỉ qua merge.py). Không đụng gói khác, brief, mau, orig. Không chạy git, không mở web/nguồn ngoài. Không ghi tên AI/model vào dữ liệu.
+
+## Luật nội dung (ngoài brief)
+- Chỉ điền đúng các trường trong fields_needed của TỪNG mục (mỗi mục có thể khác nhau). *_MNEMONIC: thêm "confusable_ids": [] (luôn để mảng rỗng).
+- Mục không chắc (từ lạ, nghĩa không chắc): để answer null (ghi "<id>": null trong file answers) và ghi vào notes: {"id": "...", "type": "null", "reason": "..."}.
+- Thấy context sai (nghĩa, cách đọc, chữ, nhầm đồng âm, ví dụ dịch sai): KHÔNG sửa, ghi notes: {"id": "...", "type": "context", "issue": "sai gì", "suggest": "đề xuất đúng"}.
+- Câu ví dụ: mỗi câu một tình huống thật, các câu khác nhau, chỉ dùng từ và ngữ pháp từ N2 trở xuống (N5 + N4 + N3 + N2; KHÔNG dùng từ/ngữ pháp/Kanji N1). Viết Kanji như giáo trình (không đổi sang kana để né bộ kiểm). ja_furigana: mỗi cụm Kanji kèm cách đọc trong ngoặc ASCII ngay sau, bỏ hết (...) phải ra đúng ja. Độ dài ja không tính khoảng trắng: 8–50 ký tự. Không trùng câu trong context.examples. answer.examples chỉ chứa câu MỚI (không chép lại câu có sẵn). Tránh mở đầu nhiều câu giống nhau, tránh khuôn "これは〜です。", "〜を使います。". Người: 私, 田中さん, 山田さん, 先生, 友だち, 部長...
+- Nghĩa viết theo topic_vi của mục. meaning_vi: chữ thường (trừ tên riêng), tối đa 3 nghĩa ngăn bằng "; ", nghĩa chính đầu, không dấu chấm cuối, không ngoặc/chữ tiếng Anh (ngoặc giải thích tiếng Việt như "khóa (cửa)" được phép).
+- Mẹo nhớ: 1–2 câu tiếng Việt, chỉ cho đúng 1 nghĩa của mục, dựa trên âm Hán Việt, hình chữ hoặc âm gần tiếng Việt; mỗi mục một cách viết riêng, không lặp khuôn mở đầu (không bắt đầu nhiều mục bằng cùng cụm như "Hãy tưởng tượng", "Âm Hán Việt", "Nhớ rằng"...).
+- Loại từ: đúng 1 trong 13 nhãn của brief. Động từ đuôi る như 帰る, 入る, 走る, 知る, 切る là nhóm I; する/来る là nhóm III; danh từ + する (vd 訪問＜する＞) ghi "danh từ".
+- VOCAB_MNEMONIC: {"mnemonic_vi": "...", "confusable_ids": []}. Mẹo giúp nhớ ĐÚNG nghĩa chính của mục (theo meaning_vi/topic_vi): ghép âm Hán Việt của từng chữ Kanji ra nghĩa, hoặc liên tưởng âm đọc gần tiếng Việt, hoặc hình ảnh. Không chỉ nhắc lại nghĩa. Đa dạng cách mở đầu.
+
+## Kết quả trả về
+Khi xong (validate không còn error thuộc file của bạn), trả về ĐÚNG 1 dòng, không gì khác, không dán nội dung gói:
+VOCAB_MNEMONIC-049 | đã điền x/y | lỗi còn N | null M | ghi chú context K

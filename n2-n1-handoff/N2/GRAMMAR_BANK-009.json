@@ -1,0 +1,262 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "連絡先が分からないので、知らせようがない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không còn cách nào — Muốn làm cũng không có cách nào thực hiện.",
+    "pattern": "様(よう)がない",
+    "pattern_variants": [
+     "V thể ます (bỏ ます) + ようがない"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-df00d02bd4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この不況では大手企業の倒産もあり得る",
+      "vi": "Trong tình huống suy thoái kinh tế này thì công ty lớn cũng có thể phá sản."
+     },
+     {
+      "ja": "あのまじめな彼が犯人！？ そんなことはあり得ない。",
+      "vi": "Người chính trực như anh ấy là thủ phạm sao! Không thể có chuyện đó được."
+     }
+    ],
+    "meaning_vi": "Có khả năng",
+    "pattern": "得(え)る",
+    "pattern_variants": [
+     "〜得る",
+     "V thể ます (bỏ ます) + 得る / 得ない"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-55be0484f3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "〈銀行の両替機を使って〉",
+      "vi": "〈Dùng máy đổi tiền của ngân hàng〉"
+     },
+     {
+      "ja": "A: おかしいなあ。100円足りない。",
+      "vi": "A: Lạ quá. Thiếu 100 yên。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "得(え)ない",
+    "pattern_variants": [
+     "〜得ない"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8a99154124"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "割(わり)に",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-248bff19fa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A: このイタリア製の靴、10万円だって。",
+      "vi": "A: Đôi giày sản xuất ở Ý này giá 100.000 yên đấy。"
+     },
+     {
+      "ja": "B: へー。でも、高いだけのことはあるね。形も色もすごくいい。",
+      "vi": "B: Ồ。Nhưng đúng là xứng với giá. Cả kiểu dáng lẫn màu đều rất đẹp。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜だけのことはある",
+    "pattern_variants": [
+     "だけのことはある",
+     "Thể thường + だけのことはある"
+    ],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3d5aec3c0e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "髪を茶色に染めることなど、私にしたら何でもないことだが、祖父母にすれば許せないことらしい。",
+      "vi": "Việc nhuộm màu tóc nâu, với tôi thì chẳng có gì, nhưng trên lập trường của ông bà thì đó là điều không thể tha thứ."
+     },
+     {
+      "ja": "会社の経験が苦しいことがわかっているので、組合側にしても大幅な賃金アップは要求できないだろう。",
+      "vi": "Vì hiểu được rằng việc kinh doanh của công ty đang gặp khó khăn nên có vẻ ngay cả với công đoàn thì việc yêu cầu tăng tiền công nhiều cũng không thể."
+     }
+    ],
+    "meaning_vi": "Đối lập, đứng trên lập trường",
+    "pattern": "にしたら",
+    "pattern_variants": [
+     "〜にしたら/すれば/しても"
+    ],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7fd1a327d3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "にして + 見(み)れば",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 19
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0c3c3e8eee"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "母は朝出かけたきり、夜になっても帰ってこない。",
+      "vi": "Mẹ tôi đi ra ngoài suốt từ sáng, đã tối rồi vẫn chưa thấy về."
+     },
+     {
+      "ja": "今日は忙しくて昼ご飯を食べる時間もなかった。朝牛乳を飲んだきりだ。",
+      "vi": "Hôm nay tôi bận rộn đến mức không có thời gian ăn cơm. Buổi sáng tôi chỉ uống chút sữa thôi."
+     }
+    ],
+    "meaning_vi": "Kể từ, sau khi",
+    "pattern": "〜きり",
+    "pattern_variants": [
+     "きり"
+    ],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8063225e20"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "さんざん迷ったあげく、何も買わなかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Sau bao nhiêu rốt cuộc — Sau một quá trình dài loay hoay thì dẫn tới kết quả, thường không tốt.",
+    "pattern": "挙句(あげく)",
+    "pattern_variants": [
+     "V-た / N の + あげく",
+     "〜あげく"
+    ],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-9f9f613812"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜た末(すえ)",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 20
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c618bda8fe"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-009"
+}

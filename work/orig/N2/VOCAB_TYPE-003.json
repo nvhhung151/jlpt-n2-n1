@@ -1,0 +1,717 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "せっかく美容院で結ってもらった髪が、雨で台無しになってしまった。",
+      "vi": "Mái tóc tôi đã mất công nối ở tiệm, vậy mà lại rối tung lên vì mưa."
+     },
+     {
+      "ja": "「君たちのけんかのせいで、パーティーが台無しだ。」",
+      "vi": "\"Do các bạn cãi nhau mà bữa tiệc thành mớ hỗn loạn.\""
+     }
+    ],
+    "expression": "台無し",
+    "meaning_vi": "hỏng bét; đổ sông đổ biển; hỏng hết",
+    "reading": "だいなし",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-bc979fc00d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は今でも、私をいじめた同級生を恨んでいる。",
+      "vi": "Đến giờ tôi vẫn căm hận người bạn cùng lớp đã bắt nạt tôi."
+     }
+    ],
+    "expression": "恨む",
+    "meaning_vi": "oán hận; hận; căm ghét",
+    "reading": "うらむ",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-86c02f80c3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "仲間外れ",
+    "meaning_vi": "",
+    "reading": "なかまはずれ",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-61e74a4f88"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "あいつ",
+    "meaning_vi": "",
+    "reading": "あいつ",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c3fd6c5610"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "賃貸",
+    "meaning_vi": "cho thuê",
+    "reading": "ちんたい",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-80f1a66a14"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "吉田選手はレースのたびに日本記録を更新している。",
+      "vi": "Vận động viên Yoshida liên tục phá kỷ lục Nhật mỗi lần thi đấu."
+     },
+     {
+      "ja": "アパートの賃貸契約を更新する。",
+      "vi": "Gia hạn hợp đồng thuê nhà."
+     },
+     {
+      "ja": "{運転免許／ビザ／ブログ．．．｝の更新",
+      "vi": "Gia hạn (bằng lái xe / visa / blog…)"
+     }
+    ],
+    "expression": "更新＜する＞",
+    "meaning_vi": "cập nhật; gia hạn; đổi mới",
+    "reading": "こうしん＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-19cb009de4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "マイホーム",
+    "meaning_vi": "nhà (của tôi - phân biệt với nhà thuê); nhà riêng",
+    "reading": "まいほーむ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c8badbcb8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "我が家",
+    "meaning_vi": "nhà mình; gia đình tôi; nhà chúng ta",
+    "reading": "わがや",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6a7968b21b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "空間",
+    "meaning_vi": "không gian",
+    "reading": "くうかん",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5e11398598"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "温もり",
+    "meaning_vi": "",
+    "reading": "あたたもり",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a189fe30c7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この家具は頑丈にできているから、100年でももつだろう。",
+      "vi": "Món đồ nội thất này được làm cực kỳ chắc chắn, có thể dùng tới cả trăm năm."
+     },
+     {
+      "ja": "頑丈な｛家／ドア／体つき．．．｝",
+      "vi": "(Nhà / cửa / vóc dáng) vững chắc, kiên cố"
+     }
+    ],
+    "expression": "頑丈な",
+    "meaning_vi": "chắc chắn; mạnh mẽ",
+    "reading": "がんじょうな",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c40d37af06"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "点検＜する＞",
+    "meaning_vi": "kiểm tra từng điểm; kiểm tra; bảo dưỡng",
+    "reading": "てんけん＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1d0abb89fe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そのスーパーは停電のため、営業を停止した。",
+      "vi": "Mất điện nên siêu thị tạm dừng hoạt động."
+     },
+     {
+      "ja": "踏切では車は一時停止なければならない。",
+      "vi": "Ở chắn tàu, xe phải dừng tạm thời."
+     },
+     {
+      "ja": "A 選手はドーピングで出場停止処分を受けた。",
+      "vi": "VĐV A bị cấm thi đấu vì doping."
+     }
+    ],
+    "expression": "停止＜する＞",
+    "meaning_vi": "dừng lại; tạm dừng; dừng",
+    "reading": "ていし＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-27d515f850"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "防犯",
+    "meaning_vi": "phòng chống tội phạm",
+    "reading": "ぼうはん",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4c2e6937c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぞっと＜する＞",
+    "meaning_vi": "",
+    "reading": "ぞっと＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-824996f339"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "警備＜する＞",
+    "meaning_vi": "canh gác; bảo vệ",
+    "reading": "けいび＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-770281f652"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "新築＜する＞",
+    "meaning_vi": "nhà xây mới; mới xây dựng",
+    "reading": "しんちく＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cfcce6fd78"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "收入",
+    "meaning_vi": "",
+    "reading": "しゅうにゅう",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8432d9eb59"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "納める",
+    "meaning_vi": "nộp (thuế; tiền); cất vào",
+    "reading": "おさめる",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-76ca27f125"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "今期の授業料を銀行に払い込んだ。",
+      "vi": "Tôi đã nộp học phí kỳ này ở ngân hàng."
+     }
+    ],
+    "expression": "払い込む",
+    "meaning_vi": "nộp tiền vào; trả vào; nộp tiền",
+    "reading": "はらいこむ",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9e6bc0954c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "引き落とし",
+    "meaning_vi": "trích tiền tự động từ tài khoản",
+    "reading": "ひきおとし",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ba04a017e1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "手数料",
+    "meaning_vi": "lệ phí; phí dịch vụ",
+    "reading": "てすうりょう",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d4d11cb0eb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "出し入れ＜する＞",
+    "meaning_vi": "việc rút và gửi (tiền)",
+    "reading": "だしいれ＜する＞",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-64339d5eef"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "残高",
+    "meaning_vi": "số dư",
+    "reading": "ざんだか",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c0ccb0535a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大まかな",
+    "meaning_vi": "",
+    "reading": "おおまかな",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8ce76bae92"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "給料から税金や保険料を差し引くと、手取りは18万円ほどだ。",
+      "vi": "Sau khi trừ thuế và bảo hiểm từ lương, số tiền thực nhận khoảng 180,000 yên."
+     }
+    ],
+    "expression": "差し引く",
+    "meaning_vi": "trừ đi; khấu trừ; trừ",
+    "reading": "さしひく",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d0933e795f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "できるかぎり問題の解決に努めたい。",
+      "vi": "Tôi muốn cố gắng hết sức để giải quyết vấn đề."
+     },
+     {
+      "ja": "心配ごとがあっても、努めて明るく振舞った。",
+      "vi": "Dù có lo lắng, tôi vẫn cố tỏ ra vui vẻ."
+     }
+    ],
+    "expression": "努める",
+    "meaning_vi": "nỗ lực; cố gắng",
+    "reading": "つとめる",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-07e64b6038"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "立て替える",
+    "meaning_vi": "tạm ứng; ứng trước; trả cước",
+    "reading": "たてかえる",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e7e612a631"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "返済＜する＞",
+    "meaning_vi": "trả nợ; hoàn trả",
+    "reading": "へんさい＜する＞",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4edb60f937"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "好き嫌い",
+    "meaning_vi": "sự kén chọn; kén ăn; ý thích yêu ghét",
+    "reading": "すききらい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-45c6344df3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "好物",
+    "meaning_vi": "món yêu thích",
+    "reading": "こうぶつ",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-85bd5fdb85"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "物足りない",
+    "meaning_vi": "thấy còn thiếu thiếu; chưa đã; thiếu thiếu",
+    "reading": "ものたりない",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-bcd24e39e4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この食堂は、安くてボリュームのある食事を出すので学性に人気がある。",
+      "vi": "Nhà ăn này có các phần ăn rẻ mà no, nên rất được sinh viên yêu thích."
+     },
+     {
+      "ja": "私は髪のボリュームが少ないので、ヘアスタイルには気を遣っている。",
+      "vi": "Tóc tôi ít nên tôi rất chú trọng đến kiểu tóc."
+     },
+     {
+      "ja": "「声が聞こえにくいので、マイクのボリュームを上げてください。」",
+      "vi": "“Khó nghe thấy giọng nói, xin hãy tăng âm lượng micro lên.”"
+     }
+    ],
+    "expression": "ボリューム",
+    "meaning_vi": "lượng (phần ăn); âm lượng; số lượng (nhiều hay ít)",
+    "reading": "ぼりゅーむ",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4b95d69ca3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一口",
+    "meaning_vi": "một miếng",
+    "reading": "ひとくち",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e3cb6c05f5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ひとたび",
+    "meaning_vi": "một khi; một lần",
+    "reading": "ひとたび",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-da977d2f42"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "いける",
+    "meaning_vi": "khá; giỏi (ở lĩnh vực nào đó); được",
+    "reading": "いける",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e02cdd83a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お茶の葉を入れすぎて、お茶が渋くなってしまった。",
+      "vi": "Cho quá nhiều lá trà nên trà bị đắng chát."
+     },
+     {
+      "ja": "母は好んで渋い色の着物を着ている。",
+      "vi": "Mẹ tôi thích mặc kimono màu trầm."
+     },
+     {
+      "ja": "姉が大学院に進学したいと言うと、父は渋い顔をした。",
+      "vi": "Khi chị tôi nói muốn học cao học, mặt bố tôi sầm lại."
+     }
+    ],
+    "expression": "渋い",
+    "meaning_vi": "chát; trầm mà có gu; khó chịu (nét mặt)",
+    "reading": "しぶい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b13a1d02ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの先生の注意はいつもくどくてうんざりする。",
+      "vi": "Nhắc nhở của thầy/cô lúc nào cũng dài dòng, nghe chán phát ngán."
+     },
+     {
+      "ja": "あの作家の文章はくどい。",
+      "vi": "Văn của tác giả đó dài dòng."
+     },
+     {
+      "ja": "この料理くどくて好きではない。",
+      "vi": "Món này ngấy quá nên tôi không thích."
+     }
+    ],
+    "expression": "諄い",
+    "meaning_vi": "dài dòng; quá ngấy; lắm lời",
+    "reading": "くどい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3e285efa82"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ファミレス",
+    "meaning_vi": "nhà hàng gia đình",
+    "reading": "ふぁみれす",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1a930e68a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "フルコース",
+    "meaning_vi": "bữa ăn đầy đủ các món (từ khai vị đến tráng miệng); bữa ăn đầy đủ các món",
+    "reading": "ふるこーす",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0a5ae92aaa"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-003"
+}

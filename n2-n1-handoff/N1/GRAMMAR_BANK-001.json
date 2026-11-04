@@ -1,0 +1,291 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "忙しくて食事をとる時間すらない。",
+      "vi": "Tôi bận đến mức ngay cả thời gian ăn uống cũng không có."
+     },
+     {
+      "ja": "そんな簡単なこと、子どもですらできる。",
+      "vi": "Việc đơn giản như thế thì đến trẻ con cũng làm được."
+     }
+    ],
+    "meaning_vi": "Nêu một trường hợp cực đoan hoặc ngoài dự kiến để ngầm khẳng định những trường hợp thông thường thì càng đúng. Mẫu thường mang sắc thái nhấn mạnh và hơi thiên về văn viết.",
+    "pattern": "〜すら",
+    "pattern_variants": [
+     "N + すら"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-852f6e7919"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この不況下にあって、A社はなお大幅な黒字を出している。",
+      "vi": "Ngay trong thời kỳ suy thoái này, công ty A vẫn tạo ra khoản lợi nhuận lớn."
+     },
+     {
+      "ja": "現代のような高度情報化社会にあっては、自分のプライバシーは自分で守るしかない。",
+      "vi": "Trong một xã hội thông tin hóa cao độ như hiện nay, không còn cách nào khác ngoài việc tự mình bảo vệ quyền riêng tư của mình."
+     }
+    ],
+    "meaning_vi": "Trong/ở giữa một hoàn cảnh hay tình thế đặc biệt...",
+    "pattern": "〜にあって",
+    "pattern_variants": [
+     "N + にあって"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a24de28df6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "西村氏は本日をもって退職されます。",
+      "vi": "Ông Nishimura sẽ nghỉ việc kể từ hôm nay."
+     },
+     {
+      "ja": "当店は今月いっぱいをもって閉店させていただきます。",
+      "vi": "Cửa hàng chúng tôi xin phép đóng cửa vào cuối tháng này."
+     }
+    ],
+    "meaning_vi": "Lấy ～ làm mốc kết thúc hoặc phân định; kết thúc vào/tại ～.",
+    "pattern": "〜をもって",
+    "pattern_variants": [
+     "N + をもって"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-9c5893360f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼はベルが鳴るが早いか、教室を飛び出した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vừa mới là đã — Việc sau xảy ra gần như đồng thời, nhanh đến bất ngờ.",
+    "pattern": "が早(はや)いか",
+    "pattern_variants": [
+     "V từ điển + が早いか",
+     "〜が早いか"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f6e67c5948"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "空が暗くなるや否や大粒の雨が降り始めた。",
+      "vi": "Trời vừa tối sầm thì những hạt mưa lớn bắt đầu rơi."
+     },
+     {
+      "ja": "先生が教室に入るやいなや、学生たちはおしゃべりをやめた。",
+      "vi": "Thầy giáo vừa bước vào lớp thì học sinh lập tức ngừng nói chuyện."
+     }
+    ],
+    "meaning_vi": "Vừa mới… thì ngay lập tức…",
+    "pattern": "や否(いな)や",
+    "pattern_variants": [
+     "〜や否や/〜や"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d7e74a1ec4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本へ来てからというもの、国にいる友達とは一度も連絡をとっていない。",
+      "vi": "Kể từ khi sang Nhật, tôi chưa một lần liên lạc với những người bạn ở quê nhà."
+     },
+     {
+      "ja": "母は70を過ぎてからというもの、すっかり物覚えが悪くなった。",
+      "vi": "Kể từ khi qua tuổi bảy mươi, trí nhớ của mẹ tôi sa sút hẳn."
+     }
+    ],
+    "meaning_vi": "Kể từ khi… thì tình trạng đã khác trước…",
+    "pattern": "〜てからと言(い)うもの",
+    "pattern_variants": [
+     "〜てからというもの"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-281f451228"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お客様は大切にしなければならない。商売はお客さまあってのものだから。",
+      "vi": "Phải coi trọng khách hàng. Bởi việc kinh doanh tồn tại được là nhờ có khách hàng."
+     },
+     {
+      "ja": "家族あっての私だ。仕事のために家族を犠牲にする気はない。",
+      "vi": "Tôi có được như ngày hôm nay là nhờ gia đình. Tôi không định hy sinh gia đình vì công việc."
+     }
+    ],
+    "meaning_vi": "Chính nhờ có... thì... mới có thể tồn tại/được hình thành.",
+    "pattern": "〜あっての",
+    "pattern_variants": [
+     "〜あっての..."
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0de38b8aa2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "百キロからある荷物を運んだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tới tận — Nhấn mạnh số lượng, kích thước hoặc giá trị lớn.",
+    "pattern": "〜からある",
+    "pattern_variants": [
+     "Lượng từ + からある / からする",
+     "〜からある/〜からの"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-80f939fd7b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "連休とあって、道路は混んでいる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vì là nên — Do hoàn cảnh đặc biệt nên xảy ra kết quả tương ứng.",
+    "pattern": "〜とあって",
+    "pattern_variants": [
+     "Thể thường / N + とあって",
+     "〜とあって/あれば"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0b9cf8b479"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "首相はパリでの首脳会議に出席するべく、午後6時に成田を発った。",
+      "vi": "Để tham dự hội nghị thượng đỉnh tại Paris, thủ tướng đã rời sân bay Narita lúc 6 giờ chiều."
+     },
+     {
+      "ja": "会社の赤字を減らすべく、社員たちは必死に働いた。",
+      "vi": "Nhằm giảm khoản thua lỗ của công ty, các nhân viên đã làm việc hết sức mình."
+     }
+    ],
+    "meaning_vi": "Để/nhằm... (chỉ mục đích, văn viết).",
+    "pattern": "〜べく",
+    "pattern_variants": [
+     "V từ điển + べく"
+    ],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-572e1e0993"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-001"
+}

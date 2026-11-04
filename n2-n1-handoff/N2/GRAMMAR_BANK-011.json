@@ -1,0 +1,256 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これは言い訳にすぎない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chẳng qua chỉ là — Hạ thấp mức độ, nhấn mạnh chỉ có vậy thôi.",
+    "pattern": "に過(す)ぎない",
+    "pattern_variants": [
+     "Thể thường / N + にすぎない"
+    ],
+    "source_questions": [],
+    "unit_no": 23
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f346952c3f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は合格したのは努力の結果にほかならない。",
+      "vi": "Việc cô ấy đỗ chính là kết quả của nỗ lực."
+     },
+     {
+      "ja": "親が子どもを叱るのは、子どもを愛しているからにほかならない。",
+      "vi": "Việc bố mẹ mắng con cái chính là vì yêu thương con."
+     }
+    ],
+    "meaning_vi": "Không có cái nào khác, chính là",
+    "pattern": "に他(ほか)ならない",
+    "pattern_variants": [
+     "〜にほかならない",
+     "N + にほかならない"
+    ],
+    "source_questions": [],
+    "unit_no": 23
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-48986bc5b2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「その仕事は経験がなくてもできますか」",
+      "vi": "Công việc này không cần kinh nghiệm?"
+     },
+     {
+      "ja": "「はい、経験はあるに越したことはありませんが、なくても大丈夫です」",
+      "vi": "Vâng, nếu có kinh nghiệm sẽ tốt hơn, nhưng không có cũng không sao."
+     }
+    ],
+    "meaning_vi": "Đương nhiên... sẽ tốt hơn",
+    "pattern": "に越(こ)したことはない",
+    "pattern_variants": [
+     "〜にこしたことはない"
+    ],
+    "source_questions": [],
+    "unit_no": 23
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3ba05d9a36"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "しかない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 23
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d4acb4d144"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "電車が止まったので、歩くよりほかない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chỉ còn cách — Không còn lựa chọn nào khác ngoài việc đó.",
+    "pattern": "より他(ほか)ない",
+    "pattern_variants": [
+     "V từ điển + よりほかない / ほかない"
+    ],
+    "source_questions": [],
+    "unit_no": 23
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3a7fb2a615"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "う・よう + ではないか",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 24
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-44389c41d5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "上手になりたければ、毎日練習することだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nên, cần phải — Khuyên bảo hoặc nêu điều nên làm, giọng của người có kinh nghiệm.",
+    "pattern": "事(こと)だ",
+    "pattern_variants": [
+     "V từ điển / V-ない + ことだ"
+    ],
+    "source_questions": [],
+    "unit_no": 24
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-6219b84892"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そんなに心配することはないよ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không cần phải — Trấn an rằng việc đó là không cần thiết.",
+    "pattern": "事(こと)はない",
+    "pattern_variants": [
+     "V từ điển + ことはない"
+    ],
+    "source_questions": [],
+    "unit_no": 24
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-9477c9f64b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "暑くてたまらない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đến không chịu nổi — Cảm giác hoặc mong muốn mạnh đến mức không chịu được.",
+    "pattern": "〜て堪(たま)らない",
+    "pattern_variants": [
+     "V-て / A-くて + たまらない"
+    ],
+    "source_questions": [],
+    "unit_no": 25
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f0197c90bb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この話を聞くと、笑わずにはいられない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không thể không — Không kìm được, buộc phải làm theo cảm xúc.",
+    "pattern": "ずには居(い)られない",
+    "pattern_variants": [
+     "V-ない bỏ ない + ずにはいられない",
+     "〜ずに(は)いられない"
+    ],
+    "source_questions": [],
+    "unit_no": 25
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4d7879d020"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-011"
+}

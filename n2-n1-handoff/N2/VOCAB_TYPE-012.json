@@ -1,0 +1,773 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "主人公",
+    "meaning_vi": "nhân vật chính",
+    "reading": "しゅじんこう",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f23dc3786f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ロマン",
+    "meaning_vi": "",
+    "reading": "ろまん",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e5768bafc5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "伝記",
+    "meaning_vi": "tiểu sử",
+    "reading": "でんき",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b22b4e57f9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "神話",
+    "meaning_vi": "thần thoại",
+    "reading": "しんわ",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1ce04672f1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "犬は飼い主に忠実だと言われる。",
+      "vi": "Chó vốn nổi tiếng là loài vật trung thành với chủ."
+     },
+     {
+      "ja": "言いつけを忠実に守る。",
+      "vi": "Làm đúng những gì được dặn dò."
+     },
+     {
+      "ja": "忠実な部下",
+      "vi": "Cấp dưới trung thành"
+     }
+    ],
+    "expression": "忠実な",
+    "meaning_vi": "trung thành",
+    "reading": "ちゅうじつな",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-180ab5fa59"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この魚は奇妙な形をしている。",
+      "vi": "Con cá này có hình dạng kỳ lạ."
+     },
+     {
+      "ja": "奇妙な｛人/話/出来事…｝",
+      "vi": "Kỳ lạ {người/câu chuyện/sự kiện…}."
+     },
+     {
+      "ja": "「昨日の夜、近所中の猫がいっせいに鳴いたんですよ」「それは奇妙ですね」",
+      "vi": "\"Tối qua, mèo cả khu đồng loạt kêu đấy.\" \"Lạ thật nhỉ.\""
+     }
+    ],
+    "expression": "奇妙な",
+    "meaning_vi": "kỳ lạ",
+    "reading": "きみょうな",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7a861e15ea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この実験は果たして成功するだろうか。",
+      "vi": "Rốt cuộc có thành công không đây?"
+     },
+     {
+      "ja": "果たしてどのチームが勝つだろうか。",
+      "vi": "Rốt cuộc đội nào sẽ thắng?"
+     },
+     {
+      "ja": "鈴木さんなら大丈夫だろうと思っていたが、果たして受験した三つの大学全部に合格した。",
+      "vi": "Tôi nghĩ Suzuki thì ổn—và quả nhiên cậu ấy đỗ cả 3 trường thi."
+     }
+    ],
+    "expression": "果たして",
+    "meaning_vi": "quả nhiên; liệu có; quả thật",
+    "reading": "はたして",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4f428c51c0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "由来＜する＞",
+    "meaning_vi": "lịch sử; lai lịch／nguồn gốc",
+    "reading": "ゆらい＜する＞",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-486449236e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "弟は空想ばかりして、現実を見ようとしない。",
+      "vi": "Em trai tôi chỉ mơ mộng viển vông, không chịu nhìn vào thực tế."
+     },
+     {
+      "ja": "トップスターとの結婚を空想する。",
+      "vi": "Mơ tưởng chuyện kết hôn với một ngôi sao hàng đầu."
+     }
+    ],
+    "expression": "空想＜する＞",
+    "meaning_vi": "sự tưởng tượng viển vông; không thực tế; mơ mộng",
+    "reading": "くうそう＜する＞",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6c4eef6dba"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "生み出す",
+    "meaning_vi": "",
+    "reading": "うみだす",
+    "topic_vi": "Sách",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f79a40b6e7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "習い事",
+    "meaning_vi": "",
+    "reading": "ならいごと",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-05385a28e6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "いつまでも失敗にこだわっていると、前に進めない。",
+      "vi": "Lúc nào cũng bận tâm đến thất bại thì sẽ không tiến lên phía trước được."
+     },
+     {
+      "ja": "あの人は小さなことにはこだわらない、おおらかな人だ。",
+      "vi": "Người đó là người cao thượng và không để ý đến những chuyện nhỏ nhặt."
+     },
+     {
+      "ja": "｛つまらないこと／本面／メンツ．．．｝にこだわる。",
+      "vi": "Để ý, chú trọng (những chuyện nhỏ nhặt/ thể diện/ sĩ diện...)"
+     }
+    ],
+    "expression": "こだわる",
+    "meaning_vi": "câu nệ; cầu kỳ chú trọng; quan tâm",
+    "reading": "こだわる",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cc1cd56817"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "こだわり",
+    "meaning_vi": "",
+    "reading": "こだわり",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d4ca9e9182"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最近お菓子作りに凝っている。",
+      "vi": "Gần đây tôi mê làm bánh kẹo."
+     },
+     {
+      "ja": "休みの日は時間をかけて、凝った料理を作るのが私の楽しみだ。",
+      "vi": "Ngày nghỉ tôi có sở thích nấu các món ăn cầu kỳ mất thời gian."
+     },
+     {
+      "ja": "凝ったデザイン",
+      "vi": "Thiết kế cầu kỳ."
+     }
+    ],
+    "expression": "凝る",
+    "meaning_vi": "đông lại; chìm đắm vào; say mê",
+    "reading": "こる",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8b5dc0e4e7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の部屋は、古いカメラのコレクションでいっぱいだ。",
+      "vi": "Phòng của anh ấy đầy những bộ sưu tập máy ảnh cổ."
+     }
+    ],
+    "expression": "コレクション＜する＞",
+    "meaning_vi": "bộ sưu tập; sưu tập",
+    "reading": "これくしょん＜する＞",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a62f3c9c15"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "多彩な",
+    "meaning_vi": "",
+    "reading": "たさいな",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-89919898cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "素人",
+    "meaning_vi": "người ngoại đạo; tay ngang; người không chuyên",
+    "reading": "しろうと",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6f4e449fcd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "本格的な",
+    "meaning_vi": "hương vị chính thống・đúng chất bản xứ",
+    "reading": "ほんかくてきな",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5a090418b2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最近、船の旅がブームだそうだ。",
+      "vi": "Nghe nói gần đây, du lịch bằng tàu đang trở thành xu hướng."
+     },
+     {
+      "ja": "1960年代にフォークソングがブームになった。",
+      "vi": "Nhạc folk trở thành trào lưu vào thập niên 1960."
+     },
+     {
+      "ja": "今、登山がブームだ。",
+      "vi": "Hiện nay leo núi đang là trào lưu."
+     }
+    ],
+    "expression": "ブーム",
+    "meaning_vi": "cơn sốt; trào lưu; sự bùng nổ",
+    "reading": "ぶーむ",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4099025f9d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "スキーやキャンプなどアウトドアのレジャーが好きです。",
+      "vi": "Tôi thích các hoạt động giải trí ngoài trời như trượt tuyết và cắm trại."
+     },
+     {
+      "ja": "休日には、アウトドアの活動を楽しんでいる。",
+      "vi": "Ngày nghỉ tôi thường tham gia các hoạt động ngoài trời."
+     },
+     {
+      "ja": "彼女はアウトドア派だ。",
+      "vi": "Cô ấy là người thích các hoạt động ngoài trời."
+     }
+    ],
+    "expression": "アウトドア",
+    "meaning_vi": "ngoài trời",
+    "reading": "あうとどあ",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4b44ba6001"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "編み物",
+    "meaning_vi": "đồ đan len",
+    "reading": "あみもの",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1e89cf893a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "占い",
+    "meaning_vi": "",
+    "reading": "うらない",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3a11304a52"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "魚をうまく焼くにはこつがいる。",
+      "vi": "Để nướng cá ngon cần có bí quyết."
+     },
+     {
+      "ja": "ちょっとしたこつで、いい写真が撮れるようになった。",
+      "vi": "Bằng một chút mẹo, tôi đã có thể chụp được một bức ảnh đẹp."
+     },
+     {
+      "ja": "彼女は器用で、すぐにコツをつかんだ。",
+      "vi": "Cô ấy khéo léo và nhanh chóng nắm bắt được những bí quyết."
+     }
+    ],
+    "expression": "骨",
+    "meaning_vi": "mẹo; bí quyết; tro cốt",
+    "reading": "こつ",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0d2bfc850c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "部品を組み合わせてプラモデルを作る。",
+      "vi": "Ghép các bộ phận để làm mô hình nhựa."
+     }
+    ],
+    "expression": "組み合わせる",
+    "meaning_vi": "ghép lại; phối với nhau; lắp ráp",
+    "reading": "くみあわせる",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-351b02e232"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "身近＜な＞",
+    "meaning_vi": "",
+    "reading": "みじか＜な＞",
+    "topic_vi": "Sở thích, ý thích",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ee5f202836"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "四季",
+    "meaning_vi": "bốn mùa",
+    "reading": "しき",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0f95c41c1c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "初夏",
+    "meaning_vi": "đầu hè",
+    "reading": "しょか",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-40711adb82"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "クジラは哺乳類に属している。",
+      "vi": "Cá voi thuộc loài động vật có vú."
+     },
+     {
+      "ja": "国会は三権のうち立法に属する。",
+      "vi": "Quốc hội thuộc nhánh lập pháp trong tam quyền."
+     },
+     {
+      "ja": "彼女は反対派に属している。",
+      "vi": "Cô ấy thuộc phe phản đối."
+     }
+    ],
+    "expression": "属する",
+    "meaning_vi": "thuộc về; thuộc",
+    "reading": "ぞくする",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b0475e08de"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "確率",
+    "meaning_vi": "xác suất",
+    "reading": "かくりつ",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-dd04a5b1f1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "にわかな",
+    "meaning_vi": "",
+    "reading": "にわかな",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-163edef464"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "びしょびしょな",
+    "meaning_vi": "",
+    "reading": "びしょびしょな",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a9929101d4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "吹雪",
+    "meaning_vi": "bão tuyết",
+    "reading": "ふぶき",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6d23c46619"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "寒さで手が凍えて、指がうまく動かせない。",
+      "vi": "Bàn tay bị tê cóng vì lạnh nên không cử động linh hoạt được."
+     },
+     {
+      "ja": "今日は凍えるような寒さだ。",
+      "vi": "Hôm nay lạnh cóng người."
+     }
+    ],
+    "expression": "凍える",
+    "meaning_vi": "cóng; tê cứng vì lạnh; rét cóng",
+    "reading": "こごえる",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6dd56fe9d8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "冷え込む",
+    "meaning_vi": "lạnh cóng",
+    "reading": "ひえこむ",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d5cffc2090"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "日和",
+    "meaning_vi": "tiết trời (thời tiết) đẹp; lý tưởng",
+    "reading": "ひより",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-78be9fe2bc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "日差し",
+    "meaning_vi": "ánh nắng",
+    "reading": "ひざし",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-88cf036877"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "明治以降、日本は急速に近代化が進んだ。",
+      "vi": "Từ thời Minh Trị, Nhật Bản đã tiến hành hiện đại hóa với tốc độ chóng mặt."
+     },
+     {
+      "ja": "急速な発展はどこかに無理を生じる。",
+      "vi": "Phát triển quá nhanh thường kéo theo những hệ lụy không tránh khỏi."
+     }
+    ],
+    "expression": "急速な",
+    "meaning_vi": "nhanh chóng",
+    "reading": "きゅうそくな",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-edc60dbb58"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぐんぐん[と]",
+    "meaning_vi": "",
+    "reading": "ぐんぐん[と]",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-891f4be932"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "あまりに[も]",
+    "meaning_vi": "",
+    "reading": "あまりに[も]",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9be631232e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このビルは本来昨年完成の予定だったが、資金不足でまだ完成していない。",
+      "vi": "Tòa nhà này vốn dự định hoàn thành năm ngoái, nhưng thiếu vốn nên هنوز chưa xong."
+     },
+     {
+      "ja": "緊張して、本来の力が出せなかった。",
+      "vi": "Vì căng thẳng nên không phát huy được thực lực vốn có."
+     }
+    ],
+    "expression": "本来",
+    "meaning_vi": "vốn dĩ; đáng lẽ; từ đầu",
+    "reading": "ほんらい",
+    "topic_vi": "Khí hậu và thời tiết",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4674cbaf48"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-012"
+}

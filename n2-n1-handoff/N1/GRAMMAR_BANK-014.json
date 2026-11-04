@@ -1,0 +1,244 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "狭いながらも楽しい我が家。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tuy mà vẫn — Nhượng bộ: dù ở trạng thái đó nhưng vẫn làm được điều khác.",
+    "pattern": "V thể ます (bỏ ます) / A / N + ながらも",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-30182cd916"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これは贅沢の極みだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tột đỉnh của — Đạt tới đỉnh điểm của một trạng thái, dùng trong văn viết.",
+    "pattern": "N + の極み",
+    "pattern_variants": [
+     "〜の極み"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0d541f4f87"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お招きいただき光栄の至りです。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thật là, vô cùng — Cảm xúc dâng đến mức cao nhất, dùng trong lời chào trang trọng.",
+    "pattern": "N + の至り",
+    "pattern_variants": [
+     "〜の至り"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5a9d864924"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は謝りもしなかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đến cả cũng không thèm — Phủ định mạnh kèm chê trách: không thèm làm dù chỉ chút ít.",
+    "pattern": "V thể ます (bỏ ます) + もしない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2c841c0cac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "教師たるもの、学生の模範であるべきだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đã là thì phải — Người ở vị trí đó thì đương nhiên phải có trách nhiệm tương xứng.",
+    "pattern": "N + たるもの",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-64fc6ad3a4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "これは命に関わる問題だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Liên quan sống còn đến — Ảnh hưởng nghiêm trọng đến điều quan trọng.",
+    "pattern": "N + に関わる",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2f40a5dc7a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "皆様お元気のことと存じます。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Kính mong rằng, chắc là — Phỏng đoán lịch sự về tình hình của đối phương, dùng trong thư từ.",
+    "pattern": "V-た / Thể thường + ことと存じます",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8174e26f3f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "先生のもとで研究を続けている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dưới sự — Dưới sự chỉ đạo, điều kiện hoặc ảnh hưởng của cái gì.",
+    "pattern": "N + のもとで / のもとに",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7aad04d3c1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "理由のいかんによらず、返品はできません。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bất kể, tuỳ thuộc — いかんで = tuỳ vào; いかんによらず = bất kể thế nào.",
+    "pattern": "N + いかんによらず / いかんで",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-04de8ed233"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼にしてみれば、当然の反応だろう。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đứng ở vị trí mà xét — Nhìn từ lập trường của người đó thì cảm nhận sẽ khác.",
+    "pattern": "N + にしてみれば",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-fbc005111c"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-014"
+}

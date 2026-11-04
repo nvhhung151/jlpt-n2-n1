@@ -1,0 +1,891 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "夜勤明けに同じ手順を最初からやり直すなど、想像だにしなかった。",
+      "vi": "Tôi không thể tưởng tượng nổi là sau ca đêm còn phải làm lại quy trình từ đầu."
+     },
+     {
+      "ja": "古文書の虫損は、見るだに修復の急を告げていた。",
+      "vi": "Chỗ mối mọt trên cổ thư, chỉ nhìn thôi cũng thấy việc phục chế đã cấp."
+     }
+    ],
+    "meaning_vi": "Dù chỉ… cũng (văn viết cổ)",
+    "pattern": "Dù chỉ... cũng (văn viết cổ)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-69bda4214f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "校正を急いだあまり、見出しの固有名詞を取り違える始末だ。",
+      "vi": "Vì hấp tấp hiệu đính, kết cục lại lấy nhầm tên riêng trên tiêu đề."
+     },
+     {
+      "ja": "鍵の所在を共有しなかったので、夜間に守衛を呼び出す始末だ。",
+      "vi": "Vì không chia sẻ chỗ để chìa khóa, kết cục phải gọi bảo vệ giữa đêm."
+     }
+    ],
+    "meaning_vi": "Kết cục ra nông nỗi…",
+    "pattern": "Kết cục ra nông nỗi...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-6ece96f6a2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ベテランの調律師にして、あの湿気の多いホールでは音の安定に苦慮するという。",
+      "vi": "Ngay cả thợ chỉnh piano lão luyện cũng nói khó giữ âm ổn định ở hội trường ẩm ấy."
+     },
+     {
+      "ja": "着任三年にして、課の文書規則を一新した。",
+      "vi": "Mới nhậm chức được ba năm, người ấy đã đổi mới quy tắc văn bản của phòng."
+     }
+    ],
+    "meaning_vi": "Ngay cả… / Ở cái mốc… / Vừa là…",
+    "pattern": "Ngay cả... / Ở cái mốc... / Vừa là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0e93433c36"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "書庫の移動には二十キロからある箱を何十個も運ぶ必要がある。",
+      "vi": "Chuyển kho sách phải khiêng hàng chục thùng nặng tới hai mươi kilô."
+     },
+     {
+      "ja": "特注の顕微鏡は一台八十万円からする。",
+      "vi": "Kính hiển vi đặt riêng một máy đã tới tám mươi vạn yên."
+     }
+    ],
+    "meaning_vi": "Tới / Đến tận (số lượng lớn)",
+    "pattern": "Tới / Đến tận (số lượng lớn)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-c99117ab09"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "数度の交渉を経て、ようやく合意に至った。",
+      "vi": "Sau nhiều lần đàm phán, cuối cùng đã đi đến thỏa thuận."
+     },
+     {
+      "ja": "感染が全身に広がり、残念ながら死亡に至った。",
+      "vi": "Nhiễm trùng lan khắp cơ thể, đáng tiếc đã dẫn đến tử vong."
+     }
+    ],
+    "meaning_vi": "Diễn tả quá trình tích lũy/diễn biến và kết cục cuối cùng “đi đến/đạt đến”. Thường dùng trong văn viết, tin tức, báo cáo. Hay đi với kết quả tiêu cực (死亡・中止・破綻) nhưng cũng có thể trung tính/tích cực (合意・実用化・採用)。 Sắc thái khách quan, mô tả kết quả sau nhiều yếu tố/diễn tiến; tránh dùng cảm xúc trực tiếp của người nói.",
+    "pattern": "Dẫn đến...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f392459d3a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "無実の人を罪に問うことは、許すべからざる行為だ。",
+      "vi": "Buộc tội người vô tội là hành vi không thể dung thứ."
+     },
+     {
+      "ja": "研究におけるデータ改ざんは、看過すべからざる問題である。",
+      "vi": "Gian lận dữ liệu trong nghiên cứu là vấn đề không thể bỏ qua."
+     }
+    ],
+    "meaning_vi": "Nghĩa A (phổ biến): “Không được/không nên V; V là điều không thể chấp nhận” → sắc thái phán xét đạo đức, pháp lý, quy tắc. Nghĩa B (quán ngữ): với 欠くべからざる + N = “không thể thiếu/thiết yếu” (đảo nghĩa do phủ định của “欠く”). Đây là hình thức văn ngôn, dùng nhiều trong bài viết học thuật, báo chí nghiêm túc, phát biểu chính trị, quy định.",
+    "pattern": "Điều không được phép...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a807cd7ca2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "教師にあるまじき発言だ。",
+      "vi": "Đó là phát ngôn không thể chấp nhận đối với một giáo viên."
+     },
+     {
+      "ja": "医者にあるまじきミスが起きた。",
+      "vi": "Đã xảy ra một sai sót không xứng đáng với một bác sĩ."
+     }
+    ],
+    "meaning_vi": "Biểu thị hành vi/thái độ “không thể chấp nhận, không xứng đáng” với vị trí, nghề nghiệp, chuẩn mực đạo đức. Phê phán nặng, thường thấy trong tin tức, quy tắc đạo đức, phát ngôn chính thức. N1 là vai trò: 教師・医者・公務員・親・学生・政治家・社会人… N2 là 発言・行為・態度・ミス・不祥事 v.v.",
+    "pattern": "Không đáng với...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-bacda60924"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "本日をもって退職いたします。",
+      "vi": "Tôi xin nghỉ việc kể từ hôm nay."
+     },
+     {
+      "ja": "結果はメールをもってご連絡いたします。",
+      "vi": "Kết quả sẽ được thông báo bằng email."
+     }
+    ],
+    "meaning_vi": "Phương tiện/cách thức: “bằng/qua/nhờ” trong văn bản chính thức, thông báo, hợp đồng. Mốc thời gian hiệu lực: “kể từ/đến” để tuyên bố bắt đầu/kết thúc. Tiêu chuẩn/đối đãi: xác định cái gì được xem là… Chú ý phân biệt với ～をもってしても (mẫu khác, mang nghĩa nhượng bộ mạnh).",
+    "pattern": "Lấy... làm mốc",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-eb0427240c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は部屋に入るなり、大きなため息をついた。",
+      "vi": "Anh ta vừa bước vào phòng đã thở dài một tiếng lớn."
+     },
+     {
+      "ja": "電話の声を聞くなり、彼女は顔色を変えた。",
+      "vi": "Vừa nghe giọng điện thoại, cô ấy đã biến sắc."
+     }
+    ],
+    "meaning_vi": "Diễn tả hai sự việc liên tiếp xảy ra gần như đồng thời: “vừa/đúng lúc V thì…”. Sắc thái: văn viết, trang trọng hơn hội thoại thông thường; thường đi với kết quả bất ngờ, ngoài dự đoán. Hạn chế: Thường không dùng cho thói quen lặp lại; thích hợp cho sự kiện đơn lẻ, đột phát.",
+    "pattern": "Ngay sau khi...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0285bc04d7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "古びた本が棚に並んでいる。",
+      "vi": "Những cuốn sách cũ kỹ xếp trên kệ."
+     },
+     {
+      "ja": "田舎びた服装だが、彼の個性に合っている。",
+      "vi": "Trang phục hơi quê mùa nhưng hợp với cá tính anh ấy."
+     }
+    ],
+    "meaning_vi": "Biểu thị “mang vẻ/thoáng nét/pha chút …”, thiên về ấn tượng bề ngoài hoặc phong vị. Sắc thái có thể tích cực (大人びた = chín chắn), trung tính (昔びた = mang hơi hướng xưa) hoặc tiêu cực (田舎びた = quê mùa, 古びた = cũ kỹ). Thường dùng ở vị trí bổ nghĩa danh từ. Khi làm vị ngữ, dùng “～びている”. Tính năng sản sinh có giới hạn: chỉ một số kết hợp tự nhiên, không gắn bừa với mọi danh từ.",
+    "pattern": "Có vẻ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0bc2ddba7a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "新年のご挨拶かたがた、本日伺いました。",
+      "vi": "Hôm nay tôi đến nhân tiện chúc Tết."
+     },
+     {
+      "ja": "お礼かたがた、成果をご報告申し上げます。",
+      "vi": "Nhân tiện bày tỏ lời cảm ơn, xin báo cáo kết quả."
+     }
+    ],
+    "meaning_vi": "Nghĩa: “nhân tiện, đồng thời với mục đích N” theo cách nói nghi thức, lịch sự cao. Ngữ cảnh: thư từ, diễn văn, thông báo trang trọng; khi đến thăm ai đó một cách lễ phép. Chủ thể thường là người nói/nhóm người nói trong lời xã giao, nhưng cũng có thể dùng để thuật lại hành động của người thứ ba khi ngữ cảnh và quan hệ kính ngữ rõ ràng. Danh từ đi trước thường là các danh từ mang tính xã giao: ご挨拶, お礼, お詫び, ご報告, ご連絡, 見学.",
+    "pattern": "Đồng thời... / Nhân tiện...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4df1deb334"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "新人が時間をかけるのは驚くにはあたらない。",
+      "vi": "Việc người mới làm mất thời gian là điều không có gì phải ngạc nhiên."
+     },
+     {
+      "ja": "彼のミスは非難するにはあたらない。",
+      "vi": "Lỗi của anh ấy không đáng để chỉ trích."
+     }
+    ],
+    "meaning_vi": "Nghĩa: Không đến mức phải…, không đáng để… (đánh giá mức độ là “không cần thiết”). Hai hướng nghĩa phổ biến: Không đáng ngạc nhiên/chê trách/lo lắng: 驚く・非難する・心配するにはあたらない。 Không đáng khen quá mức: 称賛するにはあたらない。 Sắc thái: Trang trọng, khách quan, hay dùng trong bình luận, tin tức, báo cáo.",
+    "pattern": "Không đáng...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7932222b32"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "被災者の不安は想像に難くない。",
+      "vi": "Nỗi bất an của người bị nạn không khó để tưởng tượng."
+     },
+     {
+      "ja": "突然の解雇が彼に与えた衝撃は察するに難くない。",
+      "vi": "Không khó để cảm nhận cú sốc mà việc sa thải đột ngột gây ra cho anh ấy."
+     }
+    ],
+    "meaning_vi": "Khẳng định “không khó” theo nghĩa suy đoán/đồng cảm: dễ dàng tưởng tượng/hiểu/nhận thấy. Không dùng cho thao tác thể chất cụ thể (“không khó để nâng 50kg”) → không phù hợp. Sắc thái văn viết, lịch sự, thường thể hiện sự thấu hiểu hoặc đánh giá.",
+    "pattern": "Không khó để...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d15716c1c2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "先輩ぶってあれこれ命令するな。",
+      "vi": "Đừng có làm ra vẻ đàn anh mà sai bảo này nọ."
+     },
+     {
+      "ja": "大人ぶっていても、内心は不安なんだろう。",
+      "vi": "Dù có làm ra vẻ người lớn, trong lòng chắc vẫn bất an."
+     }
+    ],
+    "meaning_vi": "Dạng te-form của ～ぶる, dùng để nối mệnh đề: “ra vẻ/giả bộ … và (rồi) …”. Hàm ý phê phán/mỉa mai hành vi “đóng vai”. Mạnh hơn ～ふりをして về sắc thái chê. Thường xuất hiện trong hội thoại, diễn tả thái độ cư xử/giọng điệu của đối phương.",
+    "pattern": "Làm bộ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9943860b58"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は大人ぶった話し方をする。",
+      "vi": "Cậu ấy nói chuyện ra vẻ người lớn."
+     },
+     {
+      "ja": "上品ぶった態度がかえって不自然だ。",
+      "vi": "Thái độ làm bộ thanh lịch lại thành thiếu tự nhiên."
+     }
+    ],
+    "meaning_vi": "～ぶった diễn tả việc một người cố tỏ ra có đặc điểm, địa vị hoặc phong thái nào đó. Người nói thường cảm thấy vẻ ấy là cố ý, không hoàn toàn tự nhiên hoặc có phần kiểu cách.",
+    "pattern": "Làm như...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d01126affa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "忙しすぎて、休むにも休めない。",
+      "vi": "Bận quá nên muốn nghỉ cũng không nghỉ được."
+     },
+     {
+      "ja": "電車が止まっていて、帰るにも帰れない。",
+      "vi": "Tàu dừng nên muốn về cũng không thể về."
+     }
+    ],
+    "meaning_vi": "Nghĩa: “Dù muốn/cho dù có định V cũng không thể V” vì lý do khách quan (bận, hoàn cảnh, quy định, tâm lý bị kìm nén…). Cấu trúc nhấn mạnh ý chí bị cản trở: vế 1 nêu “ý định”, vế 2 khẳng định “bất khả thi”. Ngữ dụng: than phiền, giải thích lý do, diễn đạt tình thế tiến thoái lưỡng nan.",
+    "pattern": "Muốn... cũng không được",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-699a01827a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "娘は急に大人びてきた。",
+      "vi": "Con gái bỗng trở nên chín chắn."
+     },
+     {
+      "ja": "この椅子は年数がたって古びている。",
+      "vi": "Cái ghế này theo năm tháng đã trở nên cũ kỹ."
+     }
+    ],
+    "meaning_vi": "Biểu thị sự “trở nên có vẻ/pha chất …” về bề ngoài, phong vị hoặc cảm giác. Thường là nội động từ, không có tân ngữ trực tiếp. Giá trị đánh giá: có thể tích cực (大人びる = chín chắn), hoặc hơi tiêu cực (田舎びる = quê mùa; 古びる = trở nên cũ kỹ). Không phải mọi danh từ đều kết hợp tự nhiên với ～びる; phần lớn là tổ hợp quen dùng.",
+    "pattern": "Ra vẻ...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-26c19c3dd0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼はすぐ大人ぶるけど、中身は子どものままだ。",
+      "vi": "Anh ta hay làm ra vẻ người lớn, nhưng bên trong vẫn như trẻ con."
+     },
+     {
+      "ja": "彼女は何でも知ったかぶって説明するから、時々困る。",
+      "vi": "Cô ấy hay làm như biết tuốt rồi giải thích, nên đôi lúc thật rắc rối."
+     }
+    ],
+    "meaning_vi": "“～ぶる” diễn tả hành vi “tỏ ra/ra vẻ/giả vờ” mang tính bề ngoài, thường kèm sắc thái chê bai, mỉa mai. Gắn với các danh từ chỉ vai trò/tính chất: 大人ぶる（ra vẻ người lớn）, 先生ぶる（ra vẻ thầy bà）, 知ったかぶる（ra vẻ biết tuốt）. Khác với ～がる (bộc lộ cảm xúc thật) và ～げ (trông có vẻ), ～ぶる hàm ý “cố làm ra vẻ”, tính giả tạo mạnh.",
+    "pattern": "Tỏ ra...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-270569e469"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "早めに出発するに越したことはない。",
+      "vi": "Đi sớm thì không gì bằng."
+     },
+     {
+      "ja": "安全に越したことはないが、過剰な警戒は不要だ。",
+      "vi": "An toàn thì tốt nhất, nhưng không cần cảnh giác quá mức."
+     }
+    ],
+    "meaning_vi": "Mang nghĩa “nếu được thì … là tốt nhất/không gì bằng”, diễn tả lựa chọn ưa thích nhưng không tuyệt đối bắt buộc. Sắc thái khuyến nghị chung/kinh nghiệm: nói điều hiển nhiên hợp lý. Thường đi cùng điều kiện nhẹ: できれば／可能なら／もちろん／やはり。",
+    "pattern": "Tốt nhất là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b6bd440767"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "銀行が倒産するという、10年前には想像だにしなかったことが現実となった。",
+      "vi": "Việc ngân hàng phá sản, điều mà mười năm trước tôi chưa từng tưởng tượng tới, đã trở thành hiện thực."
+     },
+     {
+      "ja": "私がマラソン大会で1位になれるなんて、夢にだに思わなかった。",
+      "vi": "Chuyện tôi có thể đứng nhất cuộc thi marathon là điều ngay cả trong mơ tôi cũng chưa từng nghĩ tới."
+     }
+    ],
+    "meaning_vi": "Ngay cả... cũng không; hoàn toàn không...",
+    "pattern": "〜だに...ない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-920b288867"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "学生たるもの、もっと勉強に励んでもらいたい。",
+      "vi": "Đã là học sinh thì tôi muốn các em phải chuyên tâm học hành hơn nữa."
+     },
+     {
+      "ja": "政治家たるものは自らの発言に責任を負わなければならない。",
+      "vi": "Đã là chính trị gia thì phải chịu trách nhiệm về phát ngôn của chính mình."
+     }
+    ],
+    "meaning_vi": "Đã là người ở cương vị... thì đương nhiên phải/có nghĩa vụ...",
+    "pattern": "〜たる",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1d72b04f57"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女の持って生まれた素質は、人一倍の努力と相まって、見事に花を開いた。",
+      "vi": "Tố chất bẩm sinh của cô ấy, kết hợp với nỗ lực hơn người, đã được phát huy rực rỡ."
+     },
+     {
+      "ja": "ここ数年の干ばつは内戦の激化と相まって、多くの難民を生んだ。",
+      "vi": "Hạn hán trong vài năm qua cộng với nội chiến ngày càng khốc liệt đã tạo ra rất nhiều người tị nạn."
+     }
+    ],
+    "meaning_vi": "... kết hợp/cộng hưởng với... tạo nên một kết quả.",
+    "pattern": "〜は...と/〜と...が相まって",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-30d056c044"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "母親の入院をいいことに、彼女は夜遅くまで遊びまくっている。",
+      "vi": "Lợi dụng lúc mẹ nằm viện, cô ấy đi chơi đến khuya hết đêm này sang đêm khác."
+     },
+     {
+      "ja": "先生が優しいのをいいことに、子どもたちは授業中もふざけてばかりだ。",
+      "vi": "Lợi dụng việc thầy giáo hiền, bọn trẻ chỉ toàn đùa nghịch ngay cả trong giờ học."
+     }
+    ],
+    "meaning_vi": "Lợi dụng... làm điều kiện/cái cớ thuận tiện để làm một việc xấu hoặc đáng chê trách.",
+    "pattern": "〜をいいことに",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-6899499a74"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "指摘された箇所だけ直すまでだ。全体を作り直すつもりはない。",
+      "vi": "Tôi chỉ sửa đúng chỗ bị góp ý. Không định làm lại toàn bộ."
+     },
+     {
+      "ja": "委員に聞かれたから、把握している範囲を答えたまでのことだ。",
+      "vi": "Vì ủy viên hỏi nên tôi chỉ trả lời trong phạm vi mình nắm, thế thôi."
+     }
+    ],
+    "meaning_vi": "Chỉ đến thế thôi",
+    "pattern": "Chỉ đến thế thôi",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-aaf2309fd2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "議場で資料を投げつけるなど、無礼極まる振る舞いだ。",
+      "vi": "Ném tài liệu trong hội trường là hành vi vô lễ đến cùng."
+     },
+     {
+      "ja": "事前連絡もなく工事を始めるのは、非常識極まりない。",
+      "vi": "Khởi công mà không báo trước thì vô ý thức đến mức không còn gì hơn."
+     }
+    ],
+    "meaning_vi": "Cực kỳ / tột độ",
+    "pattern": "Cực kỳ / tột độ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-39966196e9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "修復を終えた壁画は、十分鑑賞に堪える状態になった。",
+      "vi": "Bích họa sau tu bổ đã ở trạng thái đủ để thưởng lãm."
+     },
+     {
+      "ja": "誤字だらけの案内文は、掲示するに堪えない。",
+      "vi": "Tờ hướng dẫn đầy lỗi chính tả, không thể đem dán thông báo."
+     }
+    ],
+    "meaning_vi": "Đáng thưởng thức / không đáng đọc",
+    "pattern": "Đáng thưởng thức / không đáng đọc",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f64754910d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "十年の現場経験は、監督を任せるに足る根拠になる。",
+      "vi": "Mười năm thực địa là căn cứ đủ để giao việc giám sát."
+     },
+     {
+      "ja": "この報告書は、議会に提出するに足る精度を備えている。",
+      "vi": "Báo cáo này có độ chính xác đủ để trình hội đồng."
+     }
+    ],
+    "meaning_vi": "Đủ tư cách / đáng để",
+    "pattern": "Đủ tư cách / đáng để",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9e0efa169a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "長年の共同研究が実を結び、喜ばしいかぎりだ。",
+      "vi": "Nghiên cứu chung nhiều năm đã có quả, tôi hết sức vui."
+     },
+     {
+      "ja": "説明会の日程が直前に変わると、参加者には申し訳ないかぎりだ。",
+      "vi": "Lịch họp giải thích đổi sát giờ thì tôi chỉ biết thấy áy náy với người tham dự."
+     }
+    ],
+    "meaning_vi": "Hết sức (cảm xúc)",
+    "pattern": "Hết sức (cảm xúc)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-920e084109"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "議事録は共有フォルダに上がっているので、各課へ個別に問い合わせるまでもない。",
+      "vi": "Biên bản đã nằm trong thư mục dùng chung, nên không cần hỏi từng phòng ban."
+     },
+     {
+      "ja": "実験手順はマニュアルの三ページに図示してある。口頭で繰り返すまでもないだろう。",
+      "vi": "Quy trình thí nghiệm đã được vẽ ở trang ba của sổ tay. Chắc không cần nhắc lại bằng miệng."
+     }
+    ],
+    "meaning_vi": "Không cần phải… đến thế",
+    "pattern": "Không cần phải... đến thế",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-17eee31ff6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "新人の計算ミスは指導で足りる。処分するには当たらない。",
+      "vi": "Lỗi tính của người mới chỉ cần kèm cặp. Không đáng đến mức xử phạt."
+     },
+     {
+      "ja": "予想の範囲内の変動であり、慌てて方針を変えるには当たらない。",
+      "vi": "Biến động nằm trong dự kiến, không thích đáng nếu vội đổi chủ trương."
+     }
+    ],
+    "meaning_vi": "Không đáng / không thích hợp để…",
+    "pattern": "Không đáng / không thích hợp để...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a6554c1992"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "締切前日に原稿が白紙に戻ったときの焦りといったらない。",
+      "vi": "Cái bồn chồn lúc bản thảo về trắng trước hạn một ngày thì không còn lời nào tả."
+     },
+     {
+      "ja": "真冬の屋外書庫で目録を照合する寒さといったらなかった。",
+      "vi": "Cái lạnh khi đối chiếu mục lục ở kho ngoài trời giữa đông thật chẳng gì sánh được."
+     }
+    ],
+    "meaning_vi": "Không gì sánh được / cực kỳ",
+    "pattern": "Không gì sánh được / cực kỳ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1f93de8148"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "深夜まで患者の家族に説明を続ける姿勢、これが責任感でなくてなんだろう。",
+      "vi": "Thái độ giải thích với gia đình bệnh nhân đến đêm khuya, nếu không phải tinh thần trách nhiệm thì còn là gì."
+     },
+     {
+      "ja": "数値を合わせて資料を改ざんする行為は、不正でなくてなんだろうか。",
+      "vi": "Hành vi sửa số cho khớp hồ sơ, nếu không phải gian dối thì còn gọi là gì."
+     }
+    ],
+    "meaning_vi": "Nếu không phải… thì còn là gì",
+    "pattern": "Nếu không phải... thì còn là gì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fdbf7bad2a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "一次審査で書類不備が見つかればそれまでだ。中身の良さは評価されない。",
+      "vi": "Chỉ cần hồ sơ thiếu ở vòng sơ loại là coi như hết. Chất lượng nội dung sẽ không được chấm."
+     },
+     {
+      "ja": "合言葉を紙に書いて机に置けばそれまでだ。どれほど複雑な文字列でも意味がない。",
+      "vi": "Viết mật khẩu ra giấy rồi để trên bàn là coi như xong. Chuỗi ký tự dù phức tạp cũng vô nghĩa."
+     }
+    ],
+    "meaning_vi": "Nếu… thì coi như hết",
+    "pattern": "Nếu... thì coi như hết",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-10e61bc073"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの慎重な会計主任が数字を丸めるとは、にわかには信じがたい。",
+      "vi": "Trưởng kế toán vốn thận trọng mà lại làm tròn số thì thật khó tin ngay."
+     },
+     {
+      "ja": "公共事業における説明責任とは、結果だけでなく過程を開くことだ。",
+      "vi": "Trách nhiệm giải trình trong công trình công nghĩa là mở cả quá trình, không chỉ kết quả."
+     }
+    ],
+    "meaning_vi": "Thì ra là… / cái gọi là…",
+    "pattern": "Thì ra là... / cái gọi là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-2a3dee5855"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "誰も手伝ってくれないなら、自分でやるまでだ。",
+      "vi": "Nếu không ai giúp, tôi đành tự làm."
+     },
+     {
+      "ja": "落ちたら、また受け直すまでのことだ。",
+      "vi": "Nếu trượt thì chỉ còn cách thi lại thôi."
+     }
+    ],
+    "meaning_vi": "Vる + までだ: nói khi không còn lựa chọn tốt hơn, mang sắc thái “đành vậy”. Cũng có thể là quyết ý, tự trấn an. Vた + までだ: hạ nhẹ công lao/ý nghĩa hành động của mình, “tôi chỉ làm điều đương nhiên thôi”. Thường dùng khi được khen hay bị hiểu lầm. “～までのことだ” tương đương, lịch sự/nhẹ hơn “～までだ”.",
+    "pattern": "Chỉ là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1cde84695a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は物事を先延ばしにするきらいがある。",
+      "vi": "Anh ấy có xu hướng trì hoãn mọi việc."
+     },
+     {
+      "ja": "この会社は短期的な利益を重視するきらいがある。",
+      "vi": "Công ty này có xu hướng coi trọng lợi nhuận ngắn hạn."
+     }
+    ],
+    "meaning_vi": "Nghĩa: “có xu hướng (xấu) …”, “hơi bị …”, “có tật …”. Sắc thái phê bình nhẹ, trang trọng hơn so với ～がちだ／～気味だ. Thường dùng với hành vi không mong muốn: 先延ばしにする／形式にこだわる／短絡的に考える… Không dùng cho xu hướng tích cực (khen), vì “嫌い” vốn nghĩa “điều không hay/đáng ghét”.",
+    "pattern": "Có xu hướng...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e1a40d8a87"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "先ほどの失言は聞かなかったことにしてください。",
+      "vi": "Xin hãy coi như chưa nghe lời lỡ miệng khi nãy."
+     },
+     {
+      "ja": "本日の出席はあったことにしてください。後で欠席理由を説明します。",
+      "vi": "Xin hãy xem như hôm nay tôi có mặt. Tôi sẽ giải thích lý do vắng sau."
+     }
+    ],
+    "meaning_vi": "Mẫu ～たことにしてください thể hiện yêu cầu/đề nghị lịch sự: “Xin hãy coi như (điều X) đã xảy ra/không xảy ra”. Đây là biến thể mệnh lệnh lịch sự của ～たことにする (tự quyết xem như), dùng để đề nghị người nghe cùng “đồng thuận giả định”. Chức năng xã giao: xoa dịu, tránh xung đột, bảo toàn thể diện. Dùng nhiều ở nơi làm việc, email lịch sự, thông báo nội bộ. Hai hướng chính: bỏ qua lỗi (～なかったことにしてください) và ghi nhận tạm thời (～たことにしてください). Khác với “～てください”: không yêu cầu hành động thực tế, mà yêu cầu cách “xem/ghi nhận”.",
+    "pattern": "Cứ xem như...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-bbc418a588"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "泥まみれになっても、最後まで走り抜いた。",
+      "vi": "Dù lấm bùn, tôi vẫn chạy đến cuối."
+     },
+     {
+      "ja": "彼は汗まみれのシャツを着替えた。",
+      "vi": "Anh ấy thay chiếc áo sơ mi đẫm mồ hôi."
+     }
+    ],
+    "meaning_vi": "“Đầy/loang lổ/bám đầy N”, thường là chất bẩn hoặc thứ khó chịu (泥, 砂, 血, 汗, 油, ほこり...). Có thể dùng ẩn dụ cho trạng thái ngập chìm trong điều tiêu cực: 嘘まみれ, 噂まみれ, 借金まみれ. Khác với だらけ: まみれ nhấn “bị phủ bề mặt/toàn thân”; だらけ nhấn “nhiều lỗi/vết sai rải rác”.",
+    "pattern": "Đầy... / toàn...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9995dbc5ec"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼にお金を貸したが最後、二度と戻ってこない。",
+      "vi": "Một khi đã cho anh ta vay tiền thì chẳng bao giờ lấy lại được."
+     },
+     {
+      "ja": "ギャンブルに手を出したが最後、人生が転落してしまう人もいる。",
+      "vi": "Một khi đã nhúng tay vào cờ bạc, có người cuộc đời tụt dốc."
+     }
+    ],
+    "meaning_vi": "Mẫu ～たが最後 diễn tả: “Một khi đã V thì (hậu quả) là kết cục không thể tránh/không thể quay lại, kéo dài dai dẳng”. Sắc thái mạnh, văn viết/diễn thuyết, thường dùng để cảnh báo hoặc nhấn mạnh tính không thể đảo ngược. Khung nghĩa: Điểm bùng -> đường một chiều -> hệ quả cố định (thường xấu). Vế sau hay đi với biểu thức khép lại khả năng đảo ngược: 二度と～ない, ～っぱなし, ～きり, もはや～ない. Thường dùng với hành vi có tính nghiện/nguy cơ: 手を出す, 足を踏み入れる, 口を出す, 付き合う, 借りる. So với ～たら最後: ～たが最後 trang trọng, văn ngôn hơn; mức nhấn mạnh thường mạnh hơn.",
+    "pattern": "Một khi đã... là...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-b36b4d68e0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "スマホゲームを始めたら最後、課金が止まらなくなるよ。",
+      "vi": "Một khi bắt đầu game điện thoại là nạp tiền không dừng đâu."
+     },
+     {
+      "ja": "彼に秘密を話したら最後、すぐ広まってしまう。",
+      "vi": "Nếu mà nói bí mật với anh ta là sẽ lan nhanh ngay."
+     }
+    ],
+    "meaning_vi": "～たら最後 diễn tả “một khi đã làm… thì coi như hết, hệ quả xấu là tất yếu và khó đảo ngược”. Đây là biến thể khẩu ngữ của ～たが最後. Dùng nhiều trong hội thoại để cảnh báo hoặc than thở. Nhấn mạnh “điểm không thể quay lại”: point of no return. Thường đi với thói quen xấu/nghiện/nguy hiểm: 飲みだす, 手を出す, さぼる, 嘘をつく. Vế sau mang sắc thái bất lực/định mệnh: もう～ない, もはや～ない, ずっと～まま.",
+    "pattern": "Nếu... là... tiêu",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fcb3f599ce"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N1",
+ "packet_id": "GRAMMAR_CORE-012"
+}

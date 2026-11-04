@@ -1,0 +1,708 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "引き落とし",
+    "meaning_vi": "trích tiền tự động từ tài khoản",
+    "reading": "ひきおとし",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ba04a017e1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "手数料",
+    "meaning_vi": "lệ phí; phí dịch vụ",
+    "reading": "てすうりょう",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d4d11cb0eb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "出し入れ＜する＞",
+    "meaning_vi": "việc rút và gửi (tiền)",
+    "reading": "だしいれ＜する＞",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-64339d5eef"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "高くつく",
+    "meaning_vi": "hóa ra tốn kém; đắt hơn dự tính; tốn kém",
+    "reading": "たかくつく",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": "động từ nhóm I"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-89fef4fe72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "残高",
+    "meaning_vi": "số dư",
+    "reading": "ざんだか",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c0ccb0535a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は若い時にせっせと働いてお金をためた。",
+      "vi": "Hồi trẻ anh ấy chăm chỉ làm việc để dành tiền."
+     },
+     {
+      "ja": "働き者の祖母は、いつ見ても、せっせと手を動かしている。",
+      "vi": "Bà tôi chăm làm, lúc nào cũng tay không ngừng."
+     }
+    ],
+    "expression": "せっせと",
+    "meaning_vi": "siêng năng; cần cù; chăm chỉ",
+    "reading": "せっせと",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": "phó từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1ee80d231d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大まかな",
+    "meaning_vi": "",
+    "reading": "おおまかな",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8ce76bae92"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "給料から税金や保険料を差し引くと、手取りは18万円ほどだ。",
+      "vi": "Sau khi trừ thuế và bảo hiểm từ lương, số tiền thực nhận khoảng 180,000 yên."
+     }
+    ],
+    "expression": "差し引く",
+    "meaning_vi": "trừ đi; khấu trừ; trừ",
+    "reading": "さしひく",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d0933e795f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "できるかぎり問題の解決に努めたい。",
+      "vi": "Tôi muốn cố gắng hết sức để giải quyết vấn đề."
+     },
+     {
+      "ja": "心配ごとがあっても、努めて明るく振舞った。",
+      "vi": "Dù có lo lắng, tôi vẫn cố tỏ ra vui vẻ."
+     }
+    ],
+    "expression": "努める",
+    "meaning_vi": "nỗ lực; cố gắng",
+    "reading": "つとめる",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-07e64b6038"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "立て替える",
+    "meaning_vi": "tạm ứng; ứng trước; trả cước",
+    "reading": "たてかえる",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e7e612a631"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "返済＜する＞",
+    "meaning_vi": "trả nợ; hoàn trả",
+    "reading": "へんさい＜する＞",
+    "topic_vi": "Tiền bạc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4edb60f937"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "好き嫌い",
+    "meaning_vi": "sự kén chọn; kén ăn; ý thích yêu ghét",
+    "reading": "すききらい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-45c6344df3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "好物",
+    "meaning_vi": "món yêu thích",
+    "reading": "こうぶつ",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-85bd5fdb85"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "物足りない",
+    "meaning_vi": "thấy còn thiếu thiếu; chưa đã; thiếu thiếu",
+    "reading": "ものたりない",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bcd24e39e4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この食堂は、安くてボリュームのある食事を出すので学性に人気がある。",
+      "vi": "Nhà ăn này có các phần ăn rẻ mà no, nên rất được sinh viên yêu thích."
+     },
+     {
+      "ja": "私は髪のボリュームが少ないので、ヘアスタイルには気を遣っている。",
+      "vi": "Tóc tôi ít nên tôi rất chú trọng đến kiểu tóc."
+     },
+     {
+      "ja": "「声が聞こえにくいので、マイクのボリュームを上げてください。」",
+      "vi": "“Khó nghe thấy giọng nói, xin hãy tăng âm lượng micro lên.”"
+     }
+    ],
+    "expression": "ボリューム",
+    "meaning_vi": "lượng (phần ăn); âm lượng; số lượng (nhiều hay ít)",
+    "reading": "ぼりゅーむ",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4b95d69ca3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一口",
+    "meaning_vi": "một miếng",
+    "reading": "ひとくち",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e3cb6c05f5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ひとたび",
+    "meaning_vi": "một khi; một lần",
+    "reading": "ひとたび",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-da977d2f42"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "いける",
+    "meaning_vi": "khá; giỏi (ở lĩnh vực nào đó); được",
+    "reading": "いける",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e02cdd83a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "お茶の葉を入れすぎて、お茶が渋くなってしまった。",
+      "vi": "Cho quá nhiều lá trà nên trà bị đắng chát."
+     },
+     {
+      "ja": "母は好んで渋い色の着物を着ている。",
+      "vi": "Mẹ tôi thích mặc kimono màu trầm."
+     },
+     {
+      "ja": "姉が大学院に進学したいと言うと、父は渋い顔をした。",
+      "vi": "Khi chị tôi nói muốn học cao học, mặt bố tôi sầm lại."
+     }
+    ],
+    "expression": "渋い",
+    "meaning_vi": "chát; trầm mà có gu; khó chịu (nét mặt)",
+    "reading": "しぶい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b13a1d02ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの先生の注意はいつもくどくてうんざりする。",
+      "vi": "Nhắc nhở của thầy/cô lúc nào cũng dài dòng, nghe chán phát ngán."
+     },
+     {
+      "ja": "あの作家の文章はくどい。",
+      "vi": "Văn của tác giả đó dài dòng."
+     },
+     {
+      "ja": "この料理くどくて好きではない。",
+      "vi": "Món này ngấy quá nên tôi không thích."
+     }
+    ],
+    "expression": "諄い",
+    "meaning_vi": "dài dòng; quá ngấy; lắm lời",
+    "reading": "くどい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3e285efa82"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ファミレス",
+    "meaning_vi": "nhà hàng gia đình",
+    "reading": "ふぁみれす",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1a930e68a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "フルコース",
+    "meaning_vi": "bữa ăn đầy đủ các món (từ khai vị đến tráng miệng); bữa ăn đầy đủ các món",
+    "reading": "ふるこーす",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0a5ae92aaa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "オーダー＜する＞",
+    "meaning_vi": "gọi món; đặt hàng",
+    "reading": "おーだー＜する＞",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-bc74a6cc2b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "貸した金をかえすよう、催促の電話をかけた。",
+      "vi": "Tôi gọi điện thúc/nhắc để họ trả tiền đã vay."
+     },
+     {
+      "ja": "雑誌に載せる原稿を何度も催促されているが、なかなか書けない。",
+      "vi": "Tôi bị giục nộp bản thảo đăng tạp chí nhiều lần, nhưng mãi vẫn viết không xong."
+     }
+    ],
+    "expression": "催促＜する＞",
+    "meaning_vi": "sự giục giã; thúc giục; gợi nhớ",
+    "reading": "さいそく＜する＞",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f1284b1519"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "トレイ",
+    "meaning_vi": "khay; mâm; miếng đựng thịt",
+    "reading": "とれい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e2a72a3ac5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "器",
+    "meaning_vi": "đồ đựng; tầm vóc con người",
+    "reading": "うつわ",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-231f0e3b6e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ずらり[と]",
+    "meaning_vi": "",
+    "reading": "ずらり[と]",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-610a652018"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本人は米を主食にしている。",
+      "vi": "Người Nhật lấy gạo làm lương thực chính."
+     }
+    ],
+    "expression": "主食",
+    "meaning_vi": "lương thực chính; món chính (cơm; bánh mì...)",
+    "reading": "しゅしょく",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2400ccc928"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "なま物",
+    "meaning_vi": "",
+    "reading": "なまもの",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-78c4a7cc0b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "特製",
+    "meaning_vi": "đặc chế; làm đặc biệt",
+    "reading": "とくせい",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-38f46baba4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "粗末な",
+    "meaning_vi": "mộc mạc; tồi tàn",
+    "reading": "そまつな",
+    "topic_vi": "Bữa ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e1157489d4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "購入＜する＞",
+    "meaning_vi": "mua sắm; mua vào; mua",
+    "reading": "こうにゅう＜する＞",
+    "topic_vi": "Mua sắm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-dff85233f1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "[お]買い得",
+    "meaning_vi": "",
+    "reading": "[お]かいどく",
+    "topic_vi": "Mua sắm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3eadbce8ec"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この店では手ごろな値段でおいしいフランス料理が食べられる。",
+      "vi": "Ở cửa hàng này có thể ăn món Pháp ngon với giá phải chăng."
+     },
+     {
+      "ja": "このゲームは難しすぎず、初心者には手ごろだ。",
+      "vi": "Trò chơi này không quá khó, vừa sức với người mới bắt đầu."
+     },
+     {
+      "ja": "手ごろな｛大きさ/厚さ/重さ…｝",
+      "vi": "Kích thước / độ dày / trọng lượng vừa phải..."
+     }
+    ],
+    "expression": "手頃な",
+    "meaning_vi": "phù hợp; vừa phải",
+    "reading": "てごろな",
+    "topic_vi": "Mua sắm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-809a8981dc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "値引き＜する＞",
+    "meaning_vi": "giảm giá",
+    "reading": "ねびき＜する＞",
+    "topic_vi": "Mua sắm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6ac0d7fd5d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "返品＜する＞",
+    "meaning_vi": "trả lại hàng",
+    "reading": "へんぴん＜する＞",
+    "topic_vi": "Mua sắm",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-88b51b9254"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "返金＜する＞",
+    "meaning_vi": "hoàn tiền",
+    "reading": "へんきん＜する＞",
+    "topic_vi": "Mua sắm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e7a190fb76"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この博物館には世界一高価な宝石が展示してある。",
+      "vi": "Ở bảo tàng này có trưng bày viên đá quý đắt nhất thế giới."
+     },
+     {
+      "ja": "高価な｛品/プレゼント…｝",
+      "vi": "Món đồ đắt tiền / món quà đắt tiền..."
+     }
+    ],
+    "expression": "高価な",
+    "meaning_vi": "đắt giá; đắt tiền",
+    "reading": "こうかな",
+    "topic_vi": "Mua sắm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b3ad42e4d3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "品質",
+    "meaning_vi": "chất lượng",
+    "reading": "ひんしつ",
+    "topic_vi": "Mua sắm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a3827040b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ネットオークション",
+    "meaning_vi": "đấu giá trên mạng; bán đấu giá qua mạng",
+    "reading": "ねっとおーくしょん",
+    "topic_vi": "Mua sắm",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9fe83056b7"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N2",
+ "packet_id": "VOCAB_MNEMONIC-004"
+}

@@ -1,0 +1,668 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "パワハラ",
+    "meaning_vi": "",
+    "reading": "ぱわはら",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2b10dc717a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "経歴",
+    "meaning_vi": "lý lịch công tác",
+    "reading": "けいれき",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-809407c786"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "けがで欠場した本田選手は、いま再起を図ってリハビリに励んでいる。",
+      "vi": "Tuyển thủ Honda, người không tham gia thi đấu do chấn thương, hiện đang cố gắng điều trị phục hồi chức năng để hồi phục."
+     },
+     {
+      "ja": "市民センターは、市民の文化活動の推進を図って設立された。",
+      "vi": "Trung tâm cộng đồng này được thành lập để tiến hành thúc đẩy các hoạt động văn hóa cộng đồng."
+     },
+     {
+      "ja": "重体の患者が救命病棟に運び込まれた。",
+      "vi": "Một bệnh nhân cố gắng tự sát đã được đưa vào phòng cấp cứu."
+     }
+    ],
+    "expression": "図る",
+    "meaning_vi": "tìm cách; hoạch định; lập kế hoạch",
+    "reading": "はかる",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-22e7594c18"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "起業＜する＞",
+    "meaning_vi": "",
+    "reading": "きぎょう＜する＞",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-73975159f9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "資金",
+    "meaning_vi": "vốn; kinh phí",
+    "reading": "しきん",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-bd0669c019"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "実業家",
+    "meaning_vi": "doanh nhân",
+    "reading": "じつぎょうか",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8f4ec3f5e6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は将来会社のトップになるという野心を持っている。",
+      "vi": "Cô ấy có tham vọng trong tương lai công ty sẽ lọt vào top đầu."
+     },
+     {
+      "ja": "この小説は、従来の小説のあり方を変える野心作だ。",
+      "vi": "Cuốn tiểu thuyết này là tác phẩm mang sứ mệnh tiên phong thay đổi sự tồn tại của tiểu thuyết cho đến hiện tại."
+     }
+    ],
+    "expression": "野心",
+    "meaning_vi": "tham vọng",
+    "reading": "やしん",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d5cf5710fe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "コネ",
+    "meaning_vi": "",
+    "reading": "こね",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0536321e5a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一か八か",
+    "meaning_vi": "",
+    "reading": "いちかはちか",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d78eba1757"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "提示＜する＞",
+    "meaning_vi": "xuất trình; đưa ra",
+    "reading": "ていじ＜する＞",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1883b96028"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "サイドビジネス",
+    "meaning_vi": "",
+    "reading": "さいどびじねす",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b0b2661f12"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "家業",
+    "meaning_vi": "",
+    "reading": "かぎょう",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8d538e77fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "やり遂げる",
+    "meaning_vi": "làm đến cùng; hoàn thành trọn vẹn",
+    "reading": "やりとげる",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-64f01c9982"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "宛てる",
+    "meaning_vi": "gửi đến địa chỉ",
+    "reading": "あてる",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b58eac3b25"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "見計らう",
+    "meaning_vi": "ước lượng thời điểm thích hợp để làm việc gì",
+    "reading": "みはからう",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8975b53bff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "円満な",
+    "meaning_vi": "hòa thuận; êm ấm",
+    "reading": "えんまんな",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-92bc18feb6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "後押し＜する＞",
+    "meaning_vi": "",
+    "reading": "あとおし＜する＞",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-841953ec1a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "引き継ぐ",
+    "meaning_vi": "bàn giao; tiếp nhận công việc",
+    "reading": "ひきつぐ",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d47f4ae14c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ニート",
+    "meaning_vi": "",
+    "reading": "にーと",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9c9ee653e8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "街並み",
+    "meaning_vi": "",
+    "reading": "まちなみみ",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f552b633fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "コミュニティー",
+    "meaning_vi": "",
+    "reading": "こみゅにてぃー",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d02bc1f47f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "人波",
+    "meaning_vi": "",
+    "reading": "ひとなみ",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-316242917d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "煌々と",
+    "meaning_vi": "sáng trưng",
+    "reading": "こうこうと",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d90a79233f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "社会の発展のためには、インフラの整備が不可欠だ。",
+      "vi": "Để phát triển xã hội thì việc hoàn thiện cơ sở hạ tầng là không thể thiếu."
+     },
+     {
+      "ja": "戦災でインフラが崩壊し、人々の生活は困難を極めた。",
+      "vi": "Cơ sở hạ tầng bị phá hủy do chiến tranh khiến cho cuộc sống của mọi người vô cùng khó khăn."
+     }
+    ],
+    "expression": "インフラ",
+    "meaning_vi": "cơ sở hạ tầng",
+    "reading": "いんふら",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1b85ba51e2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "そのチームは新しいプロジェクトに着手した。",
+      "vi": "Nhóm đó đã bắt tay vào dự án mới."
+     },
+     {
+      "ja": "がれきの撤去作業は明日にも着手される。",
+      "vi": "Công việc di dời đống đổ nát sẽ được bắt đầu vào ngày mai."
+     },
+     {
+      "ja": "警察はドラッグ使用に断固とした措置をとった。",
+      "vi": "Cảnh sát đã có biện pháp kiên quyết với hành vi sử dụng ma túy."
+     }
+    ],
+    "expression": "着手＜する＞",
+    "meaning_vi": "bắt tay vào làm; bắt tay vào công việc; biện pháp",
+    "reading": "ちゃくしゅ＜する＞",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7ed3cbf573"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "着工＜する＞",
+    "meaning_vi": "khởi công",
+    "reading": "ちゃっこう＜する＞",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-020f5b8a9b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ここは出戸時代に造られた庭園で、とても趣がある。",
+      "vi": "Đây là khu vườn được xây dựng tại thời Edo và rất có sức hấp dẫn."
+     },
+     {
+      "ja": "このあたりの町並みは、戦前の趣を残している。",
+      "vi": "Những dãy phố quanh đây vẫn còn sót lại cảnh tượng trước chiến tranh."
+     }
+    ],
+    "expression": "趣",
+    "meaning_vi": "phong vị; nét riêng; thú vị",
+    "reading": "おもむき",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c6a4f3ae65"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "斜面",
+    "meaning_vi": "mặt dốc; độ dốc／sườn dốc",
+    "reading": "しゃめん",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-187a6e2369"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "遅らせる",
+    "meaning_vi": "",
+    "reading": "おくらせる",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-febb6c07bf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "もってこい",
+    "meaning_vi": "",
+    "reading": "もってこい",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cfa12e3999"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "点々と",
+    "meaning_vi": "",
+    "reading": "てんてんと",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-70d10113bb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "待ち望む",
+    "meaning_vi": "trông đợi",
+    "reading": "まちのぞむ",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9255e6ff55"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "市民の要望によって、博物館の存続が決まった。",
+      "vi": "Theo nguyện vọng của người dân, bảo tàng đã được quyết định giữ lại."
+     }
+    ],
+    "expression": "存続＜する＞",
+    "meaning_vi": "tồn tại tiếp tục",
+    "reading": "そんぞく＜する＞",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-81a2c05768"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "追放＜する＞",
+    "meaning_vi": "trục xuất; khai trừ",
+    "reading": "ついほう＜する＞",
+    "topic_vi": "Thành phố",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ab4e0160ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "公的な",
+    "meaning_vi": "",
+    "reading": "こうてきな",
+    "topic_vi": "Công cộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6e75fc8206"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "公用",
+    "meaning_vi": "việc công",
+    "reading": "こうよう",
+    "topic_vi": "Công cộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ac0ffa31ef"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "条例",
+    "meaning_vi": "",
+    "reading": "じょうれい",
+    "topic_vi": "Công cộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b533448b07"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "現行",
+    "meaning_vi": "hiện hành",
+    "reading": "げんこう",
+    "topic_vi": "Công cộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a34b0f2327"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "事例",
+    "meaning_vi": "",
+    "reading": "じれい",
+    "topic_vi": "Công cộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-728eef978d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "実情",
+    "meaning_vi": "tình hình thực tế",
+    "reading": "じつじょう",
+    "topic_vi": "Công cộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d46c9ebfa4"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N1",
+ "packet_id": "VOCAB_TYPE-013"
+}

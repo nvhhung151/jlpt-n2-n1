@@ -1,0 +1,265 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "実話をもとに映画が作られた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dựa trên — Lấy cái gì làm nguyên liệu hoặc căn cứ để tạo ra cái mới.",
+    "pattern": "を元(もと)に",
+    "pattern_variants": [
+     "N + をもとに"
+    ],
+    "source_questions": [],
+    "unit_no": 8
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c1dbd760b4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "法律に基づいて処理します。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Căn cứ theo — Làm theo đúng quy định, dữ liệu hoặc nguyên tắc đã có.",
+    "pattern": "に基(もと)づいて",
+    "pattern_variants": [
+     "N + に基づいて"
+    ],
+    "source_questions": [],
+    "unit_no": 8
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-073f255e7b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "川に沿って道が続いている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Dọc theo, theo đúng — Đi dọc theo vật gì, hoặc làm theo đúng phương châm.",
+    "pattern": "に沿(そ)って",
+    "pattern_variants": [
+     "N + に沿って",
+     "〜に沿って",
+     "〜にそって/沿い"
+    ],
+    "source_questions": [],
+    "unit_no": 8
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-54de130bab"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "晴れた空のもとで運動会が盛大に行われた。",
+      "vi": "Trong điều kiện trời nắng thì hội thao sẽ được tổ chức hoành tráng"
+     },
+     {
+      "ja": "女の子は両親の温かい愛情のもとですっくすくと育った。",
+      "vi": "Cô bé lớn nhanh trong tình yêu thương ấm áp của bố mẹ."
+     }
+    ],
+    "meaning_vi": "Dưới (sự quản lí, chỉ đạo,... )",
+    "pattern": "の下(もと)で",
+    "pattern_variants": [
+     "〜のもとで/に",
+     "〜のもとで"
+    ],
+    "source_questions": [],
+    "unit_no": 8
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a8d183b035"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "向(む)け",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 8
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ad5812757d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "時間がたつにつれて、痛みは和らいだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Càng thì càng — Hai bên biến đổi tỉ lệ với nhau một cách tự nhiên.",
+    "pattern": "に連(つ)れて",
+    "pattern_variants": [
+     "V từ điển / N + につれて"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f98bfaa66f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "山を登るにしたがって、気温が下がった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Theo, càng thì càng — Biến đổi song song, hoặc tuân theo chỉ dẫn.",
+    "pattern": "に従(したが)って",
+    "pattern_variants": [
+     "V từ điển / N + にしたがって"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3c3ff1bf18"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "人口の増加に伴って、住宅が不足している。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Cùng với, kéo theo — Việc này thay đổi thì việc kia thay đổi theo.",
+    "pattern": "に伴(ともな)って",
+    "pattern_variants": [
+     "V từ điển / N + に伴って"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2ba858f748"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "年をとるとともに、体力が落ちる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Cùng với, đồng thời — Hai việc xảy ra song song, hoặc cùng ai đó làm gì.",
+    "pattern": "と共(とも)に",
+    "pattern_variants": [
+     "V từ điển / N + とともに"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-06a468d591"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "本校では学生のレベルに応じてクラス分けを行います。",
+      "vi": "Trường học này, dựa vào trình độ học sinh để tổ chức phân lớp."
+     },
+     {
+      "ja": "学習目的の多様化に応じ、教授法や教材にも工夫が求められる。",
+      "vi": "Tương ứng với sự đa dạng hóa mục đích học tập, phương pháp học và giáo trình cũng yêu cầu phải kỳ công hơn."
+     }
+    ],
+    "meaning_vi": "Phụ thuộc vào, ứng với",
+    "pattern": "に応(おう)じて",
+    "pattern_variants": [
+     "〜に応じ(て)",
+     "N + に応じて"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0d2b9dbee5"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-005"
+}

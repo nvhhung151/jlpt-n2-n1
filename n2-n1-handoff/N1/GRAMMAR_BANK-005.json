@@ -1,0 +1,247 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は仕事のかたわら小説を書いている。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bên cạnh việc chính — Ngoài công việc chính còn làm thêm việc khác lâu dài.",
+    "pattern": "傍(かたわ)ら",
+    "pattern_variants": [
+     "N の / V từ điển + かたわら",
+     "〜かたわら"
+    ],
+    "source_questions": [],
+    "unit_no": 7
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7351623214"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "春とはいえ、まだ寒い。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tuy nói là nhưng — Thừa nhận vế trước nhưng thực tế khác đi.",
+    "pattern": "とは言(い)え",
+    "pattern_variants": [
+     "Thể thường + とはいえ",
+     "〜とはいえ"
+    ],
+    "source_questions": [],
+    "unit_no": 8
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-99037d2d1e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "簡単だと思いきや、意外に難しかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tưởng là ai ngờ — Kết quả trái hẳn với điều vừa nghĩ, kèm bất ngờ.",
+    "pattern": "と思(おも)いきや",
+    "pattern_variants": [
+     "Thể thường + と思いきや",
+     "〜と思いきや"
+    ],
+    "source_questions": [],
+    "unit_no": 8
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-3a15a7925b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「困ったことがあるなら、先生なり友達なりに相談してみたら？」",
+      "vi": "“Nếu có chuyện khó xử thì hãy thử bàn với thầy cô hoặc bạn bè chẳng hạn.”"
+     },
+     {
+      "ja": "「風邪をひいているみたいですね。薬を飲むなり、医者に行くなりしたほうがいいですよ」",
+      "vi": "“Hình như bạn bị cảm. Bạn nên uống thuốc hoặc đi khám bác sĩ.”"
+     }
+    ],
+    "meaning_vi": "Chẳng hạn… hoặc…; chọn một trong những phương án được nêu",
+    "pattern": "〜なり〜なり",
+    "pattern_variants": [
+     "〜なり...なり"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ade244e492"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "たとえ社長であれ、会社の金を自由にはできない。",
+      "vi": "Cho dù là giám đốc công ty thì cũng không thể tùy ý sử dụng tiền của công ty."
+     },
+     {
+      "ja": "いかに不満であれ、決定したことには従わなければならない。",
+      "vi": "Dù bất mãn đến đâu, ta vẫn phải tuân theo điều đã được quyết định."
+     }
+    ],
+    "meaning_vi": "Dù là…; cho dù ở trạng thái…",
+    "pattern": "〜であれ",
+    "pattern_variants": [
+     "N + であれ / であろうと"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4576e4dfad"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "掃除をするそばから子どもが散らかしてしまう。",
+      "vi": "Cứ vừa dọn dẹp xong thì bọn trẻ lại bày bừa ra."
+     },
+     {
+      "ja": "この商品は店頭に置いたそばから売れていく。",
+      "vi": "Mặt hàng này cứ vừa được bày lên quầy là bán ngay."
+     }
+    ],
+    "meaning_vi": "Vừa mới làm xong thì ngay lập tức lại xảy ra; cùng một việc cứ lặp đi lặp lại.",
+    "pattern": "〜そばから",
+    "pattern_variants": [
+     "V từ điển / V-た + そばから"
+    ],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bf39f04c66"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "たら最後(さいご)",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d6a6880949"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "様(よう)では",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 9
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-96e2e90457"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "う・よう + が〜まいが",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 10
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-9be8655774"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "なら〜で",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 10
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-47c14a6efc"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-005"
+}

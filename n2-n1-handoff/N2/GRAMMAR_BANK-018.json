@@ -1,0 +1,244 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "行けません。というのは急用ができたからです。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Sở dĩ là vì, cái gọi là — Giải thích lý do hoặc định nghĩa một khái niệm.",
+    "pattern": "Thể thường + というのは",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f121d4f779"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "約束した以上、守らなければならない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đã thì phải — Đã ở trong tình huống đó thì đương nhiên phải làm theo.",
+    "pattern": "Thể thường + 以上(は)",
+    "pattern_variants": [
+     "〜以上は)/上は"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f668f8f016"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "問い合わせたところ、在庫があるとのことだった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Khi làm thử thì — Làm một việc rồi phát hiện ra kết quả, thường bất ngờ.",
+    "pattern": "V-た + ところ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e30085d13c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ついに完成した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Cuối cùng thì — Sau thời gian dài chờ đợi thì cũng xảy ra.",
+    "pattern": "ついに + V",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ecd465b37a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "人によっては辛く感じるかもしれない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Tuỳ trường hợp có khi — Trong một số trường hợp thì khác đi.",
+    "pattern": "N + によっては",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2a477664d5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "引き受けたからには、最後までやる。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đã thì — Nhấn mạnh quyết tâm hoặc trách nhiệm đi kèm.",
+    "pattern": "Thể thường + からには",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-df7e54aa49"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ドアを開けたとたん、猫が飛び出した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vừa mới thì lập tức — Ngay khoảnh khắc việc trước xảy ra thì việc sau xảy ra ngay, thường ngoài dự tính.",
+    "pattern": "V-た + とたん",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-662017380b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "苦労してこそ、喜びも大きい。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Có thì mới — Chỉ khi làm việc đó thì mới đạt được kết quả thật sự.",
+    "pattern": "V-て + こそ",
+    "pattern_variants": [
+     "〜てこそ"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-70726b4123"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "高いからといって、いいとは限らない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không phải cứ là — Không thể chỉ vì lý do đó mà kết luận như vậy.",
+    "pattern": "Thể thường + からといって",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a6dbabf484"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "足が痛くて歩けないほどだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đến mức là — Nêu ví dụ cụ thể để minh hoạ mức độ.",
+    "pattern": "Thể thường + ほどだ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a713831f5c"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-018"
+}

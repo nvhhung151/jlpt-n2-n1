@@ -1,0 +1,726 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "勝敗",
+    "meaning_vi": "thắng bại",
+    "reading": "しょうはい",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-122a0d77ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "AチームはBチームに勝利した。",
+      "vi": "Đội A đã giành chiến thắng trước đội B."
+     },
+     {
+      "ja": "今回の選挙で、野党は与党に対し勝利を収めた。",
+      "vi": "Trong cuộc bầu cử lần này, đảng đối lập đã đánh bại đảng cầm quyền."
+     }
+    ],
+    "expression": "勝利＜する＞",
+    "meaning_vi": "thắng lợi; chiến thắng",
+    "reading": "しょうり＜する＞",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a69d5d3898"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "敵を徹底的にやっつけた。",
+      "vi": "Đánh bại kẻ địch một cách triệt để."
+     },
+     {
+      "ja": "早くこの仕事をやっつけて飲みに行こう。",
+      "vi": "Giải quyết nhanh công việc rồi đi uống thôi."
+     }
+    ],
+    "expression": "やっ付ける",
+    "meaning_vi": "hạ gục; làm cho xong; đánh bại",
+    "reading": "やっつける",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ebf1cfcece"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "敵を攻める。",
+      "vi": "Tấn công kẻ địch."
+     },
+     {
+      "ja": "積極的に相手チームを攻めて勝利した。",
+      "vi": "Tấn công đội bạn một cách chủ động nên đã giành chiến thắng."
+     }
+    ],
+    "expression": "攻める",
+    "meaning_vi": "tấn công",
+    "reading": "せめる",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-789383b83f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "逆転＜する＞",
+    "meaning_vi": "đảo ngược; lật ngược tình thế",
+    "reading": "ぎゃくてん＜する＞",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0d76959231"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "開会＜する＞",
+    "meaning_vi": "khai mạc",
+    "reading": "かいかい＜する＞",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b0007c1a57"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "雨で試合が中断した。",
+      "vi": "Trận đấu bị gián đoạn do mưa."
+     },
+     {
+      "ja": "なかなか結論が出ず、会議は一時中断された。",
+      "vi": "Chưa ra được kết luận nên cuộc họp tạm gián đoạn."
+     }
+    ],
+    "expression": "中断＜する＞",
+    "meaning_vi": "gián đoạn",
+    "reading": "ちゅうだん＜する＞",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f942a68e46"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "勇ましい",
+    "meaning_vi": "dũng cảm; hùng dũng",
+    "reading": "いさましい",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c0a9910c4b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "さすが[に]",
+    "meaning_vi": "",
+    "reading": "さすが[に]",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-70e6aab20d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "観逆",
+    "meaning_vi": "",
+    "reading": "かんぎゃく",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-b1d8f512d6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "順位",
+    "meaning_vi": "thứ hạng",
+    "reading": "じゅんい",
+    "topic_vi": "Thi đấu",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f0de7a4be0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "トレーナー",
+    "meaning_vi": "",
+    "reading": "とれーなー",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e16e273693"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "洗濯物を取り入れる。",
+      "vi": "Thu đồ phơi vào."
+     },
+     {
+      "ja": "会社は消費者の意見を取り入れて、容器を改良した。",
+      "vi": "Công ty tiếp thu ý kiến người tiêu dùng và cải tiến bao bì."
+     }
+    ],
+    "expression": "取り入れる",
+    "meaning_vi": "đưa vào áp dụng; thu hoạch; nhặt vào",
+    "reading": "とりいれる",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3400c6d645"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この仕事はハードな割りに給料があまりよくない。",
+      "vi": "Công việc này khó nhưng lương không cao."
+     },
+     {
+      "ja": "ハードなトレーニング",
+      "vi": "Luyện tập gian khổ."
+     },
+     {
+      "ja": "今週はスケジュールがハードで、なかなか休めない。",
+      "vi": "Hôm nay lịch trình dày đặc nên khó mà có thể nghỉ."
+     }
+    ],
+    "expression": "ハードな",
+    "meaning_vi": "khó khăn; vất vả; khó",
+    "reading": "はーどな",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-47329c8eb2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "通用＜する＞",
+    "meaning_vi": "được chấp nhận; dùng được",
+    "reading": "つうよう＜する＞",
+    "topic_vi": "Thi đấu",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9bf62bab0e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は服のセンスがとてもいい。",
+      "vi": "Cô ấy có gu thời trang rất tốt."
+     },
+     {
+      "ja": "彼女はいつもセンスのいい服を着ている。",
+      "vi": "Cô ấy lúc nào cũng mặc đồ có gu."
+     },
+     {
+      "ja": "彼は文学的なセンスに恵まれている。",
+      "vi": "Anh ấy có khiếu cảm thụ văn chương."
+     }
+    ],
+    "expression": "センス",
+    "meaning_vi": "khiếu thẩm mỹ; gu; giác quan",
+    "reading": "せんす",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ab1f18acac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ダサい",
+    "meaning_vi": "quê mùa; nguyên thủy; thô sơ",
+    "reading": "ださい",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5c86cb81a8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このデザインは悪くはないが、今一つ新鮮みに欠ける。",
+      "vi": "Thiết kế này không phải là tệ nhưng thiếu mất một chút tươi tắn."
+     },
+     {
+      "ja": "「味はどう？」「うん、今一つだね」",
+      "vi": "\"Mùi vị thế nào?\" \"Ừm, vẫn thiếu một chút.\""
+     }
+    ],
+    "expression": "今一つ",
+    "meaning_vi": "thiếu một ít; thiếu một chút",
+    "reading": "いまひとつ",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f9471af9ae"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "足元（足下）",
+    "meaning_vi": "",
+    "reading": "あしもと（あしもと）",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2df71799d8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "見た目",
+    "meaning_vi": "vẻ bề ngoài; dáng vẻ; hình thức bề ngoài",
+    "reading": "みため",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-fa11f86822"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「人目を気にせず、やりたいことをやりなさい。」",
+      "vi": "\"Đừng bận tâm ánh nhìn của người khác, cứ làm điều mình muốn.\""
+     },
+     {
+      "ja": "日本では、人目のあるところでキスをするのは恥ずかしいと思う人が多い。",
+      "vi": "Ở Nhật, nhiều người cho rằng hôn nơi công cộng là điều đáng xấu hổ."
+     },
+     {
+      "ja": "彼女は人目に付くのが嫌いで、いつも地味な格好をしている。",
+      "vi": "Cô ấy không thích bị chú ý nên luôn ăn mặc giản dị."
+     }
+    ],
+    "expression": "人目",
+    "meaning_vi": "sự chú ý của công chúng",
+    "reading": "ひとめ",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9fb45a305c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "色彩",
+    "meaning_vi": "màu sắc; sắc thái",
+    "reading": "しきさい",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-319df77af7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "アカデミー賞授賞式の会場は、華やかな雰囲気に包まれていた。",
+      "vi": "Hội trường lễ trao giải Oscar ngập tràn không khí lộng lẫy."
+     },
+     {
+      "ja": "成人の日には、華やかに装った若者たちが街にあふれる。",
+      "vi": "Vào ngày thành nhân, phố phường tràn ngập các bạn trẻ trong những bộ trang phục rực rỡ."
+     }
+    ],
+    "expression": "華やかな",
+    "meaning_vi": "lộng lẫy; tươi thắm",
+    "reading": "はなやかな",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-12a768c079"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "鮮やかな",
+    "meaning_vi": "",
+    "reading": "せんやかな",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6739a904f9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "EU は通貨をユーロに統一した。",
+      "vi": "EU đã thống nhất dùng đồng tiền chung là euro."
+     },
+     {
+      "ja": "精神を統一して試合に臨む。",
+      "vi": "Thống nhất tinh thần để bước vào trận đấu."
+     }
+    ],
+    "expression": "統一＜する＞",
+    "meaning_vi": "thống nhất",
+    "reading": "とういつ＜する＞",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-726ed2e353"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "フリーサイズ",
+    "meaning_vi": "kích thước phù hợp với tất cả; kích cỡ tự do",
+    "reading": "ふりーさいず",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9eb79b2ed4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "オーダーメイド",
+    "meaning_vi": "",
+    "reading": "おーだーめいど",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4fe250e714"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "（ボタンが）取れる",
+    "meaning_vi": "",
+    "reading": "（ぼたんが）とれる",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c4e28fdc12"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "浴衣",
+    "meaning_vi": "áo yukata",
+    "reading": "ゆかた",
+    "topic_vi": "Thời trang",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-512b54198a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "アイドル",
+    "meaning_vi": "",
+    "reading": "あいどる",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c6ee6c7671"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ステージ",
+    "meaning_vi": "sân khấu",
+    "reading": "すてーじ",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-df1390261b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "続々[と]",
+    "meaning_vi": "",
+    "reading": "ぞくぞく[と]",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f6ddf7052c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "演劇",
+    "meaning_vi": "kịch nghệ",
+    "reading": "えんげき",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6a7f7a7157"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "役者",
+    "meaning_vi": "diễn viên",
+    "reading": "やくしゃ",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-619009be6f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "主役",
+    "meaning_vi": "vai chính",
+    "reading": "しゅやく",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7dfde71b41"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "セリフ",
+    "meaning_vi": "",
+    "reading": "せりふ",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-568d920a16"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女はオーケストラでバイオリンを弾いています。",
+      "vi": "Cô ấy chơi violin trong dàn nhạc giao hưởng."
+     }
+    ],
+    "expression": "オーケストラ",
+    "meaning_vi": "dàn nhạc giao hưởng",
+    "reading": "おーけすとら",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-24e3abc146"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "鑑賞＜する＞",
+    "meaning_vi": "thưởng thức (nghệ thuật); thưởng thức",
+    "reading": "かんしょう＜する＞",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-46857410ca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "芸術家",
+    "meaning_vi": "nghệ sĩ; nhà nghệ thuật",
+    "reading": "げいじゅつか",
+    "topic_vi": "Giải trí",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ed160a32e1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "粗筋",
+    "meaning_vi": "tóm tắt nội dung; cốt truyện; tóm tắt cốt truyện",
+    "reading": "あらすじ",
+    "topic_vi": "Giải trí",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-081c14fc72"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N2",
+ "packet_id": "VOCAB_MNEMONIC-013"
+}

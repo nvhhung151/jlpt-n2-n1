@@ -1,0 +1,232 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "に至(いた)っても",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d9d59b8cbe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "に至(いた)っては",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-64f9a61403"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "何度も注意したのに、とうとう喧嘩する始末だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Rốt cuộc đến nông nỗi — Sự việc xấu đi dần rồi dẫn tới kết cục tệ hại.",
+    "pattern": "始末(しまつ)だ",
+    "pattern_variants": [
+     "V từ điển + 始末だ",
+     "〜しまつだ"
+    ],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5efbdb0e7f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ここにゴミを捨てるべからず。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không được phép — Cấm đoán mạnh, dùng trong bảng cấm hoặc văn cổ.",
+    "pattern": "〜べからず",
+    "pattern_variants": [
+     "V từ điển + べからず / べからざる",
+     "〜べからず/べからざる"
+    ],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-706c98d04f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "試験まであとわずかだ。一日たりとも遊んではいられない。",
+      "vi": "Chỉ còn rất ít thời gian trước kỳ thi. Không thể rong chơi dù chỉ một ngày."
+     },
+     {
+      "ja": "砂漠では一滴たりとも水を無駄にはできない。",
+      "vi": "Ở sa mạc, không thể lãng phí dù chỉ một giọt nước."
+     }
+    ],
+    "meaning_vi": "Dù chỉ một... cũng không...; ngay cả đơn vị nhỏ nhất cũng không...",
+    "pattern": "1〜たりとも〜ない",
+    "pattern_variants": [
+     "〜たりとも...ない"
+    ],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-063713e7c8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "想像するだに恐ろしい。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Chỉ cần đã — Chỉ mới làm việc nhỏ nhất đó thôi đã thấy thế nào rồi.",
+    "pattern": "(Verb) + だに",
+    "pattern_variants": [
+     "N + だに",
+     "〜だに"
+    ],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-cd73777207"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "からする",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-1056242cda"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜るまでだ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e7030da81f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜たまで + だ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7741b551bb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "いくら貯金しても、病気になればそれまでだ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Thì cũng coi như xong — Nếu điều đó xảy ra thì mọi công sức đổ sông đổ biển.",
+    "pattern": "それまでだ",
+    "pattern_variants": [
+     "V thể ば + それまでだ"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bffc8b1969"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-008"
+}

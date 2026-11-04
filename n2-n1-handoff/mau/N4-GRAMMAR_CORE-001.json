@@ -1,0 +1,237 @@
+{
+ "header": {
+  "instructions": "Các trường còn thiếu: meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), usage_vi, nuance_vi, common_mistakes_vi, examples (đủ 3 câu {ja, ja_furigana, vi})."
+ },
+ "items": [
+  {
+   "answer": {
+    "meaning_vi": "Vẫn chưa làm gì đó.",
+    "formation": "まだ + V-ていません",
+    "usage_vi": "Dùng để diễn tả một hành động hoặc sự việc tính đến thời điểm hiện tại vẫn chưa diễn ra hoặc chưa hoàn tất. Thường dùng để trả lời cho câu hỏi với もう.",
+    "nuance_vi": "Nhấn mạnh trạng thái chưa hoàn thành ở hiện tại nhưng hàm ý có thể sẽ thực hiện sau đó; khác với V-ませんでした (chỉ đơn thuần phủ định trong quá khứ).",
+    "common_mistakes_vi": "Người học hay trả lời câu hỏi もう〜ましたか bằng まだ〜ません hoặc まだ〜ませんでした; đúng ngữ pháp phải là まだ〜ていません.",
+    "examples": [
+     {
+      "ja": "昼ご飯はまだ食べていません。",
+      "ja_furigana": "昼(ひる)ご飯(はん)はまだ食(た)べていません。",
+      "vi": "Tôi vẫn chưa ăn cơm trưa."
+     },
+     {
+      "ja": "宿題はまだ終わっていません。",
+      "ja_furigana": "宿題(しゅくだい)はまだ終(お)わっていません。",
+      "vi": "Bài tập về nhà vẫn chưa xong."
+     },
+     {
+      "ja": "電車はまだ来ていませんよ。",
+      "ja_furigana": "電車(でんしゃ)はまだ来(き)ていませんよ。",
+      "vi": "Tàu điện vẫn chưa đến đâu."
+     }
+    ]
+   },
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "まだ〜ていません",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation",
+    "usage_vi",
+    "nuance_vi",
+    "common_mistakes_vi",
+    "examples"
+   ],
+   "id": "JG-a9e358ae62"
+  },
+  {
+   "answer": {
+    "meaning_vi": "Vừa làm A vừa làm B cùng lúc.",
+    "formation": "V1 (bỏ ます) + ながら + V2",
+    "usage_vi": "Diễn tả một chủ thể thực hiện đồng thời hai hành động trong cùng một khoảng thời gian. Hành động đứng sau ながら là hành động chính.",
+    "nuance_vi": "Trung tính, dùng phổ biến trong cả văn nói và văn viết; hai hành động phải do cùng một người thực hiện.",
+    "common_mistakes_vi": "Hay giữ nguyên ます hoặc chia thể て trước ながら (sai: 食べてながら); đúng là bỏ ます rồi gắn ながら. Không dùng khi hai vế có hai chủ ngữ khác nhau.",
+    "examples": [
+     {
+      "ja": "ラジオを聞きながら部屋を掃除します。",
+      "ja_furigana": "ラジオを聞(き)きながら部屋(へや)を掃除(そうじ)します。",
+      "vi": "Tôi vừa nghe radio vừa dọn phòng."
+     },
+     {
+      "ja": "友だちとコーヒーを飲みながら話しました。",
+      "ja_furigana": "友(とも)だちとコーヒーを飲(の)みながら話(はな)しました。",
+      "vi": "Tôi vừa uống cà phê vừa nói chuyện với bạn."
+     },
+     {
+      "ja": "働きながら大学に通っています。",
+      "ja_furigana": "働(はたら)きながら大学(だいがく)に通(かよ)っています。",
+      "vi": "Tôi vừa đi làm vừa theo học đại học."
+     }
+    ]
+   },
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜な���ら",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation",
+    "usage_vi",
+    "nuance_vi",
+    "common_mistakes_vi",
+    "examples"
+   ],
+   "id": "JG-d475586038"
+  },
+  {
+   "answer": {
+    "formation": "N (+ trợ từ) / số lượng + しか + V-ない (phủ định)",
+    "nuance_vi": "Mang cảm giác \"ít quá, không đủ\"; khác だけ (chỉ nêu giới hạn một cách trung tính và đi được với câu khẳng định).",
+    "common_mistakes_vi": "Dùng しか với vị ngữ khẳng định (sai: 千円しかあります; đúng: 千円しかありません) hoặc để cả を trước しか (sai: 水をしか; đúng: 水しか).",
+    "examples": [
+     {
+      "ja": "きのうは夜三時間しか寝ませんでした。",
+      "ja_furigana": "きのうは夜(よる)三時間(さんじかん)しか寝(ね)ませんでした。",
+      "vi": "Đêm qua tôi chỉ ngủ được ba tiếng."
+     },
+     {
+      "ja": "財布にお金が千円しかありません。",
+      "ja_furigana": "財布(さいふ)にお金(かね)が千円(せんえん)しかありません。",
+      "vi": "Trong ví tôi chỉ có một nghìn yên."
+     },
+     {
+      "ja": "この店は日曜日しか開いていません。",
+      "ja_furigana": "この店(みせ)は日曜日(にちようび)しか開(あ)いていません。",
+      "vi": "Cửa hàng này chỉ mở cửa vào Chủ nhật."
+     }
+    ]
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "1000円しかないの？",
+      "vi": "Bạn chỉ có 1000 yên thôi ư?"
+     },
+     {
+      "ja": "かれはごはんを一杯しか食べません。",
+      "vi": "Anh ấy chỉ có thể ăn một chén cơm."
+     }
+    ],
+    "meaning_vi": "Biểu thị rằng người nói cảm thấy chưa đủ số lượng hoặc mức độ.",
+    "pattern": "〜しか〜ない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "formation",
+    "nuance_vi",
+    "common_mistakes_vi",
+    "examples"
+   ],
+   "id": "JG-572f90304c"
+  },
+  {
+   "answer": {
+    "formation": "V-て + しまう / しまいます / しまいました",
+    "nuance_vi": "Nghĩa tiếc nuối hay gặp hơn trong hội thoại; văn nói thân mật rút gọn thành 〜ちゃう / 〜じゃう.",
+    "common_mistakes_vi": "Ghép しまう sau thể từ điển hoặc thể ます (sai: 忘れるしまいました; đúng: 忘れてしまいました); chia sai thể て (sai: 読みてしまう; đúng: 読んでしまう).",
+    "examples": [
+     {
+      "ja": "帰りの電車で寝てしまいました。",
+      "ja_furigana": "帰(かえ)りの電車(でんしゃ)で寝(ね)てしまいました。",
+      "vi": "Tôi lỡ ngủ quên trên chuyến tàu về."
+     },
+     {
+      "ja": "この本は一日で読んでしまいました。",
+      "ja_furigana": "この本(ほん)は一日(いちにち)で読(よ)んでしまいました。",
+      "vi": "Quyển sách này tôi đã đọc xong hết trong một ngày."
+     },
+     {
+      "ja": "大切なカップを割ってしまいました。",
+      "ja_furigana": "大切(たいせつ)なカップを割(わ)ってしまいました。",
+      "vi": "Tôi lỡ làm vỡ chiếc cốc quý mất rồi."
+     }
+    ]
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "宿題を忘れてしまいました。",
+      "vi": "Tôi quên làm bài tập mất rồi."
+     },
+     {
+      "ja": "ねぼうして、会社にちこくしてしまいました。",
+      "vi": "Tôi ngủ quên nên đã đến công ty muộn giờ mất rồi."
+     }
+    ],
+    "meaning_vi": "Biểu thị kết quả không mong muốn, đáng tiếc. Hoặc biểu thị sự hoàn tất của một sự việc.",
+    "pattern": "〜てしまう",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "formation",
+    "nuance_vi",
+    "common_mistakes_vi",
+    "examples"
+   ],
+   "id": "JG-c8176a2434"
+  },
+  {
+   "answer": {
+    "meaning_vi": "Mặc dù... thế mà lại...",
+    "formation": "V/A-い (thể thường) / A-な・N + な + のに",
+    "usage_vi": "Nối hai mệnh đề tương phản: sự việc ở vế trước lẽ ra dẫn đến kết quả đương nhiên, nhưng thực tế ở vế sau lại trái ngược hoàn toàn.",
+    "nuance_vi": "Mang sắc thái bất ngờ, tiếc nuối hoặc trách móc nhẹ của người nói; khác với が/けど (có thể dùng trung tính hoặc mở lời).",
+    "common_mistakes_vi": "Quên thêm な sau danh từ và tính từ đuôi な (sai: 休みのに, 静かのに; đúng: 休みなのに, 静かなのに). Không dùng câu mệnh lệnh hay rủ rê ở vế sau のに.",
+    "examples": [
+     {
+      "ja": "薬を飲んだのに熱が下がりません。",
+      "ja_furigana": "薬(くすり)を飲(の)んだのに熱(ねつ)が下(さ)がりません。",
+      "vi": "Đã uống thuốc rồi thế mà vẫn không hạ sốt."
+     },
+     {
+      "ja": "日曜日なのに会社へ行かなければなりません。",
+      "ja_furigana": "日曜日(にちようび)なのに会社(かいしゃ)へ行(い)かなければなりません。",
+      "vi": "Chủ nhật vậy mà tôi vẫn phải đến công ty."
+     },
+     {
+      "ja": "約束したのに彼はパーティーに来なかった。",
+      "ja_furigana": "約束(やくそく)したのに彼(かれ)はパーティーに来(こ)なかった。",
+      "vi": "Đã hứa rồi thế mà anh ấy lại không đến bữa tiệc."
+     }
+    ]
+   },
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜のに",
+    "pattern_variants": [
+     "のに"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation",
+    "usage_vi",
+    "nuance_vi",
+    "common_mistakes_vi",
+    "examples"
+   ],
+   "id": "JG-518dfd46ad"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N4",
+ "packet_id": "GRAMMAR_CORE-001"
+}

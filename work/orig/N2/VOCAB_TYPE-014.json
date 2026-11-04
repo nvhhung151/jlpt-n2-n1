@@ -1,0 +1,763 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "客を500人招いて豪華な結婚披露宴をした。",
+      "vi": "Đã tổ chức tiệc cưới sang trọng với 500 khách mời."
+     },
+     {
+      "ja": "豪華な｛家/衣装/料理…｝",
+      "vi": "Nhà sang trọng / trang phục lộng lẫy / món ăn sang trọng..."
+     },
+     {
+      "ja": "今日は給料日だから、ちょっと豪華にホテルで食事しよう。",
+      "vi": "Hôm nay là ngày nhận lương, nên đi ăn sang một chút ở khách sạn nhé."
+     }
+    ],
+    "expression": "豪華な",
+    "meaning_vi": "hoành tráng; cao cấp",
+    "reading": "ごうかな",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7cd107e7a1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "同窓会の幹事をしている。そろそろ会場を手配しなければならない。",
+      "vi": "Tôi làm cán sự hopkj lớp. Sắp phải chuẩn bị địa điểm tổ chức."
+     },
+     {
+      "ja": "｛人員／物資／チケット．．．｝の手配",
+      "vi": "Sắp xếp / bố trí (nhân sự, vật tư, vé...)"
+     },
+     {
+      "ja": "警察は父親殺害の容疑者として、長男を指名手配した。",
+      "vi": "Cảnh sát đã phát lệnh truy nã đích danh người con cả tình nghi là giết cha."
+     }
+    ],
+    "expression": "手配＜する＞",
+    "meaning_vi": "sắp xếp; bố trí; thu xếp",
+    "reading": "てはい＜する＞",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a0bab77cb6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女の荷物は規定の重量を10キロも超過していた。",
+      "vi": "Hành lý của cô ấy vượt quá quy định tới 10kg."
+     },
+     {
+      "ja": "計算してみると、予算を超過していた。",
+      "vi": "Tính thử thì thấy đã vượt ngân sách."
+     }
+    ],
+    "expression": "超過＜する＞",
+    "meaning_vi": "sự vượt mức; vượt quá",
+    "reading": "ちょうか＜する＞",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f95ccba4e6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "間もなく",
+    "meaning_vi": "",
+    "reading": "かんもなく",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-705a38d3f1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "食料品の大幅な値上げが庶民の生活を直撃した。",
+      "vi": "Giá lương thực tăng vọt đã ảnh hưởng trực tiếp đến cuộc sống người dân."
+     },
+     {
+      "ja": "計画が大幅に変更された。",
+      "vi": "Kế hoạch đã được thay đổi lớn."
+     }
+    ],
+    "expression": "大幅な",
+    "meaning_vi": "khá; tương đối; đáng kể",
+    "reading": "おおはばな",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-048800a4da"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "旅先",
+    "meaning_vi": "nơi đi du lịch; điểm đến",
+    "reading": "たびさき",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-44e32e3dc8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "各地",
+    "meaning_vi": "các nơi; các địa phương",
+    "reading": "かくち",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-59b8e11b40"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "市場",
+    "meaning_vi": "thị trường",
+    "reading": "しじょう",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-aa1a8a6d94"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本の「海女」は長時間海に潜って貝や魚を取ることができる。",
+      "vi": "“Ama” (nữ thợ lặn) ở Nhật có thể lặn lâu để bắt sò và cá."
+     },
+     {
+      "ja": "冬は寒いので、ふとんに潜り込んで寝るのが幸せだ。",
+      "vi": "Mùa đông lạnh, chui vào chăn ngủ là hạnh phúc."
+     },
+     {
+      "ja": "彼は反政府運動に関わって、地下に潜った。",
+      "vi": "Anh ta dính tới phong trào chống chính phủ nên phải lẩn trốn hoạt động bí mật."
+     }
+    ],
+    "expression": "潜る",
+    "meaning_vi": "lặn; chui vào; chìm xuống",
+    "reading": "もぐる",
+    "topic_vi": "Du lịch",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4213b8803d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "測定＜する＞",
+    "meaning_vi": "sự đo lường; đo đạc; đo lường",
+    "reading": "そくてい＜する＞",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0069c7500a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "定期的な",
+    "meaning_vi": "",
+    "reading": "ていきてきな",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-447a7183ef"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "赤ちゃん坊やは両親の愛情のもとで健やかに育った。",
+      "vi": "Đứa trẻ đã lớn lên khỏe mạnh dưới tình yêu thương của bố mẹ."
+     },
+     {
+      "ja": "健やかな｛体／心．．．｝",
+      "vi": "(Cơ thể/ trái tim) khỏe mạnh"
+     }
+    ],
+    "expression": "健やかな",
+    "meaning_vi": "khỏe mạnh",
+    "reading": "すこやかな",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e7a2c9d725"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "かたよる",
+    "meaning_vi": "",
+    "reading": "かたよる",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8d14d2d494"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "小柄な",
+    "meaning_vi": "",
+    "reading": "こがらな",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-66f3bfe309"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "踵",
+    "meaning_vi": "gót chân",
+    "reading": "かかと",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b8376e50be"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "つま先",
+    "meaning_vi": "",
+    "reading": "つまさき",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-077f9e789b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "血管",
+    "meaning_vi": "mạch máu",
+    "reading": "けっかん",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-50067a171e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "さらさら＜な/する＞",
+    "meaning_vi": "",
+    "reading": "さらさら＜な/する＞",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e30c466241"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "障がい",
+    "meaning_vi": "",
+    "reading": "しょうがい",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c0afec79c5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "泥棒は塀を乗り越えて侵入したものと見られる。",
+      "vi": "Được cho là kẻ trộm đã trèo tường đột nhập."
+     },
+     {
+      "ja": "この論文で、新井氏は師（の業績）を乗り越えたと言えるだろう。",
+      "vi": "Có thể nói ông Arai đã vượt qua thành tích của thầy mình."
+     },
+     {
+      "ja": "災害で生き残った者は悲しみを乗り越えて前へ進まなければならない。",
+      "vi": "Người sống sót sau thảm họa phải vượt qua nỗi đau để tiến về phía trước."
+     }
+    ],
+    "expression": "乗り越える",
+    "meaning_vi": "trèo qua; vượt qua",
+    "reading": "のりこえる",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f5a6dd48cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "傷跡",
+    "meaning_vi": "",
+    "reading": "きずあと",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-457b8a63a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "鼾",
+    "meaning_vi": "tiếng ngáy",
+    "reading": "いびき",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1ed411cd42"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "体が持つ",
+    "meaning_vi": "",
+    "reading": "からだがもつ",
+    "topic_vi": "Cơ thể và sức khỏe",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6bd8641f92"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "疲労＜する＞",
+    "meaning_vi": "sự mệt mỏi; mệt mỏi; suy kiệt",
+    "reading": "ひろう＜する＞",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-83b25a4a2a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "寝心地",
+    "meaning_vi": "",
+    "reading": "ねごこち",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9f398ca315"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "念のため",
+    "meaning_vi": "để phòng hờ",
+    "reading": "ねんのため",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a2ff39fd63"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "通院＜する＞",
+    "meaning_vi": "",
+    "reading": "つういん＜する＞",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4abe3b7d75"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "年を取ると、体力が衰える。",
+      "vi": "Có tuổi rồi thì thể lực suy giảm."
+     },
+     {
+      "ja": "｛勢い/食欲…｝が衰える。",
+      "vi": "(Đà/khẩu vị/ham ăn…) suy giảm."
+     },
+     {
+      "ja": "｛国/産業…｝が衰える。",
+      "vi": "(Đất nước/ngành công nghiệp…) suy thoái."
+     }
+    ],
+    "expression": "衰える",
+    "meaning_vi": "suy yếu; sa sút; yếu đi",
+    "reading": "おとろえる",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7c5d34956d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "鍛える",
+    "meaning_vi": "rèn luyện",
+    "reading": "きたえる",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-176df69e0c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "健康のためには、適度な運動が大切だ。",
+      "vi": "Để giữ sức khỏe, vận động vừa phải là rất quan trọng."
+     },
+     {
+      "ja": "適度な｛量/距離/食事…｝",
+      "vi": "Lượng vừa phải / khoảng cách vừa phải / bữa ăn vừa phải..."
+     },
+     {
+      "ja": "酒は適度に楽しむのがいい。",
+      "vi": "Rượu nên được thưởng thức ở mức vừa phải."
+     }
+    ],
+    "expression": "適度な",
+    "meaning_vi": "điều độ; thích hợp; vừa phải",
+    "reading": "てきどな",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3e2c5a4c1f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "マラソンでは、走っている途中で水分を補給することができる。",
+      "vi": "Trong cuộc đua Maraton, có thể bổ sung nước trong khi chạy."
+     },
+     {
+      "ja": "車にガソリンを補給する。",
+      "vi": "Đổ xăng xe. (Cung cấp xăng cho xe.)"
+     },
+     {
+      "ja": "こまめに水分を補給することが大切です。",
+      "vi": "Điều quan trọng là phải thường xuyên bổ sung nước cho cơ thể."
+     }
+    ],
+    "expression": "補給＜する＞",
+    "meaning_vi": "tiếp tế; bổ sung",
+    "reading": "ほきゅう＜する＞",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c03d3f4c58"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "サプリメント",
+    "meaning_vi": "",
+    "reading": "さぷりめんと",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-dd869b33a6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "取り戻す",
+    "meaning_vi": "lấy lại; giành lại; phục hồi",
+    "reading": "とりもどす",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e352e88dc5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "加入＜する＞",
+    "meaning_vi": "gia nhập; tham gia",
+    "reading": "かにゅう＜する＞",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-914746d63c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "くれぐれも",
+    "meaning_vi": "",
+    "reading": "くれぐれも",
+    "topic_vi": "Trước khi đổ bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a1a2d5f77b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「分かりにくいので、もっと具体的に説明してください」",
+      "vi": "“Khó hiểu quá, hãy giải thích cụ thể hơn.”"
+     },
+     {
+      "ja": "具体的な｛話/例/計画/方法…｝",
+      "vi": "Câu chuyện cụ thể / ví dụ cụ thể / kế hoạch cụ thể / phương pháp cụ thể..."
+     }
+    ],
+    "expression": "具体的な",
+    "meaning_vi": "cụ thể; rõ ràng",
+    "reading": "ぐたいてきな",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b6e7ce95c8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぼうっと＜する＞",
+    "meaning_vi": "",
+    "reading": "ぼうっと＜する＞",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cdf358ac23"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "しゃがむ",
+    "meaning_vi": "",
+    "reading": "しゃがむ",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2244534c6d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "山頂に着くと、３６０度視野が開けた。",
+      "vi": "Khi lên tới đỉnh núi, tầm nhìn mở ra toàn cảnh 360 độ."
+     },
+     {
+      "ja": "当然人影が視野に入ってきた。",
+      "vi": "Một bóng người bất ngờ lọt vào tầm nhìn của tôi."
+     },
+     {
+      "ja": "息子には留学して視野を広げてほしい。",
+      "vi": "Tôi muốn con trai đi du học để mở rộng tầm nhìn."
+     }
+    ],
+    "expression": "視野",
+    "meaning_vi": "tầm nhìn; tầm mắt",
+    "reading": "しや",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-909b739d95"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ダイエットの一番の課題は空腹に耐えることだ。",
+      "vi": "Thử thách lớn nhất của việc ăn kiêng là chịu đựng cái đói."
+     },
+     {
+      "ja": "｛訓練／ 痛み／ 禁断症状 ．．．｝に耐える。",
+      "vi": "Chịu đựng (huấn luyện/ đau đớn/ triệu chứng cai nghiện)."
+     },
+     {
+      "ja": "この家は像の重さにも耐えるコマーシャルで話題になった。",
+      "vi": "Ngôi nhà này gây chú ý trong quảng cáo vì được giới thiệu là chịu được sức nặng của con voi."
+     }
+    ],
+    "expression": "耐える",
+    "meaning_vi": "chịu đựng; bền được; chịu đựng sức ép kéo dài",
+    "reading": "たえる",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3b05c4a784"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-014"
+}

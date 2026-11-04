@@ -1,0 +1,249 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "金持ちの彼女は持ち物からして私たちとは違う。",
+      "vi": "Người giàu như cô ấy bắt đầu từ những vật mang theo, toàn bộ đã khác với chúng tôi."
+     },
+     {
+      "ja": "あの子は口のきき方からして反抗的だ。",
+      "vi": "Đứa trẻ đó ngay cả cách ăn nói cũng mang tính phản kháng rồi."
+     }
+    ],
+    "meaning_vi": "Bắt đầu từ... và toàn bộ những thứ khác",
+    "pattern": "〜からして",
+    "pattern_variants": [
+     "N + からして"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c0cb0dc65c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "際(さい)に",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bf620ebf50"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "卒業に際して、一言申し上げます。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Nhân dịp, khi — Vào đúng dịp làm một việc quan trọng.",
+    "pattern": "に際(さい)して",
+    "pattern_variants": [
+     "V từ điển / N + に際して",
+     "〜に際して/際し"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-73d7edfcf0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "新年を迎えるに当たって、目標を立てた。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Trước khi bước vào — Vào thời điểm bắt đầu một việc lớn, thường mang tính tích cực.",
+    "pattern": "に当(あ)たって",
+    "pattern_variants": [
+     "V từ điển / N + に当たって",
+     "〜にあたって/あたり",
+     "〜にあたって"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a515679c9f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "た途端(とたん)に",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-aea8d1a828"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この時期は、晴れていたかと思うと、急に降り出すことがあるから、傘を持っていったら？",
+      "vi": "Thời điểm này, có khi trời vừa nắng xong lại đổ mưa bất chợt, cậu nên mang theo ô đi nhé。"
+     },
+     {
+      "ja": "日曜なのに、お父さん忙しそうだね。さっき戻ったかと思うと、また出かけて行った。",
+      "vi": "Dù là Chủ Nhật nhưng bố trông có vẻ bận。Lúc nãy mới vừa về, vậy mà lại đi ra ngoài nữa。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "かと思(おも)うと",
+    "pattern_variants": [
+     "〜かと思うと"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-1703b7bb03"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "デパートのドアが開くか開かないかのうちに、待っていた客たちはバーゲン会場に殺到した。",
+      "vi": "Cánh cửa siêu thị trong khoảnh khắc cửa từ đóng sang mở, khách đang chờ ồ ạt vào mua hàng giảm giá."
+     },
+     {
+      "ja": "けがをしたところが治ったか治らないかのうちに、また同じところを切ってしまった。",
+      "vi": "Vết thương vừa kịp lành thì tôi đã cứa vào đúng chỗ đó luôn rồi."
+     }
+    ],
+    "meaning_vi": "Ngay lập tức, gần như đồng thời",
+    "pattern": "か〜ないかの内(うち)に",
+    "pattern_variants": [
+     "〜か〜ないかのうちに"
+    ],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d46e3e0d3d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A: 課長、電車、止まってるみたいです。",
+      "vi": "A: Trưởng phòng ơi, có vẻ tàu đang ngừng chạy."
+     },
+     {
+      "ja": "B: 大事な打ち合わせだから、歩いてでも行かないと。電車はあきらめて、タクシーを拾おう。",
+      "vi": "B: Cuộc họp quan trọng nên dù phải đi bộ cũng phải tới. Bỏ tàu đi, bắt taxi thôi."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜てでも",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d3569a6699"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "最中(さいちゅう)に",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5231e44ea7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "ない内(うち)に",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5ef1fdd4ce"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-001"
+}

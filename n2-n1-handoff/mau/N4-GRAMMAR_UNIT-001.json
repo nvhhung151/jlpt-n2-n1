@@ -1,0 +1,207 @@
+{
+ "header": {
+  "instructions": "unit_no: số bài (theo header.units) phù hợp nhất; unit_title_vi tùy chọn.",
+  "units": [
+   1,
+   2,
+   3,
+   4,
+   9,
+   11,
+   12,
+   15,
+   16,
+   21,
+   26,
+   27,
+   28,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50
+  ]
+ },
+ "items": [
+  {
+   "answer": {
+    "unit_no": 1,
+    "unit_title_vi": "Trạng thái và hành động song song"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "辞書系",
+      "vi": "(Dạng nguyên thể)"
+     }
+    ],
+    "meaning_vi": "Động từ được chia thành 3 nhóm. Tùy vào âm đứng trước ます hoặc âm kết thúc của từ ở dạng nguyên thể mà người ta sẽ xếp động từ đó vào nhóm nào. Và mỗi nhóm có quy tắc chia động từ ở dạng -て hay dạng khả năng, v.v. khác nhau.",
+    "pattern": "Nhóm động từ tiếng Nhật",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-95449a480d"
+  },
+  {
+   "answer": {
+    "unit_no": 28,
+    "unit_title_vi": "Vừa làm vừa và liệt kê lý do"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "わからないし、ねむい。",
+      "vi": "Tôi không hiểu, hơn nữa còn buồn ngủ."
+     },
+     {
+      "ja": "やさしいし、お金持ちだし、最高のかれです。",
+      "vi": "Anh ấy tốt vụng, giàu có, hơn nữa anh ấy là người tuyệt vời nhất."
+     }
+    ],
+    "meaning_vi": "Liên từ nối nhiều nội dung tương tự nhau. Cũng có thể sử dụng khi giải thích lí do.",
+    "pattern": "(〜も)〜し",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-e88cd8e779"
+  },
+  {
+   "answer": {
+    "unit_no": 27,
+    "unit_title_vi": "Thể khả năng"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "この漢字はなかなか読めません。",
+      "vi": "Chữ Hán này mãi mà vẫn không đọc được. · Ví dụ J-LAS soạn bổ sung"
+     }
+    ],
+    "meaning_vi": "Biểu thị tâm trạng tiếc vì không thể làm được như mong muốn, không thể thành công một cách dễ dàng.",
+    "pattern": "なかなか〜ない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-b660b788f0"
+  },
+  {
+   "answer": {
+    "unit_no": 26,
+    "unit_title_vi": "Giải thích lý do và nhờ vả lịch sự"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "びょういんへ いきたいんです。",
+      "vi": "Tôi muốn đi đến bệnh viện."
+     }
+    ],
+    "meaning_vi": "Nói ý muốn của mình\nMuốn làm gì mà cần người khác biết lý do thì dùng たいんです: びょういんへ いきたいんです.",
+    "pattern": "〜たいんです",
+    "pattern_variants": [],
+    "source_questions": [
+     {
+      "answer_ja": "ビザを もうしこみたいんです。",
+      "answer_vi": "Tôi muốn nộp đơn xin thị thực.",
+      "context_vi": "Ở nơi tiếp nhận hồ sơ thị thực, bạn giải thích với nhân viên rằng mình muốn nộp đơn xin thị thực.",
+      "correct_index": 1,
+      "explanation_vi": "Muốn nói mong muốn của chính mình kèm lời giải thích hoàn cảnh, dùng thân ます của động từ + たいんです. もうしこみます thành もうしこみたいんです.",
+      "id": "LP-GRAM-N4-26-muon-01",
+      "level": "N4",
+      "options": [
+       "ビザを もうしこみたいんです。",
+       "ビザを もうしこみたいですんです。",
+       "ビザを もうしこみますたいんです。",
+       "ビザを もうしこみたいなんです。"
+      ],
+      "pattern": "～たいんです",
+      "prompt_ja": "えらんでください。",
+      "type": "MCQ"
+     }
+    ],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-c4fa01bdf0"
+  },
+  {
+   "answer": {
+    "unit_no": 26,
+    "unit_title_vi": "Giải thích lý do và nhờ vả lịch sự"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "もうしこみしょは どこに だしたら いいですか。",
+      "vi": "Đơn đăng ký nộp ở đâu thì được ạ?"
+     }
+    ],
+    "meaning_vi": "Hỏi cách làm\nKhông biết làm sao thì hỏi thẳng cách: しょるいは どこに だしたら いいですか.",
+    "pattern": "〜たら いいですか",
+    "pattern_variants": [],
+    "source_questions": [
+     {
+      "answer_ja": "しょるいを どこで コピーしたら いいですか。",
+      "answer_vi": "Tôi nên photo giấy tờ ở đâu?",
+      "context_vi": "Bạn cần sao chép giấy tờ và hỏi đồng nghiệp nên photo ở đâu.",
+      "correct_index": 1,
+      "explanation_vi": "Hỏi nơi nên thực hiện việc gì bằng どこで + động từ thể たら + いいですか. コピーする thành コピーしたら; câu どこで コピーしましたか hỏi việc đã làm trong quá khứ, không phải xin hướng dẫn.",
+      "id": "LP-GRAM-N4-26-cach-01",
+      "level": "N4",
+      "options": [
+       "しょるいを どこで コピーしたら いいですか。",
+       "しょるいを どこで コピーしましたか。",
+       "しょるいを どこで コピーすれば いいですかんですか。",
+       "しょるいを どこで コピーした いいですか。"
+      ],
+      "pattern": "～たら いいですか",
+      "prompt_ja": "えらんでください。",
+      "type": "MCQ"
+     }
+    ],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "unit_no",
+    "unit_title_vi"
+   ],
+   "id": "JG-045ffadb34"
+  }
+ ],
+ "kind": "GRAMMAR_UNIT",
+ "level": "N4",
+ "packet_id": "GRAMMAR_UNIT-001"
+}

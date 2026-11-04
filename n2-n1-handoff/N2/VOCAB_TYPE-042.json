@@ -1,0 +1,682 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "拡充",
+    "meaning_vi": "mở rộng và tăng cường",
+    "reading": "かくじゅう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5e8f49e7e5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "文献",
+    "meaning_vi": "tài liệu tham khảo",
+    "reading": "ぶんけん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ab96ac8fe1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "明き",
+    "meaning_vi": "chỗ trống",
+    "reading": "あき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0ecf6f0c33"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "本部",
+    "meaning_vi": "trụ sở chính",
+    "reading": "ほんぶ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e7740849aa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "狙い",
+    "meaning_vi": "mục tiêu nhắm tới",
+    "reading": "ねらい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3ce7b93865"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "生産性",
+    "meaning_vi": "năng suất",
+    "reading": "せいさんせい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-772634ec4d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "競馬",
+    "meaning_vi": "đua ngựa",
+    "reading": "けいば",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-63d7975126"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "きびきび",
+    "meaning_vi": "nhanh nhẹn; gọn",
+    "reading": "きびきび",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c8c38afa28"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "だらだら",
+    "meaning_vi": "oải; kéo dài lê thê",
+    "reading": "だらだら",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9848768b20"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ラッキー",
+    "meaning_vi": "may mắn",
+    "reading": "ラッキー",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4a9ac67785"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "生魚は傷みやすいから、早く食べたほうがいい。",
+      "vi": "Cá tươi dễ bị hỏng nên nên ăn sớm."
+     }
+    ],
+    "expression": "傷む",
+    "meaning_vi": "bị hỏng",
+    "reading": "いたむ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5947c0ea81"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "国と国とが領土をめぐって戦う。",
+      "vi": "Các quốc gia tranh chấp lãnh thổ và giao chiến."
+     },
+     {
+      "ja": "オリンピックでは各国が正々堂々と戦った。",
+      "vi": "Tại Olympic, các nước thi đấu công bằng và chính trực."
+     },
+     {
+      "ja": "賃金をめぐって労働側と会社側が戦った。",
+      "vi": "Người lao động và công ty tranh chấp xoay quanh tiền lương."
+     }
+    ],
+    "expression": "戦う・闘う",
+    "meaning_vi": "đánh nhau; tranh chấp",
+    "reading": "たたかう・たたかう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e02da2d3e9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "試合に敗れる。",
+      "vi": "Thua trận."
+     },
+     {
+      "ja": "選挙で現職が新人に敗れた。",
+      "vi": "Đương kim chức vụ đã thất cử trước ứng viên mới."
+     }
+    ],
+    "expression": "敗れる",
+    "meaning_vi": "bị đánh bại",
+    "reading": "やぶれる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9386e872d0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "病気が発生し、多くの木が枯らしてしまった。",
+      "vi": "Dịch bệnh bùng phát khiến nhiều cây bị chết khô."
+     }
+    ],
+    "expression": "枯らす",
+    "meaning_vi": "héo",
+    "reading": "からす",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3091ad871f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "がんがん＜する＞",
+    "meaning_vi": "đau như búa bổ; âm thanh dữ dội",
+    "reading": "がんがん＜する＞",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9d26db7676"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "くたくた",
+    "meaning_vi": "mệt rã rời",
+    "reading": "くたくた",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3e1af1f21a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "くらくら",
+    "meaning_vi": "choáng váng",
+    "reading": "くらくら",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e6749bdfd7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ずきずき＜する＞",
+    "meaning_vi": "đau giật từng cơn",
+    "reading": "ずきずき＜する＞",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f18dfafa3b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぞくぞく",
+    "meaning_vi": "run rẩy vì lạnh hoặc hồi hộp",
+    "reading": "ぞくぞく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6433e02bd2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このセーターを着ると、首がちくちくする。",
+      "vi": "Mặc chiếc áo len này thì cổ bị ngứa châm chích."
+     }
+    ],
+    "expression": "ちくちく",
+    "meaning_vi": "đau nhói nhẹ; châm chích",
+    "reading": "ちくちく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-91d1b0f62a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ひりひり",
+    "meaning_vi": "đau rát",
+    "reading": "ひりひり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fef9fdf98c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "むかむか＜する＞",
+    "meaning_vi": "buồn nôn; bực bội",
+    "reading": "むかむか＜する＞",
+    "topic_vi": "Triệu chứng bệnh",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-54d3586f80"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "～科",
+    "meaning_vi": "khoa (chuyên khoa)",
+    "reading": "～か",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1f697a1d75"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "きゃしゃ（な）",
+    "meaning_vi": "mảnh mai",
+    "reading": "きゃしゃ（な）",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-05112f77bc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "体の変化",
+    "meaning_vi": "thay đổi cơ thể",
+    "reading": "からだのへんか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5a45f2a9c8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "体・身体",
+    "meaning_vi": "cơ thể",
+    "reading": "からだ・しんたい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ab94cf742c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "傷あと",
+    "meaning_vi": "sẹo",
+    "reading": "きずあと",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-23ebd226ff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "傷口",
+    "meaning_vi": "vết thương hở",
+    "reading": "きずぐち",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ce081c5fc0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "内科、外科、歯科",
+    "meaning_vi": "nội khoa; ngoại khoa; nha khoa",
+    "reading": "ないか、げか、しか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-55dab02890"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "蚊に刺される",
+    "meaning_vi": "bị muỗi đốt",
+    "reading": "かにさされる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b0e4505859"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "プライド",
+    "meaning_vi": "lòng tự trọng; niềm kiêu hãnh",
+    "reading": "プライド",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6e9cfef333"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぼろぼろ",
+    "meaning_vi": "rách nát; kiệt quệ",
+    "reading": "ぼろぼろ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9305a87ed8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の薬指には指輪がはまっていた。",
+      "vi": "Trên ngón áp út của anh ấy nhẫn đang vừa khít."
+     },
+     {
+      "ja": "｛ボタン/手袋…｝がはまらない。",
+      "vi": "Không vừa/không khớp (nút áo/găng tay…)."
+     },
+     {
+      "ja": "｛型/枠/条件…｝にはまる。",
+      "vi": "Hợp khuôn; đúng chuẩn; đáp ứng điều kiện."
+     }
+    ],
+    "expression": "嵌まる",
+    "meaning_vi": "khớp; bị kẹt",
+    "reading": "はまる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6e57857ded"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "寒いので、上着のボタンを全部はめた。",
+      "vi": "Vì lạnh nên tôi cài hết các nút áo khoác."
+     },
+     {
+      "ja": "窓枠にガラスをはめる。",
+      "vi": "Lắp kính vào khung cửa sổ."
+     },
+     {
+      "ja": "相手を罠にはめる。",
+      "vi": "Gài bẫy đối phương."
+     }
+    ],
+    "expression": "嵌める",
+    "meaning_vi": "làm chặt lại",
+    "reading": "はめる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-dd7518c250"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "8月末に海外赴任でヨーロッパへ立つ予定だ。",
+      "vi": "Dự định cuối tháng 8 sẽ sang châu Âu nhận nhiệm vụ công tác."
+     },
+     {
+      "ja": "10時30分の便で成田空港を発った。",
+      "vi": "Chuyến bay lúc 10:30 đã khởi hành từ sân bay Narita."
+     }
+    ],
+    "expression": "立つ・発つ",
+    "meaning_vi": "khởi hành; rời khỏi",
+    "reading": "たつ・たつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-08aa947da2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "やる気がない",
+    "meaning_vi": "không yêu thích công việc",
+    "reading": "やるきがない",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5199e586b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "やる気が出ない",
+    "meaning_vi": "không có động lực trong công việc",
+    "reading": "やるきがでない",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-aff25185c9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "仕事が生きがいだ",
+    "meaning_vi": "công việc là lẽ sống",
+    "reading": "しごとがいきがいだ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d86e240415"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "仕事をサボる",
+    "meaning_vi": "trốn việc",
+    "reading": "しごとをサボる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a3257f2910"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "休みを取る",
+    "meaning_vi": "nghỉ phép",
+    "reading": "やすみをとる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4fc2651304"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-042"
+}

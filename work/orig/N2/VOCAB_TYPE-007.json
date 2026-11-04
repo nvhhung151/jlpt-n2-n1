@@ -1,0 +1,792 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "歩行者",
+    "meaning_vi": "người đi bộ",
+    "reading": "ほこうしゃ",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f93a10a173"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "公共",
+    "meaning_vi": "công cộng",
+    "reading": "こうきょう",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1aa11cbc53"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "不思議な現象を見て、二人は顔を見合わせた。",
+      "vi": "Thấy hiện tượng kỳ lạ, hai người nhìn nhau."
+     },
+     {
+      "ja": "大雨になりそうなので、遠足は見合わせることになった。",
+      "vi": "Vì có vẻ sắp mưa to nên quyết định hoãn chuyến dã ngoại."
+     },
+     {
+      "ja": "「台風の影響で、列車は全線運休を見合わせております」",
+      "vi": "“Do ảnh hưởng của bão, hiện chúng tôi đang tạm ngừng chạy tàu.”"
+     }
+    ],
+    "expression": "見合わせる",
+    "meaning_vi": "tạm hoãn; nhìn nhau; hoãn",
+    "reading": "みあわせる",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e1f5d6fdb7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "風で髪が乱れた。",
+      "vi": "Gió làm tóc rối."
+     },
+     {
+      "ja": "人身事故のため、電車のダイヤが乱れている。",
+      "vi": "Do tai nạn người, lịch chạy tàu bị rối loạn (chậm/loạn giờ)."
+     },
+     {
+      "ja": "彼はお酒を飲んでも乱れない。",
+      "vi": "Anh ấy uống rượu cũng không “mất kiểm soát”."
+     }
+    ],
+    "expression": "乱れる",
+    "meaning_vi": "trở nên hỗn loạn; hỗn loạn; rối",
+    "reading": "みだれる",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f9a85ee415"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "再開＜する＞",
+    "meaning_vi": "bắt đầu lại; bắt đầu lại sau gián đoạn",
+    "reading": "さいかい＜する＞",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cc04a1c7ec"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ICカード",
+    "meaning_vi": "",
+    "reading": "ICかーど",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f594592923"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "なだらかな山道を1時間ほど歩くと頂上に出た。",
+      "vi": "Đi bộ khoảng 1 tiếng trên đường núi thoai thoải."
+     },
+     {
+      "ja": "なだらかな ｛坂道／傾斜／丘陵地帯．．．｝",
+      "vi": "(Đường dốc/ Dốc/ Dãy đồi) thoai thoải"
+     }
+    ],
+    "expression": "なだらかな",
+    "meaning_vi": "nhẹ nhàng; thoải mái",
+    "reading": "なだらかな",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-507ff56e7e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ぐるぐる[と]",
+    "meaning_vi": "",
+    "reading": "ぐるぐる[と]",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-bf1c50bc8a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は慎重な性格なので、よく考えてからでなければ行動しない。",
+      "vi": "Tôi tính thận trọng nên nếu không nghĩ kỹ thì không hành động."
+     },
+     {
+      "ja": "景気の回復について専門家は慎重な見方をしている。",
+      "vi": "Chuyên gia có cái nhìn thận trọng về phục hồi kinh tế."
+     },
+     {
+      "ja": "慎重な｛人/態度/姿勢/行動/やり方/判断/対応…｝",
+      "vi": "Thận trọng {người/thái độ/tư thế/hành động/cách làm/phán đoán/ứng xử…}."
+     }
+    ],
+    "expression": "慎重な",
+    "meaning_vi": "thận trọng",
+    "reading": "しんちょうな",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6cb4bbe129"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "気を抜く",
+    "meaning_vi": "lơ là; lơ đãng; bất cẩn",
+    "reading": "きをぬく",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9fa5e27011"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この畑では小麦を栽培している。",
+      "vi": "Ở cánh đồng này trồng lúa mì."
+     }
+    ],
+    "expression": "栽培＜する＞",
+    "meaning_vi": "trồng trọt; nuôi trồng",
+    "reading": "さいばい＜する＞",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-63dc799b7f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "古代エジプト文明は、３０００ねんにわたって栄えた。",
+      "vi": "Nền văn minh Ai Cập cổ đại đã phát triển thịnh vượng suốt 3000 năm."
+     },
+     {
+      "ja": "｛国／町／文化．．．｝が栄える。",
+      "vi": "(Đất nước/ thành phố/ văn hóa…) phồn vinh, thịnh vượng."
+     }
+    ],
+    "expression": "栄える",
+    "meaning_vi": "phồn thịnh; phồn vinh; hưng thịnh",
+    "reading": "さかえる",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8b8b9ba7b2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "携帯電話の普及は著しい。",
+      "vi": "Sự phổ biến của điện thoại di động là rất đáng kể."
+     },
+     {
+      "ja": "パソコンは一般家庭に普及するに伴い、インターネット利用者が急激に増えた。",
+      "vi": "Cùng với việc máy tính phổ cập trong các gia đình, số người dùng Internet đã tăng nhanh chóng."
+     }
+    ],
+    "expression": "普及＜する＞",
+    "meaning_vi": "phổ cập; phổ biến; lan rộng trong xã hội",
+    "reading": "ふきゅう＜する＞",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-08791e17f6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "急増＜する＞",
+    "meaning_vi": "tăng nhanh; tăng đột ngột",
+    "reading": "きゅうぞう＜する＞",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-23ca8d76dd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "情緒",
+    "meaning_vi": "cảm xúc; tình cảm",
+    "reading": "じょうしょ",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7be3651be4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "生活水準が向上すると、平均寿命が伸びる。",
+      "vi": "Khi mức sống nâng cao, tuổi thọ trung bình cũng tăng."
+     },
+     {
+      "ja": "｛学力 ／ 技術 ／ レベル ／ 意識 ．．．｝の向上",
+      "vi": "Cải thiện (học lực, kỹ năng, trình độ, ý thức...)"
+     }
+    ],
+    "expression": "向上＜する＞",
+    "meaning_vi": "nâng cao; tiến bộ; tăng cường",
+    "reading": "こうじょう＜する＞",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2638e17dd3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "決断力は、リーダーに不可欠な資質だと思う。",
+      "vi": "Khả năng quyết đoán là tố chất không thể thiếu ở một nhà lãnh đạo."
+     },
+     {
+      "ja": "生物が生きていくのに、水は必要不可欠だ。",
+      "vi": "Nước là yếu tố thiết yếu đối với sự sống."
+     }
+    ],
+    "expression": "不可欠な",
+    "meaning_vi": "không thể thiếu",
+    "reading": "ふかけつな",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2ce8b7e587"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "過保護は子供の成長を妨げる。",
+      "vi": "Nuông chiều quá mức sẽ cản trở sự trưởng thành của trẻ."
+     },
+     {
+      "ja": "議員たちが騒いで、議事の進行が妨げられた。",
+      "vi": "Các nghị sĩ làm ồn khiến tiến trình họp nghị sự bị cản trở."
+     }
+    ],
+    "expression": "妨げる",
+    "meaning_vi": "cản trở; ngăn chặn; gây trở ngại",
+    "reading": "さまたげる",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-dc4299a051"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "副詞問題に関しては、民主党と共和党は考え方が著しく異なる。",
+      "vi": "Đảng Dân chủ và Đảng Cộng hòa đã có những ý tưởng đáng chú ý khác nhau liên quan đến vấn đề phúc lợi."
+     },
+     {
+      "ja": "あの学生のレポートは、進歩の跡が著しい。",
+      "vi": "Báo cáo của học sinh kia có những tiến bộ đáng kể."
+     }
+    ],
+    "expression": "著しい",
+    "meaning_vi": "rõ rệt; đáng kể",
+    "reading": "いちじるしい",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-27d229f57c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "リスク",
+    "meaning_vi": "rủi ro",
+    "reading": "りすく",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c1d110a89c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "現地",
+    "meaning_vi": "tại chỗ; bản địa; (Nước",
+    "reading": "げんち",
+    "topic_vi": "Các ngành công nghiệp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3ef4aced72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "的を狙って撃つ。",
+      "vi": "Nhắm vào mục tiêu rồi bắn."
+     },
+     {
+      "ja": "ライオンがシマウマを狙っている。",
+      "vi": "Sư tử đang rình/nhắm con ngựa vằn."
+     },
+     {
+      "ja": "彼女は彼の財産を狙って結婚した。",
+      "vi": "Cô ấy nhắm vào tài sản của anh ta nên mới kết hôn."
+     }
+    ],
+    "expression": "狙う",
+    "meaning_vi": "nhắm vào; rình; nhắm đến",
+    "reading": "ねらう",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-74b1f88658"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "なじむ",
+    "meaning_vi": "quen; quen thuộc",
+    "reading": "なじむ",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-51e58fe5cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "充実した毎日を送っている。",
+      "vi": "Tôi đang sống những ngày đầy đủ và ý nghĩa."
+     },
+     {
+      "ja": "この本は高いだけあって、内容が充実している。",
+      "vi": "Quả đúng là sách đắt tiền, nội dung thực sự rất chất lượng."
+     }
+    ],
+    "expression": "充実＜する＞",
+    "meaning_vi": "đầy đủ; sung mãn; ý nghĩa",
+    "reading": "じゅうじつ＜する＞",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9a6b4fdf19"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "高等＜な＞",
+    "meaning_vi": "bậc cao; cao đẳng",
+    "reading": "こうとう＜な＞",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b922a8b048"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ステップ",
+    "meaning_vi": "bước; giai đoạn; bước tiến",
+    "reading": "すてっぷ",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cfd2563db2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "実験の過程を記録しておく。",
+      "vi": "Ghi lại quá trình thử nghiệm."
+     },
+     {
+      "ja": "子供の成長の過程をビデオに残す。",
+      "vi": "Giữ lại video quá trình lớn lên của đứa con."
+     }
+    ],
+    "expression": "過程",
+    "meaning_vi": "quá trình",
+    "reading": "かてい",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f2adf2c175"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "優勝な",
+    "meaning_vi": "",
+    "reading": "ゆうしょうな",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d6fc48fa28"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "修了＜する＞",
+    "meaning_vi": "hoàn thành khoá học; kết thúc; hoàn thành (việc học nói chung)",
+    "reading": "しゅうりょう＜する＞",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-10123a6e78"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "チームの次期キャプテンとして、上野さんがもっともふさわしいと思う。",
+      "vi": "Tôi cho rằng anh Ueno là người phù hợp nhất để làm đội trưởng tiếp theo."
+     },
+     {
+      "ja": "華やかすぎる服は、面接に着ていくにはふさわしくない。",
+      "vi": "Trang phục quá lòe loẹt không phù hợp để mặc đi phỏng vấn."
+     }
+    ],
+    "expression": "相応しい",
+    "meaning_vi": "phù hợp; thích hợp; xứng đáng",
+    "reading": "ふさわしい",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2867093ac0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は環境問題に関する認識が｛不足している／甘い｝。",
+      "vi": "Nhận thức của cô ấy về các vấn đề môi trường thì (thiếu thốn/ không đầy đủ)."
+     },
+     {
+      "ja": "対策を立てるためには、まず状況をよく認識する必要がある。",
+      "vi": "Để lập các đối sách, đầu tiên phải nhận thức rõ tình hình."
+     },
+     {
+      "ja": "すい星が接近中だということだが、まだ肉眼ではその姿を認識できない。",
+      "vi": "Nghe nói sao chổi đang đến gần nhưng không thể nhận diện hình dáng của nó bằng mắt thường."
+     }
+    ],
+    "expression": "認識＜する＞",
+    "meaning_vi": "nhận thức; ý thức",
+    "reading": "にんしき＜する＞",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-577dff0fff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "語学学校",
+    "meaning_vi": "trường học tiếng (ngoại ngữ)",
+    "reading": "ごがくがっこう",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c58e8c870e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "外交官には高い教養が求められる。",
+      "vi": "Các nhân viên ngoại giao được yêu cầu trình độ giáo dục cao."
+     },
+     {
+      "ja": "教養を身につける。",
+      "vi": "Trang bị giáo dục cho mình."
+     },
+     {
+      "ja": "あの人は教養のある人だ。",
+      "vi": "Người kia là người có giáo dục."
+     }
+    ],
+    "expression": "教養",
+    "meaning_vi": "học thức; vốn văn hoá; kiến thức văn hóa",
+    "reading": "きょうよう",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e861dc7a8d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "記号",
+    "meaning_vi": "ký hiệu",
+    "reading": "きごう",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-08b32064b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "法則",
+    "meaning_vi": "định luật; quy luật",
+    "reading": "ほうそく",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ba3c354f70"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "志す",
+    "meaning_vi": "nuôi chí hướng tới; mong mỏi; khao khát",
+    "reading": "こころざす",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4609bfb0e9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "こつこつ[と]",
+    "meaning_vi": "",
+    "reading": "こつこつ[と]",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-dd3fd17ee0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "地道な",
+    "meaning_vi": "",
+    "reading": "ぢみちな",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f831ed2d39"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "細かい作業を続けるのは根気がいる。",
+      "vi": "Việc tiếp tục công việc tỉ mỉ cần sự kiên nhẫn."
+     },
+     {
+      "ja": "この子は飽きっぽくて、根気が続かない。",
+      "vi": "Đứa bé này tính khí thất thường, không duy trì được tính kiên nhẫn."
+     }
+    ],
+    "expression": "根気",
+    "meaning_vi": "sự kiên trì; kiên nhẫn; bền bỉ",
+    "reading": "こんき",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-65a2462699"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "効率的な",
+    "meaning_vi": "",
+    "reading": "こうりつてきな",
+    "topic_vi": "Học tập",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-56943e1c48"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-007"
+}

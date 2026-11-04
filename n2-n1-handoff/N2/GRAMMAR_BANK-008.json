@@ -1,0 +1,277 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "にせよ",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 15
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-008a7944cc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "驚きのあまり、声も出なかった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vì quá mà — Cảm xúc hoặc mức độ quá lớn dẫn đến kết quả bất thường.",
+    "pattern": "余(あま)り",
+    "pattern_variants": [
+     "N の / V từ điển + あまり",
+     "〜あまり"
+    ],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8cf1c12392"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "緊張のあまり気分が悪くなった。",
+      "vi": "Vì quá căng thẳng nên tâm trạng của tôi trở nên xấu đi."
+     },
+     {
+      "ja": "母は心配のあまり病気になってしまった。",
+      "vi": "Vì quá lo lắng mà mẹ tôi đã đổ bệnh."
+     }
+    ],
+    "meaning_vi": "Vì bất thường, kết quả quá",
+    "pattern": "余(あま)りに",
+    "pattern_variants": [
+     "〜あまり(に)"
+    ],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e1aef7d3cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "出入り口につき、駐車禁止。（書き言葉）",
+      "vi": "Với lí do cửa ra vào, cấm dừng đỗ xe. (Ghi trên biển hiệu)"
+     },
+     {
+      "ja": "本日は定休日につき、休ませていただきます。",
+      "vi": "Vì hôm nay là ngày nghỉ quy định nên chúng tôi xin phép đóng cửa. (Ghi trên tờ thông báo)"
+     }
+    ],
+    "meaning_vi": "Với lý do, vì",
+    "pattern": "に就(つ)き",
+    "pattern_variants": [
+     "〜につき"
+    ],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-9926065b20"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼のことだから、また遅れるだろう。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vì là nên chắc — Dựa vào tính cách quen thuộc của ai đó mà suy đoán.",
+    "pattern": "事(こと)だから",
+    "pattern_variants": [
+     "N の + ことだから",
+     "〜ことだから"
+    ],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f2ed843b34"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は１０年も日本にいただけに、日本事情に詳しい。",
+      "vi": "Vì anh ta ở Nhật 10 năm, nên hiểu biết chi tiết về Nhật Bản."
+     },
+     {
+      "ja": "この機種は今一番人気があるだけに、なかなか手に入らないそうだ。",
+      "vi": "Vì dòng máy này đang bán chạy nhất nên nghe nói giờ không mua được đâu."
+     }
+    ],
+    "meaning_vi": "Cách kết hợp:",
+    "pattern": "〜だけに",
+    "pattern_variants": [
+     "だけに",
+     "Thể thường + だけに"
+    ],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7e78c871a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "A: 前にハワイに連れて行ってくれるって言ったのは本当？",
+      "vi": "A: Lúc trước anh có nói sẽ đưa tôi đi Hawaii, thật không？"
+     },
+     {
+      "ja": "B: もちろん。約束した以上、そのつもりだよ。",
+      "vi": "B: Tất nhiên. Đã hứa thì tôi sẽ thực hiện。"
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "以上(いじょう) 2",
+    "pattern_variants": [
+     "〜以上"
+    ],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-301506980b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "表面上は問題ないように見える。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Về mặt thì — Xét trên phương diện chính thức hoặc hình thức.",
+    "pattern": "上(うえ)は",
+    "pattern_variants": [
+     "N + 上は"
+    ],
+    "source_questions": [],
+    "unit_no": 17
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-f2b90cfa77"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "大事な会議だから、休むわけにはいかない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không thể (vì lý do xã hội) — Về lý thuyết thì làm được nhưng vì hoàn cảnh hoặc đạo lý nên không thể.",
+    "pattern": "訳(わけ)には行(い)かない",
+    "pattern_variants": [
+     "V từ điển + わけにはいかない"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-aedcbdd728"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "息子は受験のプレッシャーに耐えかねて、体調を崩した。",
+      "vi": "Con trai không chịu được áp lực thi cử, cơ thể bị suy nhược."
+     },
+     {
+      "ja": "父親は初孫を連れた娘の帰りを待ちかねて、駅前で迎えに行った。",
+      "vi": "Ông bố không thể chờ đợi con gái dẫn đứa cháu đầu tiên của mình trở về nên đã ra tận nhà ga đón."
+     }
+    ],
+    "meaning_vi": "Không thể",
+    "pattern": "兼(か)ねる",
+    "pattern_variants": [
+     "〜かねる",
+     "V thể ます (bỏ ます) + かねる"
+    ],
+    "source_questions": [],
+    "unit_no": 18
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-ce44d82e34"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-008"
+}

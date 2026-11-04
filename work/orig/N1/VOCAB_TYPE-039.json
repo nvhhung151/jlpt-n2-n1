@@ -1,0 +1,967 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "姉は米大統領来日の折りに通訳を務めた。",
+      "vi": "Chị tôi đã làm phiên dịch khi Tổng thống Mỹ đến Nhật."
+     },
+     {
+      "ja": "＜手紙＞ 「寒さ厳しき折り、お体、お大切に」",
+      "vi": "(Thư) \"Khi tiết trời rét buốt, anh/ chị hãy giữ gìn sức khỏe nhé.\""
+     },
+     {
+      "ja": "「その件については、私から折りを見て話しておこう」",
+      "vi": "\"Tôi sẽ nói với anh ấy/ cô ấy về việc này khi có cơ hội.\""
+     }
+    ],
+    "expression": "折",
+    "meaning_vi": "lúc; dịp; dịp・lúc",
+    "reading": "おり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c69456f929"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ここ数カ月、円高に歯止めがかからない。",
+      "vi": "Mấy tháng nay đồng yên tăng không phanh."
+     },
+     {
+      "ja": "彼は怒り始めると歯止めがきかなくなる。",
+      "vi": "Anh ta mà nổi giận lên là không dừng lại được."
+     }
+    ],
+    "expression": "歯止め",
+    "meaning_vi": "sự phanh lại; kìm hãm; phanh lại",
+    "reading": "はどめ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b2ac7e912c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "大雨で川が氾濫した。",
+      "vi": "Vì mưa to nên con sông bị ngập lụt."
+     },
+     {
+      "ja": "私達の周りにはメディアからの情報が氾濫している。",
+      "vi": "Xung quanh chúng ta tràn ngập những tin tức từ truyền thông."
+     }
+    ],
+    "expression": "氾濫",
+    "meaning_vi": "tràn bờ; lụt; tràn lan",
+    "reading": "はんらん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4e13e74641"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "震災後、日本人は秩序をもって行動したと世界に報道される。",
+      "vi": "Sau trận động đất, người Nhật được truyền thông trên thế giới rằng đã giữ gìn trật tự sinh hoạt."
+     },
+     {
+      "ja": "法廷では、秩序を保つため、許可されない発言は禁止である。",
+      "vi": "Ở nơi thi hành luật, nhằm giữ gìn trật tự, những lời nói không được cho phép đều bị cấm."
+     },
+     {
+      "ja": "秩序ある行動",
+      "vi": "Hành động theo trật tự"
+     }
+    ],
+    "expression": "秩序",
+    "meaning_vi": "trật tự; thứ tự",
+    "reading": "ちつじょ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-146b6a00c3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ローマ帝国は１０００年の繁栄を誇った。",
+      "vi": "Đế quốc Roma tự hào vì hưng thịnh được 1000 năm."
+     },
+     {
+      "ja": "｛国／町／会社／家／子孫．．．｝が繁栄する。",
+      "vi": "(Đất nước/ thành phố/ công ty) hưng thịnh; (gia đình/ con cháu) phồn vinh"
+     }
+    ],
+    "expression": "繁栄",
+    "meaning_vi": "phồn vinh; hưng thịnh",
+    "reading": "はんえい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2d63890fc5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "コンサート会場の案内係に導かれて席に着いた。",
+      "vi": "Tôi được người phụ trách hướng dẫn bên trong hội trường sân khấu và đi về phía chỗ ngồi."
+     },
+     {
+      "ja": "客を応接室に導いた。",
+      "vi": "Dẫn khách đến phòng tiếp khách."
+     },
+     {
+      "ja": "教師は生徒をより良い方向へ導かなければならない。",
+      "vi": "Người giáo viên phải chỉ dạy theo chiều hướng tốt cho học trò."
+     }
+    ],
+    "expression": "導く",
+    "meaning_vi": "dẫn dắt; hướng dẫn; dẫn đường",
+    "reading": "みちびく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e69ba6e14b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このダムの建設のために、延べ２０万人が動員された。",
+      "vi": "Để xây dựng đập này, tổng cộng 20 ngàn người được huy động."
+     },
+     {
+      "ja": "私の家の延べ床面積は、１５０ｍ²だ。",
+      "vi": "Tổng diện tích mặt sàn của nhà tôi là 150 m²."
+     }
+    ],
+    "expression": "延べ",
+    "meaning_vi": "tổng cộng lượt; tổng số",
+    "reading": "のべ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1ef0b02e4d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は髪を切ってイメージチェンジした。",
+      "vi": "Cô ấy đã cắt tóc và thay đổi hình ảnh."
+     },
+     {
+      "ja": "車のモデルチェンジ",
+      "vi": "Thay đổi mẫu mã xe hơi."
+     },
+     {
+      "ja": "「この席、前の人の頭で舞台がよく見えないわ」「じゃ、僕の席チェンジする？」",
+      "vi": "\"Chỗ này bị người phía trước che rồi nên không thấy rõ sân khấu gì hết.\" \"Vậy thì đổi qua chỗ của anh không?\""
+     }
+    ],
+    "expression": "チェンジ",
+    "meaning_vi": "sự thay đổi; thay đổi",
+    "reading": "チェンジ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f7cb4704f6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "宇宙の果てはどうなっているのだろう。",
+      "vi": "Tận cùng của vũ trụ không biết như thế nào nhỉ?"
+     },
+     {
+      "ja": "彼は職を転々とし、あげくの果てに海外へ渡って行方不明になった。",
+      "vi": "Anh ấy thay đổi việc liên tục, cuối cùng ra nước ngoài rồi mất tích."
+     }
+    ],
+    "expression": "果て",
+    "meaning_vi": "tận cùng; kết cục; sau cùng",
+    "reading": "はて",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3fe76efc87"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの国は内戦状態で、食糧が欠乏している。",
+      "vi": "Đất nước đang trong tình trạng nội chiến và thiếu lương thực."
+     },
+     {
+      "ja": "鉄分の欠乏で、貧血になった。",
+      "vi": "Bị thiếu máu do thiếu chất sắt."
+     },
+     {
+      "ja": "｛資金／物資／酸素．．．｝が欠乏する。",
+      "vi": "Thiếu (vốn/ chất/ oxy)."
+     }
+    ],
+    "expression": "欠乏",
+    "meaning_vi": "sự thiếu hụt; thiếu; thiếu hụt",
+    "reading": "けつぼう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ee362baa95"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "さいふを落として道にお金をばらまいてしまった。",
+      "vi": "Tôi đánh rơi ví và để tiền rơi vãi ra đường."
+     },
+     {
+      "ja": "知人にお金をばらまいて投票を依頼した政治家が逮捕された。",
+      "vi": "Người chính trị gia phân phát tiền cho người quen để nhờ bỏ phiếu cho bản thân đã bị bắt giữ."
+     }
+    ],
+    "expression": "散蒔く",
+    "meaning_vi": "rải vãi khắp nơi; vung tiền; vương vãi",
+    "reading": "ばらまく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-856a5961fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "青年はバイクにまたがると、大きな音をたてて走り去った。",
+      "vi": "Cậu thanh niên trèo lên xe máy, nổ một tiếng thật to rồi chạy đi."
+     },
+     {
+      "ja": "｛自転車／馬／父の肩．．．｝にまたがる。",
+      "vi": "Leo lên (xe đạp/ lưng ngựa/ vai của bố…)"
+     },
+     {
+      "ja": "この国立公園は２つの県にまたがっている。",
+      "vi": "Vườn quốc gia này trải dài trên địa phận hai tỉnh."
+     }
+    ],
+    "expression": "跨がる",
+    "meaning_vi": "ngồi dạng chân; trải dài qua; vắt qua",
+    "reading": "またがる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-282f007b6e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "我が党としては、与党のこの政策は許容できない。",
+      "vi": "Đối với Đảng chúng tôi, chính sách này của Đảng cầm quyền là không thể chấp nhận."
+     },
+     {
+      "ja": "この騒音は許容の範囲を超えている。",
+      "vi": "Tiếng ồn này vượt quá phạm vi cho phép."
+     },
+     {
+      "ja": "「X線の年間被ばく許容量はどの程度ですか」",
+      "vi": "\"Lượng phơi nhiễm bức xạ cho phép của tia X trong một năm là bao nhiêu?\" (Phơi nhiễm bức xạ là sự tiếp xúc với các bức xạ điện tử: tia X, tia gamma… trong tự nhiên, y tế,…)"
+     }
+    ],
+    "expression": "許容",
+    "meaning_vi": "dung thứ; cho phép trong mức; chấp nhận",
+    "reading": "きょよう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-bc68984c66"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "当て",
+    "meaning_vi": "mục tiêu・đầu mối／chỗ dựa; kỳ vọng; mục tiêu",
+    "reading": "あて",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1449a19b01"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "道の端に雨水を流す溝がある。",
+      "vi": "Ở lề đường có các mương rãnh để cho nước mưa chảy."
+     },
+     {
+      "ja": "｛タイヤ／レコード．．．｝の溝",
+      "vi": "Rãnh (Bánh xe/ đĩa ghi âm)"
+     },
+     {
+      "ja": "子供の教育について意見が対立し、主婦の間に溝ができた。",
+      "vi": "Đối lập ý kiến về việc giáo dục con cái làm xuất hiện khoảng cách giữa hai vợ chồng."
+     }
+    ],
+    "expression": "溝",
+    "meaning_vi": "khoảng cách; rãnh; rãnh・khoảng cách",
+    "reading": "みぞ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5e5d79545d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地面に落ちたキャンディーにアリが群がっている。",
+      "vi": "Kiến bâu thành đàn lên chiếc kẹo rơi xuống đất."
+     }
+    ],
+    "expression": "群がる",
+    "meaning_vi": "xúm lại; tụ đông; bu lại",
+    "reading": "むらがる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c574a6cace"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "来週の役員会で、今後の方針が定まるだろう。",
+      "vi": "Phương hướng hoạt động sau này sẽ được quyết định trong buổi họp ủy viên vào tuần sau."
+     },
+     {
+      "ja": "人の運命は定まっているのだろうか。",
+      "vi": "Vận mệnh con người chẳng phải đã được sắp đặt rồi hay sao?"
+     },
+     {
+      "ja": "就職するか、進学するか心が定まらない。",
+      "vi": "Tôi vẫn không quyết định được rằng sẽ đi làm hay học tiếp."
+     }
+    ],
+    "expression": "定まる",
+    "meaning_vi": "được định ra; ổn định; được quyết định",
+    "reading": "さだまる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-aab5610888"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「その場の空気を読む」ことを重視するのが、最近の若者の風潮だ。",
+      "vi": "Chú trọng việc \"Hiểu chuyện\" là xu hướng của giới trẻ gần đây."
+     },
+     {
+      "ja": "手軽さを求める世の風潮に逆らって、父は手間のかかる有機栽培を続けている。",
+      "vi": "Ngược lại với xu hướng của thế giới là tìm kiếm sự đơn giản, bố tôi vẫn tiếp tục với việc canh tác hữu cơ tốn công tốn sức."
+     },
+     {
+      "ja": "世（の中）の＿",
+      "vi": "Xu hướng thế giới"
+     }
+    ],
+    "expression": "風潮",
+    "meaning_vi": "trào lưu; xu hướng",
+    "reading": "ふうちょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5a12b36ad4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "自然界の驚異に目を見張った。",
+      "vi": "Tôi mở rộng tầm mắt trước sự kỳ diệu của thế giới tự nhiên."
+     },
+     {
+      "ja": "昨日のレースで、驚異的な記録が出た。",
+      "vi": "Một kỷ lục phi thường đã xuất hiện trong cuộc đua ngày hôm qua."
+     }
+    ],
+    "expression": "驚異",
+    "meaning_vi": "điều kỳ diệu đáng kinh ngạc; kì diệu",
+    "reading": "きょうい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-47faaa1625"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの会社は儲かっているように見えるが、実態はひどいらしい。",
+      "vi": "Công ty kia trông có vẻ kinh doanh tốt (có lời), nhưng thực tế thì khá tồi tệ."
+     },
+     {
+      "ja": "実態を調査する。",
+      "vi": "Điều tra thực tế"
+     }
+    ],
+    "expression": "実態",
+    "meaning_vi": "thực trạng; thực tế",
+    "reading": "じったい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ac5f8d8277"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "抽象的な言葉の多い文章は難しい。それが苦手な分野の文章だと、なおさら難しく感じられる。",
+      "vi": "Bài viết gồm nhiều từ trừu tượng thì khó. Nếu đó là bài về lĩnh vực mình không giỏi thì càng khó hơn."
+     },
+     {
+      "ja": "寝不足のときはベッドから出るのがつらい。寒い冬の朝はなおさらだ。",
+      "vi": "Thật khó để ra khỏi giường những lúc bị thiếu ngủ. Vào buổi sáng mùa đông lạnh thì lại càng khó hơn nữa."
+     }
+    ],
+    "expression": "尚更",
+    "meaning_vi": "hơn nữa; càng thêm; huống chi",
+    "reading": "なおさら",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-453766c295"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の絵は有名画家の模倣に過ぎない。",
+      "vi": "Tranh của ông ấy chẳng qua chỉ là sao chép lại của các họa sĩ nổi tiếng."
+     },
+     {
+      "ja": "子供は親の行動を模倣する。",
+      "vi": "Đứa trẻ bắt chước lại hành động của bố mẹ."
+     }
+    ],
+    "expression": "模倣",
+    "meaning_vi": "mô phỏng; bắt chước; sao chép",
+    "reading": "もほう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-04ad7811b4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "冬山は、真っ白な雪と青い空とコントラストが美しかった。",
+      "vi": "Sự tương phản giữa tuyết trắng trên những ngọn núi vào mùa đông và bầu trời xanh thật đẹp."
+     },
+     {
+      "ja": "パソコン画面のコントラストが強すぎると、目が疲れる。",
+      "vi": "Độ tương phản của màn hình laptop quá mạnh sẽ làm cho mắt bị mỏi."
+     }
+    ],
+    "expression": "コントラスト",
+    "meaning_vi": "độ tương phản; tương phản; đối lập",
+    "reading": "コントラスト",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c70cf9c8cf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "説明の重要な部分は、声を大きくし、トーンを上げて話すようにしている。",
+      "vi": "Phần quan trọng của lời giải thích thì hãy cố gắng lên giọng và nói to hơn."
+     },
+     {
+      "ja": "彼は男にしては声のトーンが高い。",
+      "vi": "Anh ta là nam vậy mà có âm giọng cao."
+     },
+     {
+      "ja": "柔らかいトーンの絵",
+      "vi": "Bức tranh với tông màu nhẹ nhàng"
+     }
+    ],
+    "expression": "トーン",
+    "meaning_vi": "tông; sắc độ; giọng",
+    "reading": "トーン",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ab290ed36c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "刑事は被害者の話に疑惑（の念）を抱いた。",
+      "vi": "Cảnh sát điều tra đã nghi ngờ về lời kể của nạn nhân."
+     },
+     {
+      "ja": "記者が疑惑の人物を追いかけるのは当然だ。",
+      "vi": "Việc các phóng viên đuổi theo những nhân vật khả nghi là điều đương nhiên."
+     }
+    ],
+    "expression": "疑惑",
+    "meaning_vi": "mối nghi ngờ; nghi ngờ",
+    "reading": "ぎわく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0896e9c841"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ゴルフはフォームが悪いと球が全然飛ばない。",
+      "vi": "Chơi golf mà tư thế không đúng thì bóng sẽ không bay được."
+     },
+     {
+      "ja": "「このフォームに必要事項を書き込んでください」",
+      "vi": "\"Hãy điền các thông tin cần thiết theo mẫu này.\""
+     }
+    ],
+    "expression": "フォーム",
+    "meaning_vi": "tư thế; form; biểu mẫu",
+    "reading": "フォーム",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6f5415a1d1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この荷物は重くはないが、かさばって持ちにくい。",
+      "vi": "Hành lý này không nặng nhưng cồng kềnh và khó mang."
+     },
+     {
+      "ja": "かさが張る。",
+      "vi": "Thể tích phình ra"
+     },
+     {
+      "ja": "雨で川の水かさが増した。",
+      "vi": "Do trời mưa nên thể tích nước sông tăng lên."
+     }
+    ],
+    "expression": "嵩張る",
+    "meaning_vi": "cồng kềnh; chiếm chỗ",
+    "reading": "かさばる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-223418fb72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの人はマニュアル通りにしか働けない融通のきかない人だ。",
+      "vi": "Người kia là người không linh hoạt, chỉ có thể làm theo hướng dẫn sử dụng."
+     },
+     {
+      "ja": "会社を設立するのに、友人に資金の一部を融通してもらった。",
+      "vi": "Bạn tôi đã cho vay một ít tiền để thành lập công ty."
+     },
+     {
+      "ja": "今は子供の教育費がかかるので、家を建てる費用の融通が付かない。",
+      "vi": "Bây giờ tiền học cho con rất tốn kém nên không thể bỏ tiền ra xây nhà được."
+     }
+    ],
+    "expression": "融通",
+    "meaning_vi": "sự linh hoạt; xoay xở vốn; linh hoạt",
+    "reading": "ゆうずう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-78ee504d02"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "＜会議で＞ 「先ほどの説明を補足させていただきます。」",
+      "vi": "(Tại cuộc họp) \"Tôi xin phép được bổ sung thêm vào lời giải thích lúc nãy.\""
+     },
+     {
+      "ja": "レポートで、説明に補足してグラフあ図を載せた。",
+      "vi": "Trong bài báo cáo, tôi đã tăng thêm các biểu đồ và sơ đồ để bổ sung vào phần giải thích."
+     },
+     {
+      "ja": "この件について補足の説明をさせてください。",
+      "vi": "Xin cho phép tôi giải thích thêm về việc này."
+     }
+    ],
+    "expression": "補足",
+    "meaning_vi": "bổ sung thêm; bổ sung (giải thích thêm)",
+    "reading": "ほそく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7f9f7af0a4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "研究者になって宇宙の神秘を解き明かしたい。",
+      "vi": "Tôi muốn trở thành nhà nghiên cứu và làm sáng tỏ những điều bí ẩn của vũ trụ."
+     },
+     {
+      "ja": "生命の誕生は神秘のベールに包まれている。",
+      "vi": "Sự ra đời của sự sống được bao bọc trong một bức màn bí ẩn."
+     },
+     {
+      "ja": "この音楽は神秘的なムードに満ちている。",
+      "vi": "Nhạc này chứa đầy tâm trạng bí ẩn."
+     }
+    ],
+    "expression": "神秘",
+    "meaning_vi": "thần bí; huyền bí; kì bí",
+    "reading": "しんぴ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5c93c147ff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "上司には部下を統率する力が求められる。",
+      "vi": "Là cấp trên đòi hỏi phải có năng lực lãnh đạo cấp dưới."
+     },
+     {
+      "ja": "サルの群れはボスざるによって統率されている。",
+      "vi": "Bầy khỉ được dẫn đầu bởi con khỉ đầu đàn."
+     }
+    ],
+    "expression": "統率",
+    "meaning_vi": "thống lĩnh; chỉ huy",
+    "reading": "とうそつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d1b681033a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "明治時代になって、北海道の開拓は急激に進んだ。",
+      "vi": "Vào thời đại Minh Trị, việc khai phá Hokkaido đã phát triển mạnh mẽ."
+     },
+     {
+      "ja": "山野を開拓する。",
+      "vi": "Khai phá đất hoang."
+     },
+     {
+      "ja": "新しい ｛販路／ルート／分野．．．｝を開拓する。",
+      "vi": "Khai thác (thị trường tiêu thụ/ lộ trình/ lĩnh vực mới)."
+     }
+    ],
+    "expression": "開拓",
+    "meaning_vi": "khai hoang; mở mang (thị trường); khai thác",
+    "reading": "かいたく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9019d7b7ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "海辺へと続く小道をたどる。",
+      "vi": "Lần theo con đường nhỏ dẫn đến bãi biển."
+     },
+     {
+      "ja": "家路をたどる。",
+      "vi": "Đi theo/ lần theo con đường về nhà."
+     },
+     {
+      "ja": "事件の日のアリバイを聞かれ、記憶をたどってみた。",
+      "vi": "Khi bị hỏi về chứng cứ ngoại phạm hôm xảy ra vụ án, tôi đã thử lục lại trí nhớ. (Cố gắng nhớ lại)"
+     }
+    ],
+    "expression": "辿る",
+    "meaning_vi": "lần theo; trải qua (quá trình); dò theo",
+    "reading": "たどる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-59348e4670"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は若い頃は不遇だったが、晩年は幸せに過ごした。",
+      "vi": "Anh ấy thời trẻ đã gặp khó khăn nhưng về già thì sống hạnh phúc."
+     }
+    ],
+    "expression": "晩年",
+    "meaning_vi": "cuối đời",
+    "reading": "ばんねん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fef818e4b7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "あられ",
+    "meaning_vi": "bánh gạo viên nhỏ; mưa đá",
+    "reading": "あられ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e8182156a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "セックス",
+    "meaning_vi": "giới tính",
+    "reading": "セックス",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e8773f087c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ドライクリーニング",
+    "meaning_vi": "giặt khô",
+    "reading": "ドライクリーニング",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2f8633302b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ロマンチック",
+    "meaning_vi": "lãng mạn",
+    "reading": "ロマンチック",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ea9c6e2621"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "与党",
+    "meaning_vi": "đảng cầm quyền",
+    "reading": "よとう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8f3ab27570"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "依然",
+    "meaning_vi": "vẫn như cũ",
+    "reading": "いぜん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1131bb49f7"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N1",
+ "packet_id": "VOCAB_TYPE-039"
+}

@@ -1,0 +1,115 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "妹はこのごろ元気がないです。",
+      "vi": "Em gái tôi thời gian gần đây không được khỏe."
+     }
+    ],
+    "expression": "この頃",
+    "meaning_vi": "thời gian gần đây; dạo này",
+    "reading": "このごろ",
+    "topic_vi": "Thời gian",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ac67470ff3"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "この間、駅で先生に会いました。",
+      "vi": "Vài hôm trước tôi đã gặp thầy giáo ở nhà ga."
+     }
+    ],
+    "expression": "この間",
+    "meaning_vi": "hôm nọ; dạo trước; vài ngày trước",
+    "reading": "このあいだ",
+    "topic_vi": "Thời gian",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-78ced9cde8"
+  },
+  {
+   "answer": {
+    "word_type_label": "phó từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "いつでも よやくが できます。",
+      "vi": "Lúc nào cũng có thể đặt chỗ."
+     }
+    ],
+    "expression": "何時でも",
+    "meaning_vi": "lúc nào cũng; bất cứ lúc nào",
+    "reading": "いつでも",
+    "topic_vi": "Thời gian",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0a3e4af486"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "ある日",
+    "meaning_vi": "",
+    "reading": "あるひ",
+    "topic_vi": "Thời gian",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-31e3934bb9"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "今夜はコンサートに行きます。",
+      "vi": "Tối nay tôi sẽ đi xem buổi hòa nhạc."
+     }
+    ],
+    "expression": "今夜",
+    "meaning_vi": "tối nay",
+    "reading": "こんや",
+    "topic_vi": "Thời gian",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d8dda5aa87"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N4",
+ "packet_id": "VOCAB_TYPE-001"
+}

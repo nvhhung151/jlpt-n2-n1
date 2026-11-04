@@ -1,0 +1,717 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ヤバい",
+    "meaning_vi": "nguy hiểm; lợi hại; tệ hại",
+    "reading": "やばい",
+    "topic_vi": "Hình ảnh tiêu cực",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b90499600e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "余計（な）",
+    "meaning_vi": "thừa thãi; càng thêm",
+    "reading": "よけい（な）",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-33b043e5b5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "力強い",
+    "meaning_vi": "mạnh mẽ; đầy sức thuyết phục; hùng mạnh",
+    "reading": "ちからづよい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8c4f024bfe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "悪化",
+    "meaning_vi": "xấu đi",
+    "reading": "あっか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-46529cbee1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "エアコンを使わず、うちわや扇子で扇いで夏をすごした。",
+      "vi": "Tôi trải qua mùa hè bằng cách quạt tay thay vì dùng điều hòa."
+     }
+    ],
+    "expression": "扇ぐ",
+    "meaning_vi": "quạt",
+    "reading": "あおぐ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-877ed7a765"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "最近コピーの量が増えて、紙の消耗が厳しい。",
+      "vi": "Dạo này lượng photocopy tăng nên giấy bị tiêu hao rất nhiều."
+     },
+     {
+      "ja": "この車は燃費が悪いので、ガソリンの消耗が速い。",
+      "vi": "Xe này hao xăng nên xăng tiêu nhanh."
+     },
+     {
+      "ja": "山で遭難したときは、体力を消耗しないようにじっとしていた方がいい。",
+      "vi": "Khi bị lạc/nạn trên núi, tốt nhất nên ngồi yên để không hao sức."
+     }
+    ],
+    "expression": "消耗",
+    "meaning_vi": "hao mòn; kiệt sức; tiêu thụ",
+    "reading": "しょうもう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3d9ee3557e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "固体",
+    "meaning_vi": "chất rắn",
+    "reading": "こたい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-be58220c5c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "漢字のテストで、送り仮名を間違えて減点された。",
+      "vi": "Bị trừ điểm do sai okurigana."
+     }
+    ],
+    "expression": "減点",
+    "meaning_vi": "trừ điểm; sự giảm trừ; sự giảm điểm",
+    "reading": "げんてん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-992ea0d90d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "夜間は閉鎖されている。",
+      "vi": "Đóng cửa ban đêm."
+     },
+     {
+      "ja": "工場が閉鎖された。",
+      "vi": "Nhà máy bị đóng."
+     }
+    ],
+    "expression": "閉鎖",
+    "meaning_vi": "đóng cửa; phong toả; sự phong bế",
+    "reading": "へいさ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-66f088050c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "問題が生じる",
+    "meaning_vi": "phát sinh vấn đề",
+    "reading": "もんだいがしょうじる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-512b0e17cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "密度",
+    "meaning_vi": "mật độ",
+    "reading": "みつど",
+    "topic_vi": "Nông thôn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f2aaf7a217"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "炭素",
+    "meaning_vi": "các-bon; cacbon",
+    "reading": "たんそ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0ca9c13146"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "重量",
+    "meaning_vi": "trọng lượng",
+    "reading": "じゅうりょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-eacee95488"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "電力＜する＞",
+    "meaning_vi": "điện năng",
+    "reading": "でんりょく＜する＞",
+    "topic_vi": "Sản xuất",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f8c8cc2fd3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼はまだ若いが、コックとしての腕は一流だ。",
+      "vi": "Anh ấy còn trẻ nhưng tay nghề đầu bếp thì hạng nhất."
+     },
+     {
+      "ja": "一流の｛ホテル/店/企業/人物…｝",
+      "vi": "Hạng nhất {khách sạn/cửa hàng/doanh nghiệp/nhân vật...}."
+     }
+    ],
+    "expression": "一流",
+    "meaning_vi": "hạng nhất; thượng hạng; bậc nhất",
+    "reading": "いちりゅう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-da4663cb43"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "アパートが古くなったので、大規模な改修が行われることになった。",
+      "vi": "Vì chung cư đã cũ nên sẽ tiến hành sửa chữa quy mô lớn."
+     },
+     {
+      "ja": "｛道路/橋/建築物/河川…｝を改修する。",
+      "vi": "Sửa chữa/cải tạo {đường/cầu/công trình/sông ngòi...}."
+     }
+    ],
+    "expression": "改修",
+    "meaning_vi": "tu sửa; cải tạo; sự sửa chữa",
+    "reading": "かいしゅう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f457e6f79c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "古い制度を改革しなければ、この国の発展は望めない。",
+      "vi": "Nếu không cải cách chế độ cũ thì khó mong đất nước phát triển."
+     }
+    ],
+    "expression": "改革",
+    "meaning_vi": "cải cách",
+    "reading": "かいかく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-90600116d5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "主観",
+    "meaning_vi": "chủ quan",
+    "reading": "しゅかん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d3c48ae7cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "客観",
+    "meaning_vi": "khách quan",
+    "reading": "きゃっかん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-28c61e6ee4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "相違",
+    "meaning_vi": "sự khác biệt",
+    "reading": "そうい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0c97f1b8bd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ミリ",
+    "meaning_vi": "mi-li-mét",
+    "reading": "ミリ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-08441c0023"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "比率",
+    "meaning_vi": "tỉ lệ",
+    "reading": "ひりつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-765e37ec40"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "家の土地から温泉が沸いた。",
+      "vi": "Trên đất nhà tôi đã phun (trào) lên suối nước nóng."
+     },
+     {
+      "ja": "この本を読んで生きる勇気が湧いてきた。",
+      "vi": "Đọc cuốn sách này xong, tôi thấy dũng khí trào lên."
+     },
+     {
+      "ja": "海外に行くと見る物すべてに興味が湧く。",
+      "vi": "Ra nước ngoài, nhìn gì cũng thấy hứng thú trào lên."
+     }
+    ],
+    "expression": "湧く",
+    "meaning_vi": "trào ra; dâng lên; sôi lên",
+    "reading": "わく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-511c61d137"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "精密",
+    "meaning_vi": "tinh vi; chính xác cao",
+    "reading": "せいみつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f2fba102f3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "鋸",
+    "meaning_vi": "cái cưa",
+    "reading": "のこぎり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1386b68677"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "錆",
+    "meaning_vi": "gỉ sét",
+    "reading": "さび",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6e0c65dbed"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "臍",
+    "meaning_vi": "rốn",
+    "reading": "へそ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-98e19eef5d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "エンジンがかかる",
+    "meaning_vi": "bắt đầu tăng tốc (sự việc tiến triển tốt); động cơ khởi động",
+    "reading": "エンジンがかかる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fa8c0224a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "売り上げが伸びる",
+    "meaning_vi": "buôn bán phát đạt; doanh số tăng",
+    "reading": "うりあげがのびる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-dd72e44169"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "差がつく",
+    "meaning_vi": "tạo cách biệt; xuất hiện chênh lệch",
+    "reading": "さがつく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8460e8e16a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "賞味期限が切れる",
+    "meaning_vi": "hết hạn sử dụng",
+    "reading": "しょうみきげんがきれる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9699df6627"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "身につく",
+    "meaning_vi": "nắm vững; thấm vào người",
+    "reading": "みにつく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b028aef975"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "お休み",
+    "meaning_vi": "nghỉ ngơi; chúc ngủ ngon; nghỉ",
+    "reading": "おやすみ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-513feee14c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "落ち着き",
+    "meaning_vi": "sự điềm tĩnh",
+    "reading": "おちつき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-dc8eddf6e8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地震で鉄道のレールがずれた。",
+      "vi": "Động đất làm đường ray bị lệch."
+     },
+     {
+      "ja": "写真を撮るとき、ピントがずれてしまった。",
+      "vi": "Lúc chụp ảnh bị lệch nét/không đúng tiêu cự."
+     },
+     {
+      "ja": "彼の考え方は一般から少しずれている。",
+      "vi": "Cách nghĩ của anh ấy hơi lệch so với thông thường."
+     }
+    ],
+    "expression": "ずれる",
+    "meaning_vi": "bị lệch; xê dịch; trượt",
+    "reading": "ずれる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e582241be1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ボールが当たる",
+    "meaning_vi": "trúng bóng; bị bóng trúng",
+    "reading": "ボールがあたる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6b765ac535"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "宝くじが当たる",
+    "meaning_vi": "trúng số; trúng xổ số",
+    "reading": "たからくじがあたる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8b72c4a17c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "釘に服をひっかけて破ってしまった。",
+      "vi": "Mắc áo vào đinh làm rách."
+     },
+     {
+      "ja": "ちょっと寒かったのか、弟は上着をひっかけてコンビニに買い物に行った。",
+      "vi": "Chắc hơi lạnh nên em trai khoác tạm áo rồi ra combini mua đồ."
+     },
+     {
+      "ja": "サンダルはひっかけているだけなので脱げやすい。",
+      "vi": "Dép chỉ xỏ tạm nên dễ tuột."
+     }
+    ],
+    "expression": "引っ掛ける",
+    "meaning_vi": "móc vào; lừa; khoác vội",
+    "reading": "ひっかける",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-56a3a16191"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "約束を破る",
+    "meaning_vi": "thất hứa; không giữ lời hứa; phá vỡ lời hứa",
+    "reading": "やくそくをやぶる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b815fb6fbc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "泥棒に入られ、部屋が荒らされた。",
+      "vi": "Bị trộm đột nhập, phòng bị lục tung/bày bừa."
+     },
+     {
+      "ja": "｛国/肌/胃…｝を荒らす。",
+      "vi": "Làm rối/làm hỏng (đất nước/da/dạ dày…)."
+     },
+     {
+      "ja": "「これは私のものだと認めます」",
+      "vi": "“Tôi thừa nhận đây là của tôi.”"
+     }
+    ],
+    "expression": "荒らす",
+    "meaning_vi": "tàn phá; quấy phá; gây thiệt hại",
+    "reading": "あらす",
+    "topic_vi": "Thiên tai",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-08ee75febd"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-033"
+}

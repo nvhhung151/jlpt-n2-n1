@@ -1,0 +1,836 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "オリンピック出場を目指して、毎日練習に励んでいる。",
+      "vi": "Tôi chăm chỉ luyện tập mỗi ngày để hướng tới mục tiêu tham dự Olympic."
+     },
+     {
+      "ja": "｛仕事／ 勉強／ 研究．．．｝に励む。",
+      "vi": "Chuyên tâm vào (công việc, học tập, nghiên cứu)."
+     }
+    ],
+    "expression": "励む",
+    "meaning_vi": "chăm chỉ dốc sức; chuyên tâm miệt mài; nỗ lực",
+    "reading": "はげむ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a9a67da1ff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "２０歳未満の飲酒は法律で禁じられている。",
+      "vi": "Uống rượu khi chưa đủ 20 tuổi là hành vi bị pháp luật cấm."
+     },
+     {
+      "ja": "医者は患者に激しい運動を禁じた。",
+      "vi": "Bác sĩ cấm bệnh nhân vận động mạnh."
+     }
+    ],
+    "expression": "禁じる",
+    "meaning_vi": "cấm; nghiêm cấm; văn viết hơn",
+    "reading": "きんじる",
+    "topic_vi": "Trường học",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4034ff755c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "断つ",
+    "meaning_vi": "dứt hẳn dòng hoặc quan hệ; cắt; chấm dứt",
+    "reading": "たつ",
+    "topic_vi": "Từ dễ nhầm lẫn ②",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f2db34c02c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "氷を小さく砕いてグラスに入れる。",
+      "vi": "Đập đá nhỏ ra rồi cho vào ly."
+     },
+     {
+      "ja": "｛夢/希望/野望｝が打ち砕かれた。",
+      "vi": "Giấc mơ/hi vọng/tham vọng bị đập tan."
+     }
+    ],
+    "expression": "砕く",
+    "meaning_vi": "đập vỡ vụn; đập vỡ; đập vụn",
+    "reading": "くだく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-78e08ad8e9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "１位の選手が２位の選手をぐんぐん引き離した。",
+      "vi": "Vận động viên dẫn đầu nhanh chóng bỏ xa người xếp thứ hai."
+     },
+     {
+      "ja": "病気がぐんぐん快復する。",
+      "vi": "Bệnh tình hồi phục nhanh chóng."
+     },
+     {
+      "ja": "｛背／成績／植物．．．｝がぐんぐん｛伸びる／成長する｝",
+      "vi": "(Chiều cao/ thành tích) tăng nhanh chóng, (thực vật) phát triển nhanh chóng."
+     }
+    ],
+    "expression": "ぐんぐん",
+    "meaning_vi": "tăng trưởng mạnh và liên tục; tăng nhanh; nhanh chóng",
+    "reading": "ぐんぐん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4b1e47f95f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "どの国にとっても、食料問題は極めて重要な課題だ。",
+      "vi": "Dù đối với quốc gia nào đi nữa, vấn đề lương thực là một thách thức cực kỳ quan trọng."
+     },
+     {
+      "ja": "こんな事故が起こるのは極めてまれなことだ。",
+      "vi": "Việc sự cố xảy ra là chuyện cực kỳ hiếm gặp."
+     },
+     {
+      "ja": "経過は極めて順調だ。",
+      "vi": "Diễn biến quá trình đang rất thuận lợi."
+     }
+    ],
+    "expression": "極めて",
+    "meaning_vi": "vô cùng; hết sức; cực kỳ (văn viết",
+    "reading": "きわめて",
+    "topic_vi": "Quan hệ quốc tế",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-879214565a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "火事で｛一切の財産／財産の一切｝を失った。",
+      "vi": "Tôi đã mất toàn bộ tài sản do hỏa hoạn."
+     },
+     {
+      "ja": "「一切の責任は私が負います」",
+      "vi": "\"Tôi sẽ chịu hoàn toàn trách nhiệm.\""
+     },
+     {
+      "ja": "[（副）］林部長は部下の言うことをいっさい聞こうとしない。",
+      "vi": "Trưởng phòng Hayashi hoàn toàn không nghe lời cấp dưới."
+     }
+    ],
+    "expression": "一切",
+    "meaning_vi": "tất cả; hoàn toàn không; hoàn toàn",
+    "reading": "いっさい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9c0f7e65b2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "傾斜",
+    "meaning_vi": "độ nghiêng; độ dốc／sườn dốc",
+    "reading": "けいしゃ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3026690d81"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "十分に利害を考えた上で、事業を興すかどうかは決めたい。",
+      "vi": "Sau khi cân nhắc kỹ lưỡng lợi và hại, tôi sẽ quyết định có khởi nghiệp hay không."
+     },
+     {
+      "ja": "二人は対立していたが、共通の敵ができたことで利害が一致した。",
+      "vi": "Họ vốn đối đầu nhau nhưng vì có kẻ thù chung nên đã thống nhất lợi ích."
+     }
+    ],
+    "expression": "利害",
+    "meaning_vi": "lợi hại; lợi và hại",
+    "reading": "りがい",
+    "topic_vi": "Quan hệ quốc tế",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-67e139d7cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "他国の領土を侵す。",
+      "vi": "Xâm phạm lãnh thổ nước khác."
+     },
+     {
+      "ja": "｛領空/国境…｝を侵す。",
+      "vi": "Xâm phạm {không phận/biên giới…}."
+     },
+     {
+      "ja": "人の｛所有権/自由/プライバシー…｝を侵す。",
+      "vi": "Xâm phạm {quyền sở hữu/tự do/quyền riêng tư…} của người khác."
+     }
+    ],
+    "expression": "侵す",
+    "meaning_vi": "xâm phạm; xâm chiếm",
+    "reading": "おかす",
+    "topic_vi": "Từ dễ nhầm lẫn ①",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0694d5100f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "罪を犯したら、償わなければならない。",
+      "vi": "Phạm tội thì phải chuộc tội/đền bù."
+     },
+     {
+      "ja": "｛犯罪/過ち…｝を犯す。",
+      "vi": "Phạm {tội/sai lầm…}."
+     }
+    ],
+    "expression": "犯す",
+    "meaning_vi": "phạm (tội); xâm phạm; thực hiện (hành vi phạm tội)",
+    "reading": "おかす",
+    "topic_vi": "Từ dễ nhầm lẫn ①",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-62378fc1c5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの会社は給与も高く、従業員の待遇がいい。",
+      "vi": "Công ty đó có mức lương cao và chế độ đãi ngộ nhân viên tốt."
+     },
+     {
+      "ja": "課長は地位に見合った待遇を受けていないと思う。",
+      "vi": "Tôi nghĩ trưởng phòng không được đãi ngộ xứng đáng với chức vụ."
+     },
+     {
+      "ja": "彼は部長待遇で入社した。",
+      "vi": "Anh ấy được nhận vào công ty với đãi ngộ tương đương trưởng bộ phận."
+     }
+    ],
+    "expression": "待遇",
+    "meaning_vi": "đãi ngộ",
+    "reading": "たいぐう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7b27dbf45a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「日本の会議の趣旨をご説明いたします」",
+      "vi": "\"Tôi sẽ giải thích mục đích của cuộc họp ngày hôm nay.\""
+     },
+     {
+      "ja": "会費を取るのはこの会の趣旨に反する。",
+      "vi": "Thu hội phí là trái với mục đích của hiệp hội này."
+     }
+    ],
+    "expression": "趣旨",
+    "meaning_vi": "chủ ý; mục đích; ý đồ",
+    "reading": "しゅし",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e935b8c33f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "帰国して家族に会える日が待ち遠しい。",
+      "vi": "Tôi mong ngóng từng ngày được về nước và có thể gặp gia đình."
+     }
+    ],
+    "expression": "待ち遠しい",
+    "meaning_vi": "mong ngóng; chờ đến sốt ruột; háo hức chờ đợi",
+    "reading": "まちどおしい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-8c67df4fa6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "子孫",
+    "meaning_vi": "con cháu; hậu duệ",
+    "reading": "しそん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3e42d9168c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "〜製",
+    "meaning_vi": "sản xuất tại hoặc làm bằng; do… sản xuất",
+    "reading": "せい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e7ad658f3b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "捻子",
+    "meaning_vi": "con vít; ốc",
+    "reading": "ねじ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-16a2fc37d3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "討論（する）",
+    "meaning_vi": "thảo luận; tranh luận có tổ chức",
+    "reading": "とうろん（する）",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f81c2f039c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「結婚20年、ずっと共働きだ」",
+      "vi": "Kết hôn được 20 năm, hai vợ chồng đi làm suốt."
+     },
+     {
+      "ja": "給料が少ないので、共働きしないと食べていけない。",
+      "vi": "Vì lương thấp nên nếu hai vợ chồng không cùng đi làm thì không đủ ăn."
+     }
+    ],
+    "expression": "共働き＜する＞",
+    "meaning_vi": "vợ chồng cùng đi làm; vợ chồng cùng làm việc",
+    "reading": "ともばたらき＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cd452e8e74"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ご苦労様",
+    "meaning_vi": "anh; chị vất vả rồi (nói với cấp dưới); chị vất vả rồi (với cấp dưới)",
+    "reading": "ごくろうさま",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-22096ebe14"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "木にぶつかって車がへこんだ。",
+      "vi": "Xe ô tô đâm vào cây nên bị móp."
+     },
+     {
+      "ja": "試験を受けても次々に落ちるのでへこんでしまった。",
+      "vi": "Thi lần nào cũng trượt nên tôi nản chí."
+     }
+    ],
+    "expression": "凹む",
+    "meaning_vi": "lõm xuống; xuống tinh thần; lõm",
+    "reading": "へこむ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cee9f9f690"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "回り道＜する＞",
+    "meaning_vi": "đi đường vòng; đường vòng",
+    "reading": "まわりみち＜する＞",
+    "topic_vi": "Giao thông",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3d4510efe9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "基地",
+    "meaning_vi": "căn cứ",
+    "reading": "きち",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3823bf9f65"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "技能",
+    "meaning_vi": "kỹ năng",
+    "reading": "ぎのう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b01e7c0c2f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "振る舞う",
+    "meaning_vi": "cư xử; thết đãi; chiêu đãi",
+    "reading": "ふるまう",
+    "topic_vi": "Tìm việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c8acd73635"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "背中にリュックを背負う。",
+      "vi": "Đeo ba lô trên lưng."
+     },
+     {
+      "ja": "新しい会社を立ち上げるため、彼は大きな借金を背負った。",
+      "vi": "Để lập công ty mới, anh ấy gánh một khoản nợ lớn."
+     },
+     {
+      "ja": "｛リスク/苦労…｝を背負う。",
+      "vi": "Gánh/chịu (rủi ro, vất vả…)."
+     }
+    ],
+    "expression": "背負う",
+    "meaning_vi": "cõng; gánh vác; mang vác",
+    "reading": "せおう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-82c2244a72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "栄養不足を補うために、薬を飲んでいる。",
+      "vi": "Tôi uống thuốc để bù đắp thiếu dinh dưỡng."
+     },
+     {
+      "ja": "ボーナスで毎月の赤字を補う。",
+      "vi": "Dùng tiền thưởng để bù thâm hụt mỗi tháng."
+     },
+     {
+      "ja": "「先ほどの説明を補わせていただきます」",
+      "vi": "“Xin phép cho tôi bổ sung phần giải thích vừa rồi.”"
+     }
+    ],
+    "expression": "補う",
+    "meaning_vi": "bù đắp; bổ sung; đền bù",
+    "reading": "おぎなう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1bf470f91f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "仕事が長引いて約束に遅れてしまった。",
+      "vi": "Công việc kéo dài nên tôi đến trễ cuộc hẹn."
+     },
+     {
+      "ja": "今年の風邪は長引く傾向があるようだ。",
+      "vi": "Năm nay cảm cúm có xu hướng kéo dài."
+     }
+    ],
+    "expression": "長引く",
+    "meaning_vi": "kéo dài dai dẳng; kéo dài",
+    "reading": "ながびく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3f79f7e0fb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "依頼する",
+    "meaning_vi": "nhờ vả; chính thức yêu cầu; yêu cầu",
+    "reading": "いらいする",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-095889ed80"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会社に応募するにあたり、履歴書を書いた。",
+      "vi": "Khi nộp đơn xin vào công ty, tôi đã viết sơ yếu lý lịch."
+     }
+    ],
+    "expression": "履歴",
+    "meaning_vi": "lý lịch; lịch sử thao tác",
+    "reading": "りれき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-577ad946fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ビールの栓を抜く。",
+      "vi": "Mở nắp chai bia."
+     },
+     {
+      "ja": "風呂に栓をする。",
+      "vi": "Đậy nút bồn tắm."
+     },
+     {
+      "ja": "水道の栓を閉める。",
+      "vi": "Khóa van nước."
+     }
+    ],
+    "expression": "栓",
+    "meaning_vi": "nút chai; van khoá; nút",
+    "reading": "せん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7f3db01228"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うどんの湯気で眼鏡が曇ってしまった。",
+      "vi": "Hơi nước từ mì udon làm kính bị mờ."
+     },
+     {
+      "ja": "大浴場は湯気で向こうの方が見えなかった。",
+      "vi": "Do hơi nước nên ở nhà tắm công cộng không nhìn rõ phía trước."
+     }
+    ],
+    "expression": "湯気",
+    "meaning_vi": "hơi nước bốc lên; hơi nước",
+    "reading": "ゆげ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-619db96824"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ご馳走さま",
+    "meaning_vi": "cảm ơn vì bữa ăn",
+    "reading": "ごちそうさま",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-4aaa1ac9e5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "車の新しいモデル発表された。",
+      "vi": "Mẫu xe mới đã được công bố."
+     },
+     {
+      "ja": "彼女はファッションショーのモデルをしている。",
+      "vi": "Cô ấy làm người mẫu cho show thời trang."
+     },
+     {
+      "ja": "ファッション雑誌のモデル",
+      "vi": "Người mẫu chụp cho tạp chí thời trang."
+     }
+    ],
+    "expression": "モデル",
+    "meaning_vi": "người mẫu; mô hình",
+    "reading": "モデル",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-898674deca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "回数",
+    "meaning_vi": "số lần",
+    "reading": "かいすう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d363feebc5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "幼稚",
+    "meaning_vi": "ấu trĩ; non nớt",
+    "reading": "ようち",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fdc3971302"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "拵える",
+    "meaning_vi": "làm ra; chế tạo",
+    "reading": "こしらえる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-2f1a9960c9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "台風で濁った川の水が激しく流れている。",
+      "vi": "Do bão, nước sông đục ngầu chảy xiết."
+     },
+     {
+      "ja": "濁った｛声/音/目…｝",
+      "vi": "{Giọng/âm thanh/đôi mắt…} đục/khàn/đờ đẫn."
+     }
+    ],
+    "expression": "濁る",
+    "meaning_vi": "vẩn đục; âm đục; dính bùn",
+    "reading": "にごる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-859e764aea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "～金",
+    "meaning_vi": "tiền ~; phí ~; hậu tố: khoản tiền",
+    "reading": "～きん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-365b0db6b1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "取引先",
+    "meaning_vi": "đối tác giao dịch; đối tác kinh doanh",
+    "reading": "とりひきさき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0fb6536548"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-025"
+}

@@ -1,0 +1,892 @@
+{
+ "header": {
+  "grammar_role": "SECONDARY",
+  "instructions": "Mẫu PHỤ (học ở cuối bài của mẫu chính): chỉ cần meaning_vi, formation (ký hiệu 〜, V-て, N, Aい, Aな), examples 1–2 câu {ja, ja_furigana, vi}. Không viết usage/nuance/lỗi thường gặp, không câu hỏi."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの人はさびしげな目をしている。",
+      "vi": "Người kia có ánh mắt buồn."
+     },
+     {
+      "ja": "彼は何か言いたげだった。",
+      "vi": "Hình như anh ấy muốn nói điều gì đó."
+     }
+    ],
+    "meaning_vi": "Vẻ ~",
+    "pattern": "〜さびしげ",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-df003cea2c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "年を取ると、忘れっぽくなる。",
+      "vi": "Lớn tuổi thì sẽ mau quên."
+     },
+     {
+      "ja": "このコート、デザインはいいけれど、生地が安っぽいね。",
+      "vi": "Chiếc áo khoác này kiểu dáng thì đẹp nhưng chất liệu vải trông có vẻ rẻ tiền, nhỉ."
+     }
+    ],
+    "meaning_vi": "Như là…, giống như…, có vẻ như…",
+    "pattern": "〜忘れっぽい",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-2455e64ff8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "残業続きで、疲れ気味だ。",
+      "vi": "Do tăng ca liên miên, nên hơi mệt."
+     },
+     {
+      "ja": "新入社員は緊張気味の顔をしていた。",
+      "vi": "Nhân viên mới có vẻ mặt hơi căng thẳng."
+     }
+    ],
+    "meaning_vi": "Có vẻ, hơi có, cảm giác là",
+    "pattern": "〜疲れ気味",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-f8e93ab6f3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私は子どもの頃、病気がちだった。",
+      "vi": "Hồi còn nhỏ, tôi thường bị bệnh."
+     },
+     {
+      "ja": "最近、彼は仕事を休みがちだ。",
+      "vi": "Gần đây, anh ấy hay nghỉ làm."
+     }
+    ],
+    "meaning_vi": "Có khuynh hướng~, thường là~",
+    "pattern": "〜病気がち",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d84e87d8b3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このプランは安い。ただ、データ容量が少ない。",
+      "vi": "Gói này rẻ. Tuy nhiên, dung lượng dữ liệu ít."
+     },
+     {
+      "ja": "明日は出勤しなくていい。ただ、午前中に報告書を提出しておいて。",
+      "vi": "Ngày mai không cần đi làm. Chỉ có điều, buổi sáng nhớ nộp báo cáo."
+     }
+    ],
+    "meaning_vi": "Nối bổ sung hạn chế: S2 nêu điều kiện, ngoại lệ, nhược điểm hoặc lưu ý cho thông tin S1. Độ mạnh yếu: mềm hơn しかし, trung tính hơn でも; không trang trọng bằng ただし. Sắc thái: “đúng là S1, chỉ có điều/tuy nhiên S2”. Không phủ định S1 mà điều chỉnh kỳ vọng. Ngữ cảnh: khẩu ngữ và viết đều dùng được; thích hợp trong giải thích, thương lượng, nêu điều kiện kèm.",
+    "pattern": "Chỉ là, tuy nhiên",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-206e6fb52d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "台風が接近中だ。したがって、本日のイベントは中止とする。",
+      "vi": "Bão đang tiến gần. Vì vậy, sự kiện hôm nay sẽ hủy."
+     },
+     {
+      "ja": "コストが上昇した。したがって、価格改定が必要だ。",
+      "vi": "Chi phí tăng. Theo đó, cần điều chỉnh giá."
+     }
+    ],
+    "meaning_vi": "したがって: “vì vậy/cho nên/theo đó”. Nêu kết luận hoặc hệ quả tất yếu dựa trên tiền đề vừa nêu. Thường dùng trong văn bản học thuật, báo cáo, thông báo chính thức. Tính logic cao, ít sắc thái cảm xúc. S2 thường là phán đoán, kết luận, chính sách, hoặc tình trạng kết quả khách quan. Không tự nhiên khi theo sau là yêu cầu cá nhân, mệnh lệnh trực tiếp.",
+    "pattern": "Do đó, vì thế",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7dff3e956c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "本日は臨時休館です。なお、明日は通常どおり開館します。",
+      "vi": "Hôm nay tạm đóng cửa. Ngoài ra, ngày mai mở cửa như thường."
+     },
+     {
+      "ja": "応募はオンラインのみ受け付けます。なお、郵送での応募はできません。",
+      "vi": "Chỉ nhận ứng tuyển online. Lưu ý, không nhận qua bưu điện."
+     }
+    ],
+    "meaning_vi": "Bổ sung thông tin: Thêm chi tiết liên quan, thường quan trọng đối với người đọc. Lưu ý/nhắc nhở: Chuyển sang giọng hướng dẫn, cảnh báo, hoặc quy định thêm. Đính chính/ngoại lệ: Nêu trường hợp đặc biệt nhưng không phủ định nội dung trước. Sắc thái: Trang trọng, điển hình trong thông báo, văn bản hành chính, tài liệu hướng dẫn, email công việc.",
+    "pattern": "Ngoài ra, thêm nữa",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a19d0f0382"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会議は10時からです。ちなみに、場所は第3会議室です。",
+      "vi": "Cuộc họp từ 10 giờ. Nhân tiện, địa điểm là phòng họp số 3."
+     },
+     {
+      "ja": "この店は評判がいい。ちなみに、オーナーは元プロ選手だ。",
+      "vi": "Quán này được đánh giá cao. Nhân tiện, chủ quán là cựu tuyển thủ chuyên nghiệp."
+     }
+    ],
+    "meaning_vi": "“Nhân tiện/tiện thể nói thêm”: cung cấp thông tin phụ hữu ích nhưng không quyết định mạch chính. Giữ liên hệ chủ đề; không nên đổi chủ đề đột ngột như ところで. Thường dùng trong thuyết trình, email, hội thoại để chèn dữ kiện thú vị/liên quan.",
+    "pattern": "Nhân tiện thì...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-faa55c23e3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "いろいろ考えた。要するに、やってみるしかない。",
+      "vi": "Tôi đã suy nghĩ đủ thứ. Tóm lại thì chỉ còn cách làm thử thôi."
+     },
+     {
+      "ja": "彼は忙しいし、興味もないらしい。要するに、来ないってことだ。",
+      "vi": "Anh ấy bận và cũng không hứng thú. Nói ngắn gọn là sẽ không đến."
+     }
+    ],
+    "meaning_vi": "Tóm tắt, kết luận nội dung trước đó một cách ngắn gọn, súc tích. Diễn đạt trọng tâm, bản chất của vấn đề sau khi đã trình bày dài dòng hoặc nhiều chi tiết. Dịch tự nhiên: “Tóm lại…”, “Nói cách khác…”, “Nói chung…”, “Cuối cùng thì…”. Thường dùng trong giải thích, thuyết trình, hội thoại logic, hoặc nhấn mạnh quan điểm cá nhân.",
+    "pattern": "Tóm lại, nói chung",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-95062209bb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "円周率とは、すなわちπのことである。",
+      "vi": "Số pi, tức là π."
+     },
+     {
+      "ja": "この薬の主成分、すなわちビタミンCが不足している。",
+      "vi": "Thành phần chính của thuốc này, tức là vitamin C, đang thiếu."
+     }
+    ],
+    "meaning_vi": "すなわち: “tức là/như vậy là/nói cách khác (theo nghĩa đồng nhất)”. Dùng để nêu định nghĩa, diễn giải chính xác, hoặc quy chiếu lại bằng biểu thức tương đương. Nhấn quan hệ đồng nhất/đẳng thức: S2 ≒ sự diễn đạt khác của S1. Độ trang trọng cao hơn つまり; thiên về chính xác, khách quan. Không dùng cho suy luận kết quả hay tóm tắt cảm tính.",
+    "pattern": "Tức là, nói cách khác",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-817f1f69bf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "参加は無料。ただし、事前登録が必要だ。",
+      "vi": "Tham gia miễn phí. Tuy nhiên, cần đăng ký trước."
+     },
+     {
+      "ja": "喫煙可。ただし、指定の場所に限る。",
+      "vi": "Được hút thuốc. Tuy nhiên, chỉ giới hạn ở khu vực quy định."
+     }
+    ],
+    "meaning_vi": "Xác lập một ngoại lệ/điều kiện bổ sung ràng buộc câu trước. Tính quy phạm cao, sắc thái cứng và chính thức hơn ただ, でも. S2 thường chứa từ ngữ điều kiện: ～に限る／～を除く／～場合は／要～／原則として…など.",
+    "pattern": "Tuy nhiên (giới hạn điều kiện)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-79f352ec2f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の提案には賛成だ。もっとも、予算内でできるならだが。",
+      "vi": "Tôi đồng ý với đề xuất của anh ấy. Tuy nhiên, nếu thực hiện trong phạm vi ngân sách thì mới được."
+     },
+     {
+      "ja": "日本に留学したい。もっとも、親が許せばだけど。",
+      "vi": "Tôi muốn du học Nhật. Mặc dù, còn phải xem bố mẹ có cho không."
+     }
+    ],
+    "meaning_vi": "Dùng để thêm thông tin bổ sung, ngoại lệ, hoặc điều chỉnh phát ngôn ở mệnh đề trước. Gần nghĩa với “Tuy nhiên / Dẫu vậy / Mặc dù nói thế nhưng…”. Mệnh đề B không phủ định hoàn toàn mệnh đề A, mà chỉ giới hạn, chỉnh lại cho chính xác hơn. Thường dùng trong văn viết, văn nói trang trọng nhẹ, trình bày logic.",
+    "pattern": "Tuy nhiên, dù vậy",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-7b6aa91792"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "一生懸命勉強した。それなのに、試験に落ちてしまった。",
+      "vi": "Tôi đã học rất chăm chỉ. Ấy vậy mà lại trượt kỳ thi."
+     },
+     {
+      "ja": "雨が降っていた。それなのに、彼は傘を持っていなかった。",
+      "vi": "Trời đang mưa. Thế mà anh ấy không mang ô."
+     }
+    ],
+    "meaning_vi": "Diễn tả sự đối lập mạnh với kỳ vọng: Mệnh đề B đi ngược hoàn toàn với điều đáng lẽ phải xảy ra từ mệnh đề A. Sắc thái cảm xúc rõ: Thường mang cảm xúc trách móc, ngạc nhiên, thất vọng, hoặc bất bình. Dịch tự nhiên: “Ấy vậy mà…”, “Thế nhưng…”, “Mặc dù như vậy…”. Khác với それでも: それなのに nhấn mạnh cảm xúc mạnh hơn và sự trái ngược rõ ràng hơn.",
+    "pattern": "Vậy mà, thế nhưng",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-8794360bb8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "帰れるものなら、今すぐ、国へ帰りたい。",
+      "vi": "Nếu như có thể về được thì tôi muốn về nước ngay lúc này."
+     },
+     {
+      "ja": "やれるもんなら、やってみろ。",
+      "vi": "Nếu như làm được, thì hãy làm thử xem."
+     }
+    ],
+    "meaning_vi": "Nếu~",
+    "pattern": "〜帰れるものなら",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-2520c5b80a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "車の免許は持っているものの、ほとんど運転したことがない。",
+      "vi": "Đã có bằng lái xe hơi, nhưng mà hầu như chưa lái bao giờ."
+     },
+     {
+      "ja": "申し込みはしたものの、試験を受けるかどうか未定だ。",
+      "vi": "Đơn thì đã đăng ký rồi nhưng vẫn chưa quyết định là có dự thi hay không."
+     }
+    ],
+    "meaning_vi": "Mặc dù…nhưng mà",
+    "pattern": "〜持っているものの",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-762d3bbcf5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "上着を脱いでもいいですか。暑いものですから。",
+      "vi": "Cởi bỏ áo khoác ngoài có được không? Vì nóng mà."
+     },
+     {
+      "ja": "遅くなってごめん。道路が混んでいたもんだから。",
+      "vi": "Xin lỗi vì đến trễ. Tại vì đường đông."
+     }
+    ],
+    "meaning_vi": "Vì~",
+    "pattern": "〜暑いものだから",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-33da0ed01d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "パーティーには行かなかったよ。知らなかった（んだ）もの。",
+      "vi": "Tôi đã không đến bữa tiệc. Tại vì tôi không biết."
+     },
+     {
+      "ja": "しょうがないよ。子ども（なん）だもん。",
+      "vi": "Đành chịu vậy thôi. Vì là trẻ con mà."
+     }
+    ],
+    "meaning_vi": "Vì~",
+    "pattern": "〜知らなかったんだもの",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-54be28e23d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "食事もしないでゲームばかりしていると、病気になるよ。",
+      "vi": "Nếu chỉ chơi game mà không ăn uống thì sẽ bị ốm đấy."
+     },
+     {
+      "ja": "A: 失敗したなあ。このシャツ、ちょっと派手すぎた。",
+      "vi": "A: Mình thất bại rồi. Chiếc áo này hơi sặc sỡ quá."
+     }
+    ],
+    "meaning_vi": null,
+    "pattern": "〜もしない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "meaning_vi",
+    "formation"
+   ],
+   "id": "JG-461fb4728a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "小さな店を任されてはじめて、毎日の在庫管理の難しさが分かった。",
+      "vi": "Chỉ sau khi được giao quản lý một cửa hàng nhỏ, tôi mới hiểu sự khó khăn của việc quản lý tồn kho hằng ngày."
+     },
+     {
+      "ja": "自分で土を耕してはじめて、一粒の種の大切さに気づいた。",
+      "vi": "Chỉ khi tự tay xới đất, tôi mới nhận ra giá trị của một hạt giống."
+     }
+    ],
+    "meaning_vi": "Chỉ sau khi... mới",
+    "pattern": "Chỉ sau khi... mới",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-fb4daa0cc7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "合図の旗が上がるか上がらないかのうちに、選手たちは走り出した。",
+      "vi": "Lá cờ hiệu chưa kịp giương hẳn thì các vận động viên đã lao đi."
+     },
+     {
+      "ja": "薬を飲んだか飲まないかのうちに、彼は深い眠りに落ちた。",
+      "vi": "Anh ấy vừa uống thuốc, chưa biết đã kịp uống xong chưa, thì đã chìm vào giấc ngủ sâu."
+     }
+    ],
+    "meaning_vi": "Chưa kịp biết là đã hay chưa thì",
+    "pattern": "Chưa kịp biết là đã hay chưa thì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-86c6bd6705"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "音声入力を使い始めて以来、短い記録を残す回数が増えた。",
+      "vi": "Kể từ khi bắt đầu dùng nhập liệu bằng giọng nói, số lần tôi ghi lại các ghi chú ngắn đã tăng lên."
+     },
+     {
+      "ja": "この丘に越してきてこのかた、毎朝、鳥の声で目を覚ましている。",
+      "vi": "Từ khi chuyển tới ngọn đồi này đến nay, sáng nào tôi cũng thức giấc bởi tiếng chim."
+     }
+    ],
+    "meaning_vi": "Kể từ khi",
+    "pattern": "Kể từ khi",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-15733bd616"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "資料を返却する際に、受付で番号札をお渡しください。",
+      "vi": "Khi trả tài liệu, vui lòng nộp thẻ số tại quầy tiếp nhận."
+     },
+     {
+      "ja": "港を見学した際、珍しい作業船を撮影した。",
+      "vi": "Khi tham quan cảng, tôi đã chụp một chiếc tàu công vụ hiếm thấy."
+     }
+    ],
+    "meaning_vi": "Khi, vào dịp",
+    "pattern": "Khi, vào dịp",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4f99fefd10"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "土の状態を調べてからでないと、植える木の種類は決められない。",
+      "vi": "Nếu chưa kiểm tra tình trạng đất thì không thể quyết định loại cây sẽ trồng."
+     },
+     {
+      "ja": "責任者の承認を得てからでなければ、この記録は外部に公開できません。",
+      "vi": "Nếu chưa được người phụ trách phê duyệt thì hồ sơ này không thể công bố ra ngoài."
+     }
+    ],
+    "meaning_vi": "Nếu chưa... thì không",
+    "pattern": "Nếu chưa... thì không",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-a216aef090"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "古い箱のふたを開けたとたん、乾いた香草の匂いが広がった。",
+      "vi": "Ngay khi tôi mở nắp chiếc hộp cũ, mùi thảo mộc khô lan ra."
+     },
+     {
+      "ja": "照明が消えたとたんに、客席が静まり返った。",
+      "vi": "Ngay khoảnh khắc đèn tắt, cả khán phòng bỗng im phăng phắc."
+     }
+    ],
+    "meaning_vi": "Ngay khoảnh khắc vừa",
+    "pattern": "Ngay khoảnh khắc vừa",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5c18e97b6c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "部品が届き次第、点検作業を再開いたします。",
+      "vi": "Ngay khi linh kiện tới, chúng tôi sẽ tiếp tục công việc kiểm tra."
+     },
+     {
+      "ja": "調査結果がまとまり次第、関係者に共有します。",
+      "vi": "Ngay khi tổng hợp xong kết quả điều tra, tôi sẽ chia sẻ với những người liên quan."
+     }
+    ],
+    "meaning_vi": "Ngay sau khi",
+    "pattern": "Ngay sau khi",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5304908459"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "新しい観測所を開設するにあたって、地域住民への説明会を行った。",
+      "vi": "Nhân dịp mở trạm quan sát mới, chúng tôi đã tổ chức buổi giải thích cho cư dân địa phương."
+     },
+     {
+      "ja": "長期保存データを移行するに際して、形式の互換性を確認した。",
+      "vi": "Khi chuyển dữ liệu lưu trữ dài hạn, chúng tôi đã kiểm tra tính tương thích của định dạng."
+     }
+    ],
+    "meaning_vi": "Nhân dịp, khi bắt đầu việc quan trọng",
+    "pattern": "Nhân dịp, khi bắt đầu việc quan trọng",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d674a25d52"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "試作品を実際に動かした上で、改良する箇所を決めよう。",
+      "vi": "Hãy vận hành thử nguyên mẫu rồi trên cơ sở đó quyết định những chỗ cần cải tiến."
+     },
+     {
+      "ja": "複数の見積もりを比べた上で、修理を依頼する会社を選んだ。",
+      "vi": "Sau khi so sánh nhiều báo giá, tôi đã chọn công ty để nhờ sửa chữa."
+     }
+    ],
+    "meaning_vi": "Sau khi; trong quá trình",
+    "pattern": "Sau khi; trong quá trình",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-e3c18643bc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "雲の切れ間から月が見えたかと思うと、またすぐ霧に隠れた。",
+      "vi": "Vừa thấy trăng ló qua kẽ mây thì nó lại lập tức khuất trong sương."
+     },
+     {
+      "ja": "子猫は棚に飛び乗ったと思ったら、反対側へ駆け下りた。",
+      "vi": "Chú mèo con vừa nhảy lên kệ thì đã chạy xuống phía bên kia."
+     }
+    ],
+    "meaning_vi": "Vừa mới tưởng là... thì",
+    "pattern": "Vừa mới tưởng là... thì",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-340778d9ef"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "皆さん、仕事の話は抜きにして楽しく飲みましょう。",
+      "vi": "Mọi người này, chúng ta thôi chuyện công việc mà hãy uống với nhau vui vẻ, nhé."
+     },
+     {
+      "ja": "お世辞抜きに、君の日本語は本当にうまいよ。",
+      "vi": "Nói không phải nịnh chứ tiếng Nhật của cậu thật sự rất cừ đấy."
+     }
+    ],
+    "meaning_vi": "Hãy bỏ…ra, hãy thôi…",
+    "pattern": "〜仕事の話は抜きにして",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5a3d1c6e4b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私の英語力では、旅行はまだしも、留学なんて無理です。",
+      "vi": "Với khả năng tiếng Anh của tôi, đi du lịch thì còn được, chứ du học thì không được đâu."
+     },
+     {
+      "ja": "１０分や２０分ならまだしも、１時間も待てません。",
+      "vi": "10 phút hay 20 phút thì còn được, chứ 1 tiếng thì tôi không đợi được đâu."
+     }
+    ],
+    "meaning_vi": "Nếu…thì còn được, đằng này…(ý ngược lại)",
+    "pattern": "〜旅行はまだしも",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9eea4bd917"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "母の料理は見た目はともかく味はおいしい。",
+      "vi": "Mấy món ăn mẹ tôi làm khoan bàn đến chuyện có đẹp hay không, chứ mùi vị thì ngon đấy."
+     },
+     {
+      "ja": "あの女優は、顔はともかくとして演技がすばらしい。",
+      "vi": "Nữ diễn viên đó khoan bàn đến mặt mũi ra sao chứ diễn xuất thì tuyệt vời."
+     }
+    ],
+    "meaning_vi": "Để sau, khoan bàn",
+    "pattern": "〜見た目はともかく味は",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-5bb80b7a14"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うちには、車はもとより自転車もないんです。",
+      "vi": "Ở nhà tôi, không chỉ xe hơi mà ngay cả xe đạp cũng không có nữa."
+     },
+     {
+      "ja": "レタスはサラダで食べるのはもとより、炒めてもおいしい。",
+      "vi": "Xà lách không chỉ ăn trong món xà lách mà đến cả xào cũng ngon nữa."
+     }
+    ],
+    "meaning_vi": "Không chỉ, nói chi.",
+    "pattern": "〜車はもとより自転車も",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-35d32344b7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "企画は順調だね。それはそうと、来週の出張、誰が行く？",
+      "vi": "Dự án tiến triển tốt nhỉ. À mà, chuyến công tác tuần sau ai đi?"
+     },
+     {
+      "ja": "今日はここまでにしよう。それはそうと、この資料見た？",
+      "vi": "Hôm nay đến đây thôi. Nhân tiện, đã xem tài liệu này chưa?"
+     }
+    ],
+    "meaning_vi": "Nghĩa: cụm nối để chuyển chủ đề, thường khá bất ngờ nhưng nhẹ nhàng. Sắc thái: thân mật, hơi đời thường; mang cảm giác “nhớ ra điều khác”. Liên kết: có thể liên quan lỏng hoặc không liên quan đến A.",
+    "pattern": "À mà này... (chuyển chủ đề)",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-1ead5e9276"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "冗談は抜きにして、真面目に話そう。",
+      "vi": "Bỏ đùa giỡn sang một bên, hãy nói nghiêm túc."
+     },
+     {
+      "ja": "今日は仕事の話は抜きにして、楽しみましょう。",
+      "vi": "Hôm nay miễn bàn chuyện công việc, cứ vui thôi."
+     }
+    ],
+    "meaning_vi": "“Để sang một bên…, bỏ qua…, miễn bàn …”: loại bỏ một yếu tố A ra khỏi cuộc nói chuyện/hoàn cảnh để tập trung vào điều chính. Với đồ vật/thành phần: nghĩa “không kèm A/không thêm A”. Thường dùng để chuyển mạch trong hội thoại, cuộc họp: cắt đứt đùa cợt/lòng vòng để vào trọng tâm. Sắc thái trực tiếp, đôi khi mạnh; cân nhắc lịch sự tùy đối tượng.",
+    "pattern": "Bỏ qua..., không tính...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-9436dec461"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "支払い方法は現金、あるいはクレジットカードをご利用いただけます。",
+      "vi": "Có thể thanh toán bằng tiền mặt hoặc thẻ tín dụng."
+     },
+     {
+      "ja": "参加は明日、あるいは来週でも構いません。",
+      "vi": "Tham gia vào ngày mai hoặc tuần tới đều được."
+     }
+    ],
+    "meaning_vi": "- Liên từ/trạng từ mang nghĩa “hoặc; hoặc là; có lẽ”. - Sắc thái trang trọng, thích hợp văn bản chính thức, quy định, mô tả kỹ thuật. - Khi đi với “か”: dùng khung “Xか、あるいはYか” để nhấn mạnh hai khả năng loại trừ.",
+    "pattern": "Hoặc là",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-4fec272cb7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "見た目はともかく、味は最高だ。",
+      "vi": "Khoan bàn về vẻ ngoài, hương vị thì tuyệt nhất."
+     },
+     {
+      "ja": "費用はともかく、期限は守ってください。",
+      "vi": "Chưa nói đến chi phí, xin hãy tuân thủ thời hạn."
+     }
+    ],
+    "meaning_vi": "Tạm gác A để bàn B: Người nói chủ đích bỏ qua/không xét A trong lúc này, chuyển trọng tâm sang B. Đối lập mềm: Không phủ định A hoàn toàn; chỉ ưu tiên B trong ngữ cảnh. Phạm vi: Phổ biến nhất với danh từ; với mệnh đề phải danh từ hóa bằng の/こと/かどうか.",
+    "pattern": "Khoan bàn đến..., chưa nói đến...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-3094a98d91"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この制度は都市部のみならず、地方でも広く受け入れられている。",
+      "vi": "Chế độ này không chỉ ở đô thị mà còn được chấp nhận rộng rãi ở địa phương."
+     },
+     {
+      "ja": "彼は英語のみならず、中国語も流暢に話す。",
+      "vi": "Anh ấy không chỉ tiếng Anh mà còn nói trôi chảy cả tiếng Trung."
+     }
+    ],
+    "meaning_vi": "～のみならず～も diễn đạt “không chỉ A mà còn B (nữa)”, mang sắc thái trang trọng, văn viết. B thường mở rộng phạm vi so với A, hoặc nêu thêm khía cạnh tương đương/quan trọng không kém. Thường thấy dạng A＋のみならず、B＋も/まで/さえ… Tính liệt kê trang trọng: nhấn mạnh rằng A chỉ là một ví dụ, còn B (và có thể hơn thế) cũng đúng. 「も」 đặt ở mệnh đề sau để nhấn B; đôi khi dùng 「まで」「さえ」 thay 「も」 để tăng độ bất ngờ. Gần nghĩa với ～だけでなく・～ばかりか, nhưng 「のみならず」 trang trọng và mang sắc thái văn bản chính luận.",
+    "pattern": "Không chỉ... mà còn",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-dc6e7fbdeb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "日本語はもとより、英語や中国語も話せる。",
+      "vi": "Không chỉ tiếng Nhật mà cả tiếng Anh, tiếng Trung cũng nói được (Nhật thì khỏi phải nói)."
+     },
+     {
+      "ja": "安全はもとより、品質管理にも細心の注意を払っている。",
+      "vi": "An toàn thì dĩ nhiên rồi, còn đặc biệt chú ý cả quản lý chất lượng."
+     }
+    ],
+    "meaning_vi": "Nghĩa 1: “Nói gì đến…, khỏi phải nói…, đương nhiên …” dùng để nêu A là điều hiển nhiên, sau đó mở rộng phạm vi đến B, C (còn … nữa). Nghĩa 2: “Không chỉ A mà ngay cả B/C cũng …” với sắc thái nhấn mạnh mức độ bao quát, thường đi kèm も/まで/さえ ở vế sau. Ngữ cảm: trang trọng, thiên về văn viết, thông báo, bài thuyết trình; mạnh hơn ～はもちろん về mức “đương nhiên”. Cú pháp: Vế A (trước はもとより) thường là danh từ. Nếu là mệnh đề, cần danh hoá bằng の/こと. Logic: A là nền tảng/hiển nhiên → B cũng đáp ứng/bao gồm → nêu kết luận chung.",
+    "pattern": "Không chỉ... mà còn...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-d2e9a58af9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "このカメラは軽い上に、操作も簡単だ。",
+      "vi": "Chiếc máy ảnh này không những nhẹ mà thao tác còn đơn giản."
+     },
+     {
+      "ja": "彼は約束を守らない上に、言い訳ばかりする。",
+      "vi": "Anh ấy đã không giữ lời hứa, lại còn toàn biện minh."
+     }
+    ],
+    "meaning_vi": "“Không những … mà còn …”: thêm vào một đặc điểm/điều kiện cùng chiều (tốt → tốt hơn, xấu → xấu hơn). Hai mệnh đề phải đồng hướng đánh giá (cùng tích cực hoặc cùng tiêu cực). Sắc thái trang trọng hơn “それに/しかも/さらに”; dùng nhiều trong viết/báo cáo/giới thiệu.",
+    "pattern": "Không những... mà còn...",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-756dc740ca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "隣の工事がうるさくてかなわない。",
+      "vi": "Nhà bên cạnh sửa chữa rất ồn ào, tôi không sao chịu nổi."
+     },
+     {
+      "ja": "私の家は、駅から遠くて不便でかなわない。",
+      "vi": "Nhà tôi xa nhà ga, bất tiện quá chừng."
+     }
+    ],
+    "meaning_vi": "Không thể chịu đựng được~",
+    "pattern": "〜うるさくてかなわない",
+    "pattern_variants": []
+   },
+   "fields_needed": [
+    "formation"
+   ],
+   "id": "JG-0b4dd859ea"
+  }
+ ],
+ "kind": "GRAMMAR_CORE",
+ "level": "N2",
+ "packet_id": "GRAMMAR_CORE-007"
+}

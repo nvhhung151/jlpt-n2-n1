@@ -1,0 +1,1037 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": {
+    "check_bank": [
+     {
+      "answer_index": 2,
+      "explanation_vi": "Điền 「んでいません」: sau まだ dùng V-ていません để nói tới giờ việc đó vẫn chưa làm. Nghĩa: Quyển sách đó tôi vẫn chưa đọc.",
+      "options": [
+       "めば",
+       "みながら",
+       "んでいません",
+       "んだり"
+      ],
+      "prompt_ja": "あの本はまだ読（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Điền 「していません」: sau まだ dùng V-ていません để nói tới giờ việc đó vẫn chưa làm. Nghĩa: Tôi vẫn chưa gọi điện cho mẹ.",
+      "options": [
+       "したり",
+       "すれば",
+       "していません",
+       "しながら"
+      ],
+      "prompt_ja": "母にまだ電話を（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 宿題はまだ終わっていません。 (Bài tập về nhà vẫn chưa xong.). Mảnh ở ô ★ là 「終わって」.",
+      "options": [
+       "いません",
+       "宿題は",
+       "まだ",
+       "終わって"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 部屋の掃除はまだしていません。 (Tôi vẫn chưa dọn phòng.). Mảnh ở ô ★ là 「して」.",
+      "options": [
+       "部屋の",
+       "掃除はまだ",
+       "いません",
+       "して"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu まだ〜ていません (vẫn chưa làm gì đó): \"Tôi vẫn chưa ăn cơm trưa.\"",
+      "options": [
+       "Hôm nay lạnh hơn hẳn hôm qua.",
+       "Cốc thủy tinh dễ vỡ.",
+       "Tôi vẫn chưa ăn cơm trưa.",
+       "Trên đường đến trường tôi đã gặp bạn."
+      ],
+      "prompt_ja": "昼ご飯はまだ食べていません。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu まだ〜ていません (vẫn chưa làm gì đó): \"Tàu điện vẫn chưa đến đâu.\"",
+      "options": [
+       "Trên đường về nhà tôi đã mua bánh mì.",
+       "Quà sinh nhật mẹ thì tôi chọn hoa.",
+       "Trường hợp không hiểu thì hãy hỏi thầy.",
+       "Tàu điện vẫn chưa đến đâu."
+      ],
+      "prompt_ja": "電車はまだ来ていませんよ。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "「昼ご飯はまだ食べました。」 sai: まだ (vẫn chưa) không đi với quá khứ khẳng định 〜ました; việc chưa làm phải dùng 〜ていません. Câu đúng: 昼ご飯はまだ食べていません。",
+      "options": [
+       "昼ご飯はまだ食べていません。",
+       "部屋の掃除はまだしていません。",
+       "昼ご飯はまだ食べました。",
+       "あの本はまだ読んでいません。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "「宿題はまだ終わるていません。」 sai: trước いません phải là thể て (終わって). Câu đúng: 宿題はまだ終わっていません。",
+      "options": [
+       "宿題はまだ終わるていません。",
+       "母にまだ電話をしていません。",
+       "宿題はまだ終わっていません。",
+       "電車はまだ来ていませんよ。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ],
+    "order_items": [
+     {
+      "answer_order": [
+       3,
+       0,
+       2,
+       1
+      ],
+      "pieces": [
+       "まだ",
+       "いません。",
+       "食べて",
+       "昼ご飯は"
+      ],
+      "translation_vi": "Tôi vẫn chưa ăn cơm trưa."
+     },
+     {
+      "answer_order": [
+       3,
+       2,
+       1,
+       0
+      ],
+      "pieces": [
+       "いませんよ。",
+       "来て",
+       "まだ",
+       "電車は"
+      ],
+      "translation_vi": "Tàu điện vẫn chưa đến đâu."
+     }
+    ],
+    "fill_items": [
+     {
+      "accept": [
+       "いない"
+      ],
+      "answer": "いません",
+      "sentence_ja": "宿題はまだ終わって＿＿。",
+      "translation_vi": "Bài tập về nhà vẫn chưa xong."
+     },
+     {
+      "accept": [
+       "いない"
+      ],
+      "answer": "いません",
+      "sentence_ja": "電車はまだ来て＿＿よ。",
+      "translation_vi": "Tàu điện vẫn chưa đến đâu."
+     }
+    ],
+    "extra_practice": [
+     {
+      "answer_index": 2,
+      "explanation_vi": "Điền 「して」: sau まだ dùng V-ていません để nói tới giờ việc đó vẫn chưa làm. Nghĩa: Tôi vẫn chưa dọn phòng.",
+      "options": [
+       "すれば",
+       "しながら",
+       "して",
+       "したり"
+      ],
+      "prompt_ja": "部屋の掃除はまだ（　　）いません。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu まだ〜ていません (vẫn chưa làm gì đó): \"Quyển sách đó tôi vẫn chưa đọc.\"",
+      "options": [
+       "Khi bị cảm thì nên ngủ sớm.",
+       "Trong ví tôi chỉ có một nghìn yên.",
+       "Quyển sách đó tôi vẫn chưa đọc.",
+       "Xin lỗi, anh/chị chụp ảnh giúp tôi được không ạ?"
+      ],
+      "prompt_ja": "あの本はまだ読んでいません。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "「あの本はまだ読みていません。」 sai: thể て của 読む là 読んで. Câu đúng: あの本はまだ読んでいません。",
+      "options": [
+       "宿題はまだ終わっていません。",
+       "母にまだ電話をしていません。",
+       "昼ご飯はまだ食べていません。",
+       "あの本はまだ読みていません。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ]
+   },
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "まだ〜ていません",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a9e358ae62"
+  },
+  {
+   "answer": {
+    "check_bank": [
+     {
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ながら」: ながら gắn sau V-ます bỏ ます, nói một người làm hai việc cùng lúc. Nghĩa: Xin đừng vừa đi bộ vừa gọi điện thoại.",
+      "options": [
+       "のに",
+       "たり",
+       "ながら",
+       "ても"
+      ],
+      "prompt_ja": "歩き（　　）電話をかけないでください。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "Điền 「ながら」: ながら gắn sau V-ます bỏ ます, nói một người làm hai việc cùng lúc. Nghĩa: Mẹ tôi vừa hát vừa nấu ăn.",
+      "options": [
+       "ながら",
+       "のに",
+       "ても",
+       "たり"
+      ],
+      "prompt_ja": "母は歌を歌い（　　）料理を作ります。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 友だちとコーヒーを飲みながら話しました。 (Tôi vừa uống cà phê vừa nói chuyện với bạn.). Mảnh ở ô ★ là 「飲みながら」.",
+      "options": [
+       "コーヒーを",
+       "飲みながら",
+       "友だちと",
+       "話しました"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 新聞を読みながら朝ご飯を食べます。 (Tôi vừa đọc báo vừa ăn sáng.). Mảnh ở ô ★ là 「朝ご飯を」.",
+      "options": [
+       "読みながら",
+       "食べます",
+       "新聞を",
+       "朝ご飯を"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ながら (vừa làm A vừa làm B cùng lúc): \"Tôi vừa nghe radio vừa dọn phòng.\"",
+      "options": [
+       "Tôi vừa nghe radio vừa dọn phòng.",
+       "Nếu có cái rẻ hơn thì tôi muốn mua.",
+       "Bài tập chưa xong nên tôi không đi chơi được.",
+       "Chiếc máy tính này tôi vừa mua tuần trước."
+      ],
+      "prompt_ja": "ラジオを聞きながら部屋を掃除します。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ながら (vừa làm A vừa làm B cùng lúc): \"Tôi vừa đi làm vừa theo học đại học.\"",
+      "options": [
+       "Ngày mai bạn có thể đến sớm vào buổi sáng không?",
+       "Không được nói to trong thư viện!",
+       "Chữ của thầy nhỏ nên khó đọc.",
+       "Tôi vừa đi làm vừa theo học đại học."
+      ],
+      "prompt_ja": "働きながら大学に通っています。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "「ラジオを聞いてながら部屋を掃除します。」 sai: trước ながら dùng V-ます bỏ ます (聞き), không dùng thể て. Câu đúng: ラジオを聞きながら部屋を掃除します。",
+      "options": [
+       "新聞を読みながら朝ご飯を食べます。",
+       "歩きながら電話をかけないでください。",
+       "ラジオを聞きながら部屋を掃除します。",
+       "ラジオを聞いてながら部屋を掃除します。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "「働くながら大学に通っています。」 sai: không gắn ながら sau thể từ điển; phải đổi 働く thành 働き. Câu đúng: 働きながら大学に通っています。",
+      "options": [
+       "働きながら大学に通っています。",
+       "母は歌を歌いながら料理を作ります。",
+       "友だちとコーヒーを飲みながら話しました。",
+       "働くながら大学に通っています。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ],
+    "order_items": [
+     {
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "pieces": [
+       "聞きながら",
+       "掃除します。",
+       "ラジオを",
+       "部屋を"
+      ],
+      "translation_vi": "Tôi vừa nghe radio vừa dọn phòng."
+     },
+     {
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "pieces": [
+       "通って",
+       "大学に",
+       "います。",
+       "働きながら"
+      ],
+      "translation_vi": "Tôi vừa đi làm vừa theo học đại học."
+     }
+    ],
+    "fill_items": [
+     {
+      "answer": "ながら",
+      "sentence_ja": "友だちとコーヒーを飲み＿＿話しました。",
+      "translation_vi": "Tôi vừa uống cà phê vừa nói chuyện với bạn."
+     },
+     {
+      "answer": "ながら",
+      "sentence_ja": "働き＿＿大学に通っています。",
+      "translation_vi": "Tôi vừa đi làm vừa theo học đại học."
+     }
+    ],
+    "extra_practice": [
+     {
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ながら」: ながら gắn sau V-ます bỏ ます, nói một người làm hai việc cùng lúc. Nghĩa: Tôi vừa đọc báo vừa ăn sáng.",
+      "options": [
+       "ても",
+       "ながら",
+       "のに",
+       "たり"
+      ],
+      "prompt_ja": "新聞を読み（　　）朝ご飯を食べます。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ながら (vừa làm A vừa làm B cùng lúc): \"Xin đừng vừa đi bộ vừa gọi điện thoại.\"",
+      "options": [
+       "Chị gái tôi làm việc ở ngân hàng.",
+       "Xin đừng vừa đi bộ vừa gọi điện thoại.",
+       "Nếu trời đẹp thì tôi sẽ đi dạo.",
+       "Bữa trưa tôi chọn món cà ri của quán kia."
+      ],
+      "prompt_ja": "歩きながら電話をかけないでください。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "「コーヒーを飲むながら友だちと話しました。」 sai: trước ながら phải là 飲み (V-ます bỏ ます). Câu đúng: コーヒーを飲みながら友だちと話しました。",
+      "options": [
+       "コーヒーを飲むながら友だちと話しました。",
+       "ラジオを聞きながら部屋を掃除します。",
+       "母は歌を歌いながら料理を作ります。",
+       "友だちとコーヒーを飲みながら話しました。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ]
+   },
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜な���ら",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 1
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d475586038"
+  },
+  {
+   "answer": {
+    "check_bank": [
+     {
+      "answer_index": 0,
+      "explanation_vi": "Điền 「ありません」: しか luôn đi với vị ngữ phủ định để nói \"chỉ có...\". Nghĩa: Trong tủ lạnh chỉ còn một quả trứng.",
+      "options": [
+       "ありません",
+       "あるそうです",
+       "ありました",
+       "あります"
+      ],
+      "prompt_ja": "冷蔵庫には卵が一つしか（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "Điền 「書けません」: しか luôn đi với vị ngữ phủ định để nói \"chỉ có...\". Nghĩa: Em trai tôi mới chỉ viết được chữ hiragana.",
+      "options": [
+       "書けません",
+       "書きました",
+       "書けます",
+       "書けるでしょう"
+      ],
+      "prompt_ja": "弟はまだひらがなしか（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 財布にお金が千円しかありません。 (Trong ví tôi chỉ có một nghìn yên.). Mảnh ở ô ★ là 「千円しか」.",
+      "options": [
+       "財布に",
+       "お金が",
+       "ありません",
+       "千円しか"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: クラスには学生が五人しかいません。 (Trong lớp chỉ có năm học sinh.). Mảnh ở ô ★ là 「五人しか」.",
+      "options": [
+       "五人しか",
+       "クラスには",
+       "学生が",
+       "いません"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜しか〜ない (chỉ... (ít, không hơn); ngoài... ra không có): \"Đêm qua tôi chỉ ngủ được ba tiếng.\"",
+      "options": [
+       "Buổi tối bạn nên ngủ sớm.",
+       "Hãy viết đúng như tôi đã nói.",
+       "Tôi đã đi được xe đạp rồi.",
+       "Đêm qua tôi chỉ ngủ được ba tiếng."
+      ],
+      "prompt_ja": "きのうは夜三時間しか寝ませんでした。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜しか〜ない (chỉ... (ít, không hơn); ngoài... ra không có): \"Cửa hàng này chỉ mở cửa vào Chủ nhật.\"",
+      "options": [
+       "Bố tôi đã làm việc ở ngân hàng cho đến năm ngoái.",
+       "Tôi sẽ tra xem đến ga mất bao lâu.",
+       "Cửa hàng này chỉ mở cửa vào Chủ nhật.",
+       "Tôi không còn nhìn rõ chữ nhỏ. Vì thế tôi đã mua kính."
+      ],
+      "prompt_ja": "この店は日曜日しか開いていません。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "「財布にお金が千円しかあります。」 sai: しか phải đi với vị ngữ phủ định (ありません). Câu đúng: 財布にお金が千円しかありません。",
+      "options": [
+       "財布にお金が千円しかあります。",
+       "クラスには学生が五人しかいません。",
+       "きのうは夜三時間しか寝ませんでした。",
+       "冷蔵庫には卵が一つしかありません。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "「この店は日曜日しか開いています。」 sai: しか đi với động từ phủ định; 開いています là sai. Câu đúng: この店は日曜日しか開いていません。",
+      "options": [
+       "財布にお金が千円しかありません。",
+       "この店は日曜日しか開いていません。",
+       "弟はまだひらがなしか書けません。",
+       "この店は日曜日しか開いています。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ],
+    "order_items": [
+     {
+      "answer_order": [
+       2,
+       1,
+       0,
+       3
+      ],
+      "pieces": [
+       "三時間しか",
+       "夜",
+       "きのうは",
+       "寝ませんでした。"
+      ],
+      "translation_vi": "Đêm qua tôi chỉ ngủ được ba tiếng."
+     },
+     {
+      "answer_order": [
+       0,
+       3,
+       1,
+       2
+      ],
+      "pieces": [
+       "この店は",
+       "開いて",
+       "いません。",
+       "日曜日しか"
+      ],
+      "translation_vi": "Cửa hàng này chỉ mở cửa vào Chủ nhật."
+     }
+    ],
+    "fill_items": [
+     {
+      "answer": "しか",
+      "sentence_ja": "財布にお金が千円＿＿ありません。",
+      "translation_vi": "Trong ví tôi chỉ có một nghìn yên."
+     },
+     {
+      "answer": "しか",
+      "sentence_ja": "この店は日曜日＿＿開いていません。",
+      "translation_vi": "Cửa hàng này chỉ mở cửa vào Chủ nhật."
+     }
+    ],
+    "extra_practice": [
+     {
+      "answer_index": 0,
+      "explanation_vi": "Điền 「いません」: しか luôn đi với vị ngữ phủ định để nói \"chỉ có...\". Nghĩa: Trong lớp chỉ có năm học sinh.",
+      "options": [
+       "いません",
+       "いました",
+       "いるそうです",
+       "います"
+      ],
+      "prompt_ja": "クラスには学生が五人しか（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜しか〜ない (chỉ... (ít, không hơn); ngoài... ra không có): \"Trong tủ lạnh chỉ còn một quả trứng.\"",
+      "options": [
+       "Nghe nói mì ramen quán kia rất ngon.",
+       "Bọn trẻ thích chơi ngoài trời.",
+       "Trong tủ lạnh chỉ còn một quả trứng.",
+       "Từ ga đến đây mất đến tận hai tiếng."
+      ],
+      "prompt_ja": "冷蔵庫には卵が一つしかありません。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "「弟はまだひらがなをしか書けません。」 sai: しか đứng thay chỗ を; không đặt を trước しか. Câu đúng: 弟はまだひらがなしか書けません。",
+      "options": [
+       "きのうは夜三時間しか寝ませんでした。",
+       "財布にお金が千円しかありません。",
+       "弟はまだひらがなをしか書けません。",
+       "弟はまだひらがなしか書けません。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ]
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "1000円しかないの？",
+      "vi": "Bạn chỉ có 1000 yên thôi ư?"
+     },
+     {
+      "ja": "かれはごはんを一杯しか食べません。",
+      "vi": "Anh ấy chỉ có thể ăn một chén cơm."
+     }
+    ],
+    "meaning_vi": "Biểu thị rằng người nói cảm thấy chưa đủ số lượng hoặc mức độ.",
+    "pattern": "〜しか〜ない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 2
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-572f90304c"
+  },
+  {
+   "answer": {
+    "check_bank": [
+     {
+      "answer_index": 0,
+      "explanation_vi": "Điền 「てしまいました」: sau V-て dùng しまいました để nói việc đã lỡ xảy ra hoặc đã làm xong hẳn. Nghĩa: Tôi lỡ đánh mất ví trên xe buýt rồi.",
+      "options": [
+       "てしまいました",
+       "たり",
+       "ても",
+       "ながら"
+      ],
+      "prompt_ja": "バスの中で財布をなくし（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "Điền 「てしまいました」: sau V-て dùng しまいました để nói việc đã lỡ xảy ra hoặc đã làm xong hẳn. Nghĩa: Bài tập tôi đã làm xong hết rồi.",
+      "options": [
+       "ても",
+       "てしまいました",
+       "たり",
+       "ながら"
+      ],
+      "prompt_ja": "宿題はもう全部やっ（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: この本は一日で読んでしまいました。 (Quyển sách này tôi đã đọc xong hết trong một ngày.). Mảnh ở ô ★ là 「読んで」.",
+      "options": [
+       "一日で",
+       "読んで",
+       "しまいました",
+       "この本は"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 友だちとの約束を忘れてしまいました。 (Tôi lỡ quên mất lời hẹn với bạn.). Mảnh ở ô ★ là 「忘れて」.",
+      "options": [
+       "約束を",
+       "友だちとの",
+       "忘れて",
+       "しまいました"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜てしまう (lỡ... mất rồi; làm xong hết..): \"Tôi lỡ ngủ quên trên chuyến tàu về.\"",
+      "options": [
+       "Hôm nay tôi sẽ dạy thay cho thầy.",
+       "Trên cửa quán có ghi \"Đang chuẩn bị\".",
+       "Tôi lỡ ngủ quên trên chuyến tàu về.",
+       "Khi không hiểu thì nên làm thế nào ạ?"
+      ],
+      "prompt_ja": "帰りの電車で寝てしまいました。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜てしまう (lỡ... mất rồi; làm xong hết..): \"Tôi lỡ làm vỡ chiếc cốc quý mất rồi.\"",
+      "options": [
+       "Thầy giáo cho sinh viên nêu ý kiến.",
+       "Bây giờ tôi chuẩn bị đi xem phim.",
+       "Năm sau tôi định thi N4.",
+       "Tôi lỡ làm vỡ chiếc cốc quý mất rồi."
+      ],
+      "prompt_ja": "大切なカップを割ってしまいました。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "「帰りの電車で寝るしまいました。」 sai: しまう gắn sau thể て (寝て), không gắn sau thể từ điển. Câu đúng: 帰りの電車で寝てしまいました。",
+      "options": [
+       "バスの中で財布をなくしてしまいました。",
+       "帰りの電車で寝るしまいました。",
+       "帰りの電車で寝てしまいました。",
+       "友だちとの約束を忘れてしまいました。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "「この本は一日で読みてしまいました。」 sai: thể て của 読む là 読んで. Câu đúng: この本は一日で読んでしまいました。",
+      "options": [
+       "宿題はもう全部やってしまいました。",
+       "この本は一日で読みてしまいました。",
+       "この本は一日で読んでしまいました。",
+       "大切なカップを割ってしまいました。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ],
+    "order_items": [
+     {
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "pieces": [
+       "電車で",
+       "帰りの",
+       "しまいました。",
+       "寝て"
+      ],
+      "translation_vi": "Tôi lỡ ngủ quên trên chuyến tàu về."
+     },
+     {
+      "answer_order": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "pieces": [
+       "大切な",
+       "カップを",
+       "割って",
+       "しまいました。"
+      ],
+      "translation_vi": "Tôi lỡ làm vỡ chiếc cốc quý mất rồi."
+     }
+    ],
+    "fill_items": [
+     {
+      "accept": [
+       "しまった"
+      ],
+      "answer": "しまいました",
+      "sentence_ja": "この本は一日で読んで＿＿。",
+      "translation_vi": "Quyển sách này tôi đã đọc xong hết trong một ngày."
+     },
+     {
+      "accept": [
+       "しまった"
+      ],
+      "answer": "しまいました",
+      "sentence_ja": "大切なカップを割って＿＿。",
+      "translation_vi": "Tôi lỡ làm vỡ chiếc cốc quý mất rồi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "answer_index": 0,
+      "explanation_vi": "Điền 「てしまいました」: sau V-て dùng しまいました để nói việc đã lỡ xảy ra hoặc đã làm xong hẳn. Nghĩa: Tôi lỡ quên mất lời hẹn với bạn.",
+      "options": [
+       "てしまいました",
+       "ても",
+       "たり",
+       "ながら"
+      ],
+      "prompt_ja": "友だちとの約束を忘れ（　　）。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜てしまう (lỡ... mất rồi; làm xong hết..): \"Tôi lỡ đánh mất ví trên xe buýt rồi.\"",
+      "options": [
+       "Chúng tôi đang nói đúng chuyện đó.",
+       "Xin mời ngồi vào ghế bên này ạ.",
+       "Bây giờ tôi chuẩn bị đi xem phim.",
+       "Tôi lỡ đánh mất ví trên xe buýt rồi."
+      ],
+      "prompt_ja": "バスの中で財布をなくしてしまいました。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "「大切なカップを割ってしまうました。」 sai: thể ます quá khứ của しまう là しまいました. Câu đúng: 大切なカップを割ってしまいました。",
+      "options": [
+       "帰りの電車で寝てしまいました。",
+       "宿題はもう全部やってしまいました。",
+       "この本は一日で読んでしまいました。",
+       "大切なカップを割ってしまうました。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ]
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "宿題を忘れてしまいました。",
+      "vi": "Tôi quên làm bài tập mất rồi."
+     },
+     {
+      "ja": "ねぼうして、会社にちこくしてしまいました。",
+      "vi": "Tôi ngủ quên nên đã đến công ty muộn giờ mất rồi."
+     }
+    ],
+    "meaning_vi": "Biểu thị kết quả không mong muốn, đáng tiếc. Hoặc biểu thị sự hoàn tất của một sự việc.",
+    "pattern": "〜てしまう",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-c8176a2434"
+  },
+  {
+   "answer": {
+    "check_bank": [
+     {
+      "answer_index": 2,
+      "explanation_vi": "Điền 「のに」: のに nối hai vế trái ngược: vế sau là kết quả ngoài mong đợi. Nghĩa: Đã học rất nhiều thế mà vẫn trượt kỳ thi.",
+      "options": [
+       "ながら",
+       "ても",
+       "のに",
+       "たら"
+      ],
+      "prompt_ja": "たくさん勉強した（　　）試験に落ちました。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Điền 「のに」: のに nối hai vế trái ngược: vế sau là kết quả ngoài mong đợi. Nghĩa: Đã sang xuân rồi mà trời vẫn rất lạnh.",
+      "options": [
+       "ながら",
+       "たら",
+       "のに",
+       "ても"
+      ],
+      "prompt_ja": "春な（　　）まだとても寒いです。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 日曜日なのに会社へ行かなければなりません。 (Chủ nhật vậy mà tôi vẫn phải đến công ty.). Mảnh ở ô ★ là 「行かなければ」.",
+      "options": [
+       "日曜日なのに",
+       "会社へ",
+       "行かなければ",
+       "なりません"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 急いで来たのに電車はもう出ていた。 (Tôi đã vội đến vậy mà tàu đã chạy mất rồi.). Mảnh ở ô ★ là 「電車は」.",
+      "options": [
+       "来たのに",
+       "急いで",
+       "電車は",
+       "もう出ていた"
+      ],
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "type": "ORDER_STAR"
+     },
+     {
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜のに (mặc dù... thế mà lại..): \"Đã uống thuốc rồi thế mà vẫn không hạ sốt.\"",
+      "options": [
+       "Theo báo, mùa hè năm nay sẽ rất nóng.",
+       "Em trai tôi dọn phòng rất vụng.",
+       "Đã uống thuốc rồi thế mà vẫn không hạ sốt.",
+       "Đúng lúc tôi sắp ra khỏi nhà thì trời đổ mưa."
+      ],
+      "prompt_ja": "薬を飲んだのに熱が下がりません。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜のに (mặc dù... thế mà lại..): \"Đã hứa rồi thế mà anh ấy lại không đến bữa tiệc.\"",
+      "options": [
+       "Trước cuộc họp tôi sẽ photo sẵn tài liệu.",
+       "Bữa tiệc có đến tận năm mươi người đến.",
+       "Món súp này có vị lạ.",
+       "Đã hứa rồi thế mà anh ấy lại không đến bữa tiệc."
+      ],
+      "prompt_ja": "約束したのに彼はパーティーに来なかった。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "「春だのにまだとても寒いです。」 sai: danh từ hoặc tính từ な đứng trước のに phải đổi だ thành な (春なのに). Câu đúng: 春なのにまだとても寒いです。",
+      "options": [
+       "急いで来たのに電車はもう出ていた。",
+       "春だのにまだとても寒いです。",
+       "薬を飲んだのに熱が下がりません。",
+       "たくさん勉強したのに試験に落ちました。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "「約束したのに、あした来てください。」 sai: vế sau のに không dùng câu nhờ vả, mệnh lệnh như 〜てください. Câu đúng: 約束したのに彼はパーティーに来なかった。",
+      "options": [
+       "約束したのに、あした来てください。",
+       "日曜日なのに会社へ行かなければなりません。",
+       "約束したのに彼はパーティーに来なかった。",
+       "春なのにまだとても寒いです。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ],
+    "order_items": [
+     {
+      "answer_order": [
+       2,
+       0,
+       1,
+       3
+      ],
+      "pieces": [
+       "飲んだのに",
+       "熱が",
+       "薬を",
+       "下がりません。"
+      ],
+      "translation_vi": "Đã uống thuốc rồi thế mà vẫn không hạ sốt."
+     },
+     {
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "pieces": [
+       "パーティーに",
+       "約束したのに",
+       "来なかった。",
+       "彼は"
+      ],
+      "translation_vi": "Đã hứa rồi thế mà anh ấy lại không đến bữa tiệc."
+     }
+    ],
+    "fill_items": [
+     {
+      "answer": "のに",
+      "sentence_ja": "日曜日な＿＿会社へ行かなければなりません。",
+      "translation_vi": "Chủ nhật vậy mà tôi vẫn phải đến công ty."
+     },
+     {
+      "answer": "のに",
+      "sentence_ja": "約束した＿＿彼はパーティーに来なかった。",
+      "translation_vi": "Đã hứa rồi thế mà anh ấy lại không đến bữa tiệc."
+     }
+    ],
+    "extra_practice": [
+     {
+      "answer_index": 2,
+      "explanation_vi": "Điền 「のに」: のに nối hai vế trái ngược: vế sau là kết quả ngoài mong đợi. Nghĩa: Tôi đã vội đến vậy mà tàu đã chạy mất rồi.",
+      "options": [
+       "たら",
+       "ても",
+       "のに",
+       "ながら"
+      ],
+      "prompt_ja": "急いで来た（　　）電車はもう出ていた。",
+      "type": "FILL"
+     },
+     {
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜のに (mặc dù... thế mà lại..): \"Đã học rất nhiều thế mà vẫn trượt kỳ thi.\"",
+      "options": [
+       "Đã học rất nhiều thế mà vẫn trượt kỳ thi.",
+       "Đang làm bài tập thì mẹ về.",
+       "Xin vui lòng đọc tài liệu trước cuộc họp.",
+       "Tôi xin thông báo lịch ngày mai qua email."
+      ],
+      "prompt_ja": "たくさん勉強したのに試験に落ちました。",
+      "type": "MEANING"
+     },
+     {
+      "answer_index": 1,
+      "explanation_vi": "「薬を飲んだだのに熱が下がりません。」 sai: sau động từ thể thường không thêm だ trước のに. Câu đúng: 薬を飲んだのに熱が下がりません。",
+      "options": [
+       "日曜日なのに会社へ行かなければなりません。",
+       "薬を飲んだだのに熱が下がりません。",
+       "薬を飲んだのに熱が下がりません。",
+       "春なのにまだとても寒いです。"
+      ],
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "type": "ERROR"
+     }
+    ]
+   },
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜のに",
+    "pattern_variants": [
+     "のに"
+    ],
+    "source_questions": [],
+    "unit_no": 3
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-518dfd46ad"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N4",
+ "packet_id": "GRAMMAR_BANK-001"
+}

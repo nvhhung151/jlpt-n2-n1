@@ -1,0 +1,256 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "真相は知るべくもない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không thể nào mà — Hoàn toàn không có khả năng, văn viết trang trọng.",
+    "pattern": "べくもない",
+    "pattern_variants": [
+     "V từ điển + べくもない"
+    ],
+    "source_questions": [],
+    "unit_no": 13
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b6768ce554"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "医者ともあろう人がそんなミスをするとは。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đường đường là mà lại — Người ở vị trí cao mà lại làm điều không xứng đáng, kèm thất vọng.",
+    "pattern": "〜ともあろう",
+    "pattern_variants": [
+     "N + ともあろう"
+    ],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8a5e526a6a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜ずにはすまない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-d607c5d8af"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「吉田さんときたら、遅刻はするし欠席は多いし、困ったものだ」",
+      "vi": "“Còn anh Yoshida ấy à, vừa đi muộn lại vừa nghỉ nhiều, thật hết biết.”"
+     },
+     {
+      "ja": "「今度のボーナスときたら、あまりにも少なくて話にもならない」",
+      "vi": "“Còn khoản thưởng lần này thì ít đến mức chẳng đáng nói.”"
+     }
+    ],
+    "meaning_vi": "Còn nói đến… thì… (đánh giá tiêu cực; văn nói)",
+    "pattern": "と来(き)たら 1",
+    "pattern_variants": [
+     "〜ときたら"
+    ],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-02fd59fc58"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "たるに",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 14
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a5ec828b3e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "努力なくして成功はあり得ない。",
+      "vi": "Không có nỗ lực thì không thể có thành công."
+     },
+     {
+      "ja": "市民の協力なくしては、オリンピックは開催できない。",
+      "vi": "Nếu không có sự hợp tác của người dân thì không thể tổ chức Thế vận hội."
+     }
+    ],
+    "meaning_vi": "Nếu không có ～ thì không thể có hoặc làm được điều ở vế sau.",
+    "pattern": "〜なくしては",
+    "pattern_variants": [
+     "〜なくして(は)"
+    ],
+    "source_questions": [],
+    "unit_no": 15
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-602ecab654"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "兄にひきかえ、弟はよく勉強する。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Trái ngược hẳn với — So sánh hai bên hoàn toàn trái ngược, kèm đánh giá của người nói.",
+    "pattern": "に引(ひ)き換(か)え",
+    "pattern_variants": [
+     "N / Thể thường + にひきかえ",
+     "〜にひきかえ"
+    ],
+    "source_questions": [],
+    "unit_no": 15
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a1acc3407c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "メダルは取れないまでも、せめて決勝には残りたい。",
+      "vi": "Dù không giành được huy chương thì ít nhất tôi cũng muốn lọt vào vòng chung kết."
+     },
+     {
+      "ja": "今度のレポートは百点とは言わないまでも、それに近い出来だったと思う。",
+      "vi": "Bài báo cáo lần này, tuy chưa dám nói là được 100 điểm, nhưng tôi nghĩ chất lượng cũng gần đạt mức đó."
+     }
+    ],
+    "meaning_vi": "Dù chưa đạt đến mức ～ thì ít nhất cũng đạt hoặc làm được mức thấp hơn.",
+    "pattern": "〜ないまでも",
+    "pattern_variants": [
+     "ないまでも"
+    ],
+    "source_questions": [],
+    "unit_no": 15
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-cd63a1d628"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は私の話が退屈だとばかりにあくびをした。",
+      "vi": "Anh ta ngáp như thể muốn nói câu chuyện của tôi thật chán."
+     },
+     {
+      "ja": "大学に入学すると、目的は達成したとばかりに遊び始める学生がいる。",
+      "vi": "Có những sinh viên vừa vào đại học đã bắt đầu chơi bời như thể mục tiêu của mình đã hoàn thành."
+     }
+    ],
+    "meaning_vi": "Tuy không thực sự nói ra nhưng thể hiện dáng vẻ hoặc thái độ như muốn nói ～.",
+    "pattern": "〜とばかりに",
+    "pattern_variants": [
+     "Câu trích + とばかりに"
+    ],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7ebd8471a3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "に至(いた)って",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 16
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b2eed14f62"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-007"
+}

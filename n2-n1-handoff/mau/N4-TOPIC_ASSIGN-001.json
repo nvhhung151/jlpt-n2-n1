@@ -1,0 +1,426 @@
+{
+ "header": {
+  "instructions": "topic_key/topic_vi: chọn chủ đề gần nghĩa nhất trong header.topics; không hợp thì \"khac\"/\"Từ thông dụng khác\".",
+  "topics": [
+   {
+    "topic_key": "thoi-gian",
+    "topic_vi": "Thời gian"
+   },
+   {
+    "topic_key": "gia-dinh",
+    "topic_vi": "Gia đình"
+   },
+   {
+    "topic_key": "nha",
+    "topic_vi": "Nhà"
+   },
+   {
+    "topic_key": "phong",
+    "topic_vi": "Phòng"
+   },
+   {
+    "topic_key": "tu-sang-den-toi",
+    "topic_vi": "Từ sáng đến tối"
+   },
+   {
+    "topic_key": "truong-hoc",
+    "topic_vi": "Trường học"
+   },
+   {
+    "topic_key": "truong-dai-hoc",
+    "topic_vi": "Trường đại học"
+   },
+   {
+    "topic_key": "viec-hoc",
+    "topic_vi": "Việc học"
+   },
+   {
+    "topic_key": "cong-viec",
+    "topic_vi": "Công việc"
+   },
+   {
+    "topic_key": "du-lich",
+    "topic_vi": "Du lịch"
+   },
+   {
+    "topic_key": "mon-an-an",
+    "topic_vi": "Món ăn ~ Ăn"
+   },
+   {
+    "topic_key": "mon-an-nau-lam",
+    "topic_vi": "Món ăn ~ Nấu (Làm)"
+   },
+   {
+    "topic_key": "di-cho-mua-sam",
+    "topic_vi": "Đi chợ, mua sắm"
+   },
+   {
+    "topic_key": "noi-cho",
+    "topic_vi": "Nơi, chỗ"
+   },
+   {
+    "topic_key": "thoi-tiet",
+    "topic_vi": "Thời tiết"
+   },
+   {
+    "topic_key": "tu-nhien",
+    "topic_vi": "Tự nhiên"
+   },
+   {
+    "topic_key": "phuong-tien-giao-thong",
+    "topic_vi": "Phương tiện giao thông"
+   },
+   {
+    "topic_key": "lai-xe-xe-tau",
+    "topic_vi": "Lái xe (xe, tàu)"
+   },
+   {
+    "topic_key": "the-gioi",
+    "topic_vi": "Thế giới"
+   },
+   {
+    "topic_key": "giao-tiep",
+    "topic_vi": "Giao tiếp"
+   },
+   {
+    "topic_key": "nguoi-yeu",
+    "topic_vi": "Người yêu"
+   },
+   {
+    "topic_key": "nhung-rac-roi",
+    "topic_vi": "Những rắc rối"
+   },
+   {
+    "topic_key": "so-thich",
+    "topic_vi": "Sở thích"
+   },
+   {
+    "topic_key": "the-thao",
+    "topic_vi": "Thể thao"
+   },
+   {
+    "topic_key": "co-the-suc-khoe",
+    "topic_vi": "Cơ thể / Sức khỏe"
+   },
+   {
+    "topic_key": "dau-om-bi-thuong",
+    "topic_vi": "Đau ốm / Bị thương"
+   },
+   {
+    "topic_key": "thoi-trang",
+    "topic_vi": "Thời trang"
+   },
+   {
+    "topic_key": "trang-thai-tinh-trang",
+    "topic_vi": "Trạng thái, tình trạng ②"
+   },
+   {
+    "topic_key": "tin-tuc",
+    "topic_vi": "Tin tức"
+   },
+   {
+    "topic_key": "loi-hua",
+    "topic_vi": "Lời hứa"
+   },
+   {
+    "topic_key": "cam-giac",
+    "topic_vi": "Cảm giác"
+   },
+   {
+    "topic_key": "hay-ghi-nho-ca-pho-tu",
+    "topic_vi": "Hãy ghi nhớ cả phó từ ②"
+   },
+   {
+    "topic_key": "cach-noi-noi",
+    "topic_vi": "Cách nói nối"
+   },
+   {
+    "topic_key": "cong-ty",
+    "topic_vi": "Công ty"
+   },
+   {
+    "topic_key": "doi-song-am-thuc",
+    "topic_vi": "Đời sống ẩm thực"
+   },
+   {
+    "topic_key": "viec-nha",
+    "topic_vi": "Việc nhà"
+   },
+   {
+    "topic_key": "tien-va-ngan-hang",
+    "topic_vi": "Tiền và ngân hàng"
+   },
+   {
+    "topic_key": "tau-dien-va-tau-shin-kansen",
+    "topic_vi": "Tàu điện và tàu Shin kansen"
+   },
+   {
+    "topic_key": "ngay-nghi",
+    "topic_vi": "Ngày nghỉ"
+   },
+   {
+    "topic_key": "lai-xe",
+    "topic_vi": "Lái xe"
+   },
+   {
+    "topic_key": "noi-o",
+    "topic_vi": "Nơi ở"
+   },
+   {
+    "topic_key": "mua-sam",
+    "topic_vi": "Mua sắm"
+   },
+   {
+    "topic_key": "bao-dong-dat",
+    "topic_vi": "Bão, động đất"
+   },
+   {
+    "topic_key": "the-gioi-moi-truong",
+    "topic_vi": "Thế giới, môi trường"
+   },
+   {
+    "topic_key": "thi-cu",
+    "topic_vi": "Thi cử"
+   },
+   {
+    "topic_key": "xe-buyt",
+    "topic_vi": "Xe buýt"
+   },
+   {
+    "topic_key": "xa-hoi-cua-chung-ta",
+    "topic_vi": "Xã hội của chúng ta"
+   },
+   {
+    "topic_key": "an-dien",
+    "topic_vi": "Ăn diện"
+   },
+   {
+    "topic_key": "thanh-ngu-tinh-khi-tam-hon-tam-trang",
+    "topic_vi": "Thành ngữ ① Tính khí, tâm hồn, tâm trạng"
+   },
+   {
+    "topic_key": "truyen-thong-dai-chung",
+    "topic_vi": "Truyền thông đại chúng"
+   },
+   {
+    "topic_key": "viec-lam",
+    "topic_vi": "Việc làm"
+   },
+   {
+    "topic_key": "tinh-cach",
+    "topic_vi": "Tính cách"
+   },
+   {
+    "topic_key": "tam-trang-vui-mung",
+    "topic_vi": "Tâm trạng vui mừng"
+   },
+   {
+    "topic_key": "co-dau-hieu-gi",
+    "topic_vi": "Có dấu hiệu gì?"
+   },
+   {
+    "topic_key": "nguoi-quen-moi-quan-he-giao-tiep",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp"
+   },
+   {
+    "topic_key": "tu-the-hien-thoi-gian",
+    "topic_vi": "Từ thể hiện thời gian"
+   },
+   {
+    "topic_key": "pho-xa",
+    "topic_vi": "Phố xá"
+   },
+   {
+    "topic_key": "la-nguoi-nhu-the-nao",
+    "topic_vi": "Là người như thế nào?"
+   },
+   {
+    "topic_key": "uy-ban-van-phong-nha-nuoc",
+    "topic_vi": "Ủy ban (Văn phòng Nhà nước)"
+   },
+   {
+    "topic_key": "quanh-canh-thanh-pho",
+    "topic_vi": "Quanh cảnh thành phố"
+   },
+   {
+    "topic_key": "cach-lam-mon-an",
+    "topic_vi": "Cách làm món ăn"
+   },
+   {
+    "topic_key": "nau-an",
+    "topic_vi": "Nấu ăn"
+   },
+   {
+    "topic_key": "hay-co-gang-hon-nua",
+    "topic_vi": "Hãy cố gắng hơn nữa!"
+   },
+   {
+    "topic_key": "tim-viec",
+    "topic_vi": "Tìm việc"
+   },
+   {
+    "topic_key": "quan-he-tren-duoi",
+    "topic_vi": "Quan hệ trên dưới"
+   },
+   {
+    "topic_key": "rac-roi",
+    "topic_vi": "Rắc rối"
+   },
+   {
+    "topic_key": "thoi-tiet-ngay-mai",
+    "topic_vi": "Thời tiết ngày mai"
+   },
+   {
+    "topic_key": "thay-doi-nhu-the-nao",
+    "topic_vi": "Thay đổi như thế nào?"
+   },
+   {
+    "topic_key": "ngay-nong-va-ngay-lanh",
+    "topic_vi": "Ngày nóng và ngày lạnh"
+   },
+   {
+    "topic_key": "truong-dai-hoc-cua-nhat-ban",
+    "topic_vi": "Trường đại học của Nhật Bản"
+   },
+   {
+    "topic_key": "mot-nam-cua-nhat-ban",
+    "topic_vi": "Một năm của Nhật Bản"
+   },
+   {
+    "topic_key": "co-cam-giac-gi",
+    "topic_vi": "Có cảm giác gì?"
+   },
+   {
+    "topic_key": "moi-quan-he-rong",
+    "topic_vi": "Mối quan hệ rộng"
+   },
+   {
+    "topic_key": "an-tuong-ve-vat",
+    "topic_vi": "Ấn tượng về vật"
+   }
+  ]
+ },
+ "items": [
+  {
+   "answer": {
+    "topic_key": "gia-dinh",
+    "topic_vi": "Gia đình"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "あのそばやの主人はまだ若いが、腕はいい。",
+      "vi": "Chủ cửa hàng mì Soba kia tuy còn trẻ nhưng tay nghề rất tốt."
+     },
+     {
+      "ja": "犬は主人に忠実だと言われる。",
+      "vi": "Chó được cho là trung thành với chủ."
+     },
+     {
+      "ja": "主人に仕える。",
+      "vi": "Phục vụ/chầu hầu chủ."
+     }
+    ],
+    "expression": "主人",
+    "meaning_vi": "chồng; chủ tiệm",
+    "reading": "しゅじん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-a0e7a89bcb"
+  },
+  {
+   "answer": {
+    "topic_key": "gia-dinh",
+    "topic_vi": "Gia đình"
+   },
+   "context": {
+    "examples": [],
+    "expression": "パパ",
+    "meaning_vi": "bố (gọi âu yếm); bố",
+    "reading": "パパ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-c9554575fa"
+  },
+  {
+   "answer": {
+    "topic_key": "gia-dinh",
+    "topic_vi": "Gia đình"
+   },
+   "context": {
+    "examples": [],
+    "expression": "ママ",
+    "meaning_vi": "mẹ; bà chủ quán; mẹ (gọi âu yếm)",
+    "reading": "ママ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-40b7ccf422"
+  },
+  {
+   "answer": {
+    "topic_key": "khac",
+    "topic_vi": "Từ thông dụng khác"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "やくしょへ いきたいんです。",
+      "vi": "Tôi muốn đi đến UBND phường."
+     }
+    ],
+    "expression": "いきたいんです",
+    "meaning_vi": "muốn đi (nói rõ lý do)",
+    "reading": "いきたいんです",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-16128e7bd5"
+  },
+  {
+   "answer": {
+    "topic_key": "khac",
+    "topic_vi": "Từ thông dụng khác"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "びょういんへ いくんです。",
+      "vi": "Tôi đi đến bệnh viện đây."
+     }
+    ],
+    "expression": "いくんです",
+    "meaning_vi": "đi đấy (nói rõ lý do)",
+    "reading": "いくんです",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-59b4cb5dc0"
+  }
+ ],
+ "kind": "TOPIC_ASSIGN",
+ "level": "N4",
+ "packet_id": "TOPIC_ASSIGN-001"
+}

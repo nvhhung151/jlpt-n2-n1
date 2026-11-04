@@ -1,0 +1,1104 @@
+{
+ "header": {
+  "instructions": "topic_key/topic_vi: chọn chủ đề gần nghĩa nhất trong header.topics; không hợp thì \"khac\"/\"Từ thông dụng khác\".",
+  "topics": [
+   {
+    "topic_key": "gia-dinh",
+    "topic_vi": "Gia đình"
+   },
+   {
+    "topic_key": "ban-be",
+    "topic_vi": "Bạn bè"
+   },
+   {
+    "topic_key": "nguoi-quen-moi-quan-he-giao-tiep",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp"
+   },
+   {
+    "topic_key": "nguoi-yeu",
+    "topic_vi": "Người yêu"
+   },
+   {
+    "topic_key": "moi-quan-he-tro-nen-xau-di",
+    "topic_vi": "Mối quan hệ (trở nên) xấu đi"
+   },
+   {
+    "topic_key": "noi-o",
+    "topic_vi": "Nơi ở"
+   },
+   {
+    "topic_key": "tien-bac",
+    "topic_vi": "Tiền bạc"
+   },
+   {
+    "topic_key": "bua-an",
+    "topic_vi": "Bữa ăn"
+   },
+   {
+    "topic_key": "mua-sam",
+    "topic_vi": "Mua sắm"
+   },
+   {
+    "topic_key": "tu-the-hien-thoi-gian",
+    "topic_vi": "Từ thể hiện thời gian"
+   },
+   {
+    "topic_key": "buoi-sang",
+    "topic_vi": "Buổi sáng"
+   },
+   {
+    "topic_key": "cong-viec-hang-ngay",
+    "topic_vi": "Công việc hàng ngày"
+   },
+   {
+    "topic_key": "nau-an",
+    "topic_vi": "Nấu ăn"
+   },
+   {
+    "topic_key": "viec-nha",
+    "topic_vi": "Việc nhà"
+   },
+   {
+    "topic_key": "chuyen-nha",
+    "topic_vi": "Chuyển nhà"
+   },
+   {
+    "topic_key": "pho-xa",
+    "topic_vi": "Phố xá"
+   },
+   {
+    "topic_key": "uy-ban-van-phong-nha-nuoc",
+    "topic_vi": "Ủy ban (Văn phòng Nhà nước)"
+   },
+   {
+    "topic_key": "que-huong",
+    "topic_vi": "Quê hương"
+   },
+   {
+    "topic_key": "giao-thong",
+    "topic_vi": "Giao thông"
+   },
+   {
+    "topic_key": "cac-nganh-cong-nghiep",
+    "topic_vi": "Các ngành công nghiệp"
+   },
+   {
+    "topic_key": "truong-hoc",
+    "topic_vi": "Trường học"
+   },
+   {
+    "topic_key": "hoc-tap",
+    "topic_vi": "Học tập"
+   },
+   {
+    "topic_key": "thi-cu",
+    "topic_vi": "Thi cử"
+   },
+   {
+    "topic_key": "dai-hoc-cao-hoc",
+    "topic_vi": "Đại học, Cao học"
+   },
+   {
+    "topic_key": "may-tinh-dien-thoai-thong-minh",
+    "topic_vi": "Máy tính (Điện thoại thông minh)"
+   },
+   {
+    "topic_key": "tim-viec-viec-lam",
+    "topic_vi": "Tìm việc, việc làm"
+   },
+   {
+    "topic_key": "cong-ty",
+    "topic_vi": "Công ty"
+   },
+   {
+    "topic_key": "cong-viec",
+    "topic_vi": "Công việc"
+   },
+   {
+    "topic_key": "quan-he-tren-duoi",
+    "topic_vi": "Quan hệ trên dưới"
+   },
+   {
+    "topic_key": "nghi-viec-chuyen-cho-lam",
+    "topic_vi": "Nghỉ việc, chuyển chỗ làm"
+   },
+   {
+    "topic_key": "thi-dau",
+    "topic_vi": "Thi đấu"
+   },
+   {
+    "topic_key": "thoi-trang",
+    "topic_vi": "Thời trang"
+   },
+   {
+    "topic_key": "giai-tri",
+    "topic_vi": "Giải trí"
+   },
+   {
+    "topic_key": "sach",
+    "topic_vi": "Sách"
+   },
+   {
+    "topic_key": "so-thich-y-thich",
+    "topic_vi": "Sở thích, ý thích"
+   },
+   {
+    "topic_key": "khi-hau-va-thoi-tiet",
+    "topic_vi": "Khí hậu và thời tiết"
+   },
+   {
+    "topic_key": "bao-dong-dat",
+    "topic_vi": "Bão, động đất"
+   },
+   {
+    "topic_key": "thien-nhien",
+    "topic_vi": "Thiên nhiên"
+   },
+   {
+    "topic_key": "ngay-nghi",
+    "topic_vi": "Ngày nghỉ"
+   },
+   {
+    "topic_key": "du-lich",
+    "topic_vi": "Du lịch"
+   },
+   {
+    "topic_key": "co-the-va-suc-khoe",
+    "topic_vi": "Cơ thể và sức khỏe"
+   },
+   {
+    "topic_key": "truoc-khi-do-benh",
+    "topic_vi": "Trước khi đổ bệnh"
+   },
+   {
+    "topic_key": "trieu-chung-benh",
+    "topic_vi": "Triệu chứng bệnh"
+   },
+   {
+    "topic_key": "benh-va-dieu-tri",
+    "topic_vi": "Bệnh và điều trị"
+   },
+   {
+    "topic_key": "lam-dep",
+    "topic_vi": "Làm đẹp"
+   },
+   {
+    "topic_key": "rac-roi-su-co",
+    "topic_vi": "Rắc rối, sự cố"
+   },
+   {
+    "topic_key": "tai-nan",
+    "topic_vi": "Tai nạn"
+   },
+   {
+    "topic_key": "chinh-tri",
+    "topic_vi": "Chính trị"
+   },
+   {
+    "topic_key": "xa-hoi",
+    "topic_vi": "Xã hội"
+   },
+   {
+    "topic_key": "the-gioi-moi-truong",
+    "topic_vi": "Thế giới, môi trường"
+   },
+   {
+    "topic_key": "tinh-cach",
+    "topic_vi": "Tính cách"
+   },
+   {
+    "topic_key": "cam-giac-thoai-mai",
+    "topic_vi": "Cảm giác thoải mái"
+   },
+   {
+    "topic_key": "cam-giac-buon-ba",
+    "topic_vi": "Cảm giác buồn bã"
+   },
+   {
+    "topic_key": "hinh-anh-tich-cuc",
+    "topic_vi": "Hình ảnh tích cực"
+   },
+   {
+    "topic_key": "hinh-anh-tieu-cuc",
+    "topic_vi": "Hình ảnh tiêu cực"
+   },
+   {
+    "topic_key": "thanh-ngu-tinh-khi-tam-hon-tam-trang",
+    "topic_vi": "Thành ngữ ① Tính khí, tâm hồn, tâm trạng"
+   },
+   {
+    "topic_key": "thanh-ngu-dau-mat",
+    "topic_vi": "Thành ngữ ② Đầu, mặt"
+   },
+   {
+    "topic_key": "thanh-ngu-co-the",
+    "topic_vi": "Thành ngữ ③ Cơ thể"
+   },
+   {
+    "topic_key": "pho-tu",
+    "topic_vi": "Phó từ"
+   },
+   {
+    "topic_key": "cach-noi-noi",
+    "topic_vi": "Cách nói nối"
+   },
+   {
+    "topic_key": "laptop-dien-thoai",
+    "topic_vi": "Laptop, điện thoại"
+   },
+   {
+    "topic_key": "trang-tu",
+    "topic_vi": "Trạng từ ①"
+   },
+   {
+    "topic_key": "nguoi-quen",
+    "topic_vi": "Người quen"
+   },
+   {
+    "topic_key": "thoi-tiet-khi-hau",
+    "topic_vi": "Thời tiết, khí hậu"
+   },
+   {
+    "topic_key": "su-kien-su-co",
+    "topic_vi": "Sự kiện, sự cố"
+   },
+   {
+    "topic_key": "kinh-te",
+    "topic_vi": "Kinh tế"
+   },
+   {
+    "topic_key": "thien-tai",
+    "topic_vi": "Thiên tai"
+   },
+   {
+    "topic_key": "nhat-trinh",
+    "topic_vi": "Nhật trình"
+   },
+   {
+    "topic_key": "cong-cong",
+    "topic_vi": "Công cộng"
+   },
+   {
+    "topic_key": "moi-truong-the-gioi",
+    "topic_vi": "Môi trường thế giới"
+   },
+   {
+    "topic_key": "dat-nuoc",
+    "topic_vi": "Đất nước"
+   },
+   {
+    "topic_key": "tim-viec",
+    "topic_vi": "Tìm việc"
+   },
+   {
+    "topic_key": "tu-de-nham-lan",
+    "topic_vi": "Từ dễ nhầm lẫn ①"
+   },
+   {
+    "topic_key": "quan-he-quoc-te",
+    "topic_vi": "Quan hệ quốc tế"
+   },
+   {
+    "topic_key": "su-co",
+    "topic_vi": "Sự cố"
+   },
+   {
+    "topic_key": "tu-nhien",
+    "topic_vi": "Tự nhiên"
+   },
+   {
+    "topic_key": "tam-trang-xau",
+    "topic_vi": "Tâm trạng xấu"
+   },
+   {
+    "topic_key": "thanh-pho",
+    "topic_vi": "Thành phố"
+   },
+   {
+    "topic_key": "san-xuat",
+    "topic_vi": "Sản xuất"
+   },
+   {
+    "topic_key": "nong-thon",
+    "topic_vi": "Nông thôn"
+   },
+   {
+    "topic_key": "ke-hoach-du-lich",
+    "topic_vi": "Kế hoạch du lịch"
+   },
+   {
+    "topic_key": "thanh-ngu-than-the",
+    "topic_vi": "Thành ngữ: Thân thể"
+   },
+   {
+    "topic_key": "thanh-ngu-khuon-mat",
+    "topic_vi": "Thành ngữ: Khuôn mặt"
+   },
+   {
+    "topic_key": "do-an",
+    "topic_vi": "Đồ ăn"
+   },
+   {
+    "topic_key": "tai-noi-du-lich",
+    "topic_vi": "Tại nơi du lịch"
+   },
+   {
+    "topic_key": "thanh-ngu-bo-phan-khac",
+    "topic_vi": "Thành ngữ: Bộ phận khác"
+   }
+  ]
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "親族",
+    "meaning_vi": "họ hàng; thân tộc",
+    "reading": "しんぞく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "động từ nhóm I"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-94f8c2f327"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "真ん前",
+    "meaning_vi": "ngay trước mặt; ngay phía trước",
+    "reading": "まんまえ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-5047c53e92"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "近所付き合い",
+    "meaning_vi": "mối quan hệ láng giềng; quan hệ hàng xóm",
+    "reading": "きんじょづきあい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-af0ab1d445"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "〜製",
+    "meaning_vi": "sản xuất tại hoặc làm bằng; do… sản xuất",
+    "reading": "せい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-e7ad658f3b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "捻子",
+    "meaning_vi": "con vít; ốc",
+    "reading": "ねじ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-16a2fc37d3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "討論（する）",
+    "meaning_vi": "thảo luận; tranh luận có tổ chức",
+    "reading": "とうろん（する）",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-f81c2f039c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "西暦",
+    "meaning_vi": "công lịch; năm dương; dương lịch",
+    "reading": "せいれき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-a38777f27e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ご苦労様",
+    "meaning_vi": "anh; chị vất vả rồi (nói với cấp dưới); chị vất vả rồi (với cấp dưới)",
+    "reading": "ごくろうさま",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-22096ebe14"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "木にぶつかって車がへこんだ。",
+      "vi": "Xe ô tô đâm vào cây nên bị móp."
+     },
+     {
+      "ja": "試験を受けても次々に落ちるのでへこんでしまった。",
+      "vi": "Thi lần nào cũng trượt nên tôi nản chí."
+     }
+    ],
+    "expression": "凹む",
+    "meaning_vi": "lõm xuống; xuống tinh thần; lõm",
+    "reading": "へこむ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-cee9f9f690"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "基地",
+    "meaning_vi": "căn cứ",
+    "reading": "きち",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-3823bf9f65"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "技能",
+    "meaning_vi": "kỹ năng",
+    "reading": "ぎのう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-b01e7c0c2f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "背中にリュックを背負う。",
+      "vi": "Đeo ba lô trên lưng."
+     },
+     {
+      "ja": "新しい会社を立ち上げるため、彼は大きな借金を背負った。",
+      "vi": "Để lập công ty mới, anh ấy gánh một khoản nợ lớn."
+     },
+     {
+      "ja": "｛リスク/苦労…｝を背負う。",
+      "vi": "Gánh/chịu (rủi ro, vất vả…)."
+     }
+    ],
+    "expression": "背負う",
+    "meaning_vi": "cõng; gánh vác; mang vác",
+    "reading": "せおう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-82c2244a72"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "栄養不足を補うために、薬を飲んでいる。",
+      "vi": "Tôi uống thuốc để bù đắp thiếu dinh dưỡng."
+     },
+     {
+      "ja": "ボーナスで毎月の赤字を補う。",
+      "vi": "Dùng tiền thưởng để bù thâm hụt mỗi tháng."
+     },
+     {
+      "ja": "「先ほどの説明を補わせていただきます」",
+      "vi": "“Xin phép cho tôi bổ sung phần giải thích vừa rồi.”"
+     }
+    ],
+    "expression": "補う",
+    "meaning_vi": "bù đắp; bổ sung; đền bù",
+    "reading": "おぎなう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-1bf470f91f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "仕事が長引いて約束に遅れてしまった。",
+      "vi": "Công việc kéo dài nên tôi đến trễ cuộc hẹn."
+     },
+     {
+      "ja": "今年の風邪は長引く傾向があるようだ。",
+      "vi": "Năm nay cảm cúm có xu hướng kéo dài."
+     }
+    ],
+    "expression": "長引く",
+    "meaning_vi": "kéo dài dai dẳng; kéo dài",
+    "reading": "ながびく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-3f79f7e0fb"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "依頼する",
+    "meaning_vi": "nhờ vả; chính thức yêu cầu; yêu cầu",
+    "reading": "いらいする",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-095889ed80"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会社に応募するにあたり、履歴書を書いた。",
+      "vi": "Khi nộp đơn xin vào công ty, tôi đã viết sơ yếu lý lịch."
+     }
+    ],
+    "expression": "履歴",
+    "meaning_vi": "lý lịch; lịch sử thao tác",
+    "reading": "りれき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-577ad946fd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ビールの栓を抜く。",
+      "vi": "Mở nắp chai bia."
+     },
+     {
+      "ja": "風呂に栓をする。",
+      "vi": "Đậy nút bồn tắm."
+     },
+     {
+      "ja": "水道の栓を閉める。",
+      "vi": "Khóa van nước."
+     }
+    ],
+    "expression": "栓",
+    "meaning_vi": "nút chai; van khoá; nút",
+    "reading": "せん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-7f3db01228"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "うどんの湯気で眼鏡が曇ってしまった。",
+      "vi": "Hơi nước từ mì udon làm kính bị mờ."
+     },
+     {
+      "ja": "大浴場は湯気で向こうの方が見えなかった。",
+      "vi": "Do hơi nước nên ở nhà tắm công cộng không nhìn rõ phía trước."
+     }
+    ],
+    "expression": "湯気",
+    "meaning_vi": "hơi nước bốc lên; hơi nước",
+    "reading": "ゆげ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-619db96824"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ご馳走さま",
+    "meaning_vi": "cảm ơn vì bữa ăn",
+    "reading": "ごちそうさま",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-4aaa1ac9e5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "車の新しいモデル発表された。",
+      "vi": "Mẫu xe mới đã được công bố."
+     },
+     {
+      "ja": "彼女はファッションショーのモデルをしている。",
+      "vi": "Cô ấy làm người mẫu cho show thời trang."
+     },
+     {
+      "ja": "ファッション雑誌のモデル",
+      "vi": "Người mẫu chụp cho tạp chí thời trang."
+     }
+    ],
+    "expression": "モデル",
+    "meaning_vi": "người mẫu; mô hình",
+    "reading": "モデル",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-898674deca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "回数",
+    "meaning_vi": "số lần",
+    "reading": "かいすう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-d363feebc5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "幼稚",
+    "meaning_vi": "ấu trĩ; non nớt",
+    "reading": "ようち",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-fdc3971302"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "拵える",
+    "meaning_vi": "làm ra; chế tạo",
+    "reading": "こしらえる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-2f1a9960c9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "台風で濁った川の水が激しく流れている。",
+      "vi": "Do bão, nước sông đục ngầu chảy xiết."
+     },
+     {
+      "ja": "濁った｛声/音/目…｝",
+      "vi": "{Giọng/âm thanh/đôi mắt…} đục/khàn/đờ đẫn."
+     }
+    ],
+    "expression": "濁る",
+    "meaning_vi": "vẩn đục; âm đục; dính bùn",
+    "reading": "にごる",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-859e764aea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "～金",
+    "meaning_vi": "tiền ~; phí ~; hậu tố: khoản tiền",
+    "reading": "～きん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-365b0db6b1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "取引先",
+    "meaning_vi": "đối tác giao dịch; đối tác kinh doanh",
+    "reading": "とりひきさき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-0fb6536548"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "銀行口座",
+    "meaning_vi": "tài khoản ngân hàng",
+    "reading": "ぎんこうこうざ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-4a112ea836"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "きっぱり",
+    "meaning_vi": "dứt khoát; rõ ràng",
+    "reading": "きっぱり",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-dc3ac8910f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "温厚",
+    "meaning_vi": "hòa nhã; ôn hòa",
+    "reading": "おんこう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-297e98a9d1"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "素朴",
+    "meaning_vi": "mộc mạc; chất phác; giản dị",
+    "reading": "そぼく",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-2be9027b49"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "超〜",
+    "meaning_vi": "siêu; vượt; cực (tiền tố)",
+    "reading": "ちょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-c5a01ac00b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "地震の被災者のために募金した。",
+      "vi": "Tôi quyên góp cho các nạn nhân động đất."
+     }
+    ],
+    "expression": "募金",
+    "meaning_vi": "quyên góp tiền; quyên tiền; gây quỹ",
+    "reading": "ぼきん",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-96f6bc27ea"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "隣の家の窓ガラスを割ってしまったので、修理代を弁償した。",
+      "vi": "Tôi làm vỡ kính cửa sổ nhà bên nên đã bồi thường tiền sửa chữa."
+     }
+    ],
+    "expression": "弁償",
+    "meaning_vi": "đền bù thiệt hại; bồi thường",
+    "reading": "べんしょう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-23c6d3275b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "呑気",
+    "meaning_vi": "thảnh thơi; vô tư đến mức thiếu lo xa; vô tư",
+    "reading": "のんき",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-3a3cd70992"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "朗らか",
+    "meaning_vi": "vui tươi; cởi mở; vui vẻ",
+    "reading": "ほがらか",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-ad3d9785a0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "活発",
+    "meaning_vi": "hoạt bát; sôi nổi; năng động",
+    "reading": "かっぱつ",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-e5a3141a11"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "偶数",
+    "meaning_vi": "số chẵn",
+    "reading": "ぐうすう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-7419c6ee3e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "奇数",
+    "meaning_vi": "số lẻ",
+    "reading": "きすう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-38ec1996ee"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この本は膨大な資料をもとに書かれている。",
+      "vi": "Cuốn sách này được viết dựa trên một khối lượng tư liệu đồ sộ."
+     }
+    ],
+    "expression": "膨大",
+    "meaning_vi": "khổng lồ; đồ sộ",
+    "reading": "ぼうだい",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": "tính từ な"
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-2007e24b47"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "不器用",
+    "meaning_vi": "vụng về; không khéo diễn đạt",
+    "reading": "ぶきよう",
+    "topic_vi": "Từ thông dụng khác",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "topic_key",
+    "topic_vi"
+   ],
+   "id": "JV-0c9b572880"
+  }
+ ],
+ "kind": "TOPIC_ASSIGN",
+ "level": "N2",
+ "packet_id": "TOPIC_ASSIGN-004"
+}

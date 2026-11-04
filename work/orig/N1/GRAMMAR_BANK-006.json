@@ -1,0 +1,237 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "たら〜で",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 10
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-5917f4949c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "んが為(ため)に",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 11
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8dbbcff65d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "を以(もっ)て",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 11
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-9c95625b11"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "親は子どものためを思えばこそ厳しく叱るのだ。",
+      "vi": "Chính vì nghĩ cho con nên cha mẹ mới nghiêm khắc mắng con."
+     },
+     {
+      "ja": "「こんなことまで話すのは、あなたを信用していればこそです」",
+      "vi": "“Tôi kể cả chuyện như thế này chính vì tin tưởng bạn.”"
+     }
+    ],
+    "meaning_vi": "Chính vì… nên mới…; chính bởi… chứ không phải lý do nào khác (văn viết)",
+    "pattern": "〜ばこそ",
+    "pattern_variants": [
+     "ばこそ"
+    ],
+    "source_questions": [],
+    "unit_no": 12
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-17743c8d09"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "じゃあるまいし",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 12
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-db7203679f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「絶対やる」と言ったてまえ、実行しなければ具合が悪い。途中でやめるわけにはいかない。",
+      "vi": "Vì đã tuyên bố “nhất định sẽ làm”, nếu không thực hiện thì thật khó coi. Tôi không thể bỏ dở giữa chừng."
+     },
+     {
+      "ja": "子どものてまえ仲直りしたふりをしたが、夜中に再び夫婦げんかが始まった。",
+      "vi": "Trước mặt con cái, chúng tôi giả vờ đã làm hòa, nhưng nửa đêm hai vợ chồng lại cãi nhau."
+     }
+    ],
+    "meaning_vi": "Vì đã.../vì trước mặt... nên xét đến thể diện hay uy tín, đành phải...",
+    "pattern": "手前(てまえ)",
+    "pattern_variants": [
+     "〜てまえ"
+    ],
+    "source_questions": [],
+    "unit_no": 12
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e1671145f2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "経験不足ゆえに失敗した。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Bởi vì, do đó — Nêu nguyên nhân, văn viết cổ điển và trang trọng.",
+    "pattern": "故(ゆえ)に",
+    "pattern_variants": [
+     "Thể thường / N + ゆえに",
+     "〜ゆえ(に/の)"
+    ],
+    "source_questions": [],
+    "unit_no": 12
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-248a5bba6a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼の苦労は想像に難くない。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không khó để — Dễ dàng tưởng tượng hoặc hiểu được.",
+    "pattern": "に難(かた)くない",
+    "pattern_variants": [
+     "N / V từ điển + に難くない",
+     "〜にかたくない"
+    ],
+    "source_questions": [],
+    "unit_no": 13
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-86bffe40fe"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "買ったばかりのケータイをなくすなんて、泣くに泣けない。",
+      "vi": "Làm mất chiếc điện thoại vừa mới mua, tôi muốn khóc mà cũng không khóc nổi."
+     },
+     {
+      "ja": "わからないことがあったのだが、そんなことも知らないのかと笑われそうで、聞くに聞けなかった。",
+      "vi": "Tôi có điều không hiểu, nhưng sợ bị cười rằng đến thế cũng không biết nên muốn hỏi mà không dám hỏi."
+     }
+    ],
+    "meaning_vi": "Muốn... mà không thể...",
+    "pattern": "〜に〜ない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 13
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-7975c2eebf"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "meaning_vi": null,
+    "pattern": "〜ては居(い)られない",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 13
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0407eb1652"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N1",
+ "packet_id": "GRAMMAR_BANK-006"
+}

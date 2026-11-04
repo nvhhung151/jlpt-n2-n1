@@ -1,0 +1,262 @@
+{
+ "header": {
+  "instructions": "check_bank ≥ 8 câu, mỗi dạng FILL/ORDER_STAR/MEANING/ERROR ≥ 2: {type, prompt_ja, options[4], answer_index, explanation_vi}; order_items 2 {pieces[], answer_order[]}; fill_items 2 {sentence_ja với ＿＿, answer}; extra_practice 3 (cùng dạng check_bank). Đáp án nhiễu không được cũng đúng."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ベルが鳴るか鳴らないかのうちに、彼は教室を出た。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vừa mới chưa kịp thì — Việc trước còn chưa dứt hẳn thì việc sau đã xảy ra.",
+    "pattern": "V từ điển + か + V-ない + かのうちに",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-e7a86f086c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "議長が来ないことには懐疑は始められない。",
+      "vi": "Nếu nghị trưởng không đến thì hội nghị không bắt đầu được."
+     },
+     {
+      "ja": "実際に会ってみないことには、どんな人かわからないと思う。",
+      "vi": "Thực tế nếu không gặp không biết là người như thế nào."
+     }
+    ],
+    "meaning_vi": "Nếu không... thì không",
+    "pattern": "〜ないことには",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-95ee052f8f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "チャイムが鳴るか鳴らないかのうちに、学生たちは教室を飛び出した。",
+      "vi": "Chuông vừa reo cái là học sinh lao ra khỏi lớp."
+     },
+     {
+      "ja": "彼は席に座るか座らないかのうちに、眠ってしまった。",
+      "vi": "Anh ấy vừa ngồi xuống đã ngủ mất."
+     }
+    ],
+    "meaning_vi": "Nghĩa: “Vừa mới/Ngay khi … thì …”, “chưa kịp … xong thì … đã …”. Khoảng cách thời gian cực ngắn; hành động sau xảy ra gần như đồng thời với ngưỡng của hành động trước. Sử dụng cho sự kiện bất ngờ, nhanh, không do ý chí của người nói (thường là sự thật khách quan). Vế sau thường là quá khứ; tránh dùng mệnh lệnh/ý chí mạnh.",
+    "pattern": "Vừa mới... thì...",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-b6b1ffdabc"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は日本語ばかりでなく韓国語も話す。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Không chỉ mà còn — Bổ sung thêm phạm vi ngoài điều đã nêu.",
+    "pattern": "Thể thường + ばかりでなく",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-4941a90846"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼は家に着くやいなや、寝てしまった。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Vừa là ngay lập tức — Hai việc nối nhau tức thì, văn viết trang trọng.",
+    "pattern": "V từ điển + やいなや",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-708ac96399"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "あの成績からすると、合格は難しい。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Xét từ góc độ — Đứng từ lập trường hoặc căn cứ nào đó mà phán đoán.",
+    "pattern": "N + からすると / からすれば",
+    "pattern_variants": [
+     "〜からすると"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-bee2c11c8f"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "道が込んでいたものだから、遅れました。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Là tại vì — Biện minh cho việc mình làm, mang tính bào chữa.",
+    "pattern": "Thể thường + ものだから",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-0e47af37c7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "ドイツはビールの本場だけあって、種類が多い。",
+      "vi": "Cội nguồn của bia có khác, Đức có rất nhiều loại bia."
+     },
+     {
+      "ja": "あの店は有名なだけあって、いつもお客さんでいっぱいだ。",
+      "vi": "Quả đúng là cửa hàng nổi tiếng, lúc nào cũng đông."
+     }
+    ],
+    "meaning_vi": "Vì, quả đúng là, tương xứng",
+    "pattern": "〜だけあって",
+    "pattern_variants": [
+     "Thể thường + だけあって"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-2b6a2972f7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "長時間の議論の末に、やっと計画が完成した。",
+      "vi": "Sau một thời gian dài tranh luận, cuối cùng kế hoạch cũng được hoàn thành."
+     },
+     {
+      "ja": "船は１カ月に及ぶ航海の末に、ようやく目的地に到着した。",
+      "vi": "Sau hải trình kéo dài 1 tháng, cuối cùng con thuyền cũng cập bến."
+     }
+    ],
+    "meaning_vi": "Sau khi, vào cuối",
+    "pattern": "〜末(に)",
+    "pattern_variants": [
+     "V-た / N の + 末に"
+    ],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-a315841251"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私にとって家族が一番大切だ。",
+      "vi": null
+     }
+    ],
+    "meaning_vi": "Đối với — Nêu lập trường của người hoặc tổ chức để đánh giá.",
+    "pattern": "N + にとって",
+    "pattern_variants": [],
+    "source_questions": [],
+    "unit_no": 0
+   },
+   "fields_needed": [
+    "check_bank",
+    "order_items",
+    "fill_items",
+    "extra_practice"
+   ],
+   "id": "JG-8e8e8b9bd8"
+  }
+ ],
+ "kind": "GRAMMAR_BANK",
+ "level": "N2",
+ "packet_id": "GRAMMAR_BANK-019"
+}

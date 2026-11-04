@@ -1,0 +1,683 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私が愛想よく話しかけても、彼女は素っ気なく「うん」と言っただけだった。",
+      "vi": "Ngay cả khi tôi bắt chuyện một cách vui vẻ thì cô ấy cũng chỉ nói \"Ừ\" cộc lốc."
+     },
+     {
+      "ja": "素っ気ない態度を取る。",
+      "vi": "Thái độ lạnh lùng"
+     },
+     {
+      "ja": "素っ気ない返事",
+      "vi": "Trả lời cộc lốc"
+     }
+    ],
+    "expression": "素っ気ない",
+    "meaning_vi": "lạnh nhạt; cộc lốc",
+    "reading": "そっけない",
+    "topic_vi": "Mối quan hệ rộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1d496fd4cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "相づちを打つ",
+    "meaning_vi": "",
+    "reading": "あいづちをうつ",
+    "topic_vi": "Mối quan hệ rộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-011ec65fe4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "赤の他人",
+    "meaning_vi": "",
+    "reading": "あかのたにん",
+    "topic_vi": "Mối quan hệ rộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-de26ebcec5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "きっぱり[と]＜する＞",
+    "meaning_vi": "",
+    "reading": "きっぱり[と]＜する＞",
+    "topic_vi": "Mối quan hệ rộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9d3bba8e6d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "くれぐれも",
+    "meaning_vi": "",
+    "reading": "くれぐれも",
+    "topic_vi": "Mối quan hệ rộng",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-d2f3386ce3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "家計",
+    "meaning_vi": "chi tiêu gia đình",
+    "reading": "かけい",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9ab2d76e3a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "手取り",
+    "meaning_vi": "",
+    "reading": "てどり",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9f61f34667"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "給料が減ったので、もっと倹約しなければならない。",
+      "vi": "Lương giảm cho nên càng phải tiết kiệm hơn nữa."
+     }
+    ],
+    "expression": "倹約＜する＞",
+    "meaning_vi": "tiết kiệm; cần kiệm",
+    "reading": "けんやく＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-99d5b866b3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この商品はコストがかさむので、利益は少ない。",
+      "vi": "Giá thành sản phẩm này tăng nên lợi nhuận ít."
+     },
+     {
+      "ja": "｛費用／経費．．．｝がかさむ。",
+      "vi": "Tăng (lệ phi/ kinh phí…)"
+     }
+    ],
+    "expression": "嵩む",
+    "meaning_vi": "tăng; phình to; đội lên (chi phí)",
+    "reading": "かさむ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7199e2296e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "給与明細には給与の内訳は書いてある。",
+      "vi": "Trên bảng lương có ghi chi tiết từng khoản lương."
+     }
+    ],
+    "expression": "内訳",
+    "meaning_vi": "bảng chi tiết khoản mục; diễn giải thành từng mục; phân loại",
+    "reading": "うちわけ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0c9c5ca04e"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "やり繰り＜する＞",
+    "meaning_vi": "",
+    "reading": "やりくり＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c9ab210d6b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "すずめの涙",
+    "meaning_vi": "",
+    "reading": "すずめのなみだ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f9fe2f440b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ギャラ",
+    "meaning_vi": "",
+    "reading": "ぎゃら",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7f0ce00767"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "私も極力会議に出席するようにするよ。",
+      "vi": ": Tôi cũng sẽ cố gắng hết mức để dự cuộc họp."
+     }
+    ],
+    "expression": "極力",
+    "meaning_vi": "trong khả năng tối đa",
+    "reading": "きょくりょく",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e5362bfaff"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "セレブ",
+    "meaning_vi": "",
+    "reading": "せれぶ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e5fb76f400"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "引退してようやく生活にゆとりができた。",
+      "vi": "Sau khi về hưu cuối cùng cuộc sống cũng có dư dả về thời gian."
+     },
+     {
+      "ja": "時間にゆとりを持って出かけよう。",
+      "vi": "Hãy để dư dả thời gian và đi thôi."
+     },
+     {
+      "ja": "｛経済的／気持ち／心．．．｝にゆとりがある。",
+      "vi": "Dư dả (về kinh tế), để khoảng trống (về cảm xúc, tâm hồn)"
+     }
+    ],
+    "expression": "ゆとり",
+    "meaning_vi": "sự dư dả; thong thả; có thời gian",
+    "reading": "ゆとり",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-cc86560f2b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "丸々[化] ＜する＞",
+    "meaning_vi": "",
+    "reading": "まるまる[か] ＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-cbf817a740"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "手元",
+    "meaning_vi": "trong tầm tay; tình hình tiền nong",
+    "reading": "てもと",
+    "topic_vi": "Nơi ở",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-85b57031ef"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "懐",
+    "meaning_vi": "túi tiền・tấm lòng",
+    "reading": "ふところ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-14b6c767e9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "会議は八時きっかりに始まった。",
+      "vi": "Cuộc họp bắt đầu đúng 8 giờ."
+     }
+    ],
+    "expression": "きっかり",
+    "meaning_vi": "đúng; vừa khớp",
+    "reading": "きっかり",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-25b15a1433"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "何でもかんでも",
+    "meaning_vi": "",
+    "reading": "なんでもかんでも",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3278292193"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "何だかんだ[と]",
+    "meaning_vi": "",
+    "reading": "なんだかんだ[と]",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a4dad41ff6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "人並み",
+    "meaning_vi": "",
+    "reading": "ひとなみみ",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-89898de6b6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "老後",
+    "meaning_vi": "",
+    "reading": "ろうご",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3adbad2c7a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "尽きる",
+    "meaning_vi": "",
+    "reading": "ことごときる",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-119b941a77"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "滞納＜する＞",
+    "meaning_vi": "nợ đọng; chậm nộp",
+    "reading": "たいのう＜する＞",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-932ca9421a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "首が回らない",
+    "meaning_vi": "",
+    "reading": "くびがまわらない",
+    "topic_vi": "Nơi ở",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4120a794c2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "買い込む",
+    "meaning_vi": "",
+    "reading": "かいこむ",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9bf0523016"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "先着＜する＞",
+    "meaning_vi": "đến trước được ưu tiên",
+    "reading": "せんちゃく＜する＞",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-101f4f03e5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "エイズ撲滅のキャンペーンが、世界中で行われた。",
+      "vi": "Chiến dịch xóa bỏ AIDS đã được triển khai trên toàn thế giới."
+     },
+     {
+      "ja": "新発売のビールのキャンペーンで、１本ただでもらった。",
+      "vi": "Trong chiến dịch giới thiệu sản phẩm bia mới, tôi đã nhận miễn phí một chai."
+     }
+    ],
+    "expression": "キャンペーン",
+    "meaning_vi": "chiến dịch",
+    "reading": "きゃんぺーん",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5b51a7bfe2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一律",
+    "meaning_vi": "nhất loạt như nhau",
+    "reading": "いちりつ",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0f2f7eb0c0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "値打ち",
+    "meaning_vi": "giá trị đáng có",
+    "reading": "ねうち",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-2429d4a358"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "値する",
+    "meaning_vi": "xứng đáng với",
+    "reading": "あたいする",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": "động từ nhóm III"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a4a3773393"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "良心的な",
+    "meaning_vi": "",
+    "reading": "りょうしんてきな",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-10ff02a3e0"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "在庫",
+    "meaning_vi": "hàng tồn kho",
+    "reading": "ざいこ",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": "danh từ"
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ea0d9e44b9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "名義",
+    "meaning_vi": "",
+    "reading": "めいぎ",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3ee59e3457"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "授業料１年分を一括で納付した。",
+      "vi": "Tôi đã thanh toán học phí cả năm một lần."
+     },
+     {
+      "ja": "亡くなった岡田教授の蔵書は、一括して市の図書館に寄贈された。",
+      "vi": "Toàn bộ sách của GS Okada đã được tặng cho thư viện thành phố."
+     }
+    ],
+    "expression": "一括＜する＞",
+    "meaning_vi": "gộp chung một lần; gộp một lần; một lượt",
+    "reading": "いっかつ＜する＞",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a1921b6b7c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "換算＜する＞",
+    "meaning_vi": "quy đổi",
+    "reading": "かんさん＜する＞",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-217de227ac"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ピンからキリまで",
+    "meaning_vi": "",
+    "reading": "ぴんからきりまで",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-c9e947d8c8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "切りがない",
+    "meaning_vi": "",
+    "reading": "きりがない",
+    "topic_vi": "Đồ ăn",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f076bfde28"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N1",
+ "packet_id": "VOCAB_MNEMONIC-004"
+}

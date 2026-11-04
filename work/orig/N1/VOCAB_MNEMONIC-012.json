@@ -1,0 +1,711 @@
+{
+ "header": {
+  "instructions": "mnemonic_vi: 1–2 câu liên tưởng Hán Việt hoặc âm gần tiếng Việt, không tục; confusable_ids (tùy chọn): id các từ dễ nhầm cùng hoặc thấp hơn cấp."
+ },
+ "items": [
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "手掛ける",
+    "meaning_vi": "đích thân làm; phụ trách; đảm nhận",
+    "reading": "てがける",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7fc91c4533"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "議題",
+    "meaning_vi": "chủ đề cuộc họp",
+    "reading": "ぎだい",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0d438f3caa"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "出向く",
+    "meaning_vi": "",
+    "reading": "でむく",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a362239a7b"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "手数",
+    "meaning_vi": "",
+    "reading": "てすう",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7bfc5a12cd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「例の件、どうなった？」「ええ、うまくいきました」",
+      "vi": "\"Vụ đó sao rồi?\" \"À, ổn thỏa hết rồi.\""
+     },
+     {
+      "ja": "「例の物を持ってきてくれ」",
+      "vi": "\"Mang cho tôi cái đó đi.\""
+     },
+     {
+      "ja": "「田中さん、社長の前でも例の調子だから、こちらがひやひやしたよ」",
+      "vi": "\"Cái ông Tanaka trước mặt giám đốc mà còn giở cái giọng điệu đó, tôi đây nghe còn nổi da gà.\""
+     }
+    ],
+    "expression": "例の",
+    "meaning_vi": "“cái ấy”; cái hôm nọ (đôi bên đều biết)",
+    "reading": "れいの",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-46914755a9"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "取り急ぎ",
+    "meaning_vi": "",
+    "reading": "とりいそぎ",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-fa45a9ada5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "連携＜する＞",
+    "meaning_vi": "",
+    "reading": "れんけい＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f01b521fcd"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "連帯＜する＞",
+    "meaning_vi": "liên đới; cùng chịu trách nhiệm; tinh thần liên đới",
+    "reading": "れんたい＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-ddd872df1a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "組み込む",
+    "meaning_vi": "tích hợp vào; đưa vào",
+    "reading": "くみこむ",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-16fe4b66d2"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "根回し＜する＞",
+    "meaning_vi": "vận động hậu trường trước cuộc họp",
+    "reading": "ねまわし＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-46a2d4ae0d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "出社＜する＞",
+    "meaning_vi": "đến công ty làm",
+    "reading": "しゅっしゃ＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a014c07de4"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "秘書が客の用件を社長に取り次いだ。",
+      "vi": "Thư ký đã chuyển lời nhắn của khách cho giám đốc."
+     },
+     {
+      "ja": "電話を取り次ぐ。",
+      "vi": "Chuyển máy điện thoại."
+     }
+    ],
+    "expression": "取り次ぐ",
+    "meaning_vi": "chuyển lời; làm trung gian; chuyển giao",
+    "reading": "とりつぐ",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-6d975a4036"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "バトンタッチ＜する＞",
+    "meaning_vi": "",
+    "reading": "ばとんたっち＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-db888fed70"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "オファー＜する＞",
+    "meaning_vi": "",
+    "reading": "おふぁー＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9e50c06710"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "立腹＜する＞",
+    "meaning_vi": "",
+    "reading": "りっぷく＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-98a48c5e22"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "軽減＜する＞",
+    "meaning_vi": "giảm nhẹ",
+    "reading": "けいげん＜する＞",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4bc376ebe5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "労力",
+    "meaning_vi": "công sức lao động",
+    "reading": "ろうりょく",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3d92fd3b90"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "ノルマ",
+    "meaning_vi": "",
+    "reading": "のるま",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-8d6f832e8a"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "新入り",
+    "meaning_vi": "",
+    "reading": "しんいり",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-56840667a5"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "この作家の小説は、最近マンネリに陥っているのではないか。",
+      "vi": "Tiểu thuyết của tác giả này gần đây không phải đang rơi vào lối mòn sao."
+     },
+     {
+      "ja": "恋人と付き合って５年以上経ち、そろそろマンネリぎみになってきた。",
+      "vi": "Tôi hẹn hò với người yêu hơn năm năm và sắp trở nên chán ngấy rồi."
+     }
+    ],
+    "expression": "マンネリ",
+    "meaning_vi": "lặp đi lặp lại; đơn điệu",
+    "reading": "まんねり",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-3119e09dca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "上の空",
+    "meaning_vi": "",
+    "reading": "うえのそら",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0e2cc6e510"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "厭々",
+    "meaning_vi": "miễn cưỡng; không muốn",
+    "reading": "いやいや",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-1cd74ea67c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "打ち上げ",
+    "meaning_vi": "",
+    "reading": "うちあげ",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-22455c01ca"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "差し支える",
+    "meaning_vi": "gây trở ngại; bất tiện",
+    "reading": "さしつかえる",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a78cad2d34"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "教訓",
+    "meaning_vi": "bài học rút ra",
+    "reading": "きょうくん",
+    "topic_vi": "Công việc",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-cf20a4ba06"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "「上司に対して失礼です。言葉を慎みなさい。」",
+      "vi": "\"Vô lễ với cấp trên. Hãy thận trọng trong lời ăn tiếng nói.\""
+     },
+     {
+      "ja": "言動を慎む。",
+      "vi": "Thận trọng trong lời nói và hành động."
+     },
+     {
+      "ja": "胃の調子が悪いので、辛いものを慎んでいる。",
+      "vi": "Dạ dày tôi không tốt nên hạn chế những đồ cay."
+     }
+    ],
+    "expression": "慎む",
+    "meaning_vi": "kiêng dè; giữ ý; cẩn thận",
+    "reading": "つつしむ",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-e39b077f27"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "職場では、立場をわきまえたふるまいが求められる。",
+      "vi": "Tại nơi làm việc, yêu cầu phải có cách hành xử nhận thức rõ vị trí của mình."
+     },
+     {
+      "ja": "｛善悪／公私の別／場．．．｝をわきまえて行動する。",
+      "vi": "Hành động nhận thức rõ (thiện ác/ công tư phân minh/ địa điểm)"
+     }
+    ],
+    "expression": "弁える",
+    "meaning_vi": "biết vị trí của mình; nhận thức rõ; biết điều",
+    "reading": "わきまえる",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-9d32cfa005"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一から十まで",
+    "meaning_vi": "",
+    "reading": "いちからじゅうまで",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5e6812b899"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "気兼ね＜する＞",
+    "meaning_vi": "sự ngại ngần; giữ kẽ",
+    "reading": "きがね＜する＞",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-a94e99fbd6"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "気が引ける",
+    "meaning_vi": "",
+    "reading": "きがひける",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-aa0a274b7c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "一目置く",
+    "meaning_vi": "",
+    "reading": "いちもくおく",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-5254458cec"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "拝借＜する＞",
+    "meaning_vi": "xin mượn (khiêm nhường)",
+    "reading": "はいしゃく＜する＞",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-19c1fdd998"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "若い人の失敗には寛大でありたいものだ。",
+      "vi": "Nên bao dung với những sai lầm của người trẻ tuổi."
+     },
+     {
+      "ja": "寛大な｛人／性格．．．｝",
+      "vi": "(Tính cách/ con người) khoan dung, độ lượng"
+     }
+    ],
+    "expression": "寛大な",
+    "meaning_vi": "đại lượng; dễ rãi; rộng rãi",
+    "reading": "かんだいな",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-13e87b4da8"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "大目に見る",
+    "meaning_vi": "",
+    "reading": "おおめにみる",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f1543f3416"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "長い目で見る",
+    "meaning_vi": "",
+    "reading": "ながいめでみる",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-4f4238949d"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "何度も返事を促しても、彼は何も言ってこない。",
+      "vi": "Tôi đã thúc giục mấy lần, nhưng anh ta không trả lời lại cho tôi."
+     },
+     {
+      "ja": "相手に借金の返済を促す。",
+      "vi": "Thúc giục đối phương trả lại tiền đã vay."
+     },
+     {
+      "ja": "「早く帰ろう」と課長は社員たちに（帰宅を）促した。",
+      "vi": "Trưởng ban thúc giục các nhân viên \"Hãy về nhà sớm đi\"."
+     }
+    ],
+    "expression": "促す",
+    "meaning_vi": "thúc giục; hối thúc; thúc dục",
+    "reading": "うながす",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0da108f4d3"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "却下＜する＞",
+    "meaning_vi": "",
+    "reading": "きゃっか＜する＞",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-283c16713c"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は子供の頃から慕っていた男性とついに結婚した。",
+      "vi": "Cô ấy cuối cùng đã kết hôn với người đàn ông mà cô ấy yêu mến từ thuở nhỏ."
+     },
+     {
+      "ja": "田中先生は学生たち｛から／に｝慕われている。",
+      "vi": "Thầy Tanaka được các học sinh yêu quý."
+     },
+     {
+      "ja": "亡き祖母を慕って、命日にまごたちが集まった。",
+      "vi": "Tỏ lòng thương nhớ người bà đã mất, những người cháu đã cùng tập trung lại vào ngày giỗ của bà."
+     }
+    ],
+    "expression": "慕う",
+    "meaning_vi": "mến mộ; quyến luyến; tưởng nhớ",
+    "reading": "したう",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-7e0efa46ce"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [],
+    "expression": "恐れ入る",
+    "meaning_vi": "thật ngại quá; bái phục",
+    "reading": "おそれいる",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-0f34cea1a7"
+  },
+  {
+   "answer": null,
+   "context": {
+    "examples": [
+     {
+      "ja": "夜空を仰ぐと、きれいな月が出ていた。",
+      "vi": "Ngước nhìn lên bầu trời đêm, mặt trăng đẹp đẽ xuất hiện."
+     },
+     {
+      "ja": "ホームランを打たれ、投手は天を仰いだ。",
+      "vi": "Bị thực hiện một cú homerun, vận động viên ngước nhìn lên bầu trời."
+     },
+     {
+      "ja": "出先で予期せぬ事態が起こったので、電話で課長に指示を仰いだ。",
+      "vi": "Do có sự việc ngoài dự tính xảy ra trước chuyến đi, tôi liền gọi xin chỉ thị của trưởng ban."
+     }
+    ],
+    "expression": "仰ぐ",
+    "meaning_vi": "ngước nhìn; tôn kính; nhờ cậy",
+    "reading": "あおぐ",
+    "topic_vi": "Quan hệ trên dưới",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "mnemonic_vi"
+   ],
+   "id": "JV-f7016f9991"
+  }
+ ],
+ "kind": "VOCAB_MNEMONIC",
+ "level": "N1",
+ "packet_id": "VOCAB_MNEMONIC-012"
+}

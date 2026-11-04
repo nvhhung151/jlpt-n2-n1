@@ -1,0 +1,898 @@
+{
+ "header": {
+  "instructions": "word_type_label: một nhãn trong {danh từ, động từ nhóm I/II/III, tính từ い, tính từ な, phó từ, trợ từ, liên từ, thán từ, cụm từ, số từ, đại từ}."
+ },
+ "items": [
+  {
+   "answer": {
+    "word_type_label": "tính từ い"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "「病気の私の元へ来てくれたあなたの気持ちがありがたい」",
+      "vi": "Tôi rất biết ơn vì bạn đã đến thăm tôi lúc tôi ốm."
+     },
+     {
+      "ja": "ありがたいことに友達に恵まれている。",
+      "vi": "May mắn là tôi có những người bạn tốt."
+     },
+     {
+      "ja": "給料が上がったのはありがたいことだ。",
+      "vi": "Lương tăng đúng là điều đáng mừng."
+     }
+    ],
+    "expression": "有難い",
+    "meaning_vi": "đáng quý; biết ơn; cảm ơn",
+    "reading": "ありがたい",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1d66a18f7b"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [],
+    "expression": "向き合う",
+    "meaning_vi": "đối diện; đối mặt",
+    "reading": "むきあう",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-bd4ddd8c1b"
+  },
+  {
+   "answer": {
+    "word_type_label": "phó từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "つくづく[と]",
+    "meaning_vi": "",
+    "reading": "つくづく[と]",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-47b51ea59c"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "彼女は一人で家族を養っている。",
+      "vi": "Cô ấy đang gánh vác việc nuôi sống cả gia đình."
+     },
+     {
+      "ja": "子供を養う。",
+      "vi": "Nuôi nấng con cái."
+     },
+     {
+      "ja": "山登りで体力を養っている。",
+      "vi": "Rèn luyện sức khỏe bằng cách leo núi."
+     }
+    ],
+    "expression": "養う",
+    "meaning_vi": "nuôi dưỡng; bồi dưỡng; nuôi",
+    "reading": "やしなう",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7f4ae57319"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "役目",
+    "meaning_vi": "vai trò; phận sự; trách nhiệm",
+    "reading": "やくめ",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-23d325d4ff"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm II"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "子供が母親に甘える。",
+      "vi": "Đứa trẻ làm nũng/ỷ lại vào mẹ."
+     },
+     {
+      "ja": "「どうぞ、この傘をお使いください」「では、お言葉に甘えまして…」",
+      "vi": "“Xin mời dùng chiếc ô này ạ.” “Vậy thì tôi xin nhận lời (xin phép dùng)…”"
+     }
+    ],
+    "expression": "甘える",
+    "meaning_vi": "nũng nịu; ỷ vào lòng tốt; ỷ lại",
+    "reading": "あまえる",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c8e9d44e9c"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "世間知らず",
+    "meaning_vi": "khờ khạo; ngây thơ; thiếu kinh nghiệm xã hội",
+    "reading": "せけんしらず",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-44eaba68eb"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm II"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "母は姉に掃除をするよう言いつけた。",
+      "vi": "Mẹ bảo chị tôi đi dọn dẹp."
+     },
+     {
+      "ja": "課長は私にばかり仕事を言いつける。",
+      "vi": "Trưởng phòng toàn giao việc cho tôi."
+     },
+     {
+      "ja": "あの子は私達が悪いことをすると、すぐに先生に言いつける。",
+      "vi": "Đứa bé đó lập tức mách cô giáo mỗi khi chúng tôi làm sai."
+     }
+    ],
+    "expression": "言いつける",
+    "meaning_vi": "méc; mách; ra lệnh",
+    "reading": "いいつける",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-092ecb072f"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "女性の自立には経済的自立が重要だと思う。",
+      "vi": "Tôi cho rằng sự độc lập tài chính rất quan trọng đối với việc tự lập của phụ nữ."
+     },
+     {
+      "ja": "彼は精神的に自立していない。",
+      "vi": "Anh ấy chưa độc lập về mặt tinh thần."
+     }
+    ],
+    "expression": "自立＜する＞",
+    "meaning_vi": "tự lập",
+    "reading": "じりつ＜する＞",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f7cdd2839d"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [],
+    "expression": "言い出す",
+    "meaning_vi": "mở lời; nêu ra trước; nói ra",
+    "reading": "いいだす",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-ea13613251"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "親を説得して留学を認めてもらった。",
+      "vi": "Tôi đã thuyết phục bố mẹ và được đồng ý cho đi du học."
+     },
+     {
+      "ja": "両親は息子に大学に行くように説得した。",
+      "vi": "Bố mẹ đã thuyết phục con trai học đại học."
+     },
+     {
+      "ja": "悪い仲間と付き合わないよう友人を説得した。",
+      "vi": "Tôi đã thuyết phục bạn mình không giao du với những người xấu."
+     }
+    ],
+    "expression": "説得＜する＞",
+    "meaning_vi": "thuyết phục",
+    "reading": "せっとく＜する＞",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1f9bdb6be6"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [],
+    "expression": "放っておく",
+    "meaning_vi": "",
+    "reading": "ほうっっておく",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e45f08b877"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "お年寄りの介護をする。",
+      "vi": "Chăm sóc người già."
+     }
+    ],
+    "expression": "介護＜する＞",
+    "meaning_vi": "chăm sóc người già; chăm sóc; trông nom",
+    "reading": "かいご＜する＞",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-f9a2573678"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "ホームヘルパー",
+    "meaning_vi": "người trợ giúp (chăm sóc) tại nhà",
+    "reading": "ほーむへるぱー",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3349bf7bc6"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "我が家は三世代が一緒に住んでいる。",
+      "vi": "Gia đình tôi có ba thế hệ cùng chung sống."
+     },
+     {
+      "ja": "若い人と話していると、世代の差を感じる。",
+      "vi": "Nói chuyện với người trẻ sẽ cảm nhận rõ khoảng cách thế hệ."
+     }
+    ],
+    "expression": "世代",
+    "meaning_vi": "thế hệ",
+    "reading": "せだい",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-7a7f3a8fce"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "「私は将来父の会社を継ぐつもりです。」",
+      "vi": "\"Tương lai tôi sẽ kế nghiệp tại công ty của bố.\""
+     },
+     {
+      "ja": "｛稼業／意志／王位／跡．．．｝を継ぐ。",
+      "vi": "Tiếp tục sự nghiệp gia đình/ ý chí, kế vị ngôi vua, theo dấu chân."
+     },
+     {
+      "ja": "彼は引退した大物俳優の後を継ぐ俳優とみなされている。",
+      "vi": "Anh ta được coi như là một diễn viên tiếp bước người diễn viên nổi tiếng đã giải nghệ."
+     }
+    ],
+    "expression": "継ぐ",
+    "meaning_vi": "kế thừa; nối nghiệp; tiếp nối",
+    "reading": "つぐ",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-16cad4897a"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "妊娠＜する＞",
+    "meaning_vi": "mang thai",
+    "reading": "にんしん＜する＞",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-77ed65cb63"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "先日、姉が女の子を出産した。",
+      "vi": "Ngày trước, chị gái tôi đã sinh đứa bé gái."
+     }
+    ],
+    "expression": "出産＜する＞",
+    "meaning_vi": "sinh con; sinh đẻ; sinh",
+    "reading": "しゅっさん＜する＞",
+    "topic_vi": "Gia đình",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-c56a64756c"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "「またお会いしましたね。ご縁がありますね。」",
+      "vi": "\"Chúng ta lại gặp nhau rồi. Có duyên đấy nhỉ.\""
+     },
+     {
+      "ja": "祖父は政治家だが、私はこれまで政治とは縁のない人生を送ってきた。",
+      "vi": "Ông tôi là chính trị gia, nhưng tôi đang sống 1 cuộc sống không có mối liên quan đến chính trị."
+     },
+     {
+      "ja": "家の財産を使い果たして、父に親子の縁を切られた。",
+      "vi": "Tôi đã tiêu xài hết tài sản của gia đình, và đã bị cha mình từ mặt."
+     }
+    ],
+    "expression": "縁",
+    "meaning_vi": "duyên phận; mối quan hệ; nhân duyên",
+    "reading": "えん",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-e5bddc20cd"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm II"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "この国は天然資源に恵まれている。",
+      "vi": "Đất nước này được thiên nhiên ưu đãi về tài nguyên."
+     },
+     {
+      "ja": "彼女は才能に恵まれ、有名な画家になった。",
+      "vi": "Cô ấy được trời phú tài năng nên trở thành họa sĩ nổi tiếng."
+     },
+     {
+      "ja": "｛容姿/友人/環境…｝に恵まれる。",
+      "vi": "Được may mắn có {ngoại hình/bạn bè/môi trường…}."
+     }
+    ],
+    "expression": "恵まれる",
+    "meaning_vi": "được ưu đãi; may mắn có; được yêu thương",
+    "reading": "めぐまれる",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-1dff1a9f07"
+  },
+  {
+   "answer": {
+    "word_type_label": "tính từ い"
+   },
+   "context": {
+    "examples": [],
+    "expression": "頼もしい",
+    "meaning_vi": "đáng tin cậy; đáng trông cậy",
+    "reading": "たのもしい",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-cd69568a5a"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm II"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "過去の過ちを親友に打ち明けたら、心軽くなった。",
+      "vi": "Sau khi thú nhận lỗi lầm quá khứ với bạn thân, tôi thấy nhẹ lòng."
+     },
+     {
+      "ja": "本心を打ち明ける。",
+      "vi": "Thú nhận thật lòng."
+     }
+    ],
+    "expression": "打ち明ける",
+    "meaning_vi": "thổ lộ; bày tỏ; tâm sự",
+    "reading": "うちあける",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-a54972fce7"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "試験に失敗した友人に励ました。",
+      "vi": "Tôi động viên người bạn thi trượt."
+     },
+     {
+      "ja": "「皆さんの応援に励まされました」",
+      "vi": "“Tôi được mọi người cổ vũ/động viên rất nhiều.”"
+     }
+    ],
+    "expression": "励ます",
+    "meaning_vi": "động viên",
+    "reading": "はげます",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0d088ade46"
+  },
+  {
+   "answer": {
+    "word_type_label": "phó từ"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "会議で誰も言わないので、あえて反対意見を述べてみた。",
+      "vi": "Vì không ai nói điều gì tại cuộc họp nên tôi đã mạnh dạn thử bày tỏ ý kiến phản đối."
+     },
+     {
+      "ja": "この論文はよく書けているが、あえて言えば、論理の展開に少々強引なところがある。",
+      "vi": "Bài luận văn này viết khá tốt nhưng tôi xin mạn phép nói rằng trong triển khai các lập luận có chỗ hơi gượng ép."
+     },
+     {
+      "ja": "あえて断るまでもないと思うが、これは一般論であって、全ての事例にあてはまるわけではない。",
+      "vi": "Tôi nghĩ không cần thiết phải nói nữa, đây là một quan điểm phổ biến nhưng không có nghĩa là có thể áp dụng cho mọi trường hợp."
+     }
+    ],
+    "expression": "敢えて",
+    "meaning_vi": "cố ý; dám; cố ý làm dù có khó khăn hoặc không cần thiết",
+    "reading": "あえて",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-9fbd8d9fd9"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm II"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "失恋した友達をみんなで慰めた。",
+      "vi": "Mọi người cùng nhau an ủi người bạn vừa thất tình."
+     },
+     {
+      "ja": "音楽を聞くと心が慰められる。",
+      "vi": "Nghe nhạc khiến lòng tôi được an ủi."
+     }
+    ],
+    "expression": "慰める",
+    "meaning_vi": "an ủi; động viên; vỗ về",
+    "reading": "なぐさめる",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-247e89036a"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "思いやり",
+    "meaning_vi": "quan tâm đến người khác; lòng cảm thông",
+    "reading": "おもいやり",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-622c086721"
+  },
+  {
+   "answer": {
+    "word_type_label": "tính từ い"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "何気ない一言が、相手を傷つけることもある。",
+      "vi": "Một câu nói vô tình cũng có thể làm người khác tổn thương."
+     },
+     {
+      "ja": "何気なく外を見ると、雪が降っていた。",
+      "vi": "Vô tình nhìn ra ngoài thì thấy tuyết rơi."
+     },
+     {
+      "ja": "彼は何気なさそうな顔をしていたが、本当にショックだったに違いない。",
+      "vi": "Anh ấy làm như không có gì, nhưng chắc chắn đã sốc lắm."
+     }
+    ],
+    "expression": "何気ない",
+    "meaning_vi": "thản nhiên; vô tình; không cố ý",
+    "reading": "なにげない",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-36c3de7ece"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "私は何をやっても不器用で、よく家族にからかわれる。",
+      "vi": "Vì vụng về nên tôi hay bị gia đình trêu chọc."
+     }
+    ],
+    "expression": "揶揄う",
+    "meaning_vi": "trêu chọc; chọc ghẹo",
+    "reading": "からかう",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-11b713c896"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "幹事",
+    "meaning_vi": "người tổ chức; người phụ trách",
+    "reading": "かんじ",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-d1fd9ce563"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm II"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "新入社員があまりに物を知らないので、あきれてしまった。",
+      "vi": "Nhân viên mới thiếu hiểu biết quá nên tôi không khỏi ngán ngẩm."
+     },
+     {
+      "ja": "彼の非常識な態度にあきれた。",
+      "vi": "Tôi ngán ngẩm trước thái độ thiếu thường thức của anh ta."
+     },
+     {
+      "ja": "試験の日にちを間違えるとは、あきれてものも言えない。",
+      "vi": "Nhầm ngày thi thì thật là hết nói nổi."
+     }
+    ],
+    "expression": "呆れる",
+    "meaning_vi": "ngạc nhiên đến cạn lời; ngán ngẩm; chán ngán",
+    "reading": "あきれる",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-b54a111a74"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [],
+    "expression": "不山戯る",
+    "meaning_vi": "đùa giỡn; nghịch; nghịch ngợm",
+    "reading": "ふざける",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-fe3faea6b9"
+  },
+  {
+   "answer": {
+    "word_type_label": "tính từ い"
+   },
+   "context": {
+    "examples": [],
+    "expression": "久しい",
+    "meaning_vi": "đã lâu rồi; lâu; đã lâu",
+    "reading": "ひさしい",
+    "topic_vi": "Bạn bè",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6d469286dc"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "初対面",
+    "meaning_vi": "lần gặp mặt đầu tiên",
+    "reading": "しょたいめん",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-728baff3b5"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "近所付き合い",
+    "meaning_vi": "",
+    "reading": "きんじょつきあい",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-65a4973e8f"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "飼い主",
+    "meaning_vi": "người chủ (nuôi thú cưng)",
+    "reading": "かいぬし",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-5e6e9e1b60"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [],
+    "expression": "交わす",
+    "meaning_vi": "",
+    "reading": "まじわす",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-0a961e5369"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm II"
+   },
+   "context": {
+    "examples": [],
+    "expression": "呼び止める",
+    "meaning_vi": "",
+    "reading": "よびやめる",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3a20c73029"
+  },
+  {
+   "answer": {
+    "word_type_label": "động từ nhóm I"
+   },
+   "context": {
+    "examples": [
+     {
+      "ja": "後ろから名前を呼ばれたので振り返った。",
+      "vi": "Có người gọi tên từ phía sau nên tôi quay lại."
+     },
+     {
+      "ja": "年末になると、一年を振り返る番組がよく放送される。",
+      "vi": "Vào dịp cuối năm, các chương trình tổng kết năm thường được phát sóng."
+     }
+    ],
+    "expression": "振り返る",
+    "meaning_vi": "ngoảnh lại; nhìn lại; quay lại",
+    "reading": "ふりかえる",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-6cd8e4f346"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "再会＜する＞",
+    "meaning_vi": "gặp lại; tái hội",
+    "reading": "さいかい＜する＞",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-3d6124ebc0"
+  },
+  {
+   "answer": {
+    "word_type_label": "danh từ"
+   },
+   "context": {
+    "examples": [],
+    "expression": "覚え",
+    "meaning_vi": "trí nhớ; sự tín nhiệm; ký ức",
+    "reading": "おぼえ",
+    "topic_vi": "Người quen, mối quan hệ giao tiếp",
+    "word_type_label": null
+   },
+   "fields_needed": [
+    "word_type_label"
+   ],
+   "id": "JV-91c7a7ecb5"
+  }
+ ],
+ "kind": "VOCAB_TYPE",
+ "level": "N2",
+ "packet_id": "VOCAB_TYPE-001"
+}
