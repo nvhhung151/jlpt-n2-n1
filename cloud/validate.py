@@ -20,7 +20,7 @@ LEN_MAX = {"N2": 50, "N1": 60}
 KANJI_RE = re.compile(r"[㐀-䶿一-鿿豈-﫿々〆ヶ]")
 PAREN_RE = re.compile(r"\(([^()]*)\)")
 KANA_RE = re.compile(r"^[ぁ-ゟ゠-ヿー]+$")
-AI_RE = re.compile(r"(Claude|ChatGPT|GPT|Gemini|Anthropic|OpenAI|(?<![A-Za-zÀ-ỹ])AI(?![A-Za-zÀ-ỹ]))")
+AI_RE = re.compile(r"(Claude|ChatGPT|GPT-?\d|Gemini|Anthropic|OpenAI)")
 BANK_TYPES = ["FILL", "ORDER_STAR", "MEANING", "ERROR"]
 ERROR_PROMPT = "Câu nào dùng sai mẫu?"
 
