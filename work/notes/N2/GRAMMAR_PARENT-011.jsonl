@@ -1,0 +1,16 @@
+{"id": "JG-3533b97589", "type": "uncertain", "issue": "〜ものか (phản ngữ, nhất quyết không) không có mẫu chính riêng; gắn tạm vào 〜まい (quyết không)", "suggest": "tạo mẫu chính 〜ものか hoặc giữ dưới 〜まい"}
+{"id": "JG-55a083d20a", "type": "uncertain", "issue": "〜ものか (tuyệt đối không) không có mẫu chính riêng; gắn tạm vào 〜まい", "suggest": "tạo mẫu chính 〜ものか hoặc giữ dưới 〜まい"}
+{"id": "JG-677dc9206e", "type": "uncertain", "issue": "〜ものだ/〜ものではない (vốn nên/không nên, chuẩn mực xã hội) không có mẫu chính ものだ; gắn tạm vào 事だ (khuyên nên)", "suggest": "tạo mẫu chính 〜ものだ (chuẩn mực) rồi gom các mẫu ものだ/ものではない vào"}
+{"id": "JG-eb95e5e8b5", "type": "uncertain", "issue": "〜ものではない (không nên) không có mẫu chính tương ứng; gắn tạm vào 事だ", "suggest": "gom vào mẫu chính 〜ものだ (chuẩn mực) nếu có"}
+{"id": "JG-f3005bd696", "type": "uncertain", "issue": "〜ものではない (không nên) không có mẫu chính tương ứng; gắn tạm vào 事だ", "suggest": "gom vào mẫu chính 〜ものだ (chuẩn mực) nếu có"}
+{"id": "JG-d5d113f074", "type": "uncertain", "issue": "〜ものだ (bản chất đương nhiên; cảm thán) không có mẫu chính ものだ; gắn tạm vào というものだ", "suggest": "tạo mẫu chính 〜ものだ"}
+{"id": "JG-d1e9259098", "type": "uncertain", "issue": "〜たいものだ/〜てほしいものだ (mong muốn) không có mẫu chính cùng chức năng; gắn tạm vào 〜たものだ (cùng họ ものだ)", "suggest": "tạo mẫu chính 〜ものだ và gom vào"}
+{"id": "JG-7f198e542a", "type": "uncertain", "issue": "により (nguyên nhân/phương tiện/tùy theo) không có mẫu chính によって; gắn tạm vào によっては", "suggest": "tạo mẫu chính によって/による"}
+{"id": "JG-042552fdc9", "type": "uncertain", "issue": "とみられる (được cho là, phán đoán khách quan) không có mẫu chính riêng; gắn tạm vào と見える (suy đoán)", "suggest": "giữ dưới と見える hoặc tạo mẫu chính phán đoán/tường thuật"}
+{"id": "JG-5073933611", "type": "uncertain", "issue": "とされる (được coi là) không có mẫu chính cùng chức năng; gắn tạm vào と見える", "suggest": "tạo mẫu chính nhóm nhận định khách quan (とされる/とみられる)"}
+{"id": "JG-1da302f9d9", "type": "uncertain", "issue": "とのことだ (truyền đạt nghe nói) không có mẫu chính tường thuật; gắn tạm vào と見える", "suggest": "tạo mẫu chính truyền văn (とのことだ/ということだ)"}
+{"id": "JG-7d6f5b886f", "type": "uncertain", "issue": "差し支えない (không vấn đề, cho phép) không có mẫu chính cùng chức năng; gắn tạm vào 事はない (không cần, trấn an)", "suggest": "tạo mẫu chính 〜ても差し支えない hoặc gắn nhóm cho phép"}
+{"id": "JG-1e81ddb703", "type": "context", "issue": "pattern sai chính tả '〜よいうと/いえば/いったら'; ví dụ có lỗi 'いらっしゃかなあ', 'だすよ'", "suggest": "pattern '〜というと/といえば/といったら'; 'いらっしゃるかなあ', 'ですよ'"}
+{"id": "JG-f7645a8972", "type": "context", "issue": "ví dụ 1 thiếu động từ: 'レストランにた。'", "suggest": "'レストランに行った。' (hoặc 着いた)"}
+{"id": "JG-58f168ed90", "type": "context", "issue": "pattern thiếu chữ: '〜倒れたりするがある'", "suggest": "'〜倒れたりする恐れがある' (mẫu 〜恐れがある)"}
+{"id": "JG-042552fdc9", "type": "context", "issue": "ví dụ 2 lặp nghĩa: '原因は配線の劣化が主因だとみられる'; ví dụ 1 có khoảng trắng thừa '死者は 10人'", "suggest": "'原因は配線の劣化だとみられる'; '死者は10人とみられる'"}

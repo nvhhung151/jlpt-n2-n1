@@ -1,0 +1,31 @@
+{"id": "JG-0bf3d32913", "type": "uncertain", "issue": "とあって (vì là dịp đặc biệt nên tự nhiên) không có mẫu chính trùng chức năng; gần nhất là だけに (chính vì... nên)", "suggest": "tạm gắn JG-7e78c871a0 だけに; cân nhắc だけあって JG-2b6a2972f7"}
+{"id": "JG-4f17089ed3", "type": "uncertain", "issue": "Vます + かける (đang dở dang) không có mẫu chính cùng chức năng; gần nhất về thể (đang giữa chừng) là 最中に", "suggest": "tạm gắn JG-5231e44ea7 最中に; nếu có mẫu chính về động từ ghép thì gắn vào đó"}
+{"id": "JG-46607b45bf", "type": "uncertain", "issue": "〜たいものだ (mong muốn tha thiết) không có mẫu chính cùng chức năng; gần nhất là ないものだろうか (mong có cách để...)", "suggest": "tạm gắn JG-d25295d5da; cân nhắc 〜ないものか JG-a27727adb4"}
+{"id": "JG-57deec867f", "type": "uncertain", "issue": "〜だけまし (được vậy là còn đỡ) không có mẫu chính cùng chức năng; gần nhất là so sánh 'tốt hơn' của くらいなら", "suggest": "tạm gắn JG-6c82539add くらいなら"}
+{"id": "JG-5676978342", "type": "uncertain", "issue": "まで (đến cả) không có mẫu chính nhấn mạnh 'ngay cả/đến cả'; gần nhất là からして (ngay từ N đã...)", "suggest": "tạm gắn JG-c0cb0dc65c 〜からして"}
+{"id": "JG-268d4af3c3", "type": "uncertain", "issue": "一〜として〜ない (không một... nào) là phủ định toàn bộ, không có mẫu chính cùng chức năng; gần nhất là phủ định mạnh 〜っこない", "suggest": "tạm gắn JG-71a3367faf 〜っこない"}
+{"id": "JG-41ef030401", "type": "uncertain", "issue": "さえ (ngay cả) không có mẫu chính cùng chức năng; gần nhất là からして (ngay từ cái cơ bản đã...)", "suggest": "tạm gắn JG-c0cb0dc65c 〜からして"}
+{"id": "JG-90f1034d04", "type": "uncertain", "issue": "など/なんか gồm nghĩa liệt kê ví dụ và nghĩa hạ thấp; chọn theo nghĩa liệt kê", "suggest": "gắn JG-ec9c4a56a1 〜といった; nghĩa hạ thấp gần なんて JG-7f1f0796af"}
+{"id": "JG-6069d6d2d0", "type": "uncertain", "issue": "からこそ (chính vì) không có mẫu chính nhấn mạnh lý do trùng hẳn; gần nhất là だけに (chính vì... nên càng)", "suggest": "tạm gắn JG-7e78c871a0 〜だけに"}
+{"id": "JG-3a68e48f55", "type": "uncertain", "issue": "〜さえ〜ば (chỉ cần) là điều kiện đủ, không có mẫu chính cùng chức năng; gần nhất là điều kiện cần 〜ないことには", "suggest": "tạm gắn JG-95ee052f8f 〜ないことには"}
+{"id": "JG-0334df3da9", "type": "uncertain", "issue": "Nを Nとして/とする (lấy ~ làm ~) không có mẫu chính trùng hẳn; gần nhất là を中心に (lấy N làm trung tâm)", "suggest": "tạm gắn JG-5e8fe7d8eb N + を中心に"}
+{"id": "JG-e21ae0e323", "type": "context", "issue": "pattern là cụm ví dụ 〜70歳以上の方に限り, không phải mẫu", "suggest": "pattern: N + に限り"}
+{"id": "JG-eb0c71a74a", "type": "context", "issue": "pattern là cụm ví dụ 〜日本にいる限り, không phải mẫu", "suggest": "pattern: Thể thường + 限り"}
+{"id": "JG-48c1d8dd63", "type": "context", "issue": "pattern là từ cụ thể 〜やり抜く", "suggest": "pattern: Vます + 抜く (vd やり抜く)"}
+{"id": "JG-4f17089ed3", "type": "context", "issue": "pattern là từ cụ thể 〜読みかける", "suggest": "pattern: Vます + かける / かけの N"}
+{"id": "JG-1d45c93405", "type": "context", "issue": "pattern là từ cụ thể 〜読み切る", "suggest": "pattern: Vます + 切る"}
+{"id": "JG-6069d6d2d0", "type": "context", "issue": "pattern là cụm ví dụ 〜かわいいからこそ", "suggest": "pattern: Thể thường + からこそ"}
+{"id": "JG-3a68e48f55", "type": "context", "issue": "pattern là cụm ví dụ 〜これさえあれば", "suggest": "pattern: N + さえ + Vば / Vます + さえすれば"}
+{"id": "JG-40613f1b9f", "type": "context", "issue": "pattern là cụm ví dụ 〜上がるばかりだ; meaning_vi lộn xộn \"(1) ngày càng (2)(3) chỉ * 「のみだ」...\"", "suggest": "pattern: V từ điển + ばかりだ; meaning_vi: \"ngày càng; chỉ toàn\""}
+{"id": "JG-0334df3da9", "type": "context", "issue": "pattern là cụm ví dụ 〜社会参加を目的として; meaning_vi có chữ ｙ toàn góc \"Lấｙ ～ làm ～\"", "suggest": "pattern: N を N + として / とする; meaning_vi: \"lấy ~ làm ~\""}
+{"id": "JG-5ba03484fd", "type": "context", "issue": "pattern là cụm ví dụ 〜行くとしても", "suggest": "pattern: Thể thường + としても / N + にしても"}
+{"id": "JG-5676978342", "type": "context", "issue": "pattern là nghĩa tiếng Việt, không có mẫu tiếng Nhật", "suggest": "pattern: N + まで / Vて + まで"}
+{"id": "JG-797ca702d5", "type": "context", "issue": "pattern là nghĩa tiếng Việt", "suggest": "pattern: V-て + でも"}
+{"id": "JG-c50999c29e", "type": "context", "issue": "pattern là nghĩa tiếng Việt", "suggest": "pattern: N + に限って"}
+{"id": "JG-ba851c621b", "type": "context", "issue": "pattern là nghĩa tiếng Việt", "suggest": "pattern: 〜くらい / ぐらい"}
+{"id": "JG-268d4af3c3", "type": "context", "issue": "pattern là nghĩa tiếng Việt", "suggest": "pattern: 一 + đơn vị đếm + として〜ない"}
+{"id": "JG-41ef030401", "type": "context", "issue": "pattern là nghĩa tiếng Việt", "suggest": "pattern: N + さえ"}
+{"id": "JG-90f1034d04", "type": "context", "issue": "pattern là nghĩa tiếng Việt", "suggest": "pattern: N + など / なんか"}
+{"id": "JG-36d4285f8d", "type": "context", "issue": "pattern là nghĩa tiếng Việt", "suggest": "pattern: V từ điển / V-た + 限りでは"}
+{"id": "JG-46607b45bf", "type": "context", "issue": "meaning_vi để trống", "suggest": "\"thật mong; rất muốn (mong muốn tha thiết)\""}
+{"id": "JG-57deec867f", "type": "context", "issue": "meaning_vi để trống; ví dụ 1 chỉ là lượt nói của A, không chứa だけまし", "suggest": "meaning_vi: \"được vậy là còn đỡ; còn hơn\"; gộp A và B thành một ví dụ"}

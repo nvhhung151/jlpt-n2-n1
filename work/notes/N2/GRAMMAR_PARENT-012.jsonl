@@ -1,0 +1,38 @@
+{"id": "JG-f6fb060b61", "type": "uncertain", "issue": "〜ぐるみ (cả, toàn bộ nhóm cùng tham gia) không có mẫu chính cùng chức năng; tạm gắn vào に渡って (bao trùm phạm vi)", "suggest": "nếu có mẫu chính nhóm 'toàn bộ/bao trùm' (〜ぐるみ/〜ずくめ/〜だらけ) thì chuyển sang đó"}
+{"id": "JG-c65d5298f6", "type": "uncertain", "issue": "〜ずくめ (toàn là) không có mẫu chính cùng chức năng; tạm gắn vào に渡って (bao trùm)", "suggest": "gắn cùng nhóm với 〜ぐるみ/〜だらけ nếu có mẫu chính đó"}
+{"id": "JG-2968adfb08", "type": "uncertain", "issue": "〜ては〜ては (lặp đi lặp lại) không có mẫu chính cùng chức năng; tạm gắn vào やら〜やら (liệt kê kiểu たり〜たり)", "suggest": "xem lại nếu có mẫu chính về hành động lặp lại"}
+{"id": "JG-b5fab584b6", "type": "uncertain", "issue": "liên từ それで (vì thế) không có mẫu chính liên từ nhân quả; tạm gắn vào ことから (căn cứ dẫn đến kết quả)", "suggest": "nhóm liên từ nhân quả (それで/そこで/したがって) nên có một mẫu chính riêng"}
+{"id": "JG-b5fab584b6", "type": "context", "issue": "pattern là câu ví dụ chứ không phải mẫu", "suggest": "pattern: 'それで'"}
+{"id": "JG-04790caee5", "type": "uncertain", "issue": "liên từ それでも (dù vậy) gắn vào にもかかわらず theo chức năng nhượng bộ; không có mẫu chính liên từ", "suggest": "giữ hoặc gom nhóm liên từ nghịch tiếp"}
+{"id": "JG-04790caee5", "type": "context", "issue": "pattern là câu ví dụ; meaning_vi 'Tuy nhiêｎ' có chữ ｎ toàn góc", "suggest": "pattern: 'それでも'; meaning_vi: 'dù vậy; tuy vậy mà vẫn'"}
+{"id": "JG-784d520593", "type": "uncertain", "issue": "liên từ それなら (vậy thì) gắn vào としたら/とすれば (giả định rồi kết luận); không có mẫu chính liên từ", "suggest": "giữ hoặc gom nhóm liên từ điều kiện"}
+{"id": "JG-784d520593", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'それなら'"}
+{"id": "JG-951bcac695", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'それなのに'"}
+{"id": "JG-1b9634b82c", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'そういえば'"}
+{"id": "JG-4dcd0baecb", "type": "uncertain", "issue": "それが (thực tế trái với dự đoán) không có mẫu chính cùng chức năng; tạm gắn vào ものの (nhượng bộ)", "suggest": "gom nhóm liên từ nghịch tiếp nếu có"}
+{"id": "JG-4dcd0baecb", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'それが'"}
+{"id": "JG-fd407d27d0", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'それはそうと'"}
+{"id": "JG-a317d7befe", "type": "uncertain", "issue": "liên từ そこで (vì vậy) không có mẫu chính liên từ; tạm gắn vào ことから", "suggest": "nhóm liên từ nhân quả nên có mẫu chính riêng"}
+{"id": "JG-a317d7befe", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'そこで'"}
+{"id": "JG-f54ae00e79", "type": "uncertain", "issue": "liên từ あるいは (hoặc là) gắn vào なり〜なり (đưa ra lựa chọn); không có mẫu chính liên từ lựa chọn", "suggest": "giữ hoặc gom nhóm liên từ lựa chọn"}
+{"id": "JG-f54ae00e79", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'あるいは'"}
+{"id": "JG-7bcfe67809", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'だって'"}
+{"id": "JG-b13fbb7d0f", "type": "uncertain", "issue": "すなわち (tức là, nói cách khác) không có mẫu chính diễn đạt lại; tạm gắn vào というのは (cái gọi là, giải thích)", "suggest": "xem lại nếu có mẫu chính 'つまり/すなわち'"}
+{"id": "JG-b13fbb7d0f", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'すなわち'"}
+{"id": "JG-2dfb439e10", "type": "uncertain", "issue": "liên từ だが (thế nhưng) không có mẫu chính liên từ; tạm gắn vào ものの (tuy... nhưng)", "suggest": "gom nhóm liên từ nghịch tiếp nếu có"}
+{"id": "JG-2dfb439e10", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'だが'"}
+{"id": "JG-f7f2fa645f", "type": "uncertain", "issue": "〜んだった (hối tiếc: lẽ ra nên làm) gần nhất với はずだった (lẽ ra đã phải) nhưng không trùng hẳn chức năng", "suggest": "giữ hoặc gắn vào mẫu chính về hối tiếc nếu có"}
+{"id": "JG-f7f2fa645f", "type": "context", "issue": "meaning_vi để trống; ví dụ bị tách thành 2 lượt nói có nhãn 'A:', 'B:' trong ja", "suggest": "meaning_vi: 'lẽ ra nên...; giá mà đã...'; gộp thành 1 câu: こんなことなら、もっと早く予約しておくんだった。"}
+{"id": "JG-0a824181e2", "type": "uncertain", "issue": "ただし (có điều — bổ sung điều kiện/ngoại lệ) không có mẫu chính liên từ; tạm gắn vào を除いて (ngoại trừ)", "suggest": "xem lại nếu có mẫu chính phù hợp hơn"}
+{"id": "JG-0a824181e2", "type": "context", "issue": "pattern là câu ví dụ; meaning_vi 'Tuy nhiên, thế nhưng' chưa nêu chức năng bổ sung điều kiện", "suggest": "pattern: 'ただし'; meaning_vi: 'tuy nhiên; có điều (nêu điều kiện, ngoại lệ)'"}
+{"id": "JG-b59cfc6d23", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'ということは'"}
+{"id": "JG-e0dba38760", "type": "context", "issue": "pattern là câu ví dụ", "suggest": "pattern: 'というのは'"}
+{"id": "JG-8e7ebb1f88", "type": "uncertain", "issue": "liên từ したがって (do đó) không có mẫu chính liên từ; tạm gắn vào ことから", "suggest": "nhóm liên từ nhân quả nên có mẫu chính riêng"}
+{"id": "JG-8e7ebb1f88", "type": "context", "issue": "pattern là câu ví dụ; ví dụ 1 viết sai 'まじめて'", "suggest": "pattern: 'したがって'; ví dụ: 彼はまじめで誠実な人だ。"}
+{"id": "JG-e9a6dc7f88", "type": "null", "reason": "mục 'N2 dễ nhầm' là bảng tổng hợp so sánh nhiều mẫu, không phải một mẫu ngữ pháp nên không có mẫu chính cùng chức năng"}
+{"id": "JG-e9a6dc7f88", "type": "context", "issue": "không phải mẫu ngữ pháp; examples là câu tiếng Việt mô tả nhóm, không phải câu tiếng Nhật", "suggest": "loại khỏi danh sách mẫu ngữ pháp hoặc chuyển thành bài ôn tập"}
+{"id": "JG-07b94593fa", "type": "context", "issue": "meaning_vi chỉ là 'Cách kết hợp:'; ví dụ 2 viết sai 'わかることはわけるけど'", "suggest": "meaning_vi: 'có... thì có... nhưng'; ví dụ: わかることはわかるけど"}
+{"id": "JG-7635e5f8a3", "type": "context", "issue": "meaning_vi chỉ là 'Cách kết hợp:'", "suggest": "meaning_vi: 'chỉ; chỉ có (văn viết)'"}
+{"id": "JG-e4c4fd3225", "type": "uncertain", "issue": "〜ようとする/している (định, sắp sửa) không có mẫu chính cùng chức năng; tạm gắn vào つつある (đang dần)", "suggest": "xem lại nếu có mẫu chính về 'sắp sửa'"}
+{"id": "JG-e4c4fd3225", "type": "context", "issue": "meaning_vi chỉ là 'Cách kết hợp:'", "suggest": "meaning_vi: 'định làm; sắp sửa'"}
+{"id": "JG-9be786a20e", "type": "context", "issue": "ví dụ 1 chỉ là từ '踏まえる', không phải câu", "suggest": "thay bằng câu, vd 調査の結果を踏まえて計画を見直す。"}

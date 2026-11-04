@@ -1,0 +1,27 @@
+{"id": "JG-2573cabea7", "type": "uncertain", "issue": "〜のももっともだ (cũng là phải, dễ hiểu) không có mẫu chính đúng chức năng; gắn vào に決まっている như mục cùng loại ở gói trước", "suggest": "xem xét lại parent, có thể gộp nhóm đánh giá 'đương nhiên'"}
+{"id": "JG-dec51b66a1", "type": "uncertain", "issue": "〜て当然だ (là đương nhiên) không có mẫu chính đúng chức năng; gần nhất là に決まっている", "suggest": "xem xét lại parent"}
+{"id": "JG-566fa971c0", "type": "uncertain", "issue": "mẫu chính と言うものだ (JG-ac95ddc4c8) có meaning_vi trong header 'Không hẳn là, không thể nói là' (nghĩa của というものではない), không khớp nghĩa 'đúng là, chính là'", "suggest": "giữ JG-ac95ddc4c8, sửa meaning_vi mẫu chính thành 'đúng là, chính là (lẽ thường)'"}
+{"id": "JG-cedf7c482a", "type": "uncertain", "issue": "〜ないまでも (dù không đến mức A thì ít ra cũng B) không có mẫu chính cùng chức năng; tạm gắn vào 〜にしても (nhượng bộ)", "suggest": "xem xét lại parent"}
+{"id": "JG-a52afffd56", "type": "uncertain", "issue": "〜というのだ (tức là; nghe nói là) không có mẫu chính cùng chức năng; tạm gắn vào ことになる (tức là, kết luận)", "suggest": "cân nhắc mẫu chính nhóm truyền đạt/giải thích bằng という"}
+{"id": "JG-6a4dd15b78", "type": "uncertain", "issue": "Vます + かける (làm dở) không có mẫu chính cùng chức năng; tạm gắn 最中に như mục cùng loại ở gói trước", "suggest": "nếu có mẫu chính về động từ ghép thì gắn vào đó"}
+{"id": "JG-a6b0d1b5b0", "type": "uncertain", "issue": "Vます + 切る (làm hết, trọn) không có mẫu chính tương ứng; tạm gắn V-ます + 抜く (làm đến cùng)", "suggest": "thêm mẫu chính 〜きる/〜きれる hoặc giữ gắn 抜く"}
+{"id": "JG-bdadb825fd", "type": "uncertain", "issue": "〜かいもなく (uổng công) không có mẫu chính cùng chức năng; tạm gắn にもかかわらず (mặc dù) như mục cùng loại ở gói trước", "suggest": "cân nhắc mẫu chính 甲斐 riêng"}
+{"id": "JG-d91671bb03", "type": "uncertain", "issue": "〜とか (nghe nói là) là truyền đạt gián tiếp, không có mẫu chính cùng chức năng; tạm gắn と見える (nhận định qua thông tin bên ngoài)", "suggest": "cân nhắc mẫu chính nhóm truyền đạt (そうだ/とか/ということだ)"}
+{"id": "JG-52f805d7fd", "type": "uncertain", "issue": "〜うか〜まいか (do dự làm hay không) không có mẫu chính cùng chức năng; gắn 〜まい (cùng dạng)", "suggest": "giữ dưới 〜まい"}
+{"id": "JG-ad0fc20620", "type": "uncertain", "issue": "〜てはならない (cấm, không được) không có mẫu chính diễn tả cấm đoán; gắn 訳には行かない như mục cùng loại ở gói trước", "suggest": "nếu có mẫu chính cấm đoán/nghĩa vụ thì gắn vào đó"}
+{"id": "JG-0681cfca9b", "type": "uncertain", "issue": "〜ままに (để mặc, theo như) không có mẫu chính cùng chức năng; chọn に従って gần nhất", "suggest": "giữ dưới に従って hoặc tạo mẫu chính 〜まま(に)"}
+{"id": "JG-4fd7473e2a", "type": "uncertain", "issue": "〜ずにすむ (khỏi phải, may mà không phải) không có mẫu chính cùng chức năng; tạm gắn 事はない (không cần phải)", "suggest": "xem xét lại parent"}
+{"id": "JG-f2a4e9bebd", "type": "uncertain", "issue": "〜ではないか (nghi vấn tu từ/phát hiện) khác chức năng với う・ようではないか (rủ rê); gắn に違いない như mục cùng loại ở gói trước", "suggest": "xem xét lại parent"}
+{"id": "JG-0555360328", "type": "context", "issue": "meaning_vi có thêm 'chẳng phải là... sao' không phải nghĩa của 〜まい", "suggest": "meaning_vi: 'quyết không; có lẽ không'"}
+{"id": "JG-52f805d7fd", "type": "context", "issue": "pattern dính từ ví dụ '〜話そうかまいか'; ví dụ 1 '迷った、結局' thiếu liên từ", "suggest": "pattern: '〜(よ)うか〜まいか'; ja: '本当のことを話そうか話すまいか迷ったが、結局全部話した。'"}
+{"id": "JG-3732659b12", "type": "context", "issue": "pattern sai '〜勝つとはない'; vi ví dụ 1 dịch sai 'không thể thắng dễ được'; vi ví dụ 2 lỗi chính tả 'chưa hắn'", "suggest": "pattern: '〜とは限らない'; vi1: 'Dù đối thủ là đội yếu thì cũng chưa chắc đã thắng.'; vi2: 'chưa hẳn là'"}
+{"id": "JG-028fdb49dc", "type": "context", "issue": "pattern sai '〜勝つにている'; ví dụ 2 '彼がやったに違いない' dùng に違いない chứ không phải に決まっている", "suggest": "pattern: '〜に決まっている'; ja2: '彼がやったに決まっている。'"}
+{"id": "JG-2762feb3ad", "type": "context", "issue": "pattern '〜中国語をはじめアジアの国々が' dính từ ví dụ và không khớp ví dụ (中国); vi ví dụ 1 dịch sai 'đầu tiên là ở Trung Quốc sau đó'", "suggest": "pattern: 'Nをはじめ(として)'; vi1: 'Hội nghị có các nước châu Á tham gia, tiêu biểu là Trung Quốc.'"}
+{"id": "JG-4c5a658adc", "type": "context", "issue": "ví dụ 2 gõ sai '電話カメール'", "suggest": "ja: '電話かメールにてご連絡ください。'"}
+{"id": "JG-4fd7473e2a", "type": "context", "issue": "ví dụ 1 không phải câu ('済む' / 'Cách kết hợp:'); vi ví dụ 2 dịch sai 自転車 thành 'ô tô'", "suggest": "bỏ ví dụ 1; vi2: 'Tôi ngã xe đạp bị thương nhưng may là không phải phẫu thuật.'"}
+{"id": "JG-9a0e75b3dc", "type": "context", "issue": "ví dụ 1 sai chữ 'しないではいらなかった'; vi ví dụ 1 dịch sai nghĩa", "suggest": "ja: 'もう真夜中だったが、心配で電話をしないではいられなかった。'; vi: 'Đã nửa đêm rồi nhưng vì lo quá nên tôi không thể không gọi điện.'"}
+{"id": "JG-db5ba671d2", "type": "context", "issue": "ví dụ 1 là danh sách cụm từ, không phải câu, và '宗教上理由' thiếu の", "suggest": "thay bằng câu hoàn chỉnh, vd '宗教上の理由で、肉を食べない人もいる。'"}
+{"id": "JG-f2a4e9bebd", "type": "context", "issue": "meaning_vi trống", "suggest": "meaning_vi: 'chẳng phải là... sao; hóa ra là... đấy'"}
+{"id": "JG-15d5da51f6", "type": "context", "issue": "meaning_vi trống; vi hai ví dụ dùng dấu '。' tiếng Nhật và có '」' thừa", "suggest": "meaning_vi: 'khi, nhân dịp (trang trọng)'; sửa dấu câu tiếng Việt"}
+{"id": "JG-71f54791a7", "type": "context", "issue": "ví dụ 1 '忙し気味' không tự nhiên (気味 gắn với Vます/N)", "suggest": "ja: '最近、疲れ気味で、睡眠不足だ。'"}
+{"id": "JG-ad0fc20620", "type": "context", "issue": "ví dụ 1 có thêm '守らねばならない' không thuộc mẫu てはならない", "suggest": "ja: '人を差別してはならない。'"}

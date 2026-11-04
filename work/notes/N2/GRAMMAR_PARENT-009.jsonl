@@ -1,0 +1,20 @@
+{"id": "JG-69fda2a9e1", "type": "uncertain", "issue": "〜ときりがない (kể ra thì vô tận) không có mẫu chính cùng chức năng; tạm gắn vào やら〜やら/Nào là... nào là... vì cùng ý liệt kê còn nhiều", "suggest": "cân nhắc để làm mẫu chính riêng hoặc gắn vào mẫu liệt kê khác"}
+{"id": "JG-262185b7cd", "type": "uncertain", "issue": "いつまで〜のやら (than không biết đến bao giờ) không có mẫu chính tương ứng; tạm gắn vào 事(こと)か (cảm thán, thở dài)", "suggest": "giữ hoặc tách thành mẫu chính riêng"}
+{"id": "JG-08e00293a3", "type": "uncertain", "issue": "のいかんだ (tùy thuộc vào) gắn vào 次第 JG-2a89ac62ec; meaning_vi của mẫu chính 次第 hiện ghi nghĩa 'với lý do đó, vì...' (次第だ = sự tình) chứ không phải 'tùy thuộc vào'", "suggest": "sửa meaning_vi của JG-2a89ac62ec thành 'tùy vào, phụ thuộc vào' hoặc chuyển sang に応じて JG-0d2b9dbee5"}
+{"id": "JG-80af31a136", "type": "uncertain", "issue": "〜というより (nói đúng hơn là) không có mẫu chính cùng chức năng; tạm gắn vào 〜というか・・・というか (cùng nhóm diễn đạt lại bằng という)", "suggest": "giữ hoặc tách thành mẫu chính riêng"}
+{"id": "JG-d17c6a78fb", "type": "context", "issue": "pattern là cả một câu ví dụ thay vì mẫu; ví dụ 2 sai chữ 'がれからも好きかれている'; ví dụ 1 có dấu '*' thừa", "suggest": "pattern: 〜べきではない; ví dụ 2: 彼女は愛すべき人柄で、誰からも好かれている。; bỏ '*' ở ví dụ 1"}
+{"id": "JG-d17c6a78fb", "type": "uncertain", "issue": "〜べきではない không có mẫu chính べき; gắn vào 事(こと)だ (khuyên nên làm) là gần nhất", "suggest": "cân nhắc mẫu chính べきだ riêng"}
+{"id": "JG-884da05e68", "type": "uncertain", "issue": "べきだ/べきではない không có mẫu chính tương ứng; gắn vào 事(こと)だ (nên, cần phải)", "suggest": "cân nhắc mẫu chính べきだ riêng"}
+{"id": "JG-b8129f7c08", "type": "uncertain", "issue": "〜てはかなわない (nếu bị... thì không chịu nổi) gần nhất với 〜て堪らない nhưng cấu trúc điều kiện khác", "suggest": "giữ JG-f0197c90bb hoặc tách riêng"}
+{"id": "JG-c7fa1a7aa7", "type": "context", "issue": "ví dụ 1 '〈インタビュー： 最高齢の選手の話〉' là tiêu đề ngữ cảnh, không phải câu ví dụ", "suggest": "bỏ ví dụ này, chỉ giữ 体力が続く限りは、頑張りたいと思います。"}
+{"id": "JG-87b6d4605c", "type": "context", "issue": "pattern lẫn từ của ví dụ '〜来日の折には'", "suggest": "〜折(に)"}
+{"id": "JG-fad60662f3", "type": "context", "issue": "pattern lẫn từ của ví dụ '〜試験を受ける以上'", "suggest": "〜以上(は)"}
+{"id": "JG-f6fdd1ccdf", "type": "uncertain", "issue": "〜だけましだ (còn đỡ, còn may) không có mẫu chính cùng chức năng; tạm gắn vào 〜だけに (cùng họ だけ đánh giá)", "suggest": "cân nhắc tách thành mẫu chính riêng"}
+{"id": "JG-122eb3ec7a", "type": "uncertain", "issue": "〜かいがあって (bõ công) không có mẫu chính cùng chức năng; tạm gắn vào 〜だけあって (tương xứng với)", "suggest": "cân nhắc mẫu chính 甲斐 riêng, gộp cả 〜がいがある"}
+{"id": "JG-e3ed19b972", "type": "uncertain", "issue": "Vます + がいがある (đáng để làm) không có mẫu chính cùng chức năng; tạm gắn vào 〜だけあって", "suggest": "cân nhắc mẫu chính 甲斐 riêng"}
+{"id": "JG-78f29bcb57", "type": "context", "issue": "pattern lẫn từ của ví dụ '〜外国人から見ると'", "suggest": "N + から見ると"}
+{"id": "JG-5e1ae4800f", "type": "context", "issue": "pattern lẫn từ của ví dụ '〜客の立場から言うと'", "suggest": "N + から言うと"}
+{"id": "JG-6112a4cac3", "type": "context", "issue": "ví dụ 1 sai chữ 'かのようだたった'", "suggest": "…敷き詰めたかのようだった。"}
+{"id": "JG-6112a4cac3", "type": "uncertain", "issue": "〜かのようだ (như thể, thực tế không phải) không có mẫu chính cùng chức năng; tạm gắn vào と見える", "suggest": "cân nhắc tách riêng"}
+{"id": "JG-3808f7dcb2", "type": "context", "issue": "pattern lẫn từ của ví dụ '〜2007年から2009年にかけて'", "suggest": "N + から N + にかけて"}
+{"id": "JG-04f339ca21", "type": "uncertain", "issue": "〜ところをみると (xét từ việc... thì có vẻ) không cùng chức năng với ứng viên 〜ところを; gắn vào からすると/からすれば (căn cứ để phán đoán)", "suggest": "giữ JG-bee2c11c8f hoặc chuyển sang と見える JG-8bd4d36a97"}

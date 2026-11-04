@@ -1,0 +1,9 @@
+{"id": "JG-a454643dc9", "type": "uncertain", "issue": "〜にかかっている (phụ thuộc vào) không có mẫu chính trùng hẳn; に応じて là 'tùy theo, ứng với' nên chỉ gần nghĩa", "suggest": "giữ に応じて JG-0d2b9dbee5; nếu có mẫu chính 〜次第だ 'tùy thuộc vào' thì gắn vào đó"}
+{"id": "JG-988a750c56", "type": "uncertain", "issue": "liên từ なお (bổ sung thông tin phụ) không có mẫu chính cùng chức năng; chọn に加えて 'thêm vào đó' là gần nhất", "suggest": "gom chung nhóm liên từ bổ sung (なお/ちなみに) nếu sau này có mẫu chính phù hợp"}
+{"id": "JG-1626cbf6ba", "type": "uncertain", "issue": "liên từ さて (chuyển sang chuyện khác) không có mẫu chính trùng chức năng; chọn 〜はさておき 'gác chuyện đó sang một bên' là gần nhất", "suggest": "giữ JG-fcc35b2c34 hoặc gắn vào nhóm liên từ chuyển đề tài nếu có"}
+{"id": "JG-6f866a8a5a", "type": "uncertain", "issue": "liên từ ちなみに (nhân tiện nói thêm) không có mẫu chính trùng chức năng; chọn 〜といえば 'nói đến... thì' là gần nhất (cùng gợi liên tưởng sang thông tin liên quan)", "suggest": "có thể gắn vào に加えて JG-97d8466d44 cùng nhóm với なお"}
+{"id": "JG-a454643dc9", "type": "context", "issue": "vi ví dụ 1 lỗi chính tả 'hụ thuộc'", "suggest": "phụ thuộc"}
+{"id": "JG-34d7003451", "type": "context", "issue": "pattern '〜薬を塗った。すると痛みがた。' bị cụt chữ; vi ví dụ 2 'Đã ở cửa', 'bướm' sai (蛾 là bướm đêm/ngài)", "suggest": "pattern '〜薬を塗った。すると痛みが治まった。'; vi 'Tôi mở cửa sổ. Thế là một con bướm đêm bay vào.'"}
+{"id": "JG-f8694f9d4f", "type": "context", "issue": "ví dụ 2 '病気の場合の別です' sai trợ từ", "suggest": "病気の場合は別です"}
+{"id": "JG-da70169d13", "type": "context", "issue": "vi ví dụ lỗi chính tả 'thông thông minh', 'không đền lần thứ hai'", "suggest": "'thông minh', 'không đến lần thứ hai'"}
+{"id": "JG-1626cbf6ba", "type": "context", "issue": "vi ví dụ 1 thiếu chữ 'Và bây là'", "suggest": "Và bây giờ là"}
