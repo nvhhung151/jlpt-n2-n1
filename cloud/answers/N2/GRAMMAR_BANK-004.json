@@ -1,0 +1,546 @@
+{
+ "JG-2d74d0b254": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "あまりにおかしい話だったので、笑わ（　　）。",
+    "options": ["ないにはいられなかった", "ないではいかなかった", "ないではいられなかった", "ずではいられなかった"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「ないではいられなかった」: Vない + ではいられない diễn tả không kìm được mà phải làm. Các dạng にはいられない, ではいかない, ずでは không tồn tại. Nghĩa: Câu chuyện buồn cười quá nên tôi không nhịn được cười."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "この映画のラストシーンは、何度見ても泣か（　　）。",
+    "options": ["ないではいらない", "ないとはいられない", "ないではいかない", "ないではいられない"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「ないではいられない」: mẫu cố định là Vない + では + いられない (いる khả năng), không dùng いらない, と hay いかない. Nghĩa: Cảnh cuối phim này xem bao nhiêu lần tôi cũng không kìm được nước mắt."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "彼の失礼な態度を見て、＿＿ ＿＿ ★ ＿＿られなかった。",
+    "options": ["言わない", "い", "一言", "では"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 彼の失礼な態度を見て、一言言わないではいられなかった。 (Thấy thái độ vô lễ của anh ta, tôi không thể không nói một câu.). Mảnh ở ô ★ là 「では」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "かわいい子犬を見ると、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["では", "頭に", "いられない", "触らない"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: かわいい子犬を見ると、頭に触らないではいられない。 (Thấy chú chó con dễ thương là tôi không kìm được mà xoa đầu nó.). Mảnh ở ô ★ là 「触らない」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "将来のことを考えると、心配しないではいられない。",
+    "options": ["Nghĩ đến tương lai, tôi không cần phải lo lắng.", "Nghĩ đến tương lai, tôi không hề lo lắng chút nào.", "Tôi đã cố gắng không lo lắng về tương lai.", "Nghĩ đến tương lai, tôi không thể không lo lắng."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜ないではいられない (không kìm được mà phải làm): \"Nghĩ đến tương lai, tôi không thể không lo lắng.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "その写真を見たら、昔の友だちに会いたいと思わないではいられなかった。",
+    "options": ["Xem bức ảnh đó, tôi không khỏi muốn gặp lại người bạn cũ.", "Xem bức ảnh đó, tôi không muốn gặp lại người bạn cũ nữa.", "Người bạn cũ đã gửi cho tôi bức ảnh đó.", "Tôi phải gặp người bạn cũ để trả lại bức ảnh."],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜ないではいられない (không kìm được cảm xúc): \"Xem bức ảnh đó, tôi không khỏi muốn gặp lại người bạn cũ.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["その歌を聞くと、一緒に歌わないではいられない。", "友だちの悩みを聞いて、助けないではいられなかった。", "今日は朝から眠くないではいられない。", "おいしそうなケーキを見ると、食べないではいられない。"],
+    "answer_index": 2,
+    "explanation_vi": "「今日は朝から眠くないではいられない。」 sai: mẫu này đi với động từ hành động (歌う, 助ける, 食べる), không dùng với tính từ chỉ cảm giác như 眠い. Câu đúng: 今日は朝から眠くてたまらない。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼の失礼な言葉に、文句を言うないではいられなかった。", "おかしくて、笑わないではいられなかった。", "その知らせを聞いて、泣かないではいられなかった。", "母が心配で、電話しないではいられなかった。"],
+    "answer_index": 0,
+    "explanation_vi": "「文句を言うないではいられなかった」 sai: trước ではいられない phải là thể ない (言わない), không phải 言うない. Câu đúng: 彼の失礼な言葉に、文句を言わないではいられなかった。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["泣かないでは", "その知らせを", "いられなかった。", "聞いて、"],
+    "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Nghe tin đó, tôi không kìm được nước mắt."
+   },
+   {
+    "pieces": ["努力には、", "いられない。", "彼女の", "感心しないでは"],
+    "answer_order": [2, 0, 3, 1],
+    "translation_vi": "Trước sự nỗ lực của cô ấy, tôi không thể không thán phục."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "子どもが危ない所で遊んでいるのを見て、注意しないでは＿＿。",
+    "answer": "いられなかった",
+    "accept": ["いられない"],
+    "translation_vi": "Thấy bọn trẻ chơi ở chỗ nguy hiểm, tôi không thể không nhắc nhở."
+   },
+   {
+    "sentence_ja": "おいしそうなにおいがして、つい食べ＿＿いられなかった。",
+    "answer": "ないでは",
+    "accept": ["ずには"],
+    "translation_vi": "Mùi thơm ngon quá nên tôi không nhịn được mà ăn mất."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "電車の中で隣の人の話が面白くて、笑わないでは（　　）。",
+    "options": ["いけなかった", "ならなかった", "いられなかった", "いかなかった"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「いられなかった」: mẫu là Vない + ではいられない; いけない, ならない, いかない không ghép với ないでは theo nghĩa này. Nghĩa: Trên tàu, câu chuyện của người bên cạnh buồn cười quá nên tôi không nhịn được cười."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "あの人の歌を聞くと、涙を流さないではいられない。",
+    "options": ["Nghe người đó hát, tôi cố gắng để không khóc.", "Nghe người đó hát, tôi không kìm được nước mắt.", "Nghe người đó hát, tôi chưa bao giờ rơi nước mắt.", "Người đó vừa hát vừa khóc."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜ないではいられない (không kìm được mà phải làm): \"Nghe người đó hát, tôi không kìm được nước mắt.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["その話を聞いて、怒らないではいられなかった。", "かわいい猫を見ると、触りないではいられない。", "困っている人を見ると、声をかけないではいられない。", "結果が気になって、先生に聞かないではいられなかった。"],
+    "answer_index": 1,
+    "explanation_vi": "「触りないではいられない」 sai: thể ない của 触る là 触らない. Câu đúng: かわいい猫を見ると、触らないではいられない。"
+   }
+  ]
+ },
+ "JG-8ee65c6820": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "このアニメは子ども（　　）、大人にも人気がある。",
+    "options": ["に限って", "に対して", "に限らず", "によって"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「に限らず」: N + に限らず nghĩa là không chỉ riêng N, vế sau mở rộng thêm (大人にも). に限って lại thu hẹp (chỉ riêng), không hợp với も. Nghĩa: Bộ phim hoạt hình này không chỉ trẻ em mà người lớn cũng yêu thích."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "この病気は高齢者（　　）、若い人もかかることがある。",
+    "options": ["にとって", "に限らず", "のおかげで", "にかけては"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「に限らず」: không chỉ người cao tuổi mà người trẻ cũng có thể mắc. にとって (đối với), のおかげで (nhờ), にかけては (về khoản giỏi) đều không hợp nghĩa. Nghĩa: Bệnh này không chỉ người già, người trẻ cũng có khi mắc phải."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "人手不足は、＿＿ ＿＿ ★ ＿＿広がっている。",
+    "options": ["町でも", "に限らず", "東京", "地方の"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 人手不足は、東京に限らず地方の町でも広がっている。 (Tình trạng thiếu nhân lực không chỉ ở Tokyo mà đang lan rộng cả ở các thị trấn địa phương.). Mảnh ở ô ★ là 「地方の」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この店のパンは、＿＿ ＿＿ ★ ＿＿売れている。",
+    "options": ["一日中", "朝", "よく", "に限らず"],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: この店のパンは、朝に限らず一日中よく売れている。 (Bánh mì của tiệm này không chỉ buổi sáng mà cả ngày đều bán chạy.). Mảnh ở ô ★ là 「一日中」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この問題は若者に限らず、どの世代にも関係がある。",
+    "options": ["Vấn đề này chỉ liên quan đến giới trẻ.", "Vấn đề này liên quan đến giới trẻ nhiều hơn các thế hệ khác.", "Vấn đề này không liên quan gì đến giới trẻ.", "Vấn đề này không chỉ riêng giới trẻ mà liên quan đến mọi thế hệ."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu に限らず (không chỉ riêng): \"Vấn đề này không chỉ riêng giới trẻ mà liên quan đến mọi thế hệ.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この店ではお酒に限らず、飲み物は全部半額だ。",
+    "options": ["Ở quán này không chỉ rượu bia mà mọi đồ uống đều giảm nửa giá.", "Ở quán này chỉ có rượu bia được giảm nửa giá.", "Ở quán này mọi đồ uống đều giảm nửa giá, trừ rượu bia.", "Ở quán này rượu bia được uống thoải mái với nửa giá."],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu に限らず (không chỉ riêng): \"Ở quán này không chỉ rượu bia mà mọi đồ uống đều giảm nửa giá.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["日本に限らず、多くの国で子どもの数が減っている。", "このセールは今日に限らず、明日はもう安くなりません。", "スポーツに限らず、何でも練習が大切だ。", "この店は平日に限らず、週末も朝早くから開いている。"],
+    "answer_index": 1,
+    "explanation_vi": "「このセールは今日に限らず、明日はもう安くなりません。」 sai: vế sau nói chỉ có hôm nay giảm giá, nên phải dùng に限り (chỉ riêng), không dùng に限らず (không chỉ). Câu đúng: このセールは今日に限り、明日はもう安くなりません。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["料理に限らず、母は手で作る物が何でも得意だ。", "この服は若い人に限らず、年配の人にもよく売れている。", "雨の日に限らず、この道はいつも混んでいる。", "サッカーを限らず、スポーツは何でも好きだ。"],
+    "answer_index": 3,
+    "explanation_vi": "「サッカーを限らず」 sai: mẫu là N + に限らず, không dùng trợ từ を. Câu đúng: サッカーに限らず、スポーツは何でも好きだ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["人気がある。", "日本に限らず、", "この歌は", "アジアの国々でも"],
+    "answer_order": [2, 1, 3, 0],
+    "translation_vi": "Bài hát này không chỉ ở Nhật Bản mà ở các nước châu Á cũng được yêu thích."
+   },
+   {
+    "pieces": ["一年中", "火事は", "冬に限らず、", "起こる。"],
+    "answer_order": [1, 2, 0, 3],
+    "translation_vi": "Hỏa hoạn không chỉ xảy ra vào mùa đông mà quanh năm."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "この病院は平日＿＿、土曜日も診察している。",
+    "answer": "に限らず",
+    "accept": ["だけでなく", "のみならず", "ばかりでなく"],
+    "translation_vi": "Bệnh viện này không chỉ ngày thường mà thứ Bảy cũng khám bệnh."
+   },
+   {
+    "sentence_ja": "スマートフォンの使いすぎは、子ども＿＿大人にとっても問題だ。",
+    "answer": "に限らず",
+    "accept": ["だけでなく", "のみならず", "ばかりでなく"],
+    "translation_vi": "Việc dùng điện thoại thông minh quá nhiều không chỉ là vấn đề với trẻ em mà cả với người lớn."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "このレストランでは、日本料理（　　）、いろいろな国の料理が食べられる。",
+    "options": ["に限って", "に限らず", "に限り", "に限る"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「に限らず」: không chỉ món Nhật mà còn nhiều món nước khác. に限って, に限り mang nghĩa 'chỉ riêng' nên mâu thuẫn với vế sau; に限る là 'tốt nhất là'. Nghĩa: Ở nhà hàng này không chỉ món Nhật mà còn ăn được món của nhiều nước."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "このかばんは旅行に限らず、仕事にも使える。",
+    "options": ["Chiếc túi này chỉ dùng được khi đi du lịch.", "Chiếc túi này đi làm thì không dùng được.", "Chiếc túi này không chỉ dùng khi đi du lịch mà còn dùng được cho công việc.", "Chiếc túi này quá to nên không mang đi du lịch được."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu に限らず (không chỉ riêng): \"Chiếc túi này không chỉ dùng khi đi du lịch mà còn dùng được cho công việc.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["この問題は日本に限らずで、世界中で起きている。", "このイベントには、学生に限らずだれでも参加できる。", "夏に限らず、冬も水をよく飲んだほうがいい。", "このアプリは若者に限らず、お年寄りにも使いやすい。"],
+    "answer_index": 0,
+    "explanation_vi": "「日本に限らずで」 sai: に限らず đã là dạng nối câu, không thêm で. Câu đúng: この問題は日本に限らず、世界中で起きている。"
+   }
+  ]
+ },
+ "JG-50ac9e29c0": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼は仕事ができる（　　）、人柄もいいので、みんなに好かれている。",
+    "options": ["うちに", "のみならず", "のみで", "ところで"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「のみならず」: thể thường + のみならず = không chỉ… mà còn…, vế sau có も bổ sung điều cùng hướng. Nghĩa: Anh ấy không chỉ làm việc giỏi mà tính tình cũng tốt nên được mọi người quý mến."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "この町は景色が美しい（　　）、食べ物もおいしいことで有名だ。",
+    "options": ["にもかかわらず", "ために", "とおりに", "のみならず"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「のみならず」: hai điều tốt cộng thêm nhau (cảnh đẹp + đồ ăn ngon). にもかかわらず là tương phản, ために là nguyên nhân/mục đích, とおりに là 'đúng như' nên không hợp. Nghĩa: Thị trấn này nổi tiếng không chỉ vì cảnh đẹp mà còn vì đồ ăn ngon."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この薬は、＿＿ ＿＿ ★ ＿＿効果がある。",
+    "options": ["のにも", "頭痛", "熱を下げる", "のみならず"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: この薬は、頭痛のみならず熱を下げるのにも効果がある。 (Thuốc này không chỉ trị đau đầu mà còn có tác dụng hạ sốt.). Mảnh ở ô ★ là 「熱を下げる」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "このアニメは、＿＿ ＿＿ ＿＿ ★愛されている。",
+    "options": ["海外の", "のみならず", "ファンにも", "日本国内"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: このアニメは、日本国内のみならず海外のファンにも愛されている。 (Bộ phim hoạt hình này không chỉ được yêu thích trong nước Nhật mà cả người hâm mộ nước ngoài.). Mảnh ở ô ★ là 「ファンにも」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "その店は値段が安いのみならず、サービスもとてもいい。",
+    "options": ["Quán đó chỉ được cái giá rẻ, dịch vụ thì không tốt.", "Quán đó giá rẻ nhưng dịch vụ không tốt lắm.", "Quán đó không chỉ giá rẻ mà dịch vụ cũng rất tốt.", "Quán đó dịch vụ tốt nên giá không hề rẻ."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜のみならず (không chỉ… mà còn…): \"Quán đó không chỉ giá rẻ mà dịch vụ cũng rất tốt.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この問題は一つの町のみならず、国全体に影響を与えている。",
+    "options": ["Vấn đề này không chỉ ảnh hưởng đến một thị trấn mà đến cả nước.", "Vấn đề này chỉ ảnh hưởng đến một thị trấn.", "Vấn đề này ảnh hưởng đến cả nước, trừ một thị trấn.", "Vấn đề này không ảnh hưởng đến thị trấn nào."],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜のみならず (không chỉ… mà còn…): \"Vấn đề này không chỉ ảnh hưởng đến một thị trấn mà đến cả nước.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["学生のみならず、先生もその意見に賛成した。", "彼は約束に遅れたのみならず、連絡もしなかった。", "この部屋は静かだのみならず、駅にも近い。", "この料理は味のみならず、見た目もすばらしい。"],
+    "answer_index": 2,
+    "explanation_vi": "「静かだのみならず」 sai: tính từ な đứng trước のみならず dùng dạng 静かな hoặc 静かである, không dùng だ. Câu đúng: この部屋は静かなのみならず、駅にも近い。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["この本は日本のみならず、外国でも読まれている。", "彼は日本語のみならず、英語は全然話せない。", "その事故で、車のみならず近くの家も壊れた。", "彼女は勉強のみならず、スポーツもよくできる。"],
+    "answer_index": 1,
+    "explanation_vi": "「彼は日本語のみならず、英語は全然話せない。」 sai: のみならず cần vế sau bổ sung điều cùng hướng (thường có も), không dùng với ý ngược lại. Câu đúng: 彼は日本語のみならず、英語も話せる。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["ダンスも", "歌のみならず、", "上手だ。", "彼は"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Anh ấy không chỉ hát hay mà nhảy cũng giỏi."
+   },
+   {
+    "pieces": ["町の人々にも", "乗客のみならず、", "その事故は、", "大きなショックを与えた。"],
+    "answer_order": [2, 1, 0, 3],
+    "translation_vi": "Vụ tai nạn đó không chỉ gây cú sốc lớn cho hành khách mà cả người dân thị trấn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "この地域は、夏＿＿冬も観光客が多い。",
+    "answer": "のみならず",
+    "accept": ["だけでなく", "ばかりでなく", "に限らず"],
+    "translation_vi": "Vùng này không chỉ mùa hè mà mùa đông cũng đông khách du lịch."
+   },
+   {
+    "sentence_ja": "彼は約束を忘れた＿＿、謝りもしなかった。",
+    "answer": "のみならず",
+    "accept": ["だけでなく", "ばかりか", "上に"],
+    "translation_vi": "Anh ta không chỉ quên lời hẹn mà còn chẳng xin lỗi."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この仕事は体力（　　）、強い精神力も必要だ。",
+    "options": ["によると", "のみで", "のみならず", "のくせに"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「のみならず」: N + のみならず, vế sau có も thêm một yêu cầu nữa. のみで (chỉ với), によると (theo), のくせに (vậy mà) không hợp. Nghĩa: Công việc này không chỉ cần thể lực mà còn cần tinh thần vững vàng."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "その選手は、＿＿ ＿＿ ★ ＿＿尊敬されている。",
+    "options": ["よさでも", "技術", "人柄の", "のみならず"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: その選手は、技術のみならず人柄のよさでも尊敬されている。 (Vận động viên đó được kính trọng không chỉ vì kỹ thuật mà còn vì nhân cách tốt.). Mảnh ở ô ★ là 「人柄の」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "雨が降ってきたのみならず、風も強くなってきた。",
+    "options": ["Mưa đã tạnh nhưng gió vẫn còn mạnh.", "Không chỉ trời bắt đầu mưa mà gió cũng mạnh dần lên.", "Chỉ có mưa thôi, không có gió.", "Vì gió mạnh lên nên trời bắt đầu mưa."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜のみならず (không chỉ… mà còn…): \"Không chỉ trời bắt đầu mưa mà gió cũng mạnh dần lên.\""
+   }
+  ]
+ },
+ "JG-98b6a42d2d": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この公園は、週末（　　）平日も多くの家族でにぎわっている。",
+    "options": ["をもとに", "にもとづいて", "はもとより", "のもとで"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「はもとより」: N + はもとより = N thì đã đành, vế sau (平日も) còn rộng hơn. をもとに, にもとづいて (dựa trên), のもとで (dưới sự…) không hợp nghĩa. Nghĩa: Công viên này cuối tuần thì khỏi nói, ngày thường cũng đông các gia đình."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "この料理はやわらかいので、子ども（　　）、お年寄りにも食べやすい。",
+    "options": ["によって", "はもとより", "にかわって", "について"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「はもとより」: trẻ em thì đương nhiên, người già cũng dễ ăn. によって, にかわって (thay cho), について (về) không nối được với にも ở vế sau. Nghĩa: Món này mềm nên trẻ em thì khỏi nói, người già cũng dễ ăn."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "田中さんは、＿＿ ＿＿ ★ ＿＿得意だ。",
+    "options": ["洗濯も", "料理", "掃除や", "はもとより"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 田中さんは、料理はもとより掃除や洗濯も得意だ。 (Anh Tanaka nấu ăn thì khỏi nói, dọn dẹp hay giặt giũ cũng giỏi.). Mảnh ở ô ★ là 「掃除や」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "今回の地震では、＿＿ ＿＿ ＿＿ ★被害が出た。",
+    "options": ["はもとより", "道路にも", "古い建物", "新しい"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 今回の地震では、古い建物はもとより新しい道路にも被害が出た。 (Trong trận động đất lần này, nhà cũ thì khỏi nói, cả những con đường mới cũng bị hư hại.). Mảnh ở ô ★ là 「道路にも」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この店は味はもとより、店員の対応もすばらしい。",
+    "options": ["Quán này hương vị bình thường nhưng nhân viên tiếp đón rất tốt.", "Quán này chỉ được cái nhân viên tiếp đón tốt.", "Quán này đồ ăn ngon nhưng nhân viên tiếp đón kém.", "Quán này hương vị thì khỏi phải nói, cách tiếp đón của nhân viên cũng tuyệt vời."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu はもとより (… thì đã đành, … cũng): \"Quán này hương vị thì khỏi phải nói, cách tiếp đón của nhân viên cũng tuyệt vời.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この大学には、国内はもとより海外からも学生が集まる。",
+    "options": ["Trường đại học này thu hút sinh viên trong nước là đương nhiên, mà cả sinh viên từ nước ngoài.", "Trường đại học này chỉ nhận sinh viên trong nước.", "Trường đại học này có nhiều sinh viên nước ngoài hơn trong nước.", "Trường đại học này ít sinh viên trong nước theo học."],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu はもとより (… thì đã đành, … cũng): \"Trường đại học này thu hút sinh viên trong nước là đương nhiên, mà cả sinh viên từ nước ngoài.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["この歌は若者はもとより、お年寄りにも人気がある。", "その店は平日はもとより、週末も予約でいっぱいだ。", "彼は漢字はもとより、ひらがなも読めない。", "大人はもとより、子どもでもできる簡単な問題だ。"],
+    "answer_index": 3,
+    "explanation_vi": "「大人はもとより、子どもでもできる簡単な問題だ。」 sai: vế trước phải là điều hiển nhiên hơn. Người lớn làm được là đương nhiên nên câu này đúng ý, nhưng đây lại là câu 'cả trẻ em cũng làm được' nên cần nêu điều khó hơn ở sau; thực ra lỗi ở chỗ 子どもでもできる chỉ có nghĩa 'ngay cả trẻ em', không phải phạm vi rộng hơn. Câu đúng: 子どもはもとより、大人でも難しい問題だ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼は英語はもとより、韓国語も話せる。", "泳ぐはもとより、走るのも得意だ。", "この町は夏はもとより、冬も観光客が多い。", "旅行の準備はもとより、宿の予約もまだしていない。"],
+    "answer_index": 1,
+    "explanation_vi": "「泳ぐはもとより」 sai: はもとより đi sau danh từ; động từ phải danh từ hóa bằng の (泳ぐのは). Câu đúng: 泳ぐのはもとより、走るのも得意だ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["遠くからも", "地元の人はもとより、", "この祭りには、", "大勢の人が来る。"],
+    "answer_order": [2, 1, 0, 3],
+    "translation_vi": "Lễ hội này người địa phương thì khỏi nói, rất nhiều người từ xa cũng đến."
+   },
+   {
+    "pieces": ["このホテルは、", "すばらしい。", "部屋はもとより、", "朝ご飯も"],
+    "answer_order": [0, 2, 3, 1],
+    "translation_vi": "Khách sạn này phòng ốc thì khỏi nói, bữa sáng cũng tuyệt vời."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "健康のためには、食事＿＿、睡眠も大切だ。",
+    "answer": "はもとより",
+    "accept": ["はもちろん"],
+    "translation_vi": "Để có sức khỏe, ăn uống thì khỏi nói, giấc ngủ cũng quan trọng."
+   },
+   {
+    "sentence_ja": "この映画は、日本＿＿、世界中で大ヒットした。",
+    "answer": "はもとより",
+    "accept": ["はもちろん"],
+    "translation_vi": "Bộ phim này ở Nhật thì khỏi nói, còn thành công vang dội khắp thế giới."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この仕事には、パソコンの知識（　　）、英語の力も必要だ。",
+    "options": ["のおかげで", "のせいで", "のように", "はもとより"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「はもとより」: kiến thức máy tính là đương nhiên, còn cần cả tiếng Anh (も). のおかげで, のせいで là nguyên nhân, のように là so sánh nên không hợp. Nghĩa: Công việc này kiến thức máy tính thì khỏi nói, còn cần cả năng lực tiếng Anh."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "あの先生は、学生はもとより、ほかの先生からも信頼されている。",
+    "options": ["Thầy ấy được sinh viên tin tưởng, nhưng các giáo viên khác thì không.", "Thầy ấy được sinh viên tin tưởng là đương nhiên, mà cả các giáo viên khác cũng tin tưởng.", "Thầy ấy tin tưởng sinh viên hơn các giáo viên khác.", "Thầy ấy chỉ được các giáo viên khác tin tưởng."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu はもとより (… thì đã đành, … cũng): \"Thầy ấy được sinh viên tin tưởng là đương nhiên, mà cả các giáo viên khác cũng tin tưởng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["この料理は見た目はもとより、味もいい。", "日曜日はもとより、土曜日も休みだ。", "この町は夏はもとよりに、冬も観光客が多い。", "家族はもとより、友だちも応援してくれた。"],
+    "answer_index": 2,
+    "explanation_vi": "「夏はもとよりに」 sai: はもとより đứng một mình để nối câu, không thêm に. Câu đúng: この町は夏はもとより、冬も観光客が多い。"
+   }
+  ]
+ },
+ "JG-52fc31fea7": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この店は料理がおいしい（　　）、値段も安い。",
+    "options": ["上で", "うちに", "上に", "以上"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「上に」: thể thường + 上に = không chỉ… lại còn…, thêm một điều tốt cùng chiều. 上で (sau khi), うちに (trong lúc), 以上 (một khi đã) không hợp. Nghĩa: Quán này đồ ăn ngon, giá lại còn rẻ."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "昨日は雨が降っていた（　　）、風も強くて大変だった。",
+    "options": ["くせに", "上に", "ものの", "わりに"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「上に」: hai điều xấu cộng thêm (mưa + gió mạnh). くせに (vậy mà, chê trách), ものの (tuy… nhưng), わりに (so với… thì) đều là ý tương phản nên sai. Nghĩa: Hôm qua trời mưa, gió lại còn mạnh nên rất vất vả."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この部屋は、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["も高い", "上に", "狭い", "家賃"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: この部屋は、狭い上に家賃も高い。 (Căn phòng này chật, tiền thuê lại còn đắt.). Mảnh ở ô ★ là 「家賃」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "山田さんは★ ＿＿ ＿＿ ＿＿。",
+    "options": ["仕事も", "早い", "上に", "親切な"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 山田さんは親切な上に仕事も早い。 (Anh Yamada tốt bụng, làm việc lại còn nhanh.). Mảnh ở ô ★ là 「親切な」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "道に迷った上に、携帯電話の電池も切れてしまった。",
+    "options": ["Sau khi lạc đường, tôi đã sạc pin điện thoại.", "Đã bị lạc đường, điện thoại lại còn hết pin nữa.", "Vì điện thoại hết pin nên tôi mới bị lạc đường.", "Tôi bị lạc đường nhưng điện thoại vẫn còn pin."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 上に (không chỉ… lại còn…): \"Đã bị lạc đường, điện thoại lại còn hết pin nữa.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "このパソコンは軽い上に、電池も長く持つ。",
+    "options": ["Chiếc máy tính này nhẹ nhưng pin nhanh hết.", "Chiếc máy tính này vì nhẹ nên pin dùng được lâu.", "Chiếc máy tính này nặng nhưng pin dùng được lâu.", "Chiếc máy tính này nhẹ, pin lại còn dùng được lâu."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 上に (không chỉ… lại còn…): \"Chiếc máy tính này nhẹ, pin lại còn dùng được lâu.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["この道は暗い上に、人も少ない。", "彼女は親切な上に、仕事もできる。", "今日は寒い上に、雪も降ってきた。", "彼は医者上に、小説も書いている。"],
+    "answer_index": 3,
+    "explanation_vi": "「医者上に」 sai: danh từ đứng trước 上に phải thêm の hoặc である (医者である上に). Câu đúng: 彼は医者である上に、小説も書いている。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["雨が降っている上に、傘を持って行ってください。", "この店は安い上に、店員も親切だ。", "道が混んでいた上に、事故もあって遅れた。", "彼は頭がいい上に、努力家だ。"],
+    "answer_index": 0,
+    "explanation_vi": "「雨が降っている上に、傘を持って行ってください。」 sai: vế sau của 上に không dùng câu nhờ vả, mệnh lệnh; 上に chỉ cộng thêm một sự việc cùng chiều. Câu đúng: 雨が降っているから、傘を持って行ってください。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["帰りの電車も", "今日は", "遅れた。", "仕事が忙しかった上に、"],
+    "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Hôm nay công việc bận rộn, chuyến tàu về lại còn bị trễ."
+   },
+   {
+    "pieces": ["ポケットも多い。", "丈夫な上に、", "このかばんは"],
+    "answer_order": [2, 1, 0],
+    "translation_vi": "Chiếc túi này bền, lại còn nhiều ngăn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "彼女は頭がいい＿＿、スポーツも得意だ。",
+    "answer": "上に",
+    "accept": ["うえに"],
+    "translation_vi": "Cô ấy thông minh, lại còn giỏi thể thao."
+   },
+   {
+    "sentence_ja": "この辺りは静か＿＿上に、緑も多くて住みやすい。",
+    "answer": "な",
+    "translation_vi": "Khu này yên tĩnh, lại nhiều cây xanh nên dễ sống."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼は時間に遅れてきた（　　）、資料も忘れてきた。",
+    "options": ["上は", "上から", "上で", "上に"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「上に」: đến muộn lại còn quên tài liệu, hai việc xấu cộng thêm. 上は (một khi đã), 上から (từ trên), 上で (sau khi) không hợp. Nghĩa: Anh ta đến muộn, lại còn quên mang tài liệu."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この道は、＿＿ ＿＿ ★ ＿＿危ない。",
+    "options": ["暗い", "車も多くて", "夜", "上に"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: この道は、夜暗い上に車も多くて危ない。 (Con đường này ban đêm tối, xe cộ lại đông nên nguy hiểm.). Mảnh ở ô ★ là 「上に」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "今朝は熱がある上に、のども痛い。",
+    "options": ["Sáng nay tôi bị sốt, lại còn đau họng nữa.", "Sáng nay tôi bị sốt vì đau họng.", "Sáng nay tôi hết sốt nhưng vẫn đau họng.", "Sáng nay tôi không sốt, cũng không đau họng."],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 上に (không chỉ… lại còn…): \"Sáng nay tôi bị sốt, lại còn đau họng nữa.\""
+   }
+  ]
+ }
+}
