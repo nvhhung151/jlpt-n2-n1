@@ -1,0 +1,7 @@
+{"id": "JG-069b77dfee", "type": "SKIPPED", "detail": "〜ぶる (cố tình ra vẻ) khác chức năng với N+めく (nhuốm vẻ tự nhiên); không có mẫu chính cùng chức năng", "suggest": "cần mẫu chính 〜ぶる"}
+{"id": "JG-dbdce29ad7", "type": "SKIPPED", "detail": "〜べくして (đúng như tất yếu) khác chức năng với 〜べく (mục đích); không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜べくして"}
+{"id": "JG-407692f4e5", "type": "SKIPPED", "detail": "〜まぎれに (trong cơn... làm bừa) không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜まぎれ"}
+{"id": "JG-c75be10fc9", "type": "SKIPPED", "detail": "〜後を絶たない không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜後を絶たない"}
+{"id": "JG-37aa545d9b", "type": "SKIPPED", "detail": "〜んとする (=ようとする) khác chức năng với んが為に/んばかりに; không có mẫu chính tương ứng", "suggest": "cần mẫu chính 〜んとする"}
+{"id": "JG-30359f632b", "type": "CONTEXT_ERROR", "detail": "pattern/meaning là tiêu đề chung 'N1 dễ nhầm', không phải một mẫu cụ thể; ví dụ dùng 〜限り (元気である限り) nhưng không có mẫu chính 〜限り trong header.mains", "suggest": "đổi pattern thành 〜限り và thêm mẫu chính 〜限り, hoặc bỏ mục"}
+{"id": "JG-8a2ae1eb28", "type": "CONTEXT_ERROR", "detail": "mục không có candidates (candidates rỗng); gán JG-ec8bb98c0b (ずには措かない) theo ví dụ 揺さぶらずにはおかない", "suggest": "kiểm lại danh sách candidates"}
