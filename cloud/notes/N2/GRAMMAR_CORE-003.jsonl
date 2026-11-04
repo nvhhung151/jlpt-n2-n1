@@ -1,0 +1,12 @@
+{"id": "JG-8a99154124", "type": "CONTEXT_ERROR", "detail": "ví dụ có sẵn không phải câu hoàn chỉnh: '〈銀行の両替機を使って〉' chỉ là chú thích tình huống, 'A: おかしいなあ。100円足りない。' là lời thoại dở dang không chứa 〜得ない", "suggest": "thay bằng câu hoàn chỉnh dùng 〜得ない hoặc bỏ"}
+{"id": "JG-fbcb453cbc", "type": "CONTEXT_ERROR", "detail": "ví dụ 2 'A: このCD、いいね。女性の声がいい。' không chứa 〜ものがある (thiếu dòng B)", "suggest": "bổ sung dòng B dùng 〜ものがある hoặc bỏ"}
+{"id": "JG-50e25efeaa", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 'あの人の男に相違ない' lủng củng (thừa の); ví dụ 2 '初列するに相違ない' sai chữ, phải là 決裂", "suggest": "あの男に相違ない; 決裂するに相違ない"}
+{"id": "JG-48986bc5b2", "type": "CONTEXT_ERROR", "detail": "ví dụ 1 '彼女は合格したのは努力の結果にほかならない' sai trợ từ", "suggest": "彼女が合格したのは努力の結果にほかならない"}
+{"id": "JG-3ba05d9a36", "type": "CONTEXT_ERROR", "detail": "ví dụ có sẵn chỉ là hai dòng hỏi đáp tách rời, câu hỏi không chứa mẫu, phần dịch dòng 1 thiếu '?'", "suggest": "gộp thành một ví dụ hội thoại hoàn chỉnh"}
+{"id": "JG-7f1f0796af", "type": "CONTEXT_ERROR", "detail": "ví dụ 2 'セミットの警備' sai chính tả (サミット); dịch 'không hề hay biết luôn' lủng củng", "suggest": "サミットの警備がこんなに厳重とは知らなかった"}
+{"id": "JG-7fd1a327d3", "type": "CONTEXT_ERROR", "detail": "ví dụ 2 '会社の経験が苦しい' phải là 会社の経営が苦しい; 'tăng tiền công' dịch hơi lệch", "suggest": "会社の経営が苦しいことが…"}
+{"id": "JG-8063225e20", "type": "CONTEXT_ERROR", "detail": "bản dịch ví dụ 2 'Buổi sáng tôi chỉ uống chút sữa thôi' đúng, nhưng meaning_vi 'Kể từ, sau khi' chưa đúng nghĩa 〜きり (sau khi làm A thì không có tiếp diễn/ chỉ có)", "suggest": "meaning_vi: 'Sau khi… thì không còn nữa, từ đó đến giờ'"}
+{"id": "JG-0c3c3e8eee", "type": "CONTEXT_ERROR", "detail": "pattern 'にして + 見れば' có dấu cách và ký tự +, nên là 〜にしてみれば", "suggest": "〜にしてみれば"}
+{"id": "JG-50f80c3ad9", "type": "CONTEXT_ERROR", "detail": "pattern có số thừa 'ところだった 2'", "suggest": "〜ところだった"}
+{"id": "JG-3a7fb2a615", "type": "CONTEXT_ERROR", "detail": "pattern/meaning ghi 'より他ない' nhưng thường viết よりほかない/ほかはない; không sai nhưng nên thống nhất kana ほか", "suggest": "〜よりほかない"}
+{"id": "JG-c1f1f9e9dc", "type": "CONTEXT_ERROR", "detail": "pattern_variants '〜ことか/どろう' có lỗi chữ ('どろう' vô nghĩa); ví dụ 1 dịch 'Sống ở nước ngoài một mình. Không biết buồn như thế nào đây' tách câu", "suggest": "〜ことか/だろう (hoặc bỏ)"}
