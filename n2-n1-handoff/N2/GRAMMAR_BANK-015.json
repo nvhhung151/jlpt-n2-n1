@@ -633,7 +633,192 @@
    "id": "JG-a27727adb4"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は三十歳（　　）初めて自分の家を持った。",
+      "options": [
+       "にしては",
+       "にとって",
+       "にして",
+       "にしたら"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にして」: N chỉ tuổi + にして初めて là 'đến tận tuổi đó mới lần đầu'. にしては (so với... thì), にとって (đối với), にしたら (theo lập trường của) đều không đi với 初めて theo nghĩa này. Nghĩa: Đến ba mươi tuổi anh ấy mới lần đầu có nhà riêng."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この難しい技は、ベテラン（　　）初めてできることだ。",
+      "options": [
+       "にして",
+       "にしても",
+       "なのに",
+       "まで"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「にして」: N + にして初めて là 'phải đến mức N mới làm được', chỉ người lão luyện mới làm được kỹ thuật này. にしても (dù là), なのに (vậy mà), まで (đến cả) không hợp với 初めて. Nghĩa: Kỹ thuật khó này phải là người lão luyện mới làm được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この味は＿＿ ＿＿ ★ ＿＿出せるものだ。",
+      "options": [
+       "初めて",
+       "にして",
+       "一流の",
+       "料理人"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: この味は一流の料理人にして初めて出せるものだ。 (Hương vị này phải là đầu bếp hàng đầu mới tạo ra được.). Mảnh ở ô ★ là 「にして」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼女は＿＿ ＿＿ ★ ＿＿だ。",
+      "options": [
+       "にして",
+       "ある人",
+       "歌手",
+       "女優でも"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼女は歌手にして女優でもある人だ。 (Cô ấy là người vừa là ca sĩ vừa là diễn viên.). Mảnh ở ô ★ là 「女優でも」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は六十歳にして初めて海外旅行に行った。",
+      "options": [
+       "Đến tận sáu mươi tuổi ông ấy mới lần đầu đi du lịch nước ngoài.",
+       "Ông ấy đã đi du lịch nước ngoài sáu mươi lần.",
+       "Dù đã sáu mươi tuổi, ông ấy vẫn đi du lịch nước ngoài rất nhiều.",
+       "Vào năm sáu mươi tuổi, ông ấy đã thôi đi du lịch nước ngoài."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜にして初めて (đến tận lúc đó mới): \"Đến tận sáu mươi tuổi ông ấy mới lần đầu đi du lịch nước ngoài.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの人は社長にして料理人でもある。",
+      "options": [
+       "Người đó làm giám đốc nhờ là đầu bếp.",
+       "Người đó là giám đốc nên thuê đầu bếp.",
+       "Người đó vừa là giám đốc vừa là đầu bếp.",
+       "Người đó tuy là giám đốc nhưng không biết nấu ăn."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu N1 + にして + N2 (vừa là A vừa là B): \"Người đó vừa là giám đốc vừa là đầu bếp.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は十五歳にして大学に入学した。",
+       "電車にして会社に行きます。",
+       "四十歳にして初めて結婚した。",
+       "これはプロにして初めてできる技だ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「電車にして会社に行きます。」 sai: にして gắn với mốc tuổi, thời điểm, mức độ hay tư cách, không chỉ phương tiện. Câu đúng: 電車で会社に行きます。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "七十歳にして初めて飛行機に乗った。",
+       "彼女は母親にして医者でもある。",
+       "あの選手は十八歳にして世界一になった。",
+       "図書館にして勉強した。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「図書館にして勉強した。」 sai: nơi diễn ra hành động dùng で, không dùng にして. Câu đúng: 図書館で勉強した。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ピアノを習った。",
+       "にして初めて",
+       "彼は五十歳"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Đến năm mươi tuổi anh ấy mới lần đầu học piano."
+     },
+     {
+      "pieces": [
+       "店を持った。",
+       "兄は三十歳",
+       "にして",
+       "自分の"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Anh trai tôi mới ba mươi tuổi đã có cửa hàng riêng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼女は九歳＿＿ピアノのコンクールで優勝した。",
+      "answer": "にして",
+      "accept": [
+       "で"
+      ],
+      "translation_vi": "Cô bé mới chín tuổi đã giành chức vô địch cuộc thi piano."
+     },
+     {
+      "sentence_ja": "父は四十歳＿＿初めて車の運転を習った。",
+      "answer": "にして",
+      "accept": [
+       "で"
+      ],
+      "translation_vi": "Đến bốn mươi tuổi bố tôi mới lần đầu học lái xe."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "祖父は七十歳（　　）、初めてスマホを使った。",
+      "options": [
+       "にかけて",
+       "にして",
+       "にしては",
+       "によって"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「にして」: tuổi + にして, đến bảy mươi tuổi mới lần đầu dùng điện thoại thông minh. にかけて (trải suốt), にしては (so với... thì), によって (tùy theo, do) đều không hợp với 初めて. Nghĩa: Ông tôi đến bảy mươi tuổi mới lần đầu dùng điện thoại thông minh."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "このような作品は天才にして初めて作れる。",
+      "options": [
+       "Thiên tài cũng không làm nổi tác phẩm như thế này.",
+       "Tác phẩm như thế này lần đầu được làm cho thiên tài.",
+       "Thiên tài làm tác phẩm này để tặng người khác.",
+       "Chỉ có thiên tài mới làm được tác phẩm như thế này."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜にして初めて (phải đến mức N mới làm được): \"Chỉ có thiên tài mới làm được tác phẩm như thế này.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "友だちにして映画を見に行った。",
+       "彼女は二十歳にして作家になった。",
+       "この年にして初めて海を見た。",
+       "彼は教師にして画家でもある。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「友だちにして映画を見に行った。」 sai: người cùng làm việc gì dùng と, không dùng にして. Câu đúng: 友だちと映画を見に行った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -656,7 +841,192 @@
    "id": "JG-e0417c6e22"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "今日は朝ご飯（　　）で会社に来た。",
+      "options": [
+       "抜く",
+       "抜き",
+       "抜け",
+       "抜いた"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「抜き」: N + 抜きで là 'không có N, bỏ N'. Trước で cần danh từ 抜き, không dùng động từ 抜く, 抜いた hay 抜け. Nghĩa: Hôm nay tôi đến công ty mà không ăn sáng."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "難しい話（　　）、今夜は楽しく飲みましょう。",
+      "options": [
+       "を込めて",
+       "にこたえて",
+       "にわたって",
+       "は抜きにして"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「は抜きにして」: gác chuyện khó nói sang một bên, tối nay vui vẻ uống thôi. を込めて (dồn tình cảm), にこたえて (đáp ứng), にわたって (suốt) đều sai nghĩa. Nghĩa: Gác chuyện khó sang một bên, tối nay chúng ta uống vui vẻ nhé."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿ください。",
+      "options": [
+       "砂糖",
+       "抜きの",
+       "一つ",
+       "コーヒーを"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 砂糖抜きのコーヒーを一つください。 (Cho tôi một cà phê không đường.). Mảnh ở ô ★ là 「コーヒーを」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼女は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "料理しか",
+       "抜きの",
+       "食べない",
+       "肉"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼女は肉抜きの料理しか食べない。 (Cô ấy chỉ ăn những món không có thịt.). Mảnh ở ô ★ là 「抜きの」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この話は社長抜きでは決められない。",
+      "options": [
+       "Chuyện này không thể quyết định nếu không có giám đốc.",
+       "Chuyện này giám đốc không thể quyết định.",
+       "Chuyện này đã được quyết định mà không cần giám đốc.",
+       "Chuyện này phải quyết định để loại giám đốc ra."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜抜きでは (nếu không có N thì không...): \"Chuyện này không thể quyết định nếu không có giám đốc.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お世辞は抜きにして、正直な意見を聞かせてください。",
+      "options": [
+       "Hãy khen xã giao một chút rồi cho tôi ý kiến.",
+       "Ý kiến thật lòng thì hãy nói kèm lời khen.",
+       "Tôi không muốn nghe ý kiến thật lòng.",
+       "Đừng khen xã giao nữa, hãy cho tôi nghe ý kiến thật lòng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜は抜きにして (gác bỏ N ra): \"Đừng khen xã giao nữa, hãy cho tôi nghe ý kiến thật lòng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "朝ご飯を抜きで学校に行った。",
+       "わさび抜きのおすしをください。",
+       "今日は仕事の話は抜きにしよう。",
+       "田中さん抜きで会議を始めた。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「朝ご飯を抜きで学校に行った。」 sai: 抜き gắn trực tiếp sau danh từ, không có を (nếu dùng を thì phải là động từ 抜いて). Câu đúng: 朝ご飯抜きで学校に行った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あいさつは抜きにして、さっそく始めましょう。",
+       "彼抜きでは、このチームは勝てない。",
+       "ねぎ抜くでお願いします。",
+       "朝食抜きの生活は体に悪い。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「ねぎ抜くでお願いします。」 sai: trước で phải là danh từ 抜き, không dùng động từ 抜く. Câu đúng: ねぎ抜きでお願いします。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "楽しみましょう。",
+       "抜きにして、",
+       "今日は堅い話は"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Hôm nay gác chuyện nghiêm túc sang một bên, cùng vui vẻ nhé."
+     },
+     {
+      "pieces": [
+       "注文できる。",
+       "わさび抜きの",
+       "あの店では",
+       "おすしも"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Ở quán đó có thể gọi cả sushi không có wasabi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "子どもが食べるので、辛いもの＿＿で作ってください。",
+      "answer": "抜き",
+      "accept": [
+       "ぬき"
+      ],
+      "translation_vi": "Trẻ con sẽ ăn nên hãy làm mà không cho đồ cay vào."
+     },
+     {
+      "sentence_ja": "細かい説明は＿＿にして、結論から話します。",
+      "answer": "抜き",
+      "accept": [
+       "ぬき"
+      ],
+      "translation_vi": "Tôi xin bỏ qua phần giải thích chi tiết và nói từ kết luận."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あいさつ（　　）、本題に入りましょう。",
+      "options": [
+       "に比べて",
+       "は抜きにして",
+       "のおかげで",
+       "に反して"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「は抜きにして」: bỏ qua phần chào hỏi để vào thẳng vấn đề chính. に比べて (so với), のおかげで (nhờ), に反して (trái với) đều không hợp. Nghĩa: Xin bỏ qua phần chào hỏi, chúng ta vào vấn đề chính thôi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "今回の旅行は、子ども抜きで夫婦二人で行く。",
+      "options": [
+       "Chuyến du lịch lần này cả nhà đi cùng con.",
+       "Chuyến du lịch lần này chỉ có con đi.",
+       "Chuyến du lịch lần này hai vợ chồng đi mà không có con.",
+       "Chuyến du lịch lần này vì con nên bị hủy."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜抜きで (không có N): \"Chuyến du lịch lần này hai vợ chồng đi mà không có con.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "形式的なあいさつは抜きにしましょう。",
+       "玉ねぎ抜きのカレーを作った。",
+       "お酒抜きの食事会だった。",
+       "砂糖抜きにのコーヒーを飲んだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「砂糖抜きにのコーヒーを飲んだ。」 sai: bổ nghĩa cho danh từ thì dùng N + 抜きの + N, không có に. Câu đúng: 砂糖抜きのコーヒーを飲んだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -681,7 +1051,196 @@
    "id": "JG-96e1cfe428"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "合格の知らせを聞いて、うれしく（　　）。",
+      "options": [
+       "てはいられない",
+       "てたまる",
+       "てしようがない",
+       "てしまう"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「てしようがない」: Aくて + しようがない là cảm xúc mạnh không chịu nổi (vui không tả được). てはいられない (không thể cứ...), てたまる và てしまう không đi với うれしく theo nghĩa này. Nghĩa: Nghe tin đỗ, tôi vui không chịu nổi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "昨日あまり寝ていないので、眠くて（　　）。",
+      "options": [
+       "しようがない",
+       "たまる",
+       "みせる",
+       "おく"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「しようがない」: 眠くてしようがない là buồn ngủ không chịu được. 眠くてたまる, 眠くてみせる, 眠くておく đều không có. Nghĩa: Hôm qua tôi ngủ ít nên buồn ngủ không chịu nổi."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "一人暮らしを始めてから、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "がない",
+       "しよう",
+       "家族に",
+       "会いたくて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 一人暮らしを始めてから、家族に会いたくてしようがない。 (Từ khi bắt đầu sống một mình, tôi nhớ gia đình không chịu nổi.). Mảnh ở ô ★ là 「しよう」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "隣の部屋の＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "しようが",
+       "ない",
+       "音が",
+       "気になって"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 隣の部屋の音が気になってしようがない。 (Tiếng ồn ở phòng bên làm tôi khó chịu không chịu nổi.). Mảnh ở ô ★ là 「気になって」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この映画はつまらなくてしようがなかった。",
+      "options": [
+       "Bộ phim này không chán chút nào.",
+       "Bộ phim này chán không chịu nổi.",
+       "Bộ phim này hơi chán nhưng vẫn xem được.",
+       "Bộ phim này chán nên đành phải xem hết."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜てしようがない (cảm giác mạnh đến mức không chịu nổi): \"Bộ phim này chán không chịu nổi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "朝から頭が痛くてしようがない。",
+      "options": [
+       "Từ sáng tôi chỉ hơi đau đầu một chút.",
+       "Từ sáng tôi không còn đau đầu nữa.",
+       "Đau đầu từ sáng nên tôi đành nghỉ làm.",
+       "Từ sáng đến giờ tôi đau đầu không chịu được."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜てしようがない (quá mức, không chịu nổi): \"Từ sáng đến giờ tôi đau đầu không chịu được.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "毎日勉強してしようがない。",
+       "かゆくてしようがない。",
+       "子どもの将来が心配でしようがない。",
+       "のどが渇いてしようがない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「毎日勉強してしようがない。」 sai: てしようがない dùng với cảm giác, cảm xúc tự nhiên, không dùng với hành động có chủ ý như 勉強する. Câu đúng: 毎日勉強するのがつらくてしようがない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "暑くてしようがない。",
+       "彼女に会いたくてしようがない。",
+       "寂しいてしようがない。",
+       "おなかがすいてしようがない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「寂しいてしようがない。」 sai: tính từ い phải đổi sang dạng くて. Câu đúng: 寂しくてしようがない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "しようがない。",
+       "新しいパソコンが",
+       "欲しくて"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Tôi muốn có một chiếc máy tính mới đến không chịu nổi."
+     },
+     {
+      "pieces": [
+       "暑くて",
+       "しようがない。",
+       "クーラーが壊れて、"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Điều hòa bị hỏng nên nóng không chịu nổi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "足が痛くて＿＿ので、今日は早く帰ります。",
+      "answer": "しようがない",
+      "accept": [
+       "しょうがない",
+       "しかたがない",
+       "しかたない",
+       "たまらない"
+      ],
+      "translation_vi": "Chân tôi đau không chịu nổi nên hôm nay tôi về sớm."
+     },
+     {
+      "sentence_ja": "初めての海外旅行が楽しみで＿＿。",
+      "answer": "しようがない",
+      "accept": [
+       "しょうがない",
+       "しかたがない",
+       "しかたない",
+       "たまらない"
+      ],
+      "translation_vi": "Tôi háo hức chờ chuyến du lịch nước ngoài đầu tiên không chịu nổi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女から返事が来なくて、気になって（　　）。",
+      "options": [
+       "みせる",
+       "あげる",
+       "しようがない",
+       "もらう"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「しようがない」: chưa nhận được hồi âm nên cứ thấy bồn chồn không chịu nổi. 気になってみせる, 気になってあげる, 気になってもらう đều không có nghĩa. Nghĩa: Mãi không có hồi âm từ cô ấy nên tôi bồn chồn không chịu nổi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもの寝顔がかわいくてしようがない。",
+      "options": [
+       "Gương mặt con lúc ngủ đáng yêu không chịu nổi.",
+       "Gương mặt con lúc ngủ không đáng yêu lắm.",
+       "Con ngủ nên tôi đành chịu không làm gì được.",
+       "Gương mặt con lúc ngủ trông có vẻ khó chịu."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜てしようがない (cảm xúc mạnh không kìm được): \"Gương mặt con lúc ngủ đáng yêu không chịu nổi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "寒くてしようがない。",
+       "会社へ行ってしようがない。",
+       "一人で家にいると、つまらなくてしようがない。",
+       "将来が不安でしようがない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「会社へ行ってしようがない。」 sai: 行く là hành động có chủ ý, không phải cảm giác nên không dùng てしようがない. Câu đúng: 会社へ行きたくてしようがない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

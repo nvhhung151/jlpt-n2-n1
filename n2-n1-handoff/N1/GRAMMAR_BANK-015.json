@@ -1169,16 +1169,14 @@
     "order_items": [
      {
       "pieces": [
-       "散歩するに",
-       "晴れた日は",
        "限る。",
-       "公園を"
+       "晴れた日は公園を",
+       "散歩するに"
       ],
       "answer_order": [
        1,
-       3,
-       0,
-       2
+       2,
+       0
       ],
       "translation_vi": "Ngày nắng đẹp thì không gì bằng đi dạo công viên."
      },
@@ -1277,7 +1275,194 @@
    "id": "JG-d7de15b4fe"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女は一度も遅刻する（　　）、三年間学校に通った。",
+      "options": [
+       "ことか",
+       "ことなく",
+       "ことだから",
+       "ことには"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ことなく」: Vる + ことなく = mà không hề làm V. ことか dùng cảm thán, ことだから là 'vì là', ことには cần dạng 〜ないことには. Nghĩa: Cô ấy đi học suốt ba năm mà chưa đi muộn lần nào."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この機械は二十四時間止まる（　　）動き続けている。",
+      "options": [
+       "ことに",
+       "ことから",
+       "ことで",
+       "ことなく"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ことなく」: 止まることなく = không hề dừng lại. ことで (nhờ việc), ことから (từ việc) mâu thuẫn với 動き続けている, ことに không hợp. Nghĩa: Cỗ máy này chạy liên tục suốt hai mươi bốn giờ không hề dừng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "頼る",
+       "自分の力で店を開いた",
+       "ことなく",
+       "誰にも"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼は誰にも頼ることなく自分の力で店を開いた。 (Anh ấy tự sức mình mở cửa hàng mà không dựa dẫm vào ai.). Mảnh ở ô ★ là 「ことなく」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "私たちは＿＿ ★ ＿＿ ＿＿着いた。",
+      "options": [
+       "ことなく",
+       "無事目的地に",
+       "道に",
+       "迷う"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 私たちは道に迷うことなく無事目的地に着いた。 (Chúng tôi đã đến nơi an toàn mà không hề lạc đường.). Mảnh ở ô ★ là 「迷う」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は迷うことなく、その仕事を引き受けた。",
+      "options": [
+       "Anh ấy do dự mãi rồi mới nhận công việc đó.",
+       "Anh ấy lạc đường nên không nhận công việc đó.",
+       "Anh ấy đã nhận công việc đó mà không hề do dự.",
+       "Anh ấy không biết có nên nhận công việc đó không."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ことなく (mà không hề): \"Anh ấy đã nhận công việc đó mà không hề do dự.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この寺は火事に遭うことなく、千年以上も残ってきた。",
+      "options": [
+       "Ngôi chùa này đã bị cháy nhiều lần trong hơn một nghìn năm.",
+       "Ngôi chùa này đã tồn tại hơn một nghìn năm mà chưa từng gặp hỏa hoạn.",
+       "Ngôi chùa này được xây lại sau một trận hỏa hoạn.",
+       "Ngôi chùa này không còn tồn tại sau trận hỏa hoạn."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ことなく (mà không hề): \"Ngôi chùa này đã tồn tại hơn một nghìn năm mà chưa từng gặp hỏa hoạn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女は疲れを見せることなく、笑顔で客に接した。",
+       "彼は諦めないことなく、最後まで戦った。",
+       "この店は創業以来、一日も休むことなく営業している。",
+       "私たちは雨に降られることなく、無事に山を下りた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は諦めないことなく、最後まで戦った。」 sai: ことなく đi sau Vる khẳng định, không đi sau Vない. Câu đúng: 彼は諦めることなく、最後まで戦った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "一度も振り返ることなく、彼は駅の方へ歩いていった。",
+       "互いに連絡を取ることなく、十年が過ぎてしまった。",
+       "彼は失敗を恐れることなく、新しい分野に挑戦した。",
+       "彼は休みことなく、朝から晩まで働いた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「彼は休みことなく、朝から晩まで働いた。」 sai: ことなく đi sau thể từ điển (休む), không đi sau Vます bỏ ます. Câu đúng: 彼は休むことなく、朝から晩まで働いた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ことなく",
+       "少しも",
+       "諦める",
+       "最後までやり遂げた。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Không hề bỏ cuộc chút nào, tôi đã làm đến cùng."
+     },
+     {
+      "pieces": [
+       "変わる",
+       "残っている。",
+       "この町の風景は昔から",
+       "ことなく"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Phong cảnh thị trấn này từ xưa vẫn còn nguyên, không hề thay đổi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼は一日も休む＿＿、研究を続けた。",
+      "answer": "ことなく",
+      "accept": [
+       "ことなしに"
+      ],
+      "translation_vi": "Anh ấy tiếp tục nghiên cứu mà không nghỉ một ngày nào."
+     },
+     {
+      "sentence_ja": "失敗を恐れる＿＿、新しいことに挑戦してほしい。",
+      "answer": "ことなく",
+      "accept": [
+       "ことなしに"
+      ],
+      "translation_vi": "Tôi mong bạn hãy thử thách những điều mới mà không sợ thất bại."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "ドアの前で迷う（　　）、彼はまっすぐ社長室に入った。",
+      "options": [
+       "ことなく",
+       "ことだし",
+       "ことか",
+       "ことに"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「ことなく」: 迷うことなく = không hề do dự, hợp với まっすぐ入った. ことだし (vì đã), ことか (cảm thán), ことに (thật là...) không hợp nghĩa. Nghĩa: Không chút do dự trước cửa, anh ấy đi thẳng vào phòng giám đốc."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼女は＿＿ ＿＿ ★ ＿＿自分の道を選んだ。",
+      "options": [
+       "ことなく",
+       "左右される",
+       "意見に",
+       "周りの"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼女は周りの意見に左右されることなく自分の道を選んだ。 (Cô ấy đã chọn con đường của riêng mình mà không bị ý kiến xung quanh chi phối.). Mảnh ở ô ★ là 「左右される」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この雑誌は創刊以来、一号も休むことなく発行されている。",
+      "options": [
+       "Tạp chí này đã nhiều lần tạm ngừng phát hành.",
+       "Tạp chí này mới bắt đầu phát hành.",
+       "Từ khi ra đời, tạp chí này được phát hành đều đặn, không bỏ số nào.",
+       "Tạp chí này nghỉ phát hành một số rồi lại tiếp tục."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ことなく (mà không hề): \"Từ khi ra đời, tạp chí này được phát hành đều đặn, không bỏ số nào.\""
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1300,7 +1485,192 @@
    "id": "JG-74c2bca73a"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は自分の身の危険を（　　）、子どもを助けに行った。",
+      "options": [
+       "めぐって",
+       "かえりみず",
+       "通じて",
+       "もとに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「かえりみず」: 危険をかえりみず = bất chấp nguy hiểm. をめぐって (xoay quanh), を通じて (thông qua), をもとに (dựa trên) không hợp nghĩa. Nghĩa: Anh ấy bất chấp nguy hiểm cho bản thân, lao đi cứu đứa trẻ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "周囲の反対を（　　）、彼は会社を辞めて起業した。",
+      "options": [
+       "もって",
+       "皮切りに",
+       "限りに",
+       "かえりみず"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「かえりみず」: 反対をかえりみず = không màng đến sự phản đối. をもって (bằng, vào lúc), を皮切りに (mở đầu bằng), を限りに (đến... là hết) không hợp nghĩa. Nghĩa: Bất chấp sự phản đối của mọi người xung quanh, anh ấy nghỉ việc để khởi nghiệp."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "記者は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "かえりみず",
+       "戦場から報道を続けた",
+       "自分の",
+       "身の危険を"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 記者は自分の身の危険をかえりみず戦場から報道を続けた。 (Phóng viên bất chấp nguy hiểm cho bản thân, tiếp tục đưa tin từ chiến trường.). Mảnh ở ô ★ là 「かえりみず」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "父は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "仕事ばかりしていた",
+       "かえりみず",
+       "家庭を",
+       "若いころ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 父は若いころ家庭をかえりみず仕事ばかりしていた。 (Hồi trẻ bố tôi chẳng đoái hoài đến gia đình, chỉ toàn lo làm việc.). Mảnh ở ô ★ là 「家庭を」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は自分の健康をかえりみず、毎晩遅くまで働き続けた。",
+      "options": [
+       "Cô ấy luôn chú ý giữ gìn sức khỏe nên không làm việc khuya.",
+       "Vì sức khỏe yếu nên cô ấy không thể làm việc khuya.",
+       "Cô ấy làm việc khuya để có tiền chữa bệnh.",
+       "Cô ấy bất chấp sức khỏe bản thân, tối nào cũng làm việc đến khuya."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜をかえりみず (bất chấp, không màng): \"Cô ấy bất chấp sức khỏe bản thân, tối nào cũng làm việc đến khuya.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は家族をかえりみず、ギャンブルに夢中になった。",
+      "options": [
+       "Anh ấy vì gia đình mà từ bỏ cờ bạc.",
+       "Anh ấy chẳng đoái hoài đến gia đình, mải mê cờ bạc.",
+       "Gia đình anh ấy đều mê cờ bạc.",
+       "Anh ấy hay về thăm gia đình sau khi chơi cờ bạc."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜をかえりみず (bất chấp, không màng): \"Anh ấy chẳng đoái hoài đến gia đình, mải mê cờ bạc.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "消防士たちは危険をかえりみず、炎の中へ飛び込んだ。",
+       "彼は世間の批判をかえりみず、自分の信念を貫いた。",
+       "彼は昼ご飯をかえりみず、テレビを見ていた。",
+       "母は自分のことをかえりみず、子どもたちのために働いた。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼は昼ご飯をかえりみず、テレビを見ていた。」 sai: N trước をかえりみず phải là thứ lẽ ra cần cân nhắc (nguy hiểm, phản đối, sức khỏe), và vế sau là hành động liều lĩnh hay hy sinh. Câu đúng: 彼は昼ご飯も食べずに、テレビを見ていた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は危険にかえりみず、冬の山に登った。",
+       "医師たちは感染の危険をかえりみず、患者の治療にあたった。",
+       "彼は周囲の反対をかえりみず、新しい事業に全財産をつぎ込んだ。",
+       "選手は痛みをかえりみず、最後まで試合に出続けた。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼は危険にかえりみず、冬の山に登った。」 sai: かえりみず đi với trợ từ を, không dùng に. Câu đúng: 彼は危険をかえりみず、冬の山に登った。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "かえりみず、",
+       "彼は自分の生活を",
+       "ボランティア活動を続けた。"
+      ],
+      "answer_order": [
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Anh ấy chẳng màng đến cuộc sống của bản thân, vẫn tiếp tục hoạt động tình nguyện."
+     },
+     {
+      "pieces": [
+       "嵐の海へ",
+       "かえりみず、",
+       "救助隊は危険を",
+       "出ていった。"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0,
+       3
+      ],
+      "translation_vi": "Đội cứu hộ bất chấp nguy hiểm, lao ra biển giữa cơn bão."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼は命の危険を＿＿、燃える家に飛び込んだ。",
+      "answer": "かえりみず",
+      "accept": [
+       "顧みず"
+      ],
+      "translation_vi": "Anh ấy bất chấp nguy hiểm đến tính mạng, lao vào ngôi nhà đang cháy."
+     },
+     {
+      "sentence_ja": "社長は自らの損失を＿＿、社員の雇用を守った。",
+      "answer": "かえりみず",
+      "accept": [
+       "顧みず"
+      ],
+      "translation_vi": "Giám đốc không màng đến tổn thất của bản thân, bảo vệ việc làm cho nhân viên."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は親の心配を（　　）、一人で世界一周の旅に出た。",
+      "options": [
+       "経て",
+       "限りに",
+       "かえりみず",
+       "皮切りに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「かえりみず」: 心配をかえりみず = không đoái hoài đến nỗi lo của bố mẹ. を経て (trải qua), を限りに (đến... là hết), を皮切りに (mở đầu bằng) không hợp nghĩa. Nghĩa: Anh ấy chẳng màng đến nỗi lo của bố mẹ, một mình lên đường đi vòng quanh thế giới."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "研究者たちは自らの身の危険をかえりみず、火山の調査を続けた。",
+      "options": [
+       "Các nhà nghiên cứu bất chấp nguy hiểm cho bản thân, tiếp tục khảo sát núi lửa.",
+       "Các nhà nghiên cứu ngừng khảo sát vì lo cho an toàn.",
+       "Núi lửa nguy hiểm nên không ai dám khảo sát.",
+       "Các nhà nghiên cứu khảo sát núi lửa để đảm bảo an toàn cho người dân."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜をかえりみず (bất chấp, không màng): \"Các nhà nghiên cứu bất chấp nguy hiểm cho bản thân, tiếp tục khảo sát núi lửa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は自分の立場をかえりみず、上司の不正を告発した。",
+       "彼女は疲れをかえりみず、被災地で働き続けた。",
+       "若いころの私は、健康をかえりみず無理ばかりしていた。",
+       "彼は危険をかえりみず、安全な道を選んだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「彼は危険をかえりみず、安全な道を選んだ。」 sai: をかえりみず nghĩa là bất chấp nguy hiểm để làm việc liều lĩnh, mâu thuẫn với 'chọn con đường an toàn'. Câu đúng: 彼は危険を避けて、安全な道を選んだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1323,7 +1693,196 @@
    "id": "JG-14ccd4d61b"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "大学四年生（　　）、就職活動で忙しくなる。",
+      "options": [
+       "にひきかえ",
+       "ともなると",
+       "はおろか",
+       "をよそに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ともなると」: khi đã đến giai đoạn N (năm cuối đại học) thì tình hình khác hẳn. にひきかえ (trái với), はおろか (nói gì đến), をよそに (mặc kệ) không hợp nghĩa. Nghĩa: Đã lên năm thứ tư đại học thì sẽ bận rộn với việc tìm việc."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "部長（　　）、毎日のように会議や接待で帰りが遅くなる。",
+      "options": [
+       "なりに",
+       "ずくめで",
+       "ならでは",
+       "ともなると"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ともなると」: đã ở vị trí trưởng phòng thì đương nhiên bận rộn hơn hẳn. なりに (theo cách của), ずくめで (toàn là), ならでは (chỉ riêng... mới có) không hợp nghĩa. Nghĩa: Đã là trưởng phòng thì gần như ngày nào cũng về muộn vì họp hành và tiếp khách."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "厳しさが違う",
+       "練習の",
+       "ともなると、",
+       "プロ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: プロともなると、練習の厳しさが違う。 (Đã là dân chuyên nghiệp thì mức độ khắc nghiệt của việc tập luyện khác hẳn.). Mảnh ở ô ★ là 「練習の」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ともなると、",
+       "食費だけでも大変だ",
+       "三人",
+       "子どもが"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 子どもが三人ともなると、食費だけでも大変だ。 (Đã có đến ba đứa con thì riêng tiền ăn thôi cũng vất vả.). Mảnh ở ô ★ là 「三人」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "社長ともなると、自由な時間はほとんどない。",
+      "options": [
+       "Giám đốc thường có nhiều thời gian rảnh.",
+       "Đã là giám đốc thì hầu như không có thời gian rảnh.",
+       "Nếu có thời gian rảnh tôi muốn làm giám đốc.",
+       "Giám đốc không cho nhân viên thời gian rảnh."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ともなると (đã đến mức, vị trí... thì): \"Đã là giám đốc thì hầu như không có thời gian rảnh.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "真夏ともなると、この海岸は観光客であふれる。",
+      "options": [
+       "Bãi biển này vắng khách kể cả vào giữa mùa hè.",
+       "Du khách muốn đến bãi biển này vào giữa mùa hè.",
+       "Bãi biển này chỉ đẹp vào giữa mùa hè.",
+       "Cứ đến giữa mùa hè là bãi biển này đông nghịt du khách."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ともなると (đã đến thời điểm... thì): \"Cứ đến giữa mùa hè là bãi biển này đông nghịt du khách.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "大企業の社長ともなると、発言一つにも注意が必要だ。",
+       "十二月ともなると、街はクリスマスの飾りで華やかになる。",
+       "社会人ともなると、明日から毎日日記を書こう。",
+       "五十歳ともなると、徹夜はさすがにつらい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「社会人ともなると、明日から毎日日記を書こう。」 sai: vế sau của ともなると là tình trạng hiển nhiên khi đạt tới mức đó, không dùng với ý chí hay lời rủ rê (〜よう). Câu đúng: 社会人になったので、明日から毎日日記を書こう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "医者がともなると、責任の重さが違う。",
+       "プロの選手ともなると、体の管理も仕事のうちだ。",
+       "結婚するともなると、何かとお金がかかる。",
+       "人気店ともなると、予約は半年先までいっぱいだ。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「医者がともなると、責任の重さが違う。」 sai: ともなると nối trực tiếp sau danh từ, không có trợ từ が. Câu đúng: 医者ともなると、責任の重さが違う。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "サービスの",
+       "一流ホテル",
+       "質が違う。",
+       "ともなると、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Đã là khách sạn hạng nhất thì chất lượng phục vụ khác hẳn."
+     },
+     {
+      "pieces": [
+       "休む暇もない。",
+       "ともなると、学生たちは",
+       "試験の前日"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Cứ đến hôm trước kỳ thi là sinh viên chẳng có lúc nào nghỉ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "大臣＿＿、一言の失言が大問題になる。",
+      "answer": "ともなると",
+      "accept": [
+       "ともなれば",
+       "となると",
+       "となれば"
+      ],
+      "translation_vi": "Đã là bộ trưởng thì chỉ một lời lỡ miệng cũng thành chuyện lớn."
+     },
+     {
+      "sentence_ja": "冬＿＿、この山道は雪で通れなくなる。",
+      "answer": "ともなると",
+      "accept": [
+       "ともなれば",
+       "となると",
+       "となれば"
+      ],
+      "translation_vi": "Cứ đến mùa đông là con đường núi này bị tuyết chặn không đi được."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "店長（　　）、売り上げの責任も負わなければならない。",
+      "options": [
+       "につけ",
+       "かたがた",
+       "ともなると",
+       "めく"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ともなると」: đã ở vị trí cửa hàng trưởng thì phải gánh cả trách nhiệm doanh thu. につけ (mỗi khi), かたがた (nhân tiện), めく (có vẻ) không hợp nghĩa. Nghĩa: Đã là cửa hàng trưởng thì phải chịu cả trách nhiệm về doanh thu."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ベテランともなると、トラブルにも落ち着いて対応できる。",
+      "options": [
+       "Đã là người kỳ cựu thì có thể bình tĩnh xử lý cả những sự cố.",
+       "Người kỳ cựu cũng thường hoảng hốt khi có sự cố.",
+       "Muốn thành người kỳ cựu thì phải gây ra nhiều sự cố.",
+       "Sự cố xảy ra vì người kỳ cựu quá chủ quan."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ともなると (đã đến mức, vị trí... thì): \"Đã là người kỳ cựu thì có thể bình tĩnh xử lý cả những sự cố.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "三十年も続けるともなると、並大抵の努力ではない。",
+       "ゴールデンウィークともなると、高速道路はどこも渋滞する。",
+       "代表選手ともなると、国民の期待を背負うことになる。",
+       "大学生ともなると、もっと勉強しなさい。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「大学生ともなると、もっと勉強しなさい。」 sai: vế sau của ともなると không dùng mệnh lệnh; nó nêu tình trạng tất nhiên khi đạt tới mức đó. Câu đúng: 大学生なのだから、もっと勉強しなさい。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1346,7 +1905,194 @@
    "id": "JG-46d10864eb"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この券（　　）、記念品をお渡しします。",
+      "options": [
+       "をきっかけに",
+       "と引き換えに",
+       "に先立って",
+       "を皮切りに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「と引き換えに」: nhận phiếu và giao quà lưu niệm, tức là trao đổi hai thứ. をきっかけに (nhân dịp), に先立って (trước khi), を皮切りに (mở đầu bằng) không hợp nghĩa. Nghĩa: Chúng tôi sẽ trao quà lưu niệm khi nhận lại phiếu này."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "便利な生活（　　）、私たちは多くの自然を失った。",
+      "options": [
+       "はおろか",
+       "ならではの",
+       "をものともせず",
+       "と引き換えに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「と引き換えに」: đánh đổi thiên nhiên để có cuộc sống tiện nghi. はおろか cần vế sau có も, ならではの cần danh từ theo sau, をものともせず (không hề nao núng trước) không hợp nghĩa. Nghĩa: Đổi lấy cuộc sống tiện nghi, chúng ta đã đánh mất nhiều thiên nhiên."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿難しい資格を手に入れた。",
+      "options": [
+       "引き換えに",
+       "ことと",
+       "睡眠時間を",
+       "削る"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼は睡眠時間を削ることと引き換えに難しい資格を手に入れた。 (Anh ấy đánh đổi giờ ngủ để có được tấm chứng chỉ khó.). Mảnh ở ô ★ là 「ことと」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "お荷物は＿＿ ★ ＿＿ ＿＿お返しいたします。",
+      "options": [
+       "番号札と",
+       "引き換えに",
+       "お渡しした",
+       "先ほど"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: お荷物は先ほどお渡しした番号札と引き換えにお返しいたします。 (Hành lý sẽ được trả lại khi quý khách đưa lại thẻ số đã nhận lúc nãy.). Mảnh ở ô ★ là 「お渡しした」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は自由な時間と引き換えに、高い収入を得た。",
+      "options": [
+       "Cô ấy đánh đổi thời gian tự do để có thu nhập cao.",
+       "Cô ấy có thu nhập cao nên có nhiều thời gian rảnh.",
+       "Cô ấy dùng thu nhập cao để mua thời gian rảnh.",
+       "Cô ấy không có thời gian rảnh lẫn thu nhập cao."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜と引き換えに (đổi lấy, đánh đổi): \"Cô ấy đánh đổi thời gian tự do để có thu nhập cao.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "人質の解放と引き換えに、犯人は大金を要求した。",
+      "options": [
+       "Tên tội phạm đã trả tiền để giải thoát con tin.",
+       "Tên tội phạm đòi một khoản tiền lớn để đổi lấy việc thả con tin.",
+       "Con tin được thả mà không phải trả tiền.",
+       "Tên tội phạm bị bắt khi đang nhận tiền."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜と引き換えに (đổi lấy, đánh đổi): \"Tên tội phạm đòi một khoản tiền lớn để đổi lấy việc thả con tin.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は家族と過ごす時間と引き換えに、社長の座を手に入れた。",
+       "この引換券と引き換えに、景品を受け取ってください。",
+       "名声と引き換えに、彼女は私生活を失った。",
+       "雨が降ったのと引き換えに、試合が中止になった。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「雨が降ったのと引き換えに、試合が中止になった。」 sai: と引き換えに nói việc trao đổi, đánh đổi hai thứ, không dùng cho quan hệ nguyên nhân kết quả. Câu đúng: 雨が降ったので、試合が中止になった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "会員カードと引き換えに、ロッカーの鍵をお渡しします。",
+       "現金を引き換えに、商品を渡す。",
+       "彼は自分の命と引き換えに、多くの人を救った。",
+       "便利さと引き換えに、失ったものも多い。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「現金を引き換えに、商品を渡す。」 sai: mẫu là N + と引き換えに, không dùng trợ từ を. Câu đúng: 現金と引き換えに、商品を渡す。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "お貸しします。",
+       "身分証明書と",
+       "引き換えに、鍵を"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Chúng tôi sẽ cho mượn chìa khóa khi quý khách gửi lại giấy tờ tùy thân."
+     },
+     {
+      "pieces": [
+       "引き換えに",
+       "安定した",
+       "夢をあきらめた。",
+       "生活と"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Tôi đã từ bỏ ước mơ để đổi lấy cuộc sống ổn định."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "このレシートと＿＿、駐車券をお渡しします。",
+      "answer": "引き換えに",
+      "accept": [
+       "引換えに",
+       "ひきかえに"
+      ],
+      "translation_vi": "Chúng tôi sẽ đưa vé gửi xe khi nhận tờ hóa đơn này."
+     },
+     {
+      "sentence_ja": "彼は長年の夢と＿＿、安定した会社員の生活を選んだ。",
+      "answer": "引き換えに",
+      "accept": [
+       "引換えに",
+       "ひきかえに"
+      ],
+      "translation_vi": "Anh ấy đánh đổi ước mơ bao năm để chọn cuộc sống ổn định của một nhân viên công ty."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "大会で優勝した彼は、普通の生活（　　）、世界的な名声を得た。",
+      "options": [
+       "に即して",
+       "にかけては",
+       "と引き換えに",
+       "をもって"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「と引き換えに」: đánh đổi cuộc sống bình thường để có danh tiếng. に即して (theo đúng), にかけては (về mặt), をもって (bằng) không hợp nghĩa. Nghĩa: Vô địch giải đấu, anh ấy có được danh tiếng toàn cầu nhưng phải đánh đổi cuộc sống bình thường."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "田舎の＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "暮らしと",
+       "都会の便利さを手に入れた",
+       "静かな",
+       "引き換えに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 田舎の静かな暮らしと引き換えに都会の便利さを手に入れた。 (Tôi đánh đổi cuộc sống yên tĩnh ở quê để có sự tiện lợi của thành phố.). Mảnh ở ô ★ là 「引き換えに」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この書類と引き換えに、パスポートをお返しします。",
+      "options": [
+       "Hãy nộp hộ chiếu cùng với tờ giấy này.",
+       "Tờ giấy này dùng thay cho hộ chiếu.",
+       "Chúng tôi sẽ trả lại hộ chiếu khi nhận tờ giấy này.",
+       "Chúng tôi không thể trả lại hộ chiếu cho quý khách."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜と引き換えに (đổi lấy): \"Chúng tôi sẽ trả lại hộ chiếu khi nhận tờ giấy này.\""
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
