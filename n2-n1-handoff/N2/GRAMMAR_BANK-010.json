@@ -802,7 +802,7 @@
        "よく勉強したから、合格しかねない。",
        "このまま放っておくと、けがをしかねない。",
        "連絡を忘れると、相手を怒らせかねない。",
-       "古い電気製品を使い続けると、火事を起こしかねない。"
+       "古いストーブを使い続けると、火事を起こしかねない。"
       ],
       "answer_index": 0,
       "explanation_vi": "「よく勉強したから、合格しかねない。」 sai: thi đỗ là việc tốt nên không dùng かねない. Câu đúng: よく勉強したから、合格できるだろう。"
@@ -1256,7 +1256,191 @@
    "id": "JG-cde47d89cb"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "田中さんの部屋の電気がついている。家にいる（　　）。",
+      "options": [
+       "に違う",
+       "に違いある",
+       "に違いない",
+       "に限らない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に違いない」: thể thường + に違いない = chắc chắn là (suy ra từ việc đèn sáng). に違う, に違いある sai hình thức, に限らない (không chỉ) sai nghĩa. Nghĩa: Đèn phòng anh Tanaka đang sáng. Chắc chắn anh ấy đang ở nhà."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "あの店はいつも人が並んでいる。きっとおいしい（　　）。",
+      "options": [
+       "に違いない",
+       "ことにする",
+       "わけにはいかない",
+       "ようにする"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「に違いない」: Aい + に違いない, thường đi với きっと. ことにする, ようにする, わけにはいかない nói về hành động có ý chí, không hợp với tính từ おいしい. Nghĩa: Quán đó lúc nào cũng có người xếp hàng. Chắc chắn là ngon."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "玄関に靴がたくさんある。＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "違いない",
+       "来ている",
+       "お客さんが",
+       "に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 玄関に靴がたくさんある。お客さんが来ているに違いない。 (Ở cửa có nhiều giày. Chắc chắn là có khách đến.). Mảnh ở ô ★ là 「に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "財布がない。＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "に",
+       "違いない",
+       "落とした",
+       "電車の中で"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 財布がない。電車の中で落としたに違いない。 (Không thấy ví. Chắc chắn là đánh rơi trên tàu rồi.). Mảnh ở ô ★ là 「落とした」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この字は田中さんが書いたに違いない。",
+      "options": [
+       "Chữ này không phải anh Tanaka viết.",
+       "Chữ này chắc chắn là anh Tanaka viết.",
+       "Chữ này khác với chữ anh Tanaka viết.",
+       "Không biết chữ này có phải anh Tanaka viết không."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に違いない (chắc chắn là), không phải 'khác với': \"Chữ này chắc chắn là anh Tanaka viết.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "山田さんは笑っているが、心の中では怒っているに違いない。",
+      "options": [
+       "Anh Yamada đang cười nên chắc chắn không giận.",
+       "Anh Yamada cười và nói rằng mình đang giận.",
+       "Không có lý do gì để anh Yamada giận.",
+       "Anh Yamada đang cười nhưng trong lòng chắc chắn là đang giận."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に違いない (chắc chắn là): \"Anh Yamada đang cười nhưng trong lòng chắc chắn là đang giận.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女の荷物が多い。旅行に行くに違いない。",
+       "明日は私の誕生日に違いない。",
+       "この時間なら、もう店は閉まっているに違いない。",
+       "あの話し方を聞くと、関西の人に違いない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「明日は私の誕生日に違いない。」 sai: に違いない là suy đoán chắc chắn, không dùng cho sự thật mình đã biết rõ. Câu đúng: 明日は私の誕生日だ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あの二人は顔がよく似ている。兄弟に違いない。",
+       "部長は会議中だに違いない。",
+       "道がぬれている。雨が降ったに違いない。",
+       "こんな簡単な問題なら、誰でも解けるに違いない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「部長は会議中だに違いない。」 sai: danh từ nối thẳng với に違いない, không thêm だ. Câu đúng: 部長は会議中に違いない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "違いない。",
+       "喜ぶ",
+       "に",
+       "このプレゼントなら、母も"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Món quà này thì chắc chắn mẹ cũng sẽ vui."
+     },
+     {
+      "pieces": [
+       "遅れているのは",
+       "寝坊したから",
+       "に違いない。",
+       "田中さんが"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Anh Tanaka đến muộn chắc chắn là vì ngủ quên."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "あんなに勉強したのだから、合格するに違い＿＿。",
+      "answer": "ない",
+      "accept": [
+       "ありません"
+      ],
+      "translation_vi": "Đã học chăm như thế thì chắc chắn sẽ đỗ."
+     },
+     {
+      "sentence_ja": "玄関のかぎが開いている。誰かが帰ってきた＿＿違いない。",
+      "answer": "に",
+      "translation_vi": "Cửa chính không khóa. Chắc chắn là có ai đó đã về."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この時計は高い（　　）。有名なブランドのものだから。",
+      "options": [
+       "に違う",
+       "ようにする",
+       "ところだ",
+       "に違いない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に違いない」: người nói tin chắc chiếc đồng hồ đắt, căn cứ là hàng hiệu nổi tiếng. に違う sai hình thức, ようにする, ところだ không hợp nghĩa. Nghĩa: Chiếc đồng hồ này chắc chắn là đắt. Vì là hàng của thương hiệu nổi tiếng."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この料理は母が作ったに違いない。いつもの味がする。",
+      "options": [
+       "Món này khác với món mẹ nấu. Vị không như mọi khi.",
+       "Món này chắc chắn là mẹ nấu. Có vị quen thuộc như mọi khi.",
+       "Món này không phải mẹ nấu dù vị giống mọi khi.",
+       "Mẹ nhất định sẽ nấu món này với vị như mọi khi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に違いない (chắc chắn là): \"Món này chắc chắn là mẹ nấu. Có vị quen thuộc như mọi khi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "空が暗くなってきた。雨が降るに違いない。",
+       "私は明日パーティーに行くに違いない。",
+       "この答えは計算が合わない。間違っているに違いない。",
+       "彼はいつも本を読んでいる。読書が好きに違いない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私は明日パーティーに行くに違いない。」 sai: không dùng に違いない cho ý định của chính mình. Câu đúng: 私は明日パーティーに行くつもりだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -1274,7 +1458,191 @@
    "id": "JG-0fd265b39a"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "現場の様子から考えて、犯人はこの男（　　）。",
+      "options": [
+       "に相違ある",
+       "を相違ない",
+       "に相違ない",
+       "が相違ない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に相違ない」: N + に相違ない = chắc chắn là (cứng, văn viết). Các phương án còn lại sai trợ từ hoặc sai hình thức. Nghĩa: Xét tình hình hiện trường thì thủ phạm chắc chắn là người đàn ông này."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "調査の結果から見て、この事故の原因は機械の故障（　　）。",
+      "options": [
+       "をめぐって",
+       "において",
+       "に対して",
+       "に相違ない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に相違ない」: kết luận chắc chắn dựa trên kết quả điều tra. をめぐって, において, に対して cần vế sau nên không kết câu được. Nghĩa: Xét kết quả điều tra thì nguyên nhân tai nạn chắc chắn là do máy móc hỏng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このデータを見る限り、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "に",
+       "伸びる",
+       "相違ない",
+       "売り上げは"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: このデータを見る限り、売り上げは伸びるに相違ない。 (Theo số liệu này thì doanh thu chắc chắn sẽ tăng.). Mảnh ở ô ★ là 「に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "多くの人の話から、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ない",
+       "相違",
+       "事実に",
+       "その話は"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 多くの人の話から、その話は事実に相違ない。 (Theo lời nhiều người thì chuyện đó chắc chắn là sự thật.). Mảnh ở ô ★ là 「事実に」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この絵は、色の使い方から見て、有名な画家の作品に相違ない。",
+      "options": [
+       "Xét cách dùng màu, bức tranh này khác với tác phẩm của họa sĩ nổi tiếng.",
+       "Xét cách dùng màu, không biết bức tranh này có phải của họa sĩ nổi tiếng không.",
+       "Xét cách dùng màu, bức tranh này chắc chắn là tác phẩm của họa sĩ nổi tiếng.",
+       "Xét cách dùng màu, bức tranh này chỉ là bản sao tác phẩm của họa sĩ nổi tiếng."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜に相違ない (chắc chắn là), không hiểu 相違 là 'khác': \"Xét cách dùng màu, bức tranh này chắc chắn là tác phẩm của họa sĩ nổi tiếng.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "上記の内容に相違ありません。",
+      "options": [
+       "Nội dung trên có điểm khác biệt.",
+       "Nội dung trên là đúng sự thật, không sai khác.",
+       "Nội dung trên cần được sửa lại.",
+       "Tôi không đồng ý với nội dung trên."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に相違ありません trong giấy tờ để xác nhận: \"Nội dung trên là đúng sự thật, không sai khác.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "これほどの被害を出した以上、会社の責任は重いに相違ない。",
+       "彼の話は本当だに相違ない。",
+       "調査の結果、この病気の原因は水に相違ないと考えられる。",
+       "多くの専門家が同じ意見である以上、それは正しいに相違ない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼の話は本当だに相違ない。」 sai: Aな/N nối thẳng với に相違ない, không thêm だ. Câu đúng: 彼の話は本当に相違ない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "現場の様子から判断して、火事の原因はたばこに相違ない。",
+       "私は来年必ず留学するに相違ない。",
+       "これほど準備したのだから、計画は成功するに相違ない。",
+       "彼の様子から見て、何か知っているに相違ない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私は来年必ず留学するに相違ない。」 sai: に相違ない là phán đoán dựa trên căn cứ, không dùng cho kế hoạch, ý chí của bản thân. Câu đúng: 私は来年必ず留学するつもりだ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "相違ありません。",
+       "申し込み書の",
+       "内容に",
+       "記入した"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Nội dung đã ghi trong đơn đăng ký là đúng sự thật."
+     },
+     {
+      "pieces": [
+       "不注意に",
+       "運転手の",
+       "相違ない。",
+       "事故の原因は"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Nguyên nhân tai nạn chắc chắn là do tài xế bất cẩn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "これだけ準備したのだから、実験は成功する＿＿相違ない。",
+      "answer": "に",
+      "translation_vi": "Đã chuẩn bị đến mức này thì thí nghiệm chắc chắn sẽ thành công."
+     },
+     {
+      "sentence_ja": "以上の内容に相違＿＿。",
+      "answer": "ありません",
+      "accept": [
+       "ない"
+      ],
+      "translation_vi": "Nội dung trên là đúng sự thật."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "被害の大きさから見て、今回の地震はかなり強いもの（　　）。",
+      "options": [
+       "だに相違ない",
+       "であるに相違する",
+       "だったに相違ない",
+       "に相違あった"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「だったに相違ない」: thể thường quá khứ (だった) + に相違ない. だに相違ない thừa だ, であるに相違する và に相違あった sai hình thức. Nghĩa: Xét mức độ thiệt hại thì trận động đất lần này chắc chắn là rất mạnh."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "長年の経験から言って、この方法が最も安全であるに相違ない。",
+      "options": [
+       "Từ kinh nghiệm nhiều năm, phương pháp này khác với phương pháp an toàn nhất.",
+       "Từ kinh nghiệm nhiều năm, phương pháp này chưa chắc đã an toàn.",
+       "Từ kinh nghiệm nhiều năm, phương pháp này từng là an toàn nhất.",
+       "Từ kinh nghiệm nhiều năm, chắc chắn phương pháp này là an toàn nhất."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜であるに相違ない (chắc chắn là, văn viết): \"Từ kinh nghiệm nhiều năm, chắc chắn phương pháp này là an toàn nhất.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "これほど人気があるのだから、この商品は売れるに相違ない。",
+       "この事件の犯人は彼が相違ない。",
+       "話し方から判断すると、外国で長く暮らしていたに相違ない。",
+       "建物の古さから見て、百年以上前に建てられたものに相違ない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この事件の犯人は彼が相違ない。」 sai: trước 相違ない phải dùng trợ từ に. Câu đúng: この事件の犯人は彼に相違ない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1304,7 +1672,192 @@
    "id": "JG-50e25efeaa"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "毎日遅くまでゲームをしていたら、朝起きられない（　　）。",
+      "options": [
+       "に決めている",
+       "に決まっている",
+       "に決まる",
+       "を決めている"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に決まっている」: thể thường + に決まっている = chắc chắn là vậy (khẳng định mạnh, văn nói). に決めている, を決めている là 'đã quyết định', に決まる sai hình thức. Nghĩa: Ngày nào cũng chơi game đến khuya thì chắc chắn sáng không dậy nổi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "田中さんが来るなら、パーティーはにぎやかになる（　　）。",
+      "options": [
+       "ところだった",
+       "ことにした",
+       "に決めた",
+       "に決まっている"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に決まっている」: người nói khẳng định chắc chắn bữa tiệc sẽ vui. ところだった, ことにした, に決めた không hợp với vế なら và chủ ngữ パーティー. Nghĩa: Nếu anh Tanaka đến thì bữa tiệc chắc chắn sẽ náo nhiệt."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "そんなに食べたら、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "に",
+       "決まっている",
+       "おなかを",
+       "壊す"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: そんなに食べたら、おなかを壊すに決まっている。 (Ăn nhiều thế thì chắc chắn sẽ đau bụng.). Mảnh ở ô ★ là 「に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "あの二人なら、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "決まってる",
+       "来年",
+       "に",
+       "結婚する"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: あの二人なら、来年結婚するに決まってる。 (Hai người đó thì chắc chắn sang năm sẽ cưới.). Mảnh ở ô ★ là 「結婚する」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "宝くじなんて、当たらないに決まってるよ。",
+      "options": [
+       "Xổ số thì tôi đã quyết định không mua.",
+       "Xổ số thì chắc chắn là không trúng đâu.",
+       "Không biết xổ số có trúng không.",
+       "Xổ số thì nhất định sẽ trúng."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に決まっている (chắc chắn là), không phải 'đã quyết định': \"Xổ số thì chắc chắn là không trúng đâu.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもは甘いお菓子が好きに決まっている。",
+      "options": [
+       "Trẻ con được quy định không được ăn bánh kẹo ngọt.",
+       "Trẻ con chưa chắc đã thích bánh kẹo ngọt.",
+       "Trẻ con thì đương nhiên là thích bánh kẹo ngọt.",
+       "Trẻ con đã chọn bánh kẹo ngọt."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Aな + に決まっている (đương nhiên là): \"Trẻ con thì đương nhiên là thích bánh kẹo ngọt.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "こんな遅い時間に電話したら、相手が困るに決まっている。",
+       "あの人の言うことなんて、うそだに決まっている。",
+       "練習しないで試合に出たら、負けるに決まっている。",
+       "誕生日にプレゼントをもらったら、うれしいに決まってるよ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「あの人の言うことなんて、うそだに決まっている。」 sai: danh từ nối thẳng với に決まっている, không thêm だ. Câu đúng: うそに決まっている。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "冬の北海道は寒いに決まっている。",
+       "一日中歩いたら、疲れるに決まってるでしょう。",
+       "彼が来るに決まりない。",
+       "あの店のラーメンなら、おいしいに決まってる。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼が来るに決まりない。」 sai: mẫu cố định là に決まっている, không có dạng に決まりない. Câu đúng: 彼が来るに決まっている。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "子どもの幸せを",
+       "親なら",
+       "決まっている。",
+       "願うに"
+      ],
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "translation_vi": "Là cha mẹ thì đương nhiên mong con cái hạnh phúc."
+     },
+     {
+      "pieces": [
+       "に決まってる",
+       "じゃない。",
+       "そんなの",
+       "無理"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Chuyện đó thì đương nhiên là không thể rồi còn gì."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "雨の中を傘もささずに歩いたら、風邪をひくに決まって＿＿。",
+      "answer": "いる",
+      "accept": [
+       "る",
+       "います"
+      ],
+      "translation_vi": "Đi dưới mưa mà không che ô thì chắc chắn sẽ bị cảm."
+     },
+     {
+      "sentence_ja": "そんなの、うそ＿＿決まってるよ。",
+      "answer": "に",
+      "translation_vi": "Chuyện đó chắc chắn là nói dối rồi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あんなに練習したんだから、勝つ（　　）よ。",
+      "options": [
+       "に決めた",
+       "に決まって",
+       "を決まってる",
+       "に決まってる"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に決まってる」: dạng nói của に決まっている, khẳng định chắc chắn sẽ thắng. に決めた sai nghĩa, に決まって thiếu いる, を決まってる sai trợ từ. Nghĩa: Đã tập nhiều như thế thì chắc chắn thắng mà."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "そんなこと言ったら、彼女が怒るに決まってるじゃない。",
+      "options": [
+       "Nói thế thì đương nhiên cô ấy sẽ giận chứ còn gì.",
+       "Nói thế thì cô ấy đã quyết định sẽ giận.",
+       "Nói thế thì chưa chắc cô ấy đã giận.",
+       "Nói thế thì cô ấy sẽ không giận đâu."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜に決まってるじゃない (đương nhiên là… chứ còn gì): \"Nói thế thì đương nhiên cô ấy sẽ giận chứ còn gì.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "日曜日の遊園地は混んでいるに決まってる。",
+       "そんなに急いだら、間違えるに決まってるよ。",
+       "毎日勉強すれば、合格するに決まらない。",
+       "母の料理が一番に決まってる。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「毎日勉強すれば、合格するに決まらない。」 sai: mẫu này không có dạng phủ định 決まらない. Câu đúng: 毎日勉強すれば、合格するに決まっている。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1329,7 +1882,195 @@
    "id": "JG-c833c02a7c"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "約束の時間に一時間も遅れて謝らないのは、失礼（　　）。",
+      "options": [
+       "というもので",
+       "ものか",
+       "というものの",
+       "というものだ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「というものだ」: người nói đánh giá, kết luận về bản chất sự việc: đúng là thất lễ. というもので, というものの cần vế sau, ものか không đi sau danh từ như thế này. Nghĩa: Đến muộn tận một tiếng mà không xin lỗi thì đúng là thất lễ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "困っている時に助け合うのが、本当の友だち（　　）。",
+      "options": [
+       "といっても",
+       "というものだ",
+       "というより",
+       "といえば"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「というものだ」: nêu nhận định về bản chất 'bạn bè thật sự'. といっても, というより, といえば đều cần vế sau nên không kết câu được. Nghĩa: Giúp đỡ nhau lúc khó khăn, đó mới là bạn bè thật sự."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "何も知らない人に全部やらせるのは、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "もの",
+       "無理",
+       "だ",
+       "という"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 何も知らない人に全部やらせるのは、無理というものだ。 (Bắt người chẳng biết gì làm hết mọi việc thì đúng là quá sức.). Mảnh ở ô ★ là 「もの」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "子どもの成長を何よりも喜ぶ、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "という",
+       "それが",
+       "ものだ",
+       "親"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 子どもの成長を何よりも喜ぶ、それが親というものだ。 (Vui mừng hơn hết khi con trưởng thành, đó chính là cha mẹ.). Mảnh ở ô ★ là 「親」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "一度失敗したくらいであきらめるのは、もったいないというものだ。",
+      "options": [
+       "Mới thất bại một lần mà bỏ cuộc thì không hẳn là đáng tiếc.",
+       "Nghe nói bỏ cuộc sau một lần thất bại là đáng tiếc.",
+       "Mới thất bại một lần mà đã bỏ cuộc thì thật là đáng tiếc.",
+       "Thất bại một lần thì nên bỏ cuộc."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜というものだ (khẳng định đánh giá: đúng là…), khác というものではない (không hẳn là): \"Mới thất bại một lần mà đã bỏ cuộc thì thật là đáng tiếc.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "他人の手紙を勝手に開けるのは、マナー違反というものだ。",
+      "options": [
+       "Tự ý mở thư của người khác đúng là vi phạm phép lịch sự.",
+       "Tự ý mở thư của người khác chưa hẳn là vi phạm phép lịch sự.",
+       "Có một thứ gọi là phép lịch sự khi mở thư.",
+       "Hãy mở thư của người khác một cách lịch sự."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜というものだ (đúng là…): \"Tự ý mở thư của người khác đúng là vi phạm phép lịch sự.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "相手の気持ちを考えて話すのが、大人というものだ。",
+       "今日は月曜日というものだ。",
+       "これだけ頑張って結果が出ないのは、不公平というものだ。",
+       "子どもに勉強ばかりさせるのは、親のわがままというものだ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「今日は月曜日というものだ。」 sai: というものだ dùng để đánh giá bản chất sự việc, không dùng cho sự thật đơn giản. Câu đúng: 今日は月曜日だ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "努力すれば必ず誰かが見ている、それが人生というものだ。",
+       "失敗から学ぶ、それが成長というものだ。",
+       "人の話を最後まで聞かないのは、失礼というものだ。",
+       "私は今とても眠いというものだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「私は今とても眠いというものだ。」 sai: không dùng というものだ để nói cảm giác của bản thân lúc này. Câu đúng: 私は今とても眠い。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "というものだ。",
+       "人の気持ちを考えないのは",
+       "わがまま",
+       "自分のことばかりで"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Chỉ nghĩ đến bản thân mà không để ý cảm xúc người khác thì đúng là ích kỷ."
+     },
+     {
+      "pieces": [
+       "一人で",
+       "無理という",
+       "全部やるのは",
+       "ものだ。"
+      ],
+      "answer_order": [
+       0,
+       2,
+       1,
+       3
+      ],
+      "translation_vi": "Một mình làm hết mọi việc thì đúng là không thể."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "せっかくの休みに家でずっと寝ているのは、もったいないという＿＿だ。",
+      "answer": "もの",
+      "accept": [
+       "物"
+      ],
+      "translation_vi": "Kỳ nghỉ quý giá mà cứ nằm ngủ ở nhà suốt thì thật là phí."
+     },
+     {
+      "sentence_ja": "どんなに忙しくても約束は守る、それが社会人という＿＿。",
+      "answer": "ものだ",
+      "accept": [
+       "ものです",
+       "ものである"
+      ],
+      "translation_vi": "Dù bận đến đâu cũng giữ lời hứa, đó mới là người đi làm."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "相手が謝っているのに許さないのは、心が狭い（　　）。",
+      "options": [
+       "というものの",
+       "というものだ",
+       "といっても",
+       "というより"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「というものだ」: đánh giá việc không tha thứ là hẹp hòi. というものの, といっても, というより đều cần vế sau. Nghĩa: Người ta đã xin lỗi mà không tha thứ thì đúng là hẹp hòi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "二時間も待たせて何も言わないのは、ひどいというものだ。",
+      "options": [
+       "Bắt người ta đợi hai tiếng mà không nói gì thì không hẳn là quá đáng.",
+       "Nghe nói bắt người ta đợi hai tiếng là quá đáng.",
+       "Đợi hai tiếng mà không nói gì là chuyện bình thường.",
+       "Bắt người ta đợi hai tiếng mà không nói gì thì thật là quá đáng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜というものだ (thật là…, đánh giá của người nói): \"Bắt người ta đợi hai tiếng mà không nói gì thì thật là quá đáng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "困ったときに助けてくれるのが、本当の友だちというものだ。",
+       "日本の首都は東京というものだ。",
+       "子どもの前でけんかをするのは、親として無責任というものだ。",
+       "これだけ働いて給料が安いのは、不満が出て当然というものだ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「日本の首都は東京というものだ。」 sai: đây là sự thật khách quan, không phải đánh giá nên không dùng というものだ. Câu đúng: 日本の首都は東京だ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
