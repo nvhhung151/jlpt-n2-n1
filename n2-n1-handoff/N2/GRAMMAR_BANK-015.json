@@ -956,15 +956,13 @@
      },
      {
       "pieces": [
-       "注文できる。",
-       "わさび抜きの",
-       "あの店では",
-       "おすしも"
+       "おすしも注文できる。",
+       "あの店ではわさび",
+       "抜きの"
       ],
       "answer_order": [
-       2,
        1,
-       3,
+       2,
        0
       ],
       "translation_vi": "Ở quán đó có thể gọi cả sushi không có wasabi."
@@ -1263,7 +1261,184 @@
    "id": "JG-25a0a40527"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "肉（　　）魚にしても、新しいものを選ぶことが大切だ。",
+      "options": [
+       "にしては",
+       "にしても",
+       "によって",
+       "にとって"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「にしても」: N にしても N にしても nêu hai trường hợp rồi nói điều đúng cho cả hai. にしては (so với... thì), によって (tùy theo), にとって (đối với) không ghép cặp với 魚にしても. Nghĩa: Dù là thịt hay cá, điều quan trọng là chọn đồ mới, còn tươi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "参加する（　　）しないにしても、明日までに連絡してください。",
+      "options": [
+       "ばかりか",
+       "うえに",
+       "ものの",
+       "にしても"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「にしても」: tham gia hay không tham gia thì cũng hãy liên lạc trước ngày mai. ばかりか, うえに (không chỉ... mà còn), ものの (tuy... nhưng) không tạo được cặp 'dù A hay B'. Nghĩa: Dù tham gia hay không thì cũng xin hãy liên lạc trước ngày mai."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "大学に＿＿ ＿＿ ★ ＿＿、英語は必要だ。",
+      "options": [
+       "留学するにしても",
+       "進む",
+       "海外へ",
+       "にしても、"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 大学に進むにしても、海外へ留学するにしても、英語は必要だ。 (Dù học lên đại học hay đi du học nước ngoài thì tiếng Anh cũng cần thiết.). Mảnh ở ô ★ là 「海外へ」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "子どもに＿＿ ★ ＿＿ ＿＿理由をきちんと話そう。",
+      "options": [
+       "その",
+       "ほめるにしても、",
+       "注意する",
+       "にしても"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 子どもに注意するにしてもほめるにしても、その理由をきちんと話そう。 (Dù nhắc nhở hay khen con thì cũng hãy nói rõ lý do.). Mảnh ở ô ★ là 「にしても」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "勝つにしても負けるにしても、最後まで全力で戦おう。",
+      "options": [
+       "Vì muốn thắng nên hãy chiến đấu hết sức.",
+       "Nếu thua thì không cần chiến đấu đến cùng.",
+       "Dù thắng hay thua, hãy chiến đấu hết sức đến cùng.",
+       "Thắng hay thua đều do mình chiến đấu hết sức."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜にしても〜にしても (dù là A hay B): \"Dù thắng hay thua, hãy chiến đấu hết sức đến cùng.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ビールにしてもワインにしても、飲みすぎは体に悪い。",
+      "options": [
+       "Dù là bia hay rượu vang, uống quá nhiều đều hại cho sức khỏe.",
+       "Bia thì tốt nhưng rượu vang uống nhiều thì hại.",
+       "Thay vì bia, hãy uống rượu vang.",
+       "Bia và rượu vang không hại sức khỏe nếu uống nhiều."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜にしても〜にしても (điều đúng cho cả hai trường hợp): \"Dù là bia hay rượu vang, uống quá nhiều đều hại cho sức khỏe.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "買うにしても買わないにしても、一度見に行こう。",
+       "賛成するにしても反対するにしても、昨日会議に出た。",
+       "男性にしても女性にしても、この仕事はできる。",
+       "今日にしても明日にしても、雨が降りそうだ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「賛成するにしても反対するにしても、昨日会議に出た。」 sai: vế sau phải là phán đoán hay yêu cầu chung cho cả hai trường hợp, không phải một sự việc cụ thể đã xảy ra. Câu đúng: 賛成するにしても反対するにしても、会議には出てください。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "電話にしてもメールにしても、早く返事をしたほうがいい。",
+       "引っ越すにしても引っ越さないにしても、早く決めよう。",
+       "大きいにしても小さいにしても、箱が一つ必要だ。",
+       "高くにしても安くにしても、一度買ってみたい。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「高くにしても安くにしても、一度買ってみたい。」 sai: tính từ い giữ nguyên thể thường trước にしても (高い, 安い), không đổi sang 〜く. Câu đúng: 高いにしても安いにしても、一度買ってみたい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "借りるにしても、",
+       "お金がかかる。",
+       "車を買うにしても"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Dù mua hay thuê ô tô thì cũng đều tốn tiền."
+     },
+     {
+      "pieces": [
+       "使わないにしても、",
+       "掃除はしておこう。",
+       "この部屋を使うにしても"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Dù có dùng căn phòng này hay không thì cũng hãy dọn dẹp trước."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "行く＿＿行かないにしても、返事はしてください。",
+      "answer": "にしても",
+      "translation_vi": "Dù đi hay không đi thì cũng xin hãy trả lời."
+     },
+     {
+      "sentence_ja": "和食にしても洋食＿＿、この店の料理はどれもおいしい。",
+      "answer": "にしても",
+      "translation_vi": "Dù là món Nhật hay món Tây, món nào ở quán này cũng ngon."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "晴れ（　　）雨にしても、明日の遠足は予定どおり行います。",
+      "options": [
+       "にしては",
+       "につれて",
+       "にしても",
+       "にかけて"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にしても」: nắng hay mưa thì buổi dã ngoại vẫn diễn ra theo kế hoạch. にしては (so với... thì), につれて (càng... càng), にかけて (trải suốt) không ghép cặp với 雨にしても. Nghĩa: Dù nắng hay mưa, buổi dã ngoại ngày mai vẫn diễn ra theo kế hoạch."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "引き受けるにしても断るにしても、早めに連絡したほうがいい。",
+      "options": [
+       "Nếu nhận lời thì phải liên lạc sớm, còn từ chối thì không cần.",
+       "Vì đã từ chối nên tôi liên lạc sớm.",
+       "Hãy nhận lời thay vì từ chối.",
+       "Dù nhận lời hay từ chối thì cũng nên liên lạc sớm."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜にしても〜にしても (dù A hay B thì cũng): \"Dù nhận lời hay từ chối thì cũng nên liên lạc sớm.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "肉にしても魚にしても、昨日たくさん買った。",
+       "冬にしても夏にしても、この町は観光客が多い。",
+       "うまくいくにしてもいかないにしても、やってみるべきだ。",
+       "大人にしても子どもにしても、ルールは守らなければならない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「肉にしても魚にしても、昨日たくさん買った。」 sai: mẫu nêu hai khả năng rồi đưa ra nhận định chung, không dùng để kể lại việc cụ thể đã làm. Câu đúng: 昨日は肉も魚もたくさん買った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1290,7 +1465,194 @@
    "id": "JG-77ec44ca3e"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "友だちの誕生日に、心（　　）ケーキを焼いた。",
+      "options": [
+       "に込めて",
+       "を込めて",
+       "で込めて",
+       "が込めて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「を込めて」: 心を込めて là 'bằng cả tấm lòng'; 込める là tha động từ nên đi với を. に, で, が đều sai trợ từ. Nghĩa: Nhân sinh nhật bạn, tôi đã nướng bánh bằng cả tấm lòng."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "感謝の気持ち（　　）、先生に手紙を書いた。",
+      "options": [
+       "に反して",
+       "をめぐって",
+       "にわたって",
+       "を込めて"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「を込めて」: dồn lòng biết ơn vào lá thư gửi thầy. に反して (trái với), をめぐって (xoay quanh), にわたって (suốt) đều không hợp. Nghĩa: Tôi đã viết thư cho thầy với tất cả lòng biết ơn."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿をもらった。",
+      "options": [
+       "手作りのお弁当",
+       "込めた",
+       "母の",
+       "愛情を"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 母の愛情を込めた手作りのお弁当をもらった。 (Tôi nhận được hộp cơm mẹ tự tay làm với tất cả tình thương.). Mảnh ở ô ★ là 「込めた」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿をお送りします。",
+      "options": [
+       "込めた",
+       "小さなプレゼント",
+       "感謝を",
+       "日ごろの"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 日ごろの感謝を込めた小さなプレゼントをお送りします。 (Chúng tôi xin gửi một món quà nhỏ thay lời cảm ơn thường ngày.). Mảnh ở ô ★ là 「感謝を」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は一枚一枚、心を込めて絵をかいている。",
+      "options": [
+       "Cô ấy vẽ tranh rất nhanh, không để tâm lắm.",
+       "Cô ấy vẽ trái tim lên từng bức tranh.",
+       "Cô ấy dồn hết tâm huyết vẽ từng bức tranh một.",
+       "Cô ấy cất từng bức tranh vào trong lòng."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜を込めて (dồn tình cảm, tâm huyết vào việc làm): \"Cô ấy dồn hết tâm huyết vẽ từng bức tranh một.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "選手たちは、ファンへの感謝を込めて頭を下げた。",
+      "options": [
+       "Các tuyển thủ cúi đầu xin lỗi người hâm mộ.",
+       "Người hâm mộ cúi đầu cảm ơn các tuyển thủ.",
+       "Các tuyển thủ được người hâm mộ cảm ơn.",
+       "Các tuyển thủ cúi đầu với lòng biết ơn người hâm mộ."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜を込めて (với trọn tình cảm): \"Các tuyển thủ cúi đầu với lòng biết ơn người hâm mộ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "願いを込めて星に祈った。",
+       "心を込めて料理を作った。",
+       "箱に本を込めて送った。",
+       "愛を込めて手紙を書いた。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「箱に本を込めて送った。」 sai: を込めて dùng cho tình cảm, tâm huyết, không dùng để cho đồ vật vào hộp. Câu đúng: 箱に本を詰めて送った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "思いに込めてスピーチをした。",
+       "感謝を込めた花束を贈った。",
+       "力を込めてドアを押した。",
+       "平和への祈りを込めて歌った。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「思いに込めてスピーチをした。」 sai: thứ được dồn vào đi với を, không dùng に. Câu đúng: 思いを込めてスピーチをした。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "手紙を書いた。",
+       "子どもたちは心を",
+       "込めて先生に"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Bọn trẻ đã viết thư cho thầy cô bằng cả tấm lòng."
+     },
+     {
+      "pieces": [
+       "プレゼントです。",
+       "これは私の",
+       "込めた",
+       "気持ちを"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Đây là món quà chứa đựng tấm lòng của tôi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "相手に伝わるように、気持ちを＿＿話した。",
+      "answer": "込めて",
+      "accept": [
+       "こめて"
+      ],
+      "translation_vi": "Tôi đã nói bằng cả tấm lòng để đối phương hiểu được."
+     },
+     {
+      "sentence_ja": "母は愛情を＿＿料理を作ってくれる。",
+      "answer": "込めて",
+      "accept": [
+       "こめて",
+       "もって",
+       "持って"
+      ],
+      "translation_vi": "Mẹ nấu ăn cho tôi với tất cả tình thương."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "これは平和への願い（　　）作られた歌です。",
+      "options": [
+       "に加えて",
+       "を込めて",
+       "をはじめ",
+       "にかけて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「を込めて」: bài hát được sáng tác gửi gắm mong ước hòa bình. に加えて (thêm vào), をはじめ (tiêu biểu là), にかけて (trải suốt) đều không hợp. Nghĩa: Đây là bài hát được sáng tác với mong ước hòa bình."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "心を込めて作ったので、ぜひ食べてみてください。",
+      "options": [
+       "Tôi đã làm bằng cả tấm lòng nên nhất định hãy ăn thử nhé.",
+       "Tôi làm vội nên không ngon lắm, mong bạn thông cảm.",
+       "Tôi bỏ một trái tim vào món ăn nên hãy ăn thử.",
+       "Tôi không có lòng nấu nên bạn hãy tự làm."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜を込めて (dồn tâm huyết): \"Tôi đã làm bằng cả tấm lòng nên nhất định hãy ăn thử nhé.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "友情を込めてプレゼントを選んだ。",
+       "怒りを込めた声で言った。",
+       "砂糖を込めてケーキを作った。",
+       "お礼の気持ちを込めて働いた。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「砂糖を込めてケーキを作った。」 sai: を込めて đi với tình cảm, tâm huyết, không đi với nguyên liệu cụ thể như đường. Câu đúng: 砂糖を入れてケーキを作った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1313,7 +1675,186 @@
    "id": "JG-03416c5da3"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "小さなけがだから、心配する（　　）。",
+      "options": [
+       "ことになっている",
+       "ほどのことではない",
+       "わけにはいかない",
+       "ばかりだ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ほどのことではない」: vết thương nhỏ nên chưa đến mức phải lo. ことになっている (theo quy định), わけにはいかない (không thể), ばかりだ (chỉ toàn) đều mâu thuẫn với lý do 'vết thương nhỏ'. Nghĩa: Chỉ là vết thương nhỏ nên chưa đến mức phải lo lắng."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "それくらいのこと、わざわざ謝る（　　）ないよ。",
+      "options": [
+       "ほどのことでは",
+       "ばかりでは",
+       "ことには",
+       "ようでは"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「ほどのことでは」: chuyện cỡ đó không đáng để phải cất công xin lỗi. ばかりでは, ことには, ようでは không ghép với ない thành nghĩa 'không đến mức'. Nghĩa: Chuyện cỡ đó thì chưa đến mức phải cất công xin lỗi đâu."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿ないよ。",
+      "options": [
+       "けがなら",
+       "この程度の",
+       "病院へ行く",
+       "ほどのことでは"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この程度のけがなら病院へ行くほどのことではないよ。 (Vết thương cỡ này thì chưa đến mức phải đi bệnh viện đâu.). Mảnh ở ô ★ là 「病院へ行く」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "そんなに＿＿ ★ ＿＿ ＿＿よ。",
+      "options": [
+       "ない",
+       "ことでは",
+       "怒る",
+       "ほどの"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: そんなに怒るほどのことではないよ。 (Chưa đến mức phải giận dữ như thế đâu.). Mảnh ở ô ★ là 「ほどの」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "わざわざ会って話すほどのことではありません。",
+      "options": [
+       "Không phải chuyện đến mức phải cất công gặp nhau nói chuyện.",
+       "Đây là chuyện quan trọng nên phải gặp nhau nói.",
+       "Gặp nhau nói chuyện nhiều đến mức không còn gì để nói.",
+       "Tôi không thể gặp để nói chuyện được."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ほどのことではない (việc nhỏ, không đáng phải làm đến thế): \"Không phải chuyện đến mức phải cất công gặp nhau nói chuyện.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "そんなに落ち込むほどのことじゃないでしょう。",
+      "options": [
+       "Chuyện đó buồn đến mức ai cũng suy sụp.",
+       "Đâu phải chuyện đến mức phải buồn rầu như vậy.",
+       "Chuyện đó đã làm tôi suy sụp.",
+       "Buồn rầu thì sẽ giải quyết được chuyện đó."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ほどのことではない (không đáng để phản ứng mạnh như vậy): \"Đâu phải chuyện đến mức phải buồn rầu như vậy.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "わざわざ電話するほどのことではない。",
+       "人に話すほどのことではありません。",
+       "怒ったほどのことではない。",
+       "大げさに喜ぶほどのことではない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「怒ったほどのことではない。」 sai: mẫu đi sau Vる (phản ứng mà mình cho là không cần), không đi sau Vた. Câu đúng: 怒るほどのことではない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "心配のほどのことではない。",
+       "医者に行くほどのことではない。",
+       "それは議論するほどのことではない。",
+       "いちいち報告するほどのことではない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「心配のほどのことではない。」 sai: ほど gắn sau động từ thể từ điển, không chen の vào. Câu đúng: 心配するほどのことではない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ほどのことではない。",
+       "このくらいの雨なら、",
+       "傘をさす"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Mưa cỡ này thì chưa đến mức phải che ô."
+     },
+     {
+      "pieces": [
+       "報告する",
+       "ちょっとしたミスだから、",
+       "ほどのことではない。",
+       "部長に"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Chỉ là lỗi nhỏ nên chưa đến mức phải báo cáo với trưởng phòng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "少し遅れるだけだから、電話する＿＿ではないよ。",
+      "answer": "ほどのこと",
+      "translation_vi": "Chỉ muộn một chút thôi nên chưa đến mức phải gọi điện đâu."
+     },
+     {
+      "sentence_ja": "これは先生に相談する＿＿ではない。自分で決めよう。",
+      "answer": "ほどのこと",
+      "translation_vi": "Chuyện này chưa đến mức phải hỏi ý kiến thầy. Mình tự quyết thôi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "財布を家に忘れただけだから、警察に届ける（　　）。",
+      "options": [
+       "べきだ",
+       "ようになった",
+       "ほどのことではない",
+       "ところだった"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ほどのことではない」: chỉ là để quên ví ở nhà nên chưa đến mức phải báo cảnh sát. べきだ (nên), ようになった (đã trở nên), ところだった (suýt nữa) đều mâu thuẫn với だけだから. Nghĩa: Chỉ là để quên ví ở nhà thôi nên chưa đến mức phải báo cảnh sát."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "気にするほどのことではないから、忘れなさい。",
+      "options": [
+       "Chuyện này rất đáng bận tâm, đừng quên.",
+       "Không phải chuyện đáng để bận tâm đâu, quên đi.",
+       "Vì bận tâm quá nên tôi đã quên.",
+       "Hãy bận tâm cho đến khi quên được."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ほどのことではない (chuyện nhỏ, không đáng): \"Không phải chuyện đáng để bận tâm đâu, quên đi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "お礼を言われるほどのことではありません。",
+       "そんなに心配するほどのことではないよ。",
+       "急いで決めるほどのことではない。",
+       "わざわざ東京まで行きほどのことではない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「わざわざ東京まで行きほどのことではない。」 sai: ほど đi sau thể từ điển Vる, không đi sau gốc động từ. Câu đúng: わざわざ東京まで行くほどのことではない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1336,7 +1877,190 @@
    "id": "JG-db6f287fa4"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この仕事は給料が安いこと（　　）、休みも少ない。",
+      "options": [
+       "に比べて",
+       "に対して",
+       "に加えて",
+       "に反して"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に加えて」: thêm một điểm xấu nữa (ít ngày nghỉ) vào điểm xấu đã có (lương thấp), vế sau có も. に比べて (so với), に対して (trái lại), に反して (trái với) đều mâu thuẫn với も. Nghĩa: Công việc này ngoài lương thấp ra thì ngày nghỉ cũng ít."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "大雨（　　）、強い風も吹いている。",
+      "options": [
+       "のおかげで",
+       "につれて",
+       "によると",
+       "に加えて"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に加えて」: ngoài mưa lớn còn có gió mạnh, hai yếu tố xấu cộng lại. のおかげで (nhờ), につれて (càng... càng), によると (theo) đều không hợp. Nghĩa: Không chỉ mưa lớn mà gió cũng đang thổi mạnh."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このホテルは＿＿ ＿＿ ★ ＿＿おいしい。",
+      "options": [
+       "朝ご飯も",
+       "加えて",
+       "駅から",
+       "近いことに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: このホテルは駅から近いことに加えて朝ご飯もおいしい。 (Khách sạn này ngoài việc gần ga ra thì bữa sáng cũng ngon.). Mảnh ở ô ★ là 「加えて」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "今月は＿＿ ★ ＿＿ ＿＿忙しい。",
+      "options": [
+       "あって",
+       "引っ越しの準備も",
+       "普段の仕事",
+       "に加えて"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 今月は普段の仕事に加えて引っ越しの準備もあって忙しい。 (Tháng này ngoài công việc thường ngày còn phải chuẩn bị chuyển nhà nên rất bận.). Mảnh ở ô ★ là 「に加えて」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この店は値段が安いのに加えて、サービスもいい。",
+      "options": [
+       "Cửa hàng này giá rẻ nhưng dịch vụ tệ.",
+       "Cửa hàng này ngoài giá rẻ ra thì dịch vụ cũng tốt.",
+       "Cửa hàng này vì dịch vụ tốt nên giá cao.",
+       "Cửa hàng này giá rẻ hơn so với dịch vụ."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に加えて (thêm vào đó, cùng hướng): \"Cửa hàng này ngoài giá rẻ ra thì dịch vụ cũng tốt.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本語に加えて、英語も話せる人を探している。",
+      "options": [
+       "Chúng tôi đang tìm người nói tiếng Nhật thay vì tiếng Anh.",
+       "Chúng tôi đang tìm người chỉ nói tiếng Nhật.",
+       "Chúng tôi đang tìm người nói được cả tiếng Anh ngoài tiếng Nhật.",
+       "Chúng tôi đang tìm người dạy tiếng Anh bằng tiếng Nhật."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜に加えて (ngoài N ra còn thêm): \"Chúng tôi đang tìm người nói được cả tiếng Anh ngoài tiếng Nhật.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は頭がいいのに加えて、勉強が全然できない。",
+       "雪に加えて、風も強くなってきた。",
+       "交通費に加えて、食事代も出ます。",
+       "仕事が忙しいことに加えて、子どもが熱を出した。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼は頭がいいのに加えて、勉強が全然できない。」 sai: に加えて nối hai yếu tố cùng hướng; hai vế trái chiều thì dùng のに hay が. Câu đúng: 彼は頭がいいのに、勉強が全然できない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "授業料に加えて、教科書代もかかる。",
+       "暑さに加えて、湿気もひどい。",
+       "人手不足に加えて、材料の値段も上がった。",
+       "雨が降るに加えて、雷も鳴っている。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「雨が降るに加えて、雷も鳴っている。」 sai: động từ phải danh từ hóa bằng こと hay の trước に加えて. Câu đúng: 雨が降っていることに加えて、雷も鳴っている。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "地震もあった。",
+       "今年は台風",
+       "に加えて"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Năm nay ngoài bão ra còn có cả động đất."
+     },
+     {
+      "pieces": [
+       "生活費も必要だ。",
+       "留学には学費",
+       "に加えて"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Đi du học thì ngoài học phí còn cần cả chi phí sinh hoạt."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この部屋は広さ＿＿、日当たりもいい。",
+      "answer": "に加えて",
+      "accept": [
+       "に加え"
+      ],
+      "translation_vi": "Căn phòng này ngoài rộng rãi ra thì cũng nhiều ánh nắng."
+     },
+     {
+      "sentence_ja": "年末は仕事＿＿、家の大掃除もしなければならない。",
+      "answer": "に加えて",
+      "accept": [
+       "に加え"
+      ],
+      "translation_vi": "Cuối năm ngoài công việc ra còn phải tổng vệ sinh nhà cửa."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は英語（　　）、中国語やフランス語も話せる。",
+      "options": [
+       "に加えて",
+       "に対して",
+       "について",
+       "に比べて"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「に加えて」: ngoài tiếng Anh còn nói được tiếng Trung và tiếng Pháp, vế sau có も. に対して (đối với), について (về), に比べて (so với) không hợp với も. Nghĩa: Ngoài tiếng Anh, anh ấy còn nói được cả tiếng Trung và tiếng Pháp."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "寒さに加えて、雪で電車も止まった。",
+      "options": [
+       "Vì trời lạnh nên tuyết đã tan.",
+       "Trời lạnh nhưng tàu vẫn chạy bình thường.",
+       "Tàu ngừng chạy làm trời lạnh hơn.",
+       "Không những trời lạnh mà tàu còn ngừng chạy do tuyết."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に加えて (thêm một yếu tố xấu nữa): \"Không những trời lạnh mà tàu còn ngừng chạy do tuyết.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "勉強に加えて、アルバイトも頑張っている。",
+       "この町は便利に加えて、自然も多い。",
+       "会費に加えて、毎月少しお金を集めます。",
+       "経験に加えて、やる気も大切だ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この町は便利に加えて、自然も多い。」 sai: tính từ な phải thành 便利なことに加えて (hoặc 便利なのに加えて), không gắn thẳng vào に加えて. Câu đúng: この町は便利なことに加えて、自然も多い。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
