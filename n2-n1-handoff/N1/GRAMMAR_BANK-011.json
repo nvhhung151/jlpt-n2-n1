@@ -347,7 +347,6 @@
      {
       "sentence_ja": "予選＿＿、決勝に進んだのは八チームだった。",
       "answer": "を経て",
-      "accept": [],
       "translation_vi": "Trải qua vòng loại, có tám đội vào được chung kết."
      },
      {
@@ -879,15 +878,15 @@
      },
      {
       "type": "ORDER_STAR",
-      "prompt_ja": "川に落ちた葉が、＿＿ ★ ＿＿ ＿＿。",
+      "prompt_ja": "川に落ちた葉が、＿＿ ＿＿ ★ ＿＿。",
       "options": [
        "いく",
        "流れて",
        "沈みつ",
        "浮きつ"
       ],
-      "answer_index": 2,
-      "explanation_vi": "Câu đúng: 川に落ちた葉が、浮きつ沈みつ流れていく。 (Chiếc lá rơi xuống sông trôi đi, lúc nổi lúc chìm.). Mảnh ở ô ★ là 「沈みつ」."
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 川に落ちた葉が、浮きつ沈みつ流れていく。 (Chiếc lá rơi xuống sông trôi đi, lúc nổi lúc chìm.). Mảnh ở ô ★ là 「流れて」."
      },
      {
       "type": "MEANING",
@@ -1245,7 +1244,191 @@
    "id": "JG-ae0bab0fb7"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "犯人は窓から侵入した（　　）。",
+      "options": [
+       "に至って",
+       "をおいて",
+       "ものと思われる",
+       "につけ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ものと思われる」: thể thường + ものと思われる dùng để đưa ra phán đoán khách quan trong báo cáo, tin tức. Các lựa chọn khác bỏ lửng câu. Nghĩa: Thủ phạm được cho là đã đột nhập qua cửa sổ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この遺跡は、千年以上前に作られた（　　）。",
+      "options": [
+       "を経て",
+       "ものと思われる",
+       "に値する",
+       "をはじめ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ものと思われる」: phán đoán một cách khách quan về niên đại di tích. に値する không nối sau thể た. Nghĩa: Di tích này được cho là đã được xây dựng từ hơn một nghìn năm trước."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "事故の原因は、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "思われる",
+       "ものと",
+       "居眠りによる",
+       "運転手の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 事故の原因は、運転手の居眠りによるものと思われる。 (Nguyên nhân vụ tai nạn được cho là do tài xế ngủ gật.). Mảnh ở ô ★ là 「ものと」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "今回の値上げは、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "受けた",
+       "ものと思われる",
+       "高騰を",
+       "原料費の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 今回の値上げは、原料費の高騰を受けたものと思われる。 (Đợt tăng giá lần này được cho là do ảnh hưởng của chi phí nguyên liệu tăng vọt.). Mảnh ở ô ★ là 「高騰を」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "景気は今後、緩やかに回復するものと思われる。",
+      "options": [
+       "Nền kinh tế chắc chắn đã phục hồi hoàn toàn.",
+       "Nền kinh tế được quy định là phải phục hồi.",
+       "Tôi mong nền kinh tế không phục hồi.",
+       "Người ta cho rằng nền kinh tế sẽ phục hồi chậm rãi trong thời gian tới."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ものと思われる (được cho là): 'Người ta cho rằng nền kinh tế sẽ phục hồi chậm rãi trong thời gian tới.'"
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "被害は広い範囲に及んでいるものと思われる。",
+      "options": [
+       "Thiệt hại được cho là đã lan rộng trên một phạm vi lớn.",
+       "Thiệt hại chỉ giới hạn trong một phạm vi nhỏ.",
+       "Người ta quy định thiệt hại không được lan rộng.",
+       "Thiệt hại lan rộng là điều đã được xác nhận chính thức."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ものと思われる (được cho là, phán đoán chưa chắc chắn): 'Thiệt hại được cho là đã lan rộng trên một phạm vi lớn.'"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "原因は配線の不具合によるものと思われる。",
+       "私は昨日、駅前のスーパーで牛乳を買ったものと思われる。",
+       "この遺跡は、千年以上前に作られたものと思われる。",
+       "景気は今後、緩やかに回復するものと思われる。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私は昨日、駅前のスーパーで牛乳を買ったものと思われる。」 sai: ものと思われる là phán đoán khách quan về điều chưa chắc chắn, không dùng cho việc chính mình đã làm và biết rõ. Câu đúng: 私は昨日、駅前のスーパーで牛乳を買った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "事故の原因は、運転手の居眠りによるものと思われる。",
+       "今回の値上げは、原料費の高騰を受けたものと思われる。",
+       "被害は広い範囲に及んでいるものと思われる。",
+       "犯人は窓から侵入したものが思われる。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「犯人は窓から侵入したものが思われる。」 sai: mẫu cố định là ものと思われる, dùng trợ từ と chứ không phải が. Câu đúng: 犯人は窓から侵入したものと思われる。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "減少する",
+       "ものと思われる。",
+       "この地域の人口は"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Dân số khu vực này được cho là sẽ giảm."
+     },
+     {
+      "pieces": [
+       "による",
+       "ものと思われる。",
+       "落雷",
+       "停電は"
+      ],
+      "answer_order": [
+       3,
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Vụ mất điện được cho là do sét đánh."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "容疑者は、すでに海外へ逃亡した＿＿。",
+      "answer": "ものと思われる",
+      "accept": [
+       "ものとみられる",
+       "と思われる",
+       "とみられる"
+      ],
+      "translation_vi": "Nghi phạm được cho là đã trốn ra nước ngoài."
+     },
+     {
+      "sentence_ja": "この傾向は、来年も続くもの＿＿思われる。",
+      "answer": "と",
+      "translation_vi": "Xu hướng này được cho là sẽ tiếp tục vào năm sau."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "地震による被害の総額は、一兆円を超える（　　）。",
+      "options": [
+       "ものと思われる",
+       "につけ",
+       "をおいて",
+       "を経て"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「ものと思われる」: đưa ra ước đoán khách quan về tổng thiệt hại. Nghĩa: Tổng thiệt hại do động đất được cho là sẽ vượt một nghìn tỷ yên."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "犯行は計画的に行われたものと思われる。",
+      "options": [
+       "Vụ án chắc chắn là do bộc phát nhất thời.",
+       "Hung thủ đã tự thú rằng vụ án được lên kế hoạch.",
+       "Vụ án được cho là đã được thực hiện có kế hoạch.",
+       "Vụ án được quy định là phải được thực hiện có kế hoạch."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ものと思われる (được cho là): 'Vụ án được cho là đã được thực hiện có kế hoạch.'"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "停電は落雷によるものと思われる。",
+       "今日は私の誕生日なので、ケーキを買ったものと思われる。",
+       "この地域の人口は減少するものと思われる。",
+       "容疑者は、すでに海外へ逃亡したものと思われる。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「今日は私の誕生日なので、ケーキを買ったものと思われる。」 sai: không dùng ものと思われる cho việc của chính mình đã chắc chắn. Câu đúng: 今日は私の誕生日なので、ケーキを買った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1268,7 +1451,191 @@
    "id": "JG-480dabd39d"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この映画は、一度見る（　　）作品だ。",
+      "options": [
+       "ものとする",
+       "につけ",
+       "を経た",
+       "に値する"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に値する」: Vる + に値する + N, tác phẩm đáng để xem một lần. Nghĩa: Bộ phim này là tác phẩm đáng xem một lần."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の提案は、十分検討する（　　）。",
+      "options": [
+       "をおいて",
+       "に値する",
+       "とて",
+       "をはじめ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に値する」: đề xuất có đủ giá trị để được xem xét kỹ. Nghĩa: Đề xuất của anh ấy hoàn toàn đáng được xem xét."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼女の勇気ある行動は、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "人の",
+       "値する",
+       "尊敬に",
+       "多くの"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼女の勇気ある行動は、多くの人の尊敬に値する。 (Hành động dũng cảm của cô ấy xứng đáng được nhiều người kính trọng.). Mảnh ở ô ★ là 「尊敬に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この研究は、＿＿ ★ ＿＿ ＿＿と言える。",
+      "options": [
+       "成果だ",
+       "値する",
+       "学会でも",
+       "注目に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: この研究は、学会でも注目に値する成果だと言える。 (Có thể nói nghiên cứu này là thành quả đáng được chú ý cả trong giới học thuật.). Mảnh ở ô ★ là 「注目に」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "その意見は、聞くに値しない。",
+      "options": [
+       "Ý kiến đó rất đáng được lắng nghe.",
+       "Ý kiến đó không thể nghe rõ được.",
+       "Ý kiến đó không đáng để lắng nghe.",
+       "Ý kiến đó phải trả tiền mới được nghe."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng dạng phủ định của 〜に値する (に値しない: không đáng): 'Ý kiến đó không đáng để lắng nghe.' 値 ở đây không chỉ giá tiền."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の業績は、ノーベル賞に値する。",
+      "options": [
+       "Thành tựu của ông ấy đã được trao giải Nobel.",
+       "Thành tựu của ông ấy xứng đáng với giải Nobel.",
+       "Thành tựu của ông ấy có giá trị bằng tiền thưởng giải Nobel.",
+       "Ông ấy không xứng đáng nhận giải Nobel."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N + に値する (xứng đáng với): 'Thành tựu của ông ấy xứng đáng với giải Nobel.' Câu chỉ nói xứng đáng, không nói đã nhận giải."
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の努力は賞賛を値する。",
+       "この映画は、一度見るに値する作品だ。",
+       "彼女の勇気ある行動は、多くの人の尊敬に値する。",
+       "彼の提案は、十分検討するに値する。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼の努力は賞賛を値する。」 sai: 値する đi với trợ từ に, không dùng を. Câu đúng: 彼の努力は賞賛に値する。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この研究は、学会でも注目に値する成果だと言える。",
+       "その意見は、聞くに値しない。",
+       "彼の業績は、ノーベル賞に値する。",
+       "この問題は、議論するに値するではない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「この問題は、議論するに値するではない。」 sai: 値する là động từ nên phủ định là 値しない, không thêm ではない. Câu đúng: この問題は、議論するに値しない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "値する",
+       "一読に",
+       "この本は",
+       "内容だ。"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0,
+       3
+      ],
+      "translation_vi": "Cuốn sách này có nội dung đáng để đọc qua một lần."
+     },
+     {
+      "pieces": [
+       "信頼に",
+       "人物ではない。",
+       "値する",
+       "彼は"
+      ],
+      "answer_order": [
+       3,
+       0,
+       2,
+       1
+      ],
+      "translation_vi": "Anh ta không phải là người đáng tin cậy."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼女の作品は、高く評価する＿＿。",
+      "answer": "に値する",
+      "translation_vi": "Tác phẩm của cô ấy đáng được đánh giá cao."
+     },
+     {
+      "sentence_ja": "社員の地道な努力は、特別賞に＿＿ものだ。",
+      "answer": "値する",
+      "accept": [
+       "ふさわしい"
+      ],
+      "translation_vi": "Nỗ lực bền bỉ của nhân viên xứng đáng với giải thưởng đặc biệt."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この町の美術館は、一見（　　）。",
+      "options": [
+       "をはじめ",
+       "を経て",
+       "に値する",
+       "とて"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に値する」: 一見に値する là cách nói cố định 'đáng để xem một lần'. Các lựa chọn khác bỏ lửng câu. Nghĩa: Bảo tàng mỹ thuật của thị trấn này đáng để ghé xem một lần."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の主張は、検討に値する。",
+      "options": [
+       "Lập luận của anh ấy đáng được xem xét.",
+       "Lập luận của anh ấy đã bị bác bỏ ngay.",
+       "Lập luận của anh ấy cần được trả tiền để xem xét.",
+       "Lập luận của anh ấy không đáng để xem xét."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N + に値する (xứng đáng, đáng được): 'Lập luận của anh ấy đáng được xem xét.'"
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼の行為は、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ものではない",
+       "値する",
+       "決して",
+       "称賛に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼の行為は、決して称賛に値するものではない。 (Hành vi của anh ta hoàn toàn không đáng được khen ngợi.). Mảnh ở ô ★ là 「値する」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

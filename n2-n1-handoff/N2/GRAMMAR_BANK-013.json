@@ -640,7 +640,188 @@
    "id": "JG-daf20dc114"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "引き出しの中には、ペン（　　）紙やらがたくさん入っている。",
+      "options": [
+       "なり",
+       "やら",
+       "こそ",
+       "さえ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「やら」: N やら N やら liệt kê vài thứ lộn xộn, ngầm còn nhiều thứ khác. なり (gợi ý chọn), こそ, さえ không tạo cặp với 紙やら. Nghĩa: Trong ngăn kéo có rất nhiều thứ, nào là bút nào là giấy."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもが生まれて、うれしい（　　）不安やらで、複雑な気持ちだ。",
+      "options": [
+       "なり",
+       "ほど",
+       "ばかり",
+       "やら"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「やら」: 〜やら〜やら diễn tả cảm xúc lẫn lộn. なり, ほど, ばかり không tạo cặp với 不安やら. Nghĩa: Con chào đời, nào là vui nào là lo, tâm trạng thật phức tạp."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "週末は、洗濯やら＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "休めなかった",
+       "全然",
+       "やらで",
+       "掃除"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 週末は、洗濯やら掃除やらで全然休めなかった。 (Cuối tuần nào là giặt giũ nào là dọn dẹp, chẳng nghỉ ngơi được chút nào.). Mảnh ở ô ★ là 「やらで」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "財布をなくして、警察に行くやら＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "本当に",
+       "大変だった",
+       "カードを",
+       "止めるやらで"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 財布をなくして、警察に行くやらカードを止めるやらで本当に大変だった。 (Mất ví, nào là đi báo cảnh sát nào là khóa thẻ, thật vất vả.). Mảnh ở ô ★ là 「止めるやらで」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "旅行先で、道に迷うやら財布を落とすやらで、さんざんだった。",
+      "options": [
+       "Ở nơi du lịch, tôi vừa lạc đường xong thì tìm được ví.",
+       "Ở nơi du lịch, nào là lạc đường nào là đánh rơi ví, thật tơi tả.",
+       "Ở nơi du lịch, không biết là tôi lạc đường hay đánh rơi ví.",
+       "Ở nơi du lịch, tôi không lạc đường cũng không đánh rơi ví."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vやら Vやら (liệt kê nhiều chuyện rối rắm): \"Ở nơi du lịch, nào là lạc đường nào là đánh rơi ví, thật tơi tả.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "合格の知らせを聞いて、うれしいやら驚くやらで、言葉が出なかった。",
+      "options": [
+       "Nghe tin đỗ, tôi chỉ thấy vui thôi.",
+       "Nghe tin đỗ, tôi chẳng vui cũng chẳng ngạc nhiên.",
+       "Nghe tin đỗ, nào là vui nào là ngạc nhiên, tôi không nói nên lời.",
+       "Nghe tin đỗ, tôi vui vì đã không bị bất ngờ."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜やら〜やら (cảm xúc lẫn lộn): \"Nghe tin đỗ, nào là vui nào là ngạc nhiên, tôi không nói nên lời.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "冷蔵庫の中は、野菜やら果物やらでいっぱいだ。",
+       "宿題やらアルバイトやらで、遊ぶ時間がない。",
+       "寒いやらおなかがすくやらで、早く家に帰りたかった。",
+       "このクラスの学生は、田中さんやら山田さんやらの二人だけだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「このクラスの学生は、田中さんやら山田さんやらの二人だけだ。」 sai: やら〜やら chỉ nêu ví dụ và ngầm còn nữa, không dùng khi liệt kê đầy đủ. Câu đúng: このクラスの学生は、田中さんと山田さんの二人だけだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "かばんの中は、レシートやらお菓子の袋やらでいっぱいだ。",
+       "結婚式では、泣いてやら笑ってやら、忙しい一日だった。",
+       "年末は、大掃除やら年賀状やらで忙しい。",
+       "熱は出るやら、せきは止まらないやらで、ひどい一週間だった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「結婚式では、泣いてやら笑ってやら、忙しい一日だった。」 sai: やら gắn sau thể thường (泣く, 笑う), không gắn sau thể て. Câu đúng: 結婚式では、泣くやら笑うやら、忙しい一日だった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "寝る時間もない。",
+       "発表の準備やらで",
+       "試験前は、",
+       "レポートやら"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Trước kỳ thi, nào là báo cáo nào là chuẩn bị thuyết trình, đến thời gian ngủ cũng không có."
+     },
+     {
+      "pieces": [
+       "野菜やらが",
+       "植えてある。",
+       "庭には、花やら",
+       "たくさん"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Trong vườn trồng rất nhiều thứ, nào là hoa nào là rau."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "会議の準備＿＿資料のコピーやらで、朝から忙しい。",
+      "answer": "やら",
+      "translation_vi": "Nào là chuẩn bị cuộc họp nào là photo tài liệu, tôi bận từ sáng."
+     },
+     {
+      "sentence_ja": "久しぶりに母に会えて、うれしいやら懐かしい＿＿で涙が出た。",
+      "answer": "やら",
+      "translation_vi": "Lâu lắm mới được gặp mẹ, nào là vui nào là bồi hồi, nước mắt tôi trào ra."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "初めての一人暮らしは、料理（　　）洗濯やらで、毎日大変だ。",
+      "options": [
+       "ばかり",
+       "こそ",
+       "やら",
+       "のみ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「やら」: 料理やら洗濯やら liệt kê những việc bận rộn. ばかり, こそ, のみ không tạo cặp với 洗濯やら. Nghĩa: Lần đầu sống một mình, nào là nấu ăn nào là giặt giũ, ngày nào cũng vất vả."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "駅の前は、写真を撮る人やら道を聞く人やらで混雑していた。",
+      "options": [
+       "Trước nhà ga đông nghịt, nào là người chụp ảnh nào là người hỏi đường.",
+       "Trước nhà ga chỉ có người chụp ảnh.",
+       "Trước nhà ga vắng vẻ, không có ai chụp ảnh hay hỏi đường.",
+       "Không biết người trước nhà ga đang chụp ảnh hay hỏi đường."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N やら N やら (nào là… nào là…): \"Trước nhà ga đông nghịt, nào là người chụp ảnh nào là người hỏi đường.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "机の上は、書類やら本やらでいっぱいだ。",
+       "子どもが泣くやら犬がほえるやらで、うるさくて眠れない。",
+       "この店では、肉やら魚とかを売っている。",
+       "先週は風邪をひくやら仕事でミスをするやら、いいことがなかった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「この店では、肉やら魚とかを売っている。」 sai: không trộn やら với とか; hai vế phải cùng dùng やら. Câu đúng: この店では、肉やら魚やらを売っている。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -667,7 +848,195 @@
    "id": "JG-e4f12b1fe2"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "北海道（　　）、おいしいカニやラーメンが頭に浮かぶ。",
+      "options": [
+       "によると",
+       "として",
+       "というと",
+       "に対して"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「というと」: N + というと = nhắc đến N là liên tưởng ngay tới điều tiêu biểu. によると (theo nguồn tin), として (với tư cách), に対して (đối với) không hợp. Nghĩa: Nói đến Hokkaido là cua và mì ramen ngon lại hiện lên trong đầu."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "「来週の旅行、中止になったんだって。」「中止（　　）、全部キャンセル？」",
+      "options": [
+       "ばかりか",
+       "というと",
+       "のおかげで",
+       "にしては"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「というと」: dùng để hỏi lại xem người kia muốn nói đến điều gì (hủy nghĩa là hủy hết à?). ばかりか, のおかげで, にしては không dùng để hỏi lại như vậy. Nghĩa: 'Nghe nói chuyến du lịch tuần sau bị hủy rồi.' 'Hủy tức là hủy hết à?'"
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "というと",
+       "温泉を",
+       "思い出す",
+       "日本の冬"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 日本の冬というと温泉を思い出す。 (Nói đến mùa đông Nhật Bản là tôi nhớ ngay đến suối nước nóng.). Mảnh ở ô ★ là 「というと」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "子どものころの思い出＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ことだ",
+       "海の",
+       "というと",
+       "祖父と行った"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 子どものころの思い出というと祖父と行った海のことだ。 (Nhắc đến kỷ niệm thời thơ ấu là chuyến đi biển cùng ông.). Mảnh ở ô ★ là 「海の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お正月というと、家族で集まってごちそうを食べるイメージがある。",
+      "options": [
+       "Nếu là Tết thì cả nhà phải tụ họp ăn món ngon.",
+       "Theo lời mọi người, Tết cả nhà tụ họp ăn uống.",
+       "Dù là Tết, cả nhà cũng không tụ họp ăn uống.",
+       "Nói đến Tết là tôi hình dung cảnh cả nhà quây quần ăn những món ngon."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N + というと (nhắc đến là liên tưởng ngay): \"Nói đến Tết là tôi hình dung cảnh cả nhà quây quần ăn những món ngon.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本の秋というと、紅葉がまず頭に浮かぶ。",
+      "options": [
+       "Nhắc đến mùa thu Nhật Bản, điều đầu tiên hiện lên trong đầu là lá đỏ.",
+       "Theo lời kể, mùa thu Nhật Bản không có lá đỏ.",
+       "Vì là mùa thu Nhật Bản nên lá đỏ nhất định phải đẹp.",
+       "Mùa thu Nhật Bản thì lá đỏ chưa chắc đã đẹp."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N + というと (nhắc đến… là nghĩ ngay tới…): \"Nhắc đến mùa thu Nhật Bản, điều đầu tiên hiện lên trong đầu là lá đỏ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "富士山というと、日本を代表する山だ。",
+       "母の料理というと、やっぱりカレーを思い出す。",
+       "夏というと、海に行きなさい。",
+       "「山田さんというと、あの背の高い人ですか。」"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「夏というと、海に行きなさい。」 sai: vế sau của というと là điều liên tưởng hay nhận xét, không dùng mệnh lệnh. Câu đúng: 夏というと、海を思い出す。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "スポーツにというと、サッカーが好きだ。",
+       "東京というと、人が多くてにぎやかな町というイメージがある。",
+       "春というと、桜を思い浮かべる人が多い。",
+       "夏休みというと、毎年祖父母の家に行ったことを思い出す。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「スポーツにというと、サッカーが好きだ。」 sai: というと gắn trực tiếp sau danh từ, không có に. Câu đúng: スポーツというと、サッカーが好きだ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "目に浮かぶ。",
+       "というと、",
+       "沖縄",
+       "きれいな海が"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Nói đến Okinawa là biển xanh đẹp hiện ra trước mắt."
+     },
+     {
+      "pieces": [
+       "スキーを",
+       "人が多い。",
+       "冬のスポーツというと、",
+       "思い浮かべる"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Nói đến thể thao mùa đông, nhiều người nghĩ ngay đến trượt tuyết."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "ベトナム料理＿＿、まずフォーを思い出す人が多いだろう。",
+      "answer": "というと",
+      "accept": [
+       "といえば",
+       "といったら"
+      ],
+      "translation_vi": "Nói đến món ăn Việt Nam, chắc nhiều người sẽ nghĩ ngay đến phở."
+     },
+     {
+      "sentence_ja": "「明日の会議は中止です。」「＿＿、報告は来週ですか。」",
+      "answer": "というと",
+      "accept": [
+       "ということは"
+      ],
+      "translation_vi": "'Cuộc họp ngày mai bị hủy.' 'Vậy có nghĩa là báo cáo để tuần sau ạ?'"
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "大阪（　　）、たこ焼きやお好み焼きが有名だ。",
+      "options": [
+       "にとって",
+       "のために",
+       "に比べて",
+       "というと"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「というと」: nhắc đến Osaka là nghĩ ngay đến món tiêu biểu. にとって, のために, に比べて không hợp nghĩa. Nghĩa: Nói đến Osaka thì takoyaki và okonomiyaki rất nổi tiếng."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "学生時代というと、毎日サッカーばかりしていたのを思い出す。",
+      "options": [
+       "Nếu là sinh viên thì ngày nào cũng phải đá bóng.",
+       "Nhắc đến thời sinh viên là tôi nhớ lại ngày nào cũng chỉ toàn đá bóng.",
+       "Thời sinh viên tôi chưa từng đá bóng.",
+       "Dù là thời sinh viên nhưng tôi không nhớ gì về bóng đá."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N + というと (nhắc đến… là nhớ ngay): \"Nhắc đến thời sinh viên là tôi nhớ lại ngày nào cũng chỉ toàn đá bóng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "雨が降るというと、試合は中止します。",
+       "日本の伝統文化というと、着物や茶道を思い浮かべる。",
+       "「先生というと、あのめがねをかけた方ですか。」",
+       "韓国というと、キムチを思い出す。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「雨が降るというと、試合は中止します。」 sai: というと không phải câu điều kiện 'nếu'; muốn nói điều kiện dùng なら hoặc たら. Câu đúng: 雨が降ったら、試合は中止します。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -690,7 +1059,189 @@
    "id": "JG-58bec52e00"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "少し遠いが、歩いて行け（　　）。",
+      "options": [
+       "ないほうがいい",
+       "ないでください",
+       "ないばかりだ",
+       "ないことはない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ないことはない」: Vない + ことはない = cũng không phải là không…, khẳng định dè dặt. 行けないほうがいい, 行けないでください, 行けないばかりだ đều không thành câu tự nhiên với thể khả năng. Nghĩa: Hơi xa một chút nhưng cũng không phải là không đi bộ được."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "辛い料理は、食べられない（　　）が、あまり好きではない。",
+      "options": [
+       "ことにする",
+       "ことはない",
+       "ものだ",
+       "ことか"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ことはない」: 食べられないことはない = cũng không phải không ăn được. ことにする (quyết định), ものだ, ことか không hợp với vế sau が、あまり好きではない. Nghĩa: Đồ cay thì cũng không phải tôi không ăn được, nhưng không thích lắm."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このくらいの量なら、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ない",
+       "ことは",
+       "終わらない",
+       "今日中に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: このくらいの量なら、今日中に終わらないことはない。 (Khối lượng cỡ này thì cũng không phải là không xong trong hôm nay.). Mảnh ở ô ★ là 「ことは」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、あまり行きたくない。",
+      "options": [
+       "ことは",
+       "ないけれど",
+       "行けない",
+       "パーティーに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: パーティーに行けないことはないけれど、あまり行きたくない。 (Không phải là tôi không đi tiệc được, nhưng không muốn đi lắm.). Mảnh ở ô ★ là 「行けない」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "漢字は読めないことはないが、書くのは苦手だ。",
+      "options": [
+       "Chữ Hán thì không phải là không đọc được, nhưng viết thì tôi kém.",
+       "Chữ Hán tôi hoàn toàn không đọc được và viết cũng kém.",
+       "Chữ Hán không cần đọc, chỉ cần viết.",
+       "Chữ Hán tôi đọc và viết đều giỏi."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Vない + ことはない (cũng không phải là không…): \"Chữ Hán thì không phải là không đọc được, nhưng viết thì tôi kém.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "急げば、最終電車に間に合わないことはない。",
+      "options": [
+       "Dù vội cũng chắc chắn không kịp chuyến tàu cuối.",
+       "Không cần phải vội để kịp chuyến tàu cuối.",
+       "Nếu vội thì cũng không phải là không kịp chuyến tàu cuối.",
+       "Vì đã vội nên không bị lỡ chuyến tàu cuối."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Vない + ことはない (khẳng định dè dặt, vẫn có khả năng): \"Nếu vội thì cũng không phải là không kịp chuyến tàu cuối.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "説明を聞けば、分からないことはない。",
+       "心配しないことはないよ。大丈夫だから。",
+       "高いが、買えないことはない。",
+       "日本の夏は暑くないことはないが、私の国ほどではない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「心配しないことはないよ。大丈夫だから。」 sai: muốn nói 'không cần phải lo' phải dùng Vる + ことはない; Vない + ことはない lại có nghĩa 'cũng không phải là không lo'. Câu đúng: 心配することはないよ。大丈夫だから。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "その意見も、理解できないことはない。",
+       "少し古いが、まだ使えないことはない。",
+       "料理は作れないことはないが、簡単なものだけだ。",
+       "自転車なら、十分で行けないのことはない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「自転車なら、十分で行けないのことはない。」 sai: Vない nối thẳng với ことはない, không có の. Câu đúng: 自転車なら、十分で行けないことはない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "使えない",
+       "ことはない。",
+       "古いパソコンだが、"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Là máy tính cũ nhưng không phải là không dùng được."
+     },
+     {
+      "pieces": [
+       "読めない",
+       "一週間で",
+       "ことはない。",
+       "頑張れば、"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Nếu cố gắng thì không phải là không đọc xong trong một tuần."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "納豆は食べられない＿＿が、自分からは食べない。",
+      "answer": "ことはない",
+      "accept": [
+       "こともない"
+      ],
+      "translation_vi": "Natto thì không phải là tôi không ăn được, nhưng tôi không tự tìm đến để ăn."
+     },
+     {
+      "sentence_ja": "その気持ちは、分から＿＿ことはない。",
+      "answer": "ない",
+      "translation_vi": "Cảm giác đó thì tôi cũng không phải là không hiểu."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "少し高いけれど、今月の給料なら買え（　　）。",
+      "options": [
+       "なくてもいい",
+       "ないつもりだ",
+       "ないことはない",
+       "ないでほしい"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ないことはない」: 買えないことはない = cũng không phải là không mua được. なくてもいい, ないつもりだ, ないでほしい không hợp với vế trước けれど và thể khả năng 買え. Nghĩa: Hơi đắt nhưng với lương tháng này thì cũng không phải là không mua được."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "運転できないことはないが、もう十年も車に乗っていない。",
+      "options": [
+       "Tôi không lái xe được nên đã mười năm không đi ô tô.",
+       "Tôi không cần lái xe vì mười năm rồi không đi ô tô.",
+       "Mười năm rồi chưa đi ô tô nên chắc chắn tôi không lái được.",
+       "Không phải là tôi không lái xe được, nhưng đã mười năm rồi tôi không đi ô tô."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vない + ことはない (cũng không phải là không…): \"Không phải là tôi không lái xe được, nhưng đã mười năm rồi tôi không đi ô tô.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "お酒は飲むないことはないが、あまり好きではない。",
+       "自分で直せないことはないが、店に頼んだほうが早い。",
+       "一人で行けないことはないが、誰かと一緒のほうが安心だ。",
+       "朝五時に起きられないことはないが、つらい。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「お酒は飲むないことはないが、あまり好きではない。」 sai: thể ない của 飲む là 飲まない. Câu đúng: お酒は飲まないことはないが、あまり好きではない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

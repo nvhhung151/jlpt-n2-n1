@@ -198,5 +198,55 @@
   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿を受け、技術を身につけた。", "options": ["職人の", "厳しい指導", "腕のいい", "もとで"], "answer_index": 3, "explanation_vi": "Câu đúng: 腕のいい職人のもとで厳しい指導を受け、技術を身につけた。 (Được người thợ lành nghề hướng dẫn nghiêm khắc, tôi đã thành thạo kỹ thuật.). Mảnh ở ô ★ là 「もとで」."},
   {"type": "MEANING", "prompt_ja": "彼女は国の厳しい監視のもとで暮らしていた。", "options": ["Cô ấy đã sống dưới sự giám sát nghiêm ngặt của nhà nước.", "Cô ấy là người giám sát nghiêm ngặt của nhà nước.", "Cô ấy đã trốn khỏi sự giám sát của nhà nước.", "Cô ấy sống tự do không bị ai giám sát."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜のもとで (dưới sự, trong điều kiện của): \"Cô ấy đã sống dưới sự giám sát nghiêm ngặt của nhà nước.\""}
  ]
+},
+"JG-04de8ed233": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "年齢や経験のいかん（　　）、誰でも応募できます。", "options": ["で", "によっては", "によらず", "次第で"], "answer_index": 2, "explanation_vi": "Điền 「によらず」: vế sau 'ai cũng ứng tuyển được' nên cần nghĩa 'bất kể' (いかんによらず). いかんで, いかんによっては là 'tùy vào', trái nghĩa với vế sau; いかん次第 không phải cách nói đúng. Nghĩa: Bất kể tuổi tác hay kinh nghiệm, ai cũng có thể ứng tuyển."},
+  {"type": "FILL", "prompt_ja": "試験の結果のいかん（　　）、進級できるかどうかが決まる。", "options": ["によらず", "で", "ながらも", "をよそに"], "answer_index": 1, "explanation_vi": "Điền 「で」: vế sau 'được quyết định' nên cần nghĩa 'tùy vào' (いかんで). いかんによらず là 'bất kể', mâu thuẫn với 決まる; ながらも, をよそに không nối với いかん. Nghĩa: Có được lên lớp hay không là tùy vào kết quả kỳ thi."},
+  {"type": "ORDER_STAR", "prompt_ja": "理由の＿＿ ＿＿ ★ ＿＿。", "options": ["禁止です", "いかんによらず", "会場内での", "撮影は"], "answer_index": 3, "explanation_vi": "Câu đúng: 理由のいかんによらず会場内での撮影は禁止です。 (Bất kể lý do gì, việc chụp ảnh trong hội trường đều bị cấm.). Mảnh ở ô ★ là 「撮影は」."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿が決まる。", "options": ["いかんで", "来年の予算", "売り上げ", "今年の"], "answer_index": 2, "explanation_vi": "Câu đúng: 今年の売り上げいかんで来年の予算が決まる。 (Ngân sách năm sau được quyết định tùy vào doanh thu năm nay.). Mảnh ở ô ★ là 「売り上げ」."},
+  {"type": "MEANING", "prompt_ja": "国籍のいかんによらず、優秀な人材を採用する。", "options": ["Chúng tôi chỉ tuyển người có quốc tịch Nhật.", "Tùy theo quốc tịch mà chúng tôi tuyển người tài.", "Vì quốc tịch khác nhau nên khó tuyển người tài.", "Bất kể quốc tịch thế nào, chúng tôi đều tuyển dụng nhân tài xuất sắc."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜いかんによらず (bất kể N thế nào): \"Bất kể quốc tịch thế nào, chúng tôi đều tuyển dụng nhân tài xuất sắc.\""},
+  {"type": "MEANING", "prompt_ja": "対応のいかんで、客の満足度は大きく変わる。", "options": ["Bất kể cách ứng xử thế nào, mức độ hài lòng của khách vẫn vậy.", "Tùy vào cách ứng xử mà mức độ hài lòng của khách thay đổi rất nhiều.", "Khách hàng hài lòng nên cách ứng xử thay đổi.", "Cách ứng xử không ảnh hưởng gì đến khách."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜いかんで (tùy thuộc vào N): \"Tùy vào cách ứng xử mà mức độ hài lòng của khách thay đổi rất nhiều.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["成績のいかんによらず、全員に参加証を渡します。", "理由のいかんによらず、締め切り後の提出は認めない。", "天気のいかんによらず、試合を中止するかどうか決めます。", "本人の努力いかんで、結果はいくらでも変わる。"], "answer_index": 2, "explanation_vi": "「天気のいかんによらず、試合を中止するかどうか決めます。」 sai: việc quyết định có hủy hay không phụ thuộc vào thời tiết, nên phải dùng いかんで (tùy vào), không dùng いかんによらず (bất kể). Câu đúng: 天気のいかんで、試合を中止するかどうか決めます。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["値段がいかんによらず、品質を優先する。", "売り上げのいかんで、ボーナスの額が決まる。", "事情のいかんによらず、無断欠勤は許されない。", "準備のいかんで、発表の出来は大きく変わる。"], "answer_index": 0, "explanation_vi": "「値段がいかんによらず、品質を優先する。」 sai: いかん nối với danh từ bằng の (hoặc đứng ngay sau), không dùng が. Câu đúng: 値段のいかんによらず、品質を優先する。"}
+ ],
+ "order_items": [
+  {"pieces": ["全員が同じ料金を払う。", "いかんによらず、", "年齢の"], "answer_order": [2, 1, 0], "translation_vi": "Bất kể tuổi tác, tất cả đều trả cùng một mức phí."},
+  {"pieces": ["いかんで", "合否が決まる。", "面接の", "結果"], "answer_order": [2, 3, 0, 1], "translation_vi": "Đỗ hay trượt được quyết định tùy vào kết quả phỏng vấn."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "理由の＿＿、無断で欠席した者は失格とする。", "answer": "いかんによらず", "accept": ["いかんにかかわらず", "いかんを問わず"], "translation_vi": "Bất kể lý do gì, người vắng mặt không xin phép sẽ bị loại."},
+  {"sentence_ja": "治療の効果は、患者本人の意欲＿＿大きく変わる。", "answer": "いかんで", "accept": ["次第で", "いかんによって"], "translation_vi": "Hiệu quả điều trị thay đổi rất nhiều tùy vào ý chí của chính người bệnh."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "病状のいかん（　　）、手術をするかどうかを判断します。", "options": ["によらず", "で", "を問わず", "にかかわらず"], "answer_index": 1, "explanation_vi": "Điền 「で」: quyết định có phẫu thuật hay không phụ thuộc vào bệnh tình nên dùng いかんで (tùy vào). によらず, を問わず, にかかわらず đều mang nghĩa 'bất kể', mâu thuẫn với 判断します. Nghĩa: Tùy vào bệnh tình, chúng tôi sẽ quyết định có phẫu thuật hay không."},
+  {"type": "MEANING", "prompt_ja": "性別のいかんによらず、能力のある人を管理職に登用する。", "options": ["Bất kể giới tính, người có năng lực đều được đề bạt làm quản lý.", "Tùy theo giới tính mà người có năng lực được đề bạt làm quản lý.", "Chỉ nam giới có năng lực mới được làm quản lý.", "Người có năng lực không muốn làm quản lý."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜いかんによらず (bất kể N thế nào): \"Bất kể giới tính, người có năng lực đều được đề bạt làm quản lý.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["理由のいかんによらず、暴力は許されない。", "天候のいかんで、出発の日が変わるかもしれない。", "経験のいかんによらず、新入社員は全員研修を受ける。", "成績のいかんで、全員が同じ評価を受ける。"], "answer_index": 3, "explanation_vi": "「成績のいかんで、全員が同じ評価を受ける。」 sai: いかんで là 'tùy vào', mâu thuẫn với 'mọi người nhận cùng đánh giá'; ở đây phải dùng いかんによらず. Câu đúng: 成績のいかんによらず、全員が同じ評価を受ける。"}
+ ]
+},
+"JG-fbc005111c": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "冗談のつもりでも、言われた人（　　）、とても傷つく言葉だ。", "options": ["にしては", "にしてみれば", "にしたがって", "にかけては"], "answer_index": 1, "explanation_vi": "Điền 「にしてみれば」: đứng ở vị trí người bị nói mà xét thì cảm nhận khác. にしては là 'so với... thì', にしたがって là 'theo', にかけては là 'về mặt (giỏi)', không hợp nghĩa. Nghĩa: Dù chỉ định đùa, với người bị nói thì đó là lời rất đau lòng."},
+  {"type": "FILL", "prompt_ja": "急に引っ越しが決まって、子どもたち（　　）不安でいっぱいだろう。", "options": ["につけ", "にかまけて", "に先立って", "にしてみれば"], "answer_index": 3, "explanation_vi": "Điền 「にしてみれば」: suy đoán cảm nhận từ lập trường của bọn trẻ (〜だろう). につけ là 'mỗi khi', にかまけて là 'mải mê', に先立って là 'trước khi', không hợp nghĩa. Nghĩa: Việc chuyển nhà được quyết định đột ngột, với bọn trẻ chắc hẳn đầy lo lắng."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿、迷惑な話だ。", "options": ["してみれば", "近所の人に", "夜中に", "騒がれる"], "answer_index": 1, "explanation_vi": "Câu đúng: 夜中に騒がれる近所の人にしてみれば、迷惑な話だ。 (Với hàng xóm bị làm ồn lúc nửa đêm thì đó là chuyện thật phiền toái.). Mảnh ở ô ★ là 「近所の人に」."},
+  {"type": "ORDER_STAR", "prompt_ja": "たった千円でも、＿＿ ★ ＿＿ ＿＿。", "options": ["大金だ", "かなりの", "してみれば", "小学生に"], "answer_index": 2, "explanation_vi": "Câu đúng: たった千円でも、小学生にしてみればかなりの大金だ。 (Dù chỉ một nghìn yên, với học sinh tiểu học đó là cả một khoản tiền lớn.). Mảnh ở ô ★ là 「してみれば」."},
+  {"type": "MEANING", "prompt_ja": "毎日残業している社員にしてみれば、給料が上がらないのは不満だろう。", "options": ["Nhân viên tăng ca mỗi ngày nên lương được tăng.", "Công ty bất mãn vì nhân viên không chịu tăng ca.", "Với những nhân viên ngày nào cũng tăng ca, việc lương không tăng hẳn là điều bất mãn.", "Dù tăng ca mỗi ngày, nhân viên vẫn hài lòng với mức lương."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜にしてみれば (đứng ở vị trí N mà xét): \"Với những nhân viên ngày nào cũng tăng ca, việc lương không tăng hẳn là điều bất mãn.\""},
+  {"type": "MEANING", "prompt_ja": "店側にしてみれば、予約を無断でキャンセルされるのは大きな損失だ。", "options": ["Về phía cửa hàng, bị khách hủy đặt chỗ mà không báo là một tổn thất lớn.", "Cửa hàng thường hủy đặt chỗ mà không báo trước.", "Khách hàng chịu tổn thất lớn khi cửa hàng hủy đặt chỗ.", "Cửa hàng không bị ảnh hưởng gì khi khách hủy đặt chỗ."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜にしてみれば (đứng ở vị trí N mà xét): \"Về phía cửa hàng, bị khách hủy đặt chỗ mà không báo là một tổn thất lớn.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["新入社員にしてみれば、会議で発言するのは勇気がいることだ。", "田中さんにしてみれば、明日から毎朝ジョギングをする。", "被害者にしてみれば、謝罪の言葉だけでは納得できないだろう。", "私にしてみれば、彼の提案は理想論にすぎない。"], "answer_index": 1, "explanation_vi": "「田中さんにしてみれば、明日から毎朝ジョギングをする。」 sai: vế sau của にしてみれば phải là cảm nhận, đánh giá, không phải một hành động cụ thể. Câu đúng: 田中さんは明日から毎朝ジョギングをするそうだ。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["客にしてみれば、待たされるのが一番不愉快だ。", "祖母にしてみれば、スマホの操作は難しすぎるのだろう。", "彼女にしてみれば、あの一言は励ましのつもりだったのだ。", "親のにしてみれば、子どもの成長は何よりの喜びだ。"], "answer_index": 3, "explanation_vi": "「親のにしてみれば、子どもの成長は何よりの喜びだ。」 sai: にしてみれば nối trực tiếp sau danh từ, không thêm の. Câu đúng: 親にしてみれば、子どもの成長は何よりの喜びだ。"}
+ ],
+ "order_items": [
+  {"pieces": ["当然の", "二時間も待たされた客に", "してみれば、怒るのも", "ことだ。"], "answer_order": [1, 2, 0, 3], "translation_vi": "Với vị khách bị bắt đợi tận hai tiếng, nổi giận cũng là chuyện đương nhiên."},
+  {"pieces": ["退屈なものだ。", "子どもに", "してみれば、大人の長い話は"], "answer_order": [1, 2, 0], "translation_vi": "Với trẻ con, những câu chuyện dài của người lớn thật nhàm chán."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "毎日満員電車で通勤する人＿＿、在宅勤務はありがたい制度だ。", "answer": "にしてみれば", "accept": ["にとって", "にすれば", "にしたら", "からすれば"], "translation_vi": "Với người ngày nào cũng đi làm bằng tàu chật cứng, làm việc tại nhà là chế độ rất đáng quý."},
+  {"sentence_ja": "上司は軽く言ったつもりでも、部下＿＿大きなプレッシャーだったはずだ。", "answer": "にしてみれば", "accept": ["にとって", "にすれば", "にしたら", "からすれば"], "translation_vi": "Dù cấp trên chỉ định nói nhẹ nhàng, với cấp dưới đó hẳn là áp lực lớn."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "初めて海外に住む母（　　）、言葉が通じないのが一番つらいことだろう。", "options": ["に即して", "にもまして", "にしてみれば", "に先立って"], "answer_index": 2, "explanation_vi": "Điền 「にしてみれば」: suy đoán cảm nhận từ vị trí của mẹ. に即して là 'theo đúng', にもまして là 'hơn cả', に先立って là 'trước khi', không hợp nghĩa. Nghĩa: Với mẹ tôi lần đầu sống ở nước ngoài, điều khổ nhất hẳn là không nói được tiếng."},
+  {"type": "ORDER_STAR", "prompt_ja": "突然の計画変更は、＿＿ ★ ＿＿ ＿＿だろう。", "options": ["納得できない話", "担当者にしてみれば", "準備を", "進めてきた"], "answer_index": 3, "explanation_vi": "Câu đúng: 突然の計画変更は、準備を進めてきた担当者にしてみれば納得できない話だろう。 (Việc đột ngột thay đổi kế hoạch, với người phụ trách đã chuẩn bị bấy lâu, hẳn là chuyện khó chấp nhận.). Mảnh ở ô ★ là 「進めてきた」."},
+  {"type": "MEANING", "prompt_ja": "田中さんにしてみれば、親切のつもりだったのだろう。", "options": ["Anh Tanaka chẳng có chút lòng tốt nào.", "Về phía anh Tanaka, chắc anh ấy chỉ có ý tốt.", "Tôi đã định giúp anh Tanaka vì lòng tốt.", "Anh Tanaka muốn mọi người đối xử tử tế với mình."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜にしてみれば (đứng ở vị trí N mà xét): \"Về phía anh Tanaka, chắc anh ấy chỉ có ý tốt.\""}
+ ]
 }
 }

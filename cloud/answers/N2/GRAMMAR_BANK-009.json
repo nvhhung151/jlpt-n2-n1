@@ -1,418 +1,418 @@
 {
- "JG-3d5aec3c0e": {
+ "JG-8063225e20": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "この店の料理は本当においしい。さすが有名な店（　　）。",
-    "options": ["だけのことはある", "どころではない", "ことはない", "ほどではない"],
-    "answer_index": 0,
-    "explanation_vi": "Điền 「だけのことはある」: さすが〜だけのことはある = đúng là xứng với…, khen kết quả tốt. どころではない, ことはない, ほどではない không hợp với lời khen ở câu trước. Nghĩa: Đồ ăn quán này ngon thật. Đúng là quán nổi tiếng có khác."
+    "prompt_ja": "祖父は三年前に入院した（　　）、一度も家に帰っていない。",
+    "options": ["ところ", "うちに", "きり", "とたん"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「きり」: Vた + きり = từ sau khi… thì cứ thế, không có diễn biến tiếp theo. ところ, うちに, とたん không hợp với vế sau 'chưa một lần về nhà'. Nghĩa: Ông tôi nhập viện từ ba năm trước rồi cứ thế chưa một lần về nhà."
    },
    {
     "type": "FILL",
-    "prompt_ja": "十年もピアノを習っていた（　　）、彼女の演奏はすばらしい。",
-    "options": ["わりに", "くせに", "だけのことはあって", "ものの"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「だけのことはあって」: học piano mười năm thì tiếng đàn hay là xứng đáng. わりに, ものの chỉ kết quả trái ngược; くせに mang ý trách móc. Nghĩa: Đúng là xứng với mười năm học piano, cô ấy đàn tuyệt hay."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "このホテルは＿＿ ＿＿ ★ ＿＿。",
-    "options": ["最高だ", "サービスが", "高い", "だけのことはあって"],
-    "answer_index": 1,
-    "explanation_vi": "Câu đúng: このホテルは高いだけのことはあってサービスが最高だ。 (Khách sạn này đúng là đắt xứng đáng, dịch vụ tuyệt nhất.). Mảnh ở ô ★ là 「サービスが」."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "さすがプロの＿＿ ＿＿ ★ ＿＿。",
-    "options": ["作った", "ある", "料理人が", "だけのことは"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: さすがプロの料理人が作っただけのことはある。 (Đúng là món do đầu bếp chuyên nghiệp nấu có khác.). Mảnh ở ô ★ là 「だけのことは」."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "彼は一流大学を出ただけのことはあって、頭の回転が速い。",
-    "options": [
-     "Đúng là tốt nghiệp đại học hàng đầu có khác, anh ấy suy nghĩ rất nhanh.",
-     "Dù tốt nghiệp đại học hàng đầu nhưng anh ấy suy nghĩ chậm.",
-     "Chỉ có việc tốt nghiệp đại học hàng đầu là đáng kể, còn lại thì không.",
-     "Anh ấy suy nghĩ nhanh nên đã vào được đại học hàng đầu."
-    ],
+    "prompt_ja": "その本は一度読んだ（　　）、本棚にしまったままだ。",
+    "options": ["きり", "ばかりか", "からには", "うえで"],
     "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu 〜だけのことはあって (đúng là xứng với…): \"Đúng là tốt nghiệp đại học hàng đầu có khác, anh ấy suy nghĩ rất nhanh.\""
+    "explanation_vi": "Điền 「きり」: đọc một lần rồi thôi, sau đó không đụng tới nữa. ばかりか, からには, うえで không hợp nghĩa. Nghĩa: Quyển sách đó tôi đọc một lần rồi cứ để nguyên trên giá sách."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "田中さんとは＿＿ ＿＿ ★ ＿＿。",
+    "options": ["連絡を取っていない", "きり", "会った", "去年"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 田中さんとは去年会ったきり連絡を取っていない。 (Với anh Tanaka, từ lần gặp năm ngoái đến giờ tôi không liên lạc.). Mảnh ở ô ★ là 「きり」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "弟は＿＿ ★ ＿＿ ＿＿。",
+    "options": ["きり", "出てこない", "部屋に", "入った"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 弟は部屋に入ったきり出てこない。 (Em trai tôi vào phòng rồi cứ ở lì trong đó không ra.). Mảnh ở ô ★ là 「入った」."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "長い時間並んだだけのことはあった。このラーメンは最高だ。",
+    "prompt_ja": "彼女は「さようなら」と言ったきり、何も話さなかった。",
     "options": [
-     "Xếp hàng lâu quá nên tôi không ăn được ramen.",
-     "Chỉ xếp hàng thôi chứ ramen thì không có gì đặc biệt.",
-     "Dù không xếp hàng, món ramen này vẫn ngon.",
-     "Xếp hàng lâu thật đáng công, món ramen này tuyệt nhất."
+     "Cô ấy chỉ nói 'tạm biệt' khi đi ngang qua.",
+     "Cô ấy vừa nói 'tạm biệt' vừa khóc.",
+     "Cô ấy nói 'tạm biệt' xong rồi không nói thêm gì nữa.",
+     "Cô ấy không nói 'tạm biệt' mà bỏ đi."
     ],
-    "answer_index": 3,
-    "explanation_vi": "Câu dùng mẫu 〜だけのことはあった (thật xứng đáng với…): \"Xếp hàng lâu thật đáng công, món ramen này tuyệt nhất.\""
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu Vた + きり (làm… xong rồi thôi, không có gì tiếp theo): \"Cô ấy nói 'tạm biệt' xong rồi không nói thêm gì nữa.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "このパソコンは買ったきり、ほとんど使っていない。",
+    "options": [
+     "Máy tính này mua về là dùng ngay.",
+     "Máy tính này mua về rồi để đó, hầu như chưa dùng.",
+     "Máy tính này dùng nhiều nên đã hỏng.",
+     "Máy tính này chưa mua nên chưa dùng được."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vた + きり (từ sau khi… thì cứ thế): \"Máy tính này mua về rồi để đó, hầu như chưa dùng.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "さすがベテランの先生だけのことはあって、説明が分かりやすい。",
-     "高いだけのことはあって、すぐに壊れてしまった。",
-     "何度も練習しただけのことはあって、発表はうまくいった。",
-     "この旅館は人気があるだけのことはある。料理もお風呂もすばらしい。"
+     "犬は朝出ていったきり、まだ戻ってこない。",
+     "彼は日本に来たきり、毎週家族に電話している。",
+     "友だちに貸したきり、その傘は返ってこない。",
+     "先月一度電話があったきり、連絡がない。"
     ],
     "answer_index": 1,
-    "explanation_vi": "「高いだけのことはあって、すぐに壊れてしまった。」 sai: だけのことはある dùng để khen kết quả tốt xứng đáng, không dùng cho kết quả xấu. Câu đúng: 高かったのに、すぐに壊れてしまった。"
+    "explanation_vi": "「彼は日本に来たきり、毎週家族に電話している。」 sai: vế sau của きり là phủ định hay trạng thái không thay đổi, không phải việc làm đều đặn. Câu đúng: 彼は日本に来てから、毎週家族に電話している。"
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "さすが十年も日本に住んでいただけのことはある。日本語がぺらぺらだ。",
-     "このレストランは有名だだけのことはあって、味がいい。",
-     "毎日走っているだけのことはあって、彼はマラソンで優勝した。",
-     "苦労して作っただけのことはある。いいものができた。"
+     "引っ越したきり、隣の人とは話していない。",
+     "父は庭に出たきり、なかなか戻らない。",
+     "彼とは高校を卒業するきり、会っていない。",
+     "一回使ったきりの道具が、倉庫にたくさんある。"
     ],
-    "answer_index": 1,
-    "explanation_vi": "「このレストランは有名だだけのことはあって、味がいい。」 sai: tính từ な đi với だけのことはある phải dùng dạng な (有名な). Câu đúng: このレストランは有名なだけのことはあって、味がいい。"
+    "answer_index": 2,
+    "explanation_vi": "「彼とは高校を卒業するきり、会っていない。」 sai: mẫu này dùng Vた + きり, không dùng thể từ điển. Câu đúng: 彼とは高校を卒業したきり、会っていない。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["だけのことは", "ある。", "さすが", "プロ"],
-    "answer_order": [2, 3, 0, 1],
-    "translation_vi": "Đúng là dân chuyên nghiệp có khác."
+    "pieces": ["きり、", "出かけた", "まだ帰らない。", "娘は昼に"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Con gái tôi ra ngoài từ trưa rồi đến giờ vẫn chưa về."
    },
    {
-    "pieces": ["だけのことはあって、", "このスープは", "時間をかけて作った", "深い味がする。"],
-    "answer_order": [1, 2, 0, 3],
-    "translation_vi": "Món súp này đúng là xứng với công nấu lâu, vị rất đậm đà."
+    "pieces": ["きり", "手紙を", "返事が来ない。", "送った"],
+    "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Gửi thư đi rồi mà mãi không thấy hồi âm."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "彼の日本語は本当に上手だ。十年も日本で働いていた＿＿。",
-    "answer": "だけのことはある",
-    "accept": ["だけのことはあります", "だけある"],
-    "translation_vi": "Tiếng Nhật của anh ấy giỏi thật. Đúng là xứng với mười năm làm việc ở Nhật."
+    "sentence_ja": "山田さんは「ちょっと出かける」と言った＿＿、戻ってこない。",
+    "answer": "きり",
+    "accept": ["っきり", "きりで"],
+    "translation_vi": "Anh Yamada nói 'tôi ra ngoài một chút' rồi đi luôn không quay lại."
    },
    {
-    "sentence_ja": "一か月かけて準備した＿＿、パーティーは大成功だった。",
-    "answer": "だけのことはあって",
-    "accept": ["だけあって"],
-    "translation_vi": "Đúng là xứng với một tháng chuẩn bị, bữa tiệc đã thành công rực rỡ."
+    "sentence_ja": "その店には一度行った＿＿、それからは行っていない。",
+    "answer": "きり",
+    "accept": ["っきり", "きりで"],
+    "translation_vi": "Tôi chỉ đến quán đó đúng một lần, từ đó đến giờ không đến nữa."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "何回も書き直した（　　）、いいレポートになった。",
-    "options": ["ばかりに", "どころか", "とたんに", "だけのことはあって"],
-    "answer_index": 3,
-    "explanation_vi": "Điền 「だけのことはあって」: viết lại nhiều lần nên bản báo cáo hay là xứng đáng. ばかりに (chỉ vì… mà gặp chuyện xấu), どころか, とたんに không hợp nghĩa. Nghĩa: Đúng là xứng với việc viết đi viết lại nhiều lần, bản báo cáo đã rất tốt."
+    "prompt_ja": "彼女は留学先に行った（　　）、メールの返事もくれない。",
+    "options": ["ついでに", "きり", "とおり", "次第"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「きり」: đi du học rồi cứ thế, đến email cũng không trả lời. ついでに, とおり, 次第 không hợp nghĩa. Nghĩa: Cô ấy đi du học rồi biệt tăm, đến email cũng không trả lời."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "さすが人気の店だけのことはある。いつ来てもおいしい。",
+    "prompt_ja": "彼とは十年前に一度会ったきりだ。",
     "options": [
-     "Quán này đông khách nhưng không ngon lắm.",
-     "Đúng là quán được yêu thích có khác, lúc nào đến cũng ngon.",
-     "Vì là quán được yêu thích nên lúc nào cũng phải xếp hàng.",
-     "Chỉ có quán này là nổi tiếng, các quán khác không ngon."
+     "Tôi gặp anh ấy mỗi năm một lần suốt mười năm.",
+     "Từ mười năm trước đến giờ tôi chỉ gặp anh ấy đúng một lần đó thôi.",
+     "Mười năm trước tôi đã định gặp anh ấy.",
+     "Tôi sẽ gặp anh ấy sau mười năm nữa."
     ],
     "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu さすが〜だけのことはある (đúng là xứng với…): \"Đúng là quán được yêu thích có khác, lúc nào đến cũng ngon.\""
+    "explanation_vi": "Câu dùng mẫu Vた + きりだ (làm… rồi thôi, không có lần tiếp theo): \"Từ mười năm trước đến giờ tôi chỉ gặp anh ấy đúng một lần đó thôi.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "有名な画家の絵だけのことはあって、とても美しい。",
-     "一生懸命勉強しただけのことはあって、試験に落ちた。",
-     "この車は値段が高いだけのことはあって、乗り心地がいい。",
-     "さすが元選手だけのことはあって、今でも足が速い。"
+     "その映画を見たきり、次の日もう一度見に行った。",
+     "箱に入れたきり、忘れていた手紙が出てきた。",
+     "おじは外国へ行ったきり、帰ってこなかった。",
+     "大学に入ったきり、ピアノは弾いていない。"
     ],
-    "answer_index": 1,
-    "explanation_vi": "「一生懸命勉強しただけのことはあって、試験に落ちた。」 sai: vế sau phải là kết quả tốt xứng đáng; thi trượt là kết quả trái ngược. Câu đúng: 一生懸命勉強しただけのことはあって、試験に合格した。"
+    "answer_index": 0,
+    "explanation_vi": "「その映画を見たきり、次の日もう一度見に行った。」 sai: きり nghĩa là sau đó không có diễn biến gì tiếp, nên không đi với việc làm tiếp lần nữa. Câu đúng: その映画を見て、次の日もう一度見に行った。"
    }
   ]
  },
- "JG-7fd1a327d3": {
+ "JG-9f9f613812": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "毎日遅くまで働いている父（　　）、休みの日くらいゆっくり寝たいだろう。",
-    "options": ["にかけては", "に沿って", "にしたら", "にわたって"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「にしたら」: N + にしたら = đứng ở lập trường của người đó thì…, vế sau là cảm nghĩ của họ. にかけては (về khoản…), に沿って (theo), にわたって (suốt) không hợp nghĩa. Nghĩa: Bố tôi ngày nào cũng làm đến khuya, đứng ở lập trường bố thì ngày nghỉ chắc muốn ngủ thong thả."
+    "prompt_ja": "何時間も話し合った（　　）、結局何も決まらなかった。",
+    "options": ["とたん", "あげく", "ついでに", "うちに"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「あげく」: Vた + あげく = sau một quá trình dài, rốt cuộc dẫn đến kết quả không mong muốn. とたん, ついでに, うちに không hợp nghĩa. Nghĩa: Bàn bạc mấy tiếng đồng hồ mà rốt cuộc chẳng quyết được gì."
    },
    {
     "type": "FILL",
-    "prompt_ja": "私には簡単な問題でも、初めて習う子ども（　　）難しいだろう。",
-    "options": ["にすれば", "につき", "に先立って", "をめぐって"],
+    "prompt_ja": "さんざん道に迷った（　　）、約束の時間に一時間も遅れてしまった。",
+    "options": ["ついでに", "次第", "からには", "あげく"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「あげく」: lạc đường mãi rồi rốt cuộc trễ hẹn, kết quả đáng tiếc. ついでに, 次第, からには không hợp nghĩa. Nghĩa: Lạc đường mãi, rốt cuộc tôi trễ hẹn đến cả tiếng đồng hồ."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。",
+    "options": ["会社を辞めてしまった", "悩んだ", "あげく", "長い間"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 彼は長い間悩んだあげく会社を辞めてしまった。 (Anh ấy trăn trở suốt một thời gian dài rồi rốt cuộc nghỉ việc.). Mảnh ở ô ★ là 「あげく」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿けんかになった。",
+    "options": ["言い合いの", "あげく", "長い", "兄弟で"],
     "answer_index": 0,
-    "explanation_vi": "Điền 「にすれば」: N + にすれば = xét từ lập trường của N. につき, に先立って, をめぐって không hợp nghĩa. Nghĩa: Bài dù dễ với tôi, nhưng với đứa trẻ mới học lần đầu thì chắc là khó."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "夜中の工事は、＿＿ ＿＿ ★ ＿＿だろう。",
-    "options": ["迷惑", "にしたら", "住む人", "近所に"],
-    "answer_index": 1,
-    "explanation_vi": "Câu đúng: 夜中の工事は、近所に住む人にしたら迷惑だろう。 (Thi công giữa đêm thì với người sống gần đó chắc là phiền.). Mảnh ở ô ★ là 「にしたら」."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "会社の決定は、＿＿ ＿＿ ★ ＿＿ないだろう。",
-    "options": ["にすれば", "でき", "社員", "納得"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: 会社の決定は、社員にすれば納得できないだろう。 (Quyết định của công ty, đứng ở lập trường nhân viên thì chắc không thể chấp nhận.). Mảnh ở ô ★ là 「納得」."
+    "explanation_vi": "Câu đúng: 兄弟で長い言い合いのあげくけんかになった。 (Hai anh em cãi qua cãi lại một hồi lâu rồi rốt cuộc đánh nhau.). Mảnh ở ô ★ là 「言い合いの」."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "店にしたら、客が少ない雨の日は困るだろう。",
+    "prompt_ja": "彼は借金を重ねたあげく、家を売ることになった。",
     "options": [
-     "Đối với khách thì những ngày mưa vắng người rất dễ chịu.",
-     "Đứng ở lập trường cửa hàng thì ngày mưa vắng khách chắc là khó khăn.",
-     "Cửa hàng quyết định đóng cửa vào những ngày mưa.",
-     "Nếu là cửa hàng thì sẽ có nhiều khách vào ngày mưa."
+     "Anh ấy bán nhà rồi mới bắt đầu vay nợ.",
+     "Anh ấy vay nợ hết lần này đến lần khác, rốt cuộc phải bán nhà.",
+     "Nhờ bán nhà mà anh ấy trả hết nợ.",
+     "Anh ấy vay nợ để mua nhà mới."
     ],
     "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu N + にしたら (đứng ở lập trường của…): \"Đứng ở lập trường cửa hàng thì ngày mưa vắng khách chắc là khó khăn.\""
+    "explanation_vi": "Câu dùng mẫu Vた + あげく (rốt cuộc, kết quả không tốt): \"Anh ấy vay nợ hết lần này đến lần khác, rốt cuộc phải bán nhà.\""
    },
    {
     "type": "MEANING",
-    "prompt_ja": "親にすれば、子どもはいくつになっても子どもだ。",
+    "prompt_ja": "いろいろな店を回ったあげく、最初の店で買うことになった。",
     "options": [
-     "Nếu có bố mẹ thì con cái sẽ mãi là trẻ con.",
-     "Con cái lớn rồi thì không cần bố mẹ nữa.",
-     "Bố mẹ muốn con cái mãi mãi không lớn.",
-     "Đứng ở lập trường bố mẹ thì con cái dù bao nhiêu tuổi vẫn là con."
+     "Tôi chỉ đến một cửa hàng rồi mua ngay.",
+     "Tôi đi nhiều cửa hàng và mua ở mỗi nơi một món.",
+     "Tôi định đi nhiều cửa hàng nhưng cửa hàng đầu tiên đã đóng cửa.",
+     "Đi hết cửa hàng này đến cửa hàng khác, rốt cuộc lại mua ở cửa hàng đầu tiên."
     ],
     "answer_index": 3,
-    "explanation_vi": "Câu dùng mẫu N + にすれば (đứng ở lập trường của…): \"Đứng ở lập trường bố mẹ thì con cái dù bao nhiêu tuổi vẫn là con.\""
+    "explanation_vi": "Câu dùng mẫu Vた + あげく (sau bao nhiêu… rốt cuộc): \"Đi hết cửa hàng này đến cửa hàng khác, rốt cuộc lại mua ở cửa hàng đầu tiên.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "学生にしたら、テストは少ないほうがいいだろう。",
-     "この薬にしたら、子どもにも安全だ。",
-     "祖母にしたら、毎日の買い物は楽しみの一つなのだろう。",
-     "社長にすれば、社員の健康も大切な問題だ。"
+     "さんざん待たされたあげく、会議は中止になった。",
+     "一生懸命練習したあげく、優勝できてうれしい。",
+     "長い間考えたあげく、留学をあきらめた。",
+     "店員と長く話したあげく、結局何も買わずに帰った。"
     ],
     "answer_index": 1,
-    "explanation_vi": "「この薬にしたら、子どもにも安全だ。」 sai: N của にしたら phải là người hay tổ chức có suy nghĩ, cảm nhận; thuốc không có lập trường. Câu đúng: この薬は、子どもにも安全だ。"
+    "explanation_vi": "「一生懸命練習したあげく、優勝できてうれしい。」 sai: あげく dùng cho kết quả xấu, đáng tiếc; kết quả tốt phải dùng 末に. Câu đúng: 一生懸命練習した末に、優勝できてうれしい。"
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "先生にしたら、遅刻する学生は困った存在だろう。",
-     "私にしたら、明日は早く来てください。",
-     "子どもにすれば、毎日の塾は大変だろう。",
-     "お客さんにしても、待たされるのは嫌なはずだ。"
+     "口げんかのあげく、友だちは帰ってしまった。",
+     "議論あげく、計画は中止になった。",
+     "何度も失敗したあげく、彼は自信をなくした。",
+     "一晩中飲んだあげく、次の日は仕事を休んだ。"
     ],
     "answer_index": 1,
-    "explanation_vi": "「私にしたら、明日は早く来てください。」 sai: vế sau của にしたら là suy nghĩ, cảm nhận từ lập trường đó, không dùng lời nhờ vả. Câu đúng: 私にしたら、明日早く来てもらえると助かる。"
+    "explanation_vi": "「議論あげく、計画は中止になった。」 sai: danh từ phải có の trước あげく (N のあげく). Câu đúng: 議論のあげく、計画は中止になった。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["にしたら", "うれしい", "社員", "制度だ。"],
-    "answer_order": [2, 0, 1, 3],
-    "translation_vi": "Đó là chế độ mà đứng ở lập trường nhân viên thì rất đáng mừng."
+    "pieces": ["あげく、", "悩んだ", "大学をやめてしまった。", "一年間"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Trăn trở suốt một năm, rốt cuộc tôi đã bỏ đại học."
    },
    {
-    "pieces": ["困る", "にすれば", "話だ。", "店"],
-    "answer_order": [3, 1, 0, 2],
-    "translation_vi": "Đó là chuyện mà đứng ở phía cửa hàng thì thật khó xử."
+    "pieces": ["けんかの", "別れてしまった。", "二人は", "あげく"],
+    "answer_order": [2, 0, 3, 1],
+    "translation_vi": "Hai người cãi nhau rồi rốt cuộc chia tay."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "母＿＿、私が一人で海外に住むのは心配なのだろう。",
-    "answer": "にしたら",
-    "accept": ["にすれば", "にしてみれば", "にしてみたら", "にとっては"],
-    "translation_vi": "Đứng ở lập trường mẹ thì việc tôi sống một mình ở nước ngoài chắc là đáng lo."
+    "sentence_ja": "何度も計画を変えた＿＿、旅行そのものが中止になった。",
+    "answer": "あげく",
+    "accept": ["あげくに"],
+    "translation_vi": "Đổi kế hoạch hết lần này đến lần khác, rốt cuộc cả chuyến du lịch bị hủy."
    },
    {
-    "sentence_ja": "部下＿＿、毎日違うことを言う上司は困るだろう。",
-    "answer": "にしたら",
-    "accept": ["にすれば", "にしてみれば", "にしてみたら", "にとっては"],
-    "translation_vi": "Đứng ở lập trường cấp dưới thì cấp trên mỗi ngày nói một kiểu chắc là khó chịu."
+    "sentence_ja": "長時間待たされた＿＿、「今日はもう終わりです」と言われた。",
+    "answer": "あげく",
+    "accept": ["あげくに"],
+    "translation_vi": "Bị bắt chờ hàng giờ, rốt cuộc lại bị nói 'hôm nay hết giờ rồi'."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "店員（　　）、閉店直前に来る客は少し困るだろう。",
-    "options": ["にこたえて", "にしたら", "にともなって", "に加えて"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「にしたら」: đứng ở lập trường nhân viên cửa hàng mà nói cảm nhận của họ. にこたえて, にともなって, に加えて không hợp nghĩa. Nghĩa: Đứng ở lập trường nhân viên thì khách đến ngay trước giờ đóng cửa chắc hơi phiền."
+    "prompt_ja": "パソコンを何度も直そうとした（　　）、完全に壊してしまった。",
+    "options": ["たびに", "まま", "あげく", "ばかりか"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「あげく」: cố sửa mãi rồi rốt cuộc làm hỏng hẳn. たびに không đi sau Vた, まま và ばかりか không hợp nghĩa. Nghĩa: Cố sửa máy tính mấy lần, rốt cuộc tôi làm hỏng hẳn luôn."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "若い人にしたら、この曲は古く感じるだろう。",
+    "prompt_ja": "さんざん文句を言ったあげく、彼は何も手伝わずに帰った。",
     "options": [
-     "Bài hát này dành cho người trẻ nên có vẻ mới mẻ.",
-     "Nếu là người trẻ thì nên nghe bài hát cũ này.",
-     "Đứng ở lập trường người trẻ thì bài hát này có lẽ nghe cũ.",
-     "Người trẻ đã sáng tác bài hát cũ này."
+     "Anh ta phàn nàn đủ điều rồi rốt cuộc chẳng giúp gì mà bỏ về.",
+     "Anh ta không phàn nàn gì và giúp đến cuối.",
+     "Anh ta giúp đỡ xong rồi mới phàn nàn.",
+     "Anh ta phàn nàn vì không ai giúp mình."
     ],
-    "answer_index": 2,
-    "explanation_vi": "Câu dùng mẫu N + にしたら (đứng ở lập trường của…): \"Đứng ở lập trường người trẻ thì bài hát này có lẽ nghe cũ.\""
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vた + あげく (rốt cuộc, kết quả không tốt): \"Anh ta phàn nàn đủ điều rồi rốt cuộc chẳng giúp gì mà bỏ về.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "観光客にしたら、駅の案内が英語だと助かるだろう。",
-     "お年寄りしたら、この階段は大変だろう。",
-     "店長にしても、客が少ないのは困るだろう。",
-     "彼にしても、わざと失敗したわけではない。"
+     "二時間も待ったあげく、バスは来なかった。",
+     "悩んだあげくに、その話を断った。",
+     "よく考えたあげく、留学しよう。",
+     "さんざん苦労したあげく、店を閉めることになった。"
     ],
-    "answer_index": 1,
-    "explanation_vi": "「お年寄りしたら、この階段は大変だろう。」 sai: phải có に giữa danh từ và したら (N + にしたら). Câu đúng: お年寄りにしたら、この階段は大変だろう。"
+    "answer_index": 2,
+    "explanation_vi": "「よく考えたあげく、留学しよう。」 sai: vế sau của あげく là kết quả đã xảy ra, không dùng ý chí 〜よう. Câu đúng: よく考えたあげく、留学をやめることにした。"
    }
   ]
  },
- "JG-0c3c3e8eee": {
+ "JG-c618bda8fe": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "楽しみにしていた子ども（　　）、遠足の中止は本当に残念だっただろう。",
-    "options": ["にかけては", "に沿って", "に反して", "にしてみれば"],
+    "prompt_ja": "何度も話し合った（　　）、二人は結婚することに決めた。",
+    "options": ["とたんに", "ついでに", "うちに", "末に"],
     "answer_index": 3,
-    "explanation_vi": "Điền 「にしてみれば」: thử đặt mình vào vị trí của bọn trẻ để đoán cảm xúc. にかけては, に沿って, に反して không hợp nghĩa. Nghĩa: Với bọn trẻ đã mong chờ thì việc chuyến dã ngoại bị hủy chắc là đáng tiếc lắm."
+    "explanation_vi": "Điền 「末に」: Vた + 末に = sau cả quá trình dài, rốt cuộc đi đến quyết định. とたんに, ついでに, うちに không hợp nghĩa. Nghĩa: Sau nhiều lần bàn bạc, hai người quyết định kết hôn."
    },
    {
     "type": "FILL",
-    "prompt_ja": "私には小さなことでも、彼（　　）大きな問題なのかもしれない。",
-    "options": ["にしてみれば", "次第で", "をこめて", "に先立って"],
-    "answer_index": 0,
-    "explanation_vi": "Điền 「にしてみれば」: đứng vào vị trí của anh ấy thì có thể là chuyện lớn, đối lập với 私には. 次第で, をこめて, に先立って không hợp nghĩa. Nghĩa: Với tôi là chuyện nhỏ, nhưng với anh ấy có khi lại là vấn đề lớn."
+    "prompt_ja": "三か月の交渉の（　　）、ようやく契約が結ばれた。",
+    "options": ["くせ", "末", "わり", "ほど"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「末」: N の + 末 = sau một quá trình dài. くせ, わり, ほど không hợp nghĩa. Nghĩa: Sau ba tháng đàm phán, cuối cùng hợp đồng đã được ký kết."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "急に仕事を頼まれた＿＿ ＿＿ ★ ＿＿。",
-    "options": ["話だ", "迷惑な", "にしてみれば", "山田さん"],
+    "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。",
+    "options": ["医者になった", "末に", "長年", "苦労した"],
     "answer_index": 1,
-    "explanation_vi": "Câu đúng: 急に仕事を頼まれた山田さんにしてみれば迷惑な話だ。 (Với anh Yamada bị nhờ việc đột ngột thì đó là chuyện phiền phức.). Mảnh ở ô ★ là 「迷惑な」."
+    "explanation_vi": "Câu đúng: 彼は長年苦労した末に医者になった。 (Anh ấy vất vả nhiều năm rồi cuối cùng đã trở thành bác sĩ.). Mảnh ở ô ★ là 「末に」."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "毎日料理を作る＿＿ ＿＿ ★ ＿＿うれしいものだ。",
-    "options": ["母", "一番", "にしてみれば", "「おいしい」と言われるのが"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: 毎日料理を作る母にしてみれば「おいしい」と言われるのが一番うれしいものだ。 (Với mẹ ngày nào cũng nấu ăn thì được khen 'ngon' là vui nhất.). Mảnh ở ô ★ là 「「おいしい」と言われるのが」."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "客にしてみれば、待たされる十分はとても長く感じる。",
-    "options": [
-     "Đối với khách, mười phút phải chờ đợi có cảm giác rất dài.",
-     "Khách hàng đã chờ mười phút rồi bỏ về.",
-     "Nếu là khách thì nên chờ mười phút.",
-     "Thử làm khách mới biết mười phút trôi qua rất nhanh."
-    ],
-    "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu N + にしてみれば (đứng vào vị trí của…): \"Đối với khách, mười phút phải chờ đợi có cảm giác rất dài.\""
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "先生にしてみれば、学生のためを思って厳しくしているのだろう。",
-    "options": [
-     "Thầy giáo thử nghiêm khắc với học sinh một lần.",
-     "Học sinh nghĩ thầy giáo quá nghiêm khắc.",
-     "Nếu là thầy giáo thì không nên nghiêm khắc.",
-     "Đứng ở vị trí thầy giáo thì chắc thầy nghiêm khắc là vì nghĩ cho học sinh."
-    ],
-    "answer_index": 3,
-    "explanation_vi": "Câu dùng mẫu N + にしてみれば (đứng vào vị trí của…): \"Đứng ở vị trí thầy giáo thì chắc thầy nghiêm khắc là vì nghĩ cho học sinh.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": [
-     "弟にしてみれば、兄と比べられるのは嫌なのだろう。",
-     "この古い家にしてみれば、修理が必要だ。",
-     "留学生にしてみれば、日本の生活は分からないことばかりだろう。",
-     "家族にしてみれば、父の転勤は大きな問題だった。"
-    ],
-    "answer_index": 1,
-    "explanation_vi": "「この古い家にしてみれば、修理が必要だ。」 sai: N của にしてみれば phải là người hay tổ chức có cảm nhận; ngôi nhà không có lập trường. Câu đúng: この古い家は、修理が必要だ。"
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": [
-     "彼にしてみれば、冗談のつもりだったのだろう。",
-     "子どもにしてみたら、大人の話はつまらないものだ。",
-     "私にしてみれば、明日は早く起きよう。",
-     "新入社員にしてみれば、初めての会議は緊張するだろう。"
-    ],
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿完成した。",
+    "options": ["末に", "新しい薬が", "失敗した", "何度も"],
     "answer_index": 2,
-    "explanation_vi": "「私にしてみれば、明日は早く起きよう。」 sai: vế sau của にしてみれば là suy nghĩ, cảm nhận từ vị trí đó, không dùng ý chí 〜よう. Câu đúng: 私にしてみれば、明日早く起きるのは大変だ。"
+    "explanation_vi": "Câu đúng: 何度も失敗した末に新しい薬が完成した。 (Sau bao lần thất bại, cuối cùng loại thuốc mới đã hoàn thành.). Mảnh ở ô ★ là 「失敗した」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "いろいろ考えた末、会社を辞めて自分の店を開くことにした。",
+    "options": [
+     "Suy nghĩ nhiều rồi cuối cùng tôi quyết định nghỉ việc để mở cửa hàng riêng.",
+     "Tôi nghỉ việc mà không suy nghĩ gì.",
+     "Tôi mở cửa hàng rồi mới suy nghĩ có nên nghỉ việc không.",
+     "Vào cuối năm tôi sẽ nghỉ việc để mở cửa hàng."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vた + 末 (sau cả quá trình dài, rốt cuộc…): \"Suy nghĩ nhiều rồi cuối cùng tôi quyết định nghỉ việc để mở cửa hàng riêng.\" 末 ở đây không phải 'cuối năm'."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "激しい戦いの末、日本チームが勝った。",
+    "options": [
+     "Đội Nhật thắng dễ dàng ngay từ đầu.",
+     "Sau một trận đấu quyết liệt, cuối cùng đội Nhật đã thắng.",
+     "Vào cuối trận, đội Nhật bị thua.",
+     "Đội Nhật thắng nên trận đấu trở nên quyết liệt."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N の + 末 (sau một quá trình dài, rốt cuộc…): \"Sau một trận đấu quyết liệt, cuối cùng đội Nhật đã thắng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "一年間の準備の末、大会は無事に終わった。",
+     "話し合い末、計画を変えることにした。",
+     "悩んだ末に、彼に本当のことを話した。",
+     "何度も書き直した末、やっと論文が完成した。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「話し合い末、計画を変えることにした。」 sai: danh từ phải có の trước 末 (N の末). Câu đúng: 話し合いの末、計画を変えることにした。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "長い間迷った末、赤いほうを買った。",
+     "五時間の手術の末、父は助かった。",
+     "色々な方法を試した末、やっと問題が解決した。",
+     "よく相談した末に、決めてください。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「よく相談した末に、決めてください。」 sai: vế sau của 末に là kết quả, quyết định đã có, không dùng lời nhờ vả hay mệnh lệnh. Câu đúng: よく相談してから、決めてください。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["にしてみれば", "うれしい", "ニュースだ。", "ファン"],
-    "answer_order": [3, 0, 1, 2],
-    "translation_vi": "Đối với người hâm mộ thì đó là tin vui."
+    "pieces": ["末に", "考えた", "引っ越すことにした。", "よく"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Suy nghĩ kỹ rồi cuối cùng tôi quyết định chuyển nhà."
    },
    {
-    "pieces": ["当然の", "にしてみれば", "要求だ。", "働く人"],
-    "answer_order": [3, 1, 0, 2],
-    "translation_vi": "Đứng ở vị trí người lao động thì đó là yêu cầu đương nhiên."
+    "pieces": ["末、", "二時間の", "やっと結論が出た。", "会議の"],
+    "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Sau hai tiếng họp, cuối cùng cũng có kết luận."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "祖父＿＿、新しい機械の使い方を覚えるのは大変なのだろう。",
-    "answer": "にしてみれば",
-    "accept": ["にしてみたら", "にしたら", "にすれば", "にとっては"],
-    "translation_vi": "Đối với ông tôi thì việc nhớ cách dùng máy móc mới chắc là vất vả."
+    "sentence_ja": "何か月も悩んだ＿＿、彼は仕事を変えることを決めた。",
+    "answer": "末",
+    "accept": ["末に"],
+    "translation_vi": "Sau mấy tháng trăn trở, anh ấy đã quyết định đổi việc."
    },
    {
-    "sentence_ja": "体が小さい子ども＿＿、この机は高すぎるだろう。",
-    "answer": "にしてみれば",
-    "accept": ["にしてみたら", "にしたら", "にすれば", "にとっては"],
-    "translation_vi": "Với đứa trẻ người nhỏ thì cái bàn này chắc là quá cao."
+    "sentence_ja": "三日間の山歩きの＿＿、ようやく頂上に着いた。",
+    "answer": "末",
+    "accept": ["末に"],
+    "translation_vi": "Sau ba ngày leo núi, cuối cùng chúng tôi cũng lên tới đỉnh."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "何も聞かされていなかった部下（　　）、突然の発表は驚きだっただろう。",
-    "options": ["をきっかけに", "にともなって", "にしてみれば", "に比べて"],
+    "prompt_ja": "長い時間をかけて練習した（　　）、ついに難しい曲が弾けるようになった。",
+    "options": ["ばかりに", "くせに", "末に", "とたんに"],
     "answer_index": 2,
-    "explanation_vi": "Điền 「にしてみれば」: đặt mình vào vị trí cấp dưới không được báo trước để đoán cảm xúc. をきっかけに, にともなって, に比べて không hợp nghĩa. Nghĩa: Với cấp dưới chẳng được báo gì thì thông báo đột ngột đó chắc là bất ngờ."
+    "explanation_vi": "Điền 「末に」: luyện tập thời gian dài rồi cuối cùng đạt kết quả tốt; 末に dùng được cho kết quả tốt. ばかりに (chỉ vì… mà gặp chuyện xấu), くせに, とたんに không hợp nghĩa. Nghĩa: Sau thời gian dài luyện tập, cuối cùng tôi đã chơi được bản nhạc khó."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "本人にしてみれば、一生懸命やった結果なのだろう。",
+    "prompt_ja": "長い付き合いの末に、二人は結婚した。",
     "options": [
-     "Thử để chính người đó làm thì kết quả sẽ tốt hơn.",
-     "Đối với chính người đó thì có lẽ đó là kết quả của việc đã cố gắng hết sức.",
-     "Người đó không hề cố gắng nên kết quả không tốt.",
-     "Chính tôi đã cố gắng hết sức nên có kết quả này."
+     "Hai người cưới nhau ngay sau khi quen.",
+     "Hai người kết hôn rồi chung sống lâu dài.",
+     "Cuối năm nay hai người sẽ kết hôn.",
+     "Sau thời gian dài quen nhau, cuối cùng hai người đã kết hôn."
     ],
-    "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu N + にしてみれば (đứng vào vị trí của…): \"Đối với chính người đó thì có lẽ đó là kết quả của việc đã cố gắng hết sức.\""
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N の + 末に (sau một quá trình dài, rốt cuộc…): \"Sau thời gian dài quen nhau, cuối cùng hai người đã kết hôn.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "社長にしてみれば、会社を守るための決定だった。",
-     "お客様してみれば、説明が足りないと感じるだろう。",
-     "母にしてみれば、私はいつまでも子どもなのだ。",
-     "選手にしてみれば、負けた試合のことは早く忘れたいだろう。"
+     "三年の研究の末、新しい技術が生まれた。",
+     "よく考える末、引き受けることにした。",
+     "迷った末に、留学することに決めた。",
+     "長い議論の末、計画は中止された。"
     ],
     "answer_index": 1,
-    "explanation_vi": "「お客様してみれば、説明が足りないと感じるだろう。」 sai: phải có に sau danh từ (N + にしてみれば). Câu đúng: お客様にしてみれば、説明が足りないと感じるだろう。"
+    "explanation_vi": "「よく考える末、引き受けることにした。」 sai: động từ trước 末 phải ở thể た (Vた + 末). Câu đúng: よく考えた末、引き受けることにした。"
    }
   ]
  }

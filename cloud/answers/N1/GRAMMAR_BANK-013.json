@@ -148,5 +148,55 @@
   {"type": "MEANING", "prompt_ja": "この仕事は、残業に休日出勤と、大変なことずくめだ。", "options": ["Công việc này toàn chuyện vất vả, nào làm thêm giờ, nào đi làm ngày nghỉ.", "Công việc này thỉnh thoảng mới phải làm thêm giờ.", "Công việc này không có làm thêm giờ nên rất nhẹ nhàng.", "Công việc này chỉ vất vả vào ngày nghỉ."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜ずくめ (toàn là, toàn những): \"Công việc này toàn chuyện vất vả, nào làm thêm giờ, nào đi làm ngày nghỉ.\""},
   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼女は黒ずくめの服がよく似合う。", "新婚旅行は、楽しいことずくめだった。", "規則ずくめの毎日に、少し疲れてしまった。", "転んで、ズボンが血ずくめになった。"], "answer_index": 3, "explanation_vi": "「転んで、ズボンが血ずくめになった。」 sai: máu dính bê bết dùng まみれ, không dùng ずくめ. Câu đúng: 転んで、ズボンが血まみれになった。"}
  ]
+},
+"JG-58b0580c68": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "これはもはや個人の問題（　　）、社会全体の問題である。", "options": ["ならでは", "にあらず", "にひきかえ", "ながらに"], "answer_index": 1, "explanation_vi": "Điền 「にあらず」: N + にあらず = không phải là N (lối văn cổ, trang trọng), vế sau nêu điều đúng. Nghĩa: Đây không còn là vấn đề cá nhân nữa mà là vấn đề của cả xã hội."},
+  {"type": "FILL", "prompt_ja": "彼の行為は親切（　　）、ただのおせっかいだ。", "options": ["にとどまらず", "をもって", "ばかりか", "にあらず"], "answer_index": 3, "explanation_vi": "Điền 「にあらず」: phủ định 親切 rồi nêu bản chất thật là おせっかい. Nghĩa: Hành động của anh ta không phải tử tế mà chỉ là xen vào chuyện người khác."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿である。", "options": ["努力の結果", "あらず、", "成功は", "偶然に"], "answer_index": 1, "explanation_vi": "Câu đúng: 成功は偶然にあらず、努力の結果である。 (Thành công không phải là ngẫu nhiên mà là kết quả của nỗ lực.). Mảnh ở ô ★ là 「あらず、」."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿。", "options": ["あらず", "責任に", "誰か一人の", "安全は"], "answer_index": 2, "explanation_vi": "Câu đúng: 安全は誰か一人の責任にあらず。 (An toàn không phải là trách nhiệm của riêng một ai.). Mảnh ở ô ★ là 「誰か一人の」."},
+  {"type": "MEANING", "prompt_ja": "この病は、もはや高齢者だけのものにあらず。", "options": ["Căn bệnh này chỉ người cao tuổi mới mắc.", "Người cao tuổi không còn mắc căn bệnh này nữa.", "Căn bệnh này giờ đây không còn chỉ là của người cao tuổi.", "Căn bệnh này đã có từ xưa ở người cao tuổi."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜にあらず (không phải là…, lối văn cổ): \"Căn bệnh này giờ đây không còn chỉ là của người cao tuổi.\""},
+  {"type": "MEANING", "prompt_ja": "学歴は人の価値を決めるものにあらず。", "options": ["Bằng cấp không phải là thứ quyết định giá trị con người.", "Bằng cấp quyết định giá trị con người.", "Con người cần có bằng cấp mới có giá trị.", "Giá trị con người không thể đo bằng tiền."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜にあらず (không phải là…, lối văn cổ): \"Bằng cấp không phải là thứ quyết định giá trị con người.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["金がすべてにあらず。", "彼の言葉は単なる冗談にあらず、本気の警告だった。", "環境問題は遠い国の話にあらず。", "ねえ、これは僕のかばんにあらずよ。"], "answer_index": 3, "explanation_vi": "「ねえ、これは僕のかばんにあらずよ。」 sai: にあらず là lối văn cổ dùng trong khẩu hiệu, châm ngôn, văn viết; không dùng trong hội thoại thân mật. Câu đúng: ねえ、これは僕のかばんじゃないよ。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["失敗は恥にあらず。", "この料理は辛いにあらず。", "これは単なる事故にあらず、人災である。", "子どもの教育は学校だけの役目にあらず。"], "answer_index": 1, "explanation_vi": "「この料理は辛いにあらず。」 sai: にあらず đứng sau danh từ, không gắn sau tính từ い. Câu đúng: この料理は辛くはない。"}
+ ],
+ "order_items": [
+  {"pieces": ["家族全員の仕事である。", "にあらず、", "子育ては", "母親だけの役目"], "answer_order": [2, 3, 1, 0], "translation_vi": "Nuôi dạy con không phải là việc của riêng người mẹ mà là việc của cả gia đình."},
+  {"pieces": ["人生のすべてに", "あらず。", "仕事は"], "answer_order": [2, 0, 1], "translation_vi": "Công việc không phải là tất cả của cuộc đời."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "この地震は、決して遠い地域の出来事＿＿。", "answer": "にあらず", "accept": ["ではない"], "translation_vi": "Trận động đất này tuyệt nhiên không phải là chuyện của một vùng xa xôi."},
+  {"sentence_ja": "勝つことだけが目的＿＿、仲間との経験こそが大切なのだ。", "answer": "にあらず", "accept": ["ではなく"], "translation_vi": "Chiến thắng không phải là mục đích duy nhất, chính trải nghiệm cùng đồng đội mới là điều quan trọng."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "「危険は遠く（　　）、すぐそばにある」というポスターが貼られていた。", "options": ["にあって", "にしては", "にあらず", "にひきかえ"], "answer_index": 2, "explanation_vi": "Điền 「にあらず」: lối nói cổ, ngắn gọn hợp với khẩu hiệu trên áp phích. Nghĩa: Người ta dán tấm áp phích ghi 'Nguy hiểm không ở đâu xa, mà ở ngay bên cạnh'."},
+  {"type": "MEANING", "prompt_ja": "読書は単なる趣味にあらず、生きる力を育てるものだ。", "options": ["Đọc sách chỉ là một sở thích đơn thuần.", "Ngoài đọc sách, tôi không có sở thích nào khác.", "Đọc sách là sở thích nên không cần ép ai.", "Đọc sách không đơn thuần là sở thích mà là thứ nuôi dưỡng sức sống."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜にあらず (không phải là…, lối văn cổ): \"Đọc sách không đơn thuần là sở thích mà là thứ nuôi dưỡng sức sống.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["明日の会議には行くにあらず。", "成功はお金のみにあらず。", "彼はもはや子どもにあらず。", "平和は与えられるものにあらず。"], "answer_index": 0, "explanation_vi": "「明日の会議には行くにあらず。」 sai: にあらず đứng sau danh từ, không dùng sau động từ, và không dùng cho dự định thường ngày. Câu đúng: 明日の会議には行かない。"}
+ ]
+},
+"JG-3bce8ac5d2": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "雨の中のサッカーで、子どもたちは泥（　　）になった。", "options": ["ずくめ", "めき", "ぐるみ", "まみれ"], "answer_index": 3, "explanation_vi": "Điền 「まみれ」: 泥まみれ = bê bết bùn đất khắp người. Nghĩa: Đá bóng dưới mưa, lũ trẻ lấm lem bùn đất."},
+  {"type": "FILL", "prompt_ja": "工事現場から帰ってきた父の作業服は、ほこり（　　）だった。", "options": ["ずくめ", "がち", "まみれ", "ぶり"], "answer_index": 2, "explanation_vi": "Điền 「まみれ」: ほこりまみれ = phủ đầy bụi bẩn. Nghĩa: Bộ đồ lao động của bố khi từ công trường về phủ đầy bụi."},
+  {"type": "ORDER_STAR", "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。", "options": ["生活から", "やっと抜け出した", "長年の", "借金まみれの"], "answer_index": 0, "explanation_vi": "Câu đúng: 彼は長年の借金まみれの生活からやっと抜け出した。 (Anh ấy cuối cùng đã thoát khỏi cuộc sống ngập trong nợ nần suốt nhiều năm.). Mảnh ở ô ★ là 「生活から」."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿に入った。", "options": ["油まみれのまま", "風呂場", "父は", "修理を終えた"], "answer_index": 2, "explanation_vi": "Câu đúng: 修理を終えた父は油まみれのまま風呂場に入った。 (Sửa xong, bố cứ thế vào phòng tắm với người dính đầy dầu mỡ.). Mảnh ở ô ★ là 「父は」."},
+  {"type": "MEANING", "prompt_ja": "政治家の汚職事件が続き、政界はスキャンダルまみれだ。", "options": ["Giới chính trị đã xóa sạch các vụ bê bối.", "Các vụ tham nhũng liên tiếp xảy ra, giới chính trị ngập trong bê bối.", "Chỉ có một vụ bê bối nhỏ trong giới chính trị.", "Các chính trị gia đang điều tra vụ bê bối của người khác."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜まみれ (ngập, dính đầy thứ không mong muốn): \"Các vụ tham nhũng liên tiếp xảy ra, giới chính trị ngập trong bê bối.\""},
+  {"type": "MEANING", "prompt_ja": "転んだ弟は、膝が血まみれになっていた。", "options": ["Em trai tôi bị ngã nhưng không chảy máu.", "Em trai tôi bị ngã và chỉ hơi trầy da một chút.", "Em trai tôi bị ngã, đầu gối bê bết máu.", "Em trai tôi suýt ngã nhưng kịp đứng vững."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜まみれ (bê bết, dính đầy): \"Em trai tôi bị ngã, đầu gối bê bết máu.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["古い倉庫の箱は、ほこりまみれだった。", "母の日に、母は花まみれのプレゼントをもらった。", "子どもたちが泥まみれの靴で家に入ってきた。", "炎天下で作業して、シャツが汗まみれになった。"], "answer_index": 1, "explanation_vi": "「母の日に、母は花まみれのプレゼントをもらった。」 sai: まみれ chỉ dùng với thứ bẩn, khó chịu bám vào bề mặt, không dùng với thứ đẹp như hoa. Câu đúng: 母の日に、母は花でいっぱいのプレゼントをもらった。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["事故現場には、血まみれの車が残されていた。", "雨の後のグラウンドで、ボールが泥まみれになった。", "一日中料理をして、エプロンが油まみれだ。", "彼の作文は、間違いまみれだった。"], "answer_index": 3, "explanation_vi": "「彼の作文は、間違いまみれだった。」 sai: lỗi sai không phải chất bám dính; 'đầy lỗi' dùng だらけ. Câu đúng: 彼の作文は、間違いだらけだった。"}
+ ],
+ "order_items": [
+  {"pieces": ["なってしまった。", "泥まみれに", "新しい靴が", "雨の中を歩いたら、"], "answer_order": [3, 2, 1, 0], "translation_vi": "Đi dưới mưa, đôi giày mới đã lấm lem bùn đất."},
+  {"pieces": ["手で", "父は額の汗をふいた。", "油", "まみれの"], "answer_order": [2, 3, 0, 1], "translation_vi": "Bố lau mồ hôi trên trán bằng đôi tay dính đầy dầu mỡ."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "祖父は毎日、畑仕事で泥＿＿になって働いている。", "answer": "まみれ", "accept": ["だらけ"], "translation_vi": "Ông tôi ngày nào cũng làm ruộng, người lấm lem bùn đất."},
+  {"sentence_ja": "長い間掃除していない部屋で、本棚の本はほこり＿＿だった。", "answer": "まみれ", "accept": ["だらけ"], "translation_vi": "Trong căn phòng lâu ngày không dọn, sách trên giá phủ đầy bụi."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "事故現場には、血（　　）のハンカチが落ちていた。", "options": ["ずくめ", "まみれ", "めき", "ながら"], "answer_index": 1, "explanation_vi": "Điền 「まみれ」: 血まみれ = bê bết máu. Nghĩa: Ở hiện trường vụ tai nạn có một chiếc khăn tay bê bết máu rơi dưới đất."},
+  {"type": "MEANING", "prompt_ja": "ペンキ塗りを手伝ったら、服も髪もペンキまみれになった。", "options": ["Phụ sơn nhà xong, cả quần áo lẫn tóc đều dính đầy sơn.", "Tôi giúp sơn nhà nhưng không dính chút sơn nào.", "Tôi sơn lại quần áo và tóc cho đẹp.", "Tôi chỉ bị dính một ít sơn lên tay."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜まみれ (bê bết, dính đầy): \"Phụ sơn nhà xong, cả quần áo lẫn tóc đều dính đầy sơn.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["台所の換気扇は、油まみれで汚れていた。", "子どもが泥まみれの手で、パンを食べようとした。", "優勝した選手は、喜びまみれの笑顔を見せた。", "試合を終えた選手の顔は、汗まみれだった。"], "answer_index": 2, "explanation_vi": "「優勝した選手は、喜びまみれの笑顔を見せた。」 sai: まみれ mang sắc thái tiêu cực, chỉ thứ bẩn bám vào; không dùng với cảm xúc tích cực. Câu đúng: 優勝した選手は、喜びにあふれた笑顔を見せた。"}
+ ]
 }
 }
