@@ -1306,7 +1306,196 @@
    "id": "JG-697778b4b6"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "料理ができる（　　）、卵焼きぐらいしか作れません。",
+      "options": [
+       "からには",
+       "ように",
+       "ためには",
+       "といっても"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「といっても」: tuy nói là biết nấu ăn nhưng thực tế mức độ thấp hơn người nghe nghĩ. からには (đã… thì phải), ように (để), ためには (để mà) không hợp nghĩa. Nghĩa: Nói là biết nấu ăn nhưng tôi chỉ làm được món trứng cuộn thôi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "海外旅行（　　）、隣の国に二日行っただけだ。",
+      "options": [
+       "によって",
+       "といっても",
+       "に対して",
+       "にとって"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「といっても」: N + といっても điều chỉnh ấn tượng 'du lịch nước ngoài' xuống mức thực tế nhỏ hơn. によって, に対して, にとって không hợp nghĩa. Nghĩa: Nói là du lịch nước ngoài nhưng chỉ sang nước bên cạnh hai ngày thôi."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "会社は家から＿＿ ＿＿ ★ ＿＿十分ぐらいだ。",
+      "options": [
+       "電車で",
+       "と言っても",
+       "遠い",
+       "少し"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 会社は家から少し遠いと言っても電車で十分ぐらいだ。 (Công ty tuy nói là hơi xa nhà nhưng đi tàu cũng chỉ khoảng mười phút.). Mảnh ở ô ★ là 「と言っても」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿ほんの数日だった。",
+      "options": [
+       "と言っても、",
+       "期間は",
+       "入院した",
+       "祖母が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 祖母が入院したと言っても、期間はほんの数日だった。 (Nói là bà nằm viện nhưng thời gian chỉ vài ngày thôi.). Mảnh ở ô ★ là 「入院した」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "庭があると言っても、車一台分の広さしかない。",
+      "options": [
+       "Vì có vườn rộng nên đỗ được nhiều ô tô.",
+       "Dù không có vườn nhưng vẫn đỗ được ô tô.",
+       "Nói là có vườn nhưng chỉ rộng bằng chỗ đỗ một chiếc ô tô.",
+       "Nếu có vườn thì tôi muốn mua thêm ô tô."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜と言っても (tuy nói là… nhưng thực tế không đến mức đó): \"Nói là có vườn nhưng chỉ rộng bằng chỗ đỗ một chiếc ô tô.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "英語が話せると言っても、日常会話程度です。",
+      "options": [
+       "Nói là nói được tiếng Anh nhưng cũng chỉ ở mức giao tiếp hằng ngày.",
+       "Tôi nói tiếng Anh giỏi như người bản xứ.",
+       "Tôi không nói được tiếng Anh, kể cả giao tiếp hằng ngày.",
+       "Nếu nói được tiếng Anh thì giao tiếp hằng ngày sẽ dễ hơn."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜と言っても (hạ mức độ so với điều người nghe tưởng): \"Nói là nói được tiếng Anh nhưng cũng chỉ ở mức giao tiếp hằng ngày.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "先生と言っても、まだ二十代の若い人だ。",
+       "引っ越したと言っても、隣の町に移っただけだ。",
+       "忙しいと言っても、週末は休めます。",
+       "寒いだと言っても、まだ雪は降っていない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「寒いだと言っても」 sai: tính từ い gắn thẳng と言っても, không thêm だ. Câu đúng: 寒いと言っても、まだ雪は降っていない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "日本に住んでいたと言っても、半年だけです。",
+       "社長と言っても、社員は千人もいる大きな会社だ。",
+       "休みと言っても、家で仕事をしている。",
+       "ピアノが弾けると言っても、簡単な曲だけだ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「社長と言っても、社員は千人もいる大きな会社だ」 sai: vế sau của と言っても phải cho thấy thực tế nhỏ hơn hay khác điều người nghe tưởng, không dùng để nhấn mạnh mức độ lớn hơn. Câu đúng: 社長と言っても、社員が三人の小さな会社だ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "と言っても、",
+       "近くの公園を",
+       "走るだけだ。",
+       "毎朝運動している"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Nói là sáng nào cũng tập thể dục nhưng chỉ chạy quanh công viên gần nhà thôi."
+     },
+     {
+      "pieces": [
+       "小さい",
+       "社長と言っても、",
+       "会社の",
+       "社長だ。"
+      ],
+      "answer_order": [
+       1,
+       0,
+       2,
+       3
+      ],
+      "translation_vi": "Nói là giám đốc nhưng chỉ là giám đốc một công ty nhỏ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "歌手と＿＿、近所のお祭りで歌っている程度です。",
+      "answer": "言っても",
+      "accept": [
+       "いっても"
+      ],
+      "translation_vi": "Nói là ca sĩ nhưng chỉ ở mức hát ở lễ hội trong xóm thôi."
+     },
+     {
+      "sentence_ja": "大学で日本語を勉強した＿＿、一年間だけです。",
+      "answer": "と言っても",
+      "accept": [
+       "といっても",
+       "とはいえ",
+       "とはいうものの"
+      ],
+      "translation_vi": "Nói là đã học tiếng Nhật ở đại học nhưng chỉ có một năm thôi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "先週は忙しかった（　　）、残業は一日だけだった。",
+      "options": [
+       "からこそ",
+       "ばかりに",
+       "といっても",
+       "ように"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「といっても」: tuy nói là bận nhưng thực tế chỉ làm thêm giờ một ngày. からこそ (chính vì), ばかりに (chỉ tại), ように (để, như) không hợp nghĩa. Nghĩa: Nói là tuần trước bận nhưng tôi chỉ làm thêm giờ có một ngày."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "アルバイトと言っても、週に一回、二時間だけだ。",
+      "options": [
+       "Tôi làm thêm mỗi ngày hai tiếng.",
+       "Vì làm thêm nhiều nên tôi rất bận.",
+       "Tôi muốn làm thêm mỗi tuần một lần.",
+       "Nói là làm thêm nhưng chỉ một tuần một lần, mỗi lần hai tiếng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N + と言っても (gọi là vậy nhưng mức độ thực tế nhỏ): \"Nói là làm thêm nhưng chỉ một tuần một lần, mỗi lần hai tiếng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "家を買ったと言っても、小さな中古の家だ。",
+       "夏と言っても、やっぱりスイカだね。",
+       "パーティーと言っても、友だちが三人来るだけだ。",
+       "熱があると言っても、少し高いだけです。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「夏と言っても、やっぱりスイカだね」 sai: ý 'nhắc đến mùa hè thì phải là dưa hấu' là liên tưởng, phải dùng といえば; と言っても là 'tuy nói là… nhưng'. Câu đúng: 夏といえば、やっぱりスイカだね。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -1324,7 +1513,197 @@
    "id": "JG-358de01ace"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "チケットが一枚五千円だ（　　）、家族四人で二万円かかる。",
+      "options": [
+       "くせに",
+       "とすると",
+       "わりに",
+       "ものの"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「とすると」: giả định giá vé là 5.000 yên rồi suy ra cả nhà tốn 20.000 yên. くせに, わりに không đi sau だ (phải là なくせに, なわりに), ものの (tuy… nhưng) không hợp nghĩa. Nghĩa: Nếu mỗi vé là 5.000 yên thì cả nhà bốn người tốn 20.000 yên."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の話が本当だ（　　）、犯人はほかにいることになる。",
+      "options": [
+       "にしては",
+       "だけに",
+       "ところを",
+       "とすると"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「とすると」: coi lời anh ấy là thật rồi suy ra kết luận ことになる. にしては, だけに, ところを không gắn sau だ theo cách này và không mang nghĩa giả định. Nghĩa: Nếu chuyện anh ấy kể là thật thì thủ phạm là một người khác."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼が家を＿＿ ＿＿ ★ ＿＿駅に着いているはずだ。",
+      "options": [
+       "もう",
+       "とすると",
+       "五時だ",
+       "出たのが"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼が家を出たのが五時だとすると、もう駅に着いているはずだ。 (Nếu anh ấy ra khỏi nhà lúc năm giờ thì chắc giờ đã đến ga rồi.). Mảnh ở ô ★ là 「とすると」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、この本を読み終わるのに何日かかるだろう。",
+      "options": [
+       "読む",
+       "とすると",
+       "一日に",
+       "十ページ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 一日に十ページ読むとすると、この本を読み終わるのに何日かかるだろう。 (Nếu mỗi ngày đọc mười trang thì đọc xong quyển sách này mất bao nhiêu ngày nhỉ.). Mảnh ở ô ★ là 「十ページ」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "バスが来ないとすると、歩いて行くしかない。",
+      "options": [
+       "Vì xe buýt đã đến nên không cần đi bộ.",
+       "Nếu xe buýt không đến thì chỉ còn cách đi bộ.",
+       "Dù xe buýt có đến, tôi vẫn muốn đi bộ.",
+       "Xe buýt không đến nên tôi đã gọi taxi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜とすると (nếu coi là như vậy thì suy ra…): \"Nếu xe buýt không đến thì chỉ còn cách đi bộ.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "会議が三時に終わるとすると、四時の電車に間に合う。",
+      "options": [
+       "Cuộc họp đã kết thúc lúc ba giờ nên tôi lỡ chuyến tàu.",
+       "Dù cuộc họp kết thúc lúc ba giờ cũng không kịp tàu.",
+       "Nếu cuộc họp kết thúc lúc ba giờ thì sẽ kịp chuyến tàu bốn giờ.",
+       "Cuộc họp phải kết thúc trước ba giờ."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜とすると (giả định rồi suy ra kết quả): \"Nếu cuộc họp kết thúc lúc ba giờ thì sẽ kịp chuyến tàu bốn giờ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この話が本当だとすると、大変なことになる。",
+       "一人三千円だとすると、十人で三万円だ。",
+       "明日雨だとすると、傘を持って行きなさい。",
+       "彼がまだ来ないとすると、道に迷ったのかもしれない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「明日雨だとすると、傘を持って行きなさい」 sai: vế sau của とすると là suy luận, phán đoán, không dùng mệnh lệnh hay ý chí. Câu đúng: 明日雨なら、傘を持って行きなさい。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "料金が二倍になるとすると、利用する人は減るだろう。",
+       "彼が先に帰ってとすると、鍵はだれが持っているのだろう。",
+       "この計算が正しいとすると、来月には目標に届くはずだ。",
+       "彼女が知らないとすると、だれが先生に話したのだろう。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「先に帰ってとすると」 sai: とすると đi sau thể thường (帰った, 帰る), không đi sau thể て. Câu đúng: 彼が先に帰ったとすると、鍵はだれが持っているのだろう。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "とすると、",
+       "一人",
+       "二千円だ",
+       "十人で二万円になる。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Nếu mỗi người hai nghìn yên thì mười người sẽ là hai vạn yên."
+     },
+     {
+      "pieces": [
+       "続く",
+       "野菜の値段が上がるだろう。",
+       "この天気が",
+       "とすると、"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Nếu thời tiết này còn kéo dài thì giá rau chắc sẽ tăng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "タクシーで三十分かかる＿＿、もう出発しないと間に合わない。",
+      "answer": "とすると",
+      "accept": [
+       "とすれば",
+       "としたら",
+       "なら"
+      ],
+      "translation_vi": "Nếu đi taxi mất ba mươi phút thì phải xuất phát ngay mới kịp."
+     },
+     {
+      "sentence_ja": "その話が事実だ＿＿、すぐに調べる必要がある。",
+      "answer": "とすると",
+      "accept": [
+       "とすれば",
+       "としたら"
+      ],
+      "translation_vi": "Nếu chuyện đó là sự thật thì cần phải điều tra ngay."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この道が通れない（　　）、遠回りするしかない。",
+      "options": [
+       "とすると",
+       "くせに",
+       "わりに",
+       "うちに"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「とすると」: giả định con đường không đi được rồi suy ra chỉ còn cách đi vòng. くせに (vậy mà), わりに (so với), うちに (trong lúc) không hợp nghĩa. Nghĩa: Nếu con đường này không đi được thì chỉ còn cách đi đường vòng."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼が東京に住んでいるとすると、毎日一時間以上かけて通勤していることになる。",
+      "options": [
+       "Vì anh ấy sống ở Tokyo nên đi làm mất chưa đến một tiếng.",
+       "Dù sống ở Tokyo, anh ấy vẫn không đi làm hằng ngày.",
+       "Anh ấy muốn chuyển đến Tokyo để đi làm gần hơn.",
+       "Nếu anh ấy sống ở Tokyo thì có nghĩa là ngày nào anh ấy cũng mất hơn một tiếng để đi làm."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜とすると (giả định rồi suy ra ことになる): \"Nếu anh ấy sống ở Tokyo thì có nghĩa là ngày nào anh ấy cũng mất hơn một tiếng để đi làm.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿雨が降ったのだろう。",
+      "options": [
+       "夜の間に",
+       "とすると、",
+       "道が",
+       "ぬれている"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 道がぬれているとすると、夜の間に雨が降ったのだろう。 (Nếu đường ướt thì chắc là trong đêm trời đã mưa.). Mảnh ở ô ★ là 「とすると、」."
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,

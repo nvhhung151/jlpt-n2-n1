@@ -1,77 +1,954 @@
 {
  "JG-e899b34293": {
   "check_bank": [
-   {"type": "FILL", "prompt_ja": "大雪だった（　　）、試合は予定どおり行われた。", "options": ["にかかわらず", "ものだから", "にしたがって", "にもかかわらず"], "answer_index": 3, "explanation_vi": "Điền 「にもかかわらず」: mặc dù tuyết lớn, kết quả vẫn trái với dự đoán. にかかわらず là 'bất kể', không đi sau だった; ものだから là lý do; にしたがって không hợp. Nghĩa: Mặc dù tuyết rơi dày, trận đấu vẫn diễn ra theo đúng kế hoạch."},
-   {"type": "FILL", "prompt_ja": "何度も注意した（　　）、彼はまた同じミスをした。", "options": ["ことから", "にもかかわらず", "につれて", "にかかわらず"], "answer_index": 1, "explanation_vi": "Điền 「にもかかわらず」: đã nhắc nhiều lần mà vẫn mắc lỗi, kết quả trái với mong đợi. ことから (vì), につれて (càng… càng), にかかわらず (bất kể) không hợp. Nghĩa: Mặc dù đã nhắc nhở nhiều lần, anh ấy lại mắc đúng lỗi đó."},
-   {"type": "ORDER_STAR", "prompt_ja": "熱が＿＿ ＿＿ ★ ＿＿。", "options": ["会社へ行った", "ある", "彼は", "にもかかわらず"], "answer_index": 2, "explanation_vi": "Câu đúng: 熱があるにもかかわらず彼は会社へ行った。 (Mặc dù bị sốt, anh ấy vẫn đi làm.). Mảnh ở ô ★ là 「彼は」."},
-   {"type": "ORDER_STAR", "prompt_ja": "平日＿＿ ★ ＿＿ ＿＿でいっぱいだった。", "options": ["遊園地は", "にもかかわらず", "家族連れ", "大勢の"], "answer_index": 0, "explanation_vi": "Câu đúng: 平日にもかかわらず遊園地は大勢の家族連れでいっぱいだった。 (Mặc dù là ngày thường, khu vui chơi vẫn chật kín các gia đình.). Mảnh ở ô ★ là 「遊園地は」."},
-   {"type": "MEANING", "prompt_ja": "彼女は忙しいにもかかわらず、いつも手伝ってくれる。", "options": ["Vì bận nên cô ấy không thể giúp tôi.", "Bất kể bận hay không, cô ấy đều không giúp tôi.", "Mặc dù bận, cô ấy lúc nào cũng giúp tôi.", "Nếu bận thì cô ấy sẽ nhờ tôi giúp."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜にもかかわらず (mặc dù… vẫn…): \"Mặc dù bận, cô ấy lúc nào cũng giúp tôi.\""},
-   {"type": "MEANING", "prompt_ja": "努力したにもかかわらず、試験に落ちてしまった。", "options": ["Mặc dù đã nỗ lực, tôi vẫn trượt kỳ thi.", "Vì đã nỗ lực nên tôi đã đỗ kỳ thi.", "Bất kể có nỗ lực hay không, tôi cũng sẽ trượt.", "Nếu nỗ lực thì đã không trượt kỳ thi."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜にもかかわらず (mặc dù… nhưng kết quả trái mong đợi): \"Mặc dù đã nỗ lực, tôi vẫn trượt kỳ thi.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["雨にもかかわらず、多くの人が集まった。", "年齢にもかかわらず、だれでも参加できます。", "説明したにもかかわらず、まだ分からない人がいる。", "祝日にもかかわらず、店は営業している。"], "answer_index": 1, "explanation_vi": "「年齢にもかかわらず、だれでも参加できます。」 sai: ý 'bất kể tuổi tác' phải dùng にかかわらず (không có も); にもかかわらず là 'mặc dù'. Câu đúng: 年齢にかかわらず、だれでも参加できます。"},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["夜遅いにもかかわらず、電話に出てくれた。", "寒いにもかかわらず、半袖で歩いている人がいる。", "何度も練習したにもかかわらず、うまくできなかった。", "雨にもかかわらず、出かけましょう。"], "answer_index": 3, "explanation_vi": "「雨にもかかわらず、出かけましょう。」 sai: vế sau của にもかかわらず là sự thật hoặc đánh giá, không dùng lời rủ rê, ý chí. Câu đúng: 雨だけど、出かけましょう。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "大雪だった（　　）、試合は予定どおり行われた。",
+    "options": [
+     "にかかわらず",
+     "ものだから",
+     "にしたがって",
+     "にもかかわらず"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「にもかかわらず」: mặc dù tuyết lớn, kết quả vẫn trái với dự đoán. にかかわらず là 'bất kể', không đi sau だった; ものだから là lý do; にしたがって không hợp. Nghĩa: Mặc dù tuyết rơi dày, trận đấu vẫn diễn ra theo đúng kế hoạch."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "何度も注意した（　　）、彼はまた同じミスをした。",
+    "options": [
+     "ことから",
+     "にもかかわらず",
+     "につれて",
+     "にかかわらず"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「にもかかわらず」: đã nhắc nhiều lần mà vẫn mắc lỗi, kết quả trái với mong đợi. ことから (vì), につれて (càng… càng), にかかわらず (bất kể) không hợp. Nghĩa: Mặc dù đã nhắc nhở nhiều lần, anh ấy lại mắc đúng lỗi đó."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "熱が＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "会社へ行った",
+     "ある",
+     "彼は",
+     "にもかかわらず"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 熱があるにもかかわらず彼は会社へ行った。 (Mặc dù bị sốt, anh ấy vẫn đi làm.). Mảnh ở ô ★ là 「彼は」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "平日＿＿ ★ ＿＿ ＿＿でいっぱいだった。",
+    "options": [
+     "遊園地は",
+     "にもかかわらず",
+     "家族連れ",
+     "大勢の"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 平日にもかかわらず遊園地は大勢の家族連れでいっぱいだった。 (Mặc dù là ngày thường, khu vui chơi vẫn chật kín các gia đình.). Mảnh ở ô ★ là 「遊園地は」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼女は忙しいにもかかわらず、いつも手伝ってくれる。",
+    "options": [
+     "Vì bận nên cô ấy không thể giúp tôi.",
+     "Bất kể bận hay không, cô ấy đều không giúp tôi.",
+     "Mặc dù bận, cô ấy lúc nào cũng giúp tôi.",
+     "Nếu bận thì cô ấy sẽ nhờ tôi giúp."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜にもかかわらず (mặc dù… vẫn…): \"Mặc dù bận, cô ấy lúc nào cũng giúp tôi.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "努力したにもかかわらず、試験に落ちてしまった。",
+    "options": [
+     "Mặc dù đã nỗ lực, tôi vẫn trượt kỳ thi.",
+     "Vì đã nỗ lực nên tôi đã đỗ kỳ thi.",
+     "Bất kể có nỗ lực hay không, tôi cũng sẽ trượt.",
+     "Nếu nỗ lực thì đã không trượt kỳ thi."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜にもかかわらず (mặc dù… nhưng kết quả trái mong đợi): \"Mặc dù đã nỗ lực, tôi vẫn trượt kỳ thi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "雨にもかかわらず、多くの人が集まった。",
+     "年齢にもかかわらず、だれでも参加できます。",
+     "説明したにもかかわらず、まだ分からない人がいる。",
+     "祝日にもかかわらず、店は営業している。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「年齢にもかかわらず、だれでも参加できます。」 sai: ý 'bất kể tuổi tác' phải dùng にかかわらず (không có も); にもかかわらず là 'mặc dù'. Câu đúng: 年齢にかかわらず、だれでも参加できます。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "夜遅いにもかかわらず、電話に出てくれた。",
+     "寒いにもかかわらず、半袖で歩いている人がいる。",
+     "何度も練習したにもかかわらず、うまくできなかった。",
+     "雨にもかかわらず、出かけましょう。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「雨にもかかわらず、出かけましょう。」 sai: vế sau của にもかかわらず là sự thật hoặc đánh giá, không dùng lời rủ rê, ý chí. Câu đúng: 雨だけど、出かけましょう。"
+   }
   ],
   "order_items": [
-   {"pieces": ["多くの客が", "にもかかわらず、", "来てくれた。", "悪天候"], "answer_order": [3, 1, 0, 2], "translation_vi": "Mặc dù thời tiết xấu, rất nhiều khách vẫn đến."},
-   {"pieces": ["彼は約束した", "来なかった。", "にもかかわらず、", "時間になっても"], "answer_order": [0, 2, 3, 1], "translation_vi": "Mặc dù anh ấy đã hứa, đến giờ rồi vẫn không thấy đến."}
+   {
+    "pieces": [
+     "多くの客が",
+     "にもかかわらず、",
+     "来てくれた。",
+     "悪天候"
+    ],
+    "answer_order": [
+     3,
+     1,
+     0,
+     2
+    ],
+    "translation_vi": "Mặc dù thời tiết xấu, rất nhiều khách vẫn đến."
+   },
+   {
+    "pieces": [
+     "彼は約束した",
+     "来なかった。",
+     "にもかかわらず、",
+     "時間になっても"
+    ],
+    "answer_order": [
+     0,
+     2,
+     3,
+     1
+    ],
+    "translation_vi": "Mặc dù anh ấy đã hứa, đến giờ rồi vẫn không thấy đến."
+   }
   ],
   "fill_items": [
-   {"sentence_ja": "日曜日である＿＿、会社に行かなければならなかった。", "answer": "にもかかわらず", "accept": ["のに"], "translation_vi": "Mặc dù là Chủ nhật, tôi vẫn phải đến công ty."},
-   {"sentence_ja": "彼は若い＿＿、とても落ち着いている。", "answer": "にもかかわらず", "accept": ["のに"], "translation_vi": "Mặc dù còn trẻ, anh ấy rất điềm tĩnh."}
+   {
+    "sentence_ja": "日曜日である＿＿、会社に行かなければならなかった。",
+    "answer": "にもかかわらず",
+    "accept": [
+     "のに"
+    ],
+    "translation_vi": "Mặc dù là Chủ nhật, tôi vẫn phải đến công ty."
+   },
+   {
+    "sentence_ja": "彼は若い＿＿、とても落ち着いている。",
+    "answer": "にもかかわらず",
+    "accept": [
+     "のに"
+    ],
+    "translation_vi": "Mặc dù còn trẻ, anh ấy rất điềm tĩnh."
+   }
   ],
   "extra_practice": [
-   {"type": "FILL", "prompt_ja": "注意を受けた（　　）、運転手はスピードを落とさなかった。", "options": ["にもかかわらず", "によって", "につれて", "とともに"], "answer_index": 0, "explanation_vi": "Điền 「にもかかわらず」: đã bị nhắc nhở mà vẫn không giảm tốc, trái với điều nên xảy ra. によって, につれて, とともに không nối với 受けた theo nghĩa này. Nghĩa: Mặc dù đã bị nhắc nhở, tài xế vẫn không giảm tốc độ."},
-   {"type": "MEANING", "prompt_ja": "合格の可能性は低いにもかかわらず、彼はあきらめなかった。", "options": ["Vì khả năng đỗ thấp nên anh ấy đã bỏ cuộc.", "Mặc dù khả năng đỗ thấp, anh ấy vẫn không bỏ cuộc.", "Bất kể khả năng đỗ cao hay thấp, anh ấy đều bỏ cuộc.", "Nếu khả năng đỗ thấp thì anh ấy sẽ bỏ cuộc."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜にもかかわらず (mặc dù… vẫn…): \"Mặc dù khả năng đỗ thấp, anh ấy vẫn không bỏ cuộc.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["休日にもかかわらず、部長は出社した。", "値段が高いにもかかわらず、その店はいつも込んでいる。", "天気にもかかわらず、このお祭りは毎年行われる。", "準備したにもかかわらず、発表は失敗した。"], "answer_index": 2, "explanation_vi": "「天気にもかかわらず」 sai: ý 'bất kể thời tiết thế nào' phải dùng にかかわらず. Câu đúng: 天気にかかわらず、このお祭りは毎年行われる。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "注意を受けた（　　）、運転手はスピードを落とさなかった。",
+    "options": [
+     "にもかかわらず",
+     "によって",
+     "につれて",
+     "とともに"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「にもかかわらず」: đã bị nhắc nhở mà vẫn không giảm tốc, trái với điều nên xảy ra. によって, につれて, とともに không nối với 受けた theo nghĩa này. Nghĩa: Mặc dù đã bị nhắc nhở, tài xế vẫn không giảm tốc độ."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "合格の可能性は低いにもかかわらず、彼はあきらめなかった。",
+    "options": [
+     "Vì khả năng đỗ thấp nên anh ấy đã bỏ cuộc.",
+     "Mặc dù khả năng đỗ thấp, anh ấy vẫn không bỏ cuộc.",
+     "Bất kể khả năng đỗ cao hay thấp, anh ấy đều bỏ cuộc.",
+     "Nếu khả năng đỗ thấp thì anh ấy sẽ bỏ cuộc."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜にもかかわらず (mặc dù… vẫn…): \"Mặc dù khả năng đỗ thấp, anh ấy vẫn không bỏ cuộc.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "休日にもかかわらず、部長は出社した。",
+     "値段が高いにもかかわらず、その店はいつも込んでいる。",
+     "天気にもかかわらず、このお祭りは毎年行われる。",
+     "準備したにもかかわらず、発表は失敗した。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「天気にもかかわらず」 sai: ý 'bất kể thời tiết thế nào' phải dùng にかかわらず. Câu đúng: 天気にかかわらず、このお祭りは毎年行われる。"
+   }
   ]
  },
  "JG-3f3aed94a1": {
   "check_bank": [
-   {"type": "FILL", "prompt_ja": "四月とは（　　）ものの、山の上はまだ寒い。", "options": ["した", "なる", "いう", "みる"], "answer_index": 2, "explanation_vi": "Điền 「いう」: cụm cố định là とはいうものの (tuy nói là… nhưng). した, なる, みる không tạo thành mẫu này. Nghĩa: Tuy nói là tháng tư nhưng trên núi vẫn còn lạnh."},
-   {"type": "FILL", "prompt_ja": "新しい仕事に慣れた（　　）、まだ分からないことも多い。", "options": ["からには", "とはいうものの", "とすると", "ばかりに"], "answer_index": 1, "explanation_vi": "Điền 「とはいうものの」: thừa nhận đã quen việc nhưng thực tế vẫn còn nhiều điều chưa biết. からには (đã… thì phải), とすると (nếu giả sử), ばかりに (chỉ vì) không hợp nghĩa. Nghĩa: Tuy nói là đã quen công việc mới nhưng vẫn còn nhiều điều chưa biết."},
-   {"type": "ORDER_STAR", "prompt_ja": "料理が＿＿ ★ ＿＿ ＿＿しか作れない。", "options": ["簡単な", "得意だ", "料理", "とはいうものの"], "answer_index": 3, "explanation_vi": "Câu đúng: 料理が得意だとはいうものの簡単な料理しか作れない。 (Tuy nói là giỏi nấu ăn nhưng tôi chỉ nấu được món đơn giản.). Mảnh ở ô ★ là 「とはいうものの」."},
-   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ＿＿ ★、まだ一度も使っていない。", "options": ["とはいうものの", "忙しくて", "先月自転車を", "買った"], "answer_index": 1, "explanation_vi": "Câu đúng: 先月自転車を買ったとはいうものの忙しくて、まだ一度も使っていない。 (Tuy nói là tháng trước đã mua xe đạp nhưng bận quá nên vẫn chưa dùng lần nào.). Mảnh ở ô ★ là 「忙しくて」."},
-   {"type": "MEANING", "prompt_ja": "大人とはいうものの、彼はまだ十八歳だ。", "options": ["Vì là người lớn nên cậu ấy đã mười tám tuổi.", "Nếu là người lớn thì phải trên mười tám tuổi.", "Cậu ấy mười tám tuổi nên đã là người lớn rồi.", "Tuy nói là người lớn nhưng cậu ấy mới mười tám tuổi."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜とはいうものの (tuy nói là… nhưng thực tế khác): \"Tuy nói là người lớn nhưng cậu ấy mới mười tám tuổi.\""},
-   {"type": "MEANING", "prompt_ja": "ダイエット中とはいうものの、甘いものはやめられない。", "options": ["Tuy nói là đang ăn kiêng nhưng tôi không bỏ được đồ ngọt.", "Vì đang ăn kiêng nên tôi đã bỏ đồ ngọt.", "Nếu ăn kiêng thì phải bỏ đồ ngọt.", "Đang ăn kiêng mà ăn đồ ngọt thì không được."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜とはいうものの (tuy nói là… nhưng): \"Tuy nói là đang ăn kiêng nhưng tôi không bỏ được đồ ngọt.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["夏とはいうものの、今日は涼しい。", "休みとはいうものの、家で仕事をしている。", "春とはいうものの、コートを持っていきなさい。", "合格したとはいうものの、点数はぎりぎりだった。"], "answer_index": 2, "explanation_vi": "「春とはいうものの、コートを持っていきなさい。」 sai: vế sau của とはいうものの nêu thực tế trái kỳ vọng, không dùng mệnh lệnh. Câu đúng: 春とはいうものの、まだ寒い。"},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["雨が降ったとはいうものの、試合は中止になった。", "留学したとはいうものの、英語はあまり話せない。", "社長とはいうものの、社員は三人だけだ。", "安いとはいうものの、やはり三万円は高い。"], "answer_index": 0, "explanation_vi": "「雨が降ったとはいうものの、試合は中止になった。」 sai: mưa thì trận đấu bị hủy là kết quả bình thường, không trái kỳ vọng nên không dùng とはいうものの. Câu đúng: 雨が降ったので、試合は中止になった。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "四月とは（　　）ものの、山の上はまだ寒い。",
+    "options": [
+     "した",
+     "なる",
+     "いう",
+     "みる"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「いう」: cụm cố định là とはいうものの (tuy nói là… nhưng). した, なる, みる không tạo thành mẫu này. Nghĩa: Tuy nói là tháng tư nhưng trên núi vẫn còn lạnh."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "新しい仕事に慣れた（　　）、まだ分からないことも多い。",
+    "options": [
+     "からには",
+     "とはいうものの",
+     "とすると",
+     "ばかりに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「とはいうものの」: thừa nhận đã quen việc nhưng thực tế vẫn còn nhiều điều chưa biết. からには (đã… thì phải), とすると (nếu giả sử), ばかりに (chỉ vì) không hợp nghĩa. Nghĩa: Tuy nói là đã quen công việc mới nhưng vẫn còn nhiều điều chưa biết."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "料理が＿＿ ★ ＿＿ ＿＿しか作れない。",
+    "options": [
+     "簡単な",
+     "得意だ",
+     "料理",
+     "とはいうものの"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 料理が得意だとはいうものの簡単な料理しか作れない。 (Tuy nói là giỏi nấu ăn nhưng tôi chỉ nấu được món đơn giản.). Mảnh ở ô ★ là 「とはいうものの」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ＿＿ ★、まだ一度も使っていない。",
+    "options": [
+     "とはいうものの",
+     "忙しくて",
+     "先月自転車を",
+     "買った"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 先月自転車を買ったとはいうものの忙しくて、まだ一度も使っていない。 (Tuy nói là tháng trước đã mua xe đạp nhưng bận quá nên vẫn chưa dùng lần nào.). Mảnh ở ô ★ là 「忙しくて」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "大人とはいうものの、彼はまだ十八歳だ。",
+    "options": [
+     "Vì là người lớn nên cậu ấy đã mười tám tuổi.",
+     "Nếu là người lớn thì phải trên mười tám tuổi.",
+     "Cậu ấy mười tám tuổi nên đã là người lớn rồi.",
+     "Tuy nói là người lớn nhưng cậu ấy mới mười tám tuổi."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜とはいうものの (tuy nói là… nhưng thực tế khác): \"Tuy nói là người lớn nhưng cậu ấy mới mười tám tuổi.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "ダイエット中とはいうものの、甘いものはやめられない。",
+    "options": [
+     "Tuy nói là đang ăn kiêng nhưng tôi không bỏ được đồ ngọt.",
+     "Vì đang ăn kiêng nên tôi đã bỏ đồ ngọt.",
+     "Nếu ăn kiêng thì phải bỏ đồ ngọt.",
+     "Đang ăn kiêng mà ăn đồ ngọt thì không được."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜とはいうものの (tuy nói là… nhưng): \"Tuy nói là đang ăn kiêng nhưng tôi không bỏ được đồ ngọt.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "夏とはいうものの、今日は涼しい。",
+     "休みとはいうものの、家で仕事をしている。",
+     "春とはいうものの、コートを持っていきなさい。",
+     "合格したとはいうものの、点数はぎりぎりだった。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「春とはいうものの、コートを持っていきなさい。」 sai: vế sau của とはいうものの nêu thực tế trái kỳ vọng, không dùng mệnh lệnh. Câu đúng: 春とはいうものの、まだ寒い。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "雨が降ったとはいうものの、試合は中止になった。",
+     "留学したとはいうものの、英語はあまり話せない。",
+     "社長とはいうものの、社員は三人だけだ。",
+     "安いとはいうものの、やはり三万円は高い。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「雨が降ったとはいうものの、試合は中止になった。」 sai: mưa thì trận đấu bị hủy là kết quả bình thường, không trái kỳ vọng nên không dùng とはいうものの. Câu đúng: 雨が降ったので、試合は中止になった。"
+   }
   ],
   "order_items": [
-   {"pieces": ["とはいうものの、", "まだ", "秋", "暑い日が続く。"], "answer_order": [2, 0, 1, 3], "translation_vi": "Tuy nói là mùa thu nhưng những ngày nóng vẫn còn kéo dài."},
-   {"pieces": ["練習した", "試合には", "とはいうものの、", "勝てなかった。", "毎日"], "answer_order": [4, 0, 2, 1, 3], "translation_vi": "Tuy nói là ngày nào cũng luyện tập nhưng vẫn không thắng được trận đấu."}
+   {
+    "pieces": [
+     "とはいうものの、",
+     "まだ",
+     "秋",
+     "暑い日が続く。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Tuy nói là mùa thu nhưng những ngày nóng vẫn còn kéo dài."
+   },
+   {
+    "pieces": [
+     "練習した",
+     "試合には",
+     "とはいうものの、",
+     "勝てなかった。",
+     "毎日"
+    ],
+    "answer_order": [
+     4,
+     0,
+     2,
+     1,
+     3
+    ],
+    "translation_vi": "Tuy nói là ngày nào cũng luyện tập nhưng vẫn không thắng được trận đấu."
+   }
   ],
   "fill_items": [
-   {"sentence_ja": "日本に十年住んでいる＿＿、漢字はまだ苦手だ。", "answer": "とはいうものの", "accept": ["とは言うものの", "とはいえ", "といっても", "と言っても"], "translation_vi": "Tuy nói là đã sống ở Nhật mười năm nhưng tôi vẫn kém chữ Hán."},
-   {"sentence_ja": "安い＿＿ものの、品質はあまりよくない。", "answer": "とはいう", "accept": ["とは言う"], "translation_vi": "Tuy nói là rẻ nhưng chất lượng không tốt lắm."}
+   {
+    "sentence_ja": "日本に十年住んでいる＿＿、漢字はまだ苦手だ。",
+    "answer": "とはいうものの",
+    "accept": [
+     "とは言うものの",
+     "とはいえ",
+     "といっても",
+     "と言っても"
+    ],
+    "translation_vi": "Tuy nói là đã sống ở Nhật mười năm nhưng tôi vẫn kém chữ Hán."
+   },
+   {
+    "sentence_ja": "安い＿＿ものの、品質はあまりよくない。",
+    "answer": "とはいう",
+    "accept": [
+     "とは言う"
+    ],
+    "translation_vi": "Tuy nói là rẻ nhưng chất lượng không tốt lắm."
+   }
   ],
   "extra_practice": [
-   {"type": "FILL", "prompt_ja": "夏休み（　　）、毎日アルバイトで忙しい。", "options": ["について", "とはいうものの", "によって", "にしたがって"], "answer_index": 1, "explanation_vi": "Điền 「とはいうものの」: tuy là kỳ nghỉ hè nhưng thực tế lại bận rộn. について, によって, にしたがって không hợp nghĩa. Nghĩa: Tuy nói là nghỉ hè nhưng ngày nào tôi cũng bận làm thêm."},
-   {"type": "MEANING", "prompt_ja": "試験が終わったとはいうものの、結果が心配で落ち着かない。", "options": ["Vì kỳ thi đã xong nên tôi thấy nhẹ nhõm.", "Nếu kỳ thi xong thì tôi sẽ không lo nữa.", "Tuy nói là kỳ thi đã xong nhưng tôi lo kết quả nên không yên lòng.", "Kỳ thi chưa xong nên tôi vẫn đang lo."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜とはいうものの (tuy nói là… nhưng thực tế khác): \"Tuy nói là kỳ thi đã xong nhưng tôi lo kết quả nên không yên lòng.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["日本人とはいうものの、敬語は苦手だ。", "春とはいうものの、風はまだ冷たい。", "引っ越したとはいうものの、荷物はまだ片付いていない。", "明日は休みとはいうものの、一緒に映画を見に行こう。"], "answer_index": 3, "explanation_vi": "「明日は休みとはいうものの、一緒に映画を見に行こう。」 sai: vế sau không phải thực tế trái kỳ vọng mà là lời rủ rê, nên không dùng とはいうものの. Câu đúng: 明日は休みだから、一緒に映画を見に行こう。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "夏休み（　　）、毎日アルバイトで忙しい。",
+    "options": [
+     "について",
+     "とはいうものの",
+     "によって",
+     "にしたがって"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「とはいうものの」: tuy là kỳ nghỉ hè nhưng thực tế lại bận rộn. について, によって, にしたがって không hợp nghĩa. Nghĩa: Tuy nói là nghỉ hè nhưng ngày nào tôi cũng bận làm thêm."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "試験が終わったとはいうものの、結果が心配で落ち着かない。",
+    "options": [
+     "Vì kỳ thi đã xong nên tôi thấy nhẹ nhõm.",
+     "Nếu kỳ thi xong thì tôi sẽ không lo nữa.",
+     "Tuy nói là kỳ thi đã xong nhưng tôi lo kết quả nên không yên lòng.",
+     "Kỳ thi chưa xong nên tôi vẫn đang lo."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜とはいうものの (tuy nói là… nhưng thực tế khác): \"Tuy nói là kỳ thi đã xong nhưng tôi lo kết quả nên không yên lòng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "日本人とはいうものの、敬語は苦手だ。",
+     "春とはいうものの、風はまだ冷たい。",
+     "引っ越したとはいうものの、荷物はまだ片付いていない。",
+     "明日は休みとはいうものの、一緒に映画を見に行こう。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「明日は休みとはいうものの、一緒に映画を見に行こう。」 sai: vế sau không phải thực tế trái kỳ vọng mà là lời rủ rê, nên không dùng とはいうものの. Câu đúng: 明日は休みだから、一緒に映画を見に行こう。"
+   }
   ]
  },
  "JG-697778b4b6": {
   "check_bank": [
-   {"type": "FILL", "prompt_ja": "体に悪いと知り（　　）、たばこをやめられない。", "options": ["しだい", "ついでに", "つつも", "かけ"], "answer_index": 2, "explanation_vi": "Điền 「つつも」: Vます + つつも nghĩa 'tuy biết… nhưng…'. しだい (ngay khi), ついでに (nhân tiện), かけ (đang dở) không hợp nghĩa. Nghĩa: Tuy biết là có hại cho sức khỏe nhưng tôi không bỏ được thuốc lá."},
-   {"type": "FILL", "prompt_ja": "早く寝なければと思い（　　）、つい遅くまでドラマを見てしまった。", "options": ["つつある", "つつも", "ぬきで", "がちに"], "answer_index": 1, "explanation_vi": "Điền 「つつも」: tuy nghĩ phải ngủ sớm nhưng vẫn lỡ thức khuya. つつある (đang dần) là vị ngữ, không nối hai vế; ぬきで, がちに không hợp. Nghĩa: Tuy nghĩ phải ngủ sớm nhưng tôi lỡ xem phim truyền hình đến khuya."},
-   {"type": "ORDER_STAR", "prompt_ja": "悪いと＿＿ ★ ＿＿ ＿＿。", "options": ["友だちに", "うそをついてしまった", "分かり", "つつも"], "answer_index": 3, "explanation_vi": "Câu đúng: 悪いと分かりつつも友だちにうそをついてしまった。 (Tuy biết là không tốt nhưng tôi đã lỡ nói dối bạn.). Mảnh ở ô ★ là 「つつも」."},
-   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿食べてしまった。", "options": ["分かって", "太ると", "夜中にケーキを", "いつつも"], "answer_index": 3, "explanation_vi": "Câu đúng: 太ると分かっていつつも夜中にケーキを食べてしまった。 (Tuy biết là sẽ béo nhưng tôi lỡ ăn bánh ngọt lúc nửa đêm.). Mảnh ở ô ★ là 「いつつも」."},
-   {"type": "MEANING", "prompt_ja": "母に会いたいと思いつつも、忙しくてなかなか帰れない。", "options": ["Tôi vừa nghĩ đến mẹ vừa bận rộn làm việc.", "Vì muốn gặp mẹ nên tôi đã xin nghỉ để về.", "Tuy muốn gặp mẹ nhưng vì bận nên mãi không về được.", "Nếu không bận thì tôi đã không muốn gặp mẹ."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜つつも (tuy… nhưng…), không phải 'vừa… vừa…': \"Tuy muốn gặp mẹ nhưng vì bận nên mãi không về được.\""},
-   {"type": "MEANING", "prompt_ja": "失敗するかもしれないと思いつつも、彼は挑戦し続けた。", "options": ["Tuy nghĩ có thể thất bại nhưng anh ấy vẫn tiếp tục thử sức.", "Vì nghĩ có thể thất bại nên anh ấy đã bỏ cuộc.", "Anh ấy vừa thất bại vừa suy nghĩ về thử thách.", "Nếu thất bại thì anh ấy sẽ không thử lại."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜つつも (tuy… nhưng…): \"Tuy nghĩ có thể thất bại nhưng anh ấy vẫn tiếp tục thử sức.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["いけないと知りつつも、夜遅くまで起きていた。", "体に悪いと思いつつも、甘いものを食べてしまう。", "雨が降りつつも、私は出かけた。", "返事をしなければと思いつつも、まだメールを書いていない。"], "answer_index": 2, "explanation_vi": "「雨が降りつつも、私は出かけた。」 sai: hai vế của つつも phải cùng chủ ngữ (ở đây 雨 và 私 khác nhau). Câu đúng: 雨が降っていたが、私は出かけた。"},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼の気持ちを知りつつも、何も言えなかった。", "言われたことは分かるつつも、なかなか実行できない。", "謝ろうと思いつつも、なかなか言い出せない。", "無理だと感じつつも、最後まで走った。"], "answer_index": 1, "explanation_vi": "「分かるつつも」 sai: つつも gắn sau Vます bỏ ます, nên phải là 分かり. Câu đúng: 言われたことは分かりつつも、なかなか実行できない。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "体に悪いと知り（　　）、たばこをやめられない。",
+    "options": [
+     "しだい",
+     "ついでに",
+     "つつも",
+     "かけ"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「つつも」: Vます + つつも nghĩa 'tuy biết… nhưng…'. しだい (ngay khi), ついでに (nhân tiện), かけ (đang dở) không hợp nghĩa. Nghĩa: Tuy biết là có hại cho sức khỏe nhưng tôi không bỏ được thuốc lá."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "早く寝なければと思い（　　）、つい遅くまでドラマを見てしまった。",
+    "options": [
+     "つつある",
+     "つつも",
+     "ぬきで",
+     "がちに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「つつも」: tuy nghĩ phải ngủ sớm nhưng vẫn lỡ thức khuya. つつある (đang dần) là vị ngữ, không nối hai vế; ぬきで, がちに không hợp. Nghĩa: Tuy nghĩ phải ngủ sớm nhưng tôi lỡ xem phim truyền hình đến khuya."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "悪いと＿＿ ★ ＿＿ ＿＿。",
+    "options": [
+     "友だちに",
+     "うそをついてしまった",
+     "分かり",
+     "つつも"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 悪いと分かりつつも友だちにうそをついてしまった。 (Tuy biết là không tốt nhưng tôi đã lỡ nói dối bạn.). Mảnh ở ô ★ là 「つつも」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿食べてしまった。",
+    "options": [
+     "分かって",
+     "太ると",
+     "夜中にケーキを",
+     "いつつも"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 太ると分かっていつつも夜中にケーキを食べてしまった。 (Tuy biết là sẽ béo nhưng tôi lỡ ăn bánh ngọt lúc nửa đêm.). Mảnh ở ô ★ là 「いつつも」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "母に会いたいと思いつつも、忙しくてなかなか帰れない。",
+    "options": [
+     "Tôi vừa nghĩ đến mẹ vừa bận rộn làm việc.",
+     "Vì muốn gặp mẹ nên tôi đã xin nghỉ để về.",
+     "Tuy muốn gặp mẹ nhưng vì bận nên mãi không về được.",
+     "Nếu không bận thì tôi đã không muốn gặp mẹ."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜つつも (tuy… nhưng…), không phải 'vừa… vừa…': \"Tuy muốn gặp mẹ nhưng vì bận nên mãi không về được.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "失敗するかもしれないと思いつつも、彼は挑戦し続けた。",
+    "options": [
+     "Tuy nghĩ có thể thất bại nhưng anh ấy vẫn tiếp tục thử sức.",
+     "Vì nghĩ có thể thất bại nên anh ấy đã bỏ cuộc.",
+     "Anh ấy vừa thất bại vừa suy nghĩ về thử thách.",
+     "Nếu thất bại thì anh ấy sẽ không thử lại."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜つつも (tuy… nhưng…): \"Tuy nghĩ có thể thất bại nhưng anh ấy vẫn tiếp tục thử sức.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "いけないと知りつつも、夜遅くまで起きていた。",
+     "体に悪いと思いつつも、甘いものを食べてしまう。",
+     "雨が降りつつも、私は出かけた。",
+     "返事をしなければと思いつつも、まだメールを書いていない。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「雨が降りつつも、私は出かけた。」 sai: hai vế của つつも phải cùng chủ ngữ (ở đây 雨 và 私 khác nhau). Câu đúng: 雨が降っていたが、私は出かけた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "彼の気持ちを知りつつも、何も言えなかった。",
+     "言われたことは分かるつつも、なかなか実行できない。",
+     "謝ろうと思いつつも、なかなか言い出せない。",
+     "無理だと感じつつも、最後まで走った。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「分かるつつも」 sai: つつも gắn sau Vます bỏ ます, nên phải là 分かり. Câu đúng: 言われたことは分かりつつも、なかなか実行できない。"
+   }
   ],
   "order_items": [
-   {"pieces": ["また遅刻してしまった。", "つつも、", "いけないと", "思い"], "answer_order": [2, 3, 1, 0], "translation_vi": "Tuy nghĩ là không được nhưng tôi lại đi muộn."},
-   {"pieces": ["何も言わなかった。", "うそに", "気づきつつも、", "彼女の"], "answer_order": [3, 1, 2, 0], "translation_vi": "Tuy nhận ra lời nói dối của cô ấy nhưng tôi không nói gì."}
+   {
+    "pieces": [
+     "また遅刻してしまった。",
+     "つつも、",
+     "いけないと",
+     "思い"
+    ],
+    "answer_order": [
+     2,
+     3,
+     1,
+     0
+    ],
+    "translation_vi": "Tuy nghĩ là không được nhưng tôi lại đi muộn."
+   },
+   {
+    "pieces": [
+     "何も言わなかった。",
+     "うそに",
+     "気づきつつも、",
+     "彼女の"
+    ],
+    "answer_order": [
+     3,
+     1,
+     2,
+     0
+    ],
+    "translation_vi": "Tuy nhận ra lời nói dối của cô ấy nhưng tôi không nói gì."
+   }
   ],
   "fill_items": [
-   {"sentence_ja": "宿題をしなければと思い＿＿、ゲームを始めてしまった。", "answer": "つつも", "accept": ["ながらも", "ながら"], "translation_vi": "Tuy nghĩ phải làm bài tập nhưng tôi lại bắt đầu chơi game."},
-   {"sentence_ja": "体によくないと知り＿＿、毎晩お酒を飲んでしまう。", "answer": "つつも", "accept": ["ながらも", "ながら"], "translation_vi": "Tuy biết là không tốt cho sức khỏe nhưng tối nào tôi cũng lỡ uống rượu."}
+   {
+    "sentence_ja": "宿題をしなければと思い＿＿、ゲームを始めてしまった。",
+    "answer": "つつも",
+    "accept": [
+     "ながらも",
+     "ながら"
+    ],
+    "translation_vi": "Tuy nghĩ phải làm bài tập nhưng tôi lại bắt đầu chơi game."
+   },
+   {
+    "sentence_ja": "体によくないと知り＿＿、毎晩お酒を飲んでしまう。",
+    "answer": "つつも",
+    "accept": [
+     "ながらも",
+     "ながら"
+    ],
+    "translation_vi": "Tuy biết là không tốt cho sức khỏe nhưng tối nào tôi cũng lỡ uống rượu."
+   }
   ],
   "extra_practice": [
-   {"type": "FILL", "prompt_ja": "部屋を片付けなければと思い（　　）、一週間がたってしまった。", "options": ["しだい", "ついでに", "かけて", "つつも"], "answer_index": 3, "explanation_vi": "Điền 「つつも」: tuy nghĩ phải dọn phòng nhưng rồi một tuần đã trôi qua. しだい, ついでに, かけて không tạo nghĩa 'tuy… nhưng'. Nghĩa: Tuy nghĩ phải dọn phòng nhưng rồi một tuần đã trôi qua."},
-   {"type": "MEANING", "prompt_ja": "彼の意見が正しいと認めつつも、私は賛成できなかった。", "options": ["Vì công nhận ý kiến của anh ấy đúng nên tôi đã tán thành.", "Tuy công nhận ý kiến của anh ấy đúng nhưng tôi không thể tán thành.", "Tôi vừa công nhận vừa tán thành ý kiến của anh ấy.", "Nếu ý kiến của anh ấy đúng thì tôi sẽ tán thành."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜つつも (tuy… nhưng…): \"Tuy công nhận ý kiến của anh ấy đúng nhưng tôi không thể tán thành.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["悪いと思いつつも、友だちの誘いを断れなかった。", "疲れていると感じつつも、仕事を続けた。", "明日は早く起きようと思いつつも、目覚まし時計をセットしよう。", "危ないと知りつつも、彼は一人で山に登った。"], "answer_index": 2, "explanation_vi": "「明日は早く起きようと思いつつも、目覚まし時計をセットしよう。」 sai: vế sau của つつも phải là việc trái với vế trước, không dùng ý chí 〜よう. Câu đúng: 明日は早く起きようと思いつつも、つい夜更かししてしまった。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "部屋を片付けなければと思い（　　）、一週間がたってしまった。",
+    "options": [
+     "しだい",
+     "ついでに",
+     "かけて",
+     "つつも"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「つつも」: tuy nghĩ phải dọn phòng nhưng rồi một tuần đã trôi qua. しだい, ついでに, かけて không tạo nghĩa 'tuy… nhưng'. Nghĩa: Tuy nghĩ phải dọn phòng nhưng rồi một tuần đã trôi qua."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼の意見が正しいと認めつつも、私は賛成できなかった。",
+    "options": [
+     "Vì công nhận ý kiến của anh ấy đúng nên tôi đã tán thành.",
+     "Tuy công nhận ý kiến của anh ấy đúng nhưng tôi không thể tán thành.",
+     "Tôi vừa công nhận vừa tán thành ý kiến của anh ấy.",
+     "Nếu ý kiến của anh ấy đúng thì tôi sẽ tán thành."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜つつも (tuy… nhưng…): \"Tuy công nhận ý kiến của anh ấy đúng nhưng tôi không thể tán thành.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "悪いと思いつつも、友だちの誘いを断れなかった。",
+     "疲れていると感じつつも、仕事を続けた。",
+     "明日は早く起きようと思いつつも、目覚まし時計をセットしよう。",
+     "危ないと知りつつも、彼は一人で山に登った。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「明日は早く起きようと思いつつも、目覚まし時計をセットしよう。」 sai: vế sau của つつも phải là việc trái với vế trước, không dùng ý chí 〜よう. Câu đúng: 明日は早く起きようと思いつつも、つい夜更かししてしまった。"
+   }
+  ]
+ },
+ "JG-358de01ace": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "料理ができる（　　）、卵焼きぐらいしか作れません。",
+    "options": [
+     "からには",
+     "ように",
+     "ためには",
+     "といっても"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「といっても」: tuy nói là biết nấu ăn nhưng thực tế mức độ thấp hơn người nghe nghĩ. からには (đã… thì phải), ように (để), ためには (để mà) không hợp nghĩa. Nghĩa: Nói là biết nấu ăn nhưng tôi chỉ làm được món trứng cuộn thôi."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "海外旅行（　　）、隣の国に二日行っただけだ。",
+    "options": [
+     "によって",
+     "といっても",
+     "に対して",
+     "にとって"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「といっても」: N + といっても điều chỉnh ấn tượng 'du lịch nước ngoài' xuống mức thực tế nhỏ hơn. によって, に対して, にとって không hợp nghĩa. Nghĩa: Nói là du lịch nước ngoài nhưng chỉ sang nước bên cạnh hai ngày thôi."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "会社は家から＿＿ ＿＿ ★ ＿＿十分ぐらいだ。",
+    "options": [
+     "電車で",
+     "と言っても",
+     "遠い",
+     "少し"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 会社は家から少し遠いと言っても電車で十分ぐらいだ。 (Công ty tuy nói là hơi xa nhà nhưng đi tàu cũng chỉ khoảng mười phút.). Mảnh ở ô ★ là 「と言っても」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿ほんの数日だった。",
+    "options": [
+     "と言っても、",
+     "期間は",
+     "入院した",
+     "祖母が"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 祖母が入院したと言っても、期間はほんの数日だった。 (Nói là bà nằm viện nhưng thời gian chỉ vài ngày thôi.). Mảnh ở ô ★ là 「入院した」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "庭があると言っても、車一台分の広さしかない。",
+    "options": [
+     "Vì có vườn rộng nên đỗ được nhiều ô tô.",
+     "Dù không có vườn nhưng vẫn đỗ được ô tô.",
+     "Nói là có vườn nhưng chỉ rộng bằng chỗ đỗ một chiếc ô tô.",
+     "Nếu có vườn thì tôi muốn mua thêm ô tô."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜と言っても (tuy nói là… nhưng thực tế không đến mức đó): \"Nói là có vườn nhưng chỉ rộng bằng chỗ đỗ một chiếc ô tô.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "英語が話せると言っても、日常会話程度です。",
+    "options": [
+     "Nói là nói được tiếng Anh nhưng cũng chỉ ở mức giao tiếp hằng ngày.",
+     "Tôi nói tiếng Anh giỏi như người bản xứ.",
+     "Tôi không nói được tiếng Anh, kể cả giao tiếp hằng ngày.",
+     "Nếu nói được tiếng Anh thì giao tiếp hằng ngày sẽ dễ hơn."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜と言っても (hạ mức độ so với điều người nghe tưởng): \"Nói là nói được tiếng Anh nhưng cũng chỉ ở mức giao tiếp hằng ngày.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "先生と言っても、まだ二十代の若い人だ。",
+     "引っ越したと言っても、隣の町に移っただけだ。",
+     "忙しいと言っても、週末は休めます。",
+     "寒いだと言っても、まだ雪は降っていない。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「寒いだと言っても」 sai: tính từ い gắn thẳng と言っても, không thêm だ. Câu đúng: 寒いと言っても、まだ雪は降っていない。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "日本に住んでいたと言っても、半年だけです。",
+     "社長と言っても、社員は千人もいる大きな会社だ。",
+     "休みと言っても、家で仕事をしている。",
+     "ピアノが弾けると言っても、簡単な曲だけだ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「社長と言っても、社員は千人もいる大きな会社だ」 sai: vế sau của と言っても phải cho thấy thực tế nhỏ hơn hay khác điều người nghe tưởng, không dùng để nhấn mạnh mức độ lớn hơn. Câu đúng: 社長と言っても、社員が三人の小さな会社だ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "と言っても、",
+     "近くの公園を",
+     "走るだけだ。",
+     "毎朝運動している"
+    ],
+    "answer_order": [
+     3,
+     0,
+     1,
+     2
+    ],
+    "translation_vi": "Nói là sáng nào cũng tập thể dục nhưng chỉ chạy quanh công viên gần nhà thôi."
+   },
+   {
+    "pieces": [
+     "小さい",
+     "社長と言っても、",
+     "会社の",
+     "社長だ。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "translation_vi": "Nói là giám đốc nhưng chỉ là giám đốc một công ty nhỏ."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "歌手と＿＿、近所のお祭りで歌っている程度です。",
+    "answer": "言っても",
+    "accept": [
+     "いっても"
+    ],
+    "translation_vi": "Nói là ca sĩ nhưng chỉ ở mức hát ở lễ hội trong xóm thôi."
+   },
+   {
+    "sentence_ja": "大学で日本語を勉強した＿＿、一年間だけです。",
+    "answer": "と言っても",
+    "accept": [
+     "といっても",
+     "とはいえ",
+     "とはいうものの"
+    ],
+    "translation_vi": "Nói là đã học tiếng Nhật ở đại học nhưng chỉ có một năm thôi."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "先週は忙しかった（　　）、残業は一日だけだった。",
+    "options": [
+     "からこそ",
+     "ばかりに",
+     "といっても",
+     "ように"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「といっても」: tuy nói là bận nhưng thực tế chỉ làm thêm giờ một ngày. からこそ (chính vì), ばかりに (chỉ tại), ように (để, như) không hợp nghĩa. Nghĩa: Nói là tuần trước bận nhưng tôi chỉ làm thêm giờ có một ngày."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "アルバイトと言っても、週に一回、二時間だけだ。",
+    "options": [
+     "Tôi làm thêm mỗi ngày hai tiếng.",
+     "Vì làm thêm nhiều nên tôi rất bận.",
+     "Tôi muốn làm thêm mỗi tuần một lần.",
+     "Nói là làm thêm nhưng chỉ một tuần một lần, mỗi lần hai tiếng."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + と言っても (gọi là vậy nhưng mức độ thực tế nhỏ): \"Nói là làm thêm nhưng chỉ một tuần một lần, mỗi lần hai tiếng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "家を買ったと言っても、小さな中古の家だ。",
+     "夏と言っても、やっぱりスイカだね。",
+     "パーティーと言っても、友だちが三人来るだけだ。",
+     "熱があると言っても、少し高いだけです。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「夏と言っても、やっぱりスイカだね」 sai: ý 'nhắc đến mùa hè thì phải là dưa hấu' là liên tưởng, phải dùng といえば; と言っても là 'tuy nói là… nhưng'. Câu đúng: 夏といえば、やっぱりスイカだね。"
+   }
+  ]
+ },
+ "JG-7f3985b154": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "チケットが一枚五千円だ（　　）、家族四人で二万円かかる。",
+    "options": [
+     "くせに",
+     "とすると",
+     "わりに",
+     "ものの"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「とすると」: giả định giá vé là 5.000 yên rồi suy ra cả nhà tốn 20.000 yên. くせに, わりに không đi sau だ (phải là なくせに, なわりに), ものの (tuy… nhưng) không hợp nghĩa. Nghĩa: Nếu mỗi vé là 5.000 yên thì cả nhà bốn người tốn 20.000 yên."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "彼の話が本当だ（　　）、犯人はほかにいることになる。",
+    "options": [
+     "にしては",
+     "だけに",
+     "ところを",
+     "とすると"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「とすると」: coi lời anh ấy là thật rồi suy ra kết luận ことになる. にしては, だけに, ところを không gắn sau だ theo cách này và không mang nghĩa giả định. Nghĩa: Nếu chuyện anh ấy kể là thật thì thủ phạm là một người khác."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "彼が家を＿＿ ＿＿ ★ ＿＿駅に着いているはずだ。",
+    "options": [
+     "もう",
+     "とすると",
+     "五時だ",
+     "出たのが"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 彼が家を出たのが五時だとすると、もう駅に着いているはずだ。 (Nếu anh ấy ra khỏi nhà lúc năm giờ thì chắc giờ đã đến ga rồi.). Mảnh ở ô ★ là 「とすると」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿、この本を読み終わるのに何日かかるだろう。",
+    "options": [
+     "読む",
+     "とすると",
+     "一日に",
+     "十ページ"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 一日に十ページ読むとすると、この本を読み終わるのに何日かかるだろう。 (Nếu mỗi ngày đọc mười trang thì đọc xong quyển sách này mất bao nhiêu ngày nhỉ.). Mảnh ở ô ★ là 「十ページ」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "バスが来ないとすると、歩いて行くしかない。",
+    "options": [
+     "Vì xe buýt đã đến nên không cần đi bộ.",
+     "Nếu xe buýt không đến thì chỉ còn cách đi bộ.",
+     "Dù xe buýt có đến, tôi vẫn muốn đi bộ.",
+     "Xe buýt không đến nên tôi đã gọi taxi."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜とすると (nếu coi là như vậy thì suy ra…): \"Nếu xe buýt không đến thì chỉ còn cách đi bộ.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "会議が三時に終わるとすると、四時の電車に間に合う。",
+    "options": [
+     "Cuộc họp đã kết thúc lúc ba giờ nên tôi lỡ chuyến tàu.",
+     "Dù cuộc họp kết thúc lúc ba giờ cũng không kịp tàu.",
+     "Nếu cuộc họp kết thúc lúc ba giờ thì sẽ kịp chuyến tàu bốn giờ.",
+     "Cuộc họp phải kết thúc trước ba giờ."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜とすると (giả định rồi suy ra kết quả): \"Nếu cuộc họp kết thúc lúc ba giờ thì sẽ kịp chuyến tàu bốn giờ.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "この話が本当だとすると、大変なことになる。",
+     "一人三千円だとすると、十人で三万円だ。",
+     "明日雨だとすると、傘を持って行きなさい。",
+     "彼がまだ来ないとすると、道に迷ったのかもしれない。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「明日雨だとすると、傘を持って行きなさい」 sai: vế sau của とすると là suy luận, phán đoán, không dùng mệnh lệnh hay ý chí. Câu đúng: 明日雨なら、傘を持って行きなさい。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "料金が二倍になるとすると、利用する人は減るだろう。",
+     "彼が先に帰ってとすると、鍵はだれが持っているのだろう。",
+     "この計算が正しいとすると、来月には目標に届くはずだ。",
+     "彼女が知らないとすると、だれが先生に話したのだろう。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「先に帰ってとすると」 sai: とすると đi sau thể thường (帰った, 帰る), không đi sau thể て. Câu đúng: 彼が先に帰ったとすると、鍵はだれが持っているのだろう。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "とすると、",
+     "一人",
+     "二千円だ",
+     "十人で二万円になる。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3
+    ],
+    "translation_vi": "Nếu mỗi người hai nghìn yên thì mười người sẽ là hai vạn yên."
+   },
+   {
+    "pieces": [
+     "続く",
+     "野菜の値段が上がるだろう。",
+     "この天気が",
+     "とすると、"
+    ],
+    "answer_order": [
+     2,
+     0,
+     3,
+     1
+    ],
+    "translation_vi": "Nếu thời tiết này còn kéo dài thì giá rau chắc sẽ tăng."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "タクシーで三十分かかる＿＿、もう出発しないと間に合わない。",
+    "answer": "とすると",
+    "accept": [
+     "とすれば",
+     "としたら",
+     "なら"
+    ],
+    "translation_vi": "Nếu đi taxi mất ba mươi phút thì phải xuất phát ngay mới kịp."
+   },
+   {
+    "sentence_ja": "その話が事実だ＿＿、すぐに調べる必要がある。",
+    "answer": "とすると",
+    "accept": [
+     "とすれば",
+     "としたら"
+    ],
+    "translation_vi": "Nếu chuyện đó là sự thật thì cần phải điều tra ngay."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この道が通れない（　　）、遠回りするしかない。",
+    "options": [
+     "とすると",
+     "くせに",
+     "わりに",
+     "うちに"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「とすると」: giả định con đường không đi được rồi suy ra chỉ còn cách đi vòng. くせに (vậy mà), わりに (so với), うちに (trong lúc) không hợp nghĩa. Nghĩa: Nếu con đường này không đi được thì chỉ còn cách đi đường vòng."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼が東京に住んでいるとすると、毎日一時間以上かけて通勤していることになる。",
+    "options": [
+     "Vì anh ấy sống ở Tokyo nên đi làm mất chưa đến một tiếng.",
+     "Dù sống ở Tokyo, anh ấy vẫn không đi làm hằng ngày.",
+     "Anh ấy muốn chuyển đến Tokyo để đi làm gần hơn.",
+     "Nếu anh ấy sống ở Tokyo thì có nghĩa là ngày nào anh ấy cũng mất hơn một tiếng để đi làm."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜とすると (giả định rồi suy ra ことになる): \"Nếu anh ấy sống ở Tokyo thì có nghĩa là ngày nào anh ấy cũng mất hơn một tiếng để đi làm.\""
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿雨が降ったのだろう。",
+    "options": [
+     "夜の間に",
+     "とすると、",
+     "道が",
+     "ぬれている"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 道がぬれているとすると、夜の間に雨が降ったのだろう。 (Nếu đường ướt thì chắc là trong đêm trời đã mưa.). Mảnh ở ô ★ là 「とすると、」."
+   }
   ]
  }
 }
