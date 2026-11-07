@@ -1264,7 +1264,191 @@
    "id": "JG-2211a2d329"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あんなに難しい問題、私に解け（　　）よ。",
+      "options": [
+       "がちだ",
+       "っこない",
+       "つつある",
+       "かねない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「っこない」: Vます bỏ ます + っこない = làm sao mà… được, phủ định mạnh khả năng. がちだ (hay bị), つつある (đang dần), かねない (có thể xảy ra việc xấu) không hợp nghĩa. Nghĩa: Bài khó như thế, tôi làm sao giải nổi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "三日で十キロやせるなんて、でき（　　）。",
+      "options": [
+       "たがる",
+       "ようだ",
+       "がたい",
+       "っこない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「っこない」: できっこない = không đời nào làm được. たがる, ようだ, がたい không gắn sau でき theo cách này. Nghĩa: Giảm mười cân trong ba ngày thì làm sao mà làm được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "こんなに雨が降っていたら、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "試合は",
+       "でき",
+       "っこない",
+       "今日の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: こんなに雨が降っていたら、今日の試合はできっこない。 (Mưa thế này thì trận đấu hôm nay làm sao mà diễn ra được.). Mảnh ở ô ★ là 「でき」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "駅まで五分なんて、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "っこない",
+       "間に合い",
+       "子どもの",
+       "足では"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 駅まで五分なんて、子どもの足では間に合いっこない。 (Đến ga trong năm phút thì với bước chân trẻ con làm sao kịp.). Mảnh ở ô ★ là 「足では」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "こんな大雪じゃ、バスなんか来っこないよ。",
+      "options": [
+       "Tuyết lớn thế này thì xe buýt làm sao mà đến được.",
+       "Tuyết lớn thế này nhưng chắc xe buýt vẫn sẽ đến thôi.",
+       "Tuyết lớn thế này nên xe buýt sẽ đến muộn một chút.",
+       "Tuyết lớn thế này, xe buýt không đến cũng chẳng sao."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜っこない (chắc chắn không thể, văn nói): \"Tuyết lớn thế này thì xe buýt làm sao mà đến được.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女の気持ちなんて、私に分かりっこない。",
+      "options": [
+       "Tôi hiểu rất rõ tâm trạng của cô ấy.",
+       "Tôi không muốn hiểu tâm trạng của cô ấy.",
+       "Tâm trạng của cô ấy thì làm sao tôi hiểu nổi.",
+       "Tâm trạng của cô ấy thì chưa chắc tôi đã hiểu sai."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜っこない (không đời nào, làm sao mà…): \"Tâm trạng của cô ấy thì làm sao tôi hiểu nổi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "一日で全部覚えられっこない。",
+       "あの店の予約なんて、取れるっこない。",
+       "こんな小さな字、読めっこないよ。",
+       "父に話しても、分かってくれっこない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「あの店の予約なんて、取れるっこない。」 sai: っこない gắn sau thể ます bỏ ます (取れ), không gắn sau thể từ điển. Câu đúng: あの店の予約なんて、取れっこない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "今から走っても、間に合いっこない。",
+       "宝くじなんて当たりっこないよ。",
+       "あの人が約束を守りっこない。",
+       "その計画は無理っこない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「その計画は無理っこない。」 sai: っこない chỉ gắn sau động từ, không dùng với danh từ hay tính từ な. Câu đúng: その計画はうまくいきっこない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "食べきれ",
+       "こんな量、",
+       "っこない。",
+       "一人で"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Nhiều thế này thì một mình làm sao ăn hết được."
+     },
+     {
+      "pieces": [
+       "許して",
+       "今さら謝っても、",
+       "っこない。",
+       "もらえ"
+      ],
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "translation_vi": "Giờ mới xin lỗi thì làm sao được tha thứ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "一晩で全部やるなんて、でき＿＿ないよ。",
+      "answer": "っこ",
+      "translation_vi": "Làm hết trong một đêm thì làm sao mà được."
+     },
+     {
+      "sentence_ja": "あんなに足の速い人に、私が＿＿っこない。",
+      "answer": "勝て",
+      "accept": [
+       "かて"
+      ],
+      "translation_vi": "Người chạy nhanh như thế thì tôi làm sao thắng nổi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "毎日忙しくて、旅行なんか（　　）っこない。",
+      "options": [
+       "行く",
+       "行けない",
+       "行け",
+       "行って"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「行け」: っこない gắn sau thể ます bỏ ます (行けます → 行け). 行く, 行けない, 行って đều sai hình thức. Nghĩa: Ngày nào cũng bận, du lịch thì làm sao mà đi được."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "どんなに頑張っても、彼には勝てっこない。",
+      "options": [
+       "Cố gắng thì nhất định thắng được anh ấy.",
+       "Dù cố gắng thế nào cũng không đời nào thắng được anh ấy.",
+       "Dù cố gắng thế nào, thắng được anh ấy cũng chẳng vui.",
+       "Nếu cố gắng thì chưa chắc đã thua anh ấy."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜っこない (phủ định mạnh khả năng): \"Dù cố gắng thế nào cũng không đời nào thắng được anh ấy.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あんな遠い所まで、歩いて行けっこない。",
+       "彼がそんなうそを信じっこない。",
+       "こんな問題、誰にも解けないっこない。",
+       "今の私の実力では、合格できっこない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「こんな問題、誰にも解けないっこない。」 sai: っこない đã mang nghĩa phủ định nên không gắn sau thể ない. Câu đúng: こんな問題、誰にも解けっこない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1293,7 +1477,196 @@
    "id": "JG-71a3367faf"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この町は観光客が増えている（　　）、住民の生活は不便になっている。",
+      "options": [
+       "ついでに",
+       "一方で",
+       "とおりに",
+       "たびに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「一方で」: Thể thường + 一方で nêu hai mặt của cùng một sự việc (khách du lịch tăng, mặt khác cuộc sống người dân bất tiện). ついでに, とおりに, たびに không hợp nghĩa và hình thức. Nghĩa: Thị trấn này khách du lịch đang tăng, mặt khác cuộc sống của người dân lại trở nên bất tiện."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は会社員として働く（　　）、週末は小説を書いている。",
+      "options": [
+       "以上",
+       "とたんに",
+       "最中に",
+       "一方"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「一方」: 働く一方 = vừa làm nhân viên công ty, mặt khác còn viết tiểu thuyết. 以上 (một khi đã), とたんに (cần Vた), 最中に (cần Nの/Vている) không hợp. Nghĩa: Anh ấy vừa làm nhân viên công ty, vừa viết tiểu thuyết vào cuối tuần."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この仕事は給料がいい＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "大変だ",
+       "重く",
+       "責任も",
+       "一方で"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: この仕事は給料がいい一方で責任も重く大変だ。 (Công việc này lương cao, nhưng mặt khác trách nhiệm cũng nặng nên vất vả.). Mảnh ở ô ★ là 「重く」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、輸入は減っている。",
+      "options": [
+       "増える一方で",
+       "輸出が",
+       "の",
+       "日本から"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 日本からの輸出が増える一方で、輸入は減っている。 (Xuất khẩu từ Nhật Bản tăng, mặt khác nhập khẩu lại giảm.). Mảnh ở ô ★ là 「の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "母は厳しい一方で、とても優しいところもある。",
+      "options": [
+       "Mẹ tôi ngày càng nghiêm khắc và không còn dịu dàng.",
+       "Vì mẹ tôi nghiêm khắc nên không dịu dàng.",
+       "Mẹ tôi chỉ nghiêm khắc một chút thôi.",
+       "Mẹ tôi nghiêm khắc, nhưng mặt khác cũng có lúc rất dịu dàng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜一方で (một mặt… mặt khác…): \"Mẹ tôi nghiêm khắc, nhưng mặt khác cũng có lúc rất dịu dàng.\" Không nhầm với Vる一方だ (ngày càng)."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "スマートフォンは便利な一方で、使いすぎると目に悪い。",
+      "options": [
+       "Điện thoại thông minh tiện lợi, nhưng mặt khác dùng quá nhiều thì hại mắt.",
+       "Điện thoại thông minh ngày càng tiện lợi nên không hại mắt.",
+       "Vì điện thoại thông minh tiện lợi nên ai cũng dùng quá nhiều.",
+       "Điện thoại thông minh vừa tiện lợi vừa tốt cho mắt."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Aな + 一方で (một mặt… mặt khác…): \"Điện thoại thông minh tiện lợi, nhưng mặt khác dùng quá nhiều thì hại mắt.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "都会は便利な一方、物価が高い。",
+       "兄は勉強ができる一方で、スポーツは苦手だ。",
+       "私はコーヒーが好きな一方で、田中さんの車は赤い。",
+       "父は会社で働く一方、地域のボランティアもしている。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「私はコーヒーが好きな一方で、田中さんの車は赤い。」 sai: 一方で nối hai mặt của cùng một đối tượng hoặc hai việc có liên quan để đối chiếu; ở đây hai vế không liên quan gì. Câu đúng: 私はコーヒーが好きな一方で、紅茶はあまり飲まない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この薬はよく効く一方で、眠くなることもある。",
+       "彼は学生な一方で、会社の社長でもある。",
+       "弟は人前では静かな一方で、家ではよくしゃべる。",
+       "売り上げが伸びている一方、社員の数は減っている。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は学生な一方で、会社の社長でもある。」 sai: danh từ nối với 一方で bằng である, không dùng な. Câu đúng: 彼は学生である一方で、会社の社長でもある。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "サービスは",
+       "この店は安い",
+       "あまりよくない。",
+       "一方で、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Quán này rẻ, nhưng mặt khác phục vụ không tốt lắm."
+     },
+     {
+      "pieces": [
+       "部下には",
+       "一方、",
+       "優しい。",
+       "田中さんは仕事に厳しい"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Anh Tanaka nghiêm khắc trong công việc, mặt khác lại hiền với cấp dưới."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "地方では人口が減っている＿＿、都市では増えている。",
+      "answer": "一方",
+      "accept": [
+       "一方で",
+       "いっぽう",
+       "いっぽうで"
+      ],
+      "translation_vi": "Ở địa phương dân số đang giảm, mặt khác ở thành phố lại tăng."
+     },
+     {
+      "sentence_ja": "インターネットは便利な＿＿で、危険な面もある。",
+      "answer": "一方",
+      "accept": [
+       "いっぽう"
+      ],
+      "translation_vi": "Internet tiện lợi, nhưng mặt khác cũng có mặt nguy hiểm."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "姉は料理が得意な（　　）、掃除は全然しない。",
+      "options": [
+       "からには",
+       "たびに",
+       "一方で",
+       "ことだから"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「一方で」: nêu hai mặt đối lập của cùng một người (nấu ăn giỏi, nhưng không dọn dẹp). からには, たびに không gắn sau Aな + な; ことだから (vì tính người đó) không hợp nghĩa. Nghĩa: Chị tôi nấu ăn giỏi, mặt khác lại chẳng bao giờ dọn dẹp."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "新しい制度には賛成する人がいる一方で、反対する人も多い。",
+      "options": [
+       "Vì có người tán thành nên chế độ mới không bị phản đối.",
+       "Có người tán thành chế độ mới, mặt khác người phản đối cũng nhiều.",
+       "Số người tán thành chế độ mới ngày càng tăng.",
+       "Hầu như ai cũng tán thành chế độ mới."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜一方で (một mặt… mặt khác…): \"Có người tán thành chế độ mới, mặt khác người phản đối cũng nhiều.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、夜はアルバイトをしている。",
+      "options": [
+       "一方で",
+       "料理の",
+       "専門学校に通う",
+       "妹は"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 妹は料理の専門学校に通う一方で、夜はアルバイトをしている。 (Em gái tôi vừa học trường dạy nấu ăn, vừa buổi tối đi làm thêm.). Mảnh ở ô ★ là 「専門学校に通う」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

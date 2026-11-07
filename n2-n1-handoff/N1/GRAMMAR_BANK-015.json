@@ -4,7 +4,198 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "そんな小さなミスは取る（　　）。気にしなくていいよ。",
+      "options": [
+       "に足る",
+       "に限る",
+       "に足りない",
+       "に堪えない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に足りない」: 取るに足りない = vặt vãnh, không đáng để bận tâm, hợp với 'không cần để ý'. に足る là 'đáng để' (nghĩa ngược lại), に限る là 'là nhất', に堪えない không đi với 取る. Nghĩa: Lỗi nhỏ như thế chẳng đáng kể. Không cần bận tâm đâu."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "今の彼の実力なら、あの程度の相手は恐れる（　　）。",
+      "options": [
+       "にほかならない",
+       "に足りない",
+       "に越したことはない",
+       "にかたくない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に足りない」: 恐れるに足りない = không đáng sợ. にほかならない là 'chính là', に越したことはない là 'càng... càng tốt', にかたくない chỉ đi với 想像, 察する. Nghĩa: Với thực lực hiện giờ của anh ấy, đối thủ cỡ đó chẳng đáng sợ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿で悩むのはやめよう。",
+      "options": [
+       "こと",
+       "足りない",
+       "取るに",
+       "他人から見れば"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 他人から見れば取るに足りないことで悩むのはやめよう。 (Đừng phiền muộn vì những chuyện mà người ngoài nhìn vào thấy chẳng đáng kể.). Mảnh ở ô ★ là 「足りない」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "その意見は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "論じるに",
+       "足りない",
+       "なく、",
+       "根拠が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: その意見は根拠がなく、論じるに足りない。 (Ý kiến đó không có căn cứ, chẳng đáng để bàn.). Mảnh ở ô ★ là 「なく、」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼が言ったことなど、取るに足りないうわさだ。",
+      "options": [
+       "Điều anh ta nói là tin đồn rất đáng chú ý.",
+       "Điều anh ta nói chỉ là tin đồn vặt vãnh, không đáng để tâm.",
+       "Tin đồn đó chưa đủ thông tin để kết luận.",
+       "Anh ta không muốn nghe tin đồn đó."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vる + に足りない (không đáng để): \"Điều anh ta nói chỉ là tin đồn vặt vãnh, không đáng để tâm.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの程度の批判は、恐れるに足りない。",
+      "options": [
+       "Phê bình như thế vẫn chưa đủ, cần nghiêm khắc hơn.",
+       "Tôi rất sợ những lời phê bình như thế.",
+       "Không ai dám phê bình đến mức đó.",
+       "Những lời phê bình cỡ đó chẳng đáng sợ."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vる + に足りない (không đáng để): \"Những lời phê bình cỡ đó chẳng đáng sợ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "そんな取るに足りないことで、けんかするのはやめなさい。",
+       "あの選手の実力は、恐れるに足りない。",
+       "この報告書はとても重要なので、読むに足りない。",
+       "毎日あれだけ練習していたのだから、彼の優勝は驚くに足りない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「この報告書はとても重要なので、読むに足りない。」 sai: に足りない là 'không đáng để', mâu thuẫn với lý do 'rất quan trọng'. Câu đúng: この報告書はとても重要なので、必ず読んでください。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "そんな小さなことは、取ったに足りない。",
+       "取るに足りない失敗を、いつまでも気にする必要はない。",
+       "あんな脅しは恐れるに足りない。",
+       "その程度の問題は、論じるに足りない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「そんな小さなことは、取ったに足りない。」 sai: に足りない đi sau Vる (thể từ điển), không đi sau thể た. Câu đúng: そんな小さなことは、取るに足りない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "足りない",
+       "取るに",
+       "いつまでも気にするな。",
+       "ことを"
+      ],
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "translation_vi": "Đừng mãi bận tâm đến những chuyện vặt vãnh không đáng kể."
+     },
+     {
+      "pieces": [
+       "恐れるに",
+       "この程度の",
+       "足りない。",
+       "問題は"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Vấn đề cỡ này thì chẳng đáng sợ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "そんな取るに＿＿ことで、悩む必要はない。",
+      "answer": "足りない",
+      "accept": [
+       "足らない",
+       "たりない"
+      ],
+      "translation_vi": "Không cần phải phiền muộn vì chuyện vặt vãnh như thế."
+     },
+     {
+      "sentence_ja": "彼の才能を考えれば、今回の成功は驚くに＿＿。",
+      "answer": "足りない",
+      "accept": [
+       "足らない",
+       "たりない",
+       "当たらない",
+       "あたらない"
+      ],
+      "translation_vi": "Nghĩ đến tài năng của anh ấy thì thành công lần này chẳng có gì đáng ngạc nhiên."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "専門家から見れば、あの程度の問題は論じる（　　）ものだ。",
+      "options": [
+       "にかたくない",
+       "にとどまらない",
+       "にほかならない",
+       "に足りない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に足りない」: 論じるに足りない = không đáng để bàn. にかたくない, にほかならない không đi với 論じる theo nghĩa này, にとどまらない là 'không dừng lại ở'. Nghĩa: Nhìn từ góc độ chuyên gia, vấn đề cỡ đó chẳng đáng để bàn."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "新人のちょっとしたミスなど、取るに足りないことだ。",
+      "options": [
+       "Lỗi nhỏ của nhân viên mới có thể gây hậu quả lớn.",
+       "Nhân viên mới còn thiếu kinh nghiệm nên hay mắc lỗi.",
+       "Lỗi nhỏ của nhân viên mới là chuyện vặt, không đáng để tâm.",
+       "Không được bỏ qua dù chỉ một lỗi nhỏ của nhân viên mới."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Vる + に足りない (không đáng để): \"Lỗi nhỏ của nhân viên mới là chuyện vặt, không đáng để tâm.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "取るに足りない理由で、約束を破るべきではない。",
+       "命に関わる重大な事故なので、取るに足りない。",
+       "経験豊富な彼にとって、この程度の仕事は恐れるに足りない。",
+       "あれだけ言われたのだから、彼が怒るのも驚くに足りない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「命に関わる重大な事故なので、取るに足りない。」 sai: 取るに足りない là 'vặt vãnh, không đáng kể', mâu thuẫn với 'sự cố nghiêm trọng liên quan đến tính mạng'. Câu đúng: 命に関わる重大な事故なので、決して軽く見てはいけない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -27,7 +218,198 @@
    "id": "JG-835e6dd984"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あんな失礼な人と、二度と口をきく（　　）。",
+      "options": [
+       "ものの",
+       "ものか",
+       "もので",
+       "ものだ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ものか」: 二度と + 普通形 + ものか = không đời nào làm nữa, phủ định mạnh. ものだ (lẽ thường) trái nghĩa với 二度と, còn ものの, もので không kết thúc câu được. Nghĩa: Không đời nào tôi nói chuyện lại với kẻ vô lễ như thế."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "こんなにまずい料理、誰が食べる（　　）。",
+      "options": [
+       "ものなら",
+       "ことか",
+       "わけか",
+       "ものか"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ものか」: 誰が〜ものか là câu hỏi tu từ nghĩa 'chẳng ai thèm'. ことか dùng để cảm thán (どんなに〜ことか), ものなら cần vế sau, わけか là 'thì ra là thế'. Nghĩa: Món dở thế này, ai mà thèm ăn chứ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "あんな＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "行くものか",
+       "わざわざ",
+       "店まで",
+       "遠い"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: あんな遠い店までわざわざ行くものか。 (Làm gì có chuyện tôi lặn lội đến tận cái quán xa như thế.). Mảnh ở ô ★ là 「わざわざ」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿。彼は一度も約束を守ったことがない。",
+      "options": [
+       "ものか",
+       "信じる",
+       "言うことなど",
+       "彼の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼の言うことなど信じるものか。彼は一度も約束を守ったことがない。 (Ai mà tin lời anh ta. Anh ta chưa từng giữ lời hứa lần nào.). Mảnh ở ô ★ là 「言うことなど」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "どんなに疲れていても、ここで諦めるものか。",
+      "options": [
+       "Mệt quá rồi, có lẽ tôi nên bỏ cuộc ở đây.",
+       "Tôi tự hỏi có nên bỏ cuộc ở đây không.",
+       "Dù mệt đến đâu, tôi cũng không đời nào bỏ cuộc ở đây.",
+       "Dù không mệt nhưng tôi đã bỏ cuộc."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ものか (không đời nào, phủ định mạnh): \"Dù mệt đến đâu, tôi cũng không đời nào bỏ cuộc ở đây.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼にお金を貸すものか。何度も返してもらえなかったんだから。",
+      "options": [
+       "Làm gì có chuyện tôi cho anh ta vay tiền, bao nhiêu lần anh ta đã không trả.",
+       "Tôi đã cho anh ta vay tiền nhiều lần rồi.",
+       "Không biết có nên cho anh ta vay tiền không.",
+       "Anh ta đã trả lại tiền cho tôi nhiều lần."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ものか (không đời nào, phủ định mạnh): \"Làm gì có chuyện tôi cho anh ta vay tiền, bao nhiêu lần anh ta đã không trả.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あんな人の言うことなんか、信じるものか。",
+       "この程度の雨で、試合が中止になるものか。",
+       "一人でできるものか。手伝ってもらおう。",
+       "明日のパーティーに山田さんも来るものか、教えてください。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「明日のパーティーに山田さんも来るものか、教えてください。」 sai: ものか không phải câu hỏi thật mà là phủ định mạnh, nên không dùng để hỏi thông tin. Câu đúng: 明日のパーティーに山田さんも来るかどうか、教えてください。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "こんな簡単な問題を間違えるものか。",
+       "あの人が親切だものか。",
+       "あんな危ない場所に子どもを行かせるものか。",
+       "彼が犯人なものか。その日は私とずっと一緒にいたのだから。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「あの人が親切だものか。」 sai: tính từ な nối với ものか bằng な, không dùng だ. Câu đúng: あの人が親切なものか。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ものか。",
+       "こんな",
+       "負ける",
+       "相手に"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Làm gì có chuyện thua đối thủ cỡ này."
+     },
+     {
+      "pieces": [
+       "信じる",
+       "あんな",
+       "ものか。",
+       "人の言うことを"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Ai mà tin lời của loại người như thế."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "あんなに失礼な店員がいる店に、二度と行く＿＿。",
+      "answer": "ものか",
+      "accept": [
+       "もんか",
+       "ものですか",
+       "もんですか"
+      ],
+      "translation_vi": "Cửa hàng có nhân viên vô lễ như thế, không đời nào tôi quay lại nữa."
+     },
+     {
+      "sentence_ja": "せっかくここまで来たのに、途中でやめる＿＿。",
+      "answer": "ものか",
+      "accept": [
+       "もんか",
+       "ものですか",
+       "もんですか"
+      ],
+      "translation_vi": "Đã cất công đi đến tận đây, không đời nào tôi bỏ dở giữa chừng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この程度の痛みで、泣く（　　）。",
+      "options": [
+       "ことか",
+       "ものの",
+       "ものか",
+       "ばかりか"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ものか」: Vる + ものか = không đời nào, thể hiện quyết tâm. ことか dùng cảm thán với どんなに, ものの và ばかりか cần vế sau. Nghĩa: Đau cỡ này thì không đời nào tôi khóc."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "仕事を＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ものか",
+       "頼む",
+       "あんな人に",
+       "誰が"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 仕事を誰があんな人に頼むものか。 (Ai mà thèm giao việc cho loại người như thế.). Mảnh ở ô ★ là 「頼む」."
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この料理はとてもおいしいものか。もっと食べたい。",
+       "あんな人に負けるものか。",
+       "こんな大事なことを忘れるものか。",
+       "一度決めたことを、簡単にやめるものか。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「この料理はとてもおいしいものか。もっと食べたい。」 sai: ものか mang nghĩa phủ định mạnh 'làm gì có', mâu thuẫn với 'muốn ăn thêm'. Câu đúng: この料理はとてもおいしい。もっと食べたい。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -50,7 +432,195 @@
    "id": "JG-1608c47ea8"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "相手の立場を理解する（　　）、本当の交渉はできない。",
+      "options": [
+       "ことだから",
+       "ことなしに",
+       "ことか",
+       "ことにより"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ことなしに」: Vる + ことなしに + vế phủ định = không làm V thì không thể... ことにより (nhờ việc) mâu thuẫn với できない, ことだから, ことか không hợp. Nghĩa: Không thấu hiểu lập trường của đối phương thì không thể đàm phán thật sự."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "失敗を経験する（　　）、人は本当に成長することはできない。",
+      "options": [
+       "ことには",
+       "ことで",
+       "ことから",
+       "ことなしに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ことなしに」: không trải qua thất bại thì không thể trưởng thành. ことで (nhờ việc), ことから (từ việc) mâu thuẫn với vế phủ định; ことには phải là 〜ないことには. Nghĩa: Không trải qua thất bại thì con người không thể thực sự trưởng thành."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "努力を",
+       "地道な",
+       "夢は実現しない",
+       "重ねることなしに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 地道な努力を重ねることなしに夢は実現しない。 (Không bền bỉ tích lũy nỗ lực thì ước mơ sẽ không thành hiện thực.). Mảnh ở ô ★ là 「重ねることなしに」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ことなしに",
+       "会議室の資料を持ち出した",
+       "断る",
+       "誰にも"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼は誰にも断ることなしに会議室の資料を持ち出した。 (Anh ta mang tài liệu trong phòng họp ra ngoài mà không xin phép ai.). Mảnh ở ô ★ là 「断る」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "十分な準備をすることなしに、新しい事業を始めるのは危険だ。",
+      "options": [
+       "Bắt đầu kinh doanh mới mà không chuẩn bị đầy đủ thì rất nguy hiểm.",
+       "Đã chuẩn bị đầy đủ nên bắt đầu kinh doanh mới không nguy hiểm.",
+       "Chuẩn bị đầy đủ cho kinh doanh mới là việc nguy hiểm.",
+       "Kinh doanh mới không cần chuẩn bị nhiều."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ことなしに (mà không làm, không làm thì không): \"Bắt đầu kinh doanh mới mà không chuẩn bị đầy đủ thì rất nguy hiểm.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "国民の理解を得ることなしに、この改革は進められない。",
+      "options": [
+       "Cải cách này đã được tiến hành mà không cần người dân hiểu.",
+       "Không có được sự thấu hiểu của người dân thì không thể tiến hành cải cách này.",
+       "Người dân không hiểu gì về cải cách này.",
+       "Cải cách này giúp người dân hiểu nhau hơn."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ことなしに (không làm thì không thể): \"Không có được sự thấu hiểu của người dân thì không thể tiến hành cải cách này.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "相手の話を聞くことなしに、問題は解決できない。",
+       "彼は一言も謝ることなしに、部屋を出て行った。",
+       "努力しないことなしに、合格はできない。",
+       "基礎を固めることなしに、応用問題は解けない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「努力しないことなしに、合格はできない。」 sai: ことなしに đi sau Vる khẳng định, không đi sau Vない. Câu đúng: 努力することなしに、合格はできない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は背が高いことなしに、バスケットボールが上手だ。",
+       "許可を得ることなしに、この部屋に入ってはいけない。",
+       "現場を見ることなしに、正しい判断はできない。",
+       "休むことなしに、彼は三時間走り続けた。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼は背が高いことなしに、バスケットボールが上手だ。」 sai: ことなしに đi sau động từ chỉ hành động có chủ ý, không đi sau tính từ chỉ trạng thái. Câu đúng: 彼は背が高くないのに、バスケットボールが上手だ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ことなしに",
+       "現場の声を",
+       "聞く",
+       "良い製品は作れない。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Không lắng nghe tiếng nói từ hiện trường thì không thể làm ra sản phẩm tốt."
+     },
+     {
+      "pieces": [
+       "家を出た。",
+       "ことなしに",
+       "彼は両親に",
+       "相談する"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Anh ấy rời nhà mà không bàn bạc với bố mẹ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "お互いを信頼する＿＿、良いチームは作れない。",
+      "answer": "ことなしに",
+      "accept": [
+       "ことなくして",
+       "ことなく"
+      ],
+      "translation_vi": "Không tin tưởng lẫn nhau thì không thể tạo nên một đội tốt."
+     },
+     {
+      "sentence_ja": "彼は一度も休む＿＿、最後まで走り続けた。",
+      "answer": "ことなしに",
+      "accept": [
+       "ことなく"
+      ],
+      "translation_vi": "Anh ấy chạy đến cùng mà không nghỉ lần nào."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "消費者の声に耳を傾ける（　　）、ヒット商品は生まれない。",
+      "options": [
+       "ことに",
+       "ことだし",
+       "ことなしに",
+       "ことから"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ことなしに」: không lắng nghe người tiêu dùng thì không có sản phẩm ăn khách. ことから (từ việc) mâu thuẫn với vế phủ định, ことに, ことだし không hợp. Nghĩa: Không lắng nghe tiếng nói của người tiêu dùng thì sẽ không ra đời sản phẩm ăn khách."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は誰の助けも借りることなしに、その難しい仕事をやり遂げた。",
+      "options": [
+       "Nhờ có mọi người giúp, cô ấy đã hoàn thành công việc khó khăn.",
+       "Không có ai giúp nên cô ấy đã bỏ dở công việc.",
+       "Cô ấy đã giúp mọi người hoàn thành công việc khó khăn.",
+       "Cô ấy đã hoàn thành công việc khó khăn đó mà không nhờ đến sự giúp đỡ của ai."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ことなしに (mà không làm): \"Cô ấy đã hoàn thành công việc khó khăn đó mà không nhờ đến sự giúp đỡ của ai.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "考える",
+       "発言すべきではない",
+       "相手の気持ちを",
+       "ことなしに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 相手の気持ちを考えることなしに発言すべきではない。 (Không nên phát ngôn mà không nghĩ đến cảm xúc của đối phương.). Mảnh ở ô ★ là 「ことなしに」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
