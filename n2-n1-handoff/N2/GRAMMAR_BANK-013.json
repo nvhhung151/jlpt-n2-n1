@@ -1695,7 +1695,191 @@
    "id": "JG-77adb928c4"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この学校では、授業中に携帯電話を使ってはいけない（　　）。",
+      "options": [
+       "つもりだ",
+       "ことだ",
+       "ことになっている",
+       "ばかりだ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ことになっている」: nêu quy định đã được định sẵn của nhà trường. つもりだ (ý định cá nhân), ことだ (lời khuyên), ばかりだ không đi với この学校では để nói quy tắc. Nghĩa: Ở trường này có quy định không được dùng điện thoại trong giờ học."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "会社の規則で、休む時は前の日までに連絡する（　　）。",
+      "options": [
+       "ことか",
+       "わけがない",
+       "ものだろうか",
+       "ことになっている"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ことになっている」: 規則で cho biết đây là quy định chung, không phải do người nói tự quyết. ことか (cảm thán), わけがない (không thể nào), ものだろうか (mong mỏi) không hợp. Nghĩa: Theo quy định của công ty, khi nghỉ phải báo trước muộn nhất là ngày hôm trước."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このマンションでは、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ことになっている",
+       "いけない",
+       "ペットを",
+       "飼っては"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: このマンションでは、ペットを飼ってはいけないことになっている。 (Ở chung cư này có quy định không được nuôi thú cưng.). Mảnh ở ô ★ là 「いけない」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "新入社員は、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "研修を受ける",
+       "ことになっている",
+       "一か月",
+       "最初の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 新入社員は、最初の一か月研修を受けることになっている。 (Nhân viên mới theo quy định sẽ được đào tạo trong tháng đầu tiên.). Mảnh ở ô ★ là 「一か月」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本では、二十歳にならないとお酒を飲んではいけないことになっている。",
+      "options": [
+       "Ở Nhật, tôi đã tự quyết định không uống rượu trước 20 tuổi.",
+       "Ở Nhật, theo quy định chưa đủ 20 tuổi thì không được uống rượu.",
+       "Ở Nhật, chưa đủ 20 tuổi thì không muốn uống rượu.",
+       "Ở Nhật, gần đây vừa quyết định cho phép uống rượu trước 20 tuổi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu ことになっている (theo quy định là…): \"Ở Nhật, theo quy định chưa đủ 20 tuổi thì không được uống rượu.\" Không phải ことにしている (tự đặt ra) hay ことになった (vừa quyết định)."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "来週の会議には、部長も出席することになっている。",
+      "options": [
+       "Trưởng phòng đã tự quyết định không tham dự cuộc họp tuần sau.",
+       "Trưởng phòng thường hay tham dự các cuộc họp.",
+       "Có lẽ trưởng phòng sẽ không tham dự cuộc họp tuần sau.",
+       "Theo kế hoạch, cuộc họp tuần sau trưởng phòng cũng sẽ tham dự."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu ことになっている (lịch trình đã được định sẵn): \"Theo kế hoạch, cuộc họp tuần sau trưởng phòng cũng sẽ tham dự.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この図書館では、本は二週間以内に返すことになっている。",
+       "会議の記録は、新人が書くことになっている。",
+       "試験中は、辞書を使ってはいけないことになっている。",
+       "健康のために、私は毎朝ジョギングすることになっている。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「健康のために、私は毎朝ジョギングすることになっている。」 sai: thói quen do bản thân tự đặt ra phải dùng ことにしている; ことになっている dùng cho quy định, lịch trình từ bên ngoài. Câu đúng: 健康のために、私は毎朝ジョギングすることにしている。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "明日の朝九時に、駅前に集まることになってある。",
+       "毎月の会費は、月末までに払うことになっている。",
+       "この部屋では、たばこを吸ってはいけないことになっている。",
+       "次の会議は、本社で行うことになっている。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「明日の朝九時に、駅前に集まることになってある。」 sai: mẫu cố định là ことになっている, không dùng てある. Câu đúng: 明日の朝九時に、駅前に集まることになっている。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "会議をする",
+       "この会社では、",
+       "ことになっている。",
+       "毎朝九時から"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Ở công ty này theo quy định mỗi sáng đều họp từ 9 giờ."
+     },
+     {
+      "pieces": [
+       "出す",
+       "ことになっている。",
+       "ごみは月曜日に",
+       "ここでは、"
+      ],
+      "answer_order": [
+       3,
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Ở đây theo quy định rác được đem ra vào thứ Hai."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "うちの学校では、制服を着て登校すること＿＿なっている。",
+      "answer": "に",
+      "translation_vi": "Ở trường tôi theo quy định phải mặc đồng phục đến trường."
+     },
+     {
+      "sentence_ja": "この店では、レジ袋は有料という＿＿。",
+      "answer": "ことになっている",
+      "accept": [
+       "ことになっています"
+      ],
+      "translation_vi": "Ở cửa hàng này theo quy định túi nilon phải trả tiền."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "社員は、一年に一度、健康診断を受ける（　　）。",
+      "options": [
+       "ものがある",
+       "ことになっている",
+       "わけがない",
+       "ことか"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ことになっている」: nêu quy định chung dành cho nhân viên. ものがある (cảm nhận), わけがない (không thể nào), ことか (cảm thán) không hợp. Nghĩa: Theo quy định, nhân viên khám sức khỏe mỗi năm một lần."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "式の後は、全員で写真を撮ることになっています。",
+      "options": [
+       "Sau buổi lễ, tôi định tự chụp ảnh một mình.",
+       "Sau buổi lễ, mọi người đã chụp ảnh xong rồi.",
+       "Theo kế hoạch, sau buổi lễ mọi người sẽ cùng chụp ảnh.",
+       "Sau buổi lễ, có lẽ mọi người sẽ không chụp ảnh."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu ことになっている (lịch trình đã định sẵn): \"Theo kế hoạch, sau buổi lễ mọi người sẽ cùng chụp ảnh.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "昨日、急に転勤することになっている。",
+       "毎年十二月に、会社の忘年会を開くことになっている。",
+       "授業に遅れた学生は、後ろの席に座ることになっている。",
+       "この道は、朝七時から九時まで車が通れないことになっている。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「昨日、急に転勤することになっている。」 sai: quyết định vừa được đưa ra (昨日、急に) phải dùng ことになった; ことになっている nói quy định, lịch trình vốn đã có. Câu đúng: 昨日、急に転勤することになった。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1718,7 +1902,186 @@
    "id": "JG-3f965c1d06"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "賛成する（　　）反対するにしろ、自分の意見をはっきり言ってください。",
+      "options": [
+       "として",
+       "にしろ",
+       "からこそ",
+       "とたん"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「にしろ」: Vる にしろ Vる にしろ = dù… hay…, kết luận phía sau đúng cho mọi trường hợp. として, からこそ, とたん không tạo cặp với 反対するにしろ. Nghĩa: Dù tán thành hay phản đối, hãy nói rõ ý kiến của mình."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "電車（　　）バスにしろ、朝の時間は混んでいる。",
+      "options": [
+       "につき",
+       "ほど",
+       "さえ",
+       "にしろ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「にしろ」: N にしろ N にしろ = dù là A hay B. につき, ほど, さえ không tạo cặp với バスにしろ. Nghĩa: Dù là tàu điện hay xe buýt, giờ buổi sáng đều đông."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "合格するにしろ ★ ＿＿ ＿＿ ＿＿。",
+      "options": [
+       "しないにしろ",
+       "試験の",
+       "明日分かる",
+       "結果は"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 合格するにしろしないにしろ、試験の結果は明日分かる。 (Dù đỗ hay không, kết quả thi sẽ biết vào ngày mai.). Mảnh ở ô ★ là 「しないにしろ」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "ピアノにしろ＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "上手にならない",
+       "毎日練習しないと",
+       "楽器は",
+       "ギターにしろ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: ピアノにしろギターにしろ、楽器は毎日練習しないと上手にならない。 (Dù là piano hay ghi-ta, nhạc cụ mà không luyện tập mỗi ngày thì không giỏi lên được.). Mảnh ở ô ★ là 「楽器は」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "買うにしろ買わないにしろ、一度実物を見てから決めたい。",
+      "options": [
+       "Vì đã mua nên tôi không cần xem đồ thật.",
+       "Nếu mua thì tôi sẽ xem đồ thật, còn không mua thì thôi.",
+       "Dù mua hay không, tôi cũng muốn xem tận mắt món đồ một lần rồi mới quyết định.",
+       "Tôi vừa muốn mua vừa không muốn mua nên chưa quyết định được."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜にしろ〜にしろ (dù… hay…): \"Dù mua hay không, tôi cũng muốn xem tận mắt món đồ một lần rồi mới quyết định.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "大人にしろ子どもにしろ、ルールは守らなければならない。",
+      "options": [
+       "Dù là người lớn hay trẻ em thì cũng phải tuân thủ quy tắc.",
+       "Chỉ người lớn mới phải tuân thủ quy tắc.",
+       "Người lớn bắt trẻ em phải tuân thủ quy tắc.",
+       "Trẻ em thì không cần tuân thủ quy tắc như người lớn."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N にしろ N にしろ (dù là A hay B): \"Dù là người lớn hay trẻ em thì cũng phải tuân thủ quy tắc.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "肉にしろ魚にしろ、新鮮なものを選んだほうがいい。",
+       "晴れるにしろ雨が降るにしろ、昨日は家にいた。",
+       "成功するにしろ失敗するにしろ、やってみる価値はある。",
+       "電話にしろメールにしろ、連絡は早いほうがいい。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「晴れるにしろ雨が降るにしろ、昨日は家にいた。」 sai: vế sau của にしろ〜にしろ phải là phán đoán, yêu cầu đúng cho mọi trường hợp, không dùng để kể một sự việc cụ thể đã xảy ra. Câu đúng: 晴れるにしろ雨が降るにしろ、明日は家にいるつもりだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "暑いにしろ寒いにしろ、毎朝の散歩は続けるつもりだ。",
+       "和食にしろ洋食にしろ、母の料理は何でもおいしい。",
+       "出席するにしろ欠席するにしろ、メールで知らせてください。",
+       "学生だにしろ社会人だにしろ、時間は守るべきだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「学生だにしろ社会人だにしろ、時間は守るべきだ。」 sai: danh từ nối thẳng với にしろ, bỏ だ. Câu đúng: 学生にしろ社会人にしろ、時間は守るべきだ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "全力でプレーしよう。",
+       "勝つにしろ負けるにしろ、",
+       "最後まで"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Dù thắng hay thua, hãy thi đấu hết sức đến phút cuối cùng."
+     },
+     {
+      "pieces": [
+       "買わなければ",
+       "高いにしろ安いにしろ、",
+       "ならない。",
+       "必要なものは"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Dù đắt hay rẻ, những thứ cần thiết thì vẫn phải mua."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "参加する＿＿しないにしろ、来週までに連絡してください。",
+      "answer": "にしろ",
+      "translation_vi": "Dù tham gia hay không, hãy liên lạc trước tuần sau."
+     },
+     {
+      "sentence_ja": "国内旅行にしろ海外旅行＿＿、計画を立てるのは楽しい。",
+      "answer": "にしろ",
+      "translation_vi": "Dù là du lịch trong nước hay nước ngoài, việc lên kế hoạch đều rất vui."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "男性（　　）女性にしろ、能力のある人を採用したい。",
+      "options": [
+       "だけ",
+       "のみ",
+       "にしろ",
+       "まで"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にしろ」: 男性にしろ女性にしろ = dù là nam hay nữ. だけ, のみ, まで không tạo cặp với 女性にしろ. Nghĩa: Dù là nam hay nữ, tôi muốn tuyển người có năng lực."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "引っ越すにしろ今の家に住み続けるにしろ、お金はかかる。",
+      "options": [
+       "Nếu chuyển nhà thì tốn tiền, còn ở nhà hiện tại thì không.",
+       "Vì đã chuyển nhà nên tốn tiền.",
+       "Dù chuyển nhà hay không cũng chẳng tốn tiền.",
+       "Dù chuyển nhà hay tiếp tục sống ở nhà hiện tại thì cũng tốn tiền."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜にしろ〜にしろ (dù… hay… thì kết quả vẫn như nhau): \"Dù chuyển nhà hay tiếp tục sống ở nhà hiện tại thì cũng tốn tiền.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "行きますにしろ行きませんにしろ、連絡してください。",
+       "本当にしろうそにしろ、彼の話は面白い。",
+       "勝つにしろ負けるにしろ、いい経験になるはずだ。",
+       "部長にしろ課長にしろ、上司の意見には従うべきだ。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「行きますにしろ行きませんにしろ、連絡してください。」 sai: にしろ đi sau thể thường, không đi sau thể ます. Câu đúng: 行くにしろ行かないにしろ、連絡してください。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

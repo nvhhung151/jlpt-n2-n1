@@ -1292,10 +1292,10 @@
        "ばかり",
        "ごろ",
        "以来",
-       "ほど"
+       "ながら"
       ],
       "answer_index": 2,
-      "explanation_vi": "Điền 「以来」: N + 以来 = kể từ mốc đó đến nay. ごろ (khoảng) chỉ một thời điểm nên không hợp với trạng thái kéo dài 取っていない; ばかり, ほど không chỉ mốc thời gian. Nghĩa: Từ mùa hè năm ngoái, tôi không liên lạc với anh ấy."
+      "explanation_vi": "Điền 「以来」: N + 以来 = kể từ mốc đó đến nay. ごろ (khoảng) chỉ một thời điểm nên không hợp với trạng thái kéo dài 取っていない; ばかり, ながら không chỉ mốc thời gian. Nghĩa: Từ mùa hè năm ngoái, tôi không liên lạc với anh ấy."
      },
      {
       "type": "ORDER_STAR",
@@ -1494,10 +1494,10 @@
        "にほかならない",
        "にもならない",
        "にかぎる",
-       "になりがちだ"
+       "でたまらない"
       ],
       "answer_index": 1,
-      "explanation_vi": "Điền 「にもならない」: 足しにもならない = đến mức bù vào chi tiêu cũng chẳng được, chê là quá ít. にほかならない (chính là), にかぎる (tốt nhất là), になりがちだ (hay trở thành) không hợp nghĩa. Nghĩa: Lương thấp thế này thì đến bù vào sinh hoạt cũng chẳng được."
+      "explanation_vi": "Điền 「にもならない」: 足しにもならない = đến mức bù vào chi tiêu cũng chẳng được, chê là quá ít. にほかならない (chính là), にかぎる (tốt nhất là) không hợp nghĩa; でたまらない không đi sau danh từ 足し. Nghĩa: Lương thấp thế này thì đến bù vào sinh hoạt cũng chẳng được."
      },
      {
       "type": "FILL",
@@ -1695,7 +1695,194 @@
    "id": "JG-68ec2cf92f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "値段（　　）、このレストランは味がいい。",
+      "options": [
+       "にかぎって",
+       "によって",
+       "はともかく",
+       "にとって"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「はともかく」: tạm gác chuyện giá cả sang một bên để nói điều đáng nói hơn là vị ngon. にかぎって (riêng lúc…), によって (tùy theo), にとって (đối với) không hợp nghĩa. Nghĩa: Tạm chưa bàn đến giá cả, nhà hàng này đồ ăn rất ngon."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "結果（　　）、最後まで頑張ったことが大切だ。",
+      "options": [
+       "はともかく",
+       "にくらべて",
+       "のせいで",
+       "のおかげで"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「はともかく」: gác kết quả sang một bên, điều quan trọng là đã cố gắng đến cùng. にくらべて (so với), のせいで (tại), のおかげで (nhờ) không hợp nghĩa. Nghĩa: Tạm gác kết quả sang một bên, việc đã cố gắng đến cùng mới là điều quan trọng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "本題に入りましょう",
+       "として、",
+       "じょうだんは",
+       "ともかく"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: じょうだんはともかくとして、本題に入りましょう。 (Đùa vui thì tạm gác lại, chúng ta vào vấn đề chính thôi.). Mảnh ở ô ★ là 「として、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "行くか＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "聞いておこう",
+       "一応予定を",
+       "ともかく、",
+       "どうかは"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 行くかどうかはともかく、一応予定を聞いておこう。 (Tạm gác chuyện có đi hay không, cứ hỏi trước lịch trình đã.). Mảnh ở ô ★ là 「ともかく、」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "給料はともかく、この会社は人間関係がいい。",
+      "options": [
+       "Không chỉ lương cao, công ty này còn có quan hệ giữa mọi người tốt.",
+       "Vì lương thấp nên quan hệ giữa mọi người ở công ty không tốt.",
+       "Lương ở công ty này phụ thuộc vào quan hệ với cấp trên.",
+       "Tạm chưa bàn đến lương, công ty này có quan hệ giữa mọi người rất tốt."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜はともかく (tạm gác N sang một bên): \"Tạm chưa bàn đến lương, công ty này có quan hệ giữa mọi người rất tốt.\" Không nhầm với はもちろん (không chỉ… mà còn)."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼が来るかどうかはともかくとして、準備だけはしておこう。",
+      "options": [
+       "Vì anh ấy chắc chắn đến nên phải chuẩn bị.",
+       "Tạm gác chuyện anh ấy có đến hay không, cứ chuẩn bị sẵn đã.",
+       "Nếu anh ấy không đến thì không cần chuẩn bị.",
+       "Anh ấy đến hay không là tùy vào việc chuẩn bị."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜かどうかはともかくとして (tạm gác chuyện có… hay không): \"Tạm gác chuyện anh ấy có đến hay không, cứ chuẩn bị sẵn đã.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "デザインはともかく、このかばんは軽くて使いやすい。",
+       "見た目がともかく、この料理はおいしい。",
+       "細かいことはともかく、大体の流れを説明します。",
+       "勝てるかどうかはともかく、最後までがんばろう。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「見た目がともかく、この料理はおいしい。」 sai: mẫu này dùng は trước ともかく (N はともかく), không dùng が. Câu đúng: 見た目はともかく、この料理はおいしい。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "勝ち負けはともかくとして、いい試合だった。",
+       "他の人はともかく、私は賛成です。",
+       "値段はともかくに、このパソコンは使いやすい。",
+       "形はともかく、味はいい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「値段はともかくに、このパソコンは使いやすい。」 sai: sau ともかく không thêm に; dạng đúng là はともかく hoặc はともかくとして. Câu đúng: 値段はともかく、このパソコンは使いやすい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ともかく、",
+       "雰囲気がとてもいい。",
+       "この店は料理は"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Quán này món ăn thì chưa bàn đến, nhưng bầu không khí rất dễ chịu."
+     },
+     {
+      "pieces": [
+       "満足だ。",
+       "結果は",
+       "全力を出せたので",
+       "ともかく、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Tạm chưa bàn đến kết quả, tôi hài lòng vì đã dốc hết sức."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "味＿＿、この店は量がとても多い。",
+      "answer": "はともかく",
+      "accept": [
+       "はともかくとして",
+       "は別として"
+      ],
+      "translation_vi": "Tạm chưa bàn đến hương vị, quán này phần ăn rất nhiều."
+     },
+     {
+      "sentence_ja": "できるかどうか＿＿、まずやってみよう。",
+      "answer": "はともかく",
+      "accept": [
+       "はともかくとして",
+       "は別として"
+      ],
+      "translation_vi": "Tạm gác chuyện có làm được hay không, trước hết cứ thử làm xem."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "本当かどうか（　　）、そのうわさはもう町中に広まっている。",
+      "options": [
+       "からといって",
+       "はともかく",
+       "からには",
+       "につれて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「はともかく」: tạm gác chuyện thật hay không, tin đồn đã lan khắp thị trấn. からといって (dù nói là vì), からには (một khi đã), につれて (càng… càng) không đi sau かどうか. Nghĩa: Thật hay không thì chưa bàn, tin đồn đó đã lan ra khắp thị trấn rồi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "見た目はともかく、この服はとてもあたたかい。",
+      "options": [
+       "Tạm không bàn đến vẻ ngoài, bộ quần áo này rất ấm.",
+       "Bộ quần áo này không chỉ đẹp mà còn rất ấm.",
+       "Vì trông đẹp nên bộ quần áo này rất ấm.",
+       "Bộ quần áo này trông ấm nhưng thực ra không ấm."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜はともかく (gác N lại, nói điều đáng chú ý hơn): \"Tạm không bàn đến vẻ ngoài, bộ quần áo này rất ấm.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "細かい点はともかく、計画には賛成だ。",
+       "デザインはともかく、使いやすいパソコンだ。",
+       "初めてにしてはともかく、上手にできた。",
+       "うまくいくかどうかはともかく、やってみたい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「初めてにしてはともかく、上手にできた。」 sai: はともかく đi trực tiếp sau danh từ hoặc かどうか, không ghép với にしては. Câu đúng: 初めてにしては、上手にできた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1722,7 +1909,188 @@
    "id": "JG-08d5822005"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "机の上には、本（　　）ノートやらが散らかっている。",
+      "options": [
+       "なり",
+       "さえ",
+       "こそ",
+       "やら"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「やら」: N やら N やら liệt kê đồ vật lộn xộn, ngụ ý còn nhiều thứ khác. なり (hoặc… hoặc), さえ (ngay cả), こそ (chính) không tạo cặp với やら phía sau. Nghĩa: Trên bàn nào sách nào vở bày bừa bộn."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "引っ越しの日は、荷物を運ぶ（　　）掃除をするやらで、一日中忙しかった。",
+      "options": [
+       "やら",
+       "ので",
+       "ながら",
+       "ほど"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「やら」: Vる やら Vる やらで liệt kê nhiều việc rối rít. ながら phải đi sau thể ます (運びながら); ので, ほど không tạo cặp với やら. Nghĩa: Ngày chuyển nhà, nào là khuân đồ nào là dọn dẹp, bận rộn suốt cả ngày."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "財布を＿＿ ＿＿ ★ ＿＿最悪の一日だった。",
+      "options": [
+       "で、",
+       "迷うやら",
+       "落とすやら",
+       "道に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 財布を落とすやら道に迷うやらで、最悪の一日だった。 (Nào là đánh rơi ví, nào là lạc đường, đúng là một ngày tồi tệ nhất.). Mảnh ở ô ★ là 「迷うやら」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "合格の知らせを聞いて、＿＿ ★ ＿＿ ＿＿言葉が出なかった。",
+      "options": [
+       "したやらで、",
+       "しばらく",
+       "うれしいやら",
+       "ほっと"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 合格の知らせを聞いて、うれしいやらほっとしたやらで、しばらく言葉が出なかった。 (Nghe tin đỗ, tôi vừa mừng vừa nhẹ nhõm, một lúc lâu không nói nên lời.). Mảnh ở ô ★ là 「ほっと」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもが熱を出すやら、夫が出張に行くやらで、今週は大変だった。",
+      "options": [
+       "Vì chồng đi công tác nên con bị sốt, tuần này vất vả.",
+       "Tuần này con không bị sốt, chồng cũng không đi công tác nên rất nhàn.",
+       "Nào là con bị sốt, nào là chồng đi công tác, tuần này thật vất vả.",
+       "Tôi không biết con bị sốt hay chồng đi công tác."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜やら〜やら (liệt kê nhiều việc rối rắm): \"Nào là con bị sốt, nào là chồng đi công tác, tuần này thật vất vả.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "先生にほめられて、うれしいやら恥ずかしいやら、顔が赤くなった。",
+      "options": [
+       "Được thầy khen, tôi vừa vui vừa ngượng, mặt đỏ cả lên.",
+       "Được thầy khen nhưng tôi không vui chút nào.",
+       "Tôi xấu hổ vì bị thầy mắng.",
+       "Thầy khen tôi vì tôi biết xấu hổ."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜やら〜やら (cảm xúc lẫn lộn): \"Được thầy khen, tôi vừa vui vừa ngượng, mặt đỏ cả lên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "風邪で、せきやら熱やらで苦しい。",
+       "パーティーでは、歌うやら踊るやらで、大さわぎだった。",
+       "部屋にはおもちゃやら服やらが散らかっている。",
+       "雨やら、家で休んだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「雨やら、家で休んだ。」 sai: mẫu này cần liệt kê ít nhất hai thứ (〜やら〜やら), không dùng một やら để nêu lý do. Câu đúng: 雨だったので、家で休んだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "試験やら面接やらで、毎日忙しい。",
+       "私のしゅみは読書やらです。",
+       "財布をなくすやら、電車に乗りおくれるやら、ひどい目にあった。",
+       "悲しいやらくやしいやらで、涙が止まらなかった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私のしゅみは読書やらです。」 sai: やら phải dùng theo cặp 〜やら〜やら để liệt kê, không gắn một やら trước です. Câu đúng: 私のしゅみは読書や映画です。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "かかるやらで、",
+       "お金はかかるやら",
+       "疲れてしまった。",
+       "時間は"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Nào là tốn tiền, nào là tốn thời gian, tôi mệt mỏi rã rời."
+     },
+     {
+      "pieces": [
+       "期待やら",
+       "入学式の前の夜は",
+       "不安やらで、",
+       "眠れなかった。"
+      ],
+      "answer_order": [
+       1,
+       0,
+       2,
+       3
+      ],
+      "translation_vi": "Đêm trước lễ nhập học, nào háo hức nào lo lắng, tôi không ngủ được."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "連休は掃除やら洗濯＿＿で、全然休めなかった。",
+      "answer": "やら",
+      "translation_vi": "Kỳ nghỉ dài nào dọn dẹp nào giặt giũ, tôi chẳng nghỉ ngơi được chút nào."
+     },
+     {
+      "sentence_ja": "部屋には古い雑誌＿＿新聞やらが積んである。",
+      "answer": "やら",
+      "translation_vi": "Trong phòng nào tạp chí cũ nào báo cũ chất thành đống."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "急に雨が降り出して、かさを買う（　　）タクシーに乗るやらで、お金がかかった。",
+      "options": [
+       "まま",
+       "やら",
+       "ほど",
+       "うえ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「やら」: Vる やら Vる やらで liệt kê các việc phát sinh làm tốn tiền. まま (cứ để nguyên), ほど (đến mức), うえ (hơn nữa) không tạo cặp với やら phía sau. Nghĩa: Trời bỗng đổ mưa, nào mua ô nào đi taxi, tốn cả đống tiền."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の部屋は服やら本やらで、足の踏み場もない。",
+      "options": [
+       "Phòng anh ấy chỉ có quần áo, không có sách.",
+       "Anh ấy đã dọn quần áo và sách nên phòng rất gọn.",
+       "Không biết phòng anh ấy có quần áo hay sách.",
+       "Phòng anh ấy nào quần áo nào sách vở, đến chỗ đặt chân cũng không có."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜やら〜やら (liệt kê đồ đạc bừa bộn): \"Phòng anh ấy nào quần áo nào sách vở, đến chỗ đặt chân cũng không có.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "結婚式の準備やら引っ越しやらで、毎日忙しい。",
+       "疲れたやら、もう寝ます。",
+       "道は混むやら雨は降るやらで、なかなか着かなかった。",
+       "腹が立つやら情けないやらで、何も言えなかった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「疲れたやら、もう寝ます。」 sai: やら phải đi theo cặp để liệt kê, không dùng một やら để nêu lý do. Câu đúng: 疲れたので、もう寝ます。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

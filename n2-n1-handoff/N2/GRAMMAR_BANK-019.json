@@ -234,15 +234,15 @@
      },
      {
       "type": "ORDER_STAR",
-      "prompt_ja": "この仕事は、＿＿ ＿＿ ★ ＿＿。",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
       "options": [
-       "大変さが分からない",
+       "大変さは分からない",
        "ことには",
-       "実際に",
-       "やってみない"
+       "実際にやってみない",
+       "この仕事の"
       ],
-      "answer_index": 1,
-      "explanation_vi": "Câu đúng: この仕事は、実際にやってみないことには大変さが分からない。 (Công việc này nếu không làm thử thì không hiểu được sự vất vả.). Mảnh ở ô ★ là 「ことには」."
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 実際にやってみないことにはこの仕事の大変さは分からない。 (Nếu không thực sự làm thử thì không hiểu được sự vất vả của công việc này.). Mảnh ở ô ★ là 「この仕事の」."
      },
      {
       "type": "ORDER_STAR",
@@ -308,16 +308,14 @@
     "order_items": [
      {
       "pieces": [
-       "味は",
-       "食べてみない",
-       "分からない。",
-       "ことには、"
+       "ことには、",
+       "味は分からない。",
+       "食べてみない"
       ],
       "answer_order": [
-       1,
-       3,
+       2,
        0,
-       2
+       1
       ],
       "translation_vi": "Nếu không ăn thử thì không biết mùi vị."
      },
@@ -728,23 +726,23 @@
     "order_items": [
      {
       "pieces": [
-       "料理もできる。",
-       "兄は",
-       "勉強ばかりでなく、"
+       "料理も",
+       "できる。",
+       "兄は勉強ばかりでなく、"
       ],
       "answer_order": [
-       1,
        2,
-       0
+       0,
+       1
       ],
       "translation_vi": "Anh trai tôi không chỉ học giỏi mà còn biết nấu ăn."
      },
      {
       "pieces": [
        "役にも",
-       "この本は",
+       "この本はおもしろい",
        "立つ。",
-       "おもしろいばかりでなく、"
+       "ばかりでなく、"
       ],
       "answer_order": [
        1,
@@ -940,15 +938,15 @@
     "order_items": [
      {
       "pieces": [
-       "走り出した。",
-       "鳴るやいなや、",
-       "ベルが",
-       "生徒たちは"
+       "生徒たちは走り出した。",
+       "鳴る",
+       "やいなや、",
+       "ベルが"
       ],
       "answer_order": [
-       2,
-       1,
        3,
+       1,
+       2,
        0
       ],
       "translation_vi": "Chuông vừa reo là học sinh đã chạy ùa ra."
@@ -1149,26 +1147,28 @@
     "order_items": [
      {
       "pieces": [
-       "何か知っているようだ。",
-       "あの様子",
-       "彼は",
+       "彼は何か知っているようだ。",
+       "あの",
+       "様子",
        "からすると、"
       ],
       "answer_order": [
        1,
-       3,
        2,
+       3,
        0
       ],
       "translation_vi": "Xét theo bộ dạng đó thì có vẻ anh ấy biết điều gì đó."
      },
      {
       "pieces": [
-       "長いほうがいい。",
-       "学生からすれば、",
-       "休みは"
+       "休みは長いほうがいい。",
+       "から",
+       "すれば、",
+       "学生"
       ],
       "answer_order": [
+       3,
        1,
        2,
        0
@@ -1691,7 +1691,192 @@
    "id": "JG-2b6a2972f7"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "何度も話し合った（　　）、計画を変えることになった。",
+      "options": [
+       "とたん",
+       "最中に",
+       "末に",
+       "うちに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「末に」: sau quá trình bàn bạc nhiều lần thì cuối cùng đi đến kết quả. とたん (vừa… thì) mâu thuẫn với 何度も; 最中に, うちに không gắn sau Vた. Nghĩa: Sau nhiều lần bàn bạc, cuối cùng đã quyết định thay đổi kế hoạch."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "長い時間迷った（　　）、赤いコートを買った。",
+      "options": [
+       "ついでに",
+       "末に",
+       "かわりに",
+       "くせに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「末に」: phân vân rất lâu rồi cuối cùng mới mua. ついでに (nhân tiện), かわりに (thay vì), くせに (vậy mà) không hợp. Nghĩa: Sau một hồi lâu phân vân, cuối cùng tôi đã mua chiếc áo khoác đỏ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "三時間に＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "結論が出た",
+       "わたる",
+       "話し合いの",
+       "末に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 三時間にわたる話し合いの末に結論が出た。 (Sau cuộc bàn bạc kéo dài ba tiếng, cuối cùng đã có kết luận.). Mảnh ở ô ★ là 「末に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "いろいろ＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "辞めることにした",
+       "末",
+       "会社を",
+       "考えた"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: いろいろ考えた末会社を辞めることにした。 (Sau khi suy nghĩ đủ đường, tôi đã quyết định nghỉ việc ở công ty.). Mảnh ở ô ★ là 「末」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "二人は長いけんかの末、別れてしまった。",
+      "options": [
+       "Hai người chia tay vào cuối tuần vì cãi nhau.",
+       "Dù cãi nhau lâu nhưng hai người vẫn không chia tay.",
+       "Sau một thời gian dài cãi vã, cuối cùng hai người đã chia tay.",
+       "Hai người cãi nhau sau khi chia tay."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu N の + 末(に) (sau một quá trình dài, cuối cùng): \"Sau một thời gian dài cãi vã, cuối cùng hai người đã chia tay.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "苦労の末に完成させた作品が、賞をもらった。",
+      "options": [
+       "Tác phẩm hoàn thành sau bao vất vả đã được nhận giải.",
+       "Tác phẩm được nhận giải nhờ hoàn thành vào cuối năm.",
+       "Vì tác phẩm được nhận giải nên chẳng còn vất vả.",
+       "Tác phẩm chưa hoàn thành nhưng đã được nhận giải."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N の + 末に (sau một quá trình vất vả, cuối cùng): \"Tác phẩm hoàn thành sau bao vất vả đã được nhận giải.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "何度も失敗した末に、やっとうまくいった。",
+       "よく考える末に、留学することに決めた。",
+       "長い議論の末、新しいルールができた。",
+       "一年間探した末に、理想の部屋が見つかった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「よく考える末に、留学することに決めた。」 sai: 末に gắn với Vた hoặc N の, không dùng Vる. Câu đúng: よく考えた末に、留学することに決めた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "迷いに迷った末、この大学を選んだ。",
+       "さんざん悩んだ末に、手術を受けることにした。",
+       "十年にわたる研究の末に、新しい薬が開発された。",
+       "五秒考えた末に、すぐ答えた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「五秒考えた末に、すぐ答えた。」 sai: 末に dùng cho quá trình dài, vất vả; năm giây thì quá ngắn. Câu đúng (dùng mẫu khác): 五秒考えて、すぐ答えた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "彼に本当のことを話した。",
+       "悩んだ",
+       "末に、",
+       "さんざん"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Sau bao trăn trở, cuối cùng tôi đã nói thật với anh ấy."
+     },
+     {
+      "pieces": [
+       "うちのチームが勝った。",
+       "三時間にわたる試合の",
+       "末、"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Sau trận đấu kéo dài ba tiếng, cuối cùng đội chúng tôi đã thắng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "何か月も練習した＿＿、ついに大会で優勝した。",
+      "answer": "末に",
+      "accept": [
+       "末"
+      ],
+      "translation_vi": "Sau nhiều tháng luyện tập, cuối cùng tôi đã vô địch giải đấu."
+     },
+     {
+      "sentence_ja": "いろいろ考えた＿＿、引っ越すことにした。",
+      "answer": "末",
+      "accept": [
+       "末に"
+      ],
+      "translation_vi": "Sau khi suy nghĩ đủ điều, tôi đã quyết định chuyển nhà."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "話し合い（　　）末に、ようやく値段が決まった。",
+      "options": [
+       "に",
+       "を",
+       "の",
+       "が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「の」: danh từ nối với 末 bằng の (N の + 末に). に, を, が không đứng giữa danh từ và 末. Nghĩa: Sau khi bàn bạc, cuối cùng giá cả cũng được quyết định."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "延期を重ねた末、イベントはついに中止になった。",
+      "options": [
+       "Sự kiện bị hủy vào cuối tháng.",
+       "Sau nhiều lần hoãn lại, cuối cùng sự kiện đã bị hủy.",
+       "Sự kiện bị hoãn lại một lần rồi được tổ chức.",
+       "Vì sự kiện bị hủy nên phải hoãn nhiều lần."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vた + 末 (sau một quá trình dài, cuối cùng): \"Sau nhiều lần hoãn lại, cuối cùng sự kiện đã bị hủy.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "長年の努力末に、夢をかなえた。",
+       "長い試合の末、日本が勝った。",
+       "何度も書き直した末に、やっと手紙ができあがった。",
+       "三日間迷った末、新しい車を買うことにした。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「長年の努力末に、夢をかなえた。」 sai: danh từ phải có の trước 末 (努力の末に). Câu đúng: 長年の努力の末に、夢をかなえた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1720,7 +1905,190 @@
    "id": "JG-a315841251"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この写真は私（　　）、何よりも大切な宝物だ。",
+      "options": [
+       "に対して",
+       "について",
+       "にとって",
+       "によって"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にとって」: đứng từ vị trí của tôi mà đánh giá giá trị (大切な宝物). に対して (hướng tới đối tượng), について (về), によって (do, tùy) không hợp. Nghĩa: Bức ảnh này đối với tôi là báu vật quý hơn bất cứ thứ gì."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "お年寄り（　　）、この階段は上るのが大変だ。",
+      "options": [
+       "をはじめ",
+       "にとって",
+       "にかけて",
+       "につれて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「にとって」: đối với người già thì cầu thang này khó leo (đánh giá từ vị trí của họ). をはじめ (tiêu biểu là), にかけて (từ… đến), につれて (càng… càng) không hợp. Nghĩa: Đối với người già, leo cầu thang này rất vất vả."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "留学生に＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "大変なことだ",
+       "レポートを書くのは",
+       "とって",
+       "日本語で"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 留学生にとって日本語でレポートを書くのは大変なことだ。 (Đối với du học sinh, viết báo cáo bằng tiếng Nhật là việc vất vả.). Mảnh ở ô ★ là 「レポートを書くのは」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この町は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "場所だ",
+       "安全な",
+       "とって",
+       "子どもに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この町は子どもにとって安全な場所だ。 (Thị trấn này là nơi an toàn đối với trẻ em.). Mảnh ở ô ★ là 「とって」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本語を勉強している人にとって、敬語は難しいものだ。",
+      "options": [
+       "Người học tiếng Nhật thường dùng kính ngữ với người khác.",
+       "Nhờ học tiếng Nhật mà kính ngữ trở nên dễ hơn.",
+       "Kính ngữ khó hơn đối với người Nhật.",
+       "Đối với người học tiếng Nhật, kính ngữ là thứ khó."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N + にとって (đối với): \"Đối với người học tiếng Nhật, kính ngữ là thứ khó.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "会社にとって、社員は一番の財産だ。",
+      "options": [
+       "Đối với công ty, nhân viên là tài sản quý nhất.",
+       "Nhân viên làm việc vì tài sản của công ty.",
+       "Tùy công ty mà nhân viên có tài sản khác nhau.",
+       "Công ty chia tài sản cho nhân viên."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N + にとって (đối với): \"Đối với công ty, nhân viên là tài sản quý nhất.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "子どもにとって、母親の声は安心できるものだ。",
+       "学生にとって、試験の前の一週間は特に大切だ。",
+       "私にとって、毎朝ジョギングをする。",
+       "農家にとって、雨は大事なものだ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「私にとって、毎朝ジョギングをする。」 sai: vế sau của にとって là đánh giá, cảm nhận, không phải hành động. Câu đúng (dùng mẫu khác): 私は毎朝ジョギングをする。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "外国人にとって、日本の住所は分かりにくい。",
+       "彼は私にとって、誕生日にプレゼントをくれた。",
+       "私にとって、この町はもう一つのふるさとだ。",
+       "忙しい人にとって、このサービスはとても便利だ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は私にとって、誕生日にプレゼントをくれた。」 sai: にとって không chỉ người nhận hành động; vế sau phải là đánh giá. Câu đúng (dùng mẫu khác): 彼は私の誕生日にプレゼントをくれた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "大切な",
+       "人からの手紙だ。",
+       "これは私にとって"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Đây là lá thư của một người quan trọng đối với tôi."
+     },
+     {
+      "pieces": [
+       "住みやすい",
+       "町を作りたい。",
+       "お年寄りにとって"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Tôi muốn xây dựng một thị trấn dễ sống đối với người già."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "家族＿＿、ペットは大切な仲間だ。",
+      "answer": "にとって",
+      "accept": [
+       "にとっては"
+      ],
+      "translation_vi": "Đối với gia đình, thú cưng là người bạn quan trọng."
+     },
+     {
+      "sentence_ja": "初心者＿＿、この山は少し危ない。",
+      "answer": "にとって",
+      "accept": [
+       "にとっては"
+      ],
+      "translation_vi": "Đối với người mới, ngọn núi này hơi nguy hiểm."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "若い人（　　）、この服のデザインは少し古いかもしれない。",
+      "options": [
+       "に比べて",
+       "によると",
+       "とともに",
+       "にとって"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「にとって」: đứng từ góc nhìn người trẻ mà đánh giá thiết kế. に比べて (so với), によると (theo nguồn tin), とともに (cùng với) không hợp. Nghĩa: Đối với người trẻ, thiết kế của bộ quần áo này có lẽ hơi cũ."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "地方の小さな店にとって、大きなスーパーができるのは大問題だ。",
+      "options": [
+       "Các cửa hàng nhỏ ở địa phương đang xây siêu thị lớn.",
+       "Tùy địa phương mà siêu thị lớn có vấn đề khác nhau.",
+       "Đối với các cửa hàng nhỏ ở địa phương, việc siêu thị lớn mở ra là vấn đề lớn.",
+       "Siêu thị lớn gặp khó khăn vì các cửa hàng nhỏ."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu N + にとって (đối với): \"Đối với các cửa hàng nhỏ ở địa phương, việc siêu thị lớn mở ra là vấn đề lớn.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "家族と過ごす時間は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "楽しみだ",
+       "一番の",
+       "私に",
+       "とって"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 家族と過ごす時間は私にとって一番の楽しみだ。 (Thời gian bên gia đình đối với tôi là niềm vui lớn nhất.). Mảnh ở ô ★ là 「一番の」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

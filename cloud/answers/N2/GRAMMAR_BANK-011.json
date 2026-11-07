@@ -148,5 +148,105 @@
   {"type": "MEANING", "prompt_ja": "みんなでこの町の良さを、もっと多くの人に伝えようではないか。", "options": ["Chẳng phải đã truyền tải đến nhiều người rồi sao.", "Chúng ta hãy cùng truyền tải cái hay của thị trấn này đến nhiều người hơn.", "Không ai truyền tải cái hay của thị trấn này cả.", "Nghe nói nhiều người đã biết cái hay của thị trấn này."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vよう + ではないか (hãy cùng…): \"Chúng ta hãy cùng truyền tải cái hay của thị trấn này đến nhiều người hơn.\""},
   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["明日の試合は、全力で戦おうではないか。", "昨日はみんなで遊ぼうではないか。", "困っている人を助けようではないか。", "この機会に、お互いの考えを話し合おうではないか。"], "answer_index": 1, "explanation_vi": "「昨日はみんなで遊ぼうではないか。」 sai: lời kêu gọi hướng tới việc sắp làm, không dùng với 昨日. Câu đúng: 今日はみんなで遊ぼうではないか。"}
  ]
+},
+"JG-6219b84892": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "日本語が上手になりたいなら、日本人ともっと話す（　　）。", "options": ["ことか", "ことだ", "ことがある", "わけだ"], "answer_index": 1, "explanation_vi": "Điền 「ことだ」: Vる + ことだ = nên làm, lời khuyên hay đi với 〜なら. ことか (cảm thán), ことがある (thỉnh thoảng có), わけだ (thảo nào) đều sai nghĩa. Nghĩa: Muốn giỏi tiếng Nhật thì nên nói chuyện nhiều hơn với người Nhật."},
+  {"type": "FILL", "prompt_ja": "太りたくなければ、夜遅く食べない（　　）。", "options": ["ものか", "までだ", "ことか", "ことだ"], "answer_index": 3, "explanation_vi": "Điền 「ことだ」: Vない + ことだ = tốt nhất là đừng làm. ものか, までだ, ことか không mang nghĩa khuyên bảo. Nghĩa: Không muốn béo thì đừng ăn khuya."},
+  {"type": "ORDER_STAR", "prompt_ja": "試験に合格したければ、＿＿ ＿＿ ★ ＿＿。", "options": ["ことだ", "問題を", "解く", "過去の"], "answer_index": 2, "explanation_vi": "Câu đúng: 試験に合格したければ、過去の問題を解くことだ。 (Muốn đỗ kỳ thi thì nên giải đề các năm trước.). Mảnh ở ô ★ là 「解く」."},
+  {"type": "ORDER_STAR", "prompt_ja": "人に信頼されたければ、＿＿ ★ ＿＿ ＿＿。", "options": ["つかない", "だ", "うそを", "こと"], "answer_index": 0, "explanation_vi": "Câu đúng: 人に信頼されたければ、うそをつかないことだ。 (Muốn được người khác tin tưởng thì đừng nói dối.). Mảnh ở ô ★ là 「つかない」."},
+  {"type": "MEANING", "prompt_ja": "道に迷ったら、無理に歩き回らず、人に聞くことだ。", "options": ["Nếu lạc đường thì tôi đã từng hỏi người khác.", "Nếu lạc đường thì đừng cố đi lòng vòng, tốt nhất là hỏi người khác.", "Nếu lạc đường thì không cần hỏi người khác.", "Lạc đường là chuyện thường hay xảy ra."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vる + ことだ (nên, tốt nhất là): \"Nếu lạc đường thì đừng cố đi lòng vòng, tốt nhất là hỏi người khác.\""},
+  {"type": "MEANING", "prompt_ja": "人の悪口は言わないことだ。", "options": ["Tôi chưa từng nói xấu người khác.", "Nói xấu người khác là chuyện thường thấy.", "Tôi quyết định không nói xấu người khác.", "Tốt nhất là đừng nói xấu người khác."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vない + ことだ (tốt nhất là đừng): \"Tốt nhất là đừng nói xấu người khác.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["風邪のときは、温かくしてよく寝ることだ。", "昨日、私は早く寝ることだ。", "うまくなりたければ、失敗を恐れないことだ。", "疲れているなら、今日は早く休むことだ。"], "answer_index": 1, "explanation_vi": "「昨日、私は早く寝ることだ。」 sai: ことだ là lời khuyên về việc nên làm, không dùng để kể việc của mình trong quá khứ. Câu đúng: 昨日、私は早く寝た。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["上手になりたいなら、毎日練習を続けることだ。", "分からないときは、すぐ先生に聞くことだ。", "やせたければ、甘いものを食べたことだ。", "お金をためたいなら、むだな物を買わないことだ。"], "answer_index": 2, "explanation_vi": "「やせたければ、甘いものを食べたことだ。」 sai: ことだ (lời khuyên) đi sau Vる/Vない, không đi sau Vた; về nghĩa cũng phải là đừng ăn. Câu đúng: 甘いものを食べないことだ。"}
+ ],
+ "order_items": [
+  {"pieces": ["ことだ。", "人に聞く前に", "調べてみる", "まず自分で"], "answer_order": [1, 3, 2, 0], "translation_vi": "Trước khi hỏi người khác thì nên tự mình tìm hiểu trước."},
+  {"pieces": ["水を", "ことだ。", "暑い日は", "たくさん飲む"], "answer_order": [2, 0, 3, 1], "translation_vi": "Ngày nắng nóng thì nên uống nhiều nước."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "面接であわてないためには、十分に準備をしておく＿＿だ。", "answer": "こと", "accept": ["事"], "translation_vi": "Để không lúng túng khi phỏng vấn thì nên chuẩn bị thật kỹ."},
+  {"sentence_ja": "失敗したくなければ、人の話をよく聞く＿＿。", "answer": "ことだ", "accept": ["ことです"], "translation_vi": "Không muốn thất bại thì nên lắng nghe kỹ lời người khác."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "早く元気になりたいなら、無理をしない（　　）。", "options": ["ことか", "ことだ", "ものか", "わけか"], "answer_index": 1, "explanation_vi": "Điền 「ことだ」: Vない + ことだ = tốt nhất là đừng làm. ことか, ものか, わけか không mang nghĩa khuyên bảo. Nghĩa: Muốn nhanh khỏe lại thì đừng làm quá sức."},
+  {"type": "MEANING", "prompt_ja": "上手になりたければ、まず上手な人のまねをすることだ。", "options": ["Muốn giỏi thì không cần bắt chước ai.", "Tôi đã từng bắt chước để giỏi lên.", "Muốn giỏi thì trước hết nên bắt chước người giỏi.", "Người giỏi thường hay bắt chước người khác."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜たければ〜ことだ (muốn… thì nên…): \"Muốn giỏi thì trước hết nên bắt chước người giỏi.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["眠れないときは、寝る前にスマホを見ないことだ。", "先週、私は病院に行くことだ。", "新しい仕事に慣れたいなら、先輩にどんどん質問することだ。", "健康でいたければ、よく歩くことだ。"], "answer_index": 1, "explanation_vi": "「先週、私は病院に行くことだ。」 sai: ことだ không dùng để kể việc mình đã làm. Câu đúng: 先週、私は病院に行った。"}
+ ]
+},
+"JG-9477c9f64b": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "簡単な手術だから、そんなに心配する（　　）。", "options": ["ことか", "ところだ", "ことはない", "ばかりだ"], "answer_index": 2, "explanation_vi": "Điền 「ことはない」: Vる + ことはない = không cần phải, dùng để trấn an. ことか, ところだ, ばかりだ không hợp nghĩa. Nghĩa: Ca phẫu thuật đơn giản thôi nên không cần lo lắng đến vậy."},
+  {"type": "FILL", "prompt_ja": "遅れたのは電車のせいなんだから、君が謝る（　　）よ。", "options": ["ことはない", "ことがある", "ことにする", "ことか"], "answer_index": 0, "explanation_vi": "Điền 「ことはない」: lỗi do tàu điện nên không cần bạn xin lỗi. ことがある (thỉnh thoảng có), ことにする (quyết định), ことか (cảm thán) sai nghĩa. Nghĩa: Đến muộn là do tàu điện nên cậu không cần phải xin lỗi đâu."},
+  {"type": "ORDER_STAR", "prompt_ja": "まだ時間があるから、＿＿ ＿＿ ★ ＿＿。", "options": ["ないよ", "行く", "タクシーで", "ことは"], "answer_index": 3, "explanation_vi": "Câu đúng: まだ時間があるから、タクシーで行くことはないよ。 (Vẫn còn thời gian nên không cần đi taxi đâu.). Mảnh ở ô ★ là 「ことは」."},
+  {"type": "ORDER_STAR", "prompt_ja": "一回失敗したくらいで、＿＿ ★ ＿＿ ＿＿。", "options": ["ことは", "ない", "落ち込む", "そんなに"], "answer_index": 2, "explanation_vi": "Câu đúng: 一回失敗したくらいで、そんなに落ち込むことはない。 (Mới thất bại một lần, không cần phải buồn đến thế.). Mảnh ở ô ★ là 「落ち込む」."},
+  {"type": "MEANING", "prompt_ja": "分からないことがあっても、一人で悩むことはないよ。", "options": ["Có điều gì không hiểu thì tôi chưa bao giờ trăn trở một mình.", "Có điều gì không hiểu thì không thể nào trăn trở một mình.", "Có điều gì không hiểu thì cũng không cần phải trăn trở một mình đâu.", "Có điều gì không hiểu thì nên trăn trở một mình."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Vる + ことはない (không cần phải), khác ことがない (chưa từng): \"Có điều gì không hiểu thì cũng không cần phải trăn trở một mình đâu.\""},
+  {"type": "MEANING", "prompt_ja": "高い服を買うことはない。安くていいものもたくさんある。", "options": ["Không cần phải mua quần áo đắt. Cũng có nhiều đồ rẻ mà tốt.", "Chưa từng mua quần áo đắt. Cũng có nhiều đồ rẻ mà tốt.", "Không được phép mua quần áo đắt. Cũng có nhiều đồ rẻ mà tốt.", "Nhất định phải mua quần áo đắt dù có nhiều đồ rẻ mà tốt."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜ことはない (không cần phải, không phải cấm đoán): \"Không cần phải mua quần áo đắt. Cũng có nhiều đồ rẻ mà tốt.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["ちょっとしたミスだから、気にすることはない。", "家族なんだから、遠慮することはないよ。", "わざわざ買ってことはない。", "まだ若いんだから、あわてることはない。"], "answer_index": 2, "explanation_vi": "「わざわざ買ってことはない。」 sai: ことはない đi sau thể từ điển, không đi sau thể て. Câu đúng: わざわざ買うことはない。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["簡単な仕事だから、二人でやることはない。", "そんなに急ぎことはない。", "迎えに来ることはないよ。一人で帰れるから。", "全部覚えることはありません。大事なところだけで十分です。"], "answer_index": 1, "explanation_vi": "「そんなに急ぎことはない。」 sai: trước ことはない phải là thể từ điển, không dùng gốc ます. Câu đúng: そんなに急ぐことはない。"}
+ ],
+ "order_items": [
+  {"pieces": ["ことはない。", "全部", "読む", "時間がなければ、"], "answer_order": [3, 1, 2, 0], "translation_vi": "Nếu không có thời gian thì không cần đọc hết."},
+  {"pieces": ["気を", "ことはないよ。", "使う", "友だちなんだから、"], "answer_order": [3, 0, 2, 1], "translation_vi": "Bạn bè với nhau mà, không cần phải giữ ý đâu."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "電話で話せばいいから、わざわざ行くことは＿＿。", "answer": "ない", "accept": ["ありません"], "translation_vi": "Chỉ cần nói qua điện thoại là được nên không cần phải cất công đến."},
+  {"sentence_ja": "一回負けたくらいで、がっかりする＿＿はないよ。", "answer": "こと", "accept": ["事", "必要"], "translation_vi": "Mới thua một lần thôi mà, không cần phải thất vọng đâu."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "傘なら二本あるから、わざわざ買う（　　）。", "options": ["ことがある", "ことだ", "ことはない", "ことか"], "answer_index": 2, "explanation_vi": "Điền 「ことはない」: đã có hai cái ô nên không cần mua. ことだ (nên mua) trái với lý do, ことがある, ことか sai nghĩa. Nghĩa: Ô thì có hai cái rồi nên không cần cất công mua đâu."},
+  {"type": "MEANING", "prompt_ja": "怒られたからといって、そんなに落ち込むことはない。", "options": ["Bị mắng nên chưa bao giờ buồn như vậy.", "Bị mắng thì không thể nào buồn được.", "Bị mắng thì nên buồn.", "Bị mắng thôi mà, không cần phải buồn đến vậy."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜ことはない (không cần phải): \"Bị mắng thôi mà, không cần phải buồn đến vậy.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["たった五分の遅れだから、謝ることはない。", "もう決まったことだから、悩むことはない。", "まだ間に合うから、急ぐのことはない。", "君が全部やることはないよ。"], "answer_index": 2, "explanation_vi": "「まだ間に合うから、急ぐのことはない。」 sai: ことはない nối thẳng sau Vる, không chen の. Câu đúng: 急ぐことはない。"}
+ ]
+},
+"JG-f0197c90bb": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "エアコンが壊れて、部屋が暑く（　　）。", "options": ["てたまる", "たまらない", "てたまらない", "てもたまらない"], "answer_index": 2, "explanation_vi": "Điền 「てたまらない」: Aい (bỏ い + くて) + たまらない = … không chịu nổi. てたまる thiếu phủ định, たまらない thiếu て, てもたまらない sai mẫu. Nghĩa: Máy lạnh hỏng nên phòng nóng không chịu nổi."},
+  {"type": "FILL", "prompt_ja": "一人暮らしを始めたばかりで、毎日さびし（　　）。", "options": ["いてたまらない", "くてたまらない", "さたまらない", "くたまらない"], "answer_index": 1, "explanation_vi": "Điền 「くてたまらない」: さびしい → さびしくて + たまらない. Các phương án khác chia sai tính từ い. Nghĩa: Mới bắt đầu sống một mình nên ngày nào cũng buồn cô đơn không chịu nổi."},
+  {"type": "ORDER_STAR", "prompt_ja": "一日中歩いたので、＿＿ ＿＿ ★ ＿＿。", "options": ["たまらない", "のです", "足が", "痛くて"], "answer_index": 0, "explanation_vi": "Câu đúng: 一日中歩いたので、足が痛くてたまらないのです。 (Đi bộ cả ngày nên chân đau không chịu nổi.). Mảnh ở ô ★ là 「たまらない」."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿、早く帰りたい。", "options": ["ので", "子どもに", "たまらない", "会いたくて"], "answer_index": 3, "explanation_vi": "Câu đúng: 子どもに会いたくてたまらないので、早く帰りたい。 (Tôi nhớ con không chịu nổi nên muốn về sớm.). Mảnh ở ô ★ là 「会いたくて」."},
+  {"type": "MEANING", "prompt_ja": "この映画の続きが見たくてたまらない。", "options": ["Tôi không muốn xem phần tiếp theo của bộ phim này.", "Tôi muốn xem phần tiếp theo của bộ phim này đến mức không chịu nổi.", "Phần tiếp theo của bộ phim này chán không chịu nổi.", "Tôi đã xem phần tiếp theo của bộ phim này rồi."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vたくて + たまらない (muốn… không chịu nổi): \"Tôi muốn xem phần tiếp theo của bộ phim này đến mức không chịu nổi.\""},
+  {"type": "MEANING", "prompt_ja": "目がかゆくてたまらない。", "options": ["Mắt tôi hơi ngứa một chút.", "Mắt tôi không còn ngứa nữa.", "Đừng dụi mắt khi bị ngứa.", "Mắt tôi ngứa không chịu nổi."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Aくて + たまらない (… không chịu nổi): \"Mắt tôi ngứa không chịu nổi.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["初めての海外旅行が楽しみでたまらない。", "風邪で、のどが痛くてたまらない。", "田中さんはさびしくてたまらない。", "合格の知らせを聞いて、うれしくてたまらなかった。"], "answer_index": 2, "explanation_vi": "「田中さんはさびしくてたまらない。」 sai: てたまらない nói cảm giác của người nói; với người khác cần thêm ようだ/らしい. Câu đúng: 田中さんはさびしくてたまらないようだ。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["このケーキはおいしいてたまらない。", "宿題が多くて、いやでたまらない。", "外が寒くてたまらないので、早く家に入った。", "彼の言葉が気になってたまらない。"], "answer_index": 0, "explanation_vi": "「このケーキはおいしいてたまらない。」 sai: tính từ い phải đổi thành 〜くて. Câu đúng: このケーキはおいしくてたまらない。"}
+ ],
+ "order_items": [
+  {"pieces": ["今日は", "たまらない。", "眠くて", "昨日あまり寝ていないので、"], "answer_order": [3, 0, 2, 1], "translation_vi": "Hôm qua tôi ngủ ít nên hôm nay buồn ngủ không chịu nổi."},
+  {"pieces": ["心配で", "一人で外国に行った", "娘のことが", "たまらない。"], "answer_order": [1, 2, 0, 3], "translation_vi": "Tôi lo cho đứa con gái một mình ra nước ngoài đến mức không chịu nổi."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "歯が痛くて＿＿ので、歯医者に行った。", "answer": "たまらない", "accept": ["たまらなかった", "しかたがない", "仕方がない", "しょうがない", "ならない", "ならなかった"], "translation_vi": "Răng đau không chịu nổi nên tôi đã đi nha sĩ."},
+  {"sentence_ja": "彼女からの返事が待ち遠しく＿＿たまらない。", "answer": "て", "translation_vi": "Tôi mong thư trả lời của cô ấy đến mức không chịu nổi."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "夏休みが楽しみ（　　）たまらない。", "options": ["くて", "で", "に", "な"], "answer_index": 1, "explanation_vi": "Điền 「で」: 楽しみ là danh từ/Aな nên nối bằng で: 楽しみでたまらない. くて dùng cho tính từ い, に và な sai. Nghĩa: Tôi háo hức chờ kỳ nghỉ hè đến mức không chịu nổi."},
+  {"type": "MEANING", "prompt_ja": "試合に負けて、くやしくてたまらない。", "options": ["Thua trận nhưng tôi không thấy tiếc chút nào.", "Thua trận nên tôi không được phép tiếc.", "Thua trận nên tôi ấm ức không chịu nổi.", "Thắng trận nên tôi vui không chịu nổi."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Aくて + たまらない (… không chịu nổi): \"Thua trận nên tôi ấm ức không chịu nổi.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["暑くてたまらないので、窓を開けた。", "テストの結果が心配でたまらない。", "将来のことが不安なたまらない。", "冷たいビールが飲みたくてたまらない。"], "answer_index": 2, "explanation_vi": "「将来のことが不安なたまらない。」 sai: Aな phải nối bằng で, không dùng な. Câu đúng: 将来のことが不安でたまらない。"}
+ ]
+},
+"JG-4d7879d020": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "田中さんの話はおもしろくて、何度聞いても笑わ（　　）。", "options": ["ずにはいる", "ずにはいられない", "ないにはいられない", "ずはいられない"], "answer_index": 1, "explanation_vi": "Điền 「ずにはいられない」: Vない (bỏ ない) + ずにはいられない = không thể không, không kìm được. Các phương án khác sai hình thức của mẫu. Nghĩa: Chuyện của anh Tanaka thú vị đến mức nghe bao nhiêu lần tôi cũng không nhịn được cười."},
+  {"type": "FILL", "prompt_ja": "彼の失礼な言い方には、一言（　　）にはいられなかった。", "options": ["言わない", "言って", "言う", "言わず"], "answer_index": 3, "explanation_vi": "Điền 「言わず」: 言わ + ず + にはいられない. 言わない đi với ではいられない chứ không đi với にはいられない; 言って, 言う sai. Nghĩa: Trước cách nói bất lịch sự của anh ta, tôi không thể không nói một câu."},
+  {"type": "ORDER_STAR", "prompt_ja": "おいしそうなケーキを見ると、＿＿ ＿＿ ★ ＿＿。", "options": ["いられ", "ない", "ずには", "買わ"], "answer_index": 0, "explanation_vi": "Câu đúng: おいしそうなケーキを見ると、買わずにはいられない。 (Thấy bánh ngon là tôi không kìm được mà mua.). Mảnh ở ô ★ là 「いられ」."},
+  {"type": "ORDER_STAR", "prompt_ja": "困っている人を見ると、＿＿ ★ ＿＿ ＿＿。", "options": ["いられない", "ずには", "手を", "貸さ"], "answer_index": 3, "explanation_vi": "Câu đúng: 困っている人を見ると、手を貸さずにはいられない。 (Thấy người gặp khó khăn là tôi không thể không giúp.). Mảnh ở ô ★ là 「貸さ」."},
+  {"type": "MEANING", "prompt_ja": "ニュースで事故の様子を見て、家族の無事を祈らずにはいられなかった。", "options": ["Xem cảnh tai nạn trên tin tức, tôi đã không cầu mong gì cả.", "Xem cảnh tai nạn trên tin tức, tôi không thể không cầu mong gia đình bình an.", "Xem cảnh tai nạn trên tin tức, tôi bị bắt buộc phải cầu nguyện dù không muốn.", "Xem cảnh tai nạn trên tin tức, tôi không được phép cầu nguyện."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (không kìm được, tự nhiên muốn làm), khác ざるを得ない (bị bắt buộc): \"Xem cảnh tai nạn trên tin tức, tôi không thể không cầu mong gia đình bình an.\""},
+  {"type": "MEANING", "prompt_ja": "この本を読むと、誰でも感動せずにはいられないだろう。", "options": ["Đọc cuốn sách này thì chắc không ai xúc động.", "Đọc cuốn sách này mà không xúc động thì không được.", "Đọc cuốn sách này thì chắc ai cũng không thể không xúc động.", "Chưa đọc cuốn sách này thì không thể xúc động."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu せずにはいられない (する → せずに; không thể không): \"Đọc cuốn sách này thì chắc ai cũng không thể không xúc động.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["あまりに美しい景色で、写真を撮らずにはいられなかった。", "その知らせを聞いて、心配しずにはいられなかった。", "子どもの寝顔を見ると、ほほえまずにはいられない。", "あの曲を聞くと、踊らずにはいられない。"], "answer_index": 1, "explanation_vi": "「その知らせを聞いて、心配しずにはいられなかった。」 sai: する đổi thành せず, không phải しず. Câu đúng: 心配せずにはいられなかった。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼の努力には、感心せずにはいられない。", "雨が降らずにはいられない。", "あの人の話し方を見ると、一言注意せずにはいられない。", "悲しいニュースを聞いて、涙を流さずにはいられなかった。"], "answer_index": 1, "explanation_vi": "「雨が降らずにはいられない。」 sai: mẫu này diễn tả hành động của người không kìm được cảm xúc, không dùng cho hiện tượng tự nhiên. Câu đúng: 雨が降りそうだ。"}
+ ],
+ "order_items": [
+  {"pieces": ["いられなかった。", "あまりにおもしろくて、", "最後まで", "読まずには"], "answer_order": [1, 2, 3, 0], "translation_vi": "Hay quá nên tôi không thể không đọc đến cuối."},
+  {"pieces": ["ずには", "友だちの合格を", "いられない。", "喜ば"], "answer_order": [1, 3, 0, 2], "translation_vi": "Tôi không kìm được niềm vui trước việc bạn mình thi đỗ."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "あの悲しい話を聞いて、涙を流さ＿＿いられなかった。", "answer": "ずには", "accept": ["ずに"], "translation_vi": "Nghe câu chuyện buồn đó, tôi không cầm được nước mắt."},
+  {"sentence_ja": "彼の親切には、感謝せず＿＿いられない。", "answer": "には", "accept": ["に"], "translation_vi": "Trước sự tốt bụng của anh ấy, tôi không thể không biết ơn."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "その話を聞いて、私は怒ら（　　）いられなかった。", "options": ["ないには", "なくては", "ずには", "ずにも"], "answer_index": 2, "explanation_vi": "Điền 「ずには」: 怒ら + ずには + いられなかった = không thể không giận. ないには, なくては, ずにも sai hình thức. Nghĩa: Nghe chuyện đó, tôi không thể không nổi giận."},
+  {"type": "MEANING", "prompt_ja": "かわいい子犬を見ると、なでずにはいられない。", "options": ["Thấy chú chó con dễ thương nhưng tôi không vuốt ve nó.", "Không được vuốt ve chú chó con dễ thương.", "Chú chó con dễ thương không chịu ở yên.", "Thấy chú chó con dễ thương là tôi không kìm được mà vuốt ve nó."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (không kìm được): \"Thấy chú chó con dễ thương là tôi không kìm được mà vuốt ve nó.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["困っている子どもを見ると、助けずにはいられない。", "あの歌を聞くと、一緒に歌わずにはいられない。", "その写真を見ると、昔を思い出さずにはいれない。", "うれしい知らせに、家族に電話せずにはいられなかった。"], "answer_index": 2, "explanation_vi": "「その写真を見ると、昔を思い出さずにはいれない。」 sai: phải là いられない (thể khả năng của いる), không phải いれない. Câu đúng: 昔を思い出さずにはいられない。"}
+ ]
 }
 }

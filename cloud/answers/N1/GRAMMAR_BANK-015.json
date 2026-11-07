@@ -73,5 +73,80 @@
   {"type": "MEANING", "prompt_ja": "彼女は誰の助けも借りることなしに、その難しい仕事をやり遂げた。", "options": ["Nhờ có mọi người giúp, cô ấy đã hoàn thành công việc khó khăn.", "Không có ai giúp nên cô ấy đã bỏ dở công việc.", "Cô ấy đã giúp mọi người hoàn thành công việc khó khăn.", "Cô ấy đã hoàn thành công việc khó khăn đó mà không nhờ đến sự giúp đỡ của ai."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜ことなしに (mà không làm): \"Cô ấy đã hoàn thành công việc khó khăn đó mà không nhờ đến sự giúp đỡ của ai.\""},
   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿。", "options": ["考える", "発言すべきではない", "相手の気持ちを", "ことなしに"], "answer_index": 3, "explanation_vi": "Câu đúng: 相手の気持ちを考えることなしに発言すべきではない。 (Không nên phát ngôn mà không nghĩ đến cảm xúc của đối phương.). Mảnh ở ô ★ là 「ことなしに」."}
  ]
+},
+"JG-931bf1f1dc": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "仕事が山ほど残っていて、飲み会（　　）。", "options": ["どころか", "というものだ", "どころの話ではない", "に越したことはない"], "answer_index": 2, "explanation_vi": "Điền 「どころの話ではない」: hoàn cảnh nghiêm trọng đến mức không thể nghĩ đến việc đi nhậu. どころか cần vế sau đối lập, というものだ, に越したことはない không hợp nghĩa. Nghĩa: Việc còn tồn đọng cả núi, chuyện đi nhậu là không thể."},
+  {"type": "FILL", "prompt_ja": "家の中が水浸しで、のんびり休む（　　）。", "options": ["ばかりだった", "どころの話ではなかった", "かいがあった", "に限った"], "answer_index": 1, "explanation_vi": "Điền 「どころの話ではなかった」: nhà ngập nước nên việc nghỉ ngơi là không thể. ばかりだった (chỉ toàn nghỉ) mâu thuẫn với hoàn cảnh, かいがあった, に限った không hợp. Nghĩa: Trong nhà ngập nước, đâu còn tâm trí mà thong thả nghỉ ngơi."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿。", "options": ["行く", "明日は試験だから、", "どころの話ではない", "遊びに"], "answer_index": 0, "explanation_vi": "Câu đúng: 明日は試験だから、遊びに行くどころの話ではない。 (Mai thi rồi nên đi chơi là chuyện không thể.). Mảnh ở ô ★ là 「行く」."},
+  {"type": "ORDER_STAR", "prompt_ja": "赤字が続き、＿＿ ★ ＿＿ ＿＿。", "options": ["話ではない", "どころの", "ボーナス", "社員の"], "answer_index": 2, "explanation_vi": "Câu đúng: 赤字が続き、社員のボーナスどころの話ではない。 (Thua lỗ liên tục, nói gì đến chuyện thưởng cho nhân viên.). Mảnh ở ô ★ là 「ボーナス」."},
+  {"type": "MEANING", "prompt_ja": "子どもが熱を出して、パーティーどころの話ではなかった。", "options": ["Dù con bị sốt, tôi vẫn đi dự tiệc.", "Bữa tiệc vui đến mức tôi quên cả việc con bị sốt.", "Con bị sốt sau khi đi dự tiệc về.", "Con bị sốt nên tôi chẳng còn tâm trí nào mà nghĩ đến tiệc tùng."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜どころの話ではない (đâu phải lúc nói chuyện...): \"Con bị sốt nên tôi chẳng còn tâm trí nào mà nghĩ đến tiệc tùng.\""},
+  {"type": "MEANING", "prompt_ja": "彼の英語は上手どころの話ではない。まるでネイティブだ。", "options": ["Tiếng Anh của anh ấy không giỏi lắm.", "Tiếng Anh của anh ấy đâu chỉ là giỏi, nghe cứ như người bản xứ.", "Anh ấy giỏi tiếng Anh nhưng không thích nói chuyện.", "Anh ấy muốn nói tiếng Anh như người bản xứ."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜どころの話ではない (mức độ vượt xa điều vừa nêu): \"Tiếng Anh của anh ấy đâu chỉ là giỏi, nghe cứ như người bản xứ.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["家族が入院して、仕事どころの話ではない。", "暑いどころの話ではない。まるでサウナだ。", "今日は暇なので、映画どころの話ではない。", "地震で電気も水も止まり、勉強どころの話ではなかった。"], "answer_index": 2, "explanation_vi": "「今日は暇なので、映画どころの話ではない。」 sai: どころの話ではない dùng khi hoàn cảnh khó khăn khiến việc nêu trước là không thể; 'hôm nay rảnh' thì mâu thuẫn. Câu đúng: 今日は暇なので、映画を見に行こう。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["大雪で電車が止まり、出勤どころの話ではない。", "寒いどころの話ではない。手が凍りそうだ。", "隣の工事がうるさくて、昼寝どころの話ではない。", "足をけがして、散歩するのどころの話ではない。"], "answer_index": 3, "explanation_vi": "「足をけがして、散歩するのどころの話ではない。」 sai: どころ đi ngay sau N hoặc Vる, không thêm の. Câu đúng: 足をけがして、散歩するどころの話ではない。"}
+ ],
+ "order_items": [
+  {"pieces": ["どころの話ではない。", "結婚", "給料が安くて、", "今の"], "answer_order": [3, 2, 1, 0], "translation_vi": "Lương hiện giờ thấp, chuyện kết hôn còn xa vời lắm."},
+  {"pieces": ["眠い", "話ではなかった。", "徹夜明けで", "どころの"], "answer_order": [2, 0, 3, 1], "translation_vi": "Sau đêm thức trắng, tôi buồn ngủ đến mức chữ buồn ngủ còn chưa đủ để tả."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "毎日残業続きで、趣味＿＿。", "answer": "どころの話ではない", "accept": ["どころではない"], "translation_vi": "Ngày nào cũng tăng ca, nói gì đến chuyện sở thích."},
+  {"sentence_ja": "店が忙しすぎて、昼ご飯を食べる＿＿。", "answer": "どころの話ではなかった", "accept": ["どころではなかった"], "translation_vi": "Quán đông khách quá, đến ăn trưa cũng không có thời gian."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "台風で家の屋根が飛ばされ、正月（　　）。", "options": ["ずくめだった", "ならではだった", "ばかりではなかった", "どころの話ではなかった"], "answer_index": 3, "explanation_vi": "Điền 「どころの話ではなかった」: mái nhà bị bão thổi bay nên chẳng còn tâm trí đón Tết. ずくめ (toàn là), ならでは (chỉ riêng... mới có), ばかりではない (không chỉ) không hợp nghĩa. Nghĩa: Mái nhà bị bão thổi bay, đâu còn tâm trí mà đón Tết."},
+  {"type": "MEANING", "prompt_ja": "今月は売り上げが半分になり、昇給どころの話ではない。", "options": ["Doanh thu tháng này giảm một nửa, chuyện tăng lương là không thể nghĩ tới.", "Doanh thu giảm một nửa nhưng lương vẫn được tăng.", "Nhờ doanh thu tăng gấp đôi nên lương được tăng.", "Tháng này chỉ bàn chuyện tăng lương thôi."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜どころの話ではない (đâu phải lúc nói chuyện...): \"Doanh thu tháng này giảm một nửa, chuyện tăng lương là không thể nghĩ tới.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["試合前にけが人が続出して、優勝どころの話ではない。", "彼は謝るどころの話ではない、逆に怒り出した。", "うるさいどころの話ではない。窓ガラスが揺れるほどだ。", "親が倒れて、海外旅行どころの話ではなくなった。"], "answer_index": 1, "explanation_vi": "「彼は謝るどころの話ではない、逆に怒り出した。」 sai: ý 'không những không... mà ngược lại' phải dùng どころか, không dùng どころの話ではない. Câu đúng: 彼は謝るどころか、逆に怒り出した。"}
+ ]
+},
+"JG-ebdb682caf": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "彼の厳しい言葉は、部下への愛情（　　）ものだった。", "options": ["ゆえに", "ずくめの", "ゆえの", "ながらの"], "answer_index": 2, "explanation_vi": "Điền 「ゆえの」: sau đó là danh từ もの nên phải dùng dạng định ngữ ゆえの + N. ゆえに không bổ nghĩa trực tiếp cho danh từ, ずくめの, ながらの không hợp nghĩa. Nghĩa: Những lời nghiêm khắc của anh ấy xuất phát từ tình thương dành cho cấp dưới."},
+  {"type": "FILL", "prompt_ja": "人気店（　　）悩みもあって、毎日行列の整理が大変だそうだ。", "options": ["だらけの", "めいた", "まみれの", "ゆえの"], "answer_index": 3, "explanation_vi": "Điền 「ゆえの」: 人気店ゆえの悩み = nỗi phiền muộn chính vì là quán đông khách. だらけの, まみれの (đầy, dính đầy), めいた (có vẻ như) không hợp nghĩa. Nghĩa: Nghe nói vì là quán nổi tiếng nên cũng có nỗi khổ riêng, ngày nào việc xếp hàng cho khách cũng vất vả."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿を抱えている。", "options": ["孤独", "ゆえの", "彼は", "天才"], "answer_index": 1, "explanation_vi": "Câu đúng: 彼は天才ゆえの孤独を抱えている。 (Anh ấy mang nỗi cô độc sinh ra từ chính việc là thiên tài.). Mảnh ở ô ★ là 「ゆえの」."},
+  {"type": "ORDER_STAR", "prompt_ja": "留学して最初の一年は、＿＿ ★ ＿＿ ＿＿だった。", "options": ["ゆえの", "苦労の連続", "土地", "慣れない"], "answer_index": 2, "explanation_vi": "Câu đúng: 留学して最初の一年は、慣れない土地ゆえの苦労の連続だった。 (Năm đầu du học là chuỗi vất vả do sống ở vùng đất xa lạ.). Mảnh ở ô ★ là 「土地」."},
+  {"type": "MEANING", "prompt_ja": "これは真面目な性格ゆえの悩みだ。", "options": ["Vì có nỗi phiền muộn nên anh ấy trở nên nghiêm túc.", "Người nghiêm túc thì không có phiền muộn.", "Đây là nỗi phiền muộn xuất phát từ tính cách nghiêm túc.", "Đây là cách giải quyết phiền muộn cho người nghiêm túc."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜ゆえの (do... mà có): \"Đây là nỗi phiền muộn xuất phát từ tính cách nghiêm túc.\""},
+  {"type": "MEANING", "prompt_ja": "初心者ゆえのミスなので、あまり責めないでください。", "options": ["Vì là người mới nên được phép mắc lỗi nhiều lần.", "Đây là lỗi do còn là người mới, xin đừng trách nhiều.", "Người mới không bao giờ mắc lỗi.", "Hãy trách người mới thật nghiêm để họ không mắc lỗi."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜ゆえの (do... mà có): \"Đây là lỗi do còn là người mới, xin đừng trách nhiều.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["責任感が強いゆえの悩みもある。", "豊かな国ゆえの問題が、近年増えている。", "親の愛情ゆえの厳しさだと、今ならわかる。", "経験不足ゆえの、失敗してしまった。"], "answer_index": 3, "explanation_vi": "「経験不足ゆえの、失敗してしまった。」 sai: ゆえの phải có danh từ đi ngay sau; muốn nối vế câu thì dùng ゆえに. Câu đúng: 経験不足ゆえに、失敗してしまった。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["小さな会社ゆえの身軽さが、この会社の強みだ。", "雨ゆえの傘を持って出かけた。", "若さゆえの無謀な挑戦も、今では良い思い出だ。", "貧しさゆえの苦労を、彼は一度も口にしなかった。"], "answer_index": 1, "explanation_vi": "「雨ゆえの傘を持って出かけた。」 sai: ゆえの nói đặc điểm hay kết quả bắt nguồn từ bản chất của N, không dùng cho lý do thường ngày như 'vì mưa nên mang ô'. Câu đúng: 雨なので、傘を持って出かけた。"}
+ ],
+ "order_items": [
+  {"pieces": ["ゆえの", "都会", "便利さに", "慣れてしまった。"], "answer_order": [1, 0, 2, 3], "translation_vi": "Tôi đã quen với sự tiện lợi vốn có của thành phố."},
+  {"pieces": ["誤解を", "正直すぎる", "ゆえの", "性格", "招くこともある。"], "answer_order": [1, 3, 2, 0, 4], "translation_vi": "Tính cách quá thẳng thắn đôi khi cũng dẫn đến hiểu lầm."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "大企業＿＿安心感があり、この会社を選んだ。", "answer": "ゆえの", "accept": ["故の"], "translation_vi": "Vì có cảm giác yên tâm nhờ là doanh nghiệp lớn nên tôi đã chọn công ty này."},
+  {"sentence_ja": "美しさ＿＿悲しみが、この物語には描かれている。", "answer": "ゆえの", "accept": ["故の"], "translation_vi": "Câu chuyện này khắc họa nỗi buồn sinh ra từ chính vẻ đẹp."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "親（　　）心配だと分かっていても、つい反発してしまう。", "options": ["まみれの", "ゆえの", "ずくめの", "ゆえに"], "answer_index": 1, "explanation_vi": "Điền 「ゆえの」: theo sau là danh từ 心配 nên dùng ゆえの + N (nỗi lo vì là cha mẹ). ゆえに không bổ nghĩa cho danh từ, まみれの, ずくめの không hợp nghĩa. Nghĩa: Dù biết đó là nỗi lo của người làm cha mẹ, tôi vẫn cứ lỡ phản kháng."},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["大都市ゆえの交通渋滞に、毎朝悩まされている。", "立場ゆえの発言だと、皆わかっていた。", "彼は優しい性格ゆえの、誰にでも好かれている。", "人気ゆえの品不足が続いている。"], "answer_index": 2, "explanation_vi": "「彼は優しい性格ゆえの、誰にでも好かれている。」 sai: sau ゆえの phải là danh từ; nối vế nguyên nhân thì dùng ゆえに. Câu đúng: 彼は優しい性格ゆえに、誰にでも好かれている。"},
+  {"type": "MEANING", "prompt_ja": "これは豊かな社会ゆえの問題と言えるだろう。", "options": ["Đây có thể nói là vấn đề sinh ra chính vì xã hội giàu có.", "Xã hội giàu có thì không có vấn đề gì.", "Vì có vấn đề nên xã hội trở nên giàu có.", "Đây là cách để xã hội trở nên giàu có."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜ゆえの (do... mà có): \"Đây có thể nói là vấn đề sinh ra chính vì xã hội giàu có.\""}
+ ]
+},
+"JG-d7de15b4fe": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "疲れたときは、温泉に入る（　　）。", "options": ["に限って", "に限り", "に限る", "に限らない"], "answer_index": 2, "explanation_vi": "Điền 「に限る」: Vる + に限る = làm việc đó là nhất (ý kiến người nói). に限って, に限り là 'chỉ riêng' và cần vế sau, に限らない là 'không chỉ', không hợp nghĩa. Nghĩa: Lúc mệt thì không gì bằng ngâm suối nước nóng."},
+  {"type": "FILL", "prompt_ja": "暑い夏の日は、冷たいそば（　　）。", "options": ["にすぎない", "に限る", "に違いない", "にほかならない"], "answer_index": 1, "explanation_vi": "Điền 「に限る」: N + に限る = N là tốt nhất. にすぎない (chỉ là), に違いない (chắc chắn), にほかならない (chính là) không diễn tả sở thích 'là nhất'. Nghĩa: Ngày hè nóng nực thì không gì bằng mì soba lạnh."},
+  {"type": "ORDER_STAR", "prompt_ja": "旅行の荷物は＿＿ ＿＿ ★ ＿＿。", "options": ["少なく", "に限る", "できるだけ", "する"], "answer_index": 3, "explanation_vi": "Câu đúng: 旅行の荷物はできるだけ少なくするに限る。 (Hành lý đi du lịch thì tốt nhất là mang càng ít càng hay.). Mảnh ở ô ★ là 「する」."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿。", "options": ["人に聞く", "に限る", "すぐに", "分からないことは"], "answer_index": 2, "explanation_vi": "Câu đúng: 分からないことはすぐに人に聞くに限る。 (Điều gì không hiểu thì tốt nhất là hỏi người khác ngay.). Mảnh ở ô ★ là 「すぐに」."},
+  {"type": "MEANING", "prompt_ja": "ストレスがたまったときは、思い切り歌うに限る。", "options": ["Khi căng thẳng thì không gì bằng hát thật thỏa thích.", "Chỉ khi căng thẳng tôi mới hát.", "Khi căng thẳng, không nên hát to.", "Hát nhiều quá sẽ gây căng thẳng."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜に限る (... là nhất): \"Khi căng thẳng thì không gì bằng hát thật thỏa thích.\""},
+  {"type": "MEANING", "prompt_ja": "中古車を買うなら、信頼できる店に限る。", "options": ["Chỉ có cửa hàng uy tín mới bán xe cũ.", "Mua xe cũ thì không nên đến cửa hàng uy tín.", "Nếu mua xe cũ thì tốt nhất là ở cửa hàng đáng tin cậy.", "Cửa hàng đáng tin cậy chỉ bán xe mới."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜に限る (... là nhất): \"Nếu mua xe cũ thì tốt nhất là ở cửa hàng đáng tin cậy.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["寒い夜は、鍋料理に限る。", "迷ったときは、専門家に相談するに限る。", "面倒なことは、早めに片付けるに限る。", "昨日の試合は、日本チームが勝つに限った。"], "answer_index": 3, "explanation_vi": "「昨日の試合は、日本チームが勝つに限った。」 sai: に限る là ý kiến chủ quan 'là nhất', không dùng để thuật lại sự việc khách quan trong quá khứ. Câu đúng: 昨日の試合は、日本チームが勝った。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["危ない場所には近づかないに限る。", "疲れたときは、早く寝たに限る。", "花見をするなら、この公園に限る。", "旅行するなら、春の京都に限る。"], "answer_index": 1, "explanation_vi": "「疲れたときは、早く寝たに限る。」 sai: に限る đi sau N hoặc Vる (cũng có Vない), không đi sau thể た. Câu đúng: 疲れたときは、早く寝るに限る。"}
+ ],
+ "order_items": [
+  {"pieces": ["限る。", "晴れた日は公園を", "散歩するに"], "answer_order": [1, 2, 0], "translation_vi": "Ngày nắng đẹp thì không gì bằng đi dạo công viên."},
+  {"pieces": ["限る。", "寝不足の", "昼寝に", "日は"], "answer_order": [1, 3, 2, 0], "translation_vi": "Những ngày thiếu ngủ thì không gì bằng một giấc ngủ trưa."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "頭が痛いときは、薬を飲んで寝る＿＿。", "answer": "に限る", "accept": ["にかぎる"], "translation_vi": "Lúc đau đầu thì tốt nhất là uống thuốc rồi đi ngủ."},
+  {"sentence_ja": "寿司を食べるなら、やっぱりこの店＿＿。", "answer": "に限る", "accept": ["にかぎる"], "translation_vi": "Nếu ăn sushi thì quả nhiên không đâu bằng quán này."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "嫌なことは、早く忘れる（　　）。", "options": ["に限らず", "限りだ", "に限って", "に限る"], "answer_index": 3, "explanation_vi": "Điền 「に限る」: Vる + に限る = làm thế là tốt nhất. に限らず, に限って cần vế sau, 限りだ đi với tính từ cảm xúc (うれしい限りだ). Nghĩa: Chuyện không vui thì tốt nhất là quên đi cho nhanh."},
+  {"type": "MEANING", "prompt_ja": "雨の日は、家でゆっくり本を読むに限る。", "options": ["Chỉ vào ngày mưa tôi mới đọc sách.", "Ngày mưa thì không gì bằng ở nhà thong thả đọc sách.", "Ngày mưa không ra ngoài được nên đành ở nhà đọc sách.", "Ngày mưa tôi không thích đọc sách ở nhà."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜に限る (... là nhất): \"Ngày mưa thì không gì bằng ở nhà thong thả đọc sách.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["肩がこったときは、軽い運動に限る。", "眠れない夜は、温かい牛乳を飲むに限る。", "この店のケーキは、毎日売り切れに限る。", "知らない道を歩くときは、地図を確認するに限る。"], "answer_index": 2, "explanation_vi": "「この店のケーキは、毎日売り切れに限る。」 sai: に限る dùng để nói lựa chọn tốt nhất theo ý người nói, không dùng mô tả sự thật khách quan. Câu đúng: この店のケーキは、毎日売り切れになる。"}
+ ]
 }
 }
