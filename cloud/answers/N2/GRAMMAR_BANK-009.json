@@ -1,0 +1,52 @@
+{
+ "JG-df00d02bd4": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "電話番号も住所も分からないので、連絡し（　　）。", "options": ["かねない", "次第だ", "ようがない", "てならない"], "answer_index": 2, "explanation_vi": "Điền 「ようがない」: Vます(bỏ ます) + ようがない = muốn làm cũng không có cách nào. かねない (có thể xảy ra việc xấu), 次第だ, てならない không hợp nghĩa câu. Nghĩa: Không biết cả số điện thoại lẫn địa chỉ nên không có cách nào liên lạc."},
+   {"type": "FILL", "prompt_ja": "説明書が全部外国語で書いてあって、使い方を調べ（　　）。", "options": ["ながら", "ようがない", "ついでに", "たところ"], "answer_index": 1, "explanation_vi": "Điền 「ようがない」: 調べ + ようがない = không có cách nào tra cứu. ながら, ついでに, たところ đều cần vế sau nên không thể kết câu ở đây. Nghĩa: Sách hướng dẫn viết toàn bằng tiếng nước ngoài nên không có cách nào tra cách dùng."},
+   {"type": "ORDER_STAR", "prompt_ja": "犯人の顔を見ていないのだから、＿＿ ＿＿ ★ ＿＿。", "options": ["ありません", "説明の", "私には", "しようが"], "answer_index": 3, "explanation_vi": "Câu đúng: 犯人の顔を見ていないのだから、私には説明のしようがありません。 (Tôi không nhìn thấy mặt thủ phạm nên không có cách nào mô tả.). Mảnh ở ô ★ là 「しようが」."},
+   {"type": "ORDER_STAR", "prompt_ja": "相手がどこに住んでいるかも分からないので、＿＿ ＿＿ ★ ＿＿。", "options": ["ない", "ようが", "謝りに", "行き"], "answer_index": 1, "explanation_vi": "Câu đúng: 相手がどこに住んでいるかも分からないので、謝りに行きようがない。 (Không biết người đó sống ở đâu nên không có cách nào đến xin lỗi.). Mảnh ở ô ★ là 「ようが」."},
+   {"type": "MEANING", "prompt_ja": "パスワードを忘れてしまったので、ファイルを開きようがない。", "options": ["Vì quên mật khẩu nên tôi đành phải mở tệp bằng cách khác.", "Dù quên mật khẩu nhưng tôi vẫn mở được tệp.", "Vì quên mật khẩu nên không có cách nào mở được tệp.", "Vì quên mật khẩu nên tệp có thể bị người khác mở."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Vます + ようがない (không có cách nào làm): \"Vì quên mật khẩu nên không có cách nào mở được tệp.\""},
+   {"type": "MEANING", "prompt_ja": "材料が一つも残っていないので、料理の作りようがない。", "options": ["Vì không còn chút nguyên liệu nào nên tôi định đi mua rồi nấu.", "Vì không còn chút nguyên liệu nào nên chẳng có cách nào nấu ăn.", "Dù không còn nguyên liệu nào nhưng tôi vẫn cố nấu được một món.", "Vì không còn nguyên liệu nên món ăn có thể không ngon."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu N の + Vます + ようがない (không có cách nào làm): \"Vì không còn chút nguyên liệu nào nên chẳng có cách nào nấu ăn.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["道が分からないので、行くようがない。", "鍵をなくしてしまって、家に入りようがない。", "住所が分からないので、荷物の送りようがない。", "情報が少なすぎて、判断のしようがない。"], "answer_index": 0, "explanation_vi": "「道が分からないので、行くようがない。」 sai: ようがない đi sau thể ます bỏ ます, không đi sau thể từ điển. Câu đúng: 道が分からないので、行きようがない。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["地図がないので、駅への道の教えようがない。", "名前も知らないので、その人の探しようがない。", "鍵がないので、ドアを開けたようがない。", "ここまで壊れてしまっては、直しようがない。"], "answer_index": 2, "explanation_vi": "「鍵がないので、ドアを開けたようがない。」 sai: trước ようがない không dùng thể た; phải là thể ます bỏ ます. Câu đúng: 鍵がないので、ドアを開けようがない。"}
+  ],
+  "order_items": [
+   {"pieces": ["しようが", "説明の", "ありません。", "こんなに複雑だと、"], "answer_order": [3, 1, 0, 2], "translation_vi": "Phức tạp thế này thì không có cách nào giải thích."},
+   {"pieces": ["ない。", "連絡の", "しようが", "携帯を家に忘れたので、"], "answer_order": [3, 1, 2, 0], "translation_vi": "Vì để quên điện thoại ở nhà nên không có cách nào liên lạc."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "道路が雪で全部閉まっていて、山の家へ行き＿＿がない。", "answer": "よう", "accept": ["様"], "translation_vi": "Đường bị tuyết chặn hết nên không có cách nào lên nhà trên núi."},
+   {"sentence_ja": "シャツがこんなに破れていては、もう縫い＿＿。", "answer": "ようがない", "accept": ["ようがありません", "様がない"], "translation_vi": "Áo sơ mi rách đến mức này thì không còn cách nào khâu lại được nữa."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "証拠が何もないので、彼が犯人だと証明（　　）。", "options": ["しかねない", "しようがない", "しがちだ", "しつつある"], "answer_index": 1, "explanation_vi": "Điền 「しようがない」: する → しようがない, nghĩa là không có cách nào chứng minh. しかねない (có thể gây việc xấu), しがちだ (hay làm), しつつある (đang dần làm) không hợp với lý do 'không có chứng cứ'. Nghĩa: Không có chứng cứ gì nên không có cách nào chứng minh anh ta là thủ phạm."},
+   {"type": "MEANING", "prompt_ja": "どの店も閉まっていて、薬の買いようがなかった。", "options": ["Cửa hàng nào cũng đóng cửa nên đã không có cách nào mua thuốc.", "Cửa hàng nào cũng đóng cửa nên tôi đã mua thuốc ở chỗ khác.", "Cửa hàng nào cũng bán thuốc nên tôi không biết mua ở đâu.", "Cửa hàng nào cũng đóng cửa nên tôi không muốn mua thuốc nữa."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu N の + Vます + ようがない ở quá khứ (đã không có cách nào làm): \"Cửa hàng nào cũng đóng cửa nên đã không có cách nào mua thuốc.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["説明書がないので、組み立てようがない。", "連絡先を知らないので、お礼の伝えようがない。", "時間がもうないので、準備のしようがない。", "名前も知らないので、探すしようがない。"], "answer_index": 3, "explanation_vi": "「名前も知らないので、探すしようがない。」 sai: phải gắn ようがない vào thể ます bỏ ます của chính động từ đó (探し), không thêm し sau thể từ điển. Câu đúng: 名前も知らないので、探しようがない。"}
+  ]
+ },
+ "JG-55be0484f3": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "地震はいつどこで起こり（　　）ことだから、普段から準備しておこう。", "options": ["ようがない", "かけの", "得る", "っぽい"], "answer_index": 2, "explanation_vi": "Điền 「得る」: 起こり得る = có thể xảy ra. ようがない (không có cách nào) mâu thuẫn với vế sau 'hãy chuẩn bị'; かけの, っぽい không hợp nghĩa. Nghĩa: Động đất là chuyện có thể xảy ra bất cứ lúc nào, ở đâu, nên hãy chuẩn bị từ bình thường."},
+   {"type": "FILL", "prompt_ja": "彼がうそをつくなんて、そんなことはあり（　　）。", "options": ["得ない", "がちだ", "かねる", "次第だ"], "answer_index": 0, "explanation_vi": "Điền 「得ない」: あり得ない là dạng phủ định của あり得る, nghĩa 'không thể có'. ありがちだ (thường hay có), ありかねる, あり次第だ không hợp với なんて (bất ngờ, không tin). Nghĩa: Anh ấy mà nói dối ư, chuyện đó không thể có."},
+   {"type": "ORDER_STAR", "prompt_ja": "どんなに注意していても、ミスは＿＿ ＿＿ ★ ＿＿。", "options": ["ことだ", "得る", "誰にでも", "起こり"], "answer_index": 1, "explanation_vi": "Câu đúng: どんなに注意していても、ミスは誰にでも起こり得ることだ。 (Dù cẩn thận đến đâu, sai sót vẫn là chuyện có thể xảy ra với bất kỳ ai.). Mảnh ở ô ★ là 「得る」."},
+   {"type": "ORDER_STAR", "prompt_ja": "医者は＿＿ ＿＿ ★ ＿＿試したそうだ。", "options": ["考え", "方法を", "得る", "限りの"], "answer_index": 3, "explanation_vi": "Câu đúng: 医者は考え得る限りの方法を試したそうだ。 (Nghe nói bác sĩ đã thử mọi cách có thể nghĩ ra.). Mảnh ở ô ★ là 「限りの」."},
+   {"type": "MEANING", "prompt_ja": "計画通りに進まないことも十分あり得る。", "options": ["Chắc chắn mọi việc sẽ tiến triển theo kế hoạch.", "Không thể có chuyện không tiến triển theo kế hoạch.", "Đáng lẽ mọi việc phải tiến triển theo kế hoạch.", "Hoàn toàn có thể xảy ra việc không tiến triển theo kế hoạch."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu あり得る (có thể xảy ra): \"Hoàn toàn có thể xảy ra việc không tiến triển theo kế hoạch.\""},
+   {"type": "MEANING", "prompt_ja": "この問題は誰にでも起こり得る。", "options": ["Vấn đề này chỉ xảy ra với một số người.", "Vấn đề này có thể xảy ra với bất kỳ ai.", "Vấn đề này không thể xảy ra với ai cả.", "Ai cũng đã từng gặp vấn đề này."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vます + 得る (có thể xảy ra): \"Vấn đề này có thể xảy ra với bất kỳ ai.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["そんなことは十分あり得る話だ。", "考え得る方法はすべて試した。", "事故はいつでも起こる得る。", "彼が遅れて来ることもあり得る。"], "answer_index": 2, "explanation_vi": "「事故はいつでも起こる得る。」 sai: 得る đi sau thể ます bỏ ます, không đi sau thể từ điển. Câu đúng: 事故はいつでも起こり得る。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["そんなことはあり得らない。", "地震はどこでも起こり得る。", "それは十分考え得ることだ。", "彼が失敗することもあり得る。"], "answer_index": 0, "explanation_vi": "「そんなことはあり得らない。」 sai: phủ định của 得る là 得ない (えない), không có dạng 得らない. Câu đúng: そんなことはあり得ない。"}
+  ],
+  "order_items": [
+   {"pieces": ["あり得る", "十分", "電車が遅れることも", "話だ。"], "answer_order": [2, 1, 0, 3], "translation_vi": "Chuyện tàu điện bị trễ cũng hoàn toàn có thể xảy ra."},
+   {"pieces": ["問題を", "事前に考えておく。", "起こり", "得る"], "answer_order": [2, 3, 0, 1], "translation_vi": "Suy nghĩ trước về những vấn đề có thể xảy ra."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "どんなに気をつけても、事故は起こり＿＿。", "answer": "得る", "accept": ["うる", "える"], "translation_vi": "Dù cẩn thận đến đâu thì tai nạn vẫn có thể xảy ra."},
+   {"sentence_ja": "あの真面目な田中さんが遅刻するなんて、あり＿＿。", "answer": "得ない", "accept": ["えない"], "translation_vi": "Anh Tanaka nghiêm túc như thế mà đi muộn thì không thể có chuyện đó."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "これは考え（　　）最もいい方法だと思う。", "options": ["得る", "がたい", "かねない", "ようがない"], "answer_index": 0, "explanation_vi": "Điền 「得る」: 考え得る = có thể nghĩ ra. 考えがたい (khó nghĩ tới), 考えかねない, 考えようがない (không có cách nghĩ) mâu thuẫn với 'cách tốt nhất'. Nghĩa: Tôi nghĩ đây là cách tốt nhất có thể nghĩ ra."},
+   {"type": "MEANING", "prompt_ja": "将来、この町に大きな地震が起こることもあり得る。", "options": ["Trong tương lai, thị trấn này chắc chắn sẽ không có động đất lớn.", "Trước đây thị trấn này đã từng có động đất lớn.", "Trong tương lai, thị trấn này cũng có thể xảy ra động đất lớn.", "Thị trấn này đang chuẩn bị cho động đất lớn trong tương lai."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu あり得る (có thể xảy ra): \"Trong tương lai, thị trấn này cũng có thể xảy ra động đất lớn.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["あの店がなくなるなんて、あり得ない。", "そういうことは誰にでもある得る。", "考え得る問題を全部書き出した。", "失敗することも十分あり得る。"], "answer_index": 1, "explanation_vi": "「そういうことは誰にでもある得る。」 sai: 得る gắn vào thể ます bỏ ます (あり), không gắn vào thể từ điển ある. Câu đúng: そういうことは誰にでもあり得る。"}
+  ]
+ }
+}

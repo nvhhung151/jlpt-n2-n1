@@ -4,7 +4,194 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "薬はたくさん飲めば早く治る（　　）ものでもない。",
+      "options": [
+       "ために",
+       "という",
+       "ほど",
+       "ことに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「という」: mẫu là thể thường + というものでもない, phủ nhận quan niệm 'cứ… là…'. ために, ほど, ことに không ghép với ものでもない. Nghĩa: Không phải cứ uống nhiều thuốc là sẽ khỏi nhanh."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "お金さえあれば幸せになれる（　　）。",
+      "options": [
+       "というものでもなる",
+       "というものにもいかない",
+       "というものをしない",
+       "というものでもない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「というものでもない」: cụm cố định là というもの + でもない; でもなる, にもいかない, をしない đều không tồn tại. Nghĩa: Không phải cứ có tiền là sẽ hạnh phúc."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "高い道具を＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ものでもない",
+       "使えば",
+       "という",
+       "上手になる"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 高い道具を使えば上手になるというものでもない。 (Không phải cứ dùng dụng cụ đắt tiền là sẽ giỏi lên.). Mảnh ở ô ★ là 「という」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "勉強は、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "いい",
+       "やれば",
+       "長い時間",
+       "というものでもない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 勉強は、長い時間やればいいというものでもない。 (Việc học không phải cứ học thật nhiều giờ là được.). Mảnh ở ô ★ là 「やれば」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "有名な大学を出たから、いい仕事ができるというものでもない。",
+      "options": [
+       "Vì tốt nghiệp đại học danh tiếng nên chắc chắn sẽ làm việc giỏi.",
+       "Không phải cứ tốt nghiệp đại học danh tiếng là sẽ làm tốt công việc.",
+       "Không tốt nghiệp đại học danh tiếng thì không thể làm tốt công việc.",
+       "Chỉ người tốt nghiệp đại học danh tiếng mới làm tốt công việc."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜というものでもない (không phải cứ… là…): \"Không phải cứ tốt nghiệp đại học danh tiếng là sẽ làm tốt công việc.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "料理は塩を多く入れればおいしくなるというものでもない。",
+      "options": [
+       "Món ăn cho nhiều muối thì nhất định sẽ ngon.",
+       "Nếu không cho muối thì món ăn sẽ không ngon.",
+       "Tôi không thích món ăn cho nhiều muối.",
+       "Không phải cứ cho nhiều muối là món ăn sẽ ngon hơn."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜というものでもない (phủ nhận quan niệm 'cứ… là…'): \"Không phải cứ cho nhiều muối là món ăn sẽ ngon hơn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "人数が多ければいいというものでもない。",
+       "早く起きれば健康になるというものでもない。",
+       "昨日、私は駅まで歩いたというものでもない。",
+       "値段が高ければ品質がいいというものでもない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「昨日、私は駅まで歩いたというものでもない。」 sai: mẫu này phản bác một quan niệm chung kiểu 'cứ… là…', không dùng để phủ định một sự việc cụ thể đã xảy ra. Câu đúng: 昨日、私は駅まで歩いたわけではない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ゆっくり話せばわかるとものでもない。",
+       "大きい家に住めば幸せだというものでもない。",
+       "練習を休まなければ勝てるというものでもない。",
+       "若いから何でもできるというものでもない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「ゆっくり話せばわかるとものでもない。」 sai: thiếu いう; mẫu phải là 〜というものでもない. Câu đúng: ゆっくり話せばわかるというものでもない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "というものでもない。",
+       "人に",
+       "優しければ",
+       "いい"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Không phải cứ tử tế với người khác là được."
+     },
+     {
+      "pieces": [
+       "毎日",
+       "というものでもない。",
+       "運動すれば",
+       "やせる"
+      ],
+      "answer_order": [
+       0,
+       2,
+       3,
+       1
+      ],
+      "translation_vi": "Không phải cứ tập thể dục mỗi ngày là sẽ gầy đi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "若ければ何でもできる＿＿。",
+      "answer": "というものでもない",
+      "accept": [
+       "というものではない"
+      ],
+      "translation_vi": "Không phải cứ còn trẻ là làm được mọi thứ."
+     },
+     {
+      "sentence_ja": "本をたくさん読めば頭がよくなるという＿＿。",
+      "answer": "ものでもない",
+      "accept": [
+       "ものではない"
+      ],
+      "translation_vi": "Không phải cứ đọc nhiều sách là sẽ thông minh hơn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもには何でも買ってあげ（　　）いいというものでもない。",
+      "options": [
+       "たり",
+       "ながら",
+       "れば",
+       "ように"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「れば」: mẫu hay đi với 〜ばいい + というものでもない để phản bác ý 'cứ làm vậy là được'. たり, ながら, ように không nối với いい ở đây. Nghĩa: Không phải cứ mua cho con mọi thứ là tốt."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "謝ればそれで済むというものでもない。",
+      "options": [
+       "Không phải cứ xin lỗi là xong chuyện.",
+       "Chỉ cần xin lỗi là mọi chuyện sẽ được giải quyết.",
+       "Nếu không xin lỗi thì chuyện sẽ không xong.",
+       "Tôi đã xin lỗi nên chuyện đã kết thúc."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜というものでもない (không phải cứ… là…): \"Không phải cứ xin lỗi là xong chuyện.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "長く寝ればいいというものでもない。",
+       "薬は多く飲めば効くというものでもない。",
+       "安ければ売れるにというものでもない。",
+       "急げば間に合うというものでもない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「安ければ売れるにというものでもない。」 sai: thừa に; というものでもない gắn thẳng sau thể thường. Câu đúng: 安ければ売れるというものでもない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -33,7 +220,202 @@
    "id": "JG-4caad28958"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "京都（　　）、やはりお寺が有名ですね。",
+      "options": [
+       "によって",
+       "といえば",
+       "にとって",
+       "に対して"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「といえば」: N + といえば nêu chủ đề rồi nói ngay điều tiêu biểu liên tưởng tới. によって, にとって, に対して không hợp nghĩa. Nghĩa: Nói đến Kyoto thì đúng là chùa chiền nổi tiếng nhỉ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "夏休み（　　）、子どものころ毎日川で泳いだことを思い出す。",
+      "options": [
+       "にしては",
+       "に比べて",
+       "にかけては",
+       "といえば"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「といえば」: nhắc đến 夏休み thì nhớ ngay đến chuyện liên quan. にしては (so với… thì), に比べて (so với), にかけては (về mặt… thì giỏi) không hợp nghĩa. Nghĩa: Nói đến kỳ nghỉ hè, tôi nhớ hồi nhỏ ngày nào cũng bơi ở sông."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "北海道＿＿ ＿＿ ★ ＿＿ですね。",
+      "options": [
+       "ラーメン",
+       "おいしい",
+       "やっぱり",
+       "といえば"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 北海道といえばやっぱりおいしいラーメンですね。 (Nói đến Hokkaido thì phải là món ramen ngon nhỉ.). Mảnh ở ô ★ là 「おいしい」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "「来月、姉が結婚するんです。」「＿＿ ★ ＿＿ ＿＿そうですよ。」",
+      "options": [
+       "結婚",
+       "来月する",
+       "といえば",
+       "田中さんも"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 結婚といえば田中さんも来月するそうですよ。 (Nhắc đến kết hôn mới nhớ, nghe nói anh Tanaka cũng cưới vào tháng sau đấy.). Mảnh ở ô ★ là 「といえば」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本の春といえば、やはりお花見でしょう。",
+      "options": [
+       "Mùa xuân ở Nhật, người ta ít khi đi ngắm hoa.",
+       "Tùy theo mùa xuân ở Nhật mà cách ngắm hoa khác nhau.",
+       "Nói đến mùa xuân Nhật Bản thì phải kể đến ngắm hoa.",
+       "So với mùa xuân Nhật Bản thì việc ngắm hoa không vui bằng."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜といえば (nói đến… thì nghĩ ngay đến…): \"Nói đến mùa xuân Nhật Bản thì phải kể đến ngắm hoa.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "山田さんといえば、最近会社を辞めたらしいよ。",
+      "options": [
+       "Nhắc đến anh Yamada mới nhớ, nghe nói gần đây anh ấy nghỉ việc rồi.",
+       "Theo anh Yamada thì gần đây công ty sắp đóng cửa.",
+       "Anh Yamada nói rằng anh ấy muốn nghỉ việc.",
+       "Đối với anh Yamada, công ty này rất quan trọng."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜といえば (nhắc đến… mới nhớ): \"Nhắc đến anh Yamada mới nhớ, nghe nói gần đây anh ấy nghỉ việc rồi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "日本の夏といえば、花火大会ですね。",
+       "雨が降るといえば、試合は中止です。",
+       "東京といえば、人が多いイメージがある。",
+       "仕事といえば、来週の出張の準備はできた？"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「雨が降るといえば、試合は中止です。」 sai: といえば nêu chủ đề để liên tưởng, không dùng làm điều kiện 'nếu'. Câu đúng: 雨が降れば、試合は中止です。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "秋といえば、おいしい果物がたくさんありますね。",
+       "お祭りといえば、来週近くの神社でお祭りがあるそうだよ。",
+       "京都といえば、古いお寺を思い出す。",
+       "お正月をいえば、やはりおせち料理だ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「お正月をいえば」 sai: mẫu là N + と + いえば, không dùng を. Câu đúng: お正月といえば、やはりおせち料理だ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "といえば、",
+       "日本料理",
+       "てんぷらも",
+       "有名だ。"
+      ],
+      "answer_order": [
+       1,
+       0,
+       2,
+       3
+      ],
+      "translation_vi": "Nói đến ẩm thực Nhật Bản thì tempura cũng nổi tiếng."
+     },
+     {
+      "pieces": [
+       "一番人気だ。",
+       "スポーツ",
+       "サッカーが",
+       "といえば、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Nói đến thể thao thì bóng đá được yêu thích nhất."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "沖縄と＿＿、青い海を思い浮かべる人が多いでしょう。",
+      "answer": "いえば",
+      "accept": [
+       "言えば",
+       "いうと",
+       "言うと",
+       "いったら",
+       "言ったら"
+      ],
+      "translation_vi": "Nói đến Okinawa thì chắc nhiều người nghĩ ngay đến biển xanh."
+     },
+     {
+      "sentence_ja": "秋＿＿、やっぱり紅葉ですね。",
+      "answer": "といえば",
+      "accept": [
+       "と言えば",
+       "というと",
+       "と言うと",
+       "といったら",
+       "と言ったら"
+      ],
+      "translation_vi": "Nói đến mùa thu thì đúng là lá đỏ nhỉ."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "ドイツ（　　）、何を思い浮かべますか。",
+      "options": [
+       "によると",
+       "とともに",
+       "といえば",
+       "をはじめ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「といえば」: hỏi người nghe nghĩ ngay đến điều gì khi nhắc tới ドイツ. によると (theo), とともに (cùng với), をはじめ (tiêu biểu là) không hợp. Nghĩa: Nói đến nước Đức, bạn nghĩ ngay đến điều gì?"
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "試験といえば、来週の試験の時間はもう聞いた？",
+      "options": [
+       "Nếu thi thì cậu phải hỏi giờ thi tuần sau.",
+       "Nhắc đến thi cử mới nhớ, cậu đã hỏi giờ thi tuần sau chưa?",
+       "Dù là kỳ thi nhưng cậu chưa hỏi phạm vi à?",
+       "Theo thông báo, giờ thi tuần sau đã được công bố."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜といえば (nhắc đến… mới nhớ ra chuyện liên quan): \"Nhắc đến thi cử mới nhớ, cậu đã hỏi giờ thi tuần sau chưa?\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "おすしといえば、この店が一番おいしい。",
+       "パンダといえば、上野動物園が有名だ。",
+       "宿題といえば、数学のレポートはもう出した？",
+       "お金があるといえば、新しいパソコンを買いたい。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「お金があるといえば、新しいパソコンを買いたい。」 sai: といえば không mang nghĩa điều kiện 'nếu'. Câu đúng: お金があれば、新しいパソコンを買いたい。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -63,7 +445,194 @@
    "id": "JG-340193e839"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "うちの母（　　）、また鍵をかけずに出かけちゃったの。",
+      "options": [
+       "によって",
+       "にとって",
+       "ったら",
+       "をめぐって"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ったら」: N + ったら nêu người thân rồi bộc lộ sự bực mình, ngạc nhiên. によって, にとって, をめぐって không hợp nghĩa. Nghĩa: Mẹ tôi thật là, lại đi ra ngoài mà không khóa cửa."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "弟（　　）、私のケーキを勝手に食べたのよ。",
+      "options": [
+       "にとって",
+       "ったら",
+       "について",
+       "をこめて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ったら」: dùng khi phàn nàn thân mật về em trai. にとって, について, をこめて không nối được với vế sau. Nghĩa: Em trai tôi thật là, tự tiện ăn mất bánh của tôi."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "うちの犬＿＿ ＿＿ ★ ＿＿のよ。",
+      "options": [
+       "かんでしまった",
+       "私の",
+       "ったら",
+       "靴を"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: うちの犬ったら私の靴をかんでしまったのよ。 (Con chó nhà tôi thật là, cắn mất đôi giày của tôi rồi.). Mảnh ở ô ★ là 「靴を」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、全然話を聞いていないんだから。",
+      "options": [
+       "会議中も",
+       "ったら",
+       "田中さん",
+       "スマホばかり見て"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 田中さんったら会議中もスマホばかり見て、全然話を聞いていないんだから。 (Anh Tanaka thật là, cả trong cuộc họp cũng chỉ nhìn điện thoại, chẳng nghe gì cả.). Mảnh ở ô ★ là 「ったら」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "姉ったら、自分の誕生日を忘れていたのよ。",
+      "options": [
+       "Nếu là chị tôi thì chắc chắn đã quên sinh nhật.",
+       "Theo chị tôi thì mọi người đã quên sinh nhật của chị ấy.",
+       "Chị tôi dặn tôi đừng quên sinh nhật của chị.",
+       "Chị tôi thật là, quên luôn cả sinh nhật của chính mình."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N + ったら (nói về ai đó với giọng ngạc nhiên, trách nhẹ): \"Chị tôi thật là, quên luôn cả sinh nhật của chính mình.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの子ったら、もう寝る時間なのにまだ遊んでいる。",
+      "options": [
+       "Đứa bé đó thật là, đã đến giờ ngủ rồi mà vẫn còn chơi.",
+       "Nếu đứa bé đó đã ngủ thì tôi sẽ đi chơi.",
+       "Đứa bé đó đã đi ngủ sớm sau khi chơi.",
+       "Dù đến giờ ngủ, tôi vẫn để đứa bé đó chơi."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N + ったら (bộc lộ sự bực mình về đối tượng): \"Đứa bé đó thật là, đã đến giờ ngủ rồi mà vẫn còn chơi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "母ったら、また同じ話をしているわ。",
+       "うちの猫ったら、いつもソファで寝てるの。",
+       "社長ったら、本日の会議で新しい計画を発表されました。",
+       "兄ったら、私の傘を持っていっちゃった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「社長ったら、本日の会議で新しい計画を発表されました。」 sai: ったら là văn nói thân mật kèm cảm xúc, không dùng trong câu thông báo lịch sự về cấp trên. Câu đúng: 社長は、本日の会議で新しい計画を発表されました。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "主人がったら、また財布を忘れたのよ。",
+       "妹ったら、もう三時間も電話しているの。",
+       "うちの子ったら、野菜を全然食べないのよ。",
+       "お父さんったら、またテレビをつけたまま寝てる。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「主人がったら」 sai: ったら gắn thẳng sau danh từ, không có が ở giữa. Câu đúng: 主人ったら、また財布を忘れたのよ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ったら、",
+       "また",
+       "妹",
+       "私の服を着ている。"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1,
+       3
+      ],
+      "translation_vi": "Em gái tôi thật là, lại mặc quần áo của tôi."
+     },
+     {
+      "pieces": [
+       "本当に",
+       "うちの夫",
+       "忘れっぽいんだから。",
+       "ったら、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Chồng tôi thật là, đúng là hay quên."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "お母さん＿＿、また同じことを言ってる。",
+      "answer": "ったら",
+      "accept": [
+       "ってば"
+      ],
+      "translation_vi": "Mẹ thật là, lại nói đúng một chuyện đó."
+     },
+     {
+      "sentence_ja": "うちの子＿＿、朝ごはんも食べずに出かけちゃったの。",
+      "answer": "ったら",
+      "accept": [
+       "ってば"
+      ],
+      "translation_vi": "Con nhà tôi thật là, chẳng ăn sáng mà đi luôn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "山田さん（　　）、また宿題を忘れたんだって。",
+      "options": [
+       "にとって",
+       "に対して",
+       "によって",
+       "ったら"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ったら」: nêu người được nói tới với giọng ngạc nhiên, trách nhẹ. にとって, に対して, によって không hợp nghĩa. Nghĩa: Bạn Yamada thật là, nghe nói lại quên bài tập rồi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "兄ったら、毎晩ゲームばかりして寝ないのよ。",
+      "options": [
+       "Nếu anh trai chơi game thì tôi sẽ không ngủ.",
+       "Anh trai bảo tôi đừng chơi game buổi tối.",
+       "Anh trai tôi thật là, tối nào cũng chỉ chơi game chẳng chịu ngủ.",
+       "Vì anh trai ngủ sớm nên tôi chơi game một mình."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu N + ったら (phàn nàn thân mật về người nhà): \"Anh trai tôi thật là, tối nào cũng chỉ chơi game chẳng chịu ngủ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "父ったら、テレビをつけたまま寝ちゃった。",
+       "この報告書ったら、来週までに出してください。",
+       "妹ったら、また鍵をなくしたの。",
+       "あの子ったら、本当によく食べるわね。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この報告書ったら、来週までに出してください。」 sai: ったら dùng để bộc lộ cảm xúc về người hay sự việc trong hội thoại thân mật, không dùng nêu chủ đề cho lời yêu cầu công việc. Câu đúng: この報告書は、来週までに出してください。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,

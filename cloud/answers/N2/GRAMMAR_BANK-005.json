@@ -1,328 +1,219 @@
 {
- "JG-c1dbd760b4": {
+ "JG-3c3ff1bf18": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "この映画は、実際にあった事件（　　）作られた。",
-    "options": ["にもとで", "をもとに", "をもとで", "にもとにして"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「をもとに」: N + をもとに là lấy N làm chất liệu, căn cứ để tạo ra cái mới. Trợ từ phải là を và đi với に, không có dạng にもとで, をもとで, にもとにして. Nghĩa: Bộ phim này được làm dựa trên một vụ việc có thật."
+    "prompt_ja": "係員の案内（　　）、順番にお入りください。",
+    "options": ["について", "に比べて", "にしたがって", "にとって"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にしたがって」: N + にしたがって là làm theo chỉ dẫn, quy tắc. について (về), に比べて (so với), にとって (đối với) không hợp nghĩa. Nghĩa: Xin hãy vào lần lượt theo hướng dẫn của nhân viên."
    },
    {
     "type": "FILL",
-    "prompt_ja": "アンケートの結果を（　　）、新しいメニューを考えた。",
-    "options": ["もとで", "もとから", "もとへ", "もとに"],
+    "prompt_ja": "山を高く登る（　　）、景色がきれいになってきた。",
+    "options": ["にしたがう", "をしたがって", "にしたがった", "にしたがって"],
     "answer_index": 3,
-    "explanation_vi": "Điền 「もとに」: mẫu cố định là N + をもとに (lấy làm căn cứ); もとで, もとから, もとへ không ghép với を theo nghĩa này. Nghĩa: Dựa trên kết quả khảo sát, chúng tôi đã nghĩ ra thực đơn mới."
+    "explanation_vi": "Điền 「にしたがって」: Vる + にしたがって diễn tả biến đổi song song (càng lên cao, cảnh càng đẹp); にしたがう, にしたがった không nối vế câu, を sai trợ từ. Nghĩa: Càng leo lên cao, phong cảnh càng đẹp."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "この絵本は、＿＿ ＿＿ ★ ＿＿ 作られた。",
-    "options": ["をもとに", "祖母", "昔話", "から聞いた"],
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿、進んでください。",
+    "options": ["にしたがって", "地図に", "順番", "書いてある"],
     "answer_index": 2,
-    "explanation_vi": "Câu đúng: この絵本は、祖母から聞いた昔話をもとに作られた。 (Cuốn sách tranh này được làm dựa trên câu chuyện cổ tôi nghe từ bà.). Mảnh ở ô ★ là 「昔話」."
+    "explanation_vi": "Câu đúng: 地図に書いてある順番にしたがって、進んでください。 (Hãy đi theo thứ tự được ghi trên bản đồ.). Mảnh ở ô ★ là 「順番」."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "会議では、＿＿ ★ ＿＿ ＿＿ 来年の計画を話し合った。",
-    "options": ["データ", "先月の", "をもとに", "売り上げ"],
+    "prompt_ja": "薬は ＿＿ ★ ＿＿ ＿＿ ください。",
+    "options": ["飲んで", "にしたがって", "医者の", "指示"],
     "answer_index": 3,
-    "explanation_vi": "Câu đúng: 会議では、先月の売り上げデータをもとに来年の計画を話し合った。 (Trong cuộc họp, chúng tôi đã bàn kế hoạch năm sau dựa trên số liệu doanh thu tháng trước.). Mảnh ở ô ★ là 「売り上げ」."
+    "explanation_vi": "Câu đúng: 薬は医者の指示にしたがって飲んでください。 (Hãy uống thuốc theo chỉ dẫn của bác sĩ.). Mảnh ở ô ★ là 「指示」."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "客の意見をもとに、商品のデザインを変えた。",
-    "options": ["Bất chấp ý kiến của khách hàng, chúng tôi đã thay đổi thiết kế sản phẩm.", "Dựa trên ý kiến của khách hàng, chúng tôi đã thay đổi thiết kế sản phẩm.", "Trước khi hỏi ý kiến khách hàng, chúng tôi đã thay đổi thiết kế sản phẩm.", "Khách hàng đã tự thay đổi thiết kế sản phẩm theo ý mình."],
-    "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu 〜をもとに (lấy làm căn cứ, chất liệu): \"Dựa trên ý kiến của khách hàng, chúng tôi đã thay đổi thiết kế sản phẩm.\""
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "このドラマは、人気のある小説をもとにしたものだ。",
-    "options": ["Bộ phim truyền hình này nổi tiếng hơn cả cuốn tiểu thuyết.", "Cuốn tiểu thuyết nổi tiếng được viết dựa trên bộ phim truyền hình này.", "Bộ phim truyền hình này không liên quan gì đến tiểu thuyết.", "Bộ phim truyền hình này được làm dựa trên một cuốn tiểu thuyết được yêu thích."],
-    "answer_index": 3,
-    "explanation_vi": "Câu dùng mẫu 〜をもとにした (được làm dựa trên): \"Bộ phim truyền hình này được làm dựa trên một cuốn tiểu thuyết được yêu thích.\" Chiều là tiểu thuyết → phim, không phải ngược lại."
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["祖父の話をもとに、家族の歴史をまとめた。", "雨をもとに、試合が中止になった。", "調べた資料をもとにして、レポートを書いた。", "本当にあった話をもとにした映画を見た。"],
-    "answer_index": 1,
-    "explanation_vi": "「雨をもとに、試合が中止になった。」 sai: をもとに là lấy làm chất liệu để tạo ra cái mới, không dùng để nói nguyên nhân. Câu đúng: 雨のため、試合が中止になった。"
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["友だちの意見をもとで、計画を立て直した。", "このケーキは、母のレシピをもとに作ってみた。", "先生の説明をもとに、自分でまとめを作った。", "去年の失敗をもとに、新しいルールが作られた。"],
+    "prompt_ja": "駅に近づくにしたがって、人が多くなってきた。",
+    "options": ["Càng đến gần nhà ga, người càng đông.", "Vì nhà ga ở gần nên lúc nào cũng đông người.", "Người ta đi theo nhau đến nhà ga.", "Đến gần nhà ga thì người bỗng vắng hẳn."],
     "answer_index": 0,
-    "explanation_vi": "「友だちの意見をもとで」 sai: mẫu là N + をもとに(して), không có をもとで. Câu đúng: 友だちの意見をもとに、計画を立て直した。"
+    "explanation_vi": "Câu dùng mẫu 〜にしたがって (càng… càng…, biến đổi song song): \"Càng đến gần nhà ga, người càng đông.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "会社のルールにしたがって、毎週報告書を出している。",
+    "options": ["Dù trái quy định của công ty, tôi vẫn nộp báo cáo mỗi tuần.", "Công ty vừa thay đổi quy định về báo cáo hằng tuần.", "Theo quy định của công ty, tôi nộp báo cáo mỗi tuần.", "Vì quy định của công ty nên tôi không cần nộp báo cáo."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜にしたがって (làm theo quy tắc): \"Theo quy định của công ty, tôi nộp báo cáo mỗi tuần.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["係員の指示にしたがって、外に出た。", "明日は雨が降るにしたがって、傘を持っていこう。", "暖かくなるにしたがって、花が咲き始めた。", "練習を重ねるにしたがって、上手になってきた。"],
+    "answer_index": 1,
+    "explanation_vi": "「明日は雨が降るにしたがって、傘を持っていこう。」 sai: không có biến đổi song song và cũng không phải làm theo chỉ dẫn; vế sau lại là ý chí. Câu đúng: 明日は雨が降るそうだから、傘を持っていこう。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["説明書にしたがって、機械を動かした。", "店が有名になるにしたがって、客も増えた。", "上に行くにしたがって、道が細くなる。", "年をとったにしたがって、目が悪くなった。"],
+    "answer_index": 3,
+    "explanation_vi": "「年をとったにしたがって」 sai: にしたがって đi với Vる (thể từ điển), không đi với Vた. Câu đúng: 年をとるにしたがって、目が悪くなった。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["もとに", "採用する人を決める。", "面接の", "結果を"],
-    "answer_order": [2, 3, 0, 1],
-    "translation_vi": "Chúng tôi quyết định người được tuyển dựa trên kết quả phỏng vấn."
+    "pieces": ["したがって", "矢印に", "進んでください。"],
+    "answer_order": [1, 0, 2],
+    "translation_vi": "Hãy đi theo mũi tên."
    },
    {
-    "pieces": ["もとにして", "書かれた", "小説だ。", "本当の話を"],
-    "answer_order": [3, 0, 1, 2],
-    "translation_vi": "Đây là cuốn tiểu thuyết được viết dựa trên một câu chuyện có thật."
+    "pieces": ["花が咲き始めた。", "なるに", "暖かく", "したがって"],
+    "answer_order": [2, 1, 3, 0],
+    "translation_vi": "Trời càng ấm thì hoa càng bắt đầu nở."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "今回の調査の結果を＿＿、来年の計画を立てる。",
-    "answer": "もとに",
-    "accept": ["もとにして", "元に", "元にして"],
-    "translation_vi": "Chúng tôi sẽ lập kế hoạch năm sau dựa trên kết quả khảo sát lần này."
+    "sentence_ja": "説明書の手順に＿＿、組み立ててください。",
+    "answer": "したがって",
+    "accept": ["沿って", "そって"],
+    "translation_vi": "Hãy lắp ráp theo các bước trong sách hướng dẫn."
    },
    {
-    "sentence_ja": "これは実話を＿＿にした映画です。",
-    "answer": "もと",
-    "accept": ["元"],
-    "translation_vi": "Đây là bộ phim được làm dựa trên chuyện có thật."
+    "sentence_ja": "人口が増える＿＿、住む家が足りなくなった。",
+    "answer": "にしたがって",
+    "accept": ["にしたがい", "につれて", "につれ", "に伴って", "にともなって", "とともに"],
+    "translation_vi": "Dân số càng tăng thì nhà ở càng thiếu."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "学生が書いた作文（　　）、教科書の例文を作った。",
-    "options": ["にもとに", "をもとで", "をもとに", "がもとに"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「をもとに」: lấy bài văn của học sinh làm chất liệu để soạn câu ví dụ; trợ từ đúng là を. Nghĩa: Tôi đã soạn câu ví dụ trong sách giáo khoa dựa trên bài văn học sinh viết."
+    "prompt_ja": "町のルール（　　）、ごみは決められた日に出してください。",
+    "options": ["に対して", "について", "にとって", "にしたがって"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「にしたがって」: làm theo quy tắc của khu phố. に対して (đối với), について (về), にとって (đối với ai) không mang nghĩa 'tuân theo'. Nghĩa: Hãy bỏ rác vào đúng ngày quy định theo quy tắc của khu phố."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "地元で昔から食べられている料理をもとに、新しいお菓子が生まれた。",
-    "options": ["Một loại bánh mới đã ra đời dựa trên món ăn lâu đời của địa phương.", "Món ăn lâu đời của địa phương đã bị bánh kẹo mới thay thế.", "Bánh kẹo mới được bán kèm với món ăn lâu đời của địa phương.", "Món ăn lâu đời của địa phương được làm từ bánh kẹo."],
-    "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu 〜をもとに (lấy làm chất liệu để tạo ra cái mới): \"Một loại bánh mới đã ra đời dựa trên món ăn lâu đời của địa phương.\""
+    "prompt_ja": "国が豊かになるにしたがって、人々の生活も変わっていった。",
+    "options": ["Dù đất nước giàu lên, cuộc sống người dân vẫn không đổi.", "Người dân đã thay đổi cuộc sống để làm đất nước giàu lên.", "Đất nước giàu lên trước khi cuộc sống người dân thay đổi.", "Đất nước càng giàu lên thì cuộc sống người dân cũng thay đổi theo."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜にしたがって (biến đổi song song): \"Đất nước càng giàu lên thì cuộc sống người dân cũng thay đổi theo.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["旅行の写真をもとに、アルバムを作った。", "社員のアイデアをもとに、新しいサービスが始まった。", "私は父をもとに、毎朝公園を散歩している。", "昔の地図をもとにして、町の歴史を調べた。"],
-    "answer_index": 2,
-    "explanation_vi": "「私は父をもとに、毎朝公園を散歩している。」 sai: をもとに không có nghĩa 'cùng với ai'; N phải là chất liệu, căn cứ. Câu đúng: 私は父と一緒に、毎朝公園を散歩している。"
+    "options": ["父のアドバイスをしたがって、仕事を決めた。", "ガイドの説明にしたがって、町を歩いた。", "経験が増えるにしたがって、自信がついてきた。", "南へ行くにしたがって、気温が高くなる。"],
+    "answer_index": 0,
+    "explanation_vi": "「父のアドバイスをしたがって」 sai: したがう đi với trợ từ に. Câu đúng: 父のアドバイスにしたがって、仕事を決めた。"
    }
   ]
  },
- "JG-073f255e7b": {
+ "JG-2ba858f748": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "事故の原因は、集めたデータ（　　）調べられた。",
-    "options": ["を基づいて", "に基づいて", "に基づかれて", "と基づいて"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「に基づいて」: 基づく luôn đi với trợ từ に và không chia bị động. Nghĩa: Nguyên nhân tai nạn đã được điều tra căn cứ trên dữ liệu thu thập được."
+    "prompt_ja": "台風が近づく（　　）、雨も強くなってきた。",
+    "options": ["に伴う", "を伴って", "に伴って", "に伴った"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「に伴って」: Vる + に伴って nối hai vế, chỉ thay đổi này kéo theo thay đổi kia; に伴う, に伴った chỉ đứng trước danh từ, を sai trợ từ. Nghĩa: Bão càng đến gần thì mưa cũng càng mạnh lên."
    },
    {
     "type": "FILL",
-    "prompt_ja": "この会社では、給料は能力（　　）決められる。",
-    "options": ["に基づく", "に基づき", "を基づき", "に基づいた"],
+    "prompt_ja": "結婚（　　）、名前が変わりました。",
+    "options": ["に伴う", "に伴い", "を伴い", "に伴った"],
     "answer_index": 1,
-    "explanation_vi": "Điền 「に基づき」: trước động từ dùng に基づいて/に基づき; に基づく và に基づいた chỉ đứng trước danh từ, を基づき sai trợ từ. Nghĩa: Ở công ty này, lương được quyết định căn cứ theo năng lực."
+    "explanation_vi": "Điền 「に伴い」: N + に伴い (= に伴って) nối với vế sau; に伴う, に伴った phải đi với danh từ. Nghĩa: Do kết hôn nên tên tôi đã thay đổi."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "医者は ＿＿ ＿＿ ★ ＿＿ 病名を判断した。",
-    "options": ["基づいて", "結果に", "血液", "を調べた"],
-    "answer_index": 1,
-    "explanation_vi": "Câu đúng: 医者は血液を調べた結果に基づいて病名を判断した。 (Bác sĩ đã chẩn đoán bệnh căn cứ vào kết quả xét nghiệm máu.). Mảnh ở ô ★ là 「結果に」."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "市は、＿＿ ＿＿ ★ ＿＿ 新しい駐車場を作った。",
-    "options": ["住民への", "基づいて", "アンケート", "の結果に"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: 市は、住民へのアンケートの結果に基づいて新しい駐車場を作った。 (Thành phố đã xây bãi đỗ xe mới căn cứ theo kết quả khảo sát người dân.). Mảnh ở ô ★ là 「の結果に」."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "契約書に基づいて、料金をお支払いいただきます。",
-    "options": ["Trước khi ký hợp đồng, xin quý khách thanh toán phí.", "Xin quý khách thanh toán phí mà không cần hợp đồng.", "Xin quý khách thanh toán phí theo đúng hợp đồng.", "Phí trong hợp đồng đã bị ghi sai."],
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿、ごみの量も増えている。",
+    "options": ["に伴って", "人口", "の増加", "町の"],
     "answer_index": 2,
-    "explanation_vi": "Câu dùng mẫu 〜に基づいて (căn cứ theo quy định, văn bản): \"Xin quý khách thanh toán phí theo đúng hợp đồng.\""
+    "explanation_vi": "Câu đúng: 町の人口の増加に伴って、ごみの量も増えている。 (Cùng với sự gia tăng dân số của thị trấn, lượng rác cũng đang tăng.). Mảnh ở ô ★ là 「の増加」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この店は ＿＿ ★ ＿＿ ＿＿ 増やした。",
+    "options": ["に伴って", "客の", "店員を", "増加"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: この店は客の増加に伴って店員を増やした。 (Cùng với lượng khách tăng, cửa hàng này đã tăng thêm nhân viên.). Mảnh ở ô ★ là 「増加」."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "この記事は、専門家の調査に基づいて書かれている。",
-    "options": ["Bài báo này được viết căn cứ trên khảo sát của các chuyên gia.", "Bài báo này phê phán cuộc khảo sát của các chuyên gia.", "Các chuyên gia đã khảo sát căn cứ trên bài báo này.", "Bài báo này được viết trước khi chuyên gia khảo sát."],
-    "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu 〜に基づいて (căn cứ trên dữ liệu, sự thật): \"Bài báo này được viết căn cứ trên khảo sát của các chuyên gia.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["法律に基づいて、正しく判断する。", "計画に基づき、工事が進められた。", "これは事実に基づいた話だ。", "何となくの気分に基づいて、旅行先を決めた。"],
-    "answer_index": 3,
-    "explanation_vi": "「何となくの気分に基づいて」 sai: に基づいて cần căn cứ rõ ràng (luật, dữ liệu, sự thật), không đi với cảm giác mơ hồ. Câu đúng: 何となくその時の気分で、旅行先を決めた。"
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["調査の結果に基づいて、値段を決めた。", "規則を基づいて、遅れた人に注意した。", "実験のデータに基づき、論文を書いた。", "国の基準に基づいた方法で調べる。"],
+    "prompt_ja": "気温が上がるに伴って、エアコンがよく売れるようになった。",
+    "options": ["Dù nhiệt độ tăng, máy điều hòa vẫn bán chậm.", "Cùng với việc nhiệt độ tăng lên, máy điều hòa bán chạy hơn.", "Máy điều hòa bán chạy làm nhiệt độ tăng lên.", "Nhiệt độ đã tăng trước khi máy điều hòa được bán."],
     "answer_index": 1,
-    "explanation_vi": "「規則を基づいて」 sai: 基づく đi với trợ từ に, không đi với を. Câu đúng: 規則に基づいて、遅れた人に注意した。"
+    "explanation_vi": "Câu dùng mẫu 〜に伴って (thay đổi này kéo theo thay đổi kia): \"Cùng với việc nhiệt độ tăng lên, máy điều hòa bán chạy hơn.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "駅の工事に伴い、北口は来月から使えなくなります。",
+    "options": ["Sau khi thi công nhà ga xong, cửa Bắc sẽ mở từ tháng sau.", "Cửa Bắc của nhà ga đang được thi công từ tháng trước.", "Dù có thi công, cửa Bắc vẫn sử dụng được.", "Do thi công nhà ga, từ tháng sau sẽ không sử dụng được cửa Bắc."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜に伴い (kéo theo, đi kèm với): \"Do thi công nhà ga, từ tháng sau sẽ không sử dụng được cửa Bắc.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["社会の変化に伴って、家族の形も変わってきた。", "私は朝ご飯を食べるに伴って、コーヒーを飲んだ。", "円の価値が下がるに伴い、海外旅行の費用が高くなった。", "人口の減少に伴って、学校の数も減っている。"],
+    "answer_index": 1,
+    "explanation_vi": "「朝ご飯を食べるに伴って、コーヒーを飲んだ。」 sai: に伴って nói thay đổi có quy mô kéo theo thay đổi khác, không dùng cho hai hành động nhỏ hằng ngày. Câu đúng: 朝ご飯を食べながら、コーヒーを飲んだ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["店の移動に伴い、電話番号が変わります。", "季節の変化に伴って、店の商品も変わる。", "会社の成長伴って、社員の数も増えた。", "技術の進歩に伴い、生活が便利になった。"],
+    "answer_index": 2,
+    "explanation_vi": "「会社の成長伴って」 sai: trước 伴って phải có trợ từ に. Câu đúng: 会社の成長に伴って、社員の数も増えた。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["基づいて", "会社の規則に", "休みを取ることができる。"],
-    "answer_order": [1, 0, 2],
-    "translation_vi": "Có thể nghỉ phép căn cứ theo quy định của công ty."
+    "pieces": ["に伴って", "社会の", "変化", "働き方も変わってきた。"],
+    "answer_order": [1, 2, 0, 3],
+    "translation_vi": "Cùng với sự thay đổi của xã hội, cách làm việc cũng đã thay đổi."
    },
    {
-    "pieces": ["事実に", "ドラマです。", "作られた", "基づいて"],
-    "answer_order": [0, 3, 2, 1],
-    "translation_vi": "Đây là bộ phim truyền hình được làm dựa trên sự thật."
+    "pieces": ["伴い", "変わります。", "季節の変化に", "営業時間が"],
+    "answer_order": [2, 0, 3, 1],
+    "translation_vi": "Theo sự thay đổi của mùa, giờ mở cửa sẽ thay đổi."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "調査の結果に＿＿、計画を変更した。",
-    "answer": "基づいて",
-    "accept": ["基づき", "もとづいて", "もとづき"],
-    "translation_vi": "Căn cứ vào kết quả khảo sát, chúng tôi đã thay đổi kế hoạch."
+    "sentence_ja": "大学への入学に＿＿、一人暮らしを始めた。",
+    "answer": "伴って",
+    "accept": ["伴い", "ともなって", "ともない"],
+    "translation_vi": "Cùng với việc vào đại học, tôi bắt đầu sống một mình."
    },
    {
-    "sentence_ja": "これは実際のデータに＿＿グラフです。",
-    "answer": "基づいた",
-    "accept": ["基づく", "もとづいた", "もとづく"],
-    "translation_vi": "Đây là biểu đồ dựa trên dữ liệu thực tế."
+    "sentence_ja": "引っ越しに＿＿手続きは、早めに済ませましょう。",
+    "answer": "伴う",
+    "accept": ["ともなう"],
+    "translation_vi": "Hãy làm sớm các thủ tục đi kèm việc chuyển nhà."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "判断は、感情ではなく事実（　　）行うべきだ。",
-    "options": ["を基づいて", "と基づいて", "に基づいて", "で基づいて"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「に基づいて」: 基づく chỉ đi với trợ từ に. Nghĩa: Việc phán đoán nên dựa trên sự thật chứ không phải cảm xúc."
+    "prompt_ja": "季節の変化（　　）、体調が悪くなる人が多い。",
+    "options": ["にとって", "に伴って", "について", "に対して"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「に伴って」: sự thay đổi của mùa kéo theo nhiều người bị mệt. にとって (đối với), について (về), に対して (đối với) không diễn tả thay đổi đi kèm. Nghĩa: Khi mùa thay đổi, nhiều người bị ốm mệt."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "法律に基づいて、二十歳になるまでお酒は買えない。",
-    "options": ["Luật không quy định gì về tuổi mua rượu.", "Theo luật, chưa đủ hai mươi tuổi thì không được mua rượu.", "Đủ hai mươi tuổi thì phải mua rượu theo luật.", "Luật về rượu sẽ thay đổi khi bạn hai mươi tuổi."],
+    "prompt_ja": "店の工事に伴い、しばらく休ませていただきます。",
+    "options": ["Vì cửa hàng nghỉ nên chúng tôi sẽ tiến hành sửa chữa.", "Do sửa chữa cửa hàng, chúng tôi xin phép tạm nghỉ một thời gian.", "Dù sửa chữa, cửa hàng vẫn mở cửa như bình thường.", "Cửa hàng đã sửa xong nên sẽ mở cửa trở lại."],
     "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu 〜に基づいて (căn cứ theo luật lệ): \"Theo luật, chưa đủ hai mươi tuổi thì không được mua rượu.\""
+    "explanation_vi": "Câu dùng mẫu 〜に伴い (đi kèm với, do): \"Do sửa chữa cửa hàng, chúng tôi xin phép tạm nghỉ một thời gian.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["患者の希望に基づいて、治療の方法を選ぶ。", "友だちに基づいて、映画を見に行った。", "過去の記録に基づき、予定を立てた。", "国のルールに基づいて、ごみを分ける。"],
-    "answer_index": 1,
-    "explanation_vi": "「友だちに基づいて、映画を見に行った。」 sai: に基づいて cần một căn cứ như luật, dữ liệu, không có nghĩa 'cùng với ai'. Câu đúng: 友だちと一緒に、映画を見に行った。"
-   }
-  ]
- },
- "JG-54de130bab": {
-  "check_bank": [
-   {
-    "type": "FILL",
-    "prompt_ja": "古い木が川（　　）並んでいる。",
-    "options": ["に沿った", "を沿って", "に沿って", "と沿って"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「に沿って」: N + に沿って đứng trước động từ (並んでいる), nghĩa dọc theo; に沿った chỉ đứng trước danh từ, を/と sai trợ từ. Nghĩa: Những cây cổ thụ xếp hàng dọc theo bờ sông."
-   },
-   {
-    "type": "FILL",
-    "prompt_ja": "会議は、お配りした資料の順番（　　）進めます。",
-    "options": ["に沿う", "を沿い", "が沿って", "に沿って"],
-    "answer_index": 3,
-    "explanation_vi": "Điền 「に沿って」: làm đúng theo trình tự đã định; trước động từ 進めます dùng に沿って, không dùng に沿う. Nghĩa: Cuộc họp sẽ tiến hành theo thứ tự của tài liệu đã phát."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、駅に着きます。",
-    "options": ["歩くと", "線路に", "この", "沿って"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: この線路に沿って歩くと、駅に着きます。 (Đi bộ dọc theo đường ray này sẽ tới nhà ga.). Mảnh ở ô ★ là 「沿って」."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "お客様の ＿＿ ★ ＿＿ ＿＿ をご紹介します。",
-    "options": ["沿った", "プラン", "ご希望", "に"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: お客様のご希望に沿ったプランをご紹介します。 (Chúng tôi xin giới thiệu kế hoạch theo đúng mong muốn của quý khách.). Mảnh ở ô ★ là 「に」."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "会社の方針に沿って、新しい商品を開発する。",
-    "options": ["Phát triển sản phẩm mới trái với phương châm của công ty.", "Phát triển sản phẩm mới theo đúng phương châm của công ty.", "Thay đổi phương châm của công ty để phát triển sản phẩm mới.", "Phát triển sản phẩm mới trước khi công ty có phương châm."],
-    "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu 〜に沿って (làm theo đúng phương châm): \"Phát triển sản phẩm mới theo đúng phương châm của công ty.\""
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "海に沿って、長い道路が続いている。",
-    "options": ["Con đường dài dẫn thẳng ra biển.", "Cuối con đường dài là biển.", "Con đường dài nằm cách xa biển.", "Con đường dài chạy dọc theo bờ biển."],
-    "answer_index": 3,
-    "explanation_vi": "Câu dùng mẫu 〜に沿って (dọc theo một vật dài): \"Con đường dài chạy dọc theo bờ biển.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["私は風邪に沿って、学校を休んだ。", "この道に沿って、店がたくさん並んでいる。", "マニュアルに沿って、機械を操作してください。", "計画に沿って、作業を進めている。"],
+    "options": ["給料が上がるに伴って、新しい車を買おう。", "仕事が増えるに伴い、残業も多くなった。", "町の開発に伴って、自然が少なくなった。", "子どもの数が減るに伴い、学校がなくなっている。"],
     "answer_index": 0,
-    "explanation_vi": "「私は風邪に沿って、学校を休んだ。」 sai: に沿って là dọc theo hoặc làm đúng theo kế hoạch, không dùng để nói nguyên nhân. Câu đúng: 私は風邪で、学校を休んだ。"
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["川に沿って、自転車で走った。", "決まった計画を沿って、旅行の準備をした。", "学生の希望に沿った授業をしたい。", "道路に沿い、花が植えられている。"],
-    "answer_index": 1,
-    "explanation_vi": "「計画を沿って」 sai: 沿う đi với trợ từ に. Câu đúng: 決まった計画に沿って、旅行の準備をした。"
-   }
-  ],
-  "order_items": [
-   {
-    "pieces": ["沿って", "川に", "散歩した。"],
-    "answer_order": [1, 0, 2],
-    "translation_vi": "Tôi đã đi dạo dọc theo bờ sông."
-   },
-   {
-    "pieces": ["説明書の", "手順に", "組み立てる。", "沿って"],
-    "answer_order": [0, 1, 3, 2],
-    "translation_vi": "Lắp ráp theo đúng các bước trong sách hướng dẫn."
-   }
-  ],
-  "fill_items": [
-   {
-    "sentence_ja": "道に＿＿、花が植えてある。",
-    "answer": "沿って",
-    "accept": ["そって", "沿い", "そい"],
-    "translation_vi": "Hoa được trồng dọc theo con đường."
-   },
-   {
-    "sentence_ja": "学生の希望に＿＿授業を計画した。",
-    "answer": "沿った",
-    "accept": ["そった", "沿う", "そう"],
-    "translation_vi": "Tôi đã lên kế hoạch cho giờ học theo đúng mong muốn của học sinh."
-   }
-  ],
-  "extra_practice": [
-   {
-    "type": "FILL",
-    "prompt_ja": "ガイドの説明（　　）、順番に見学しましょう。",
-    "options": ["を沿って", "に沿って", "に沿った", "で沿って"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「に沿って」: làm theo đúng lời hướng dẫn, đứng trước vế động từ nên dùng に沿って; に沿った phải đi với danh từ. Nghĩa: Hãy tham quan lần lượt theo lời giải thích của hướng dẫn viên."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "マニュアルに沿った対応をしてください。",
-    "options": ["Hãy tự xử lý theo cách của mình, không cần sổ tay.", "Hãy sửa lại sổ tay hướng dẫn cho đúng.", "Hãy xử lý theo đúng sổ tay hướng dẫn.", "Hãy đọc sổ tay hướng dẫn sau khi xử lý xong."],
-    "answer_index": 2,
-    "explanation_vi": "Câu dùng mẫu 〜に沿った + N (theo đúng): \"Hãy xử lý theo đúng sổ tay hướng dẫn.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["線路に沿って、細い道が続いている。", "練習の計画に沿って、毎日少しずつ練習する。", "お客様の要望に沿った商品を作る。", "暑さに沿って、アイスがよく売れた。"],
-    "answer_index": 3,
-    "explanation_vi": "「暑さに沿って、アイスがよく売れた。」 sai: に沿って không diễn tả biến đổi song song hay nguyên nhân. Câu đúng: 暑かったので、アイスがよく売れた。"
+    "explanation_vi": "「給料が上がるに伴って、新しい車を買おう。」 sai: vế sau của に伴って là sự thay đổi đi kèm, không dùng ý chí như 〜よう. Câu đúng: 給料が上がったら、新しい車を買おう。"
    }
   ]
  }

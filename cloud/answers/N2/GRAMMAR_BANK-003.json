@@ -689,5 +689,105 @@
     "explanation_vi": "「仕事が忙しくて、旅行だどころではない。」 sai: danh từ gắn thẳng với どころではない, không thêm だ. Câu đúng: 仕事が忙しくて、旅行どころではない。"
    }
   ]
+ },
+ "JG-d2849dbd11": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "この大学には、ベトナム（　　）、アジアの国々から多くの留学生が来ている。", "options": ["にとって", "を始め", "について", "に反して"], "answer_index": 1, "explanation_vi": "Điền 「を始め」: N + を始め nêu ví dụ tiêu biểu (Việt Nam) rồi mở rộng ra cả nhóm (các nước châu Á). にとって, について, に反して không hợp nghĩa. Nghĩa: Trường đại học này có nhiều du học sinh đến từ các nước châu Á, tiêu biểu là Việt Nam."},
+   {"type": "FILL", "prompt_ja": "田中さんを（　　）、営業部の皆さんには大変お世話になりました。", "options": ["始め", "始めて", "始まり", "始めた"], "answer_index": 0, "explanation_vi": "Điền 「始め」: mẫu cố định là N + を始め (hoặc を始めとして), không chia thành 始めて hay 始めた. Nghĩa: Từ anh Tanaka cho đến mọi người ở phòng kinh doanh đã giúp đỡ tôi rất nhiều."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿が会議に出席した。", "options": ["始め", "部長", "社長を", "各部の"], "answer_index": 3, "explanation_vi": "Câu đúng: 社長を始め各部の部長が会議に出席した。 (Từ giám đốc cho đến trưởng phòng các bộ phận đều dự họp.). Mảnh ở ô ★ là 「各部の」."},
+   {"type": "ORDER_STAR", "prompt_ja": "この町には、＿＿ ＿＿ ★ ＿＿が多い。", "options": ["施設", "美術館を", "文化的な", "始めとして"], "answer_index": 2, "explanation_vi": "Câu đúng: この町には、美術館を始めとして文化的な施設が多い。 (Thị trấn này có nhiều cơ sở văn hóa, tiêu biểu là bảo tàng mỹ thuật.). Mảnh ở ô ★ là 「文化的な」."},
+   {"type": "MEANING", "prompt_ja": "父を始め、家族みんなが私の留学に賛成してくれた。", "options": ["Bố bắt đầu tán thành trước rồi cả nhà mới đồng ý cho tôi du học.", "Chỉ có bố tán thành, còn cả nhà phản đối việc tôi du học.", "Từ bố cho đến cả nhà đều tán thành việc tôi đi du học.", "Cả nhà tán thành việc tôi du học nhưng bố thì chưa đồng ý."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu を始め (tiêu biểu là…, từ… cho đến…): \"Từ bố cho đến cả nhà đều tán thành việc tôi đi du học.\""},
+   {"type": "MEANING", "prompt_ja": "この図書館には、小説を始め、いろいろな種類の本がそろっている。", "options": ["Thư viện này có đủ các loại sách, tiêu biểu là tiểu thuyết.", "Thư viện này bắt đầu nhập tiểu thuyết từ năm nay.", "Thư viện này chỉ có tiểu thuyết, không có loại sách khác.", "Thư viện này có nhiều loại sách nhưng không có tiểu thuyết."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu を始め (tiêu biểu là…, từ… cho đến…): \"Thư viện này có đủ các loại sách, tiêu biểu là tiểu thuyết.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["父を始め、家族みんなが私の留学に賛成してくれた。", "この大学には、ベトナムを始め、アジアの国々から多くの留学生が来ている。", "田中さんを始め、営業部の皆さんには大変お世話になりました。", "母を始めて、家族全員が元気に過ごしています。"], "answer_index": 3, "explanation_vi": "「母を始めて、家族全員が元気に過ごしています。」 sai: mẫu là N + を始め, không dùng thể て 始めて. Câu đúng: 母を始め、家族全員が元気に過ごしています。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["この図書館には、小説を始め、いろいろな種類の本がそろっている。", "社長が始め、社員全員が新年会に参加した。", "社長を始め各部の部長が会議に出席した。", "この町には、美術館を始めとして文化的な施設が多い。"], "answer_index": 1, "explanation_vi": "「社長が始め、社員全員が新年会に参加した。」 sai: trước 始め phải là trợ từ を (N + を始め). Câu đúng: 社長を始め、社員全員が新年会に参加した。"}
+  ],
+  "order_items": [
+   {"pieces": ["多くの国から", "留学生が来ている。", "この学校には", "アメリカを始め、"], "answer_order": [2, 3, 0, 1], "translation_vi": "Trường này có du học sinh đến từ nhiều nước, tiêu biểu là Mỹ."},
+   {"pieces": ["新しい計画に賛成した。", "部長を始めとして、", "課のメンバー全員が"], "answer_order": [1, 2, 0], "translation_vi": "Từ trưởng phòng cho đến toàn bộ thành viên trong ban đều tán thành kế hoạch mới."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "このスーパーでは、野菜を＿＿、肉や魚もとても安い。", "answer": "始め", "accept": ["はじめ", "始めとして"], "translation_vi": "Ở siêu thị này, từ rau cho đến thịt, cá đều rất rẻ."},
+   {"sentence_ja": "日本には、富士山を＿＿として、美しい山がたくさんある。", "answer": "始め", "accept": ["はじめ"], "translation_vi": "Nhật Bản có rất nhiều ngọn núi đẹp, tiêu biểu là núi Phú Sĩ."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "市長を（　　）、町の人たちがたくさん祭りに集まった。", "options": ["始まって", "始めると", "始めるので", "始め"], "answer_index": 3, "explanation_vi": "Điền 「始め」: N + を始め nêu người tiêu biểu (thị trưởng) rồi nói đến cả nhóm (người dân trong thị trấn). Nghĩa: Từ thị trưởng cho đến người dân trong thị trấn đã tụ tập đông đủ ở lễ hội."},
+   {"type": "MEANING", "prompt_ja": "このアプリを使えば、英語を始め、二十の言語が勉強できる。", "options": ["Dùng ứng dụng này thì phải học tiếng Anh trước rồi mới học 20 ngôn ngữ khác.", "Ứng dụng này chỉ dạy tiếng Anh, không có ngôn ngữ khác.", "Nếu dùng ứng dụng này, có thể học 20 ngôn ngữ, tiêu biểu là tiếng Anh.", "Nếu dùng ứng dụng này, có thể học 20 ngôn ngữ trừ tiếng Anh."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu を始め (tiêu biểu là…, từ… cho đến…): \"Nếu dùng ứng dụng này, có thể học 20 ngôn ngữ, tiêu biểu là tiếng Anh.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["ラーメンの始め、いろいろな日本料理が食べられる。", "市長を始め、町の人たちがたくさん祭りに集まった。", "日本には、富士山を始めとして、美しい山がたくさんある。", "父を始め、家族みんなが私の留学に賛成してくれた。"], "answer_index": 0, "explanation_vi": "「ラーメンの始め、いろいろな日本料理が食べられる。」 sai: phải dùng trợ từ を (N + を始め), không dùng の. Câu đúng: ラーメンを始め、いろいろな日本料理が食べられる。"}
+  ]
+ },
+ "JG-7c2abc8efb": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "この橋の工事は、五年（　　）続けられた。", "options": ["において", "に沿って", "にわたって", "に対して"], "answer_index": 2, "explanation_vi": "Điền 「にわたって」: N (khoảng thời gian) + にわたって nhấn mạnh việc kéo dài suốt khoảng đó. において, に沿って, に対して không đi với khoảng thời gian. Nghĩa: Công trình cây cầu này đã kéo dài suốt năm năm."},
+   {"type": "FILL", "prompt_ja": "昨日の大雨で、県内の広い範囲（　　）電車が止まった。", "options": ["に比べて", "にとって", "によると", "にわたって"], "answer_index": 3, "explanation_vi": "Điền 「にわたって」: N (phạm vi) + にわたって nói việc xảy ra trên cả một phạm vi rộng. Nghĩa: Do mưa lớn hôm qua, tàu điện đã ngừng chạy trên một phạm vi rộng trong tỉnh."},
+   {"type": "ORDER_STAR", "prompt_ja": "社員の意見が分かれて、会議は＿＿ ＿＿ ★ ＿＿。", "options": ["続いた", "に", "三時間", "わたって"], "answer_index": 3, "explanation_vi": "Câu đúng: 社員の意見が分かれて、会議は三時間にわたって続いた。 (Ý kiến nhân viên chia rẽ nên cuộc họp kéo dài suốt ba tiếng.). Mảnh ở ô ★ là 「わたって」."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ＿＿ ★の結果が、やっと発表された。", "options": ["わたる", "十年", "研究", "に"], "answer_index": 2, "explanation_vi": "Câu đúng: 十年にわたる研究の結果が、やっと発表された。 (Kết quả của công trình nghiên cứu kéo dài mười năm cuối cùng đã được công bố.). Mảnh ở ô ★ là 「研究」."},
+   {"type": "MEANING", "prompt_ja": "田中さんは、二十年にわたってこの会社で働いてきた。", "options": ["Anh Tanaka sẽ làm việc ở công ty này thêm 20 năm nữa.", "Anh Tanaka đã làm việc ở công ty này suốt 20 năm.", "Anh Tanaka vào công ty này 20 năm trước nhưng chỉ làm ít lâu.", "Anh Tanaka đã từng làm qua 20 công ty khác nhau."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu にわたって (suốt, trải dài khắp): \"Anh Tanaka đã làm việc ở công ty này suốt 20 năm.\""},
+   {"type": "MEANING", "prompt_ja": "台風の影響で、全国にわたって大雨が降った。", "options": ["Do bão, mưa lớn chỉ rơi ở một vài nơi trong nước.", "Bão đi qua cả nước nhưng hầu như không có mưa.", "Do bão, cả nước đã chuẩn bị ứng phó với mưa lớn.", "Do ảnh hưởng của bão, mưa lớn đã rơi trên khắp cả nước."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu にわたって (suốt, trải dài khắp): \"Do ảnh hưởng của bão, mưa lớn đã rơi trên khắp cả nước.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["会議は午後三時にわたって行われた。", "この橋の工事は、五年にわたって続けられた。", "田中さんは、二十年にわたってこの会社で働いてきた。", "台風の影響で、全国にわたって大雨が降った。"], "answer_index": 0, "explanation_vi": "「会議は午後三時にわたって行われた。」 sai: にわたって đi với khoảng thời gian hay phạm vi, không đi với một thời điểm (午後三時). Câu đúng: 会議は三時間にわたって行われた。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["社員の意見が分かれて、会議は三時間にわたって続いた。", "十年にわたる研究の結果が、やっと発表された。", "祭りは三日間がわたって行われた。", "昨日の大雨で、県内の広い範囲にわたって電車が止まった。"], "answer_index": 2, "explanation_vi": "「祭りは三日間がわたって行われた。」 sai: trước わたって phải là trợ từ に (N + にわたって). Câu đúng: 祭りは三日間にわたって行われた。"}
+  ],
+  "order_items": [
+   {"pieces": ["わたって", "テストが行われる。", "来月から", "二週間に"], "answer_order": [2, 3, 0, 1], "translation_vi": "Từ tháng sau, bài kiểm tra sẽ được tổ chức suốt hai tuần."},
+   {"pieces": ["広い地域に", "わたって", "停電が起きた。", "大雪のため、"], "answer_order": [3, 0, 1, 2], "translation_vi": "Do tuyết rơi dày, mất điện đã xảy ra trên một khu vực rộng."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "この小説は、三百年に＿＿家族の歴史を描いている。", "answer": "わたる", "accept": ["わたった", "わたっての"], "translation_vi": "Cuốn tiểu thuyết này miêu tả lịch sử một gia đình trải dài suốt ba trăm năm."},
+   {"sentence_ja": "雨は一週間に＿＿降り続いた。", "answer": "わたって", "accept": ["わたり"], "translation_vi": "Mưa đã rơi liên tục suốt một tuần."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "その歌手のコンサートは、半年（　　）全国四十か所で行われた。", "options": ["ばかりか", "にわたって", "によって", "とともに"], "answer_index": 1, "explanation_vi": "Điền 「にわたって」: N (khoảng thời gian) + にわたって nhấn mạnh thời gian kéo dài và quy mô lớn. Nghĩa: Các buổi hòa nhạc của ca sĩ đó đã được tổ chức tại 40 địa điểm trên cả nước suốt nửa năm."},
+   {"type": "MEANING", "prompt_ja": "その問題について、二日間にわたって話し合った。", "options": ["Hai ngày nữa chúng tôi sẽ thảo luận vấn đề đó.", "Chúng tôi đã thảo luận vấn đề đó hai lần, cách nhau hai ngày.", "Chúng tôi định thảo luận vấn đề đó nhưng hai ngày rồi vẫn chưa làm.", "Chúng tôi đã thảo luận về vấn đề đó suốt hai ngày."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu にわたって (suốt, trải dài khắp): \"Chúng tôi đã thảo luận về vấn đề đó suốt hai ngày.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["雨は一週間にわたって降り続いた。", "その店は、来週の月曜日にわたって休みます。", "大雪のため、広い地域にわたって停電が起きた。", "十年にわたる研究の結果が発表された。"], "answer_index": 1, "explanation_vi": "「その店は、来週の月曜日にわたって休みます。」 sai: 来週の月曜日 là một ngày (thời điểm), không phải khoảng thời gian nên không dùng にわたって. Câu đúng: その店は、来週の月曜日に休みます。"}
+  ]
+ },
+ "JG-c6afc41f7a": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "私たちは、共通の友人（　　）知り合った。", "options": ["にわたって", "を通じて", "に応じて", "に加えて"], "answer_index": 1, "explanation_vi": "Điền 「を通じて」: N + を通じて nói làm quen nhờ một người trung gian. にわたって, に応じて, に加えて không mang nghĩa 'thông qua'. Nghĩa: Chúng tôi quen nhau thông qua một người bạn chung."},
+   {"type": "FILL", "prompt_ja": "この公園では、四季（　　）いろいろな花が楽しめる。", "options": ["に際して", "に先立って", "に反して", "を通じて"], "answer_index": 3, "explanation_vi": "Điền 「を通じて」: danh từ thời gian + を通じて nghĩa là 'suốt cả' khoảng thời gian đó. Nghĩa: Ở công viên này, suốt bốn mùa đều có thể ngắm nhiều loại hoa."},
+   {"type": "ORDER_STAR", "prompt_ja": "そのニュースは、＿＿ ＿＿ ★ ＿＿。", "options": ["を", "広まった", "通じて", "インターネット"], "answer_index": 2, "explanation_vi": "Câu đúng: そのニュースは、インターネットを通じて広まった。 (Tin đó đã lan rộng thông qua Internet.). Mảnh ở ô ★ là 「通じて」."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿、新しい仕事が見つかった。", "options": ["通じて", "大学の", "を", "先輩"], "answer_index": 3, "explanation_vi": "Câu đúng: 大学の先輩を通じて、新しい仕事が見つかった。 (Thông qua một anh chị khóa trên ở đại học, tôi đã tìm được công việc mới.). Mảnh ở ô ★ là 「先輩」."},
+   {"type": "MEANING", "prompt_ja": "田中さんを通じて、社長に会議の結果を伝えてもらった。", "options": ["Tôi đã nhờ anh Tanaka chuyển kết quả cuộc họp tới giám đốc.", "Tôi đã đi cùng anh Tanaka để báo kết quả cuộc họp cho giám đốc.", "Anh Tanaka đã nghe giám đốc báo kết quả cuộc họp.", "Thay vì nhờ anh Tanaka, tôi đã trực tiếp báo kết quả cho giám đốc."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu を通じて (thông qua người hay phương tiện trung gian): \"Tôi đã nhờ anh Tanaka chuyển kết quả cuộc họp tới giám đốc.\""},
+   {"type": "MEANING", "prompt_ja": "この島は一年を通じて暖かい。", "options": ["Hòn đảo này chỉ ấm vào một năm nhất định.", "Một năm nữa hòn đảo này sẽ ấm lên.", "Hòn đảo này ấm áp quanh năm.", "Hòn đảo này mỗi năm lại ấm hơn một chút."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu を通じて (suốt cả khoảng thời gian): \"Hòn đảo này ấm áp quanh năm.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["私たちは、共通の友人を通じて知り合った。", "この島は一年を通じて暖かい。", "そのニュースは、インターネットを通じて広まった。", "このはさみを通じて紙を切ってください。"], "answer_index": 3, "explanation_vi": "「このはさみを通じて紙を切ってください。」 sai: を通じて dùng cho người hay phương tiện trung gian, không dùng cho dụng cụ trực tiếp như cái kéo; phải dùng で. Câu đúng: このはさみで紙を切ってください。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["大学の先輩を通じて、新しい仕事が見つかった。", "友だちに通じて、今の仕事を紹介してもらった。", "この公園では、四季を通じていろいろな花が楽しめる。", "田中さんを通じて、社長に会議の結果を伝えてもらった。"], "answer_index": 1, "explanation_vi": "「友だちに通じて、今の仕事を紹介してもらった。」 sai: mẫu là N + を通じて, không dùng trợ từ に. Câu đúng: 友だちを通じて、今の仕事を紹介してもらった。"}
+  ],
+  "order_items": [
+   {"pieces": ["多くの友だちが", "ボランティア活動を", "できた。", "通じて"], "answer_order": [1, 3, 0, 2], "translation_vi": "Thông qua hoạt động tình nguyện, tôi đã có nhiều bạn bè."},
+   {"pieces": ["通じて", "観光客が多い。", "を", "この町は一年"], "answer_order": [3, 2, 0, 1], "translation_vi": "Thị trấn này quanh năm đều đông khách du lịch."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "SNSを＿＿、昔のクラスメートと連絡が取れた。", "answer": "通じて", "accept": ["通して"], "translation_vi": "Thông qua mạng xã hội, tôi đã liên lạc được với bạn học cũ."},
+   {"sentence_ja": "このあたりは一年を＿＿雨が多い。", "answer": "通じて", "accept": ["通して"], "translation_vi": "Vùng này quanh năm mưa nhiều."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "私はこの仕事（　　）、多くのことを学んだ。", "options": ["にわたって", "をめぐって", "を通じて", "にかけては"], "answer_index": 2, "explanation_vi": "Điền 「を通じて」: N + を通じて nói học được điều gì qua một trải nghiệm. をめぐって cần có tranh luận, にかけては cần lời khen năng lực, にわたって cần khoảng thời gian hay phạm vi. Nghĩa: Thông qua công việc này, tôi đã học được nhiều điều."},
+   {"type": "MEANING", "prompt_ja": "この本を通じて、日本の文化について深く知ることができた。", "options": ["Tôi viết cuốn sách này để giới thiệu văn hóa Nhật Bản.", "Thông qua cuốn sách này, tôi đã hiểu sâu về văn hóa Nhật Bản.", "Cuốn sách này khó nên tôi vẫn chưa hiểu văn hóa Nhật Bản.", "Tôi mất cả năm trời mới đọc hết cuốn sách về văn hóa Nhật Bản."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu を通じて (thông qua người hay phương tiện trung gian): \"Thông qua cuốn sách này, tôi đã hiểu sâu về văn hóa Nhật Bản.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["SNSを通じて、昔のクラスメートと連絡が取れた。", "このあたりは一年を通じて雨が多い。", "毎朝、自転車を通じて会社に行っている。", "ボランティア活動を通じて多くの友だちができた。"], "answer_index": 2, "explanation_vi": "「毎朝、自転車を通じて会社に行っている。」 sai: phương tiện đi lại trực tiếp dùng で, không dùng を通じて (trung gian). Câu đúng: 毎朝、自転車で会社に行っている。"}
+  ]
+ },
+ "JG-e31f878921": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "旅行で買ったお土産を、忙しくて友だちに渡さ（　　）だった。", "options": ["ないうちに", "ずじまい", "ずにはいられない", "ないことには"], "answer_index": 1, "explanation_vi": "Điền 「ずじまい」: Vない (ない→ず) + じまい nói rốt cuộc đã không làm được việc định làm, kèm tiếc nuối. Các lựa chọn khác không kết hợp với だった ở cuối câu. Nghĩa: Quà mua trong chuyến du lịch, vì bận nên rốt cuộc tôi đã không đưa được cho bạn."},
+   {"type": "FILL", "prompt_ja": "せっかく水着を買ったのに、今年の夏は一度も海で（　　）じまいだった。", "options": ["泳がず", "泳がない", "泳いで", "泳ぎ"], "answer_index": 0, "explanation_vi": "Điền 「泳がず」: trước じまい dùng thể ず (泳がない → 泳がず). Nghĩa: Đã cất công mua đồ bơi mà mùa hè năm nay rốt cuộc tôi chưa bơi ở biển lần nào."},
+   {"type": "ORDER_STAR", "prompt_ja": "パーティーで話したのに、田中さんの連絡先を＿＿ ＿＿ ★ ＿＿。", "options": ["だった", "ず", "聞か", "じまい"], "answer_index": 3, "explanation_vi": "Câu đúng: パーティーで話したのに、田中さんの連絡先を聞かずじまいだった。 (Đã nói chuyện ở bữa tiệc vậy mà rốt cuộc tôi không hỏi số liên lạc của anh Tanaka.). Mảnh ở ô ★ là 「じまい」."},
+   {"type": "ORDER_STAR", "prompt_ja": "同じ町に住んでいたのに、＿＿ ★ ＿＿ ＿＿になってしまった。", "options": ["じまい", "会わず", "一度も", "結局"], "answer_index": 2, "explanation_vi": "Câu đúng: 同じ町に住んでいたのに、結局一度も会わずじまいになってしまった。 (Sống cùng một thị trấn vậy mà rốt cuộc chúng tôi chưa gặp nhau lần nào.). Mảnh ở ô ★ là 「一度も」."},
+   {"type": "MEANING", "prompt_ja": "あの映画は見たかったが、時間がなくて見ずじまいだった。", "options": ["Tôi muốn xem bộ phim đó nên đã dành thời gian đi xem.", "Tôi không muốn xem bộ phim đó nhưng cuối cùng vẫn phải xem.", "Tôi đã xem bộ phim đó nhưng không có thời gian xem hết.", "Tôi muốn xem bộ phim đó nhưng không có thời gian nên rốt cuộc đã không xem được."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜ずじまい (rốt cuộc đã không làm được): \"Tôi muốn xem bộ phim đó nhưng không có thời gian nên rốt cuộc đã không xem được.\""},
+   {"type": "MEANING", "prompt_ja": "先生に聞きたいことがあったのに、結局質問せずじまいだった。", "options": ["Có điều muốn hỏi thầy vậy mà rốt cuộc tôi đã không hỏi.", "Tôi có điều muốn hỏi nên cuối cùng đã hỏi thầy.", "Thầy đã hỏi tôi một câu nhưng tôi không trả lời được.", "Tôi không có gì để hỏi nên đã không hỏi thầy."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜ずじまい (rốt cuộc đã không làm được): \"Có điều muốn hỏi thầy vậy mà rốt cuộc tôi đã không hỏi.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["あの映画は見たかったが、時間がなくて見ずじまいだった。", "会議で意見を言いたかったが、結局発言しずじまいだった。", "先生に聞きたいことがあったのに、結局質問せずじまいだった。", "パーティーで話したのに、田中さんの連絡先を聞かずじまいだった。"], "answer_index": 1, "explanation_vi": "「会議で意見を言いたかったが、結局発言しずじまいだった。」 sai: thể ず của する là せず, nên phải là 発言せずじまい. Câu đúng: 会議で意見を言いたかったが、結局発言せずじまいだった。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["同じ町に住んでいたのに、結局一度も会わずじまいになってしまった。", "せっかく水着を買ったのに、一度も海で泳がずじまいだった。", "その本は買ったが、読まないじまいだった。", "旅行で買ったお土産を、友だちに渡さずじまいだった。"], "answer_index": 2, "explanation_vi": "「その本は買ったが、読まないじまいだった。」 sai: trước じまい phải dùng thể ず (読まず), không dùng thể ない. Câu đúng: その本は買ったが、読まずじまいだった。"}
+  ],
+  "order_items": [
+   {"pieces": ["結局", "渡せず", "じまいだった。", "手紙を書いたのに、"], "answer_order": [3, 0, 1, 2], "translation_vi": "Đã viết thư rồi vậy mà rốt cuộc tôi không đưa được."},
+   {"pieces": ["じまいだった。", "日本に三年いたが、", "登らず", "富士山には"], "answer_order": [1, 3, 2, 0], "translation_vi": "Tôi ở Nhật ba năm nhưng rốt cuộc chưa leo núi Phú Sĩ."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "お礼を言いたかったが、言え＿＿じまいだった。", "answer": "ず", "translation_vi": "Tôi muốn nói lời cảm ơn nhưng rốt cuộc đã không nói được."},
+   {"sentence_ja": "買ったケーキを冷蔵庫に入れたまま、食べず＿＿だった。", "answer": "じまい", "translation_vi": "Chiếc bánh mua về để nguyên trong tủ lạnh, rốt cuộc tôi đã không ăn."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "病院で検査を受けるように言われたが、結局（　　）じまいだった。", "options": ["受けない", "受けて", "受けよう", "受けず"], "answer_index": 3, "explanation_vi": "Điền 「受けず」: trước じまい dùng thể ず của động từ (受けない → 受けず). Nghĩa: Tôi được bảo đi khám ở bệnh viện nhưng rốt cuộc đã không đi khám."},
+   {"type": "MEANING", "prompt_ja": "卒業までに読もうと思っていた本は、ほとんど読まずじまいだった。", "options": ["Trước khi tốt nghiệp tôi đã đọc gần hết những cuốn sách định đọc.", "Những cuốn sách định đọc trước khi tốt nghiệp, rốt cuộc tôi hầu như chưa đọc.", "Tôi định để sau khi tốt nghiệp mới đọc sách.", "Tôi mải đọc sách đến mức suýt không tốt nghiệp được."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜ずじまい (rốt cuộc đã không làm được): \"Những cuốn sách định đọc trước khi tốt nghiệp, rốt cuộc tôi hầu như chưa đọc.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["お礼を言いたかったが、言えずじまいだった。", "今年の冬は寒くずじまいだった。", "手紙を書いたのに、結局渡せずじまいだった。", "日本に三年いたが、富士山には登らずじまいだった。"], "answer_index": 1, "explanation_vi": "「今年の冬は寒くずじまいだった。」 sai: ずじまい chỉ gắn với động từ (thể ず) để nói việc định làm mà không làm được, không dùng với tính từ hay trạng thái. Câu đúng: 今年の冬は結局あまり寒くならなかった。"}
+  ]
  }
 }

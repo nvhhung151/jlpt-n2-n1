@@ -1,0 +1,328 @@
+{
+ "JG-c0cb0dc65c": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この映画はタイトル（　　）怖そうだから、見たくない。",
+    "options": ["最中に", "からして", "に当たって", "際に"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「からして」: N + からして lấy một chi tiết dễ thấy (cái tên) để đánh giá cả bộ phim. 最中に, 際に cần の trước danh từ; に当たって dùng cho dịp bắt đầu việc quan trọng. Nghĩa: Bộ phim này ngay từ cái tên đã thấy đáng sợ nên tôi không muốn xem."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "あの店は店員の態度（　　）失礼で、二度と行きたくない。",
+    "options": ["に際して", "の最中に", "からして", "の際に"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「からして」: ngay từ thái độ của nhân viên đã bất lịch sự, nên đánh giá cả cửa hàng là tệ. Các lựa chọn còn lại chỉ thời điểm, không hợp với 態度. Nghĩa: Cửa hàng đó ngay từ thái độ của nhân viên đã bất lịch sự, tôi không muốn đến lần nữa."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "あの人は＿＿ ＿＿ ★ ＿＿。",
+    "options": ["好きになれない", "偉そうで", "話し方", "からして"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: あの人は話し方からして偉そうで好きになれない。 (Người đó ngay từ cách nói chuyện đã ra vẻ ta đây nên tôi không thể thích được.). Mảnh ở ô ★ là 「偉そうで」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "このレストランは＿＿ ★ ＿＿ ＿＿。",
+    "options": ["高そうな", "雰囲気だ", "からして", "メニュー"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: このレストランはメニューからして高そうな雰囲気だ。 (Nhà hàng này ngay từ thực đơn đã toát lên vẻ đắt tiền.). Mảnh ở ô ★ là 「からして」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この報告書はタイトルからして間違っている。",
+    "options": ["Bản báo cáo này chỉ sai mỗi tiêu đề.", "So với tiêu đề thì nội dung bản báo cáo này sai nhiều hơn.", "Bản báo cáo này bị sai vì đã đổi tiêu đề.", "Bản báo cáo này ngay cả tiêu đề cũng đã sai rồi."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜からして (ngay từ chi tiết đầu tiên đã…, huống chi phần còn lại): \"Bản báo cáo này ngay cả tiêu đề cũng đã sai rồi.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "兄は朝起きる時間からして私とは違う。",
+    "options": ["Anh trai tôi dậy sớm hơn tôi là nhờ đồng hồ báo thức.", "Anh trai tôi ngay cả giờ ngủ dậy buổi sáng cũng đã khác tôi.", "Anh trai tôi chỉ khác tôi ở giờ ngủ dậy buổi sáng.", "Kể từ giờ ngủ dậy buổi sáng, anh trai tôi lúc nào cũng ở cạnh tôi."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜からして (lấy một chi tiết tiêu biểu để nói cả con người khác biệt): \"Anh trai tôi ngay cả giờ ngủ dậy buổi sáng cũng đã khác tôi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["この料理は見た目からしておいしそうだ。", "彼は服装からしてまじめそうだ。", "明日からして新しい仕事が始まる。", "あのチームは選手の体の大きさからして強そうだ。"],
+    "answer_index": 2,
+    "explanation_vi": "「明日からして新しい仕事が始まる。」 sai: からして dùng để lấy một chi tiết làm căn cứ đánh giá, không chỉ mốc thời gian bắt đầu. Câu đúng: 明日から新しい仕事が始まる。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["部長は話し方からして厳しそうな人だ。", "この公園は子どもからして大人まで楽しめる。", "この本は表紙からして難しそうだ。", "彼女は歩き方からして普通の人とは違う。"],
+    "answer_index": 1,
+    "explanation_vi": "「この公園は子どもからして大人まで楽しめる。」 sai: phạm vi 'từ… đến…' phải dùng 〜から〜まで, không dùng からして. Câu đúng: この公園は子どもから大人まで楽しめる。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["からして", "この旅館は", "違う。", "部屋の広さ"],
+    "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Nhà trọ kiểu Nhật này ngay từ độ rộng của phòng đã khác hẳn."
+   },
+   {
+    "pieces": ["態度からして", "感じられない。", "やる気が", "あの学生は"],
+    "answer_order": [3, 0, 2, 1],
+    "translation_vi": "Cậu sinh viên đó ngay từ thái độ đã chẳng thấy chút hăng hái nào."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "この料理はにおい＿＿おいしそうで、早く食べたい。",
+    "answer": "からして",
+    "translation_vi": "Món này ngay từ mùi đã thấy ngon, tôi muốn ăn ngay."
+   },
+   {
+    "sentence_ja": "あの会社は社長＿＿時間を守らないのだから、社員が遅れるのも当然だ。",
+    "answer": "からして",
+    "accept": ["でさえ", "さえ"],
+    "translation_vi": "Công ty đó ngay cả giám đốc cũng không đúng giờ, nên nhân viên đến muộn cũng là đương nhiên."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼の作文は字（　　）丁寧で、まじめな性格がよく分かる。",
+    "options": ["からして", "ないうちに", "てでも", "た途端に"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「からして」: N + からして, lấy nét chữ làm chi tiết tiêu biểu để thấy tính cách. Các mẫu còn lại không gắn trực tiếp sau danh từ. Nghĩa: Bài văn của cậu ấy ngay từ nét chữ đã cẩn thận, nhìn là biết tính cách nghiêm túc."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この店は名前からしておしゃれだ。",
+    "options": ["Cửa hàng này đổi tên nên trở nên sành điệu hơn.", "Cửa hàng này chỉ có cái tên là sành điệu.", "Cửa hàng này ngay từ cái tên đã thấy sành điệu rồi.", "So với cái tên thì cửa hàng này sành điệu hơn nhiều."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜からして (ngay từ chi tiết đầu tiên đã thấy…): \"Cửa hàng này ngay từ cái tên đã thấy sành điệu rồi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼女は声からして元気そうだった。", "この問題は問題文からして難しい。", "あの家は門からして立派だ。", "駅からして歩いて十分のところに住んでいる。"],
+    "answer_index": 3,
+    "explanation_vi": "「駅からして歩いて十分のところに住んでいる。」 sai: chỉ điểm xuất phát về khoảng cách thì dùng から, không dùng からして. Câu đúng: 駅から歩いて十分のところに住んでいる。"
+   }
+  ]
+ },
+ "JG-bf620ebf50": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "図書館の本を借りる（　　）、学生証が必要です。",
+    "options": ["最中に", "際に", "ないうちに", "からして"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「際に」: Vる + 際に nói thời điểm làm một thủ tục, cách nói trang trọng của とき. 最中に cần Vている, ないうちに cần Vない, からして đi sau danh từ. Nghĩa: Khi mượn sách thư viện thì cần thẻ sinh viên."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "日本を（　　）際に、お世話になった先生にあいさつに行った。",
+    "options": ["出る", "出て", "出ない", "出よう"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「出る」: 際に đi sau Vる hoặc Vた, không đi sau thể て, thể phủ định hay thể ý chí. Nghĩa: Lúc rời Nhật, tôi đã đến chào thầy giáo người đã giúp đỡ mình."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿持ってきてください。",
+    "options": ["写真を", "際には", "申請する", "パスポートを"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: パスポートを申請する際には写真を持ってきてください。 (Khi xin cấp hộ chiếu, xin hãy mang theo ảnh.). Mảnh ở ô ★ là 「際には」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "これは＿＿ ＿＿ ★ ＿＿です。",
+    "options": ["お土産", "買った", "際に", "大阪へ出張した"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: これは大阪へ出張した際に買ったお土産です。 (Đây là quà tôi mua lúc đi công tác Osaka.). Mảnh ở ô ★ là 「買った」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "地震の際には、エレベーターを使わないでください。",
+    "options": ["Ngay sau trận động đất, thang máy đã ngừng hoạt động.", "Vì có động đất nên thang máy không dùng được.", "Khi có động đất, xin đừng sử dụng thang máy.", "Trước khi động đất xảy ra, hãy đi thang máy xuống."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜際に (vào lúc, khi — cách nói trang trọng trong thông báo): \"Khi có động đất, xin đừng sử dụng thang máy.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "前回お会いした際に、この話をしましたね。",
+    "options": ["Lần sau gặp nhau, chúng ta hãy nói chuyện này nhé.", "Vì đã gặp nhau lần trước nên không cần nói chuyện này nữa.", "Lần trước gặp nhau, chúng ta chưa nói chuyện này.", "Lần trước khi gặp nhau, chúng ta đã nói chuyện này rồi nhỉ."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vた + 際に (vào lúc đã làm gì): \"Lần trước khi gặp nhau, chúng ta đã nói chuyện này rồi nhỉ.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["ご利用の際は、カードを見せてください。", "子どもの際に、よく川で泳いだ。", "先日神戸を訪れた際に、港を見学した。", "お帰りの際は、忘れ物にご注意ください。"],
+    "answer_index": 1,
+    "explanation_vi": "「子どもの際に、よく川で泳いだ。」 sai: 際に chỉ thời điểm của một hành động cụ thể, không dùng cho một giai đoạn kéo dài như tuổi thơ. Câu đúng: 子どものころ、よく川で泳いだ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["空港に着き際に、電話をください。", "書類を提出する際に、はんこが必要です。", "火事の際は、階段を使ってください。", "退院した際に、看護師さんにお礼を言った。"],
+    "answer_index": 0,
+    "explanation_vi": "「空港に着き際に、電話をください。」 sai: 際に đi sau Vる/Vた hoặc Nの, không đi sau thể ます bỏ ます. Câu đúng: 空港に着いた際に、電話をください。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["際に、", "ホテルを", "予約する", "カードの番号が必要だ。"],
+    "answer_order": [1, 2, 0, 3],
+    "translation_vi": "Khi đặt phòng khách sạn thì cần có số thẻ."
+   },
+   {
+    "pieces": ["運転する", "スマホを使ってはいけない。", "際は、", "車を"],
+    "answer_order": [3, 0, 2, 1],
+    "translation_vi": "Khi lái xe ô tô thì không được dùng điện thoại."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "お申し込みの＿＿、身分証明書をお持ちください。",
+    "answer": "際に",
+    "accept": ["際は", "際には", "さいに", "時に", "ときに"],
+    "translation_vi": "Khi đăng ký, xin quý khách mang theo giấy tờ tùy thân."
+   },
+   {
+    "sentence_ja": "先月北海道へ旅行した＿＿、有名な温泉に寄った。",
+    "answer": "際に",
+    "accept": ["際", "さいに", "時に", "ときに"],
+    "translation_vi": "Lúc đi du lịch Hokkaido tháng trước, tôi đã ghé một suối nước nóng nổi tiếng."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "何か問題が起きた（　　）、すぐに担当者に連絡してください。",
+    "options": ["からして", "一方で", "際に", "最中に"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「際に」: Vた + 際に, nói vào lúc sự việc xảy ra thì hãy làm gì, hay dùng trong hướng dẫn. 最中に cần Vている, からして đi sau danh từ, 一方で không hợp nghĩa. Nghĩa: Khi có vấn đề gì xảy ra, xin hãy liên lạc ngay với người phụ trách."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "お支払いの際に、ポイントカードをお出しください。",
+    "options": ["Sau khi thanh toán xong, thẻ tích điểm sẽ được gửi đến.", "Khi thanh toán, xin quý khách xuất trình thẻ tích điểm.", "Nếu không có thẻ tích điểm thì không thể thanh toán.", "Trong lúc đang thanh toán thì thẻ tích điểm bị mất."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Nの + 際に (khi làm việc gì — lời hướng dẫn lịch sự): \"Khi thanh toán, xin quý khách xuất trình thẻ tích điểm.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["卒業の際に、記念写真を撮った。", "部屋を借りる際は、契約書をよく読もう。", "お問い合わせの際は、番号をお知らせください。", "高校生の際に、アメリカに留学した。"],
+    "answer_index": 3,
+    "explanation_vi": "「高校生の際に、アメリカに留学した。」 sai: 際に không đi với danh từ chỉ một giai đoạn kéo dài như 高校生. Câu đúng: 高校生のときに、アメリカに留学した。"
+   }
+  ]
+ },
+ "JG-73d7edfcf0": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "工事の開始（　　）、近所の皆様にご説明いたします。",
+    "options": ["からして", "に際して", "ないうちに", "かと思うと"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「に際して」: N + に際して chỉ dịp quan trọng khi bắt đầu một việc lớn, theo sau là lời thông báo trang trọng. ないうちに, かと思うと không gắn sau danh từ; からして là lấy chi tiết để đánh giá. Nghĩa: Nhân dịp khởi công, chúng tôi xin giải thích với bà con hàng xóm."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "留学する（　　）、たくさんの人にお世話になった。",
+    "options": ["を際して", "の際して", "に際して", "で際して"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「に際して」: mẫu cố định là Vる/N + に際して, trợ từ phải là に. Nghĩa: Khi đi du học, tôi đã được rất nhiều người giúp đỡ."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿、社長があいさつをした。",
+    "options": ["に際して", "完成", "新しい", "工場の"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 新しい工場の完成に際して、社長があいさつをした。 (Nhân dịp nhà máy mới hoàn thành, giám đốc đã phát biểu chào mừng.). Mảnh ở ô ★ là 「完成」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿注意してください。",
+    "options": ["期限に", "パスポートの", "海外旅行", "に際して、"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 海外旅行に際して、パスポートの期限に注意してください。 (Khi đi du lịch nước ngoài, xin hãy chú ý thời hạn hộ chiếu.). Mảnh ở ô ★ là 「に際して、」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "入学に際して、必要な書類を準備してください。",
+    "options": ["Sau khi nhập học xong mới cần chuẩn bị giấy tờ.", "Vì đã nhập học nên không cần chuẩn bị giấy tờ nữa.", "Nhân dịp nhập học, xin hãy chuẩn bị các giấy tờ cần thiết.", "Dù đã nhập học nhưng giấy tờ vẫn chưa đủ."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜に際して (nhân dịp, khi bắt đầu một việc quan trọng): \"Nhân dịp nhập học, xin hãy chuẩn bị các giấy tờ cần thiết.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "退職に際して、部長から花束をもらった。",
+    "options": ["Vì được tặng hoa nên tôi quyết định nghỉ việc.", "Nhân dịp nghỉ việc, tôi được trưởng phòng tặng một bó hoa.", "Trước khi nghỉ việc, tôi đã tặng hoa cho trưởng phòng.", "Dù nghỉ việc nhưng tôi không nhận được bó hoa nào."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜に際して (nhân dịp một sự kiện quan trọng): \"Nhân dịp nghỉ việc, tôi được trưởng phòng tặng một bó hoa.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["試験に際して、注意することを説明します。", "毎朝顔を洗うに際して、鏡を見る。", "開会に際して、市長があいさつをした。", "引っ越しに際して、いろいろな手続きをした。"],
+    "answer_index": 1,
+    "explanation_vi": "「毎朝顔を洗うに際して、鏡を見る。」 sai: に際して chỉ dùng cho dịp đặc biệt, quan trọng, không dùng cho việc lặp lại hằng ngày. Câu đúng: 毎朝顔を洗うとき、鏡を見る。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["出発に際して、皆さんに注意があります。", "契約を結ぶに際して、内容をよく確認した。", "就職に際して、新しいスーツを買った。", "会議の際して、資料を配った。"],
+    "answer_index": 3,
+    "explanation_vi": "「会議の際して、資料を配った。」 sai: mẫu là N + に際して (không có の), hoặc dùng Nの + 際に. Câu đúng: 会議に際して、資料を配った。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["校長先生が", "に際して、", "あいさつをした。", "卒業式の開始"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Nhân dịp khai mạc lễ tốt nghiệp, thầy hiệu trưởng đã phát biểu."
+   },
+   {
+    "pieces": ["プレゼントを用意しました。", "オープン", "に際して、", "お店の"],
+    "answer_order": [3, 1, 2, 0],
+    "translation_vi": "Nhân dịp khai trương cửa hàng, chúng tôi đã chuẩn bị quà tặng."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "新しいシステムを使い始める＿＿、社員向けの説明会を開いた。",
+    "answer": "に際して",
+    "accept": ["に際し", "に当たって", "にあたって", "に当たり", "にあたり"],
+    "translation_vi": "Nhân dịp bắt đầu dùng hệ thống mới, công ty đã tổ chức buổi giới thiệu cho nhân viên."
+   },
+   {
+    "sentence_ja": "日本で働く＿＿、ビザの手続きが必要になる。",
+    "answer": "に際して",
+    "accept": ["に際し", "に当たって", "にあたって", "に当たり", "にあたり", "際に", "際には", "際は"],
+    "translation_vi": "Khi làm việc ở Nhật thì cần làm thủ tục thị thực."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "手術を受ける（　　）、医者から詳しい説明があった。",
+    "options": ["からして", "ないうちに", "に際して", "てでも"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「に際して」: Vる + に際して, nói vào dịp quan trọng (phẫu thuật) thì có việc gì. ないうちに cần Vない, てでも cần thể て, からして đi sau danh từ. Nghĩa: Khi phẫu thuật, bác sĩ đã giải thích cặn kẽ."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "帰国に際して、お世話になった方々にお礼の手紙を書いた。",
+    "options": ["Sau khi về nước, tôi nhận được thư cảm ơn từ mọi người.", "Vì phải viết thư cảm ơn nên tôi hoãn việc về nước.", "Dù sắp về nước nhưng tôi chưa viết thư cảm ơn ai.", "Nhân dịp về nước, tôi đã viết thư cảm ơn những người đã giúp đỡ mình."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜に際して (nhân dịp một việc quan trọng): \"Nhân dịp về nước, tôi đã viết thư cảm ơn những người đã giúp đỡ mình.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["大会の開始に際して、選手たちが入場した。", "お昼ご飯を食べるに際して、手を洗った。", "新しい規則を始めるに際して、説明会が開かれた。", "入社に際して、健康診断を受けた。"],
+    "answer_index": 1,
+    "explanation_vi": "「お昼ご飯を食べるに際して、手を洗った。」 sai: ăn trưa là việc thường ngày, không phải dịp quan trọng nên không dùng に際して. Câu đúng: お昼ご飯を食べる前に、手を洗った。"
+   }
+  ]
+ }
+}
