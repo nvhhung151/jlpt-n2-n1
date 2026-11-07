@@ -1271,7 +1271,194 @@
    "id": "JG-b8b10e17a8"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "日本に来て（　　）、一度も国に帰っていない。",
+      "options": [
+       "以上",
+       "以来",
+       "以内",
+       "以外"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「以来」: V-て + 以来 = kể từ khi… đến nay, trạng thái 'chưa về nước lần nào' kéo dài đến hiện tại. 以上 (một khi đã / trở lên), 以内 (trong vòng), 以外 (ngoài ra) không hợp. Nghĩa: Từ khi đến Nhật, tôi chưa về nước lần nào."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "去年の夏（　　）、彼とは連絡を取っていない。",
+      "options": [
+       "ばかり",
+       "ごろ",
+       "以来",
+       "ほど"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「以来」: N + 以来 = kể từ mốc đó đến nay. ごろ (khoảng) chỉ một thời điểm nên không hợp với trạng thái kéo dài 取っていない; ばかり, ほど không chỉ mốc thời gian. Nghĩa: Từ mùa hè năm ngoái, tôi không liên lạc với anh ấy."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "毎日仕事が忙しい",
+       "以来、",
+       "大学を",
+       "卒業して"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 大学を卒業して以来、毎日仕事が忙しい。 (Kể từ khi tốt nghiệp đại học, ngày nào công việc cũng bận rộn.). Mảnh ở ô ★ là 「以来、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "あの＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "車を運転しなくなった",
+       "父は",
+       "以来、",
+       "事故"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: あの事故以来、父は車を運転しなくなった。 (Kể từ vụ tai nạn đó, bố tôi không lái ô tô nữa.). Mảnh ở ô ★ là 「父は」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "入院して以来、たばこは一本も吸っていない。",
+      "options": [
+       "Trước khi nhập viện, tôi đã bỏ thuốc lá.",
+       "Vì hút thuốc nhiều nên tôi phải nhập viện.",
+       "Sau khi ra viện, tôi lại hút thuốc.",
+       "Kể từ khi nhập viện, tôi chưa hút một điếu thuốc nào."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu V-て + 以来 (kể từ khi… đến nay): \"Kể từ khi nhập viện, tôi chưa hút một điếu thuốc nào.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "引っ越して以来、毎朝公園を散歩している。",
+      "options": [
+       "Trước khi chuyển nhà, sáng nào tôi cũng đi dạo.",
+       "Từ khi chuyển nhà đến nay, sáng nào tôi cũng đi dạo công viên.",
+       "Tôi chuyển nhà để được đi dạo công viên mỗi sáng.",
+       "Sau khi chuyển nhà, tôi chỉ đi dạo công viên một lần."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu V-て + 以来 (từ mốc đó, việc lặp lại vẫn tiếp diễn): \"Từ khi chuyển nhà đến nay, sáng nào tôi cũng đi dạo công viên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "来年以来、留学するつもりだ。",
+       "結婚して以来、料理をするようになった。",
+       "先月以来、ずっと雨が続いている。",
+       "あのけんか以来、二人は口をきいていない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「来年以来、留学するつもりだ。」 sai: 以来 tính từ một mốc trong quá khứ đến hiện tại, không dùng cho tương lai. Câu đúng: 来年から、留学するつもりだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "日本語を習い始めて以来、日本の映画をよく見る。",
+       "高校を卒業して以来、彼には会っていない。",
+       "昨日家に帰って以来、すぐ寝た。",
+       "退院して以来、体の調子がいい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「昨日家に帰って以来、すぐ寝た。」 sai: vế sau 以来 phải là trạng thái kéo dài đến nay, không phải hành động xảy ra một lần ngay sau đó. Câu đúng: 昨日家に帰ってから、すぐ寝た。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "以来、",
+       "もう三年になる。",
+       "この町に",
+       "来て"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Từ khi đến thị trấn này đã được ba năm rồi."
+     },
+     {
+      "pieces": [
+       "以来、",
+       "テレビを",
+       "一度も見ていない。",
+       "引っ越して"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Từ khi chuyển nhà, tôi chưa xem tivi lần nào."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "日本に来て＿＿、ずっとこのアパートに住んでいる。",
+      "answer": "以来",
+      "accept": [
+       "から"
+      ],
+      "translation_vi": "Từ khi đến Nhật, tôi sống mãi ở căn hộ này."
+     },
+     {
+      "sentence_ja": "あの試合＿＿、彼は練習を休んだことがない。",
+      "answer": "以来",
+      "accept": [
+       "から"
+      ],
+      "translation_vi": "Kể từ trận đấu đó, anh ấy chưa từng nghỉ buổi tập nào."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "母は仕事をやめて（　　）、毎日庭の花の世話をしている。",
+      "options": [
+       "以上",
+       "以下",
+       "以前",
+       "以来"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「以来」: V-て + 以来 = kể từ khi nghỉ việc, việc chăm hoa mỗi ngày vẫn tiếp diễn. 以上, 以下, 以前 không đi sau thể て. Nghĩa: Từ khi nghỉ việc, ngày nào mẹ tôi cũng chăm sóc hoa trong vườn."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "スマホを買って以来、本を読まなくなった。",
+      "options": [
+       "Tôi mua điện thoại để đọc sách.",
+       "Trước khi mua điện thoại, tôi cũng không đọc sách.",
+       "Từ khi mua điện thoại thông minh, tôi không còn đọc sách nữa.",
+       "Tôi đọc sách xong mới mua điện thoại."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu V-て + 以来 (kể từ khi… thay đổi kéo dài đến nay): \"Từ khi mua điện thoại thông minh, tôi không còn đọc sách nữa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女とは学生時代以来、ずっと友だちだ。",
+       "明日会社に着いて以来、すぐ会議に出る。",
+       "あの日以来、私は甘いものを食べていない。",
+       "この店ができて以来、町がにぎやかになった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「明日会社に着いて以来、すぐ会議に出る。」 sai: 以来 không dùng cho việc tương lai, cũng không dùng cho hành động một lần ngay sau đó. Câu đúng: 明日会社に着いたら、すぐ会議に出る。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1298,7 +1485,194 @@
    "id": "JG-99c17c7b01"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "こんなに安い給料では、生活の足し（　　）。",
+      "options": [
+       "にほかならない",
+       "にもならない",
+       "にかぎる",
+       "になりがちだ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「にもならない」: 足しにもならない = đến mức bù vào chi tiêu cũng chẳng được, chê là quá ít. にほかならない (chính là), にかぎる (tốt nhất là), になりがちだ (hay trở thành) không hợp nghĩa. Nghĩa: Lương thấp thế này thì đến bù vào sinh hoạt cũng chẳng được."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "そんないいわけでは、話（　　）よ。",
+      "options": [
+       "にかけない",
+       "ばかりだ",
+       "にもならない",
+       "でたまらない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にもならない」: 話にもならない = chẳng ra gì, không đáng để bàn. にかけない, でたまらない không ghép được với 話; ばかりだ (chỉ toàn) không hợp nghĩa. Nghĩa: Lời bào chữa như thế thì chẳng ra gì đâu."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "今さら＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "もならない",
+       "何の",
+       "謝られても、",
+       "なぐさめに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 今さら謝られても、何のなぐさめにもならない。 (Bây giờ có được xin lỗi thì cũng chẳng an ủi được gì.). Mảnh ở ô ★ là 「なぐさめに」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ならない",
+       "問題にも",
+       "雨では、",
+       "この程度の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この程度の雨では、問題にもならない。 (Mưa cỡ này thì chẳng thành vấn đề gì.). Mảnh ở ô ★ là 「雨では、」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の説明は全然具体的でなく、参考にもならない。",
+      "options": [
+       "Lời giải thích của anh ấy hoàn toàn không cụ thể, đến tham khảo cũng chẳng được.",
+       "Lời giải thích của anh ấy không cụ thể nhưng vẫn có thể tham khảo.",
+       "Anh ấy không muốn giải thích nên không cho tôi tham khảo.",
+       "Lời giải thích của anh ấy rất cụ thể, rất đáng để tham khảo."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜にもならない (đến mức tối thiểu cũng không đạt): \"Lời giải thích của anh ấy hoàn toàn không cụ thể, đến tham khảo cũng chẳng được.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "そんな失敗は笑い話にもならない。",
+      "options": [
+       "Thất bại như vậy là chuyện đáng cười.",
+       "Đừng cười nhạo thất bại của người khác.",
+       "Thất bại đó đã trở thành câu chuyện cười nổi tiếng.",
+       "Thất bại như vậy thì đến đem ra làm chuyện cười cũng không được."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜にもならない (đến cả… cũng không thành): \"Thất bại như vậy thì đến đem ra làm chuyện cười cũng không được.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "そんな小さな問題は、議論にもならない。",
+       "この程度の金額では、何の足しにもならない。",
+       "そんな説明では、話もにならない。",
+       "彼の意見は全く参考にもならない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「そんな説明では、話もにならない。」 sai: も phải đứng sau に (にもならない), không đặt も trước に. Câu đúng: そんな説明では、話にもならない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "こんな点数では、話にもならない。",
+       "安い時計なので、じまんにもならない。",
+       "あの映画はつまらなくて、時間つぶしにもならない。",
+       "この本はおもしろいにもならない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「この本はおもしろいにもならない。」 sai: にもならない đi sau danh từ chỉ giá trị, tác dụng (話, 足し, 参考…), không đi sau tính từ い. Câu đúng: この本はつまらなくて、ひまつぶしにもならない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ならない。",
+       "寝坊した",
+       "いいわけにも",
+       "なんて、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Ngủ quên mà đòi làm lý do thì đến lời bào chữa cũng chẳng ra gì."
+     },
+     {
+      "pieces": [
+       "勝負にも",
+       "相手が",
+       "強すぎて",
+       "ならなかった。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Đối thủ mạnh quá nên chẳng thành một trận so tài."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この程度の金額では、引っ越し費用の足し＿＿。",
+      "answer": "にもならない",
+      "accept": [
+       "にならない"
+      ],
+      "translation_vi": "Số tiền cỡ này thì đến bù vào chi phí chuyển nhà cũng chẳng được."
+     },
+     {
+      "sentence_ja": "こんな成績では、じまん＿＿。",
+      "answer": "にもならない",
+      "accept": [
+       "にならない"
+      ],
+      "translation_vi": "Thành tích như thế này thì đến khoe cũng chẳng được."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "そんな安い値段では、商売（　　）。",
+      "options": [
+       "でならない",
+       "をこめて",
+       "どころか",
+       "にもならない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「にもならない」: 商売にもならない = giá rẻ như vậy thì đến buôn bán cũng không thành. でならない (cảm xúc không dứt) không đi với 商売; をこめて (gửi gắm), どころか (chẳng những) cần vế sau. Nghĩa: Với giá rẻ như thế thì đến buôn bán cũng không thành."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "こんな少ない雨では、水不足の解決にもならない。",
+      "options": [
+       "Vì mưa ít nên tình trạng thiếu nước đã được giải quyết.",
+       "Mưa ít như thế này thì đến giải quyết tình trạng thiếu nước cũng chẳng được.",
+       "Dù mưa ít, tình trạng thiếu nước vẫn không xảy ra.",
+       "Mưa ít không phải nguyên nhân gây thiếu nước."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜にもならない (không đạt đến mức tối thiểu): \"Mưa ít như thế này thì đến giải quyết tình trạng thiếu nước cũng chẳng được.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "このかばんは重くて、持ちにもならない。",
+       "そんな言い方では、注意にもならない。",
+       "こんな少しの量では、おやつにもならない。",
+       "その程度のけがでは、休む理由にもならない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「このかばんは重くて、持ちにもならない。」 sai: にもならない đi sau danh từ, không đi sau thân động từ (持ち). Câu đúng: このかばんは重くて、持てない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
