@@ -1510,7 +1510,196 @@
    "id": "JG-0c3c3e8eee"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "祖父は三年前に入院した（　　）、一度も家に帰っていない。",
+      "options": [
+       "ところ",
+       "うちに",
+       "きり",
+       "とたん"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「きり」: Vた + きり = từ sau khi… thì cứ thế, không có diễn biến tiếp theo. ところ, うちに, とたん không hợp với vế sau 'chưa một lần về nhà'. Nghĩa: Ông tôi nhập viện từ ba năm trước rồi cứ thế chưa một lần về nhà."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "その本は一度読んだ（　　）、本棚にしまったままだ。",
+      "options": [
+       "きり",
+       "ばかりか",
+       "からには",
+       "うえで"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「きり」: đọc một lần rồi thôi, sau đó không đụng tới nữa. ばかりか, からには, うえで không hợp nghĩa. Nghĩa: Quyển sách đó tôi đọc một lần rồi cứ để nguyên trên giá sách."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "田中さんとは＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "連絡を取っていない",
+       "きり",
+       "会った",
+       "去年"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 田中さんとは去年会ったきり連絡を取っていない。 (Với anh Tanaka, từ lần gặp năm ngoái đến giờ tôi không liên lạc.). Mảnh ở ô ★ là 「きり」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "弟は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "きり",
+       "出てこない",
+       "部屋に",
+       "入った"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 弟は部屋に入ったきり出てこない。 (Em trai tôi vào phòng rồi cứ ở lì trong đó không ra.). Mảnh ở ô ★ là 「入った」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は「さようなら」と言ったきり、何も話さなかった。",
+      "options": [
+       "Cô ấy chỉ nói 'tạm biệt' khi đi ngang qua.",
+       "Cô ấy vừa nói 'tạm biệt' vừa khóc.",
+       "Cô ấy nói 'tạm biệt' xong rồi không nói thêm gì nữa.",
+       "Cô ấy không nói 'tạm biệt' mà bỏ đi."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Vた + きり (làm… xong rồi thôi, không có gì tiếp theo): \"Cô ấy nói 'tạm biệt' xong rồi không nói thêm gì nữa.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "このパソコンは買ったきり、ほとんど使っていない。",
+      "options": [
+       "Máy tính này mua về là dùng ngay.",
+       "Máy tính này mua về rồi để đó, hầu như chưa dùng.",
+       "Máy tính này dùng nhiều nên đã hỏng.",
+       "Máy tính này chưa mua nên chưa dùng được."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vた + きり (từ sau khi… thì cứ thế): \"Máy tính này mua về rồi để đó, hầu như chưa dùng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "犬は朝出ていったきり、まだ戻ってこない。",
+       "彼は日本に来たきり、毎週家族に電話している。",
+       "友だちに貸したきり、その傘は返ってこない。",
+       "先月一度電話があったきり、連絡がない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は日本に来たきり、毎週家族に電話している。」 sai: vế sau của きり là phủ định hay trạng thái không thay đổi, không phải việc làm đều đặn. Câu đúng: 彼は日本に来てから、毎週家族に電話している。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "引っ越したきり、隣の人とは話していない。",
+       "父は庭に出たきり、なかなか戻らない。",
+       "彼とは高校を卒業するきり、会っていない。",
+       "一回使ったきりの道具が、倉庫にたくさんある。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼とは高校を卒業するきり、会っていない。」 sai: mẫu này dùng Vた + きり, không dùng thể từ điển. Câu đúng: 彼とは高校を卒業したきり、会っていない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "きり、",
+       "出かけた",
+       "まだ帰らない。",
+       "娘は昼に"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Con gái tôi ra ngoài từ trưa rồi đến giờ vẫn chưa về."
+     },
+     {
+      "pieces": [
+       "きり",
+       "手紙を",
+       "返事が来ない。",
+       "送った"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Gửi thư đi rồi mà mãi không thấy hồi âm."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "山田さんは「ちょっと出かける」と言った＿＿、戻ってこない。",
+      "answer": "きり",
+      "accept": [
+       "っきり",
+       "きりで"
+      ],
+      "translation_vi": "Anh Yamada nói 'tôi ra ngoài một chút' rồi đi luôn không quay lại."
+     },
+     {
+      "sentence_ja": "その店には一度行った＿＿、それからは行っていない。",
+      "answer": "きり",
+      "accept": [
+       "っきり",
+       "きりで"
+      ],
+      "translation_vi": "Tôi chỉ đến quán đó đúng một lần, từ đó đến giờ không đến nữa."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女は留学先に行った（　　）、メールの返事もくれない。",
+      "options": [
+       "ついでに",
+       "きり",
+       "とおり",
+       "次第"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「きり」: đi du học rồi cứ thế, đến email cũng không trả lời. ついでに, とおり, 次第 không hợp nghĩa. Nghĩa: Cô ấy đi du học rồi biệt tăm, đến email cũng không trả lời."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼とは十年前に一度会ったきりだ。",
+      "options": [
+       "Tôi gặp anh ấy mỗi năm một lần suốt mười năm.",
+       "Từ mười năm trước đến giờ tôi chỉ gặp anh ấy đúng một lần đó thôi.",
+       "Mười năm trước tôi đã định gặp anh ấy.",
+       "Tôi sẽ gặp anh ấy sau mười năm nữa."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vた + きりだ (làm… rồi thôi, không có lần tiếp theo): \"Từ mười năm trước đến giờ tôi chỉ gặp anh ấy đúng một lần đó thôi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "その映画を見たきり、次の日もう一度見に行った。",
+       "箱に入れたきり、忘れていた手紙が出てきた。",
+       "おじは外国へ行ったきり、帰ってこなかった。",
+       "大学に入ったきり、ピアノは弾いていない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「その映画を見たきり、次の日もう一度見に行った。」 sai: きり nghĩa là sau đó không có diễn biến gì tiếp, nên không đi với việc làm tiếp lần nữa. Câu đúng: その映画を見て、次の日もう一度見に行った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1539,7 +1728,194 @@
    "id": "JG-8063225e20"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "何時間も話し合った（　　）、結局何も決まらなかった。",
+      "options": [
+       "とたん",
+       "あげく",
+       "ついでに",
+       "うちに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「あげく」: Vた + あげく = sau một quá trình dài, rốt cuộc dẫn đến kết quả không mong muốn. とたん, ついでに, うちに không hợp nghĩa. Nghĩa: Bàn bạc mấy tiếng đồng hồ mà rốt cuộc chẳng quyết được gì."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "さんざん道に迷った（　　）、約束の時間に一時間も遅れてしまった。",
+      "options": [
+       "ついでに",
+       "次第",
+       "からには",
+       "あげく"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「あげく」: lạc đường mãi rồi rốt cuộc trễ hẹn, kết quả đáng tiếc. ついでに, 次第, からには không hợp nghĩa. Nghĩa: Lạc đường mãi, rốt cuộc tôi trễ hẹn đến cả tiếng đồng hồ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "会社を辞めてしまった",
+       "悩んだ",
+       "あげく",
+       "長い間"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼は長い間悩んだあげく会社を辞めてしまった。 (Anh ấy trăn trở suốt một thời gian dài rồi rốt cuộc nghỉ việc.). Mảnh ở ô ★ là 「あげく」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿けんかになった。",
+      "options": [
+       "言い合いの",
+       "あげく",
+       "長い",
+       "兄弟で"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 兄弟で長い言い合いのあげくけんかになった。 (Hai anh em cãi qua cãi lại một hồi lâu rồi rốt cuộc đánh nhau.). Mảnh ở ô ★ là 「言い合いの」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は借金を重ねたあげく、家を売ることになった。",
+      "options": [
+       "Anh ấy bán nhà rồi mới bắt đầu vay nợ.",
+       "Anh ấy vay nợ hết lần này đến lần khác, rốt cuộc phải bán nhà.",
+       "Nhờ bán nhà mà anh ấy trả hết nợ.",
+       "Anh ấy vay nợ để mua nhà mới."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vた + あげく (rốt cuộc, kết quả không tốt): \"Anh ấy vay nợ hết lần này đến lần khác, rốt cuộc phải bán nhà.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "いろいろな店を回ったあげく、最初の店で買うことになった。",
+      "options": [
+       "Tôi chỉ đến một cửa hàng rồi mua ngay.",
+       "Tôi đi nhiều cửa hàng và mua ở mỗi nơi một món.",
+       "Tôi định đi nhiều cửa hàng nhưng cửa hàng đầu tiên đã đóng cửa.",
+       "Đi hết cửa hàng này đến cửa hàng khác, rốt cuộc lại mua ở cửa hàng đầu tiên."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vた + あげく (sau bao nhiêu… rốt cuộc): \"Đi hết cửa hàng này đến cửa hàng khác, rốt cuộc lại mua ở cửa hàng đầu tiên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "さんざん待たされたあげく、会議は中止になった。",
+       "一生懸命練習したあげく、優勝できてうれしい。",
+       "長い間考えたあげく、留学をあきらめた。",
+       "店員と長く話したあげく、結局何も買わずに帰った。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「一生懸命練習したあげく、優勝できてうれしい。」 sai: あげく dùng cho kết quả xấu, đáng tiếc; kết quả tốt phải dùng 末に. Câu đúng: 一生懸命練習した末に、優勝できてうれしい。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "口げんかのあげく、友だちは帰ってしまった。",
+       "議論あげく、計画は中止になった。",
+       "何度も失敗したあげく、彼は自信をなくした。",
+       "一晩中飲んだあげく、次の日は仕事を休んだ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「議論あげく、計画は中止になった。」 sai: danh từ phải có の trước あげく (N のあげく). Câu đúng: 議論のあげく、計画は中止になった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "あげく、",
+       "悩んだ",
+       "大学をやめてしまった。",
+       "一年間"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Trăn trở suốt một năm, rốt cuộc tôi đã bỏ đại học."
+     },
+     {
+      "pieces": [
+       "けんかの",
+       "別れてしまった。",
+       "二人は",
+       "あげく"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Hai người cãi nhau rồi rốt cuộc chia tay."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "何度も計画を変えた＿＿、旅行そのものが中止になった。",
+      "answer": "あげく",
+      "accept": [
+       "あげくに"
+      ],
+      "translation_vi": "Đổi kế hoạch hết lần này đến lần khác, rốt cuộc cả chuyến du lịch bị hủy."
+     },
+     {
+      "sentence_ja": "長時間待たされた＿＿、「今日はもう終わりです」と言われた。",
+      "answer": "あげく",
+      "accept": [
+       "あげくに"
+      ],
+      "translation_vi": "Bị bắt chờ hàng giờ, rốt cuộc lại bị nói 'hôm nay hết giờ rồi'."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "パソコンを何度も直そうとした（　　）、完全に壊してしまった。",
+      "options": [
+       "たびに",
+       "まま",
+       "あげく",
+       "ばかりか"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「あげく」: cố sửa mãi rồi rốt cuộc làm hỏng hẳn. たびに không đi sau Vた, まま và ばかりか không hợp nghĩa. Nghĩa: Cố sửa máy tính mấy lần, rốt cuộc tôi làm hỏng hẳn luôn."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "さんざん文句を言ったあげく、彼は何も手伝わずに帰った。",
+      "options": [
+       "Anh ta phàn nàn đủ điều rồi rốt cuộc chẳng giúp gì mà bỏ về.",
+       "Anh ta không phàn nàn gì và giúp đến cuối.",
+       "Anh ta giúp đỡ xong rồi mới phàn nàn.",
+       "Anh ta phàn nàn vì không ai giúp mình."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Vた + あげく (rốt cuộc, kết quả không tốt): \"Anh ta phàn nàn đủ điều rồi rốt cuộc chẳng giúp gì mà bỏ về.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "二時間も待ったあげく、バスは来なかった。",
+       "悩んだあげくに、その話を断った。",
+       "よく考えたあげく、留学しよう。",
+       "さんざん苦労したあげく、店を閉めることになった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「よく考えたあげく、留学しよう。」 sai: vế sau của あげく là kết quả đã xảy ra, không dùng ý chí 〜よう. Câu đúng: よく考えたあげく、留学をやめることにした。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1565,7 +1941,194 @@
    "id": "JG-9f9f613812"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "何度も話し合った（　　）、二人は結婚することに決めた。",
+      "options": [
+       "とたんに",
+       "ついでに",
+       "うちに",
+       "末に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「末に」: Vた + 末に = sau cả quá trình dài, rốt cuộc đi đến quyết định. とたんに, ついでに, うちに không hợp nghĩa. Nghĩa: Sau nhiều lần bàn bạc, hai người quyết định kết hôn."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "三か月の交渉の（　　）、ようやく契約が結ばれた。",
+      "options": [
+       "くせ",
+       "末",
+       "わり",
+       "ほど"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「末」: N の + 末 = sau một quá trình dài. くせ, わり, ほど không hợp nghĩa. Nghĩa: Sau ba tháng đàm phán, cuối cùng hợp đồng đã được ký kết."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "医者になった",
+       "末に",
+       "長年",
+       "苦労した"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼は長年苦労した末に医者になった。 (Anh ấy vất vả nhiều năm rồi cuối cùng đã trở thành bác sĩ.). Mảnh ở ô ★ là 「末に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿完成した。",
+      "options": [
+       "末に",
+       "新しい薬が",
+       "失敗した",
+       "何度も"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 何度も失敗した末に新しい薬が完成した。 (Sau bao lần thất bại, cuối cùng loại thuốc mới đã hoàn thành.). Mảnh ở ô ★ là 「失敗した」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "いろいろ考えた末、会社を辞めて自分の店を開くことにした。",
+      "options": [
+       "Suy nghĩ nhiều rồi cuối cùng tôi quyết định nghỉ việc để mở cửa hàng riêng.",
+       "Tôi nghỉ việc mà không suy nghĩ gì.",
+       "Tôi mở cửa hàng rồi mới suy nghĩ có nên nghỉ việc không.",
+       "Vào cuối năm tôi sẽ nghỉ việc để mở cửa hàng."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Vた + 末 (sau cả quá trình dài, rốt cuộc…): \"Suy nghĩ nhiều rồi cuối cùng tôi quyết định nghỉ việc để mở cửa hàng riêng.\" 末 ở đây không phải 'cuối năm'."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "激しい戦いの末、日本チームが勝った。",
+      "options": [
+       "Đội Nhật thắng dễ dàng ngay từ đầu.",
+       "Sau một trận đấu quyết liệt, cuối cùng đội Nhật đã thắng.",
+       "Vào cuối trận, đội Nhật bị thua.",
+       "Đội Nhật thắng nên trận đấu trở nên quyết liệt."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N の + 末 (sau một quá trình dài, rốt cuộc…): \"Sau một trận đấu quyết liệt, cuối cùng đội Nhật đã thắng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "一年間の準備の末、大会は無事に終わった。",
+       "話し合い末、計画を変えることにした。",
+       "悩んだ末に、彼に本当のことを話した。",
+       "何度も書き直した末、やっと論文が完成した。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「話し合い末、計画を変えることにした。」 sai: danh từ phải có の trước 末 (N の末). Câu đúng: 話し合いの末、計画を変えることにした。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "長い間迷った末、赤いほうを買った。",
+       "五時間の手術の末、父は助かった。",
+       "色々な方法を試した末、やっと問題が解決した。",
+       "よく相談した末に、決めてください。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「よく相談した末に、決めてください。」 sai: vế sau của 末に là kết quả, quyết định đã có, không dùng lời nhờ vả hay mệnh lệnh. Câu đúng: よく相談してから、決めてください。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "末に",
+       "考えた",
+       "引っ越すことにした。",
+       "よく"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Suy nghĩ kỹ rồi cuối cùng tôi quyết định chuyển nhà."
+     },
+     {
+      "pieces": [
+       "末、",
+       "二時間の",
+       "やっと結論が出た。",
+       "会議の"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Sau hai tiếng họp, cuối cùng cũng có kết luận."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "何か月も悩んだ＿＿、彼は仕事を変えることを決めた。",
+      "answer": "末",
+      "accept": [
+       "末に"
+      ],
+      "translation_vi": "Sau mấy tháng trăn trở, anh ấy đã quyết định đổi việc."
+     },
+     {
+      "sentence_ja": "三日間の山歩きの＿＿、ようやく頂上に着いた。",
+      "answer": "末",
+      "accept": [
+       "末に"
+      ],
+      "translation_vi": "Sau ba ngày leo núi, cuối cùng chúng tôi cũng lên tới đỉnh."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "長い時間をかけて練習した（　　）、ついに難しい曲が弾けるようになった。",
+      "options": [
+       "ばかりに",
+       "くせに",
+       "末に",
+       "とたんに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「末に」: luyện tập thời gian dài rồi cuối cùng đạt kết quả tốt; 末に dùng được cho kết quả tốt. ばかりに (chỉ vì… mà gặp chuyện xấu), くせに, とたんに không hợp nghĩa. Nghĩa: Sau thời gian dài luyện tập, cuối cùng tôi đã chơi được bản nhạc khó."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "長い付き合いの末に、二人は結婚した。",
+      "options": [
+       "Hai người cưới nhau ngay sau khi quen.",
+       "Hai người kết hôn rồi chung sống lâu dài.",
+       "Cuối năm nay hai người sẽ kết hôn.",
+       "Sau thời gian dài quen nhau, cuối cùng hai người đã kết hôn."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N の + 末に (sau một quá trình dài, rốt cuộc…): \"Sau thời gian dài quen nhau, cuối cùng hai người đã kết hôn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "三年の研究の末、新しい技術が生まれた。",
+       "よく考える末、引き受けることにした。",
+       "迷った末に、留学することに決めた。",
+       "長い議論の末、計画は中止された。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「よく考える末、引き受けることにした。」 sai: động từ trước 末 phải ở thể た (Vた + 末). Câu đúng: よく考えた末、引き受けることにした。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,

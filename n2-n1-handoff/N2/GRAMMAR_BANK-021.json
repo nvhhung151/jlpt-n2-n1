@@ -847,7 +847,188 @@
    "id": "JG-fb5bb90c3b"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "旅行に行った（　　）、そのお金を貯金することにした。",
+      "options": [
+       "ところで",
+       "とたんに",
+       "つもりで",
+       "くせに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「つもりで」: Vた + つもりで = cứ coi như đã đi du lịch rồi, lấy số tiền đó để tiết kiệm. ところで (dù có), とたんに (vừa… thì), くせに (vậy mà) không hợp nghĩa. Nghĩa: Tôi quyết định coi như đã đi du lịch rồi và để dành số tiền đó."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "先生になった（　　）、後輩に説明してみてください。",
+      "options": [
+       "はずで",
+       "せいで",
+       "ばかりに",
+       "つもりで"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「つもりで」: hãy giải thích với tâm thế như mình là giáo viên. はずで (lẽ ra), せいで (tại vì), ばかりに (chỉ vì) không đi với lời khuyên ở vế sau. Nghĩa: Hãy thử giải thích cho đàn em như thể mình là giáo viên."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "最初から練習し直した",
+       "つもりで、",
+       "戻った",
+       "初心者に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 初心者に戻ったつもりで、最初から練習し直した。 (Tôi coi như mình trở lại là người mới học và luyện lại từ đầu.). Mảnh ở ô ★ là 「つもりで、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "本番の＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "しよう",
+       "通して練習",
+       "もう一度最初から",
+       "つもりで、"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 本番のつもりで、もう一度最初から通して練習しよう。 (Hãy coi như là buổi diễn thật, tập lại một lượt từ đầu.). Mảnh ở ô ★ là 「もう一度最初から」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "自分の家のつもりで、ゆっくりしてください。",
+      "options": [
+       "Tôi định về nhà mình nghỉ ngơi.",
+       "Cứ coi như nhà mình, xin hãy thoải mái nghỉ ngơi.",
+       "Vì là nhà của bạn nên hãy dọn dẹp cẩn thận.",
+       "Tôi muốn có một ngôi nhà riêng để nghỉ ngơi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N の + つもりで (cứ coi như là…): \"Cứ coi như nhà mình, xin hãy thoải mái nghỉ ngơi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "だまされたつもりで、一度この薬を飲んでみて。",
+      "options": [
+       "Vì bị lừa nên tôi không uống thuốc này nữa.",
+       "Tôi đã định lừa bạn uống thuốc này.",
+       "Uống thuốc này xong tôi mới biết mình bị lừa.",
+       "Cứ coi như bị lừa một lần, hãy thử uống thuốc này xem."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vた + つもりで (cứ coi như đã…): \"Cứ coi như bị lừa một lần, hãy thử uống thuốc này xem.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "社長になったつもりで考えてみよう。",
+       "観光客のつもりで、自分の町を歩いてみた。",
+       "雨が降ったつもりで、道がぬれている。",
+       "小学生のつもりで、もう一度最初から読んでみよう。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「雨が降ったつもりで、道がぬれている。」 sai: つもりで nêu tâm thế của người làm một hành động có chủ ý; trời mưa và đường ướt không phải hành động có chủ ý. Câu đúng: 雨が降ったので、道がぬれている。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "先生なつもりで、みんなの前で話してみた。",
+       "テストのつもりで、時間を計って問題を解いた。",
+       "買ったつもりで、そのお金を貯めている。",
+       "プロの選手になったつもりで、毎日練習している。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「先生なつもりで、みんなの前で話してみた。」 sai: danh từ đi với つもりで phải dùng の (N の + つもりで), không dùng な. Câu đúng: 先生のつもりで、みんなの前で話してみた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "つもりで、",
+       "一から",
+       "やり直す。",
+       "生まれ変わった"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Tôi sẽ làm lại từ đầu như thể mình được sinh ra lần nữa."
+     },
+     {
+      "pieces": [
+       "見てみた。",
+       "店の中を",
+       "つもりで、",
+       "お客さんの"
+      ],
+      "answer_order": [
+       3,
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Tôi thử nhìn quanh cửa hàng như thể mình là khách hàng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "外国人になった＿＿、自分の国の文化を見直してみよう。",
+      "answer": "つもりで",
+      "translation_vi": "Hãy thử nhìn lại văn hóa nước mình như thể mình là người nước ngoài."
+     },
+     {
+      "sentence_ja": "試験の本番の＿＿、この問題を解いてください。",
+      "answer": "つもりで",
+      "translation_vi": "Hãy giải bài này như thể đang trong kỳ thi thật."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "入社一年目に戻った（　　）、もう一度一から学ぶ。",
+      "options": [
+       "ために",
+       "おかげで",
+       "つもりで",
+       "せいで"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「つもりで」: coi như mình trở lại năm đầu đi làm để học lại từ đầu. ために (để, vì), おかげで (nhờ), せいで (tại vì) không hợp vì không thể thật sự quay về năm đầu. Nghĩa: Tôi sẽ học lại từ đầu như thể mình trở về năm đầu tiên vào công ty."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "海外旅行に行ったつもりで、家で外国の料理を作った。",
+      "options": [
+       "Coi như mình đã đi du lịch nước ngoài, tôi nấu món ăn nước ngoài ở nhà.",
+       "Vì đã đi du lịch nước ngoài nên tôi học được cách nấu món ăn đó.",
+       "Tôi định đi du lịch nước ngoài để học nấu ăn.",
+       "Sau khi đi du lịch nước ngoài về, tôi không muốn nấu ăn nữa."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Vた + つもりで (cứ coi như đã…): \"Coi như mình đã đi du lịch nước ngoài, tôi nấu món ăn nước ngoài ở nhà.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "最後の試合のつもりで、全力で戦う。",
+       "家族のつもりで、彼の相談にのってあげた。",
+       "ホテルに泊まったつもりで、部屋をきれいに片付けた。",
+       "雪が降ったつもりで、寒くなった。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「雪が降ったつもりで、寒くなった。」 sai: つもりで đi trước một hành động có chủ ý của người; 寒くなった chỉ là thay đổi tự nhiên. Câu đúng: 雪が降って、寒くなった。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -870,7 +1051,202 @@
    "id": "JG-d82dc8138b"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "昨日あまり寝ていないので、眠く（　　）。",
+      "options": [
+       "てみる",
+       "てしかたがない",
+       "ておく",
+       "てしまう"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「てしかたがない」: Aくて + しかたがない = buồn ngủ không chịu nổi. てみる, ておく, てしまう đi sau động từ, không đi sau tính từ 眠く. Nghĩa: Hôm qua tôi ngủ ít nên buồn ngủ không chịu nổi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "来週の旅行が楽しみ（　　）。",
+      "options": [
+       "にすぎない",
+       "にかぎる",
+       "わけがない",
+       "でしかたがない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「でしかたがない」: N/Aな + で + しかたがない = háo hức không chịu nổi. にすぎない (chỉ là), にかぎる (tốt nhất là) không hợp nghĩa; わけがない cần な trước (楽しみなわけがない). Nghĩa: Tôi háo hức với chuyến du lịch tuần sau không chịu nổi."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "試験の＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "しかたがない",
+       "気に",
+       "なって",
+       "結果が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 試験の結果が気になってしかたがない。 (Tôi bồn chồn về kết quả kỳ thi không chịu nổi.). Mảnh ở ô ★ là 「なって」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "一人暮らしを＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "会いたくて",
+       "始めてから、",
+       "しかたがない",
+       "家族に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 一人暮らしを始めてから、家族に会いたくてしかたがない。 (Từ khi bắt đầu sống một mình, tôi nhớ gia đình không chịu nổi.). Mảnh ở ô ★ là 「家族に」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の失礼な言い方に腹が立ってしかたがない。",
+      "options": [
+       "Tôi bực mình không chịu nổi vì cách nói thất lễ của anh ấy.",
+       "Cách nói của anh ấy thất lễ nhưng tôi không thấy bực.",
+       "Anh ấy bực mình vì cách nói thất lễ của tôi.",
+       "Không còn cách nào khác nên tôi đành nói chuyện với anh ấy."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜てしかたがない (cảm xúc mạnh đến mức không chịu nổi): \"Tôi bực mình không chịu nổi vì cách nói thất lễ của anh ấy.\" Không nhầm với 仕方がない nghĩa 'hết cách'."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子犬がかわいくてしかたがない。",
+      "options": [
+       "Chú cún con không đáng yêu nhưng đành chịu.",
+       "Tôi không có cách nào để chăm sóc chú cún con.",
+       "Chú cún con đáng yêu không chịu nổi.",
+       "Chú cún con thấy tôi rất đáng yêu."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Aくて + しかたがない (cảm giác quá mức): \"Chú cún con đáng yêu không chịu nổi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "のどがかわいてしかたがない。",
+       "毎日、日記を書いてしかたがない。",
+       "将来のことが不安でしかたがない。",
+       "昨日から歯が痛くてしかたがない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「毎日、日記を書いてしかたがない。」 sai: てしかたがない chỉ đi với từ chỉ cảm giác, cảm xúc, không đi với hành động có chủ ý như 書く. Câu đúng: 毎日、日記を書くのが楽しくてしかたがない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "合格したので、うれしくてしかたがない。",
+       "試合に負けて、くやしくてしかたがない。",
+       "おなかがすいてしかたがないので、何か食べよう。",
+       "今年の夏は暑いでしかたがない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「今年の夏は暑いでしかたがない。」 sai: tính từ い phải chuyển sang thể て (暑くて) trước しかたがない. Câu đúng: 今年の夏は暑くてしかたがない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "しかたがない。",
+       "寒くて",
+       "窓が壊れて",
+       "いるので、"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Cửa sổ bị hỏng nên lạnh không chịu nổi."
+     },
+     {
+      "pieces": [
+       "しかたがない。",
+       "子どもの",
+       "心配で",
+       "帰りが遅いので、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Con về muộn nên tôi lo lắng không chịu nổi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "朝から頭が痛くて＿＿。",
+      "answer": "しかたがない",
+      "accept": [
+       "しかたない",
+       "しようがない",
+       "しょうがない",
+       "ならない",
+       "たまらない"
+      ],
+      "translation_vi": "Từ sáng tôi đau đầu không chịu nổi."
+     },
+     {
+      "sentence_ja": "明日の発表のことが心配で＿＿。",
+      "answer": "しかたがない",
+      "accept": [
+       "しかたない",
+       "しようがない",
+       "しょうがない",
+       "ならない",
+       "たまらない"
+      ],
+      "translation_vi": "Tôi lo về bài thuyết trình ngày mai không chịu nổi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この映画は何度見ても、おかしく（　　）。",
+      "options": [
+       "てしかたがない",
+       "てあげる",
+       "てくれる",
+       "ておく"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「てしかたがない」: Aくて + しかたがない = buồn cười không chịu nổi. てあげる, てくれる, ておく đi sau động từ, không đi sau tính từ おかしく. Nghĩa: Bộ phim này dù xem bao nhiêu lần tôi vẫn thấy buồn cười không chịu nổi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "失敗したことが恥ずかしくてしかたがない。",
+      "options": [
+       "Thất bại là chuyện không thể tránh, không có gì phải xấu hổ.",
+       "Tôi xấu hổ vô cùng vì đã thất bại.",
+       "Tôi đã thất bại vì quá xấu hổ.",
+       "Tôi không còn cách nào khác ngoài việc chấp nhận thất bại."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜てしかたがない (cảm xúc quá mức không chịu nổi): \"Tôi xấu hổ vô cùng vì đã thất bại.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "引っ越したばかりで、さびしくてしかたがない。",
+       "最近、甘いものが食べたくてしかたがない。",
+       "毎朝、駅まで歩いてしかたがない。",
+       "隣の工事の音が気になってしかたがない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「毎朝、駅まで歩いてしかたがない。」 sai: てしかたがない không đi với hành động có chủ ý như 歩く; chỉ dùng cho cảm giác, cảm xúc. Câu đúng: 毎朝、駅まで歩くので足が痛くてしかたがない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
