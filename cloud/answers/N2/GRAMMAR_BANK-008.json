@@ -1,31 +1,1571 @@
 {
+ "JG-008a7944cc": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "冗談だった（　　）、人の前でそんなことを言うべきではない。",
+    "options": [
+     "ばかりに",
+     "とおり",
+     "にせよ",
+     "次第で"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にせよ」: thể thường + にせよ = dù… đi nữa, vế sau là đánh giá của người nói. ばかりに cần kết quả xấu đã xảy ra, とおり và 次第で không hợp nghĩa. Nghĩa: Dù chỉ là đùa đi nữa thì cũng không nên nói như vậy trước mặt người khác."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "いずれ（　　）、一度会って話したほうがいい。",
+    "options": [
+     "にせよ",
+     "につき",
+     "にとって",
+     "に対して"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「にせよ」: cụm cố định いずれにせよ = dù sao đi nữa. につき, にとって, に対して không đi với いずれ. Nghĩa: Dù sao đi nữa thì cũng nên gặp nhau nói chuyện một lần."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "たとえ＿＿ ＿＿ ★ ＿＿謝るべきだ。",
+    "options": [
+     "あなたも",
+     "悪かった",
+     "相手が",
+     "にせよ"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: たとえ相手が悪かったにせよ、あなたも謝るべきだ。 (Dù đối phương có lỗi đi nữa thì bạn cũng nên xin lỗi.). Mảnh ở ô ★ là 「にせよ」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "給料が＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "やりがいが",
+     "ある",
+     "この仕事には",
+     "安いにせよ"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 給料が安いにせよ、この仕事にはやりがいがある。 (Dù lương thấp đi nữa thì công việc này vẫn đáng làm.). Mảnh ở ô ★ là 「やりがいが」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "忙しいにせよ、連絡くらいはしてほしい。",
+    "options": [
+     "Vì bận nên không cần liên lạc cũng được.",
+     "Dù bận đi nữa thì ít nhất cũng mong bạn liên lạc.",
+     "Nếu bận thì hãy liên lạc ngay cho tôi.",
+     "Bận đến mức không thể liên lạc được."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜にせよ (dù… đi nữa): \"Dù bận đi nữa thì ít nhất cũng mong bạn liên lạc.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "人数が多いにせよ少ないにせよ、会議は予定どおり行います。",
+    "options": [
+     "Tùy theo số người nhiều hay ít mà cuộc họp sẽ đổi lịch.",
+     "Vì số người quá đông nên cuộc họp bị hoãn.",
+     "Chỉ khi đủ người thì cuộc họp mới diễn ra theo kế hoạch.",
+     "Dù số người nhiều hay ít, cuộc họp vẫn tiến hành theo kế hoạch."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu A にせよ B にせよ (dù A hay B): \"Dù số người nhiều hay ít, cuộc họp vẫn tiến hành theo kế hoạch.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "試験が難しかったにせよ、もう少し勉強しておくべきだった。",
+     "冗談にせよ、そういうことは言わないでほしい。",
+     "部屋がきれいだにせよ、この家賃は高すぎる。",
+     "どんなに疲れているにせよ、仕事は最後までやるべきだ。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「部屋がきれいだにせよ、この家賃は高すぎる。」 sai: tính từ な đi với にせよ không giữ だ; phải là きれいにせよ hoặc きれいであるにせよ. Câu đúng: 部屋がきれいにせよ、この家賃は高すぎる。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "雨が降ったにせよ、試合は中止になった。",
+     "本当にせようそにせよ、一度確認したほうがいい。",
+     "どんな結果になるにせよ、最後まで頑張りたい。",
+     "少しの間にせよ、ここに車を止めてはいけない。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「雨が降ったにせよ、試合は中止になった。」 sai: にせよ là nhượng bộ (dù… đi nữa), còn mưa → trận đấu bị hủy là quan hệ nguyên nhân – kết quả. Câu đúng: 雨が降ったので、試合は中止になった。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "守るべきだ。",
+     "小さな約束",
+     "にせよ、",
+     "約束は"
+    ],
+    "answer_order": [
+     1,
+     2,
+     3,
+     0
+    ],
+    "translation_vi": "Dù chỉ là lời hứa nhỏ thì đã hứa là phải giữ."
+   },
+   {
+    "pieces": [
+     "後悔しない",
+     "どちらを",
+     "ようにしたい。",
+     "にせよ、",
+     "選ぶ"
+    ],
+    "answer_order": [
+     1,
+     4,
+     3,
+     0,
+     2
+    ],
+    "translation_vi": "Dù chọn bên nào đi nữa, tôi cũng muốn không phải hối hận."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "失敗の原因が何であった＿＿、責任者として説明する必要がある。",
+    "answer": "にせよ",
+    "accept": [
+     "にしろ",
+     "にしても",
+     "としても"
+    ],
+    "translation_vi": "Dù nguyên nhân thất bại là gì đi nữa, với tư cách người phụ trách vẫn cần phải giải thích."
+   },
+   {
+    "sentence_ja": "たとえ少しの時間＿＿、毎日練習を続けることが大切だ。",
+    "answer": "にせよ",
+    "accept": [
+     "にしろ",
+     "にしても",
+     "でも"
+    ],
+    "translation_vi": "Dù chỉ một chút thời gian đi nữa, việc luyện tập đều đặn mỗi ngày là quan trọng."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "どんな理由がある（　　）、無断で会社を休むのは許されない。",
+    "options": [
+     "からこそ",
+     "せいで",
+     "にせよ",
+     "おかげで"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にせよ」: どんな〜にせよ = dù có… thế nào đi nữa. からこそ, せいで, おかげで đều nêu nguyên nhân, không hợp với vế sau 'không được phép'. Nghĩa: Dù có lý do gì đi nữa thì tự ý nghỉ làm cũng không được chấp nhận."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "いずれにせよ、明日もう一度電話します。",
+    "options": [
+     "Nếu có thời gian, ngày mai tôi sẽ gọi lại.",
+     "Ngày mai tôi không thể gọi điện được.",
+     "Vì đã gọi rồi nên ngày mai không cần gọi nữa.",
+     "Dù sao đi nữa, ngày mai tôi sẽ gọi điện lại một lần nữa."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng cụm いずれにせよ (dù sao đi nữa): \"Dù sao đi nữa, ngày mai tôi sẽ gọi điện lại một lần nữa.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "大人にせよ子どもせよ、ルールは守らなければならない。",
+     "行くにせよ行かないにせよ、早めに知らせてください。",
+     "高いにせよ、必要な物は買うしかない。",
+     "失敗したにせよ、いい経験になったはずだ。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「大人にせよ子どもせよ、ルールは守らなければならない。」 sai: dạng A にせよ B にせよ phải có に ở cả hai vế. Câu đúng: 大人にせよ子どもにせよ、ルールは守らなければならない。"
+   }
+  ]
+ },
+ "JG-8cf1c12392": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "合格の知らせを聞いて、うれしさの（　　）思わず泣いてしまった。",
+    "options": [
+     "うえに",
+     "あまり",
+     "たびに",
+     "わりに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「あまり」: N の + あまり = vì quá… mà dẫn đến kết quả bất thường. うえに, たびに, わりに không hợp nghĩa câu. Nghĩa: Nghe tin đỗ, tôi vui quá đến mức bật khóc."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "将来のことを心配する（　　）、夜も眠れなくなった。",
+    "options": [
+     "ことに",
+     "とおりに",
+     "ついでに",
+     "あまり"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「あまり」: Vる + あまり = vì làm gì quá mức nên dẫn đến kết quả xấu. ことに, とおりに, ついでに không nối được với vế sau 'mất ngủ'. Nghĩa: Vì lo lắng quá nhiều về tương lai mà tôi mất ngủ cả đêm."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "発表のとき、＿＿ ＿＿ ★ ＿＿しまった。",
+    "options": [
+     "震えて",
+     "緊張の",
+     "声が",
+     "あまり"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 発表のとき、緊張のあまり声が震えてしまった。 (Lúc thuyết trình, vì quá căng thẳng mà giọng tôi run lên.). Mảnh ở ô ★ là 「声が」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿食べなくなった。",
+    "options": [
+     "あまり",
+     "好きな物まで",
+     "健康を",
+     "気にする"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 健康を気にするあまり好きな物まで食べなくなった。 (Vì quá để ý đến sức khỏe mà đến món mình thích cũng không ăn nữa.). Mảnh ở ô ★ là 「あまり」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼女は驚きのあまり、持っていたカップを落とした。",
+    "options": [
+     "Cô ấy không ngạc nhiên lắm dù làm rơi cốc.",
+     "Cô ấy cố ý làm rơi chiếc cốc để mọi người ngạc nhiên.",
+     "Cô ấy làm rơi cốc nên mọi người rất ngạc nhiên.",
+     "Cô ấy quá ngạc nhiên đến mức làm rơi chiếc cốc đang cầm."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N の + あまり (vì quá… mà): \"Cô ấy quá ngạc nhiên đến mức làm rơi chiếc cốc đang cầm.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "仕事に夢中になるあまり、家族と過ごす時間がなくなった。",
+    "options": [
+     "Vì quá mải mê công việc nên không còn thời gian ở bên gia đình.",
+     "Vì có nhiều thời gian bên gia đình nên tôi chăm chỉ làm việc.",
+     "Dù bận việc, tôi vẫn dành thời gian cho gia đình.",
+     "Công việc không thú vị lắm nên tôi về nhà sớm."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vる + あまり (vì làm gì quá mức mà): \"Vì quá mải mê công việc nên không còn thời gian ở bên gia đình.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "悲しみのあまり、何も言えなかった。",
+     "早く終わらせようと急ぐあまり、ミスが増えた。",
+     "心配あまり、何度も電話をかけた。",
+     "喜びのあまり、思わず大声を出した。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「心配あまり、何度も電話をかけた。」 sai: danh từ phải có の trước あまり. Câu đúng: 心配のあまり、何度も電話をかけた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "疲れのあまり、電車の中で寝てしまった。",
+     "勝ちたい気持ちが強いあまり、ルールを破ってしまった。",
+     "寒さのあまり、手の感覚がなくなった。",
+     "心配のあまり、早く帰ってきてください。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「心配のあまり、早く帰ってきてください。」 sai: vế sau của あまり là kết quả ngoài ý muốn đã xảy ra, không dùng lời nhờ vả hay mệnh lệnh. Câu đúng: 心配のあまり、何度も電話をかけてしまった。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "あまり、",
+     "恥ずかしさの",
+     "上げられなかった。",
+     "顔を"
+    ],
+    "answer_order": [
+     1,
+     0,
+     3,
+     2
+    ],
+    "translation_vi": "Vì quá xấu hổ mà tôi không ngẩng mặt lên được."
+   },
+   {
+    "pieces": [
+     "あまり、",
+     "周りの目を",
+     "自分の意見が言えない。",
+     "気にする"
+    ],
+    "answer_order": [
+     1,
+     3,
+     0,
+     2
+    ],
+    "translation_vi": "Vì quá để ý ánh mắt người xung quanh mà không nói được ý kiến của mình."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "試合に負けた悔しさの＿＿、彼は一晩中眠れなかった。",
+    "answer": "あまり",
+    "accept": [
+     "あまりに"
+    ],
+    "translation_vi": "Vì quá cay cú khi thua trận mà anh ấy thức trắng cả đêm."
+   },
+   {
+    "sentence_ja": "彼は細かいことを気にする＿＿、仕事がなかなか進まない。",
+    "answer": "あまり",
+    "accept": [
+     "あまりに"
+    ],
+    "translation_vi": "Anh ấy quá để ý tiểu tiết nên công việc mãi không tiến triển."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼は失敗を恐れる（　　）、新しいことに挑戦できない。",
+    "options": [
+     "ように",
+     "あまり",
+     "ついでに",
+     "くせに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「あまり」: Vる + あまり = vì quá… nên dẫn đến kết quả không tốt. ように, ついでに, くせに không hợp quan hệ nguyên nhân – kết quả. Nghĩa: Anh ấy quá sợ thất bại nên không dám thử thách điều mới."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "親は子どもを思うあまり、つい厳しく言ってしまう。",
+    "options": [
+     "Bố mẹ không nghĩ nhiều đến con nên nói chuyện nghiêm khắc.",
+     "Bố mẹ nghiêm khắc nên con cái không thích.",
+     "Vì quá thương con nên bố mẹ lỡ nói lời nghiêm khắc.",
+     "Dù thương con, bố mẹ không bao giờ nói nặng lời."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu Vる + あまり (vì quá… mà): \"Vì quá thương con nên bố mẹ lỡ nói lời nghiêm khắc.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "怒りのあまり、顔が真っ赤になった。",
+     "先のことを考えるあまり、今を楽しめない。",
+     "痛みのあまり、声も出せなかった。",
+     "うれしいのあまり、大声で叫んだ。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「うれしいのあまり、大声で叫んだ。」 sai: tính từ い không đi với の + あまり; phải đổi thành danh từ うれしさ. Câu đúng: うれしさのあまり、大声で叫んだ。"
+   }
+  ]
+ },
+ "JG-e1aef7d3cf": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この映画は（　　）悲しくて、最後まで見られなかった。",
+    "options": [
+     "あまりに",
+     "めったに",
+     "決して",
+     "少しも"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「あまりに」: あまりに + tính từ = quá…, dẫn đến kết quả bất thường. めったに, 決して, 少しも phải đi với phủ định ngay sau nên không hợp với 悲しくて. Nghĩa: Bộ phim này buồn quá nên tôi không xem nổi đến cuối."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "心配の（　　）、母は夜も眠れなかった。",
+    "options": [
+     "たびに",
+     "うえに",
+     "最中に",
+     "あまりに"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「あまりに」: N の + あまりに = vì quá… mà. たびに, うえに, 最中に không hợp nghĩa câu. Nghĩa: Vì quá lo lắng mà mẹ tôi mất ngủ cả đêm."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この問題は＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "解けなかった",
+     "あまりに",
+     "誰も",
+     "難しくて"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: この問題はあまりに難しくて誰も解けなかった。 (Bài này khó quá nên không ai giải được.). Mảnh ở ô ★ là 「誰も」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿声が出なかった。",
+    "options": [
+     "しばらく",
+     "の",
+     "驚き",
+     "あまりに"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 驚きのあまりにしばらく声が出なかった。 (Vì quá kinh ngạc mà một lúc lâu tôi không thốt nên lời.). Mảnh ở ô ★ là 「あまりに」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "部屋があまりに静かで、時計の音まで聞こえた。",
+    "options": [
+     "Căn phòng không yên tĩnh lắm nên không nghe được tiếng đồng hồ.",
+     "Căn phòng quá yên tĩnh, đến cả tiếng đồng hồ cũng nghe thấy.",
+     "Vì đồng hồ kêu to nên căn phòng không yên tĩnh.",
+     "Căn phòng hơi ồn nhưng vẫn nghe được tiếng đồng hồ."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu あまりに + tính từ (quá…): \"Căn phòng quá yên tĩnh, đến cả tiếng đồng hồ cũng nghe thấy.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "あまりにも急な話で、すぐには返事ができません。",
+    "options": [
+     "Chuyện không gấp lắm nên tôi sẽ trả lời sau.",
+     "Vì chuyện gấp nên tôi trả lời ngay.",
+     "Chuyện này rất thú vị nên tôi muốn nghe thêm.",
+     "Chuyện quá đột ngột nên tôi không thể trả lời ngay được."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu あまりにも + tính từ (quá…): \"Chuyện quá đột ngột nên tôi không thể trả lời ngay được.\" Chú ý: あまり + phủ định mới là 'không… lắm'."
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "道があまりに混んでいて、約束の時間に遅れた。",
+     "説明があまりにも早くて、よく分からなかった。",
+     "悲しみあまりに、泣き出してしまった。",
+     "喜びのあまりに、涙が出た。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「悲しみあまりに、泣き出してしまった。」 sai: danh từ phải có の trước あまりに. Câu đúng: 悲しみのあまりに、泣き出してしまった。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "あまりにも疲れていて、夕飯も食べずに寝た。",
+     "今日はあまりに寒くないので、コートはいらない。",
+     "問題があまりに多くて、一日では終わらない。",
+     "緊張のあまりに、手が震えた。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「今日はあまりに寒くないので、コートはいらない。」 sai: ý 'không… lắm' phải dùng あまり + phủ định; あまりに nghĩa là 'quá'. Câu đúng: 今日はあまり寒くないので、コートはいらない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "あまりにも",
+     "寒くて、",
+     "外に出る",
+     "気になれなかった。",
+     "朝が"
+    ],
+    "answer_order": [
+     4,
+     0,
+     1,
+     2,
+     3
+    ],
+    "translation_vi": "Buổi sáng lạnh quá nên tôi chẳng muốn ra ngoài."
+   },
+   {
+    "pieces": [
+     "あまりに",
+     "の",
+     "怒り",
+     "黙ってしまった。"
+    ],
+    "answer_order": [
+     2,
+     1,
+     0,
+     3
+    ],
+    "translation_vi": "Vì quá tức giận mà tôi im lặng luôn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "荷物が＿＿重くて、一人では運べなかった。",
+    "answer": "あまりに",
+    "accept": [
+     "あまりにも",
+     "あまり"
+    ],
+    "translation_vi": "Hành lý nặng quá nên một mình tôi không khiêng nổi."
+   },
+   {
+    "sentence_ja": "感動の＿＿、涙が止まらなかった。",
+    "answer": "あまりに",
+    "accept": [
+     "あまり"
+    ],
+    "translation_vi": "Vì quá xúc động mà nước mắt tôi cứ tuôn không ngừng."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼の態度が（　　）失礼だったので、部長も怒った。",
+    "options": [
+     "ちっとも",
+     "ろくに",
+     "あまりに",
+     "必ずしも"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「あまりに」: あまりに + tính từ = quá…. ちっとも, ろくに, 必ずしも cần phủ định phía sau nên không hợp với 失礼だった. Nghĩa: Thái độ của anh ta quá vô lễ nên đến trưởng phòng cũng nổi giận."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "あまりに疲れていたので、降りる駅を通り過ぎてしまった。",
+    "options": [
+     "Vì quá mệt nên tôi đã đi quá ga cần xuống.",
+     "Vì không mệt lắm nên tôi đi bộ đến ga.",
+     "Dù mệt nhưng tôi vẫn xuống đúng ga.",
+     "Tôi đi quá ga nên càng mệt hơn."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu あまりに (quá…) chỉ nguyên nhân dẫn đến kết quả ngoài ý muốn: \"Vì quá mệt nên tôi đã đi quá ga cần xuống.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "説明があまりに長くて、途中で眠くなった。",
+     "音楽があまりにうるさくて、話が聞こえない。",
+     "驚きのあまりに、言葉が出なかった。",
+     "疲れのあまりに、少し休みましょう。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「疲れのあまりに、少し休みましょう。」 sai: vế sau của N のあまりに là kết quả ngoài ý muốn, không dùng lời rủ rê 〜ましょう. Câu đúng: 疲れのあまりに、その場に座り込んでしまった。"
+   }
+  ]
+ },
+ "JG-9926065b20": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "本日は祝日（　　）、窓口は休みです。",
+    "options": [
+     "について",
+     "に対して",
+     "につき",
+     "にとって"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「につき」: N + につき = vì…, dùng trong thông báo. について (về), に対して (đối với), にとって (đối với ai) không nêu lý do. Nghĩa: Vì hôm nay là ngày lễ nên quầy giao dịch nghỉ."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "ただいま会議中（　　）、お静かにお願いします。",
+    "options": [
+     "につき",
+     "にわたって",
+     "に沿って",
+     "にこたえて"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「につき」: N + につき nêu lý do trong lời thông báo. にわたって (suốt), に沿って (theo), にこたえて (đáp lại) không hợp nghĩa. Nghĩa: Hiện đang họp, xin vui lòng giữ yên lặng."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この部屋は＿＿ ＿＿ ★ ＿＿ください。",
+    "options": [
+     "ご遠慮",
+     "禁煙",
+     "タバコは",
+     "につき"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: この部屋は禁煙につきタバコはご遠慮ください。 (Phòng này cấm hút thuốc nên xin vui lòng không hút thuốc.). Mảnh ở ô ★ là 「タバコは」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "エレベーターは＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "ご利用ください",
+     "階段を",
+     "につき",
+     "点検中"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: エレベーターは点検中につき階段をご利用ください。 (Thang máy đang kiểm tra nên xin vui lòng dùng cầu thang bộ.). Mảnh ở ô ★ là 「階段を」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "売り切れにつき、本日の販売は終了しました。",
+    "options": [
+     "Về hàng đã bán hết, hôm nay sẽ nhập thêm.",
+     "Vì đã bán hết nên việc bán hàng hôm nay đã kết thúc.",
+     "Mỗi người chỉ được mua một chiếc trong hôm nay.",
+     "Dù đã bán hết, hôm nay vẫn tiếp tục bán."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + につき (vì…, văn thông báo): \"Vì đã bán hết nên việc bán hàng hôm nay đã kết thúc.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "年末につき、営業は午後五時までとなります。",
+    "options": [
+     "Mỗi năm cửa hàng đều mở đến 5 giờ chiều.",
+     "Về chuyện cuối năm, cửa hàng sẽ thông báo sau 5 giờ chiều.",
+     "Vì là dịp cuối năm nên cửa hàng chỉ mở cửa đến 5 giờ chiều.",
+     "Đến cuối năm cửa hàng sẽ mở cửa sau 5 giờ chiều."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N + につき (vì…, văn thông báo): \"Vì là dịp cuối năm nên cửa hàng chỉ mở cửa đến 5 giờ chiều.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "本日は休館日につき、入館できません。",
+     "工事中につき、この先は通行止めです。",
+     "今日は眠いにつき、早く寝るね。",
+     "出口につき、物を置かないでください。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「今日は眠いにつき、早く寝るね。」 sai: につき là văn viết trong thông báo, đi sau danh từ; không dùng sau tính từ い và trong lời nói thân mật. Câu đúng: 今日は眠いから、早く寝るね。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "大雪につき、本日は休業いたします。",
+     "明日は休業ですにつき、ご注意ください。",
+     "満席につき、しばらくお待ちください。",
+     "会議中につき、電話はご遠慮ください。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「明日は休業ですにつき、ご注意ください。」 sai: につき gắn trực tiếp sau danh từ, không có です. Câu đúng: 明日は休業につき、ご注意ください。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "につき、",
+     "使用できません。",
+     "故障中",
+     "このトイレは"
+    ],
+    "answer_order": [
+     3,
+     2,
+     0,
+     1
+    ],
+    "translation_vi": "Nhà vệ sinh này đang hỏng nên không thể sử dụng."
+   },
+   {
+    "pieces": [
+     "につき、",
+     "工事中",
+     "ご注意ください。",
+     "足元に"
+    ],
+    "answer_order": [
+     1,
+     0,
+     3,
+     2
+    ],
+    "translation_vi": "Đang thi công, xin hãy chú ý dưới chân."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "ただいま準備中＿＿、もうしばらくお待ちください。",
+    "answer": "につき",
+    "accept": [
+     "のため"
+    ],
+    "translation_vi": "Hiện đang chuẩn bị, xin vui lòng đợi thêm một chút."
+   },
+   {
+    "sentence_ja": "台風＿＿、本日の授業は休みとします。",
+    "answer": "につき",
+    "accept": [
+     "のため"
+    ],
+    "translation_vi": "Vì có bão nên buổi học hôm nay được nghỉ."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この商品はセール品（　　）、返品はできません。",
+    "options": [
+     "にかけて",
+     "に比べて",
+     "をもとに",
+     "につき"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「につき」: N + につき nêu lý do trong lời thông báo. にかけて, に比べて, をもとに không nêu lý do. Nghĩa: Sản phẩm này là hàng giảm giá nên không thể trả lại."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "担当者不在につき、後ほどご連絡いたします。",
+    "options": [
+     "Về người phụ trách, chúng tôi sẽ liên lạc ngay bây giờ.",
+     "Vì người phụ trách vắng mặt nên chúng tôi sẽ liên lạc lại sau.",
+     "Mỗi người phụ trách sẽ liên lạc một lần.",
+     "Dù người phụ trách vắng mặt, chúng tôi vẫn trả lời ngay."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + につき (vì…): \"Vì người phụ trách vắng mặt nên chúng tôi sẽ liên lạc lại sau.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "本日は満員につき、受付を終了しました。",
+     "掃除中につき、床がぬれています。",
+     "友だちが来るにつき、部屋を片付けた。",
+     "臨時休業につき、ご迷惑をおかけします。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「友だちが来るにつき、部屋を片付けた。」 sai: につき đi sau danh từ, dùng trong thông báo trang trọng, không dùng cho chuyện riêng thường ngày. Câu đúng: 友だちが来るので、部屋を片付けた。"
+   }
+  ]
+ },
+ "JG-f2ed843b34": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "まじめな田中さんの（　　）、きっと時間どおりに来るだろう。",
+    "options": [
+     "ものだから",
+     "ことだから",
+     "わけだから",
+     "くせに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「ことだから」: N の + ことだから = vì là người đó (tính cách quen thuộc) nên chắc…. ものだから, わけだから không đi sau N の; くせに không hợp với suy đoán. Nghĩa: Anh Tanaka nghiêm túc như thế nên chắc chắn sẽ đến đúng giờ."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "料理が好きな母の（　　）、パーティーの料理は全部自分で作るだろう。",
+    "options": [
+     "ことなく",
+     "ことに",
+     "ことか",
+     "ことだから"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「ことだから」: dựa vào tính cách thích nấu ăn của mẹ mà suy đoán. ことなく, ことに, ことか không hợp nghĩa câu. Nghĩa: Mẹ tôi thích nấu ăn nên chắc sẽ tự nấu hết đồ ăn cho bữa tiệc."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿きっと忘れているだろう。",
+    "options": [
+     "ことだから",
+     "約束も",
+     "兄の",
+     "忘れっぽい"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 忘れっぽい兄のことだから約束もきっと忘れているだろう。 (Anh tôi hay quên nên chắc chắn cũng quên cả lời hẹn rồi.). Mảnh ở ô ★ là 「ことだから」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "仕事熱心な＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "会社に残っているだろう",
+     "今日も",
+     "部長の",
+     "ことだから"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 仕事熱心な部長のことだから今日も会社に残っているだろう。 (Trưởng phòng mê việc như thế nên hôm nay chắc cũng còn ở lại công ty.). Mảnh ở ô ★ là 「今日も」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "いつも準備がいい山田さんのことだから、傘も持ってきているだろう。",
+    "options": [
+     "Vì là chuyện của anh Yamada nên tôi không biết anh ấy có mang ô không.",
+     "Anh Yamada hay quên nên chắc lại không mang ô.",
+     "Anh Yamada lúc nào cũng chuẩn bị chu đáo nên chắc hẳn đã mang theo cả ô.",
+     "Tôi sẽ mang ô cho anh Yamada vì anh ấy luôn chuẩn bị chu đáo."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N のことだから (vì là người đó nên chắc…): \"Anh Yamada lúc nào cũng chuẩn bị chu đáo nên chắc hẳn đã mang theo cả ô.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "甘い物が大好きな妹のことだから、ケーキを見たらすぐ食べてしまうに違いない。",
+    "options": [
+     "Em gái tôi rất mê đồ ngọt nên hễ thấy bánh là chắc chắn sẽ ăn ngay.",
+     "Vì chuyện bánh ngọt nên em gái tôi không vui.",
+     "Em gái tôi không thích đồ ngọt nên sẽ không ăn bánh.",
+     "Hãy cho em gái tôi ăn bánh vì em ấy thích đồ ngọt."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N のことだから + に違いない (suy đoán dựa vào tính cách): \"Em gái tôi rất mê đồ ngọt nên hễ thấy bánh là chắc chắn sẽ ăn ngay.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "優しい先生のことだから、相談すれば聞いてくれるはずだ。",
+     "時間に厳しい課長のことだから、もう会議室にいるだろう。",
+     "初めて会ったあの人のことだから、きっと親切だろう。",
+     "心配しやすい母のことだから、何度も電話してくるだろう。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「初めて会ったあの人のことだから、きっと親切だろう。」 sai: ことだから dựa trên tính cách của người mà mình đã biết rõ; người mới gặp lần đầu thì không có căn cứ đó. Câu đúng: 優しい山田さんのことだから、きっと親切にしてくれるだろう。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "頭のいい山田さんのことだから、すぐに答えが分かるだろう。",
+     "旅行好きな父のことだから、休みにはまたどこかへ出かけるだろう。",
+     "あきらめない弟のことだから、また挑戦するに違いない。",
+     "田中さんのことだから、明日の会議に出なさい。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「田中さんのことだから、明日の会議に出なさい。」 sai: vế sau của ことだから là suy đoán (だろう, はずだ), không dùng mệnh lệnh. Câu đúng: 田中さんのことだから、明日の会議にもきっと出るだろう。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "山田さんの",
+     "ことだから、",
+     "うまくいく",
+     "だろう。",
+     "努力家の"
+    ],
+    "answer_order": [
+     4,
+     0,
+     1,
+     2,
+     3
+    ],
+    "translation_vi": "Anh Yamada là người chăm chỉ nỗ lực nên chắc sẽ suôn sẻ thôi."
+   },
+   {
+    "pieces": [
+     "連れて行ってくれる",
+     "ことだから、",
+     "はずだ。",
+     "約束を守る父の",
+     "きっと"
+    ],
+    "answer_order": [
+     3,
+     1,
+     4,
+     0,
+     2
+    ],
+    "translation_vi": "Bố tôi là người giữ lời nên chắc chắn sẽ dẫn tôi đi."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "明るい田中さんの＿＿、すぐに新しいクラスにも慣れるだろう。",
+    "answer": "ことだから",
+    "accept": [
+     "ことですから"
+    ],
+    "translation_vi": "Anh Tanaka vốn vui vẻ nên chắc sẽ nhanh chóng quen với lớp mới."
+   },
+   {
+    "sentence_ja": "本が大好きな弟の＿＿、今ごろ図書館にいるだろう。",
+    "answer": "ことだから",
+    "accept": [
+     "ことですから"
+    ],
+    "translation_vi": "Em trai tôi rất mê sách nên giờ này chắc đang ở thư viện."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "よく遅刻する彼の（　　）、今日も遅れてくるに違いない。",
+    "options": [
+     "ことには",
+     "ことだから",
+     "ことなく",
+     "ことか"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「ことだから」: dựa vào thói quen hay đến muộn của anh ta để suy đoán. ことには, ことなく, ことか không hợp nghĩa câu. Nghĩa: Anh ta hay đến muộn nên hôm nay chắc chắn cũng sẽ muộn."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "きれい好きな姉のことだから、部屋はいつも片付いているはずだ。",
+    "options": [
+     "Vì là chuyện của chị tôi nên tôi không quan tâm phòng có gọn không.",
+     "Chị tôi bừa bộn nên phòng lúc nào cũng lộn xộn.",
+     "Hãy dọn phòng cho chị tôi vì chị ấy thích sạch sẽ.",
+     "Chị tôi ưa sạch sẽ nên chắc chắn phòng lúc nào cũng gọn gàng."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N のことだから + はずだ (suy đoán dựa vào tính cách): \"Chị tôi ưa sạch sẽ nên chắc chắn phòng lúc nào cũng gọn gàng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "正直な田中さんのことだから、うそはつかないだろう。",
+     "親切な山田さんことだから、きっと手伝ってくれる。",
+     "料理上手な母のことだから、おいしい物を作ってくれるはずだ。",
+     "時間を守る先生のことだから、もうすぐ来るはずだ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「親切な山田さんことだから、きっと手伝ってくれる。」 sai: danh từ chỉ người phải có の trước ことだから. Câu đúng: 親切な山田さんのことだから、きっと手伝ってくれる。"
+   }
+  ]
+ },
+ "JG-7e78c871a0": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この時計は父からもらった大切な物（　　）、なくしたときはとても悲しかった。",
+    "options": [
+     "くせに",
+     "どころか",
+     "だけに",
+     "とたんに"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「だけに」: N + だけに = chính vì là… nên càng…. くせに, どころか, とたんに không hợp quan hệ lý do – kết quả. Nghĩa: Chiếc đồng hồ này là vật quý bố tặng nên khi làm mất tôi càng buồn."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "ここは駅に近い（　　）、家賃が高い。",
+    "options": [
+     "だけに",
+     "くせに",
+     "にしては",
+     "ついでに"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「だけに」: gần ga thì đắt là kết quả đương nhiên. くせに (trách móc, trái ngược), にしては (trái với kỳ vọng) không hợp; ついでに không nối được. Nghĩa: Chỗ này gần ga nên tiền thuê nhà đắt."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "初めての海外旅行＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "緊張している",
+     "とても",
+     "出発前から",
+     "だけに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 初めての海外旅行だけに出発前からとても緊張している。 (Vì là chuyến đi nước ngoài đầu tiên nên từ trước khi đi tôi đã rất hồi hộp.). Mảnh ở ô ★ là 「とても」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "母は＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "分かりやすい",
+     "元教師",
+     "説明が",
+     "だけに"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 母は元教師だけに説明が分かりやすい。 (Mẹ tôi vốn là giáo viên nên giải thích rất dễ hiểu.). Mảnh ở ô ★ là 「説明が」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "楽しみにしていた旅行だけに、中止になって本当に残念だ。",
+    "options": [
+     "Chỉ có chuyến du lịch là tôi không mong chờ nên hủy cũng không sao.",
+     "Vì là chuyến du lịch tôi đã rất mong chờ nên bị hủy càng thấy tiếc.",
+     "Dù mong chờ chuyến du lịch nhưng bị hủy tôi cũng không tiếc.",
+     "Chuyến du lịch bị hủy nhưng tôi đang mong chờ một chuyến khác."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜だけに (chính vì… nên càng…): \"Vì là chuyến du lịch tôi đã rất mong chờ nên bị hủy càng thấy tiếc.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "さすがに長年続いている店だけに、味は確かだ。",
+    "options": [
+     "Chỉ có quán lâu năm này là hương vị không ngon.",
+     "Quán mở lâu năm nhưng hương vị không ra gì.",
+     "Dù mới mở nhưng hương vị quán rất ổn.",
+     "Đúng là quán lâu năm nên hương vị rất đảm bảo."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu さすがに〜だけに (đúng là vì… nên): \"Đúng là quán lâu năm nên hương vị rất đảm bảo.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "父は若いころ山に登っていただけに、天気の変化にすぐ気づく。",
+     "一生懸命準備しただけに、合格できてうれしい。",
+     "よく練習しただけに、試合に負けてしまった。",
+     "有名な大学だけに、入るのは難しい。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「よく練習しただけに、試合に負けてしまった。」 sai: vế sau của だけに phải là kết quả tự nhiên từ vế trước; luyện tập nhiều mà thua là kết quả trái ngược, phải dùng のに. Câu đúng: よく練習したのに、試合に負けてしまった。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "値段が高いだけに、品質もいい。",
+     "この辺りは静かだだけに、夜は少し寂しい。",
+     "子どものころから続けているだけに、彼の泳ぎはきれいだ。",
+     "大切な試験だけに、みんな真剣だ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「この辺りは静かだだけに、夜は少し寂しい。」 sai: tính từ な đi với だけに phải dùng dạng な (静かな). Câu đúng: この辺りは静かなだけに、夜は少し寂しい。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "だけに、",
+     "いつも",
+     "人気のある店",
+     "混んでいる。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Vì là quán được yêu thích nên lúc nào cũng đông."
+   },
+   {
+    "pieces": [
+     "だけに、",
+     "今回の",
+     "大きかった。",
+     "成功の喜びは",
+     "苦労した"
+    ],
+    "answer_order": [
+     4,
+     0,
+     1,
+     3,
+     2
+    ],
+    "translation_vi": "Chính vì đã vất vả nên niềm vui thành công lần này càng lớn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "彼は昔プロの選手だった＿＿、今でも走るのが速い。",
+    "answer": "だけに",
+    "accept": [
+     "だけあって"
+    ],
+    "translation_vi": "Anh ấy từng là vận động viên chuyên nghiệp nên đến giờ vẫn chạy nhanh."
+   },
+   {
+    "sentence_ja": "一人っ子だった＿＿、親にとても大切に育てられた。",
+    "answer": "だけに",
+    "translation_vi": "Vì là con một nên tôi được bố mẹ nuôi nấng hết sức nâng niu."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼女は留学経験がある（　　）、外国の人ともすぐに仲良くなれる。",
+    "options": [
+     "わりに",
+     "くせに",
+     "せいで",
+     "だけに"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「だけに」: có kinh nghiệm du học nên dễ kết bạn với người nước ngoài là kết quả tự nhiên. わりに (trái với kỳ vọng), くせに (trách móc), せいで (nguyên nhân xấu) không hợp. Nghĩa: Cô ấy từng du học nên kết thân với người nước ngoài rất nhanh."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "期待が大きかっただけに、結果にがっかりした。",
+    "options": [
+     "Chỉ có kỳ vọng là lớn, còn kết quả thì tốt.",
+     "Vì đã kỳ vọng lớn nên càng thất vọng về kết quả.",
+     "Dù kỳ vọng lớn, tôi không thất vọng về kết quả.",
+     "Kết quả tốt hơn kỳ vọng nên tôi rất vui."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜だけに (chính vì… nên càng…): \"Vì đã kỳ vọng lớn nên càng thất vọng về kết quả.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "人気の歌手だけに、コンサートのチケットはすぐに売り切れた。",
+     "時間がなかっただけに、宿題が全部終わった。",
+     "毎日走っているだけに、彼は体力がある。",
+     "山の上だけに、夏でも涼しい。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「時間がなかっただけに、宿題が全部終わった。」 sai: không có thời gian mà làm xong hết bài là kết quả trái ngược, không phải kết quả tự nhiên; phải dùng のに. Câu đúng: 時間がなかったのに、宿題が全部終わった。"
+   }
+  ]
+ },
+ "JG-301506980b": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "引き受けた（　　）、最後まで責任を持ってやります。",
+    "options": [
+     "末に",
+     "以上",
+     "うちに",
+     "とたん"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「以上」: Vた + 以上 = một khi đã… thì phải…, vế sau là quyết tâm, trách nhiệm. 末に (sau một quá trình dài), うちに (trong lúc), とたん (vừa… thì) không hợp nghĩa. Nghĩa: Một khi đã nhận việc thì tôi sẽ có trách nhiệm làm đến cùng."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "約束した（　　）、守らなければならない。",
+    "options": [
+     "ところで",
+     "ばかりで",
+     "次第",
+     "以上は"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「以上は」: 以上(は) nêu sự thật đã có làm cơ sở cho nghĩa vụ ở vế sau. ところで (dù có… cũng vô ích), ばかりで, 次第 không hợp nghĩa. Nghĩa: Một khi đã hứa thì phải giữ lời."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿と思う。",
+    "options": [
+     "勝ちたい",
+     "以上",
+     "試合に",
+     "出る"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 試合に出る以上勝ちたいと思う。 (Một khi đã ra sân thi đấu thì tôi muốn thắng.). Mảnh ở ô ★ là 「以上」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "日本で＿＿ ＿＿ ★ ＿＿べきだ。",
+    "options": [
+     "日本の",
+     "ルールを守る",
+     "働く",
+     "以上"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 日本で働く以上日本のルールを守るべきだ。 (Một khi đã làm việc ở Nhật thì nên tuân thủ quy tắc của Nhật.). Mảnh ở ô ★ là 「日本の」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "自分で決めた以上、文句は言えない。",
+    "options": [
+     "Hơn những gì tự mình quyết định, tôi không thể nói gì thêm.",
+     "Một khi đã tự mình quyết định thì không thể than phiền.",
+     "Vì người khác quyết định nên tôi phàn nàn.",
+     "Nếu tự mình quyết định thì có thể phàn nàn thoải mái."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vた + 以上 (một khi đã… thì): \"Một khi đã tự mình quyết định thì không thể than phiền.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "お金をもらう以上、プロとしていい仕事をしなければならない。",
+    "options": [
+     "Nếu nhận tiền nhiều hơn mức này thì tôi sẽ làm việc tốt hơn.",
+     "Dù không nhận tiền, tôi vẫn làm việc chuyên nghiệp.",
+     "Vì chưa nhận tiền nên tôi chưa làm việc.",
+     "Một khi đã nhận tiền thì phải làm tốt công việc như một người chuyên nghiệp."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vる + 以上 (một khi đã… thì phải…): \"Một khi đã nhận tiền thì phải làm tốt công việc như một người chuyên nghiệp.\" Đây không phải 以上 nghĩa 'trên, nhiều hơn'."
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "社会人になった以上、自分のことは自分でするべきだ。",
+     "春になった以上、桜が咲いた。",
+     "参加すると言った以上、休むわけにはいかない。",
+     "試験を受ける以上は、合格を目指したい。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「春になった以上、桜が咲いた。」 sai: vế sau của 以上 là nghĩa vụ, quyết tâm hay phán đoán, không phải sự việc tự nhiên đã xảy ra. Câu đúng: 春になって、桜が咲いた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "先生である以上、生徒の手本にならなければならない。",
+     "決まった以上、もう変えることはできない。",
+     "自分で選んだ以上は、後悔しないつもりだ。",
+     "チームのリーダー以上、みんなをまとめなければならない。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「チームのリーダー以上、みんなをまとめなければならない。」 sai: danh từ phải đi với である trước 以上 (N + である以上). Câu đúng: チームのリーダーである以上、みんなをまとめなければならない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "以上、",
+     "やめられない。",
+     "途中では",
+     "始めた"
+    ],
+    "answer_order": [
+     3,
+     0,
+     2,
+     1
+    ],
+    "translation_vi": "Một khi đã bắt đầu thì không thể bỏ giữa chừng."
+   },
+   {
+    "pieces": [
+     "以上は、",
+     "会社の",
+     "規則に従うべきだ。",
+     "社員である"
+    ],
+    "answer_order": [
+     3,
+     0,
+     1,
+     2
+    ],
+    "translation_vi": "Một khi đã là nhân viên thì nên tuân theo quy định của công ty."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "代表に選ばれた＿＿、チームのために全力で頑張るつもりだ。",
+    "answer": "以上",
+    "accept": [
+     "以上は",
+     "からには"
+    ],
+    "translation_vi": "Một khi đã được chọn làm đại diện, tôi định dốc hết sức vì đội."
+   },
+   {
+    "sentence_ja": "ペットを飼う＿＿、最後まで世話をする責任がある。",
+    "answer": "以上",
+    "accept": [
+     "以上は",
+     "からには"
+    ],
+    "translation_vi": "Một khi đã nuôi thú cưng thì có trách nhiệm chăm sóc nó đến cuối đời."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この会社に入った（　　）、ここで一番になりたい。",
+    "options": [
+     "ところ",
+     "以上",
+     "ばかりに",
+     "ついでに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「以上」: một khi đã vào công ty này thì muốn đứng đầu (quyết tâm). ところ, ばかりに (chỉ vì… mà gặp chuyện xấu), ついでに không hợp nghĩa. Nghĩa: Một khi đã vào công ty này, tôi muốn trở thành người giỏi nhất ở đây."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "やると言った以上は、途中でやめるわけにはいかない。",
+    "options": [
+     "Một khi đã nói là làm thì không thể bỏ giữa chừng.",
+     "Hơn cả lời đã nói, tôi muốn bỏ giữa chừng.",
+     "Vì chưa nói sẽ làm nên có thể dừng giữa chừng.",
+     "Nếu nói sẽ làm thì có thể dừng bất cứ lúc nào."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vた + 以上は (một khi đã… thì): \"Một khi đã nói là làm thì không thể bỏ giữa chừng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "親になった以上、子どもを守る責任がある。",
+     "駅に着いた以上、電車がちょうど来た。",
+     "留学すると決めた以上、しっかり準備しよう。",
+     "給料をもらっている以上、仕事は真剣にやるべきだ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「駅に着いた以上、電車がちょうど来た。」 sai: 以上 cần vế sau là trách nhiệm, quyết tâm hay phán đoán; sự trùng hợp ngẫu nhiên phải dùng 〜たら / 〜と. Câu đúng: 駅に着いたら、電車がちょうど来た。"
+   }
+  ]
+ },
+ "JG-f2b90cfa77": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "計算（　　）、この計画で利益が出るはずだ。",
+    "options": [
+     "ばかりに",
+     "上は",
+     "ながら",
+     "ほど"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「上は」: N + 上は (đọc じょうは) = xét về mặt…, hàm ý thực tế có thể khác. ばかりに, ながら, ほど không gắn được với 計算 theo nghĩa này. Nghĩa: Xét về mặt tính toán thì kế hoạch này chắc sẽ có lãi."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "彼とは仕事（　　）付き合いがあるが、個人的にはよく知らない。",
+    "options": [
+     "以上",
+     "くせに",
+     "ついでに",
+     "上は"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「上は」: 仕事上は = về mặt công việc, đối lập với 個人的には. 以上, くせに, ついでに không hợp nghĩa. Nghĩa: Về mặt công việc thì tôi có quan hệ với anh ấy, nhưng về cá nhân thì không biết rõ."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿難しい。",
+    "options": [
+     "実際には",
+     "上は",
+     "可能だが",
+     "理論"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 理論上は可能だが実際には難しい。 (Về lý thuyết thì có thể, nhưng thực tế thì khó.). Mảnh ở ô ★ là 「可能だが」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "あの二人は＿＿ ＿＿ ＿＿ ★よくけんかしている。",
+    "options": [
+     "見えるが",
+     "実は",
+     "表面上は",
+     "仲が良さそうに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: あの二人は表面上は仲が良さそうに見えるが実はよくけんかしている。 (Hai người đó bề ngoài trông có vẻ thân nhau, nhưng thật ra hay cãi nhau.). Mảnh ở ô ★ là 「実は」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "法律上は問題がなくても、やってはいけないことがある。",
+    "options": [
+     "Ở trên pháp luật thì không có vấn đề gì nên việc gì cũng được làm.",
+     "Sau khi học luật, tôi biết có những việc không được làm.",
+     "Dù về mặt pháp luật không có vấn đề gì, vẫn có những việc không nên làm.",
+     "Vì luật có vấn đề nên có những việc không thể làm."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N + 上は (xét về mặt…): \"Dù về mặt pháp luật không có vấn đề gì, vẫn có những việc không nên làm.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この部屋は書類上は二人用だが、実際には四人で使っている。",
+    "options": [
+     "Trên giấy tờ phòng này dành cho hai người, nhưng thực tế có bốn người đang dùng.",
+     "Sau khi làm giấy tờ, phòng này sẽ dành cho bốn người.",
+     "Phòng này ở tầng trên dành cho hai người.",
+     "Phòng này dành cho bốn người, hơn nữa còn rộng."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + 上は (về mặt…, trên…): \"Trên giấy tờ phòng này dành cho hai người, nhưng thực tế có bốn người đang dùng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "書類上は、彼はまだこの会社の社員だ。",
+     "法律上は、十八歳から結婚できる。",
+     "箱上は、猫が気持ちよさそうに寝ている。",
+     "表面上は静かだが、みんな怒っている。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「箱上は、猫が気持ちよさそうに寝ている。」 sai: 上は (じょうは) nghĩa là 'xét về mặt…', không chỉ vị trí 'ở trên'. Câu đúng: 箱の上で、猫が気持ちよさそうに寝ている。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "計算上は、この橋は百年使えるはずだ。",
+     "理論上は、もっと速く走れる車も作れる。",
+     "形式上は、社長の許可が必要だ。",
+     "天気上は、明日は晴れるそうだ。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「天気上は、明日は晴れるそうだ。」 sai: 上は chỉ đi với một số danh từ như 法律, 書類, 計算, 理論, 表面; 天気 không dùng như vậy. Câu đúng: 天気予報では、明日は晴れるそうだ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "上は",
+     "服装は",
+     "会社の規則",
+     "自由だが、",
+     "みんなスーツを着ている。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3,
+     4
+    ],
+    "translation_vi": "Về mặt quy định của công ty thì trang phục là tự do, nhưng ai cũng mặc vest."
+   },
+   {
+    "pieces": [
+     "上は",
+     "問題ないが、",
+     "実際に使うと不便だ。",
+     "設計"
+    ],
+    "answer_order": [
+     3,
+     0,
+     1,
+     2
+    ],
+    "translation_vi": "Về mặt thiết kế thì không có vấn đề, nhưng dùng thực tế lại bất tiện."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "計算＿＿間に合うはずだが、念のため早めに出発しよう。",
+    "answer": "上は",
+    "accept": [
+     "上では"
+    ],
+    "translation_vi": "Theo tính toán thì chắc kịp, nhưng để cho chắc hãy xuất phát sớm."
+   },
+   {
+    "sentence_ja": "表面＿＿落ち着いて見えるが、実はとても緊張している。",
+    "answer": "上は",
+    "accept": [
+     "上では"
+    ],
+    "translation_vi": "Bề ngoài trông bình tĩnh, nhưng thật ra tôi đang rất căng thẳng."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "データ（　　）売り上げは伸びているが、店はあまり忙しくない。",
+    "options": [
+     "次第では",
+     "に限って",
+     "どころか",
+     "上は"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「上は」: データ上は = xét trên số liệu, đối lập với thực tế ở vế sau. 次第では, に限って, どころか không hợp nghĩa. Nghĩa: Trên số liệu thì doanh thu đang tăng, nhưng cửa hàng không bận lắm."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "表面上は笑っていたが、彼女は本当はとても悲しんでいた。",
+    "options": [
+     "Cô ấy cười ở tầng trên nhưng thật ra rất buồn.",
+     "Bề ngoài thì cô ấy cười, nhưng thật ra rất buồn.",
+     "Vì cô ấy cười nhiều nên không hề buồn.",
+     "Sau khi cười xong, cô ấy bắt đầu buồn."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 表面上は (bề ngoài thì…): \"Bề ngoài thì cô ấy cười, nhưng thật ra rất buồn.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "規則上は、ここに車を止めてはいけない。",
+     "制度上は、誰でも申し込めることになっている。",
+     "友だち上は、彼とよく遊んでいる。",
+     "契約上は、来月まで働く必要がある。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「友だち上は、彼とよく遊んでいる。」 sai: 上は chỉ gắn với danh từ chỉ phương diện như 規則, 制度, 契約; không gắn với danh từ chỉ người như 友だち. Câu đúng: 友だちとして、彼とよく遊んでいる。"
+   }
+  ]
+ },
  "JG-aedcbdd728": {
   "check_bank": [
    {
     "type": "FILL",
     "prompt_ja": "病気の母を一人で家に置いていく（　　）。",
-    "options": ["ざるをえない", "ようがない", "わけにはいかない", "がちだ"],
+    "options": [
+     "ざるをえない",
+     "ようがない",
+     "わけにはいかない",
+     "がちだ"
+    ],
     "answer_index": 2,
     "explanation_vi": "Điền 「わけにはいかない」: Vる + わけにはいかない = không thể làm vì đạo lý, hoàn cảnh. ざるをえない cần Vない bỏ ない, ようがない và がちだ cần Vます bỏ ます nên không đi sau 置いていく. Nghĩa: Tôi không thể để mẹ đang ốm ở nhà một mình."
    },
    {
     "type": "FILL",
     "prompt_ja": "お世話になった先生の頼みなので、断る（　　）。",
-    "options": ["わけにはいかない", "ばかりだ", "一方だ", "おそれがある"],
+    "options": [
+     "わけにはいかない",
+     "ばかりだ",
+     "一方だ",
+     "おそれがある"
+    ],
     "answer_index": 0,
     "explanation_vi": "Điền 「わけにはいかない」: vì là lời nhờ của thầy đã giúp đỡ mình nên về đạo lý không thể từ chối. ばかりだ, 一方だ (ngày càng…), おそれがある (e là sẽ…) không hợp với lý do ở vế trước. Nghĩa: Vì là lời nhờ của thầy đã giúp đỡ tôi nên tôi không thể từ chối."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "明日は大切な面接があるので、＿＿ ＿＿ ★ ＿＿。",
-    "options": ["いかない", "寝坊する", "絶対に", "わけには"],
+    "options": [
+     "いかない",
+     "寝坊する",
+     "絶対に",
+     "わけには"
+    ],
     "answer_index": 3,
     "explanation_vi": "Câu đúng: 明日は大切な面接があるので、絶対に寝坊するわけにはいかない。 (Ngày mai có buổi phỏng vấn quan trọng nên tuyệt đối không thể ngủ quên.). Mảnh ở ô ★ là 「わけには」."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "みんなが残業しているのに、＿＿ ★ ＿＿ ＿＿。",
-    "options": ["わけには", "いかない", "帰る", "私だけ先に"],
+    "options": [
+     "わけには",
+     "いかない",
+     "帰る",
+     "私だけ先に"
+    ],
     "answer_index": 2,
     "explanation_vi": "Câu đúng: みんなが残業しているのに、私だけ先に帰るわけにはいかない。 (Mọi người đều đang làm thêm giờ, tôi không thể về trước một mình.). Mảnh ở ô ★ là 「帰る」."
    },
@@ -80,13 +1620,33 @@
   ],
   "order_items": [
    {
-    "pieces": ["わけには", "休む", "いかない。", "大事な試合なので、"],
-    "answer_order": [3, 1, 0, 2],
+    "pieces": [
+     "わけには",
+     "休む",
+     "いかない。",
+     "大事な試合なので、"
+    ],
+    "answer_order": [
+     3,
+     1,
+     0,
+     2
+    ],
     "translation_vi": "Vì là trận đấu quan trọng nên tôi không thể nghỉ."
    },
    {
-    "pieces": ["言わない", "わけには", "いかない。", "先生には本当のことを"],
-    "answer_order": [3, 0, 1, 2],
+    "pieces": [
+     "言わない",
+     "わけには",
+     "いかない。",
+     "先生には本当のことを"
+    ],
+    "answer_order": [
+     3,
+     0,
+     1,
+     2
+    ],
     "translation_vi": "Với thầy thì tôi không thể không nói sự thật."
    }
   ],
@@ -94,13 +1654,17 @@
    {
     "sentence_ja": "みんなが頑張っているので、私だけ休む＿＿。",
     "answer": "わけにはいかない",
-    "accept": ["わけにはいきません"],
+    "accept": [
+     "わけにはいきません"
+    ],
     "translation_vi": "Mọi người đều đang cố gắng nên tôi không thể nghỉ một mình."
    },
    {
     "sentence_ja": "先生が直接頼んできたので、引き受けない＿＿いかない。",
     "answer": "わけには",
-    "accept": ["わけにも"],
+    "accept": [
+     "わけにも"
+    ],
     "translation_vi": "Thầy đã trực tiếp nhờ nên tôi không thể không nhận."
    }
   ],
@@ -108,7 +1672,12 @@
    {
     "type": "FILL",
     "prompt_ja": "せっかく作ってくれた料理なので、残す（　　）。",
-    "options": ["つつある", "最中だ", "っぱなしだ", "わけにはいかない"],
+    "options": [
+     "つつある",
+     "最中だ",
+     "っぱなしだ",
+     "わけにはいかない"
+    ],
     "answer_index": 3,
     "explanation_vi": "Điền 「わけにはいかない」: người ta đã cất công nấu nên về tình nghĩa không thể bỏ thừa. つつある, っぱなしだ cần Vます bỏ ます, 最中だ cần Vている, nên đều không đi sau 残す. Nghĩa: Là món người ta đã cất công nấu cho nên tôi không thể ăn bỏ thừa."
    },
@@ -143,28 +1712,48 @@
    {
     "type": "FILL",
     "prompt_ja": "申し訳ございませんが、そのご質問にはお答えし（　　）。",
-    "options": ["がちです", "かねません", "かねます", "っぽいです"],
+    "options": [
+     "がちです",
+     "かねません",
+     "かねます",
+     "っぽいです"
+    ],
     "answer_index": 2,
     "explanation_vi": "Điền 「かねます」: Vます bỏ ます + かねます = khó có thể…, cách từ chối lịch sự. かねません (có thể xảy ra điều xấu), がちです (hay…), っぽいです không hợp nghĩa. Nghĩa: Thành thật xin lỗi, chúng tôi khó có thể trả lời câu hỏi đó."
    },
    {
     "type": "FILL",
     "prompt_ja": "その意見には賛成し（　　）が、もう少し話し合いましょう。",
-    "options": ["かねない", "次第です", "っぽいです", "かねます"],
+    "options": [
+     "かねない",
+     "次第です",
+     "っぽいです",
+     "かねます"
+    ],
     "answer_index": 3,
     "explanation_vi": "Điền 「かねます」: 賛成しかねます = khó có thể tán thành (từ chối nhẹ nhàng). かねない (e là sẽ…), 次第です, っぽいです không hợp nghĩa. Nghĩa: Tôi khó có thể tán thành ý kiến đó, nhưng chúng ta hãy bàn thêm một chút."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "お客様の＿＿ ＿＿ ★ ＿＿。",
-    "options": ["しかねます", "個人情報は", "お教え", "電話では"],
+    "options": [
+     "しかねます",
+     "個人情報は",
+     "お教え",
+     "電話では"
+    ],
     "answer_index": 2,
     "explanation_vi": "Câu đúng: お客様の個人情報は電話ではお教えしかねます。 (Thông tin cá nhân của khách hàng thì chúng tôi khó có thể cho biết qua điện thoại.). Mảnh ở ô ★ là 「お教え」."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "彼の＿＿ ＿＿ ★ ＿＿注意してしまった。",
-    "options": ["かねて", "つい", "我慢し", "態度には"],
+    "options": [
+     "かねて",
+     "つい",
+     "我慢し",
+     "態度には"
+    ],
     "answer_index": 0,
     "explanation_vi": "Câu đúng: 彼の態度には我慢しかねてつい注意してしまった。 (Không chịu nổi thái độ của anh ta nên tôi lỡ nhắc nhở.). Mảnh ở ô ★ là 「かねて」."
    },
@@ -219,13 +1808,33 @@
   ],
   "order_items": [
    {
-    "pieces": ["お受け", "かねます。", "予約の変更は", "し", "当日の"],
-    "answer_order": [4, 2, 0, 3, 1],
+    "pieces": [
+     "お受け",
+     "かねます。",
+     "予約の変更は",
+     "し",
+     "当日の"
+    ],
+    "answer_order": [
+     4,
+     2,
+     0,
+     3,
+     1
+    ],
     "translation_vi": "Việc đổi lịch hẹn trong ngày thì chúng tôi khó có thể nhận."
    },
    {
-    "pieces": ["見かねて", "手伝ってあげた。", "困っている友だちを"],
-    "answer_order": [2, 0, 1],
+    "pieces": [
+     "見かねて",
+     "手伝ってあげた。",
+     "困っている友だちを"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1
+    ],
     "translation_vi": "Không đành lòng nhìn bạn đang gặp khó khăn nên tôi đã giúp."
    }
   ],
@@ -233,7 +1842,9 @@
    {
     "sentence_ja": "その件については、私の立場では申し上げ＿＿。",
     "answer": "かねます",
-    "accept": ["かねる"],
+    "accept": [
+     "かねる"
+    ],
     "translation_vi": "Về việc đó, ở vị trí của tôi thì khó có thể nói ra."
    },
    {
@@ -246,7 +1857,12 @@
    {
     "type": "FILL",
     "prompt_ja": "この問題については、すぐには決め（　　）ので、少し時間をください。",
-    "options": ["かねません", "かねます", "かけます", "がちです"],
+    "options": [
+     "かねません",
+     "かねます",
+     "かけます",
+     "がちです"
+    ],
     "answer_index": 1,
     "explanation_vi": "Điền 「かねます」: 決めかねます = khó có thể quyết định ngay. かねません (e là sẽ…), かけます (đang làm dở), がちです (hay…) không hợp với 'xin thêm thời gian'. Nghĩa: Về vấn đề này tôi khó có thể quyết định ngay, xin cho tôi thêm chút thời gian."
    },

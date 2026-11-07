@@ -198,5 +198,55 @@
   {"type": "MEANING", "prompt_ja": "彼の主張は、検討に値する。", "options": ["Lập luận của anh ấy đáng được xem xét.", "Lập luận của anh ấy đã bị bác bỏ ngay.", "Lập luận của anh ấy cần được trả tiền để xem xét.", "Lập luận của anh ấy không đáng để xem xét."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu N + に値する (xứng đáng, đáng được): 'Lập luận của anh ấy đáng được xem xét.'"},
   {"type": "ORDER_STAR", "prompt_ja": "彼の行為は、＿＿ ＿＿ ★ ＿＿。", "options": ["ものではない", "値する", "決して", "称賛に"], "answer_index": 1, "explanation_vi": "Câu đúng: 彼の行為は、決して称賛に値するものではない。 (Hành vi của anh ta hoàn toàn không đáng được khen ngợi.). Mảnh ở ô ★ là 「値する」."}
  ]
+},
+"JG-2a6543aff7": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "天候（　　）、試合は予定どおり行われます。", "options": ["をはじめ", "にかかわらず", "とて", "を経て"], "answer_index": 1, "explanation_vi": "Điền 「にかかわらず」: thời tiết thế nào cũng không ảnh hưởng, trận đấu vẫn diễn ra. Nghĩa: Bất kể thời tiết thế nào, trận đấu vẫn được tổ chức theo đúng kế hoạch."},
+  {"type": "FILL", "prompt_ja": "経験の有無（　　）、やる気のある方を歓迎します。", "options": ["をおいて", "とて", "に値して", "にかかわらず"], "answer_index": 3, "explanation_vi": "Điền 「にかかわらず」: 有無 (có hay không) là yếu tố có hai mặt đối lập, đi với にかかわらず. Nghĩa: Bất kể có kinh nghiệm hay không, chúng tôi hoan nghênh những ai có nhiệt huyết."},
+  {"type": "ORDER_STAR", "prompt_ja": "参加費は、＿＿ ＿＿ ★ ＿＿です。", "options": ["一律千円", "かかわらず", "子どもかに", "大人か"], "answer_index": 1, "explanation_vi": "Câu đúng: 参加費は、大人か子どもかにかかわらず一律千円です。 (Phí tham gia là đồng giá một nghìn yên, bất kể người lớn hay trẻ em.). Mảnh ở ô ★ là 「かかわらず」."},
+  {"type": "ORDER_STAR", "prompt_ja": "これは、＿＿ ＿＿ ＿＿ ★イベントです。", "options": ["誰でも", "かかわらず", "年齢に", "楽しめる"], "answer_index": 3, "explanation_vi": "Câu đúng: これは、年齢にかかわらず誰でも楽しめるイベントです。 (Đây là sự kiện mà ai cũng có thể vui chơi, bất kể tuổi tác.). Mảnh ở ô ★ là 「楽しめる」."},
+  {"type": "MEANING", "prompt_ja": "結果にかかわらず、最後まで全力を尽くしたい。", "options": ["Mặc dù kết quả tốt, tôi vẫn chưa hài lòng.", "Tùy theo kết quả mà tôi sẽ quyết định có cố gắng hay không.", "Bất kể kết quả thế nào, tôi muốn dốc hết sức đến cùng.", "Vì kết quả không tốt nên tôi đã bỏ cuộc."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜にかかわらず (bất kể): 'Bất kể kết quả thế nào, tôi muốn dốc hết sức đến cùng.'"},
+  {"type": "MEANING", "prompt_ja": "参加する、しないにかかわらず、返事をください。", "options": ["Dù tham gia hay không, hãy trả lời cho tôi.", "Chỉ những người tham gia mới cần trả lời.", "Mặc dù đã tham gia nhưng bạn vẫn chưa trả lời.", "Người không tham gia thì không cần trả lời."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu Vる・Vない + にかかわらず (dù... hay không): 'Dù tham gia hay không, hãy trả lời cho tôi.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["年齢にかかわらず応募できます。", "経験の有無にかかわらず、やる気のある方を歓迎します。", "雨が降っていたにかかわらず、彼は傘を持たずに出かけた。", "天候にかかわらず、試合は予定どおり行われます。"], "answer_index": 2, "explanation_vi": "「雨が降っていたにかかわらず、彼は傘を持たずに出かけた。」 sai: ý 'mặc dù... nhưng vẫn' (kết quả trái mong đợi) phải dùng にもかかわらず; にかかわらず là 'bất kể'. Câu đúng: 雨が降っていたにもかかわらず、彼は傘を持たずに出かけた。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["季節にかかわらず、この山は夏に一番美しい。", "結果にかかわらず、最後まで全力を尽くしたい。", "参加する、しないにかかわらず、返事をください。", "参加費は、大人か子どもかにかかわらず一律千円です。"], "answer_index": 0, "explanation_vi": "「季節にかかわらず、この山は夏に一番美しい。」 sai: にかかわらず nghĩa là kết quả không đổi dù yếu tố đó thế nào, nên không thể đi với vế sau chỉ riêng một mùa. Câu đúng: 季節にかかわらず、この山はいつも美しい。"}
+ ],
+ "order_items": [
+  {"pieces": ["かかわらず", "有無に", "資格の", "応募できます。"], "answer_order": [2, 1, 0, 3], "translation_vi": "Bất kể có bằng cấp hay không đều có thể ứng tuyển."},
+  {"pieces": ["かかわらず", "やらなければならない。", "好き嫌いに"], "answer_order": [2, 0, 1], "translation_vi": "Dù thích hay không thì vẫn phải làm."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "金額の大小＿＿、領収書は必ず提出してください。", "answer": "にかかわらず", "accept": ["に関わらず", "に関係なく", "を問わず"], "translation_vi": "Bất kể số tiền lớn hay nhỏ, hãy nhất định nộp hóa đơn."},
+  {"sentence_ja": "晴雨に＿＿、イベントは開催します。", "answer": "かかわらず", "accept": ["関わらず", "関係なく"], "translation_vi": "Dù mưa hay nắng, sự kiện vẫn được tổ chức."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "学歴（　　）、能力のある人を採用する方針だ。", "options": ["にかかわらず", "を経て", "とて", "に値して"], "answer_index": 0, "explanation_vi": "Điền 「にかかわらず」: bất kể học vấn thế nào, chỉ tuyển người có năng lực. Nghĩa: Chủ trương là tuyển người có năng lực, bất kể trình độ học vấn."},
+  {"type": "MEANING", "prompt_ja": "好むと好まざるとにかかわらず、変化は避けられない。", "options": ["Nếu không thích thì có thể tránh được sự thay đổi.", "Chỉ những người thích thay đổi mới chấp nhận nó.", "Mặc dù thích thay đổi, chúng ta vẫn né tránh nó.", "Dù muốn hay không, sự thay đổi là điều không thể tránh khỏi."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜にかかわらず (bất kể): 'Dù muốn hay không, sự thay đổi là điều không thể tránh khỏi.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["資格の有無にかかわらず応募できます。", "熱があったにかかわらず、彼は会社に来た。", "金額の大小にかかわらず、領収書は必ず提出してください。", "晴雨にかかわらず、イベントは開催します。"], "answer_index": 1, "explanation_vi": "「熱があったにかかわらず、彼は会社に来た。」 sai: nêu sự việc trái với mong đợi ('mặc dù bị sốt vẫn đi làm') phải dùng にもかかわらず. Câu đúng: 熱があったにもかかわらず、彼は会社に来た。"}
+ ]
+},
+"JG-14fde66764": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "この発明は、人々の生活を大きく変えた（　　）。", "options": ["に値する", "につけ", "と言っても過言ではない", "をおいてない"], "answer_index": 2, "explanation_vi": "Điền 「と言っても過言ではない」: thể thường + と言っても過言ではない, khẳng định mạnh mà không phóng đại. に値する không nối sau thể た. Nghĩa: Có thể nói không ngoa rằng phát minh này đã thay đổi lớn cuộc sống của con người."},
+  {"type": "FILL", "prompt_ja": "彼女の歌声は、世界一だと（　　）。", "options": ["言っても過言だ", "言っても過言ではない", "言っては過言ではない", "言っても過言ではなく"], "answer_index": 1, "explanation_vi": "Điền 「言っても過言ではない」: mẫu cố định と言っても過言ではない. Dạng 言っては sai trợ từ, 過言ではなく bỏ lửng câu, còn 過言だ ngược nghĩa khen. Nghĩa: Nói giọng hát của cô ấy hay nhất thế giới cũng không ngoa."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿過言ではない。", "options": ["言っても", "導いたと", "彼の存在が", "チームを優勝に"], "answer_index": 1, "explanation_vi": "Câu đúng: 彼の存在がチームを優勝に導いたと言っても過言ではない。 (Nói chính sự có mặt của anh ấy đã đưa đội đến chức vô địch cũng không ngoa.). Mảnh ở ô ★ là 「導いたと」."},
+  {"type": "ORDER_STAR", "prompt_ja": "この店のラーメンは、＿＿ ★ ＿＿ ＿＿。", "options": ["ではない", "過言", "日本一", "だと言っても"], "answer_index": 3, "explanation_vi": "Câu đúng: この店のラーメンは、日本一だと言っても過言ではない。 (Nói ramen của quán này ngon nhất Nhật Bản cũng không ngoa.). Mảnh ở ô ★ là 「だと言っても」."},
+  {"type": "MEANING", "prompt_ja": "健康は何よりも大切だと言っても過言ではない。", "options": ["Nói sức khỏe quan trọng nhất là hơi phóng đại.", "Nói sức khỏe quan trọng hơn bất cứ thứ gì cũng không phải là quá lời.", "Không nên nói quá nhiều về sức khỏe.", "Sức khỏe không quan trọng bằng tiền bạc."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜と言っても過言ではない (nói là... cũng không ngoa): 'Nói sức khỏe quan trọng hơn bất cứ thứ gì cũng không phải là quá lời.'"},
+  {"type": "MEANING", "prompt_ja": "この町は、観光業で成り立っていると言っても過言ではない。", "options": ["Thị trấn này hầu như không liên quan gì đến du lịch.", "Nói thị trấn này sống nhờ du lịch là quá phóng đại.", "Thị trấn này đang cố gắng phát triển ngành du lịch.", "Có thể nói không ngoa rằng thị trấn này tồn tại nhờ ngành du lịch."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜と言っても過言ではない (nói là... cũng không ngoa): 'Có thể nói không ngoa rằng thị trấn này tồn tại nhờ ngành du lịch.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼は天才だと言っても過言ではない。", "この発明は、人々の生活を大きく変えたと言っても過言ではない。", "健康は何よりも大切だと言っても過言ではない。", "今日は少し雨が降るかもしれないと言っても過言ではない。"], "answer_index": 3, "explanation_vi": "「今日は少し雨が降るかもしれないと言っても過言ではない。」 sai: mẫu này dùng để khẳng định mạnh một nhận định (thường là đánh giá cao), không đi với dự đoán mơ hồ như かもしれない. Câu đúng: 今日は少し雨が降るかもしれない。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼女の歌声は、世界一だと言うと過言ではない。", "この店のラーメンは、日本一だと言っても過言ではない。", "この町は、観光業で成り立っていると言っても過言ではない。", "彼の存在がチームを優勝に導いたと言っても過言ではない。"], "answer_index": 0, "explanation_vi": "「彼女の歌声は、世界一だと言うと過言ではない。」 sai: mẫu cố định là と言っても過言ではない (dùng 言っても, không dùng 言うと). Câu đúng: 彼女の歌声は、世界一だと言っても過言ではない。"}
+ ],
+ "order_items": [
+  {"pieces": ["過言ではない。", "最高傑作だと", "言っても", "彼の"], "answer_order": [3, 1, 2, 0], "translation_vi": "Nói đây là kiệt tác xuất sắc nhất của anh ấy cũng không ngoa."},
+  {"pieces": ["と言っても", "過言ではない。", "国の宝だ", "この寺は"], "answer_order": [3, 2, 0, 1], "translation_vi": "Nói ngôi chùa này là báu vật quốc gia cũng không ngoa."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "スマートフォンは現代人の必需品だと言っても＿＿。", "answer": "過言ではない", "translation_vi": "Nói điện thoại thông minh là vật dụng thiết yếu của người hiện đại cũng không ngoa."},
+  {"sentence_ja": "今回の成功は、彼のおかげだ＿＿過言ではない。", "answer": "と言っても", "translation_vi": "Nói thành công lần này là nhờ anh ấy cũng không quá lời."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "読書が私の人生を変えた（　　）。", "options": ["と言っても過言ではない", "につけ", "を経て", "とて"], "answer_index": 0, "explanation_vi": "Điền 「と言っても過言ではない」: khẳng định mạnh rằng việc đọc sách đã thay đổi cuộc đời mình. Các lựa chọn khác bỏ lửng câu. Nghĩa: Nói việc đọc sách đã thay đổi cuộc đời tôi cũng không ngoa."},
+  {"type": "MEANING", "prompt_ja": "彼女なしではこの会社は成り立たないと言っても過言ではない。", "options": ["Cô ấy nói rằng công ty này không cần mình.", "Công ty này vẫn hoạt động tốt dù không có cô ấy.", "Có thể nói không quá lời rằng không có cô ấy thì công ty này không đứng vững được.", "Nói rằng công ty cần cô ấy là phóng đại."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜と言っても過言ではない (nói là... cũng không ngoa): 'Có thể nói không quá lời rằng không có cô ấy thì công ty này không đứng vững được.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["この小説は彼の最高傑作だと言っても過言ではない。", "私は昨日八時に起きたと言っても過言ではない。", "この寺は国の宝だと言っても過言ではない。", "スマートフォンは現代人の必需品だと言っても過言ではない。"], "answer_index": 1, "explanation_vi": "「私は昨日八時に起きたと言っても過言ではない。」 sai: mẫu này dùng cho nhận định, đánh giá mạnh có thể bị cho là phóng đại, không dùng cho sự việc thường ngày đơn giản. Câu đúng: 私は昨日八時に起きた。"}
+ ]
 }
 }

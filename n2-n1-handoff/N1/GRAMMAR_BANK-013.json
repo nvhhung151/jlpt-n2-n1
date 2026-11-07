@@ -1672,7 +1672,188 @@
    "id": "JG-3bce8ac5d2"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "三月に入り、日差しもだいぶ春（　　）きた。",
+      "options": [
+       "らしく",
+       "ぶって",
+       "めいて",
+       "ずくめで"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「めいて」: 春めく là động từ nhóm I, dạng て là めいて; 春めいてきた = bắt đầu nhuốm vẻ xuân. Nghĩa: Sang tháng ba, nắng cũng đã mang nhiều vẻ xuân."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女はいつも謎（　　）微笑みを浮かべている。",
+      "options": [
+       "まみれの",
+       "めいた",
+       "ずくめの",
+       "がちな"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「めいた」: 謎めいた + N = mang vẻ bí ẩn. Nghĩa: Cô ấy lúc nào cũng nở một nụ cười bí ẩn."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "漏らした",
+       "めいた口調で",
+       "冗談",
+       "本音を"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼は冗談めいた口調で本音を漏らした。 (Anh ấy để lộ suy nghĩ thật bằng giọng như đùa.). Mảnh ở ô ★ là 「本音を」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "部屋の中は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "めいた",
+       "空気が漂っていた",
+       "秘密",
+       "どこか"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 部屋の中はどこか秘密めいた空気が漂っていた。 (Trong phòng phảng phất một bầu không khí có gì đó bí mật.). Mảnh ở ô ★ là 「秘密」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "木々の葉が色づき始め、町はすっかり秋めいてきた。",
+      "options": [
+       "Lá cây chưa đổi màu nên thị trấn vẫn chưa ra dáng mùa thu.",
+       "Thị trấn cho chặt hết cây trước khi thu đến.",
+       "Mùa thu năm nay đến muộn hơn mọi năm.",
+       "Lá cây bắt đầu đổi màu, thị trấn đã nhuốm hẳn không khí mùa thu."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜めく (ngả sang, nhuốm vẻ): \"Lá cây bắt đầu đổi màu, thị trấn đã nhuốm hẳn không khí mùa thu.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の言葉には、どこか言い訳めいた響きがあった。",
+      "options": [
+       "Lời của anh ấy có âm hưởng gì đó nghe như lời bào chữa.",
+       "Anh ấy thẳng thắn xin lỗi mà không bào chữa.",
+       "Anh ấy không nói lời nào để bào chữa.",
+       "Anh ấy tuyên bố rõ ràng rằng đó là lời bào chữa."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜めく (mang vẻ, nhuốm vẻ): \"Lời của anh ấy có âm hưởng gì đó nghe như lời bào chữa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "冗談めいた言い方だったが、目は真剣だった。",
+       "謎めいた手紙が届いた。",
+       "ようやく春めくてきた。",
+       "日に日に秋めいてきた。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「ようやく春めくてきた。」 sai: めく là động từ nhóm I, dạng て phải là めいて. Câu đúng: ようやく春めいてきた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女は謎めくな人だ。",
+       "皮肉めいた笑いを浮かべた。",
+       "風が冷たくなり、すっかり冬めいてきた。",
+       "説教めいた話は聞きたくない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼女は謎めくな人だ。」 sai: めく là động từ, không có dạng な; bổ nghĩa cho danh từ dùng めいた. Câu đúng: 彼女は謎めいた人だ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "春めいて",
+       "きたので、",
+       "コートを脱いだ。",
+       "日差しが"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Nắng đã nhuốm vẻ xuân nên tôi cởi áo khoác ra."
+     },
+     {
+      "pieces": [
+       "説教",
+       "話を聞かされて、",
+       "めいた",
+       "うんざりした。"
+      ],
+      "answer_order": [
+       0,
+       2,
+       1,
+       3
+      ],
+      "translation_vi": "Bị bắt nghe những lời như lên lớp dạy đời, tôi phát ngán."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "風に少し冷たさが加わり、朝晩は秋＿＿きた。",
+      "answer": "めいて",
+      "translation_vi": "Gió đã se lạnh hơn, sáng tối đã nhuốm không khí mùa thu."
+     },
+     {
+      "sentence_ja": "彼から届いたのは、謎＿＿短い手紙だった。",
+      "answer": "めいた",
+      "translation_vi": "Thứ anh ấy gửi tới là một bức thư ngắn đầy bí ẩn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "部長の言葉には、どこか皮肉（　　）響きがあった。",
+      "options": [
+       "まみれの",
+       "ずくめの",
+       "ながらの",
+       "めいた"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「めいた」: 皮肉めいた + N = nghe có vẻ mỉa mai. Nghĩa: Lời của trưởng phòng có âm hưởng gì đó như mỉa mai."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "上司は脅しめいた口調で、残業を命じた。",
+      "options": [
+       "Cấp trên nhẹ nhàng nhờ làm thêm giờ.",
+       "Cấp trên ra lệnh làm thêm giờ bằng giọng điệu như đe dọa.",
+       "Cấp trên bị đe dọa nên phải làm thêm giờ.",
+       "Cấp trên không cho ai làm thêm giờ."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜めく (mang vẻ, nhuốm vẻ): \"Cấp trên ra lệnh làm thêm giờ bằng giọng điệu như đe dọa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "少しずつ春めいてきた。",
+       "皮肉めきの言葉を言われた。",
+       "彼の話は、どこか作り話めいている。",
+       "謎めいた事件が起きた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「皮肉めきの言葉を言われた。」 sai: bổ nghĩa cho danh từ phải dùng dạng めいた, không dùng めきの. Câu đúng: 皮肉めいた言葉を言われた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1697,7 +1878,198 @@
    "id": "JG-10d85a43f2"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "人の物を勝手に使うなんて、失礼（　　）。",
+      "options": [
+       "極みだ",
+       "限りない",
+       "極まりない",
+       "ずくめだ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「極まりない」: Aな語幹 + 極まりない = vô cùng, hết mức (đánh giá tiêu cực). 極み phải có の (失礼の極み). Nghĩa: Tự tiện dùng đồ của người khác thì thật vô lễ hết mức."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "夜中に大声で騒ぐのは、迷惑（　　）行為だ。",
+      "options": [
+       "極めて",
+       "まみれの",
+       "極まる",
+       "極み"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「極まる」: 迷惑極まる + N = gây phiền hà hết mức; 極まる đứng trực tiếp trước danh từ. Nghĩa: La hét ầm ĩ giữa đêm là hành vi phiền hà hết mức."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "客に対する＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "極まりない",
+       "不愉快",
+       "態度は",
+       "あの店員の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 客に対するあの店員の態度は不愉快極まりない。 (Thái độ của nhân viên đó với khách thật khó chịu hết mức.). Mảnh ở ô ★ là 「不愉快」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿だ。",
+      "options": [
+       "行為",
+       "危険極まる",
+       "運転するのは",
+       "酒を飲んで"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 酒を飲んで運転するのは危険極まる行為だ。 (Uống rượu rồi lái xe là hành vi cực kỳ nguy hiểm.). Mảnh ở ô ★ là 「運転するのは」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "連絡もせずに約束を破るとは、無責任極まりない。",
+      "options": [
+       "Thất hứa mà không liên lạc cũng không phải chuyện vô trách nhiệm lắm.",
+       "Thất hứa mà không hề liên lạc thì thật là vô trách nhiệm hết mức.",
+       "Anh ấy không thất hứa nên rất có trách nhiệm.",
+       "Vì vô trách nhiệm nên tôi không liên lạc được."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜極まりない (vô cùng, hết mức): \"Thất hứa mà không hề liên lạc thì thật là vô trách nhiệm hết mức.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "その政治家の発言は、不適切極まるものだった。",
+      "options": [
+       "Phát ngôn của chính trị gia đó rất đúng mực.",
+       "Chính trị gia đó đã chấm dứt những phát ngôn không phù hợp.",
+       "Phát ngôn của chính trị gia đó chỉ hơi không phù hợp.",
+       "Phát ngôn của chính trị gia đó cực kỳ không phù hợp."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜極まる (vô cùng, hết mức): \"Phát ngôn của chính trị gia đó cực kỳ không phù hợp.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の運転は危険極まりない。",
+       "客を待たせても謝らないとは、失礼極まる。",
+       "退屈極まりない会議が三時間も続いた。",
+       "隣の工事の音は、うるさい極まりない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「隣の工事の音は、うるさい極まりない。」 sai: tính từ い không gắn thẳng với 極まりない, phải qua こと. Câu đúng: 隣の工事の音は、うるさいこと極まりない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は会議に遅刻する極まりない。",
+       "暗い夜道を一人で歩くのは、危険極まりない。",
+       "その対応は、不親切極まるものだった。",
+       "説明もなく料金を上げるのは、不当極まりない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼は会議に遅刻する極まりない。」 sai: 極まりない đứng sau gốc tính từ な hoặc danh từ chỉ đánh giá, không gắn sau động từ. Câu đúng: 会議に何度も遅刻するとは、無責任極まりない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "極まりない。",
+       "態度は",
+       "店員の",
+       "失礼"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Thái độ của nhân viên thật vô lễ hết mức."
+     },
+     {
+      "pieces": [
+       "ミスで",
+       "大きな損害が出た。",
+       "不注意",
+       "極まる"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Một lỗi bất cẩn hết mức đã gây ra thiệt hại lớn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "何度注意しても同じ間違いをするとは、不注意＿＿。",
+      "answer": "極まりない",
+      "accept": [
+       "極まる",
+       "きわまりない",
+       "きわまる"
+      ],
+      "translation_vi": "Nhắc bao nhiêu lần vẫn mắc cùng một lỗi, thật là bất cẩn hết mức."
+     },
+     {
+      "sentence_ja": "雨の日に山道をスピードを出して走るのは、危険＿＿行為だ。",
+      "answer": "極まる",
+      "accept": [
+       "極まりない",
+       "きわまる",
+       "きわまりない"
+      ],
+      "translation_vi": "Phóng nhanh trên đường núi vào ngày mưa là hành vi cực kỳ nguy hiểm."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "住民に何の説明もなく計画を進めるとは、不誠実（　　）。",
+      "options": [
+       "ずくめだ",
+       "極まりない",
+       "めいている",
+       "まみれだ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「極まりない」: 不誠実極まりない = thiếu thành thật hết mức, đánh giá tiêu cực mạnh. Nghĩa: Tiến hành kế hoạch mà không giải thích gì với người dân thì thật thiếu thành thật hết mức."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "毎日同じ作業の繰り返しで、退屈極まりない。",
+      "options": [
+       "Công việc mỗi ngày khác nhau nên không hề chán.",
+       "Lặp lại cùng một việc thì cũng không đến nỗi chán.",
+       "Ngày nào cũng lặp lại cùng một công việc, thật buồn chán vô cùng.",
+       "Công việc lặp lại đã kết thúc nên hết chán."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜極まりない (vô cùng, hết mức): \"Ngày nào cũng lặp lại cùng một công việc, thật buồn chán vô cùng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "静かな極まりない図書館で勉強した。",
+       "彼の言い訳は不愉快極まりない。",
+       "無礼極まる発言に、会場は静まり返った。",
+       "その判断は、軽率極まりないものだった。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「静かな極まりない図書館で勉強した。」 sai: 極まりない gắn thẳng với gốc tính từ な (không có な), và chỉ dùng cho đánh giá tiêu cực, không dùng cho đặc điểm trung tính như 静か. Câu đúng: とても静かな図書館で勉強した。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

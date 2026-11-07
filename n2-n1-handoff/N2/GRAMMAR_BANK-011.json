@@ -82,7 +82,7 @@
       "type": "ERROR",
       "prompt_ja": "Câu nào dùng sai mẫu?",
       "options": [
-       "それはただの言い訳にすぎない。",
+       "それはただの夢にすぎない。",
        "私は自分の仕事をしたにすぎません。",
        "彼は世界一すばらしい選手にすぎない。",
        "この町の人口は、わずか三千人にすぎない。"
@@ -331,7 +331,7 @@
      {
       "pieces": [
        "からに",
-       "彼が厳しく注意したのは",
+       "彼がきびしく注意したのは",
        "ほかならない。",
        "あなたのためを思った"
       ],
@@ -640,7 +640,198 @@
    "id": "JG-3ba05d9a36"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "バスも電車もないので、歩いて帰る（　　）。",
+      "options": [
+       "しかある",
+       "ほどだ",
+       "しかない",
+       "ぶりだ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「しかない」: Vる + しかない = chỉ còn cách, đành phải. しかある sai (しか luôn đi với phủ định), ほどだ, ぶりだ không hợp nghĩa. Nghĩa: Không có xe buýt lẫn tàu điện nên chỉ còn cách đi bộ về."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "パソコンが壊れたので、新しいのを買う（　　）。",
+      "options": [
+       "しかない",
+       "だけない",
+       "ほかある",
+       "までない"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「しかない」: không còn lựa chọn khác nên đành mua máy mới. だけない, ほかある, までない sai hình thức. Nghĩa: Máy tính hỏng nên chỉ còn cách mua cái mới."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "台風で飛行機が飛ばないので、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ない",
+       "延期する",
+       "旅行を",
+       "しか"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 台風で飛行機が飛ばないので、旅行を延期するしかない。 (Máy bay không cất cánh vì bão nên chỉ còn cách hoãn chuyến du lịch.). Mảnh ở ô ★ là 「しか」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "自分が悪いのだから、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "しか",
+       "ない",
+       "謝る",
+       "正直に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 自分が悪いのだから、正直に謝るしかない。 (Lỗi là ở mình nên chỉ còn cách thành thật xin lỗi.). Mảnh ở ô ★ là 「謝る」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "財布を忘れたので、友だちにお金を借りるしかない。",
+      "options": [
+       "Quên ví nhưng không cần mượn tiền bạn.",
+       "Quên ví nên chỉ còn cách mượn tiền bạn.",
+       "Quên ví nên tôi chỉ mượn bạn một ít tiền thôi.",
+       "Quên ví nên bạn đã cho tôi mượn tiền."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vる + しかない (chỉ còn cách): \"Quên ví nên chỉ còn cách mượn tiền bạn.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ここまで来たら、最後までやるしかない。",
+      "options": [
+       "Đã đến nước này thì không nhất thiết phải làm đến cùng.",
+       "Đến được đây thì đã làm xong cả rồi.",
+       "Đến đây thì nên dừng lại.",
+       "Đã đến nước này thì chỉ còn cách làm đến cùng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜しかない (chỉ còn cách, quyết tâm): \"Đã đến nước này thì chỉ còn cách làm đến cùng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "鍵をなくしたので、管理人に連絡するしかない。",
+       "薬が効かないなら、病院に行くしかない。",
+       "道が分からないので、人に聞いたしかない。",
+       "時間がないから、急ぐしかない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「道が分からないので、人に聞いたしかない。」 sai: しかない (chỉ còn cách) đi sau thể từ điển, không đi sau thể た. Câu đúng: 人に聞くしかない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "壊れてしまったから、新しいのを買うのしかない。",
+       "こうなったら、もうあきらめるしかない。",
+       "バスが来ないので、待つしかなかった。",
+       "誰も知らないなら、自分で調べるしかない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「壊れてしまったから、新しいのを買うのしかない。」 sai: しかない nối thẳng sau Vる, không chen の. Câu đúng: 新しいのを買うしかない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "しかない。",
+       "しめ切りに",
+       "間に合わせるには",
+       "休まずに働く"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Muốn kịp hạn chót thì chỉ còn cách làm việc không nghỉ."
+     },
+     {
+      "pieces": [
+       "待つ",
+       "しか",
+       "ない。",
+       "雨がやむまで"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Chỉ còn cách đợi đến khi tạnh mưa."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "電車が止まってしまったので、タクシーに乗る＿＿。",
+      "answer": "しかない",
+      "accept": [
+       "しかありません",
+       "ほかない",
+       "よりほかない",
+       "ほかはない"
+      ],
+      "translation_vi": "Tàu điện đã ngừng chạy nên chỉ còn cách đi taxi."
+     },
+     {
+      "sentence_ja": "自分で決めたことだから、頑張る＿＿ない。",
+      "answer": "しか",
+      "accept": [
+       "ほか",
+       "よりほか"
+      ],
+      "translation_vi": "Là việc tự mình quyết định nên chỉ còn cách cố gắng thôi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "予約が取れなかったので、別の日に来る（　　）。",
+      "options": [
+       "しかない",
+       "しかある",
+       "だけない",
+       "ほかある"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「しかない」: không đặt được chỗ nên đành phải đến ngày khác. しか phải đi với phủ định, các phương án khác sai hình thức. Nghĩa: Không đặt được chỗ nên chỉ còn cách đến vào ngày khác."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "医者に止められたら、たばこをやめるしかない。",
+      "options": [
+       "Nếu bác sĩ cấm thì cũng không cần bỏ thuốc lá.",
+       "Bác sĩ chỉ bỏ thuốc lá một chút.",
+       "Nếu bác sĩ cấm thì chỉ còn cách bỏ thuốc lá.",
+       "Bác sĩ đã bỏ thuốc lá rồi."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Vる + しかない (đành phải): \"Nếu bác sĩ cấm thì chỉ còn cách bỏ thuốc lá.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "道が混んでいるので、歩いて行くしかない。",
+       "お金がないから、安い店で食べるしかある。",
+       "他に方法がないなら、やってみるしかない。",
+       "失敗したら、もう一度やり直すしかない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「お金がないから、安い店で食べるしかある。」 sai: しか luôn đi với phủ định nên phải là しかない. Câu đúng: 安い店で食べるしかない。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -658,7 +849,193 @@
    "id": "JG-d4acb4d144"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "事故で道が通れないので、引き返す（　　）。",
+      "options": [
+       "よりほかない",
+       "よりほかある",
+       "ほかならない",
+       "よりほかなる"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「よりほかない」: Vる + よりほかない = chỉ còn cách (cứng hơn しかない). ほかならない cần に và có nghĩa 'chính là', hai phương án còn lại sai hình thức. Nghĩa: Đường bị chặn do tai nạn nên chỉ còn cách quay lại."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "頼める人がいない以上、自分でやる（　　）ほかない。",
+      "options": [
+       "から",
+       "まで",
+       "ので",
+       "より"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「より」: Vる + よりほかない. から, まで, ので không tạo thành mẫu với ほかない. Nghĩa: Đã không có ai để nhờ thì chỉ còn cách tự làm."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "病気を治すためには、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "より",
+       "受ける",
+       "ほかない",
+       "手術を"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 病気を治すためには、手術を受けるよりほかない。 (Để chữa bệnh thì chỉ còn cách phẫu thuật.). Mảnh ở ô ★ là 「より」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "計画が失敗した以上、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "よりほか",
+       "責任を",
+       "ない",
+       "取る"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 計画が失敗した以上、責任を取るよりほかない。 (Kế hoạch đã thất bại thì chỉ còn cách chịu trách nhiệm.). Mảnh ở ô ★ là 「取る」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "これ以上待っても来ないなら、先に出発するよりほかない。",
+      "options": [
+       "Nếu đợi thêm nữa cũng không đến thì đợi tiếp vẫn tốt hơn là xuất phát trước.",
+       "Nếu đợi thêm nữa cũng không đến thì chỉ còn cách xuất phát trước.",
+       "Nếu đợi thêm nữa cũng không đến thì không cần xuất phát trước.",
+       "Nếu đợi thêm nữa cũng không đến thì đã xuất phát trước rồi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜よりほかない (chỉ còn cách), より ở đây không phải so sánh: \"Nếu đợi thêm nữa cũng không đến thì chỉ còn cách xuất phát trước.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "会社の決定なので、受け入れるよりほかはなかった。",
+      "options": [
+       "Vì là quyết định của công ty nên tôi đã phản đối.",
+       "Quyết định của công ty tốt hơn những cách khác.",
+       "Vì là quyết định của công ty nên tôi chỉ còn cách chấp nhận.",
+       "Ngoài quyết định của công ty còn có nhiều lựa chọn khác."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜よりほかはなかった (đã chỉ còn cách): \"Vì là quyết định của công ty nên tôi chỉ còn cách chấp nhận.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ここまで来たら、最後まで頑張るよりほかない。",
+       "電車がないので、歩いたよりほかない。",
+       "誰も助けてくれないので、一人でやるよりほかなかった。",
+       "道が分からないので、地図を見ながら進むよりほかない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「電車がないので、歩いたよりほかない。」 sai: よりほかない đi sau thể từ điển, không đi sau thể た. Câu đúng: 歩くよりほかない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "時間がないので、タクシーで行くよりほかはない。",
+       "相手が分かってくれるまで、説明するよりほかない。",
+       "薬がない以上、病院に行くよりほかない。",
+       "お金がないので、あきらめるよりほかがある。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「お金がないので、あきらめるよりほかがある。」 sai: mẫu cố định là よりほか(は)ない, không có dạng khẳng định ほかがある. Câu đúng: あきらめるよりほかない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "受け入れる",
+       "この案を",
+       "よりほかない。",
+       "ほかに方法がないので、"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Không còn cách nào khác nên chỉ còn cách chấp nhận phương án này."
+     },
+     {
+      "pieces": [
+       "自分で",
+       "調べる",
+       "よりほかなかった。",
+       "誰にも聞けなかったので、"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Không hỏi được ai nên tôi chỉ còn cách tự tìm hiểu."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "今さら何を言っても遅い。前に進む＿＿ほかない。",
+      "answer": "より",
+      "translation_vi": "Bây giờ có nói gì cũng muộn rồi. Chỉ còn cách tiến về phía trước."
+     },
+     {
+      "sentence_ja": "電池が切れてしまったので、新しいのを買うより＿＿。",
+      "answer": "ほかない",
+      "accept": [
+       "他ない",
+       "ほかはない",
+       "ほかありません"
+      ],
+      "translation_vi": "Pin đã hết nên chỉ còn cách mua pin mới."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "家族の生活を守るためには、働き続ける（　　）。",
+      "options": [
+       "よりほかならない",
+       "にほかない",
+       "よりほかない",
+       "よりほかある"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「よりほかない」: để bảo vệ cuộc sống gia đình thì chỉ còn cách tiếp tục làm việc. Các phương án khác trộn lẫn sai với にほかならない hoặc sai hình thức. Nghĩa: Để giữ cuộc sống của gia đình thì chỉ còn cách tiếp tục làm việc."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この問題は、専門家に任せるよりほかない。",
+      "options": [
+       "Vấn đề này không cần giao cho chuyên gia.",
+       "Vấn đề này chỉ còn cách giao cho chuyên gia.",
+       "Vấn đề này chính là của chuyên gia.",
+       "Ngoài chuyên gia ra ai cũng giải quyết được vấn đề này."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜よりほかない (chỉ còn cách): \"Vấn đề này chỉ còn cách giao cho chuyên gia.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "しめ切りが近いので、休まずに作業するよりほかない。",
+       "これ以上は無理なので、あきらめるよりほかない。",
+       "時間がないので、急ぐのよりほかない。",
+       "誰も来ないなら、私が行くよりほかないだろう。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「時間がないので、急ぐのよりほかない。」 sai: よりほかない nối thẳng sau Vる, không chen の. Câu đúng: 急ぐよりほかない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -683,7 +1060,195 @@
    "id": "JG-3a7fb2a615"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "さあ、みんなで一緒に歌おう（　　）。",
+      "options": [
+       "ではない",
+       "ではないか",
+       "ではなかったか",
+       "でもない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ではないか」: Vう/よう + ではないか = hãy cùng làm…, lời kêu gọi mọi người. ではない, ではなかったか, でもない không đi sau thể ý chí. Nghĩa: Nào, mọi người hãy cùng hát nào."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "さあ、明日からまた（　　）ではないか。",
+      "options": [
+       "頑張る",
+       "頑張った",
+       "頑張ろう",
+       "頑張らない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「頑張ろう」: lời kêu gọi cần thể ý chí + ではないか. 頑張る, 頑張った, 頑張らない + ではないか không mang nghĩa kêu gọi và không hợp với さあ, 明日から. Nghĩa: Nào, từ mai chúng ta lại cùng cố gắng nhé."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この町の自然を守るために、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "では",
+       "ないか",
+       "できることから",
+       "始めよう"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: この町の自然を守るために、できることから始めようではないか。 (Để bảo vệ thiên nhiên của thị trấn, hãy cùng bắt đầu từ những việc mình làm được.). Mảnh ở ô ★ là 「では」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "今夜は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "では",
+       "ないか",
+       "祝おう",
+       "優勝を"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 今夜は優勝を祝おうではないか。 (Tối nay chúng ta hãy cùng ăn mừng chức vô địch.). Mảnh ở ô ★ là 「祝おう」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "若者の未来のために、今こそ立ち上がろうではないか。",
+      "options": [
+       "Vì tương lai của giới trẻ, chẳng phải chúng ta đã đứng lên rồi sao.",
+       "Không biết có nên đứng lên vì tương lai giới trẻ không.",
+       "Giới trẻ đã đứng lên vì tương lai của chính họ.",
+       "Vì tương lai của giới trẻ, chính lúc này chúng ta hãy cùng đứng lên."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vよう + ではないか (hãy cùng…, kêu gọi): \"Vì tương lai của giới trẻ, chính lúc này chúng ta hãy cùng đứng lên.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "失敗を恐れず、新しいことをどんどんやってみようではないか。",
+      "options": [
+       "Đừng sợ thất bại, hãy cùng mạnh dạn thử những điều mới.",
+       "Vì sợ thất bại nên không thử những điều mới.",
+       "Chẳng phải đã thử nhiều điều mới rồi sao.",
+       "Có vẻ như mọi người đang thử điều mới mà không sợ thất bại."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜てみようではないか (hãy cùng thử): \"Đừng sợ thất bại, hãy cùng mạnh dạn thử những điều mới.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "みんなで力を合わせて、この困難を乗り越えようではないか。",
+       "私は一人で静かに本を読もうではないか。",
+       "もう一度、話し合ってみようではないか。",
+       "地域のために、できることを考えようではないか。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私は一人で静かに本を読もうではないか。」 sai: ようではないか là lời kêu gọi người khác cùng làm, không dùng cho việc riêng của mình. Câu đúng: 私は一人で静かに本を読もう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "過去のことは忘れて、前を向いて進もうではないか。",
+       "この問題について、もっとよく考えようではないか。",
+       "みんなで掃除しましょうではないか。",
+       "子どもたちのために、公園を守ろうではないか。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「みんなで掃除しましょうではないか。」 sai: ではないか đi sau thể ý chí thường (しよう), không đi sau ましょう. Câu đúng: みんなで掃除しようではないか。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ないか。",
+       "みんなで",
+       "では",
+       "最後まで戦おう"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Mọi người hãy cùng chiến đấu đến cùng nào."
+     },
+     {
+      "pieces": [
+       "一度",
+       "話を聞こう",
+       "ではないか。",
+       "彼の"
+      ],
+      "answer_order": [
+       0,
+       3,
+       1,
+       2
+      ],
+      "translation_vi": "Hãy thử nghe anh ấy nói một lần xem sao."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "みんなで力を合わせて、この町を元気にしよう＿＿。",
+      "answer": "ではないか",
+      "accept": [
+       "じゃないか",
+       "ではありませんか"
+      ],
+      "translation_vi": "Mọi người hãy chung sức làm cho thị trấn này sôi động lên nào."
+     },
+     {
+      "sentence_ja": "一年に一度のお祭りだ。今日は思いきり楽しもう＿＿ないか。",
+      "answer": "では",
+      "accept": [
+       "じゃ"
+      ],
+      "translation_vi": "Lễ hội mỗi năm chỉ có một lần. Hôm nay hãy cùng vui hết mình nào."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "次の世代のために、きれいな海を残そう（　　）。",
+      "options": [
+       "ではないか",
+       "ではなかろう",
+       "でもあるまい",
+       "ではない"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「ではないか」: thể ý chí 残そう + ではないか = hãy cùng giữ lại. Các phương án khác không đi sau thể ý chí. Nghĩa: Vì thế hệ sau, hãy cùng giữ gìn biển sạch đẹp."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "みんなでこの町の良さを、もっと多くの人に伝えようではないか。",
+      "options": [
+       "Chẳng phải đã truyền tải đến nhiều người rồi sao.",
+       "Chúng ta hãy cùng truyền tải cái hay của thị trấn này đến nhiều người hơn.",
+       "Không ai truyền tải cái hay của thị trấn này cả.",
+       "Nghe nói nhiều người đã biết cái hay của thị trấn này."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vよう + ではないか (hãy cùng…): \"Chúng ta hãy cùng truyền tải cái hay của thị trấn này đến nhiều người hơn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "明日の試合は、全力で戦おうではないか。",
+       "昨日はみんなで遊ぼうではないか。",
+       "困っている人を助けようではないか。",
+       "この機会に、お互いの考えを話し合おうではないか。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「昨日はみんなで遊ぼうではないか。」 sai: lời kêu gọi hướng tới việc sắp làm, không dùng với 昨日. Câu đúng: 今日はみんなで遊ぼうではないか。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
