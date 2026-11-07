@@ -113,9 +113,9 @@
    {
     "type": "FILL",
     "prompt_ja": "試験まであと一週間だ。毎日遊んで（　　）。",
-    "options": ["ほしい", "たまらない", "はいられない", "おかない"],
+    "options": ["ほしい", "たまらない", "はいられない", "みせる"],
     "answer_index": 2,
-    "explanation_vi": "Điền 「はいられない」: chỉ còn một tuần nữa là thi nên không thể cứ chơi mãi. 遊んでほしい là muốn người khác chơi, 遊んでたまらない và 遊んでおかない không hợp nghĩa. Nghĩa: Chỉ còn một tuần nữa là thi. Không thể ngày nào cũng chơi được."
+    "explanation_vi": "Điền 「はいられない」: chỉ còn một tuần nữa là thi nên không thể cứ chơi mãi. 遊んでほしい là muốn người khác chơi, 遊んでたまらない và 遊んでみせる không hợp nghĩa. Nghĩa: Chỉ còn một tuần nữa là thi. Không thể ngày nào cũng chơi được."
    },
    {
     "type": "FILL",
@@ -162,9 +162,9 @@
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["人のことを心配してはいられない。", "いつまでも子どもではいられない。", "もう黙りてはいられない。", "ライバルには負けてはいられない。"],
+    "options": ["人のことを心配してはいられない。", "いつまでも子どもではいられない。", "もう待ちてはいられない。", "ライバルには負けてはいられない。"],
     "answer_index": 2,
-    "explanation_vi": "「もう黙りてはいられない。」 sai: thể て của 黙る là 黙って. Câu đúng: もう黙ってはいられない。"
+    "explanation_vi": "「もう待ちてはいられない。」 sai: thể て của 待つ là 待って. Câu đúng: もう待ってはいられない。"
    }
   ],
   "order_items": [
@@ -211,9 +211,9 @@
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["子どもが熱を出したので、仕事をしてはいられない。", "困っている人を黙って見てはいらない。", "雨がやむのを待ってはいられない。", "もう一分も無駄にしてはいられない。"],
+    "options": ["子どもが熱を出したので、仕事をしてはいられない。", "困っている人をそのまま見てはいらない。", "雨がやむのを待ってはいられない。", "もう一分も無駄にしてはいられない。"],
     "answer_index": 1,
-    "explanation_vi": "「困っている人を黙って見てはいらない。」 sai: phần cuối của mẫu là いられない (thể khả năng của いる), không phải いらない. Câu đúng: 困っている人を黙って見てはいられない。"
+    "explanation_vi": "「困っている人をそのまま見てはいらない。」 sai: phần cuối của mẫu là いられない (thể khả năng của いる), không phải いらない. Câu đúng: 困っている人をそのまま見てはいられない。"
    }
   ]
  },
