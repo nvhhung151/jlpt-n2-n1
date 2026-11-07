@@ -10,4 +10,4 @@
 - N1 GRAMMAR_UNIT-002: tạo tên bài 15–18 mới ("Liên quan, lập trường"; "Mà không, bất chấp"; "Đánh đổi, bằng phương tiện"; "Bổ nghĩa, tình huống")
 - N1 GRAMMAR_PARENT 002-004: 26 mẫu phụ để null vì không có mẫu chính cùng chức năng trong header.mains (vd ～とは限らない, ～を前提に, ～を機に, ～くらいなら) — team chọn: gán tạm mẫu gần nhất hay nâng lên mẫu chính
 - N1 GRAMMAR_PARENT 005-008: thêm 23 mẫu phụ để null (ごとく/ごとき, ぶる, てみせる, たて, っぱなし, まぎれに, 後を絶たない...); một số gán tạm (〜はめになる→を余儀なくされる, 〜びる→N+めく, 〜にして→といえども)
-- N2 GRAMMAR_BANK-009 JG-df00d02bd4 (ようがない): câu ERROR thứ 2 có phương án 「道の教えようがない」 không tự nhiên → có thể có 2 phương án sai; cần sửa thành 道を教えようがない
+- N2 GRAMMAR_BANK-009 JG-df00d02bd4 (ようがない): đã sửa phương án 道の教えようがない → 道を教えようがない (câu ERROR thứ 2); nên đọc lại
