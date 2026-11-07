@@ -1721,7 +1721,191 @@
    "id": "JG-7f3985b154"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "行ける（　　）、今すぐにでも国へ帰りたい。",
+      "options": [
+       "ものの",
+       "ものなら",
+       "ものか",
+       "ところで"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ものなら」: V thể khả năng + ものなら + たい = nếu mà làm được thì rất muốn. ものの (tuy… nhưng), ものか (làm gì có chuyện), ところで (dù có… cũng vô ích) không hợp nghĩa. Nghĩa: Nếu mà đi được, tôi muốn về nước ngay lập tức."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "できる（　　）、私が代わりに試験を受けてあげたい。",
+      "options": [
+       "くせに",
+       "うえに",
+       "ものなら",
+       "あまり"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ものなら」: できるものなら = nếu có thể (dù biết là khó), vế sau là mong muốn 〜てあげたい. くせに (vậy mà), うえに (hơn nữa), あまり (quá… nên) không hợp nghĩa. Nghĩa: Nếu có thể, tôi muốn đi thi thay cho bạn."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ＿＿ ★、一度行ってみたい。",
+      "options": [
+       "行ける",
+       "ものなら",
+       "月まで",
+       "旅行に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 月まで旅行に行けるものなら、一度行ってみたい。 (Nếu mà đi du lịch được lên mặt trăng, tôi muốn đi thử một lần.). Mảnh ở ô ★ là 「ものなら」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、ぜひ見てみたい。",
+      "options": [
+       "見られる",
+       "ものなら",
+       "町が",
+       "百年前の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 百年前の町が見られるものなら、ぜひ見てみたい。 (Nếu mà xem được thị trấn của một trăm năm trước, tôi rất muốn xem.). Mảnh ở ô ★ là 「町が」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "休めるものなら、一週間ぐらい休みたい。",
+      "options": [
+       "Vì được nghỉ một tuần nên tôi rất vui.",
+       "Lỡ mà nghỉ một tuần thì sẽ bị mắng.",
+       "Tôi đã nghỉ một tuần nhưng vẫn mệt.",
+       "Nếu mà được nghỉ, tôi muốn nghỉ khoảng một tuần."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu V thể khả năng + ものなら (nếu mà có thể… thì muốn…): \"Nếu mà được nghỉ, tôi muốn nghỉ khoảng một tuần.\" Không nhầm với 〜ようものなら (lỡ mà… thì hậu quả xấu)."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "空を飛べるものなら、鳥のように飛んでみたい。",
+      "options": [
+       "Tôi bay được như chim.",
+       "Nếu mà bay được, tôi muốn thử bay như chim.",
+       "Vì không bay được nên tôi ghét chim.",
+       "Chim bay được nên rất tự do."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu V thể khả năng + ものなら (ước muốn điều khó thực hiện): \"Nếu mà bay được, tôi muốn thử bay như chim.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "話せるものなら、母ともう一度話したい。",
+       "買えるものなら、あの家を買いたい。",
+       "行くものなら、あの島へ行きたい。",
+       "治せるものなら、すぐにでも治してあげたい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「行くものなら」 sai: ở mẫu này động từ trước ものなら phải ở thể khả năng. Câu đúng: 行けるものなら、あの島へ行きたい。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "戻れるものなら、子どもの頃に戻りたい。",
+       "会えるものなら、今すぐ会いに行きたい。",
+       "できるものなら、もう一度挑戦してみたい。",
+       "泳げるものなら、昨日海で泳いだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「泳げるものなら、昨日海で泳いだ」 sai: vế sau của ものなら phải là mong muốn (〜たい, 〜てみたい), không phải sự việc đã xảy ra. Câu đúng: 泳げるものなら、海で泳ぎたい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ものなら、",
+       "時間を",
+       "戻せる",
+       "あの日に戻りたい。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Nếu mà quay ngược được thời gian, tôi muốn trở về ngày hôm đó."
+     },
+     {
+      "pieces": [
+       "家族と",
+       "この町で暮らしたい。",
+       "一緒に住める",
+       "ものなら、"
+      ],
+      "answer_order": [
+       0,
+       2,
+       3,
+       1
+      ],
+      "translation_vi": "Nếu mà được sống cùng gia đình, tôi muốn sống ở thị trấn này."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "できる＿＿、もう一度あの店のラーメンが食べたい。",
+      "answer": "ものなら",
+      "accept": [
+       "ことなら"
+      ],
+      "translation_vi": "Nếu có thể, tôi muốn được ăn lại món ramen của quán đó một lần nữa."
+     },
+     {
+      "sentence_ja": "生まれ変われる＿＿、鳥になりたい。",
+      "answer": "ものなら",
+      "translation_vi": "Nếu mà được đầu thai lại, tôi muốn làm một chú chim."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "帰れる（　　）、お正月は家族と過ごしたい。",
+      "options": [
+       "ものの",
+       "ばかりに",
+       "ものなら",
+       "せいで"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ものなら」: 帰れる (thể khả năng) + ものなら, vế sau là mong muốn 過ごしたい. ものの (tuy… nhưng), ばかりに (chỉ tại), せいで (do lỗi) không hợp nghĩa. Nghĩa: Nếu mà về được, tôi muốn đón Tết cùng gia đình."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "見られるものなら、若い頃の祖父の姿を一度見てみたい。",
+      "options": [
+       "Nếu mà có thể, tôi muốn một lần được thấy hình dáng ông nội thời trẻ.",
+       "Tôi đã từng thấy ông nội thời trẻ.",
+       "Ông nội muốn được nhìn thấy tôi một lần.",
+       "Lỡ mà nhìn thấy ông nội thời trẻ thì tôi sẽ khóc."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu V thể khả năng + ものなら (ước muốn điều khó xảy ra): \"Nếu mà có thể, tôi muốn một lần được thấy hình dáng ông nội thời trẻ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "歌えるものなら、あの歌手のように歌ってみたい。",
+       "遅刻できるものなら、先生に怒られる。",
+       "言えるものなら、本当の気持ちを伝えたい。",
+       "選べるものなら、静かな部屋に住みたい。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「遅刻できるものなら、先生に怒られる」 sai: V thể khả năng + ものなら đi với vế sau là mong muốn; ý 'lỡ mà đi muộn thì bị mắng' phải dùng thể ý chí + ものなら. Câu đúng: 遅刻しようものなら、先生に怒られる。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1752,7 +1936,193 @@
    "id": "JG-3c08138fb5"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "実際に会わない（　　）、どんな人か分からない。",
+      "options": [
+       "ことに",
+       "ことか",
+       "ことには",
+       "ことさえ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ことには」: Vない + ことには + vế phủ định = nếu không… thì không thể…. ことに (thật là…), ことか (biết bao), ことさえ (ngay cả việc) không hợp nghĩa. Nghĩa: Nếu không gặp trực tiếp thì không biết người đó thế nào."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "お金が（　　）ことには、旅行には行けない。",
+      "options": [
+       "なくて",
+       "ない",
+       "なく",
+       "なければ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ない」: trước ことには dùng thể ない ở dạng thường (ない). なくて, なく, なければ không nối được với ことには. Nghĩa: Không có tiền thì không thể đi du lịch."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿決められない。",
+      "options": [
+       "ことには",
+       "聞かない",
+       "部長の",
+       "意見を"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 部長の意見を聞かないことには決められない。 (Nếu không nghe ý kiến của trưởng phòng thì không thể quyết định.). Mảnh ở ô ★ là 「聞かない」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "会議は＿＿ ★ ＿＿ ＿＿始まらない。",
+      "options": [
+       "そろわない",
+       "ことには",
+       "全員が",
+       "参加者"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 会議は参加者全員がそろわないことには始まらない。 (Nếu người tham gia chưa đến đủ thì cuộc họp không thể bắt đầu.). Mảnh ở ô ★ là 「全員が」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "実際に使ってみないことには、いいかどうか分からない。",
+      "options": [
+       "Vì đã dùng thử nên tôi biết nó tốt.",
+       "Dù không dùng thử cũng biết là nó tốt.",
+       "Nếu không dùng thử thực tế thì không biết có tốt hay không.",
+       "Tôi không muốn dùng thử vì không biết nó có tốt không."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Vない + ことには〜ない (nếu không… thì không thể…): \"Nếu không dùng thử thực tế thì không biết có tốt hay không.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "雨がやまないことには、外で練習できない。",
+      "options": [
+       "Dù mưa vẫn tập ngoài trời.",
+       "Vì mưa đã tạnh nên có thể tập ngoài trời.",
+       "Mưa tạnh rồi nhưng vẫn không tập.",
+       "Mưa chưa tạnh thì không thể tập ngoài trời."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vない + ことには〜ない (điều kiện bắt buộc): \"Mưa chưa tạnh thì không thể tập ngoài trời.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "練習しないことには、上手にならない。",
+       "よく寝ないことには、元気になる。",
+       "先生に聞かないことには、答えが分からない。",
+       "お金を貯めないことには、車は買えない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「よく寝ないことには、元気になる」 sai: vế sau của 〜ないことには phải là dạng phủ định (không thể, không được). Câu đúng: よく寝ないことには、元気にならない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "チケットがないことには、会場に入れない。",
+       "熱が下がらないことには、学校に行けない。",
+       "本人に会わないことには、何とも言えない。",
+       "薬を飲まなくことには、治らない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「飲まなくことには」 sai: trước ことには phải là Vない (飲まない), không dùng dạng なく. Câu đúng: 薬を飲まないことには、治らない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ことには、",
+       "読まない",
+       "最後まで",
+       "話の終わりは分からない。"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0,
+       3
+      ],
+      "translation_vi": "Nếu không đọc đến cuối thì không biết câu chuyện kết thúc thế nào."
+     },
+     {
+      "pieces": [
+       "ことには、",
+       "材料が",
+       "料理を始められない。",
+       "そろわない"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Nếu nguyên liệu chưa đủ thì không thể bắt đầu nấu ăn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "実際に行ってみ＿＿ことには、その町のよさは分からない。",
+      "answer": "ない",
+      "translation_vi": "Nếu không thực sự đến thử thì không hiểu được cái hay của thị trấn đó."
+     },
+     {
+      "sentence_ja": "みんなが協力しない＿＿、この仕事は終わらない。",
+      "answer": "ことには",
+      "accept": [
+       "と",
+       "限り",
+       "かぎり"
+      ],
+      "translation_vi": "Nếu mọi người không hợp tác thì công việc này sẽ không xong."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "本人に確認しない（　　）、本当のことは分からない。",
+      "options": [
+       "くせに",
+       "ものの",
+       "ことには",
+       "わりに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ことには」: chưa hỏi lại chính người đó thì không thể biết sự thật; vế sau là phủ định 分からない. くせに (vậy mà), ものの (tuy… nhưng), わりに (so với) không hợp nghĩa. Nghĩa: Nếu không xác nhận với chính người đó thì không biết được sự thật."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この書類にはんこをもらわないことには、手続きができない。",
+      "options": [
+       "Đã đóng dấu rồi nên thủ tục đã xong.",
+       "Nếu giấy tờ này chưa được đóng dấu thì không làm thủ tục được.",
+       "Làm thủ tục xong rồi mới đóng dấu.",
+       "Không cần đóng dấu vẫn làm được thủ tục."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vない + ことには〜ない (tiền đề bắt buộc): \"Nếu giấy tờ này chưa được đóng dấu thì không làm thủ tục được.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿新しい店は開けない。",
+      "options": [
+       "ことには、",
+       "決まらない",
+       "店員が",
+       "店長と"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 店長と店員が決まらないことには、新しい店は開けない。 (Chưa có cửa hàng trưởng và nhân viên thì không thể mở cửa hàng mới.). Mảnh ở ô ★ là 「決まらない」."
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,

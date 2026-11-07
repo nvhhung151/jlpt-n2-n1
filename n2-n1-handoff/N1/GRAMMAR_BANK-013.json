@@ -628,7 +628,194 @@
    "id": "JG-d3080453f3"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この森は、一度迷い込んだ（　　）、二度と出られないと言われている。",
+      "options": [
+       "が早いか",
+       "ところで",
+       "が最後",
+       "からといって"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「が最後」: Vた + が最後 = một khi đã làm thì hậu quả xấu không tránh khỏi. Nghĩa: Người ta nói khu rừng này một khi đã lạc vào thì không bao giờ ra được."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "うちの犬は、ボールを見つけた（　　）、何を言っても離さない。",
+      "options": [
+       "あげく",
+       "ものの",
+       "すえに",
+       "が最後"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「が最後」: một khi đã tìm thấy bóng thì không thể lấy lại, kết quả không cứu vãn. Nghĩa: Con chó nhà tôi một khi đã thấy quả bóng thì nói gì nó cũng không nhả ra."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿止まらない。",
+      "options": [
+       "最後",
+       "食べ始めたが",
+       "一度",
+       "このお菓子は"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: このお菓子は一度食べ始めたが最後止まらない。 (Món bánh này một khi đã bắt đầu ăn là không dừng được.). Mảnh ở ô ★ là 「食べ始めたが」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "部長は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "終わらない",
+       "一時間は",
+       "最後",
+       "話し始めたが"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 部長は話し始めたが最後一時間は終わらない。 (Trưởng phòng một khi đã bắt đầu nói là ít nhất một tiếng chưa xong.). Mảnh ở ô ★ là 「最後」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女を怒らせたが最後、一週間は口をきいてもらえない。",
+      "options": [
+       "Cuối cùng cô ấy đã giận và không nói chuyện cả tuần.",
+       "Một khi đã làm cô ấy giận thì cả tuần sẽ không được cô ấy nói chuyện cùng.",
+       "Lần cuối tôi làm cô ấy giận là một tuần trước.",
+       "Dù làm cô ấy giận, cô ấy cũng không để bụng."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜が最後 (một khi đã… thì hậu quả xấu không tránh khỏi): \"Một khi đã làm cô ấy giận thì cả tuần sẽ không được cô ấy nói chuyện cùng.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この契約書にサインしたが最後、途中でやめることはできない。",
+      "options": [
+       "Một khi đã ký hợp đồng này thì không thể bỏ ngang giữa chừng.",
+       "Cuối cùng tôi đã ký vào hợp đồng này.",
+       "Ký hợp đồng này xong thì có thể hủy bất cứ lúc nào.",
+       "Đây là lần cuối cùng tôi ký hợp đồng."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜が最後 (một khi đã… thì hậu quả xấu không tránh khỏi): \"Một khi đã ký hợp đồng này thì không thể bỏ ngang giữa chừng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼にお金を貸したが最後、返ってこないと思ったほうがいい。",
+       "あの人に話したが最後、みんなに知られてしまう。",
+       "この薬を飲んだが最後、すぐに風邪が治った。",
+       "一度寝坊したが最後、その日の予定はすべて狂ってしまう。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「この薬を飲んだが最後、すぐに風邪が治った。」 sai: が最後 chỉ đi với hậu quả xấu, không thể cứu vãn, không dùng cho kết quả tốt. Câu đúng: この薬を飲んだら、すぐに風邪が治った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "スマホを見始めたが最後、なかなか寝られない。",
+       "機嫌を損ねたが最後、何時間も文句を言われる。",
+       "一度うそをついたが最後、信用を取り戻すのは難しい。",
+       "ここで諦めるが最後、もう二度とチャンスはない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「ここで諦めるが最後、もう二度とチャンスはない。」 sai: が最後 luôn đi sau Vた, không dùng Vる. Câu đúng: ここで諦めたが最後、もう二度とチャンスはない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "うわさは社内中に広まる。",
+       "一度",
+       "が最後、",
+       "口にした"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Một khi đã lỡ nói ra thì tin đồn sẽ lan khắp công ty."
+     },
+     {
+      "pieces": [
+       "が最後、",
+       "この椅子に",
+       "なかなか立ち上がれない。",
+       "座った"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Một khi đã ngồi vào chiếc ghế này thì khó mà đứng dậy được."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "あの人に弱みを見せた＿＿、ずっとそれを利用される。",
+      "answer": "が最後",
+      "accept": [
+       "がさいご"
+      ],
+      "translation_vi": "Một khi đã để lộ điểm yếu với người đó thì sẽ bị lợi dụng mãi."
+     },
+     {
+      "sentence_ja": "このゲームは始めた＿＿、気づくと朝になっている。",
+      "answer": "が最後",
+      "accept": [
+       "がさいご"
+      ],
+      "translation_vi": "Trò chơi này một khi đã bắt đầu thì đến lúc nhận ra trời đã sáng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "祖父は一度言い出した（　　）、誰の意見も聞かない。",
+      "options": [
+       "ついでに",
+       "あまり",
+       "が最後",
+       "がてら"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「が最後」: một khi đã nói ra thì không ai thay đổi được ý ông nữa. Nghĩa: Ông tôi một khi đã nói ra điều gì thì không nghe ý kiến của ai cả."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "うちの子は、遊びに夢中になったが最後、呼んでも返事をしない。",
+      "options": [
+       "Con tôi chơi đến cuối cùng rồi mới trả lời.",
+       "Con tôi mải chơi nhưng gọi là trả lời ngay.",
+       "Lần cuối con tôi mải chơi là hôm qua.",
+       "Con tôi một khi đã mải chơi thì gọi thế nào cũng không trả lời."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜が最後 (một khi đã… thì hậu quả xấu không tránh khỏi): \"Con tôi một khi đã mải chơi thì gọi thế nào cũng không trả lời.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "毎朝運動したが最後、体が丈夫になった。",
+       "一度読み始めたが最後、結末までやめられない。",
+       "彼に車を貸したが最後、傷だらけで返ってくる。",
+       "あの店に入ったが最後、何か買わずには出られない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「毎朝運動したが最後、体が丈夫になった。」 sai: が最後 dùng khi kết quả xấu, không quay lại được; cơ thể khỏe lên là kết quả tốt. Câu đúng: 毎朝運動したら、体が丈夫になった。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -651,7 +838,192 @@
    "id": "JG-0eb4ec670f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "六十歳（　　）初めて、親の苦労が分かった。",
+      "options": [
+       "にとって",
+       "にかけて",
+       "にして",
+       "につけ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にして」: N (tuổi, mốc) + にして初めて = phải đến mốc đó mới…. Nghĩa: Phải đến sáu mươi tuổi tôi mới hiểu được nỗi vất vả của cha mẹ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "三度目の挑戦（　　）、試験に合格できた。",
+      "options": [
+       "を限りに",
+       "にして初めて",
+       "にひきかえ",
+       "ともなく"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「にして初めて」: số lần 三度目の挑戦 + にして初めて nhấn mạnh phải đến lần đó mới đạt được. Nghĩa: Phải đến lần thử thứ ba tôi mới đỗ kỳ thi."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿は海外での新規事業だった。",
+      "options": [
+       "任された仕事",
+       "初めて",
+       "入社",
+       "十年目にして"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 入社十年目にして初めて任された仕事は海外での新規事業だった。 (Công việc đầu tiên được giao sau mười năm vào công ty là một dự án mới ở nước ngoài.). Mảnh ở ô ★ là 「初めて」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ★ ＿＿ ＿＿ができた。",
+      "options": [
+       "自分の店を持つこと",
+       "初めて",
+       "五十歳",
+       "にして"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼は五十歳にして初めて自分の店を持つことができた。 (Phải đến năm mươi tuổi anh ấy mới có được cửa hàng của riêng mình.). Mảnh ở ô ★ là 「にして」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この道三十年の職人にして初めて、このような繊細な作品が作れるのだ。",
+      "options": [
+       "Người thợ ba mươi năm trong nghề lần đầu tiên làm tác phẩm tinh tế này.",
+       "Tác phẩm này được một người thợ làm suốt ba mươi năm.",
+       "Phải là người thợ ba mươi năm trong nghề mới làm ra được tác phẩm tinh tế như thế này.",
+       "Dù là thợ ba mươi năm cũng không làm được tác phẩm tinh tế thế này."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜にして初めて (phải đến mức đó mới…): \"Phải là người thợ ba mươi năm trong nghề mới làm ra được tác phẩm tinh tế như thế này.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "八十歳にして初めて、彼は海外旅行を経験した。",
+      "options": [
+       "Phải đến tám mươi tuổi ông ấy mới lần đầu đi du lịch nước ngoài.",
+       "Ông ấy đã đi du lịch nước ngoài tám mươi lần.",
+       "Năm tám mươi tuổi ông ấy đi du lịch nước ngoài lần cuối.",
+       "Từ khi tám mươi tuổi, ông ấy không đi du lịch nước ngoài nữa."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜にして初めて (phải đến mức đó mới…): \"Phải đến tám mươi tuổi ông ấy mới lần đầu đi du lịch nước ngoài.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この年齢にして初めて、健康の大切さを知った。",
+       "結婚するにして初めて、家族のありがたさが分かった。",
+       "四十代にして初めて、本当にやりたい仕事に出会えた。",
+       "二度目の留学にして初めて、現地の友人ができた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「結婚するにして初めて、家族のありがたさが分かった。」 sai: にして初めて đi sau danh từ; với động từ phải dùng V-て初めて. Câu đúng: 結婚して初めて、家族のありがたさが分かった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "三回目の面接にして初めて、緊張せずに話せた。",
+       "三十歳にして初めて、一人暮らしを始めた。",
+       "創業百年にして初めて、店を休業することになった。",
+       "このかばんにして初めて、旅行が楽になった。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「このかばんにして初めて、旅行が楽になった。」 sai: N trước にして初めて phải là mốc tuổi, thời gian, số lần hay giai đoạn, không phải đồ vật. Câu đúng: このかばんを使って初めて、旅行が楽になった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "本当の厳しさを知った。",
+       "この年",
+       "にして初めて、",
+       "仕事の"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Phải đến tuổi này tôi mới biết được sự khắc nghiệt thực sự của công việc."
+     },
+     {
+      "pieces": [
+       "五回目の",
+       "優勝を果たした。",
+       "挑戦にして",
+       "初めて"
+      ],
+      "answer_order": [
+       0,
+       2,
+       3,
+       1
+      ],
+      "translation_vi": "Phải đến lần thử sức thứ năm mới giành được chức vô địch."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "創業五十年＿＿初めて、会社は海外に工場を建てた。",
+      "answer": "にして",
+      "translation_vi": "Phải đến năm thứ năm mươi kể từ khi thành lập, công ty mới lần đầu xây nhà máy ở nước ngoài."
+     },
+     {
+      "sentence_ja": "七回目の受験＿＿、医師の国家試験に合格した。",
+      "answer": "にして初めて",
+      "accept": [
+       "にしてようやく",
+       "にしてやっと"
+      ],
+      "translation_vi": "Phải đến lần dự thi thứ bảy mới đỗ kỳ thi quốc gia ngành bác sĩ."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "四十歳（　　）初めて、自分の本当の夢に気づいた。",
+      "options": [
+       "にして",
+       "として",
+       "にかけて",
+       "ばかりか"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「にして」: tuổi + にして初めて nhấn mạnh phải đến tuổi ấy mới nhận ra. Nghĩa: Phải đến bốn mươi tuổi tôi mới nhận ra ước mơ thật sự của mình."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "結婚二十年目にして初めて、夫婦で海外旅行に出かけた。",
+      "options": [
+       "Hai vợ chồng đã đi du lịch nước ngoài hai mươi lần sau khi cưới.",
+       "Năm đầu tiên sau khi cưới, hai vợ chồng đi du lịch nước ngoài.",
+       "Phải đến năm thứ hai mươi sau khi cưới, hai vợ chồng mới lần đầu đi du lịch nước ngoài.",
+       "Sau hai mươi năm, hai vợ chồng không còn đi du lịch nữa."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜にして初めて (phải đến mức đó mới…): \"Phải đến năm thứ hai mươi sau khi cưới, hai vợ chồng mới lần đầu đi du lịch nước ngoài.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "三年目にして初めて、仕事の面白さが分かってきた。",
+       "毎日にして初めて、日本語が上手になった。",
+       "九十歳にして初めて、パソコンを習い始めた。",
+       "十回目の公演にして初めて、満員になった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「毎日にして初めて、日本語が上手になった。」 sai: 毎日 không phải một mốc hay giai đoạn để nói 'phải đến lúc đó mới'. Câu đúng: 毎日練習して初めて、日本語が上手になった。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -674,7 +1046,188 @@
    "id": "JG-d2f9db227b"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "今日は朝から、うれしいこと（　　）の一日だった。",
+      "options": [
+       "まみれ",
+       "ずくめ",
+       "がち",
+       "ぐるみ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ずくめ」: 〜ことずくめ = toàn là chuyện như thế; まみれ chỉ dùng cho thứ bám bẩn. Nghĩa: Hôm nay từ sáng đã toàn chuyện vui."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "犯人は、黒（　　）の服装をしていたそうだ。",
+      "options": [
+       "めく",
+       "まみれ",
+       "ずくめ",
+       "がてら"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ずくめ」: 黒ずくめ = toàn một màu đen từ đầu đến chân. Nghĩa: Nghe nói thủ phạm mặc trang phục toàn màu đen."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、息が詰まりそうだ。",
+      "options": [
+       "細かい",
+       "生徒の自由が少なく",
+       "この学校は",
+       "規則ずくめで"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: この学校は細かい規則ずくめで生徒の自由が少なく、息が詰まりそうだ。 (Trường này toàn những quy định chi li, học sinh ít tự do, ngột ngạt đến khó thở.). Mảnh ở ô ★ là 「規則ずくめで」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿だった。",
+      "options": [
+       "楽しい夜",
+       "ごちそうずくめの",
+       "パーティーは",
+       "昨日の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 昨日のパーティーはごちそうずくめの楽しい夜だった。 (Bữa tiệc hôm qua là một buổi tối vui vẻ toàn món ngon.). Mảnh ở ô ★ là 「パーティーは」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "新しい職場は、高い給料に短い通勤時間と、いいことずくめだ。",
+      "options": [
+       "Chỗ làm mới lương cao nhưng thời gian đi làm dài.",
+       "Chỗ làm mới có nhiều điều không tốt.",
+       "Chỗ làm mới chỉ có một điểm tốt là lương cao.",
+       "Chỗ làm mới toàn điều tốt: lương cao, thời gian đi làm lại ngắn."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ずくめ (toàn là, toàn những): \"Chỗ làm mới toàn điều tốt: lương cao, thời gian đi làm lại ngắn.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "その日の彼女は、白ずくめの服装で現れた。",
+      "options": [
+       "Hôm đó cô ấy mặc áo trắng bị dính bẩn.",
+       "Hôm đó cô ấy xuất hiện với trang phục toàn màu trắng.",
+       "Hôm đó cô ấy mặc áo trắng cùng váy đen.",
+       "Hôm đó cô ấy không mặc đồ trắng như mọi khi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ずくめ (toàn một màu, toàn những): \"Hôm đó cô ấy xuất hiện với trang phục toàn màu trắng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "結婚式は、ごちそうずくめのにぎやかな会だった。",
+       "黒ずくめの服を着た男が店に入ってきた。",
+       "雨の中で試合をして、選手たちは泥ずくめになった。",
+       "この会社は規則ずくめで、少し窮屈だ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「雨の中で試合をして、選手たちは泥ずくめになった。」 sai: dính đầy bùn bẩn trên người dùng まみれ hoặc だらけ, không dùng ずくめ. Câu đúng: 雨の中で試合をして、選手たちは泥まみれになった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "机の上は、本ずくめで散らかっている。",
+       "今月は、いいことずくめで気分がいい。",
+       "祖母の誕生日は、ごちそうずくめだった。",
+       "彼はいつも黒ずくめの格好をしている。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「机の上は、本ずくめで散らかっている。」 sai: ずくめ chỉ đi với một số danh từ cố định; đồ vật bày bừa bãi nhiều dùng だらけ. Câu đúng: 机の上は、本だらけで散らかっている。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "一年だった。",
+       "いいことずくめの",
+       "合格に就職と、",
+       "今年は"
+      ],
+      "answer_order": [
+       3,
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Năm nay là một năm toàn điều tốt, nào thi đỗ, nào có việc làm."
+     },
+     {
+      "pieces": [
+       "ずくめの",
+       "ごちそう",
+       "夕食に",
+       "子どもたちは大喜びだった。"
+      ],
+      "answer_order": [
+       1,
+       0,
+       2,
+       3
+      ],
+      "translation_vi": "Bữa tối toàn món ngon khiến lũ trẻ vui mừng khôn xiết."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "優勝に新記録と、今日はいいこと＿＿の一日だった。",
+      "answer": "ずくめ",
+      "translation_vi": "Nào vô địch, nào kỷ lục mới, hôm nay là một ngày toàn chuyện tốt."
+     },
+     {
+      "sentence_ja": "その寮は門限や当番など、規則＿＿で自由がない。",
+      "answer": "ずくめ",
+      "translation_vi": "Ký túc xá đó toàn quy định như giờ giới nghiêm, phiên trực…, chẳng có tự do."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "ごちそう（　　）の夕食に、家族みんなが笑顔になった。",
+      "options": [
+       "まみれ",
+       "ずくめ",
+       "めき",
+       "がらみ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ずくめ」: ごちそうずくめ = toàn món ngon. Nghĩa: Bữa tối toàn món ngon khiến cả nhà ai cũng tươi cười."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この仕事は、残業に休日出勤と、大変なことずくめだ。",
+      "options": [
+       "Công việc này toàn chuyện vất vả, nào làm thêm giờ, nào đi làm ngày nghỉ.",
+       "Công việc này thỉnh thoảng mới phải làm thêm giờ.",
+       "Công việc này không có làm thêm giờ nên rất nhẹ nhàng.",
+       "Công việc này chỉ vất vả vào ngày nghỉ."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ずくめ (toàn là, toàn những): \"Công việc này toàn chuyện vất vả, nào làm thêm giờ, nào đi làm ngày nghỉ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女は黒ずくめの服がよく似合う。",
+       "新婚旅行は、楽しいことずくめだった。",
+       "規則ずくめの毎日に、少し疲れてしまった。",
+       "転んで、ズボンが血ずくめになった。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「転んで、ズボンが血ずくめになった。」 sai: máu dính bê bết dùng まみれ, không dùng ずくめ. Câu đúng: 転んで、ズボンが血まみれになった。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

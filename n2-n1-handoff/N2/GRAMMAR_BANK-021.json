@@ -4,7 +4,193 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "飛行機は九時に着く（　　）が、台風で遅れている。",
+      "options": [
+       "はずだった",
+       "ことだった",
+       "わけだった",
+       "ものだった"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「はずだった」: theo lịch trình máy bay lẽ ra đến lúc chín giờ nhưng thực tế bị trễ. ことだった, わけだった, ものだった không diễn tả dự kiến không thành. Nghĩa: Máy bay lẽ ra đến lúc chín giờ nhưng đang bị trễ vì bão."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "本当なら今ごろは海で泳いでいる（　　）のに、雨で行けなかった。",
+      "options": [
+       "ようにした",
+       "ことにした",
+       "はずだった",
+       "ばかりだった"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「はずだった」: Vている + はずだった = lẽ ra giờ này đang…, nhưng thực tế khác. ようにした (cố gắng để), ことにした (quyết định), ばかりだった (chỉ toàn) không hợp với のに và 本当なら. Nghĩa: Lẽ ra giờ này tôi đang bơi ở biển, vậy mà vì mưa nên không đi được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "注文した本は＿＿ ＿＿ ★ ＿＿、まだ来ない。",
+      "options": [
+       "のに",
+       "はずだった",
+       "昨日",
+       "着く"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 注文した本は昨日着くはずだったのに、まだ来ない。 (Cuốn sách tôi đặt lẽ ra hôm qua đã đến, vậy mà vẫn chưa thấy.). Mảnh ở ô ★ là 「はずだった」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿急に中止になった。",
+      "options": [
+       "はずだった",
+       "が、",
+       "来週の旅行は",
+       "友だちと行く"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 来週の旅行は友だちと行くはずだったが、急に中止になった。 (Chuyến du lịch tuần sau lẽ ra đi cùng bạn, nhưng đột nhiên bị hủy.). Mảnh ở ô ★ là 「友だちと行く」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "会議は二時に終わるはずだったが、長引いて五時までかかった。",
+      "options": [
+       "Cuộc họp chắc chắn sẽ kết thúc lúc hai giờ.",
+       "Tôi định kết thúc cuộc họp lúc hai giờ nên đã về sớm.",
+       "Cuộc họp kết thúc lúc hai giờ đúng như dự định.",
+       "Cuộc họp lẽ ra kết thúc lúc hai giờ nhưng kéo dài đến tận năm giờ."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜はずだった (lẽ ra đã… nhưng thực tế khác): \"Cuộc họp lẽ ra kết thúc lúc hai giờ nhưng kéo dài đến tận năm giờ.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は来るはずだったのに、結局来なかった。",
+      "options": [
+       "Anh ấy chắc chắn sẽ đến nên tôi đã chờ.",
+       "Lẽ ra anh ấy phải đến, vậy mà rốt cuộc không đến.",
+       "Anh ấy đã định đến nhưng tôi bảo không cần.",
+       "Anh ấy đến muộn nhưng cuối cùng cũng đến."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜はずだった (dự kiến nhưng không xảy ra): \"Lẽ ra anh ấy phải đến, vậy mà rốt cuộc không đến.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "電車は十時に出るはずだったが、事故で遅れた。",
+       "このプロジェクトは先月終わるはずだった。",
+       "明日は晴れるはずだったので、傘を持っていきます。",
+       "合格するはずだったのに、名前がなかった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「明日は晴れるはずだったので、傘を持っていきます。」 sai: はずだった nói dự kiến trong quá khứ không thành hiện thực, vế sau thường là thực tế trái ngược (が, のに); không dùng để nêu lý do cho hành động sắp làm. Câu đúng: 明日は雨が降るはずなので、傘を持っていきます。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "試合は三時に始まりはずだったが、雨で中止になった。",
+       "新しい店は四月に開くはずだったが、工事が遅れている。",
+       "雨が降るはずだったのに、一日中晴れていた。",
+       "父は七時に帰るはずだったが、まだ帰っていない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「試合は三時に始まりはずだったが、雨で中止になった。」 sai: trước はずだった phải là thể từ điển (始まる), không dùng thể ます bỏ ます. Câu đúng: 試合は三時に始まるはずだったが、雨で中止になった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "はずだった",
+       "のに、",
+       "今日は休みの",
+       "会社に呼ばれた。"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1,
+       3
+      ],
+      "translation_vi": "Hôm nay lẽ ra là ngày nghỉ, vậy mà tôi bị gọi lên công ty."
+     },
+     {
+      "pieces": [
+       "はずだったが、",
+       "雪で",
+       "バスは",
+       "八時に来る",
+       "遅れている。"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1,
+       4
+      ],
+      "translation_vi": "Xe buýt lẽ ra đến lúc tám giờ nhưng đang bị trễ vì tuyết."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "母は昼に着く＿＿が、まだ連絡がない。",
+      "answer": "はずだった",
+      "accept": [
+       "予定だった"
+      ],
+      "translation_vi": "Mẹ lẽ ra đến nơi vào buổi trưa nhưng vẫn chưa thấy liên lạc."
+     },
+     {
+      "sentence_ja": "このパソコンは安い＿＿のに、思ったより高かった。",
+      "answer": "はずだった",
+      "translation_vi": "Chiếc máy tính này lẽ ra phải rẻ, vậy mà lại đắt hơn tôi nghĩ."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "先週の試験は簡単な（　　）のに、全然できなかった。",
+      "options": [
+       "ことにした",
+       "はずだった",
+       "ばかりだった",
+       "ようになった"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「はずだった」: Aな + な + はずだった = lẽ ra phải dễ, nhưng thực tế khác. ことにした (quyết định), ばかりだった (chỉ toàn), ようになった (trở nên) không đi với 簡単な và のに như vậy. Nghĩa: Bài thi tuần trước lẽ ra dễ, vậy mà tôi chẳng làm được gì."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "計画では、今ごろ工事は終わっているはずだった。",
+      "options": [
+       "Theo kế hoạch, lẽ ra giờ này công trình đã xong rồi.",
+       "Theo kế hoạch, giờ này công trình mới bắt đầu.",
+       "Công trình đã xong sớm hơn kế hoạch.",
+       "Tôi định hoàn thành công trình trước giờ này."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜はずだった (theo dự kiến lẽ ra đã…): \"Theo kế hoạch, lẽ ra giờ này công trình đã xong rồi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女は先に着いているはずだったが、まだ来ていなかった。",
+       "今日は給料日のはずだったのに、お金が入っていない。",
+       "その映画は面白いはずだったが、つまらなかった。",
+       "あした雨が降るはずだったから、傘を買おう。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「あした雨が降るはずだったから、傘を買おう。」 sai: はずだった nói dự kiến đã không thành, không dùng làm lý do cho việc định làm. Câu đúng: あした雨が降るはずだから、傘を買おう。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -27,7 +213,193 @@
    "id": "JG-8a3b0bdb94"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "今日は掃除をする（　　）が、疲れて寝てしまった。",
+      "options": [
+       "はずがない",
+       "ことになる",
+       "つもりだった",
+       "ばかりだ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「つもりだった」: ý định của chính mình trong quá khứ nhưng không thực hiện được. はずがない (không thể nào), ことになる (sẽ được quyết định), ばかりだ (chỉ toàn) không hợp với vế sau. Nghĩa: Hôm nay tôi đã định dọn dẹp nhưng mệt quá nên ngủ mất."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女には言わない（　　）のに、つい話してしまった。",
+      "options": [
+       "つもりだった",
+       "ことだった",
+       "わけだった",
+       "ものか"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「つもりだった」: Vない + つもりだった = đã định không…, vậy mà lại… ことだった, わけだった không diễn tả ý định; ものか (đời nào) không đi với のに. Nghĩa: Tôi đã định không nói với cô ấy, vậy mà lỡ miệng kể mất."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "週末は＿＿ ★ ＿＿ ＿＿、雨でやめた。",
+      "options": [
+       "が",
+       "つもりだった",
+       "家族と",
+       "山に登る"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 週末は家族と山に登るつもりだったが、雨でやめた。 (Cuối tuần tôi định leo núi cùng gia đình nhưng vì mưa nên thôi.). Mảnh ở ô ★ là 「山に登る」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "気づいたら朝になっていた",
+       "のに、",
+       "一時間だけ",
+       "寝るつもりだった"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 一時間だけ寝るつもりだったのに、気づいたら朝になっていた。 (Tôi định chỉ ngủ một tiếng, vậy mà khi tỉnh dậy thì đã sáng.). Mảnh ở ô ★ là 「のに、」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "昨日は早く帰るつもりだったが、急な仕事が入った。",
+      "options": [
+       "Hôm qua tôi về sớm nên đã kịp làm việc gấp.",
+       "Hôm qua lẽ ra trưởng phòng phải về sớm nhưng có việc gấp.",
+       "Hôm qua tôi đã định về sớm nhưng lại có việc gấp.",
+       "Hôm qua tôi không định về sớm nhưng bị bắt về."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜つもりだった (đã định… nhưng không thực hiện được): \"Hôm qua tôi đã định về sớm nhưng lại có việc gấp.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "電話するつもりだったのに、すっかり忘れていた。",
+      "options": [
+       "Tôi đã định gọi điện vậy mà quên béng mất.",
+       "Tôi đã gọi điện nhưng không ai nghe máy.",
+       "Tôi định quên chuyện đó nên đã không gọi điện.",
+       "Vì nhớ ra nên tôi đã gọi điện ngay."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜つもりだった (ý định không thành): \"Tôi đã định gọi điện vậy mà quên béng mất.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "学生のころは留学するつもりだった。",
+       "明日は雨が降るつもりだった。",
+       "今年こそやせるつもりだったが、また太ってしまった。",
+       "あなたに会いに行くつもりだったんですよ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「明日は雨が降るつもりだった。」 sai: つもり chỉ ý định của con người, không dùng cho thời tiết hay sự việc tự nhiên. Câu đúng: 明日は雨が降るはずだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼に謝るつもりだったが、言い出せなかった。",
+       "全部食べるつもりだったけど、多すぎて残した。",
+       "旅行に行くつもりでしたが、お金が足りませんでした。",
+       "その本を買いつもりだったが、売り切れていた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「その本を買いつもりだったが、売り切れていた。」 sai: trước つもりだった phải là thể từ điển (買う), không dùng thể ます bỏ ます. Câu đúng: その本を買うつもりだったが、売り切れていた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "つもりだったが、",
+       "買う",
+       "結局",
+       "何も買わなかった。",
+       "服を"
+      ],
+      "answer_order": [
+       4,
+       1,
+       0,
+       2,
+       3
+      ],
+      "translation_vi": "Tôi đã định mua quần áo nhưng rốt cuộc chẳng mua gì."
+     },
+     {
+      "pieces": [
+       "のに、",
+       "寝坊してしまった。",
+       "早起きするつもりだった",
+       "今日こそ"
+      ],
+      "answer_order": [
+       3,
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Hôm nay tôi đã định nhất định phải dậy sớm, vậy mà lại ngủ quên."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "夏休みに車の運転を習う＿＿が、時間がなかった。",
+      "answer": "つもりだった",
+      "accept": [
+       "予定だった"
+      ],
+      "translation_vi": "Tôi đã định học lái ô tô vào kỳ nghỉ hè nhưng không có thời gian."
+     },
+     {
+      "sentence_ja": "ちょっと休む＿＿のに、二時間も寝てしまった。",
+      "answer": "つもりだった",
+      "translation_vi": "Tôi định chỉ nghỉ một chút, vậy mà ngủ mất tận hai tiếng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "最後まであきらめない（　　）が、途中で走れなくなった。",
+      "options": [
+       "はずがなかった",
+       "ことになった",
+       "おそれがあった",
+       "つもりだった"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「つもりだった」: đã định không bỏ cuộc đến cùng nhưng giữa chừng không chạy được nữa. はずがなかった (không thể nào), ことになった (đã được quyết định), おそれがあった (có nguy cơ) không hợp nghĩa. Nghĩa: Tôi đã định không bỏ cuộc cho đến cuối, nhưng giữa chừng không chạy nổi nữa."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "本当は医者になるつもりだったが、今は教師をしている。",
+      "options": [
+       "Tôi đang làm giáo viên và định trở thành bác sĩ.",
+       "Thật ra tôi đã định trở thành bác sĩ nhưng giờ lại đang làm giáo viên.",
+       "Tôi là bác sĩ nhưng muốn làm giáo viên.",
+       "Bố mẹ tôi muốn tôi làm bác sĩ thay vì giáo viên."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜つもりだった (ý định trước đây nhưng kết quả khác): \"Thật ra tôi đã định trở thành bác sĩ nhưng giờ lại đang làm giáo viên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "空が晴れるつもりだったのに、くもってしまった。",
+       "手紙を書くつもりだったが、時間がなかった。",
+       "パーティーには行かないつもりだったけど、結局行った。",
+       "メールを送ったつもりだったが、送れていなかった。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「空が晴れるつもりだったのに、くもってしまった。」 sai: つもり là ý định của người, bầu trời không có ý định. Câu đúng: 空が晴れるはずだったのに、くもってしまった。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -50,7 +422,195 @@
    "id": "JG-6f1e2ebec5"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "一人で暮らしている母のことが心配（　　）、毎日電話をかけている。",
+      "options": [
+       "にならなくて",
+       "でならなくて",
+       "ばかりで",
+       "からで"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「でならなくて」: Aな + で + ならない = lo lắng không sao dứt được; thể て nối với vế sau. にならなくて (không trở nên lo) mâu thuẫn với việc gọi điện mỗi ngày; ばかりで, からで không ghép được với 心配 ở đây. Nghĩa: Tôi lo cho mẹ sống một mình đến mức không yên, nên ngày nào cũng gọi điện."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "卒業式の日、友だちとの別れがさびしく（　　）。",
+      "options": [
+       "てならなかった",
+       "てみせた",
+       "ておいた",
+       "てしまった"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「てならなかった」: Aくて + ならない diễn tả cảm xúc buồn trào lên không kìm được. てみせた, ておいた, てしまった đi sau động từ, không đi sau tính từ さびしく. Nghĩa: Ngày lễ tốt nghiệp, tôi buồn vô cùng vì phải chia tay bạn bè."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "試合に＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ならない",
+       "くやしくて",
+       "負けた",
+       "ことが"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 試合に負けたことがくやしくてならない。 (Tôi tức tối không sao nguôi vì đã thua trận đấu.). Mảnh ở ô ★ là 「くやしくて」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼の＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "なって",
+       "ならない",
+       "言葉が",
+       "気に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼の言葉が気になってならない。 (Tôi cứ bận tâm mãi về lời nói của anh ấy.). Mảnh ở ô ★ là 「気に」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ふるさとの家族のことが思い出されてならない。",
+      "options": [
+       "Tôi không được phép nhớ về gia đình ở quê.",
+       "Tôi không thể nhớ ra gia đình ở quê trông như thế nào.",
+       "Gia đình ở quê không nhớ đến tôi.",
+       "Tôi cứ nhớ mãi về gia đình ở quê, không sao dứt được."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜てならない (cảm xúc tự trào lên không kìm được): \"Tôi cứ nhớ mãi về gia đình ở quê, không sao dứt được.\" Không nhầm với 〜てはならない (không được phép)."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの時、本当のことを言わなかったのが残念でならない。",
+      "options": [
+       "Tôi vô cùng tiếc vì lúc đó đã không nói sự thật.",
+       "Lúc đó tôi không cần phải nói sự thật.",
+       "Tôi không thấy tiếc vì đã không nói sự thật.",
+       "Lúc đó tôi đã nói sự thật nên không có gì phải tiếc."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜でならない (cảm xúc mạnh không dứt được): \"Tôi vô cùng tiếc vì lúc đó đã không nói sự thật.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "将来のことが不安でならない。",
+       "母の病気が心配でならない。",
+       "毎日ご飯を食べてならない。",
+       "合格の知らせを聞いて、うれしくてならなかった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「毎日ご飯を食べてならない。」 sai: てならない chỉ đi với từ chỉ cảm xúc, cảm giác (心配, 気になる, うれしい…), không đi với động từ hành động có ý chí như 食べる. Câu đúng: おなかがすいてならない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女はその知らせを聞いて悲しくてならない。",
+       "この結果は残念に思われてならない。",
+       "あの映画の最後が気になってならない。",
+       "子どもの将来が楽しみでならない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼女はその知らせを聞いて悲しくてならない。」 sai: てならない chỉ nói cảm xúc của chính người nói; với người khác phải thêm ようだ, らしい. Câu đúng: 彼女はその知らせを聞いて悲しくてならないようだ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ならない。",
+       "彼の言い方が",
+       "失礼に",
+       "思えて"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Tôi cứ thấy cách nói của anh ấy thật là thất lễ."
+     },
+     {
+      "pieces": [
+       "ならなかった。",
+       "不安で",
+       "発表の前は"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Trước buổi thuyết trình, tôi bất an không sao yên được."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "十年前に亡くなった父のことが思い出されて＿＿。",
+      "answer": "ならない",
+      "accept": [
+       "しかたがない",
+       "たまらない"
+      ],
+      "translation_vi": "Tôi cứ nhớ mãi về người cha đã mất mười năm trước."
+     },
+     {
+      "sentence_ja": "明日の面接のことが気になって＿＿。",
+      "answer": "ならない",
+      "accept": [
+       "しかたがない",
+       "たまらない",
+       "しょうがない"
+      ],
+      "translation_vi": "Tôi cứ bồn chồn mãi về buổi phỏng vấn ngày mai."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "一人で海外へ行った娘が心配（　　）。",
+      "options": [
+       "にすぎない",
+       "にかぎる",
+       "でならない",
+       "ものか"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「でならない」: lo cho con gái đi nước ngoài một mình đến mức không yên. にすぎない (chỉ là), にかぎる (tốt nhất là), ものか (đời nào) không hợp nghĩa. Nghĩa: Tôi lo cho con gái đi nước ngoài một mình không sao yên được."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "最近、なぜか昔のことがなつかしく思われてならない。",
+      "options": [
+       "Dạo này tôi đã quên hết những chuyện ngày xưa.",
+       "Dạo này không hiểu sao tôi cứ thấy nhớ những chuyện ngày xưa.",
+       "Dạo này tôi không được nghĩ đến chuyện ngày xưa.",
+       "Chuyện ngày xưa không có gì đáng nhớ cả."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜てならない (cảm xúc tự nhiên trào lên): \"Dạo này không hiểu sao tôi cứ thấy nhớ những chuyện ngày xưa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "試験に落ちたのがくやしくてならない。",
+       "一人で留守番している犬のことが気になってならない。",
+       "彼の話を聞くと、腹が立ってならない。",
+       "週末は友だちと映画を見てならない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「週末は友だちと映画を見てならない。」 sai: てならない không đi với hành động có chủ ý như 見る; chỉ dùng cho cảm xúc, cảm giác tự nhiên. Câu đúng: 週末は友だちと映画を見るのが楽しみでならない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -73,7 +633,194 @@
    "id": "JG-e53aa76f2f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あの人は親切というかおせっかい（　　）、いつも人のことに口を出す。",
+      "options": [
+       "にしろ",
+       "とか",
+       "というか",
+       "やら"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「というか」: mẫu 〜というか〜というか dùng hai lần というか để đưa ra hai cách nói khi khó tìm từ chính xác. Ghép にしろ, とか, やら với というか ở vế trước là lệch cặp. Nghĩa: Người đó nên gọi là tốt bụng hay là thích xen vào chuyện người khác nhỉ, lúc nào cũng chen lời vào việc của người ta."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この部屋は静か（　　）さびしいというか、少し落ち着かない。",
+      "options": [
+       "にしては",
+       "からには",
+       "くせに",
+       "というか"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「というか」: 静かというかさびしいというか = nên nói là yên tĩnh hay là vắng vẻ nhỉ. にしては (so với), からには (một khi đã), くせに (vậy mà) không tạo cặp với というか phía sau. Nghĩa: Căn phòng này nói là yên tĩnh hay là vắng vẻ nhỉ, ở đây tôi thấy hơi không yên."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼女は明るい＿＿ ＿＿ ★ ＿＿人だ。",
+      "options": [
+       "目立つ",
+       "とにかく",
+       "元気すぎるというか、",
+       "というか"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼女は明るいというか元気すぎるというか、とにかく目立つ人だ。 (Cô ấy nên nói là vui vẻ hay là quá năng động nhỉ, nói chung là người rất nổi bật.). Mảnh ở ô ★ là 「とにかく」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この映画は＿＿ ★ ＿＿ ＿＿よく分からなかった。",
+      "options": [
+       "結局",
+       "というか、",
+       "難しい",
+       "というか複雑"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: この映画は難しいというか複雑というか、結局よく分からなかった。 (Bộ phim này nên nói là khó hay là rắc rối nhỉ, rốt cuộc tôi không hiểu lắm.). Mảnh ở ô ★ là 「というか複雑」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の話はおもしろいというか変わっているというか、聞いていて飽きない。",
+      "options": [
+       "Câu chuyện của anh ấy chẳng thú vị cũng chẳng lạ nên nghe rất chán.",
+       "Câu chuyện của anh ấy nên gọi là thú vị hay là kỳ lạ nhỉ, nghe mãi không thấy chán.",
+       "Vì câu chuyện của anh ấy lạ nên tôi không muốn nghe.",
+       "Anh ấy nói rằng câu chuyện đó vừa thú vị vừa kỳ lạ."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜というか〜というか (đưa ra hai cách nói cho một cảm nhận khó gọi tên): \"Câu chuyện của anh ấy nên gọi là thú vị hay là kỳ lạ nhỉ, nghe mãi không thấy chán.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "弟はのんびりしているというかマイペースというか、急ぐことがない。",
+      "options": [
+       "Em trai tôi lúc thì thong thả, lúc thì rất vội vàng.",
+       "Em trai tôi nói rằng nó muốn sống thong thả.",
+       "Em trai tôi nên nói là thong thả hay là sống theo nhịp riêng nhỉ, chẳng bao giờ vội vàng.",
+       "Vì em trai tôi luôn vội nên không thể sống thong thả."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜というか〜というか (không biết nên diễn đạt thế nào cho đúng): \"Em trai tôi nên nói là thong thả hay là sống theo nhịp riêng nhỉ, chẳng bao giờ vội vàng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あの店員は丁寧というかまじめというか、とても感じがいい。",
+       "この町は静かというか落ち着いているというか、住みやすい。",
+       "田中さんは優しいというか甘いというか、子どもを全然しからない。",
+       "週末は掃除をするというか洗濯をするというか、いろいろした。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「週末は掃除をするというか洗濯をするというか、いろいろした。」 sai: というか〜というか dùng để tìm cách nói cho một nhận xét, cảm nhận; liệt kê các hành động phải dùng 〜たり〜たり. Câu đúng: 週末は掃除をしたり洗濯をしたり、いろいろした。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "りんごというかみかんというか、果物を買ってきた。",
+       "この絵は不思議というか、なんというか、心に残る。",
+       "あの映画は怖いというか気持ち悪いというか、二度と見たくない。",
+       "あの人は正直というか単純というか、思ったことをすぐ口に出す。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「りんごというかみかんというか、果物を買ってきた。」 sai: mẫu này không dùng để liệt kê đồ vật cụ thể; liệt kê phải dùng や hoặc とか. Câu đúng: りんごやみかんなど、果物を買ってきた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "おとなしいというか、",
+       "やさしいというか",
+       "とても静かな人だ。",
+       "妹は"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Em gái tôi nên nói là hiền hay là trầm tính nhỉ, là người rất ít nói."
+     },
+     {
+      "pieces": [
+       "面倒というか、",
+       "この仕事は",
+       "あまりやりたくない。",
+       "大変というか"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Công việc này nên gọi là vất vả hay là phiền phức nhỉ, tôi không muốn làm lắm."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この服は地味＿＿落ち着いているというか、大人っぽい感じがする。",
+      "answer": "というか",
+      "accept": [
+       "と言うか"
+      ],
+      "translation_vi": "Bộ quần áo này nên nói là giản dị hay là trang nhã nhỉ, trông có vẻ người lớn."
+     },
+     {
+      "sentence_ja": "あの人は自由というかわがまま＿＿、いつも自分のやりたいことしかしない。",
+      "answer": "というか",
+      "accept": [
+       "と言うか"
+      ],
+      "translation_vi": "Người đó nên gọi là tự do hay là ích kỷ nhỉ, lúc nào cũng chỉ làm điều mình muốn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "その知らせを聞いて、おどろいた（　　）あきれたというか、言葉が出なかった。",
+      "options": [
+       "ばかりに",
+       "というか",
+       "からには",
+       "くせに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「というか」: hai lần というか đưa ra hai cách gọi cho cảm xúc khó diễn tả. ばかりに (chỉ vì), からには (một khi đã), くせに (vậy mà) không tạo cặp với というか phía sau. Nghĩa: Nghe tin đó, tôi không biết nên nói là ngạc nhiên hay là ngán ngẩm nữa, chẳng nói nên lời."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "このスープは薄いというかあっさりしているというか、少し物足りない。",
+      "options": [
+       "Món súp này nên nói là nhạt hay là thanh đạm nhỉ, ăn thấy hơi thiếu thiếu.",
+       "Món súp này vừa đậm vừa nhiều dầu mỡ.",
+       "Người ta nói rằng món súp này rất ngon.",
+       "Món súp này nhạt nên tôi đã cho thêm muối."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜というか〜というか (đưa ra hai cách nói cho cùng một cảm nhận): \"Món súp này nên nói là nhạt hay là thanh đạm nhỉ, ăn thấy hơi thiếu thiếu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の言い方は失礼というか常識がないというか、本当に困る。",
+       "東京というか大阪というか、日本の町に行った。",
+       "あの子は元気というかうるさいというか、ずっと話している。",
+       "この部屋は広いというかがらんとしているというか、落ち着かない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「東京というか大阪というか、日本の町に行った。」 sai: mẫu này không dùng để liệt kê nơi chốn cụ thể mà để tìm cách gọi cho một nhận xét. Câu đúng: 東京や大阪など、日本の町に行った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

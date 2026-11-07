@@ -4,7 +4,191 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "私はただの会社員（　　）ので、そんな大きなことは決められません。",
+      "options": [
+       "にすぎる",
+       "にすぎない",
+       "をすぎない",
+       "すぎない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「にすぎない」: N + にすぎない = chẳng qua chỉ là, hạ thấp mức độ, hợp với ただの. にすぎる, をすぎない, すぎない sai hình thức. Nghĩa: Tôi chẳng qua chỉ là nhân viên bình thường nên không thể quyết định việc lớn như vậy."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の言っていることは、うわさ（　　）。本当かどうか分からない。",
+      "options": [
+       "にとって",
+       "にかけては",
+       "にすぎない",
+       "をはじめ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にすぎない」: điều anh ấy nói chỉ là tin đồn. にとって, にかけては, をはじめ cần vế sau nên không kết câu được. Nghĩa: Điều anh ấy nói chẳng qua chỉ là tin đồn. Không biết có thật hay không."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "合格できたのは、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "すぎない",
+       "問題が",
+       "に",
+       "簡単だった"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 合格できたのは、問題が簡単だったにすぎない。 (Tôi đỗ được chẳng qua chỉ là vì đề dễ.). Mảnh ở ô ★ là 「に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "社長と言っても、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "五人の",
+       "すぎない",
+       "社員",
+       "小さな会社の社長に"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 社長と言っても、社員五人の小さな会社の社長にすぎない。 (Gọi là giám đốc nhưng chẳng qua chỉ là giám đốc một công ty nhỏ năm nhân viên.). Mảnh ở ô ★ là 「五人の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "これは私個人の意見にすぎません。",
+      "options": [
+       "Đây chính là ý kiến của tất cả mọi người.",
+       "Đây không chỉ là ý kiến cá nhân của tôi.",
+       "Đây chắc chắn là ý kiến đúng.",
+       "Đây chẳng qua chỉ là ý kiến cá nhân của tôi."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜にすぎない (chẳng qua chỉ là): \"Đây chẳng qua chỉ là ý kiến cá nhân của tôi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本語が話せると言っても、あいさつができるにすぎない。",
+      "options": [
+       "Nói là biết tiếng Nhật chứ thật ra chỉ chào hỏi được thôi.",
+       "Nói là biết tiếng Nhật nhưng ngay cả chào hỏi cũng không làm được.",
+       "Không chỉ chào hỏi mà còn nói chuyện tiếng Nhật được.",
+       "Biết tiếng Nhật thì chắc chắn chào hỏi được."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Vる + にすぎない (chỉ đến mức đó thôi): \"Nói là biết tiếng Nhật chứ thật ra chỉ chào hỏi được thôi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "それはただの言い訳にすぎない。",
+       "私は自分の仕事をしたにすぎません。",
+       "彼は世界一すばらしい選手にすぎない。",
+       "この町の人口は、わずか三千人にすぎない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼は世界一すばらしい選手にすぎない。」 sai: にすぎない hạ thấp mức độ nên không đi với đánh giá rất cao như 世界一すばらしい. Câu đúng: 彼は世界一すばらしい選手だ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "それはただのうわさだにすぎない。",
+       "彼が言ったことは、その場の思いつきにすぎない。",
+       "今回の失敗は、小さなミスにすぎない。",
+       "給料が上がったといっても、千円にすぎない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「それはただのうわさだにすぎない。」 sai: danh từ nối thẳng với にすぎない, không thêm だ. Câu đúng: それはただのうわさにすぎない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "すぎない。",
+       "一部に",
+       "これは",
+       "問題の"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Đây chẳng qua chỉ là một phần của vấn đề."
+     },
+     {
+      "pieces": [
+       "言われたことを",
+       "にすぎません。",
+       "私は",
+       "やった"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Tôi chẳng qua chỉ làm những gì được bảo."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼の謝罪は形だけのものに＿＿ない。",
+      "answer": "すぎ",
+      "accept": [
+       "過ぎ"
+      ],
+      "translation_vi": "Lời xin lỗi của anh ta chẳng qua chỉ là hình thức."
+     },
+     {
+      "sentence_ja": "私は部長の言葉を伝えた＿＿すぎない。",
+      "answer": "に",
+      "translation_vi": "Tôi chẳng qua chỉ truyền đạt lại lời của trưởng phòng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "それは子どものいたずら（　　）。心配しなくていい。",
+      "options": [
+       "にすぎる",
+       "をすぎない",
+       "にすぎない",
+       "にすぎた"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にすぎない」: N + にすぎない = chỉ là trò nghịch của trẻ con, không đáng lo. Các phương án khác sai hình thức. Nghĩa: Đó chẳng qua chỉ là trò nghịch của trẻ con. Không cần lo đâu."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の話は想像にすぎない。",
+      "options": [
+       "Câu chuyện của anh ấy vượt quá sức tưởng tượng.",
+       "Câu chuyện của anh ấy chẳng qua chỉ là tưởng tượng.",
+       "Câu chuyện của anh ấy chính là sự thật.",
+       "Câu chuyện của anh ấy không chỉ là tưởng tượng."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜にすぎない (chẳng qua chỉ là), không phải 'vượt quá': \"Câu chuyện của anh ấy chẳng qua chỉ là tưởng tượng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は名前を貸したにすぎない。",
+       "これはまだ計画の段階にすぎない。",
+       "あの人は店長の友だちにすぎない。",
+       "これは練習をすぎない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「これは練習をすぎない。」 sai: trợ từ phải là に: N + にすぎない. Câu đúng: これは練習にすぎない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -29,7 +213,191 @@
    "id": "JG-f346952c3f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この賞をいただけたのは、皆さんの協力のおかげ（　　）。",
+      "options": [
+       "にほかない",
+       "をほかならない",
+       "にほかならない",
+       "にほかなる"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「にほかならない」: N + にほかならない = chính là, không gì khác ngoài. Các phương án khác sai hình thức. Nghĩa: Tôi nhận được giải thưởng này chính là nhờ sự hợp tác của mọi người."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "毎朝早く起きて練習を続けたこと、それこそが優勝できた理由（　　）。",
+      "options": [
+       "にほかならない",
+       "をめぐって",
+       "にわたって",
+       "に際して"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「にほかならない」: khẳng định mạnh nguyên nhân, hay đi với それこそ. をめぐって, にわたって, に際して cần vế sau. Nghĩa: Việc dậy sớm luyện tập mỗi sáng, đó chính là lý do giành chức vô địch."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼がこの会社を辞めたのは、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "家族の",
+       "から",
+       "にほかならない",
+       "そばにいたい"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼がこの会社を辞めたのは、家族のそばにいたいからにほかならない。 (Anh ấy nghỉ việc ở công ty này chính là vì muốn ở bên gia đình.). Mảnh ở ô ★ là 「から」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この町がきれいになったのは、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "努力の",
+       "ほかならない",
+       "結果に",
+       "住民の"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: この町がきれいになったのは、住民の努力の結果にほかならない。 (Thị trấn này trở nên sạch đẹp chính là kết quả nỗ lực của người dân.). Mảnh ở ô ★ là 「努力の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "失敗は、上手になるための大切な一歩にほかならない。",
+      "options": [
+       "Thất bại chẳng qua chỉ là một bước nhỏ không quan trọng.",
+       "Thất bại chính là một bước quan trọng để tiến bộ.",
+       "Thất bại không phải là bước giúp tiến bộ.",
+       "Ngoài thất bại ra còn nhiều bước khác để tiến bộ."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜にほかならない (chính là), khác にすぎない (chẳng qua chỉ là): \"Thất bại chính là một bước quan trọng để tiến bộ.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼が毎日遅くまで残業するのは、早く仕事を覚えたいからにほかならない。",
+      "options": [
+       "Anh ấy ngày nào cũng làm thêm đến khuya chẳng phải vì muốn nhanh thạo việc.",
+       "Anh ấy làm thêm đến khuya vì nhiều lý do ngoài việc muốn thạo việc.",
+       "Anh ấy ngày nào cũng làm thêm đến khuya nên chắc chắn sẽ nhanh thạo việc.",
+       "Anh ấy ngày nào cũng làm thêm đến khuya chính là vì muốn nhanh chóng thạo việc."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜からにほかならない (chính là vì): \"Anh ấy ngày nào cũng làm thêm đến khuya chính là vì muốn nhanh chóng thạo việc.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この結果は、チーム全員の努力にほかならない。",
+       "今日の天気は晴れにほかならない。",
+       "彼女が怒ったのは、あなたを心配していたからにほかならない。",
+       "教育とは、人を育てることにほかならない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「今日の天気は晴れにほかならない。」 sai: にほかならない dùng để khẳng định nguyên nhân, bản chất, không dùng cho sự việc đơn giản như thời tiết. Câu đúng: 今日の天気は晴れだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "私が日本に来たのは、日本語を勉強したいからだにほかならない。",
+       "この病気の原因は、ストレスにほかならない。",
+       "彼が成績を上げられたのは、努力を続けたからにほかならない。",
+       "読書は、自分の世界を広げることにほかならない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「私が日本に来たのは、日本語を勉強したいからだにほかならない。」 sai: から nối thẳng với にほかならない, không chen だ. Câu đúng: 日本語を勉強したいからにほかならない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ほかならない。",
+       "この優勝は",
+       "チーム全員の",
+       "努力の成果に"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Chức vô địch này chính là thành quả nỗ lực của cả đội."
+     },
+     {
+      "pieces": [
+       "からに",
+       "彼が厳しく注意したのは",
+       "ほかならない。",
+       "あなたのためを思った"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Anh ấy nhắc nhở nghiêm khắc chính là vì nghĩ cho bạn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この売り上げは、社員一人一人の努力の結果に＿＿ならない。",
+      "answer": "ほか",
+      "accept": [
+       "他"
+      ],
+      "translation_vi": "Doanh thu này chính là kết quả nỗ lực của từng nhân viên."
+     },
+     {
+      "sentence_ja": "先生が何度も注意するのは、君に期待している＿＿にほかならない。",
+      "answer": "から",
+      "translation_vi": "Thầy nhắc nhở nhiều lần chính là vì thầy kỳ vọng ở em."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "言葉を学ぶことは、その国の文化を学ぶこと（　　）。",
+      "options": [
+       "にほかない",
+       "にほかならず",
+       "をほかならない",
+       "にほかならない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「にほかならない」: khẳng định bản chất của việc học ngôn ngữ. にほかならず là dạng nối giữa câu, hai phương án còn lại sai hình thức. Nghĩa: Học một ngôn ngữ chính là học văn hóa của nước đó."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "今回の事故は、安全確認をしなかった結果にほかならない。",
+      "options": [
+       "Vụ tai nạn lần này chẳng qua chỉ là chuyện nhỏ do không kiểm tra an toàn.",
+       "Vụ tai nạn lần này không liên quan gì đến việc kiểm tra an toàn.",
+       "Vụ tai nạn lần này chính là kết quả của việc không kiểm tra an toàn.",
+       "Vụ tai nạn lần này có lẽ là do không kiểm tra an toàn."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜にほかならない (chính là, khẳng định mạnh): \"Vụ tai nạn lần này chính là kết quả của việc không kiểm tra an toàn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "優勝できたのは、毎日の練習のおかげにほかならない。",
+       "この勝利は全員の力をほかならない。",
+       "健康こそ、一番の財産にほかならない。",
+       "笑顔は、相手への思いやりにほかならない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この勝利は全員の力をほかならない。」 sai: trợ từ phải là に: N + にほかならない. Câu đúng: この勝利は全員の力にほかならない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -59,7 +427,191 @@
    "id": "JG-48986bc5b2"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "引っ越しの費用は、安い（　　）。",
+      "options": [
+       "に越すことはない",
+       "を越したことはない",
+       "に越したことがある",
+       "に越したことはない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に越したことはない」: Aい + に越したことはない = đương nhiên… thì tốt hơn. Các phương án khác sai hình thức của mẫu cố định. Nghĩa: Chi phí chuyển nhà thì đương nhiên càng rẻ càng tốt."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "試験の前は、よく寝ておく（　　）。",
+      "options": [
+       "ばかりだ",
+       "に越したことはない",
+       "ついでだ",
+       "だらけだ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に越したことはない」: lời khuyên chung 'tốt nhất là'. ばかりだ, ついでだ, だらけだ không hợp nghĩa và cách nối. Nghĩa: Trước kỳ thi thì tốt nhất là nên ngủ đủ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "お金は＿＿ ＿＿ ★ ＿＿が、なくても幸せになれる。",
+      "options": [
+       "ことはない",
+       "越した",
+       "ある",
+       "に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: お金はあるに越したことはないが、なくても幸せになれる。 (Tiền thì có vẫn tốt hơn, nhưng không có cũng có thể hạnh phúc.). Mảnh ở ô ★ là 「越した」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "地震に備えて、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "に越した",
+       "ことはない",
+       "水や食料を",
+       "準備しておく"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 地震に備えて、水や食料を準備しておくに越したことはない。 (Để phòng động đất thì tốt nhất là chuẩn bị sẵn nước và thức ăn.). Mảnh ở ô ★ là 「準備しておく」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "健康のためには、毎日運動するに越したことはない。",
+      "options": [
+       "Vì sức khỏe thì không cần thiết phải vận động mỗi ngày.",
+       "Vì sức khỏe thì tốt nhất là vận động mỗi ngày.",
+       "Vì sức khỏe, nhất định phải vận động mỗi ngày, không có ngoại lệ.",
+       "Vận động mỗi ngày quá mức thì không tốt cho sức khỏe."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に越したことはない (tốt nhất là, không bắt buộc): \"Vì sức khỏe thì tốt nhất là vận động mỗi ngày.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "荷物は少ないに越したことはないが、必要なものは忘れないように。",
+      "options": [
+       "Hành lý không được ít, phải mang thật nhiều.",
+       "Hành lý ít thì không sao, đồ cần thiết có thể quên.",
+       "Hành lý nhiều quá thì đừng mang.",
+       "Hành lý thì càng ít càng tốt, nhưng đừng quên đồ cần thiết."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に越したことはないが (… thì tốt hơn, nhưng): \"Hành lý thì càng ít càng tốt, nhưng đừng quên đồ cần thiết.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "車の運転は、注意深くするに越したことはない。",
+       "旅行の前に、ホテルを予約しておくに越したことはない。",
+       "昨日は雨が降ったに越したことはない。",
+       "給料は高いに越したことはないが、仕事の内容も大切だ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「昨日は雨が降ったに越したことはない。」 sai: に越したことはない là lời khuyên chung 'thì tốt hơn', không dùng cho sự việc đã xảy ra. Câu đúng: 昨日は雨が降った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "準備は早いに越したことはない。",
+       "安全なに越したことはない。",
+       "けんかはしないに越したことはない。",
+       "外国語は、話せるに越したことはない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「安全なに越したことはない。」 sai: Aな không giữ な trước に越したことはない; dùng 安全に越したことはない hoặc 安全であるに越したことはない."
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "越したことはない。",
+       "店の場所を",
+       "調べておくに",
+       "行く前に、"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Trước khi đi thì tốt nhất là tra trước vị trí cửa hàng."
+     },
+     {
+      "pieces": [
+       "使える",
+       "ありません。",
+       "パソコンが",
+       "に越したことは"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Biết dùng máy tính thì đương nhiên là tốt hơn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "夜道は危ないので、一人で歩かない＿＿越したことはない。",
+      "answer": "に",
+      "translation_vi": "Đường đêm nguy hiểm nên tốt nhất là đừng đi một mình."
+     },
+     {
+      "sentence_ja": "面接では、早めに会場に着くに＿＿ことはない。",
+      "answer": "越した",
+      "accept": [
+       "こした"
+      ],
+      "translation_vi": "Khi đi phỏng vấn thì tốt nhất là đến địa điểm sớm."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "家は駅から近い（　　）が、その分家賃が高い。",
+      "options": [
+       "に越したことはある",
+       "に越したことはない",
+       "を越したことはない",
+       "に越すことはない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に越したことはない」: nhà gần ga thì tốt hơn, nhưng bù lại tiền thuê đắt. Các phương án khác sai hình thức. Nghĩa: Nhà gần ga thì tốt hơn, nhưng bù lại tiền thuê nhà cao."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "念のため、傘を持っていくに越したことはないよ。",
+      "options": [
+       "Không cần mang ô theo đâu.",
+       "Mang ô theo nhiều quá thì phiền.",
+       "Để chắc chắn thì mang theo ô vẫn là tốt nhất.",
+       "Bắt buộc phải mang ô theo."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜に越したことはない (tốt nhất là): \"Để chắc chắn thì mang theo ô vẫn là tốt nhất.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "出かけるときは、窓を閉めておくに越したことはない。",
+       "情報は多いに越したことはない。",
+       "私は昨日、早く寝たに越したことはない。",
+       "子どもの教育費は、早めにためておくに越したことはない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「私は昨日、早く寝たに越したことはない。」 sai: không dùng mẫu này cho hành động đã làm trong quá khứ. Câu đúng: 私は昨日、早く寝た。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

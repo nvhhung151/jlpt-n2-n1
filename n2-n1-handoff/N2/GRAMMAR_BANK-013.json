@@ -4,7 +4,191 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "有名な店の料理が、必ずしもおいしい（　　）。",
+      "options": [
+       "に違いない",
+       "はずだ",
+       "とは限らない",
+       "に決まっている"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「とは限らない」: 必ずしも đi với cách phủ định một phần như とは限らない (chưa chắc đã). に違いない, はずだ, に決まっている đều là khẳng định chắc chắn nên không đi với 必ずしも. Nghĩa: Món ăn của quán nổi tiếng chưa chắc đã ngon."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "天気予報がいつも当たる（　　）限らない。",
+      "options": [
+       "には",
+       "では",
+       "ので",
+       "とは"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「とは」: mẫu cố định là thể thường + とは限らない. には, では, ので không đi với 限らない theo nghĩa này. Nghĩa: Dự báo thời tiết chưa chắc lúc nào cũng đúng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "寿司を好きだ",
+       "みんな",
+       "とは限らない",
+       "日本人が"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 日本人がみんな寿司を好きだとは限らない。 (Chưa chắc người Nhật ai cũng thích sushi.). Mảnh ở ô ★ là 「寿司を好きだ」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "値段が高いからといって、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "限らない",
+       "とは",
+       "いい",
+       "品質が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 値段が高いからといって、品質がいいとは限らない。 (Giá đắt chưa chắc chất lượng đã tốt.). Mảnh ở ô ★ là 「いい」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "練習をたくさんしても、試合に勝てるとは限らない。",
+      "options": [
+       "Luyện tập nhiều thì nhất định sẽ thắng.",
+       "Dù luyện tập nhiều cũng chưa chắc thắng được trận đấu.",
+       "Dù luyện tập nhiều cũng nhất định không thể thắng.",
+       "Không luyện tập nhiều thì không thể thắng."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu とは限らない (chưa chắc đã, không phải lúc nào cũng): \"Dù luyện tập nhiều cũng chưa chắc thắng được trận đấu.\" Không phải phủ định hoàn toàn."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "安い物がすべて悪いとは限らない。",
+      "options": [
+       "Đồ rẻ thì tất cả đều xấu.",
+       "Đồ rẻ thì không cái nào xấu cả.",
+       "Đồ rẻ thì không thể nào xấu được.",
+       "Không phải đồ rẻ nào cũng xấu."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu すべて〜とは限らない (không phải tất cả đều…): \"Không phải đồ rẻ nào cũng xấu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ネットの情報が正しいだとは限らない。",
+       "大きい病院がいい病院だとは限らない。",
+       "頭がいい人が、勉強が好きだとは限らない。",
+       "外国に住めば、外国語が上手になるとは限らない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「ネットの情報が正しいだとは限らない。」 sai: tính từ い không thêm だ trước とは限らない. Câu đúng: ネットの情報が正しいとは限らない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "便利な物が、使いやすいとは限らない。",
+       "年上の人が、いつも経験豊富だとは限らない。",
+       "新しい方法がうまくいくとは限れない。",
+       "雨が降るとは限らないが、傘を持っていこう。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「新しい方法がうまくいくとは限れない。」 sai: dạng đúng là 限らない (限る → 限らない), không phải 限れない. Câu đúng: 新しい方法がうまくいくとは限らない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "作文が",
+       "得意だとは",
+       "限らない。",
+       "読書が好きな人が、"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Người thích đọc sách chưa chắc đã giỏi viết văn."
+     },
+     {
+      "pieces": [
+       "よく効く",
+       "限らない。",
+       "高い薬が",
+       "とは"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Thuốc đắt chưa chắc đã hiệu nghiệm."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "人気がある映画が、面白い＿＿限らない。",
+      "answer": "とは",
+      "translation_vi": "Phim được yêu thích chưa chắc đã hay."
+     },
+     {
+      "sentence_ja": "朝早く出ても、間に合う＿＿。",
+      "answer": "とは限らない",
+      "accept": [
+       "とは限りません"
+      ],
+      "translation_vi": "Dù đi sớm cũng chưa chắc kịp giờ."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "お金があるからといって、幸せになれる（　　）。",
+      "options": [
+       "ものだ",
+       "とは限らない",
+       "ことか",
+       "ことになっている"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「とは限らない」: からといって thường đi với cách phủ định một phần ở cuối câu. ものだ (lẽ thường), ことか (cần từ nghi vấn), ことになっている (quy định) không hợp. Nghĩa: Có tiền chưa chắc đã hạnh phúc."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "説明書どおりにやっても、うまくいくとは限らない。",
+      "options": [
+       "Dù làm đúng theo sách hướng dẫn cũng chưa chắc đã suôn sẻ.",
+       "Làm theo sách hướng dẫn thì chắc chắn suôn sẻ.",
+       "Không làm theo sách hướng dẫn thì không suôn sẻ.",
+       "Làm theo sách hướng dẫn thì chắc chắn sẽ thất bại."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu とは限らない (chưa chắc đã): \"Dù làm đúng theo sách hướng dẫn cũng chưa chắc đã suôn sẻ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "有名な人が、いい人だとは限らない。",
+       "予約しても、いい席に座れるとは限らない。",
+       "日本の夏がいつも暑いとは限らない。",
+       "努力すれば、必ず成功しますとは限らない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「努力すれば、必ず成功しますとは限らない。」 sai: trước とは限らない dùng thể thường, không dùng thể ます. Câu đúng: 努力すれば、必ず成功するとは限らない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -27,7 +211,191 @@
    "id": "JG-d6391adf9c"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "人生には、楽しいこと（　　）、つらいこともある。",
+      "options": [
+       "ばかりで",
+       "もあれば",
+       "しかなく",
+       "さえあれば"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「もあれば」: N + もあれば + N + もある nêu hai mặt cùng tồn tại. ばかりで, しかなく mâu thuẫn với つらいこともある; さえあれば (chỉ cần có) không hợp nghĩa. Nghĩa: Trong cuộc đời có chuyện vui, cũng có chuyện buồn."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "クラスには、まじめな学生も（　　）、そうでない学生もいる。",
+      "options": [
+       "いるので",
+       "いたら",
+       "いれば",
+       "いるから"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「いれば」: với người dùng N もいれば N もいる. いるので, いるから (vì) và いたら (nếu) không tạo quan hệ liệt kê hai mặt. Nghĩa: Trong lớp có học sinh chăm chỉ, cũng có học sinh không như vậy."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "週末は、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "一日中出かける日もある",
+       "あれば",
+       "家で",
+       "寝ている日も"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 週末は、家で寝ている日もあれば一日中出かける日もある。 (Cuối tuần có hôm tôi ngủ ở nhà, cũng có hôm ra ngoài cả ngày.). Mảnh ở ô ★ là 「あれば」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "お酒が＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "いれば",
+       "いる",
+       "強い人も",
+       "弱い人も"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: お酒が強い人もいれば弱い人もいる。 (Có người uống rượu giỏi, cũng có người uống kém.). Mảnh ở ô ★ là 「いれば」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この店は、安い日もあれば高い日もある。",
+      "options": [
+       "Cửa hàng này ngày nào cũng rẻ.",
+       "Cửa hàng này chỉ có hôm đắt thôi.",
+       "Nếu có hôm rẻ thì cửa hàng này mới có khách.",
+       "Cửa hàng này có hôm rẻ, cũng có hôm đắt."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N もあれば N もある (có A, cũng có B): \"Cửa hàng này có hôm rẻ, cũng có hôm đắt.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもを育てていると、うれしいこともあれば悩むこともある。",
+      "options": [
+       "Nuôi con thì có chuyện vui, cũng có chuyện phải trăn trở.",
+       "Nuôi con thì nếu có chuyện vui sẽ không còn lo nghĩ.",
+       "Nuôi con chỉ toàn chuyện vui.",
+       "Nuôi con thì chuyện vui cũng chính là chuyện lo."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜こともあれば〜こともある (có lúc… cũng có lúc…): \"Nuôi con thì có chuyện vui, cũng có chuyện phải trăn trở.\" Ở đây あれば không mang nghĩa điều kiện 'nếu'."
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "日本の冬は、雪が多い年もあれば少ない年もある。",
+       "海外旅行には、楽しいこともあるば大変なこともある。",
+       "会議では、賛成する人もいれば反対する人もいる。",
+       "料理は、うまくいく日もあれば失敗する日もある。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「海外旅行には、楽しいこともあるば大変なこともある。」 sai: thể ば của ある là あれば, không phải あるば. Câu đúng: 海外旅行には、楽しいこともあれば大変なこともある。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "本には、すぐに読める本もあれば、何年もかかる本もある。",
+       "人の意見は、正しいこともあれば間違っていることもある。",
+       "田中さんは、背が高い人もいれば優しい人もいる。",
+       "店のお客さんには、若い人もいればお年寄りもいる。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「田中さんは、背が高い人もいれば優しい人もいる。」 sai: もいれば〜もいる nêu các thành phần khác nhau trong một nhóm, không dùng để tả hai đặc điểm của cùng một người. Câu đúng: 田中さんは背が高いし、優しい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "寂しいこともある。",
+       "自由なことも",
+       "一人の生活は、",
+       "あれば"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Sống một mình có lúc tự do, cũng có lúc cô đơn."
+     },
+     {
+      "pieces": [
+       "車で来る人もいる。",
+       "いれば",
+       "電車で来る人も",
+       "社員の中には、"
+      ],
+      "answer_order": [
+       3,
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Trong số nhân viên, có người đi tàu điện, cũng có người đi ô tô đến."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "テストの点は、いい時も＿＿悪い時もある。",
+      "answer": "あれば",
+      "translation_vi": "Điểm kiểm tra có lúc tốt, cũng có lúc kém."
+     },
+     {
+      "sentence_ja": "このレストランには、日本人の客もいれば外国人の客も＿＿。",
+      "answer": "いる",
+      "accept": [
+       "います"
+      ],
+      "translation_vi": "Nhà hàng này có khách người Nhật, cũng có khách nước ngoài."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "仕事は、うまくいく日（　　）うまくいかない日もある。",
+      "options": [
+       "さえあれば",
+       "だけあれば",
+       "こそあれば",
+       "もあれば"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「もあれば」: cặp も〜あれば…も〜ある nêu hai trường hợp cùng tồn tại. さえあれば, だけあれば, こそあれば không tạo cặp với 〜日もある. Nghĩa: Công việc có hôm suôn sẻ, cũng có hôm không."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "同じ兄弟でも、性格が似ている場合もあれば、全然違う場合もある。",
+      "options": [
+       "Anh em thì tính cách lúc nào cũng giống nhau.",
+       "Dù là anh em, có trường hợp tính cách giống nhau, cũng có trường hợp hoàn toàn khác.",
+       "Anh em thì tính cách luôn hoàn toàn khác nhau.",
+       "Nếu là anh em thì tính cách phải giống nhau."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N もあれば N もある (có trường hợp này, cũng có trường hợp kia): \"Dù là anh em, có trường hợp tính cách giống nhau, cũng có trường hợp hoàn toàn khác.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この道は、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "混む時間もある",
+       "時間も",
+       "あれば",
+       "空いている"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: この道は、空いている時間もあれば混む時間もある。 (Con đường này có lúc vắng, cũng có lúc đông.). Mảnh ở ô ★ là 「時間も」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -54,7 +422,198 @@
    "id": "JG-b2d86ae21b"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "このアパートは駅から近い。（　　）、家賃も安い。",
+      "options": [
+       "ところが",
+       "それなら",
+       "しかも",
+       "ただし"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「しかも」: thêm một điểm tốt cùng chiều (gần ga, lại rẻ). ところが (trái ngược), それなら (nếu vậy), ただし (tuy nhiên, điều kiện kèm theo) không hợp. Nghĩa: Căn hộ này gần ga. Hơn nữa tiền thuê cũng rẻ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女は英語が話せる。（　　）、中国語も話せる。",
+      "options": [
+       "だから",
+       "しかも",
+       "つまり",
+       "それでも"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「しかも」: bổ sung thông tin cùng chiều, nâng mức độ đánh giá. だから (nguyên nhân), つまり (tóm lại), それでも (dù vậy) không hợp. Nghĩa: Cô ấy nói được tiếng Anh. Lại còn nói được cả tiếng Trung."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この店のケーキはおいしい。＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "安い",
+       "一つ",
+       "しかも",
+       "二百円と"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: この店のケーキはおいしい。しかも一つ二百円と安い。 (Bánh ngọt ở quán này ngon. Hơn nữa lại rẻ, chỉ hai trăm yên một cái.). Mảnh ở ô ★ là 「二百円と」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は今日も遅刻した。＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "忘れた",
+       "持ってくるのを",
+       "宿題も",
+       "しかも"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼は今日も遅刻した。しかも宿題も持ってくるのを忘れた。 (Hôm nay cậu ấy lại đi muộn. Đã thế còn quên mang cả bài tập.). Mảnh ở ô ★ là 「宿題も」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "このホテルは部屋が広く、しかも朝食が無料だ。",
+      "options": [
+       "Khách sạn này phòng rộng, hơn nữa bữa sáng lại miễn phí.",
+       "Khách sạn này phòng rộng nhưng bữa sáng phải trả tiền.",
+       "Khách sạn này phòng rộng nên bữa sáng miễn phí.",
+       "Khách sạn này phòng rộng, nếu ăn sáng thì phải trả tiền."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng しかも (hơn nữa, lại còn): \"Khách sạn này phòng rộng, hơn nữa bữa sáng lại miễn phí.\" しかも không chỉ nguyên nhân."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は試験に落ちた。しかも、二回目だ。",
+      "options": [
+       "Anh ấy trượt kỳ thi, vì vậy phải thi lần hai.",
+       "Anh ấy trượt kỳ thi, nhưng lần thứ hai đã đỗ.",
+       "Anh ấy trượt kỳ thi lần hai nên lần này sẽ cố gắng.",
+       "Anh ấy trượt kỳ thi. Lại còn là lần thứ hai nữa."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng しかも (đã thế lại còn, làm mức độ nặng thêm): \"Anh ấy trượt kỳ thi. Lại còn là lần thứ hai nữa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は頭がいい。しかも、スポーツも得意だ。",
+       "このかばんはデザインがいい。しかも、すぐに壊れてしまう。",
+       "今日は寒い。しかも、雨まで降ってきた。",
+       "この本は分かりやすく、しかも面白い。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「このかばんはデザインがいい。しかも、すぐに壊れてしまう。」 sai: しかも nối thông tin cùng chiều; ở đây vế sau trái chiều (một tốt, một xấu) nên phải dùng でも hoặc ところが. Câu đúng: このかばんはデザインがいい。でも、すぐに壊れてしまう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この道は狭い。しかも、車が多くて危ない。",
+       "新しい先生は優しく、しかも教え方が上手だ。",
+       "彼女は一人でこの店を始めた。しかも、まだ二十歳だった。",
+       "田中さんは何度も練習した。しかも、試合に負けてしまった。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「田中さんは何度も練習した。しかも、試合に負けてしまった。」 sai: vế sau trái với kỳ vọng của vế trước nên phải dùng それなのに hoặc でも, không dùng しかも. Câu đúng: 田中さんは何度も練習した。それなのに、試合に負けてしまった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "話が",
+       "この映画は長い。",
+       "つまらない。",
+       "しかも、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Bộ phim này dài. Đã thế nội dung lại còn nhạt nhẽo."
+     },
+     {
+      "pieces": [
+       "掃除も",
+       "得意だ。",
+       "彼は料理が上手で、",
+       "しかも"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Anh ấy nấu ăn giỏi, hơn nữa còn giỏi cả dọn dẹp."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この辞書は持ち運びやすい。＿＿、説明も詳しい。",
+      "answer": "しかも",
+      "accept": [
+       "それに",
+       "その上",
+       "そのうえ"
+      ],
+      "translation_vi": "Cuốn từ điển này dễ mang theo. Hơn nữa phần giải thích cũng chi tiết."
+     },
+     {
+      "sentence_ja": "今日は寝坊した。＿＿、財布も家に忘れてきた。",
+      "answer": "しかも",
+      "accept": [
+       "それに",
+       "その上",
+       "そのうえ"
+      ],
+      "translation_vi": "Hôm nay tôi ngủ quên. Đã thế còn để quên cả ví ở nhà."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "新しい駅は広くてきれいだ。（　　）、エレベーターもたくさんある。",
+      "options": [
+       "ところで",
+       "すると",
+       "それとも",
+       "しかも"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「しかも」: thêm một điểm tốt nữa cùng chiều. ところで (chuyển đề tài), すると (thế là), それとも (hay là) không hợp. Nghĩa: Nhà ga mới rộng và sạch đẹp. Hơn nữa còn có nhiều thang máy."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "その店は夜遅くまで開いていて、しかも年中無休だ。",
+      "options": [
+       "Cửa hàng đó mở đến khuya nhưng thường xuyên đóng cửa nghỉ.",
+       "Cửa hàng đó mở đến khuya nên quanh năm không nghỉ.",
+       "Cửa hàng đó mở đến khuya, hơn nữa còn mở quanh năm không nghỉ ngày nào.",
+       "Cửa hàng đó chỉ mở đến tối và nghỉ vào cuối tuần."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng しかも (hơn nữa, lại còn): \"Cửa hàng đó mở đến khuya, hơn nữa còn mở quanh năm không nghỉ ngày nào.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このアプリは無料だ。＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ほど簡単だ",
+       "使える",
+       "子どもでも",
+       "しかも"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: このアプリは無料だ。しかも子どもでも使えるほど簡単だ。 (Ứng dụng này miễn phí. Hơn nữa còn dễ đến mức trẻ con cũng dùng được.). Mảnh ở ô ★ là 「使える」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

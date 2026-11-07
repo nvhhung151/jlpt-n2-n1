@@ -40,7 +40,7 @@
   {"pieces": ["結婚した。", "数々の困難を", "経て"], "answer_order": [1, 2, 0], "translation_vi": "Họ đã kết hôn sau khi vượt qua bao khó khăn."}
  ],
  "fill_items": [
-  {"sentence_ja": "予選＿＿、決勝に進んだのは八チームだった。", "answer": "を経て", "accept": [], "translation_vi": "Trải qua vòng loại, có tám đội vào được chung kết."},
+  {"sentence_ja": "予選＿＿、決勝に進んだのは八チームだった。", "answer": "を経て","translation_vi": "Trải qua vòng loại, có tám đội vào được chung kết."},
   {"sentence_ja": "半年間の研修を＿＿、正式に配属が決まった。", "answer": "経て", "accept": ["終えて"], "translation_vi": "Sau sáu tháng đào tạo, việc phân công chính thức đã được quyết định."}
  ],
  "extra_practice": [
@@ -72,6 +72,81 @@
   {"type": "FILL", "prompt_ja": "この曲を聞く（　　）、学生時代を思い出す。", "options": ["につけ", "とて", "をおいて", "に照らして"], "answer_index": 0, "explanation_vi": "Điền 「につけ」: mỗi khi nghe bài hát này thì ký ức thời sinh viên lại hiện về. Nghĩa: Mỗi lần nghe bài hát này, tôi lại nhớ thời sinh viên."},
   {"type": "MEANING", "prompt_ja": "彼の苦労話を聞くにつけ、自分の甘さを思い知らされる。", "options": ["Nghe chuyện vất vả của anh ấy, tôi thấy mình giỏi hơn.", "Tôi kể chuyện vất vả của mình cho anh ấy nghe.", "Tôi không muốn nghe chuyện vất vả của anh ấy nữa.", "Mỗi lần nghe chuyện vất vả của anh ấy, tôi lại thấm thía sự non nớt của bản thân."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vる + につけ (mỗi khi... lại): 'Mỗi lần nghe chuyện vất vả của anh ấy, tôi lại thấm thía sự non nớt của bản thân.'"},
   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["この曲を聞くにつけ、学生時代を思い出す。", "雨の日につけ、傘を持って出かけてください。", "彼女の成長した姿を見るにつけ、時の流れの速さを感じる。", "子育てに悩むにつけ、両親の苦労が身にしみる。"], "answer_index": 1, "explanation_vi": "「雨の日につけ、傘を持って出かけてください。」 sai: につけ nói cảm xúc, suy nghĩ tự nhiên dâng lên, không đi với vế sau là lời nhờ, yêu cầu. Câu đúng: 雨の日は、傘を持って出かけてください。"}
+ ]
+},
+"JG-226fa5b12e": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "小さな誤解が重なり、ついに二人は離婚する（　　）。", "options": ["を経た", "に至った", "とて", "をはじめた"], "answer_index": 1, "explanation_vi": "Điền 「に至った」: Vる + に至る, sau một quá trình (hiểu lầm chồng chất) thì cuối cùng đi đến kết quả nghiêm trọng. Nghĩa: Hiểu lầm nhỏ chồng chất, cuối cùng hai người đã đi đến ly hôn."},
+  {"type": "FILL", "prompt_ja": "長年の研究の結果、新薬の開発（　　）。", "options": ["に値した", "を禁じ得なかった", "をおいてない", "に至った"], "answer_index": 3, "explanation_vi": "Điền 「に至った」: kết quả cuối cùng của nhiều năm nghiên cứu là phát triển được thuốc mới. を禁じ得ない chỉ đi với cảm xúc. Nghĩa: Kết quả của nhiều năm nghiên cứu là đã đi đến việc phát triển được loại thuốc mới."},
+  {"type": "ORDER_STAR", "prompt_ja": "半年間の調査の結果、＿＿ ＿＿ ★ ＿＿。", "options": ["原因を", "に至った", "特定する", "事故の"], "answer_index": 2, "explanation_vi": "Câu đúng: 半年間の調査の結果、事故の原因を特定するに至った。 (Sau nửa năm điều tra, cuối cùng đã xác định được nguyên nhân vụ tai nạn.). Mảnh ở ô ★ là 「特定する」."},
+  {"type": "ORDER_STAR", "prompt_ja": "会社の経営悪化は、＿＿ ★ ＿＿ ＿＿。", "options": ["至った", "事態に", "倒産", "という"], "answer_index": 3, "explanation_vi": "Câu đúng: 会社の経営悪化は、倒産という事態に至った。 (Tình hình kinh doanh xấu đi của công ty đã dẫn đến tình trạng phá sản.). Mảnh ở ô ★ là 「という」."},
+  {"type": "MEANING", "prompt_ja": "両国の対立は、ついに戦争に至った。", "options": ["Hai nước đã tránh được chiến tranh nhờ đối thoại.", "Sự đối lập giữa hai nước cuối cùng đã dẫn đến chiến tranh.", "Chiến tranh đã khiến hai nước hòa giải.", "Hai nước đang đối lập nhưng chưa đến mức chiến tranh."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu N + に至る (đi đến, dẫn tới): 'Sự đối lập giữa hai nước cuối cùng đã dẫn đến chiến tranh.'"},
+  {"type": "MEANING", "prompt_ja": "社長が辞任するに至った経緯を説明してください。", "options": ["Hãy giải thích lý do giám đốc không chịu từ chức.", "Hãy giải thích kế hoạch sau khi giám đốc nhậm chức.", "Hãy giải thích quá trình dẫn đến việc giám đốc từ chức.", "Hãy giải thích con đường giám đốc đi đến công ty."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Vる + に至る (đi đến, dẫn tới): 'Hãy giải thích quá trình dẫn đến việc giám đốc từ chức.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["毎朝、電車で会社に至る。", "交渉は決裂するに至った。", "小さな誤解が重なり、ついに二人は離婚するに至った。", "両国の対立は、ついに戦争に至った。"], "answer_index": 0, "explanation_vi": "「毎朝、電車で会社に至る。」 sai: に至る nói một quá trình cuối cùng dẫn tới kết quả, trạng thái, không dùng cho việc di chuyển hằng ngày. Câu đúng: 毎朝、電車で会社に行く。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["半年間の調査の結果、事故の原因を特定するに至った。", "会社の経営悪化は、倒産という事態に至った。", "社長が辞任するに至った経緯を説明してください。", "長年の研究の結果、新薬の開発を至った。"], "answer_index": 3, "explanation_vi": "「長年の研究の結果、新薬の開発を至った。」 sai: 至る đi với trợ từ に, không dùng を. Câu đúng: 長年の研究の結果、新薬の開発に至った。"}
+ ],
+ "order_items": [
+  {"pieces": ["閉店する", "に至った。", "その店はついに"], "answer_order": [2, 0, 1], "translation_vi": "Cửa hàng đó cuối cùng đã đi đến chỗ phải đóng cửa."},
+  {"pieces": ["計画の中止", "に至った。", "という", "結論"], "answer_order": [0, 2, 3, 1], "translation_vi": "Chúng tôi đã đi đến kết luận là hủy bỏ kế hoạch."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "話し合いを重ねた結果、両社は合併する＿＿。", "answer": "に至った", "accept": ["ことになった"], "translation_vi": "Sau nhiều lần bàn bạc, hai công ty đã đi đến việc sáp nhập."},
+  {"sentence_ja": "小さなミスが、大きな事故に＿＿こともある。", "answer": "至る", "accept": ["つながる"], "translation_vi": "Có khi một lỗi nhỏ lại dẫn đến tai nạn lớn."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "住民の反対運動は、ついに計画の撤回（　　）。", "options": ["に照らした", "に至った", "とて", "をおいて"], "answer_index": 1, "explanation_vi": "Điền 「に至った」: phong trào phản đối cuối cùng dẫn tới kết quả là kế hoạch bị rút lại. Nghĩa: Phong trào phản đối của người dân cuối cùng đã dẫn đến việc rút lại kế hoạch."},
+  {"type": "MEANING", "prompt_ja": "彼が会社を辞めるに至ったのは、上司との対立が原因だった。", "options": ["Anh ấy nghỉ việc nên mâu thuẫn với cấp trên đã được giải quyết.", "Dù mâu thuẫn với cấp trên, anh ấy vẫn không nghỉ việc.", "Anh ấy định nghỉ việc nhưng cấp trên đã giữ lại.", "Nguyên nhân dẫn đến việc anh ấy nghỉ việc là mâu thuẫn với cấp trên."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vる + に至る (đi đến, dẫn tới): 'Nguyên nhân dẫn đến việc anh ấy nghỉ việc là mâu thuẫn với cấp trên.'"},
+  {"type": "ORDER_STAR", "prompt_ja": "二人の口論は、＿＿ ★ ＿＿ ＿＿。", "options": ["にまで", "至った", "けんか", "殴り合いの"], "answer_index": 2, "explanation_vi": "Câu đúng: 二人の口論は、殴り合いのけんかにまで至った。 (Cuộc cãi vã của hai người đã đi đến mức ẩu đả.). Mảnh ở ô ★ là 「けんか」."}
+ ]
+},
+"JG-f3e4754c1c": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "人間はお互いに助け合う、持ち（　　）持たれつの関係だ。", "options": ["て", "ながら", "つ", "たり"], "answer_index": 2, "explanation_vi": "Điền 「つ」: 持ちつ持たれつ là cặp cố định Vます(bỏ ます) + つ, chỉ hai hành động đối ứng lặp lại (giúp và được giúp). Nghĩa: Con người là mối quan hệ nương tựa lẫn nhau, giúp đỡ nhau."},
+  {"type": "FILL", "prompt_ja": "二台の車は、ゴールまで抜き（　　）の接戦を続けた。", "options": ["つ抜きつ", "つ抜かれつ", "ながら抜かれ", "たり抜かれたり"], "answer_index": 1, "explanation_vi": "Điền 「つ抜かれつ」: 抜きつ抜かれつ là cặp đối ứng cố định (vượt và bị vượt). 抜きつ抜きつ không có đối lập; thể たり phải là 抜いたり. Nghĩa: Hai chiếc xe giằng co, lúc vượt lúc bị vượt cho đến tận đích."},
+  {"type": "ORDER_STAR", "prompt_ja": "彼は決心がつかず、＿＿ ＿＿ ★ ＿＿。", "options": ["していた", "戻りつ", "店の前を", "行きつ"], "answer_index": 1, "explanation_vi": "Câu đúng: 彼は決心がつかず、店の前を行きつ戻りつしていた。 (Anh ấy không quyết được, cứ đi tới đi lui trước cửa hàng.). Mảnh ở ô ★ là 「戻りつ」."},
+  {"type": "ORDER_STAR", "prompt_ja": "川に落ちた葉が、＿＿ ＿＿ ★ ＿＿。", "options": ["いく", "流れて", "沈みつ", "浮きつ"], "answer_index": 1, "explanation_vi": "Câu đúng: 川に落ちた葉が、浮きつ沈みつ流れていく。 (Chiếc lá rơi xuống sông trôi đi, lúc nổi lúc chìm.). Mảnh ở ô ★ là 「流れて」."},
+  {"type": "MEANING", "prompt_ja": "両チームは抜きつ抜かれつの好勝負を見せた。", "options": ["Một đội đã dẫn trước suốt trận và thắng dễ dàng.", "Hai đội đều rút khỏi trận đấu giữa chừng.", "Hai đội đã thi đấu nhạt nhòa, không có gì đặc sắc.", "Hai đội đã cống hiến một trận đấu hay, lúc thì vượt lên, lúc lại bị vượt."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜つ〜つ (lúc thì... lúc thì..., hai động tác đối ứng luân phiên): 'Hai đội đã cống hiến một trận đấu hay, lúc thì vượt lên, lúc lại bị vượt.'"},
+  {"type": "MEANING", "prompt_ja": "祖父は庭を行きつ戻りつしながら、何か考えていた。", "options": ["Ông tôi đi thẳng ra khỏi vườn mà không quay lại.", "Ông tôi vừa đi tới đi lui trong vườn vừa suy nghĩ điều gì đó.", "Ông tôi đứng yên một chỗ trong vườn suy nghĩ.", "Ông tôi đi vào vườn rồi về nhà ngay."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜つ〜つ (hai động tác đối lập lặp lại): 'Ông tôi vừa đi tới đi lui trong vườn vừa suy nghĩ điều gì đó.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["休みの日は、食べつ寝つして過ごした。", "駅の前を行きつ戻りつしていた。", "二台の車は、ゴールまで抜きつ抜かれつの接戦を続けた。", "人間はお互いに助け合う、持ちつ持たれつの関係だ。"], "answer_index": 0, "explanation_vi": "「休みの日は、食べつ寝つして過ごした。」 sai: 〜つ〜つ chỉ dùng với một số cặp cố định có hai động tác đối lập (行きつ戻りつ, 抜きつ抜かれつ); liệt kê việc thường ngày thì dùng 〜たり〜たり. Câu đúng: 休みの日は、食べたり寝たりして過ごした。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼は決心がつかず、店の前を行きつ戻りつしていた。", "川に落ちた葉が、浮きつ沈みつ流れていく。", "彼は部屋の中を行くつ戻るつしていた。", "両チームは抜きつ抜かれつの好勝負を見せた。"], "answer_index": 2, "explanation_vi": "「彼は部屋の中を行くつ戻るつしていた。」 sai: つ gắn vào thể ます bỏ ます, không gắn vào thể từ điển. Câu đúng: 彼は部屋の中を行きつ戻りつしていた。"}
+ ],
+ "order_items": [
+  {"pieces": ["行きつ", "廊下を", "戻りつした。", "手術の結果を待つ間、"], "answer_order": [3, 1, 0, 2], "translation_vi": "Trong lúc chờ kết quả ca phẫu thuật, tôi đi tới đi lui ngoài hành lang."},
+  {"pieces": ["持たれつで", "やってきた。", "持ちつ", "地元の商店とは"], "answer_order": [3, 2, 0, 1], "translation_vi": "Chúng tôi và các cửa hàng địa phương luôn nương tựa, giúp đỡ lẫn nhau."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "二人の選手は、最後まで追い＿＿追われつのレースを展開した。", "answer": "つ", "translation_vi": "Hai vận động viên đã có cuộc đua rượt đuổi nhau đến tận phút cuối."},
+  {"sentence_ja": "彼は迷いながら、家の前を行きつ＿＿していた。", "answer": "戻りつ", "translation_vi": "Anh ấy phân vân, cứ đi tới đi lui trước cửa nhà."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "嵐の海で、小舟が浮き（　　）していた。", "options": ["つ浮きつ", "ながら沈み", "たり沈んだり", "つ沈みつ"], "answer_index": 3, "explanation_vi": "Điền 「つ沈みつ」: 浮きつ沈みつ là cặp cố định chỉ lúc nổi lúc chìm. 浮きたり không đúng thể (phải là 浮いたり). Nghĩa: Giữa biển bão, chiếc thuyền nhỏ lúc nổi lúc chìm."},
+  {"type": "MEANING", "prompt_ja": "社会は持ちつ持たれつで成り立っている。", "options": ["Xã hội được duy trì nhờ mỗi người tự lập, không phụ thuộc ai.", "Trong xã hội, người giàu luôn nắm giữ mọi thứ.", "Xã hội được duy trì nhờ mọi người giúp đỡ, nương tựa lẫn nhau.", "Xã hội đang dần sụp đổ vì thiếu sự giúp đỡ."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜つ〜つ (持ちつ持たれつ: nương tựa lẫn nhau): 'Xã hội được duy trì nhờ mọi người giúp đỡ, nương tựa lẫn nhau.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["手術の結果を待つ間、廊下を行きつ戻りつした。", "地元の商店とは持ちつ持たれつでやってきた。", "二人の選手は、最後まで追いつ追われつのレースを展開した。", "彼は本を読みつ音楽を聞きつしていた。"], "answer_index": 3, "explanation_vi": "「彼は本を読みつ音楽を聞きつしていた。」 sai: 〜つ〜つ chỉ dùng với cặp cố định có hai động tác đối lập, không ghép hai hành động tùy ý. Câu đúng: 彼は本を読みながら音楽を聞いていた。"}
+ ]
+},
+"JG-ae0bab0fb7": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "会員が規約に違反した場合、会員資格を失う（　　）。", "options": ["に至って", "ものとする", "をおいて", "とて"], "answer_index": 1, "explanation_vi": "Điền 「ものとする」: trong quy ước, điều lệ dùng Vる + ものとする để quy định. Các lựa chọn khác bỏ lửng câu. Nghĩa: Trường hợp hội viên vi phạm điều lệ thì sẽ mất tư cách hội viên."},
+  {"type": "FILL", "prompt_ja": "申込書の提出がない場合は、参加を辞退した（　　）。", "options": ["ものとする", "につけ", "を経て", "にかかわらず"], "answer_index": 0, "explanation_vi": "Điền 「ものとする」: Vた + ものとする nghĩa là 'được coi là đã...', cách quy định trong văn bản. Nghĩa: Trường hợp không nộp đơn đăng ký thì được coi là đã từ chối tham gia."},
+  {"type": "ORDER_STAR", "prompt_ja": "本規約は、＿＿ ＿＿ ★ ＿＿。", "options": ["ものとする", "施行する", "四月一日", "から"], "answer_index": 1, "explanation_vi": "Câu đúng: 本規約は、四月一日から施行するものとする。 (Điều lệ này được quy định có hiệu lực từ ngày 1 tháng 4.). Mảnh ở ô ★ là 「施行する」."},
+  {"type": "ORDER_STAR", "prompt_ja": "契約に違反した場合、乙は＿＿ ★ ＿＿ ＿＿。", "options": ["支払う", "ものとする", "違約金を", "所定の"], "answer_index": 2, "explanation_vi": "Câu đúng: 契約に違反した場合、乙は所定の違約金を支払うものとする。 (Trường hợp vi phạm hợp đồng, bên B phải trả khoản tiền phạt theo quy định.). Mảnh ở ô ★ là 「違約金を」."},
+  {"type": "MEANING", "prompt_ja": "本サービスの利用料金は、毎月末日に支払うものとする。", "options": ["Phí sử dụng dịch vụ này thường được trả vào cuối tháng theo thói quen.", "Phí sử dụng dịch vụ này được quy định là thanh toán vào ngày cuối mỗi tháng.", "Phí sử dụng dịch vụ này có thể trả bất cứ lúc nào.", "Tôi nghĩ phí sử dụng dịch vụ này nên trả vào cuối tháng."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜ものとする (được quy định là): 'Phí sử dụng dịch vụ này được quy định là thanh toán vào ngày cuối mỗi tháng.' Đây là quy định, không phải thói quen (ものだ)."},
+  {"type": "MEANING", "prompt_ja": "期限までに連絡がない場合は、同意したものとする。", "options": ["Trường hợp không liên lạc trước thời hạn thì hợp đồng sẽ bị hủy.", "Người đã đồng ý thì phải liên lạc trước thời hạn.", "Dù không liên lạc, vẫn có thể từ chối sau thời hạn.", "Trường hợp không liên lạc trước thời hạn thì sẽ được coi là đã đồng ý."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vた + ものとする (được coi là đã): 'Trường hợp không liên lạc trước thời hạn thì sẽ được coi là đã đồng ý.'"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["費用は甲が負担するものとする。", "本規約は、四月一日から施行するものとする。", "子どもは親の言うことを聞かないものとする。", "申込書の提出がない場合は、参加を辞退したものとする。"], "answer_index": 2, "explanation_vi": "「子どもは親の言うことを聞かないものとする。」 sai: ものとする là quy định trong văn bản; nói khuynh hướng, lẽ thường thì dùng ものだ. Câu đúng: 子どもは親の言うことを聞かないものだ。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["昨日は友だちと映画を見たものとする。", "会員が規約に違反した場合、会員資格を失うものとする。", "期限までに連絡がない場合は、同意したものとする。", "本サービスの利用料金は、毎月末日に支払うものとする。"], "answer_index": 0, "explanation_vi": "「昨日は友だちと映画を見たものとする。」 sai: ものとする dùng trong hợp đồng, quy định, không dùng để kể chuyện đời thường. Câu đúng: 昨日は友だちと映画を見た。"}
+ ],
+ "order_items": [
+  {"pieces": ["協議の上", "決定するものとする。", "両者"], "answer_order": [2, 0, 1], "translation_vi": "Việc này được quy định là do hai bên thỏa thuận rồi quyết định."},
+  {"pieces": ["無効となる", "ものとする。", "期限を過ぎた契約は"], "answer_order": [2, 0, 1], "translation_vi": "Hợp đồng quá hạn được quy định là sẽ mất hiệu lực."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "本契約に定めのない事項は、双方で協議する＿＿。", "answer": "ものとする", "translation_vi": "Những điều không được quy định trong hợp đồng này sẽ do hai bên thỏa thuận."},
+  {"sentence_ja": "会費は、毎年四月に納める＿＿とする。", "answer": "もの", "translation_vi": "Hội phí được quy định là nộp vào tháng 4 hằng năm."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "本件に関する責任は、すべて乙が負う（　　）。", "options": ["につけ", "をおいて", "ものとする", "を余儀なくされる"], "answer_index": 2, "explanation_vi": "Điền 「ものとする」: quy định trong hợp đồng về việc bên B chịu trách nhiệm. を余儀なくされる cần danh từ đứng trước, không nối trực tiếp sau 負う. Nghĩa: Mọi trách nhiệm liên quan đến việc này được quy định là do bên B gánh chịu."},
+  {"type": "ORDER_STAR", "prompt_ja": "この規則は、＿＿ ★ ＿＿ ＿＿。", "options": ["とする", "もの", "全社員に", "適用される"], "answer_index": 3, "explanation_vi": "Câu đúng: この規則は、全社員に適用されるものとする。 (Quy định này được áp dụng cho toàn bộ nhân viên.). Mảnh ở ô ★ là 「適用される」."},
+  {"type": "MEANING", "prompt_ja": "解約の申し出は、一か月前までに行うものとする。", "options": ["Đề nghị hủy hợp đồng được quy định là phải thực hiện trước ít nhất một tháng.", "Có thể đề nghị hủy hợp đồng vào bất cứ lúc nào.", "Đề nghị hủy hợp đồng phải được thực hiện sau một tháng.", "Tôi nghĩ nên hủy hợp đồng trước một tháng."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜ものとする (được quy định là): 'Đề nghị hủy hợp đồng được quy định là phải thực hiện trước ít nhất một tháng.'"}
  ]
 }
 }

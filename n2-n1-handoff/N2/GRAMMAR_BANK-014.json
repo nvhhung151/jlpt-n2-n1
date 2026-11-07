@@ -1285,7 +1285,195 @@
    "id": "JG-c9419a4141"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "こんな簡単な問題が解けない（　　）、合格は無理だ。",
+      "options": [
+       "ように",
+       "ような",
+       "ようでは",
+       "ようにも"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ようでは」: nếu cứ ở tình trạng không tốt (bài dễ cũng không giải được) thì kết quả xấu (không thể đỗ). ように, ような, ようにも không tạo được ý điều kiện dẫn tới đánh giá tiêu cực. Nghĩa: Nếu bài dễ thế này mà cũng không giải được thì đỗ là không thể."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "毎朝遅刻している（　　）、信用されなくなるよ。",
+      "options": [
+       "わりに",
+       "くせに",
+       "とたん",
+       "ようでは"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ようでは」: cảnh báo nếu cứ đi muộn mỗi sáng thì sẽ mất lòng tin. わりに (so với), くせに (vậy mà), とたん (vừa... thì) đều không nối được với lời cảnh báo này. Nghĩa: Nếu sáng nào cũng đi muộn như vậy thì sẽ không được tin tưởng nữa đâu."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "そんなに＿＿ ＿＿ ★ ＿＿なれないよ。",
+      "options": [
+       "上手に",
+       "ようでは",
+       "人に頼って",
+       "ばかりいる"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: そんなに人に頼ってばかりいるようでは上手になれないよ。 (Nếu cứ dựa dẫm vào người khác mãi như vậy thì không thể giỏi lên được đâu.). Mảnh ở ô ★ là 「ようでは」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "人の話を＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "やっていけない",
+       "聞かない",
+       "社会に出て",
+       "ようでは"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 人の話を聞かないようでは社会に出てやっていけない。 (Nếu không chịu nghe người khác nói thì ra xã hội sẽ không trụ được.). Mảnh ở ô ★ là 「社会に出て」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この程度で疲れるようでは、山登りは無理だよ。",
+      "options": [
+       "Vì chừng này không thấy mệt nên leo núi được.",
+       "Có vẻ mệt chừng này là do leo núi.",
+       "Nếu mới chừng này đã mệt thì leo núi là không thể đâu.",
+       "Dù có mệt chừng này thì leo núi vẫn được."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ようでは (nếu cứ ở tình trạng không tốt đó thì kết quả sẽ xấu): \"Nếu mới chừng này đã mệt thì leo núi là không thể đâu.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "部長の指示を待っているようでは、いい仕事はできない。",
+      "options": [
+       "Nếu cứ ngồi chờ chỉ thị của trưởng phòng thì không thể làm được việc tốt.",
+       "Có vẻ như đang chờ chỉ thị của trưởng phòng nên công việc tốt.",
+       "Phải chờ chỉ thị của trưởng phòng thì mới làm tốt được.",
+       "Dù chờ chỉ thị của trưởng phòng, công việc vẫn tốt."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ようでは (phê phán tình trạng đang tiếp diễn và kết quả xấu của nó): \"Nếu cứ ngồi chờ chỉ thị của trưởng phòng thì không thể làm được việc tốt.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "朝起きられないようでは、旅行は無理だ。",
+       "毎日練習するようでは、きっと上手になる。",
+       "こんなミスをするようでは、任せられない。",
+       "人のせいにしているようでは、成長しない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「毎日練習するようでは、きっと上手になる。」 sai: vế sau của ようでは luôn là đánh giá tiêu cực, không dùng cho kết quả tốt. Câu đúng: 毎日練習すれば、きっと上手になる。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "宿題を忘れるようでは困る。",
+       "すぐやめるようでは、何も身につかない。",
+       "約束を守らないようでは、信用されない。",
+       "そんなに休みようでは、卒業できない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「そんなに休みようでは、卒業できない。」 sai: ようでは đi sau thể thường (Vる, Vない, Vている), không đi sau gốc động từ. Câu đúng: そんなに休むようでは、卒業できない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "なれない。",
+       "やめるようでは、",
+       "これくらいで",
+       "プロには"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Nếu mới chừng này đã bỏ cuộc thì không thể trở thành người chuyên nghiệp."
+     },
+     {
+      "pieces": [
+       "上達しない。",
+       "ようでは、",
+       "自分で調べようと",
+       "しない"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Nếu không chịu tự mình tìm hiểu thì sẽ không tiến bộ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "こんなことで怒る＿＿、リーダーにはなれない。",
+      "answer": "ようでは",
+      "accept": [
+       "ようじゃ"
+      ],
+      "translation_vi": "Nếu chuyện thế này mà cũng nổi giận thì không thể làm người lãnh đạo."
+     },
+     {
+      "sentence_ja": "毎日遊んでばかりいる＿＿、試験に落ちるよ。",
+      "answer": "ようでは",
+      "accept": [
+       "ようじゃ",
+       "ようなら"
+      ],
+      "translation_vi": "Nếu ngày nào cũng chỉ chơi thì sẽ trượt kỳ thi đấy."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "朝ご飯も自分で作れない（　　）、一人暮らしは大変だよ。",
+      "options": [
+       "ついでに",
+       "ようでは",
+       "ものの",
+       "とおりに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ようでは」: nếu đến bữa sáng cũng không tự nấu được thì sống một mình sẽ vất vả. ついでに (nhân tiện), ものの (tuy... nhưng), とおりに (theo đúng như) đều không hợp. Nghĩa: Nếu đến bữa sáng cũng không tự nấu được thì sống một mình vất vả lắm đấy."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "そんな言い方をするようでは、友だちができないよ。",
+      "options": [
+       "Có vẻ bạn nói kiểu đó để có bạn.",
+       "Dù ăn nói kiểu đó vẫn có bạn.",
+       "Nói kiểu đó thì bạn bè sẽ đông hơn.",
+       "Nếu cứ ăn nói kiểu đó thì sẽ không có bạn đâu."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ようでは (nếu cứ như thế thì kết quả xấu): \"Nếu cứ ăn nói kiểu đó thì sẽ không có bạn đâu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "昨日遅刻したようでは、先生に叱られた。",
+       "そんな気持ちでいるようでは、だれも手伝ってくれない。",
+       "小さなことで悩むようでは、疲れてしまう。",
+       "時間を守れないようでは、仕事は任せられない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「昨日遅刻したようでは、先生に叱られた。」 sai: ようでは nói về tình trạng còn tiếp diễn và kết quả xấu có thể xảy ra, không dùng để kể một việc đã xảy ra. Câu đúng: 昨日遅刻したので、先生に叱られた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1308,7 +1496,191 @@
    "id": "JG-a4bf823751"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あまりにおかしくて、笑わ（　　）いられなかった。",
+      "options": [
+       "なくては",
+       "ずには",
+       "ないでも",
+       "ずにも"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ずには」: Vない bỏ ない + ずにはいられない là 'không nhịn được mà...'. なくては, ないでも, ずにも không ghép với いられない theo nghĩa này. Nghĩa: Buồn cười quá nên tôi không thể nhịn cười được."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "その映画のラストシーンには、感動（　　）。",
+      "options": [
+       "しずにはいられなかった",
+       "しないにはいられなかった",
+       "せずにはいなかった",
+       "せずにはいられなかった"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「せずにはいられなかった」: する chuyển thành せず, nên 感動する thành 感動せずにはいられない. しずに, しないには là dạng sai; せずにはいなかった là mẫu khác, không nói về cảm xúc của chính mình. Nghĩa: Trước cảnh cuối của bộ phim, tôi không thể không cảm động."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼の失礼な言葉に、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "言わ",
+       "いられなかった",
+       "一言",
+       "ずには"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼の失礼な言葉に、一言言わずにはいられなかった。 (Trước lời nói thất lễ của anh ta, tôi không thể không nói lại một câu.). Mảnh ở ô ★ là 「ずには」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "道に迷っている＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "声をかけ",
+       "ずにはいられなかった",
+       "どうしても",
+       "子どもを見ると"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 道に迷っている子どもを見るとどうしても声をかけずにはいられなかった。 (Thấy đứa trẻ bị lạc đường, tôi không sao kìm được mà phải lên tiếng hỏi.). Mảnh ở ô ★ là 「どうしても」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "その話を聞いて、腹を立てずにはいられなかった。",
+      "options": [
+       "Nghe chuyện đó, tôi đã cố không nổi giận.",
+       "Nghe chuyện đó, tôi bị buộc phải giả vờ giận.",
+       "Nghe chuyện đó, tôi không thể không nổi giận.",
+       "Nghe chuyện đó, tôi chẳng giận chút nào."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (không kìm được cảm xúc, hành động tự bật ra): \"Nghe chuyện đó, tôi không thể không nổi giận.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "甘いものを見ると、食べずにはいられない。",
+      "options": [
+       "Hễ thấy đồ ngọt là tôi không nhịn được mà ăn.",
+       "Hễ thấy đồ ngọt là tôi không ăn.",
+       "Thấy đồ ngọt thì tôi không được phép ăn.",
+       "Tôi không thể ăn đồ ngọt dù rất muốn."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (không nhịn được mà làm): \"Hễ thấy đồ ngọt là tôi không nhịn được mà ăn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "結果が気になって、確かめずにはいられなかった。",
+       "その映画を見て、笑わずにはいられなかった。",
+       "あまりにかわいくて、写真を撮らずにはいられない。",
+       "その話を聞いて、心配しずにはいられない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「その話を聞いて、心配しずにはいられない。」 sai: する chuyển thành せず, không phải しず. Câu đúng: その話を聞いて、心配せずにはいられない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "会社の命令なので、出張に行かずにはいられない。",
+       "ひどいニュースを聞いて、怒らずにはいられなかった。",
+       "おいしそうなケーキを見ると、買わないではいられない。",
+       "おもしろい本は、最後まで読まずにはいられない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「会社の命令なので、出張に行かずにはいられない。」 sai: bị hoàn cảnh, mệnh lệnh ép phải làm thì dùng ざるを得ない; ずにはいられない là tự mình không kìm được. Câu đúng: 会社の命令なので、出張に行かざるを得ない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "感動せずには",
+       "この本を読むと、だれでも",
+       "いられないだろう。"
+      ],
+      "answer_order": [
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Đọc cuốn sách này thì ai cũng sẽ không thể không cảm động."
+     },
+     {
+      "pieces": [
+       "いられなかった。",
+       "電話をかけずには",
+       "母の手紙を読んで、すぐ"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Đọc thư của mẹ xong, tôi không kìm được mà gọi điện ngay."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "あまりにも不公平で、一言言わ＿＿いられなかった。",
+      "answer": "ずには",
+      "accept": [
+       "ないでは",
+       "ずに"
+      ],
+      "translation_vi": "Bất công quá nên tôi không thể không lên tiếng."
+     },
+     {
+      "sentence_ja": "そのニュースを聞いて、心配せ＿＿いられない。",
+      "answer": "ずには",
+      "accept": [
+       "ずに"
+      ],
+      "translation_vi": "Nghe tin đó, tôi không thể không lo lắng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼のことが気になって、電話をかけ（　　）。",
+      "options": [
+       "てはいられなかった",
+       "ずにはいられなかった",
+       "ないにはいられなかった",
+       "ずにはいなかった"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ずにはいられなかった」: lo cho anh ấy nên không kìm được mà gọi điện. てはいられなかった là 'không thể cứ thế mà...', ないには là dạng sai, ずにはいなかった là mẫu khác. Nghĩa: Lo cho anh ấy quá nên tôi không thể không gọi điện."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "困っている友だちを見て、手伝わずにはいられなかった。",
+      "options": [
+       "Thấy bạn gặp khó khăn, tôi buộc phải giúp vì thầy bảo.",
+       "Thấy bạn gặp khó khăn, tôi không giúp được.",
+       "Thấy bạn gặp khó khăn, tôi đã kìm lại không giúp.",
+       "Thấy bạn gặp khó khăn, tôi không thể không giúp."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (tự mình không kìm được mà làm): \"Thấy bạn gặp khó khăn, tôi không thể không giúp.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "雨の中で待っている彼女を見て、傘を貸さずにはいられなかった。",
+       "おかしくて、笑わないではいられなかった。",
+       "その絵を見ると、触らずにはいらない。",
+       "疑問に思ったら、聞かずにはいられない性格だ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「その絵を見ると、触らずにはいらない。」 sai: phần cuối của mẫu là いられない (thể khả năng của いる), không phải いらない. Câu đúng: その絵を見ると、触らずにはいられない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1335,7 +1707,194 @@
    "id": "JG-5b89028992"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女は悲し（　　）な目で窓の外を見ていた。",
+      "options": [
+       "さ",
+       "み",
+       "げ",
+       "らしい"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「げ」: Aい bỏ い + げ, 悲しげな là 'trông buồn bã', vẻ ngoài người nói nhìn thấy. 悲しさ, 悲しみ là danh từ nên không đi với な, 悲しらしい không có. Nghĩa: Cô ấy nhìn ra ngoài cửa sổ với đôi mắt buồn bã."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもたちは楽し（　　）に遊んでいる。",
+      "options": [
+       "げ",
+       "く",
+       "そうな",
+       "ような"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「げ」: 楽しげに là 'một cách vui vẻ' theo vẻ ngoài. 楽しくに, 楽しそうなに, 楽しようなに đều sai hình thức. Nghĩa: Bọn trẻ đang chơi đùa trông rất vui vẻ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿部屋を出ていった。",
+      "options": [
+       "顔を",
+       "して",
+       "不満",
+       "げな"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 彼は不満げな顔をして部屋を出ていった。 (Anh ấy rời khỏi phòng với vẻ mặt bất mãn.). Mảnh ở ô ★ là 「顔を」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "おばあさんは孫の写真を＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "くれた",
+       "見せて",
+       "げに",
+       "うれし"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: おばあさんは孫の写真をうれしげに見せてくれた。 (Bà cụ cho tôi xem ảnh cháu với vẻ vui mừng.). Mảnh ở ô ★ là 「げに」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "その犬は悲しげな声で鳴いていた。",
+      "options": [
+       "Con chó kêu to vì vui.",
+       "Con chó kêu với giọng nghe có vẻ buồn bã.",
+       "Con chó kêu khiến tôi buồn.",
+       "Con chó không kêu nữa vì buồn."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜げ (vẻ ngoài của cảm xúc mà người nói thấy được): \"Con chó kêu với giọng nghe có vẻ buồn bã.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "母は心配げに私の顔を見た。",
+      "options": [
+       "Mẹ nhìn mặt tôi và khiến tôi lo lắng.",
+       "Mẹ không lo lắng gì khi nhìn tôi.",
+       "Mẹ nhìn tôi rồi bảo tôi đừng lo.",
+       "Mẹ nhìn mặt tôi với vẻ lo lắng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜げ (trông có vẻ, lộ ra bên ngoài): \"Mẹ nhìn mặt tôi với vẻ lo lắng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女は不安げな表情を見せた。",
+       "少年は得意げにテストを見せた。",
+       "このビルは高げだ。",
+       "おじいさんは寂しげに笑った。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「このビルは高げだ。」 sai: げ dùng cho cảm xúc, tâm trạng lộ ra bên ngoài, không dùng cho tính chất vật lý như 高い. Câu đúng: このビルは高そうだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "悲しいげな目で私を見た。",
+       "子どもは眠たげな目をしていた。",
+       "彼は自信ありげに答えた。",
+       "田中さんは何か言いたげだった。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「悲しいげな目で私を見た。」 sai: tính từ い phải bỏ い rồi mới thêm げ. Câu đúng: 悲しげな目で私を見た。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "うなずいた。",
+       "満足",
+       "げに",
+       "彼女は"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Cô ấy gật đầu với vẻ hài lòng."
+     },
+     {
+      "pieces": [
+       "見ていた。",
+       "その子は",
+       "目で母親を",
+       "寂しげな"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Đứa bé nhìn mẹ bằng ánh mắt buồn bã."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼は得意＿＿に新しい車を見せてくれた。",
+      "answer": "げ",
+      "accept": [
+       "そう"
+      ],
+      "translation_vi": "Anh ấy khoe chiếc xe mới với tôi bằng vẻ đắc ý."
+     },
+     {
+      "sentence_ja": "少女は恥ずかし＿＿に下を向いた。",
+      "answer": "げ",
+      "accept": [
+       "そう"
+      ],
+      "translation_vi": "Cô bé cúi mặt xuống với vẻ ngượng ngùng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "父は満足（　　）に笑った。",
+      "options": [
+       "っぽ",
+       "げ",
+       "気味",
+       "がち"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「げ」: 満足げに là 'với vẻ hài lòng'. 気味 chỉ xu hướng không tốt, がち là 'hay bị', っぽに không có, đều không hợp với cảm xúc tích cực. Nghĩa: Bố tôi cười với vẻ hài lòng."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は言いたげな顔をしていたが、何も言わなかった。",
+      "options": [
+       "Anh ấy có vẻ mặt như muốn nói gì đó nhưng đã không nói gì.",
+       "Anh ấy đã nói hết những gì muốn nói.",
+       "Anh ấy không muốn nói nên quay mặt đi.",
+       "Anh ấy định nói nhưng bị ngắt lời."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜げ (V bỏ ます + げ, trông như muốn): \"Anh ấy có vẻ mặt như muốn nói gì đó nhưng đã không nói gì.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女は不安げに時計を見た。",
+       "私は今、とても寂しげだ。",
+       "その子は恥ずかしげに母の後ろに立っていた。",
+       "先生は満足げな様子だった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私は今、とても寂しげだ。」 sai: げ tả vẻ ngoài của người khác mà người nói nhìn thấy, không dùng để nói cảm xúc của chính mình. Câu đúng: 私は今、とても寂しい。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1358,7 +1917,198 @@
    "id": "JG-389dda7559"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この地図は駅（　　）作られている。",
+      "options": [
+       "をはじめ",
+       "を中心に",
+       "にとって",
+       "に対して"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「を中心に」: tấm bản đồ lấy nhà ga làm trung tâm rồi vẽ ra xung quanh. をはじめ cần liệt kê thêm, にとって là 'đối với', に対して là 'đối với, trái lại', đều không hợp. Nghĩa: Tấm bản đồ này được làm lấy nhà ga làm trung tâm."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "大雨で、九州（　　）大きな被害が出た。",
+      "options": [
+       "をめぐって",
+       "に先立って",
+       "を込めて",
+       "を中心に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「を中心に」: thiệt hại lan rộng, tập trung nhiều nhất ở Kyushu. をめぐって là 'xoay quanh vấn đề', に先立って là 'trước khi', を込めて là 'dồn tình cảm', đều sai nghĩa. Nghĩa: Do mưa lớn, thiệt hại nặng nề đã xảy ra, tập trung ở vùng Kyushu."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "私たちは＿＿ ＿＿ ★ ＿＿作った。",
+      "options": [
+       "グループを",
+       "した",
+       "若者",
+       "を中心と"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 私たちは若者を中心としたグループを作った。 (Chúng tôi đã lập ra một nhóm lấy giới trẻ làm nòng cốt.). Mảnh ở ô ★ là 「した」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "地球は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "いる",
+       "回って",
+       "を中心に",
+       "太陽"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 地球は太陽を中心に回っている。 (Trái đất quay quanh mặt trời.). Mảnh ở ô ★ là 「を中心に」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この会社は東京を中心に店を増やしている。",
+      "options": [
+       "Công ty này đã đóng cửa các cửa hàng ở Tokyo.",
+       "Công ty này chỉ có một cửa hàng ở trung tâm Tokyo.",
+       "Công ty này đang mở cửa hàng ở mọi nơi trừ Tokyo.",
+       "Công ty này đang mở thêm cửa hàng, tập trung chủ yếu ở Tokyo."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜を中心に (lấy N làm trọng tâm rồi triển khai ra xung quanh): \"Công ty này đang mở thêm cửa hàng, tập trung chủ yếu ở Tokyo.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "会議は来年の予算を中心に話し合われた。",
+      "options": [
+       "Cuộc họp đã thảo luận xoay quanh trọng tâm là ngân sách năm sau.",
+       "Cuộc họp không bàn đến ngân sách năm sau.",
+       "Cuộc họp đã bị hoãn đến năm sau vì ngân sách.",
+       "Cuộc họp chỉ bàn về ngân sách năm nay."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜を中心に (lấy N làm trọng tâm): \"Cuộc họp đã thảo luận xoay quanh trọng tâm là ngân sách năm sau.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "このチームは田中さんを中心にまとまっている。",
+       "日本語の授業は会話を中心に行われる。",
+       "関西を中心に雨が降るでしょう。",
+       "駅に中心に新しい店が増えた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「駅に中心に新しい店が増えた。」 sai: mẫu đúng là N + を中心に, không dùng trợ từ に. Câu đúng: 駅を中心に新しい店が増えた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "若い女性を中心に人気がある店だ。",
+       "私を中心に、この問題はとても難しい。",
+       "部長を中心としたチームが作られた。",
+       "駅前を中心に開発が進んでいる。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私を中心に、この問題はとても難しい。」 sai: muốn nói 'đối với tôi' thì dùng にとって; を中心に cần vế sau mô tả sự triển khai, phân bố quanh N. Câu đúng: 私にとって、この問題はとても難しい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "人気を",
+       "この番組は",
+       "集めている。",
+       "子どもを中心に"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Chương trình này đang được yêu thích, chủ yếu là trẻ em."
+     },
+     {
+      "pieces": [
+       "行われる。",
+       "駅前の広場",
+       "町の祭りは",
+       "を中心に"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Lễ hội của thị trấn được tổ chức với trung tâm là quảng trường trước ga."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "今回の旅行は京都＿＿、関西の古いお寺を回る予定だ。",
+      "answer": "を中心に",
+      "accept": [
+       "を中心にして",
+       "を中心として"
+      ],
+      "translation_vi": "Chuyến du lịch lần này dự định đi thăm các ngôi chùa cổ ở vùng Kansai, tập trung ở Kyoto."
+     },
+     {
+      "sentence_ja": "このゲームは小学生＿＿人気が広がっている。",
+      "answer": "を中心に",
+      "accept": [
+       "を中心にして",
+       "を中心として",
+       "をはじめ",
+       "の間で"
+      ],
+      "translation_vi": "Trò chơi này đang ngày càng được yêu thích, chủ yếu trong giới học sinh tiểu học."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "話し合いは、来月のイベント（　　）進められた。",
+      "options": [
+       "に反して",
+       "に比べて",
+       "を中心に",
+       "にかけて"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「を中心に」: cuộc thảo luận lấy sự kiện tháng sau làm nội dung chính. に反して (trái với), に比べて (so với), にかけて (trải suốt) đều không hợp. Nghĩa: Cuộc thảo luận được tiến hành xoay quanh sự kiện tháng sau."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "このアニメは十代を中心に人気がある。",
+      "options": [
+       "Bộ anime này chỉ dành cho người trên mười tuổi.",
+       "Bộ anime này được yêu thích, chủ yếu ở lứa tuổi mười mấy.",
+       "Bộ anime này không được thanh thiếu niên yêu thích.",
+       "Bộ anime này nói về trung tâm của lứa tuổi mười mấy."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜を中心に (chủ yếu ở N, lan ra xung quanh): \"Bộ anime này được yêu thích, chủ yếu ở lứa tuổi mười mấy.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "このチームは社長を中心でまとまっている。",
+       "東北地方を中心に大雪が降った。",
+       "文法を中心にした授業だ。",
+       "駅を中心に町が広がっている。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「このチームは社長を中心でまとまっている。」 sai: mẫu là を中心に (hoặc を中心として), không dùng で. Câu đúng: このチームは社長を中心にまとまっている。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

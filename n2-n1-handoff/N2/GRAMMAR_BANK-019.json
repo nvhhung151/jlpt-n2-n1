@@ -626,7 +626,196 @@
    "id": "JG-b6b1ffdabc"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この公園は子ども（　　）、大人にも人気がある。",
+      "options": [
+       "ばかりに",
+       "ばかりでなく",
+       "ばかりだ",
+       "ばかりの"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ばかりでなく」: không chỉ trẻ em mà cả người lớn (vế sau có も). ばかりに (chỉ vì), ばかりだ (toàn là), ばかりの không nối được hai vế bổ sung. Nghĩa: Công viên này không chỉ được trẻ em mà cả người lớn yêu thích."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は頭がいい（　　）、スポーツも得意だ。",
+      "options": [
+       "ものの",
+       "くせに",
+       "わりに",
+       "ばかりでなく"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ばかりでなく」: không chỉ thông minh mà còn giỏi thể thao, hai vế cùng hướng tích cực. ものの (tuy… nhưng), くせに (vậy mà), わりに (so với… thì) mang ý trái ngược. Nghĩa: Anh ấy không chỉ thông minh mà còn giỏi thể thao."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "あの店は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "多い",
+       "量も",
+       "値段が",
+       "安いばかりでなく"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: あの店は値段が安いばかりでなく量も多い。 (Quán đó không chỉ rẻ mà phần ăn cũng nhiều.). Mảnh ở ô ★ là 「量も」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この病気は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "若い人も",
+       "かかる",
+       "ばかりでなく",
+       "お年寄り"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この病気はお年寄りばかりでなく若い人もかかる。 (Bệnh này không chỉ người già mà người trẻ cũng mắc.). Mảnh ở ô ★ là 「ばかりでなく」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は歌ばかりでなく、ダンスも上手だ。",
+      "options": [
+       "Cô ấy không chỉ hát hay mà nhảy cũng giỏi.",
+       "Cô ấy chỉ toàn hát mà không nhảy.",
+       "Cô ấy hát hay hơn nhảy.",
+       "Vì nhảy giỏi nên cô ấy hát cũng hay."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ばかりでなく (không chỉ… mà còn…): \"Cô ấy không chỉ hát hay mà nhảy cũng giỏi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ごみの問題は、一つの町ばかりでなく国全体の問題だ。",
+      "options": [
+       "Vấn đề rác chỉ là chuyện của một thị trấn.",
+       "Cả nước đang dần quên vấn đề rác.",
+       "Vấn đề rác không chỉ là của một thị trấn mà là của cả nước.",
+       "Mỗi thị trấn có một vấn đề rác riêng."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu N + ばかりでなく (không chỉ… mà còn…): \"Vấn đề rác không chỉ là của một thị trấn mà là của cả nước.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "このアプリは便利なばかりでなく、無料で使える。",
+       "この部屋は明るいばかりでなく、とても暗い。",
+       "田中さんは英語ばかりでなく、フランス語も話せる。",
+       "雨ばかりでなく、風も強くなってきた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この部屋は明るいばかりでなく、とても暗い。」 sai: vế sau của ばかりでなく phải bổ sung cùng hướng với vế trước, không được trái ngược. Câu đúng: この部屋は明るいばかりでなく、とても広い。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は仕事ができるばかりでなく、人にも優しい。",
+       "野菜ばかりでなく、肉も食べたほうがいい。",
+       "この町は静かばかりでなく、空気もきれいだ。",
+       "子どもたちばかりでなく、親たちもそのゲームに夢中だ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「この町は静かばかりでなく、空気もきれいだ。」 sai: tính từ đuôi な phải giữ な trước ばかりでなく. Câu đúng: この町は静かなばかりでなく、空気もきれいだ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "料理もできる。",
+       "兄は",
+       "勉強ばかりでなく、"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Anh trai tôi không chỉ học giỏi mà còn biết nấu ăn."
+     },
+     {
+      "pieces": [
+       "役にも",
+       "この本は",
+       "立つ。",
+       "おもしろいばかりでなく、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Cuốn sách này không chỉ thú vị mà còn hữu ích."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この店はパン＿＿、ケーキもおいしい。",
+      "answer": "ばかりでなく",
+      "accept": [
+       "だけでなく",
+       "ばかりか"
+      ],
+      "translation_vi": "Tiệm này không chỉ bánh mì mà bánh ngọt cũng ngon."
+     },
+     {
+      "sentence_ja": "風邪で熱がある＿＿、のども痛い。",
+      "answer": "ばかりでなく",
+      "accept": [
+       "だけでなく",
+       "ばかりか",
+       "うえに",
+       "上に"
+      ],
+      "translation_vi": "Bị cảm, tôi không chỉ sốt mà còn đau họng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "日曜日（　　）、平日も店はにぎやかだ。",
+      "options": [
+       "ばかりで",
+       "ばかりだ",
+       "ばかりでなく",
+       "ばかりに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ばかりでなく」: không chỉ chủ nhật mà ngày thường cũng đông (vế sau có も). ばかりで, ばかりだ (toàn là), ばかりに (chỉ vì) không hợp. Nghĩa: Không chỉ chủ nhật mà ngày thường cửa hàng cũng đông vui."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は自分の仕事ばかりでなく、後輩の仕事まで手伝っている。",
+      "options": [
+       "Anh ấy chỉ lo việc của mình mà không giúp ai.",
+       "Anh ấy nhờ đàn em làm hộ việc của mình.",
+       "Đàn em giúp anh ấy làm việc của anh ấy.",
+       "Anh ấy không chỉ làm việc của mình mà còn giúp cả việc của đàn em."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N + ばかりでなく (không chỉ… mà còn…): \"Anh ấy không chỉ làm việc của mình mà còn giúp cả việc của đàn em.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は日本語ばかりでなく話せる。",
+       "この料理は見た目ばかりでなく、味もいい。",
+       "大人ばかりでなく子どもも楽しめる映画だ。",
+       "彼女は優しいばかりでなく、とても強い人だ。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「彼は日本語ばかりでなく話せる。」 sai: sau ばかりでなく phải nêu thêm điều được bổ sung (thường có も). Câu đúng: 彼は日本語ばかりでなく英語も話せる。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -649,7 +838,193 @@
    "id": "JG-4941a90846"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は部屋に入る（　　）、窓を開けた。",
+      "options": [
+       "ばかりに",
+       "次に",
+       "やいなや",
+       "以上"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「やいなや」: Vる + やいなや, vừa vào phòng là mở cửa sổ ngay. ばかりに (chỉ vì… mà gặp chuyện xấu), 以上 (đã… thì) không hợp nghĩa; 次に không gắn sau Vる. Nghĩa: Anh ấy vừa vào phòng là mở ngay cửa sổ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "新しいゲームが発売される（　　）、店の前に長い列ができた。",
+      "options": [
+       "ついでに",
+       "やいなや",
+       "かわりに",
+       "ように"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「やいなや」: trò chơi mới vừa được bán ra là ngay lập tức có hàng dài trước cửa hàng. ついでに (nhân tiện), かわりに (thay vì), ように (để) không hợp. Nghĩa: Trò chơi mới vừa được bán ra là trước cửa hàng đã có một hàng dài."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "その歌手が＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ファンが大きな声を上げた",
+       "やいなや",
+       "舞台に",
+       "現れる"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: その歌手が舞台に現れるやいなやファンが大きな声を上げた。 (Ca sĩ đó vừa xuất hiện trên sân khấu là người hâm mộ đã hò reo.). Mảnh ở ô ★ là 「やいなや」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "父は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "やいなや",
+       "出かけていった",
+       "読み終わる",
+       "新聞を"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 父は新聞を読み終わるやいなや出かけていった。 (Bố tôi vừa đọc xong tờ báo là đi ra ngoài ngay.). Mảnh ở ô ★ là 「読み終わる」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "地震のニュースが流れるやいなや、多くの人が家族に電話をかけた。",
+      "options": [
+       "Sau khi gọi điện cho gia đình, nhiều người mới xem tin động đất.",
+       "Dù có tin động đất nhưng không ai gọi điện cho gia đình.",
+       "Nhiều người không biết có nên gọi điện cho gia đình hay không.",
+       "Tin động đất vừa được phát đi là nhiều người đã gọi ngay cho gia đình."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vる + やいなや (vừa… là ngay lập tức): \"Tin động đất vừa được phát đi là nhiều người đã gọi ngay cho gia đình.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもは母親の顔を見るやいなや、母親のところへ走って行った。",
+      "options": [
+       "Đứa bé vừa thấy mặt mẹ là chạy ngay đến.",
+       "Đứa bé chạy đi rồi mới thấy mặt mẹ.",
+       "Đứa bé không biết có nên chạy đến chỗ mẹ hay không.",
+       "Mẹ vừa thấy mặt đứa bé là chạy ngay đến."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Vる + やいなや (vừa… là ngay lập tức): \"Đứa bé vừa thấy mặt mẹ là chạy ngay đến.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ドアが開くやいなや、子どもたちが飛び込んできた。",
+       "彼は家に帰ったやいなや、シャワーを浴びた。",
+       "電話が鳴るやいなや、彼女は受話器を取った。",
+       "試験が終わるやいなや、学生たちは教室を出ていった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は家に帰ったやいなや、シャワーを浴びた。」 sai: やいなや chỉ gắn với Vる, không dùng Vた. Câu đúng: 彼は家に帰るやいなや、シャワーを浴びた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "雨がやむやいなや、彼は外へ出た。",
+       "社長が部屋に入るやいなや、みんな立ち上がった。",
+       "結果が発表されるやいなや、会場から大きな声が上がった。",
+       "駅に着くやいなや、すぐ連絡しなさい。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「駅に着くやいなや、すぐ連絡しなさい。」 sai: vế sau của やいなや là việc đã xảy ra, không dùng mệnh lệnh. Câu đúng (dùng mẫu khác): 駅に着いたら、すぐ連絡しなさい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "走り出した。",
+       "鳴るやいなや、",
+       "ベルが",
+       "生徒たちは"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Chuông vừa reo là học sinh đã chạy ùa ra."
+     },
+     {
+      "pieces": [
+       "パソコンを開いた。",
+       "彼は席に着く",
+       "やいなや、"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Anh ấy vừa ngồi vào chỗ là mở ngay máy tính."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "そのニュースを聞く＿＿、彼は家を飛び出した。",
+      "answer": "やいなや",
+      "accept": [
+       "や",
+       "なり"
+      ],
+      "translation_vi": "Vừa nghe tin đó là anh ấy lao ra khỏi nhà."
+     },
+     {
+      "sentence_ja": "店が開く＿＿、客が中へ入っていった。",
+      "answer": "やいなや",
+      "accept": [
+       "や"
+      ],
+      "translation_vi": "Cửa hàng vừa mở là khách đã ùa vào trong."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼女は手紙を読む（　　）、顔色が変わった。",
+      "options": [
+       "までに",
+       "あいだ",
+       "ために",
+       "やいなや"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「やいなや」: vừa đọc thư là sắc mặt thay đổi ngay. までに (trước lúc), あいだ (trong suốt lúc), ために (để, vì) không hợp. Nghĩa: Cô ấy vừa đọc lá thư là sắc mặt đã thay đổi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "新しい制度が始まるやいなや、問題が次々に出てきた。",
+      "options": [
+       "Chế độ mới chưa bắt đầu nên chưa có vấn đề gì.",
+       "Chế độ mới vừa bắt đầu là các vấn đề đã liên tiếp nảy sinh.",
+       "Vì có nhiều vấn đề nên chế độ mới được bắt đầu.",
+       "Không biết chế độ mới có bắt đầu hay không."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vる + やいなや (vừa… là ngay lập tức): \"Chế độ mới vừa bắt đầu là các vấn đề đã liên tiếp nảy sinh.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "父は帰宅するやいなや、テレビをつけた。",
+       "店員がいなくなるやいなや、子どもは商品に手を伸ばした。",
+       "明日、会社に着くやいなや、メールを確認するつもりだ。",
+       "その薬を飲むやいなや、痛みが消えた。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「明日、会社に着くやいなや、メールを確認するつもりだ。」 sai: やいなや kể hai việc đã xảy ra nối tiếp, không dùng cho dự định của người nói. Câu đúng (dùng mẫu khác): 明日、会社に着いたらすぐ、メールを確認するつもりだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -672,7 +1047,198 @@
    "id": "JG-708ac96399"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この字（　　）、書いたのは子どもだろう。",
+      "options": [
+       "にとって",
+       "からすると",
+       "に対して",
+       "に関して"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「からすると」: lấy nét chữ làm căn cứ để suy đoán (vế sau 〜だろう). にとって (đối với), に対して (đối với đối tượng), に関して (liên quan đến) không dùng để suy luận. Nghĩa: Xét theo nét chữ này thì người viết chắc là trẻ con."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "医者の立場（　　）、たばこはやめてほしい。",
+      "options": [
+       "によると",
+       "のわりに",
+       "からすると",
+       "のくせに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「からすると」: đứng từ lập trường bác sĩ mà nêu nhận xét. によると (theo nguồn tin), のわりに (so với), のくせに (vậy mà) không hợp. Nghĩa: Đứng từ lập trường bác sĩ thì tôi muốn anh bỏ thuốc lá."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "空の＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "雨になりそうだ",
+       "からすると",
+       "明日は",
+       "色"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 空の色からすると明日は雨になりそうだ。 (Xét theo màu trời thì ngày mai có vẻ sẽ mưa.). Mảnh ở ô ★ là 「明日は」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "先生の＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "試験の結果は",
+       "よくなかったようだ",
+       "表情",
+       "からすると"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 先生の表情からすると試験の結果はよくなかったようだ。 (Xét theo nét mặt của thầy thì có vẻ kết quả thi không tốt.). Mảnh ở ô ★ là 「からすると」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本人からすると、この料理は少し甘すぎるかもしれない。",
+      "options": [
+       "Theo lời người Nhật, món này không ngọt chút nào.",
+       "Người Nhật đã làm món này hơi ngọt quá.",
+       "Xét từ góc độ người Nhật thì món này có lẽ hơi quá ngọt.",
+       "Món này ngọt hơn món của người Nhật."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu N + からすると (xét từ góc độ): \"Xét từ góc độ người Nhật thì món này có lẽ hơi quá ngọt.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "部屋の様子からすると、誰かが入ったらしい。",
+      "options": [
+       "Xét theo tình trạng căn phòng thì hình như đã có ai đó vào.",
+       "Ai đó đã dọn dẹp lại căn phòng.",
+       "Căn phòng này không ai được vào.",
+       "Vì có người vào nên căn phòng bừa bộn."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N + からすると (xét theo căn cứ): \"Xét theo tình trạng căn phòng thì hình như đã có ai đó vào.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の顔色からすると、かなり疲れているようだ。",
+       "駅からすると、家まで歩いて十分かかる。",
+       "店からすれば、客が多いほどありがたい。",
+       "この書き方からすると、手紙を書いたのは母だろう。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「駅からすると、家まで歩いて十分かかる。」 sai: からすると là căn cứ để phán đoán, không chỉ điểm xuất phát. Câu đúng (dùng mẫu khác): 駅から家まで歩いて十分かかる。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "親からすると、子どもの安全が一番大事だ。",
+       "あの空の暗さからすると、もうすぐ雨が降りそうだ。",
+       "声の感じからすると、彼女はかなり怒っているようだ。",
+       "私からすると、来月日本へ行きます。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「私からすると、来月日本へ行きます。」 sai: vế sau của からすると phải là phán đoán, nhận xét, không phải hành động hay dự định. Câu đúng (dùng mẫu khác): 私は来月日本へ行きます。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "何か知っているようだ。",
+       "あの様子",
+       "彼は",
+       "からすると、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Xét theo bộ dạng đó thì có vẻ anh ấy biết điều gì đó."
+     },
+     {
+      "pieces": [
+       "長いほうがいい。",
+       "学生からすれば、",
+       "休みは"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Đứng từ góc độ học sinh thì kỳ nghỉ càng dài càng tốt."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼の返事の仕方＿＿、反対しているのだろう。",
+      "answer": "からすると",
+      "accept": [
+       "からすれば",
+       "から見ると",
+       "から見れば",
+       "からみると"
+      ],
+      "translation_vi": "Xét theo cách anh ấy trả lời thì chắc là anh ấy phản đối."
+     },
+     {
+      "sentence_ja": "店の立場＿＿、無料のサービスは大変だ。",
+      "answer": "からすると",
+      "accept": [
+       "からすれば",
+       "から見ると",
+       "から見れば",
+       "からみると"
+      ],
+      "translation_vi": "Đứng từ phía cửa hàng thì dịch vụ miễn phí thật vất vả."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この足あと（　　）、大きな動物が通ったにちがいない。",
+      "options": [
+       "からといって",
+       "からには",
+       "からこそ",
+       "からすると"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「からすると」: lấy dấu chân làm căn cứ để suy luận (〜にちがいない). からといって (không phải cứ… là), からには (đã… thì), からこそ (chính vì) không dùng để suy đoán từ dấu hiệu. Nghĩa: Xét theo dấu chân này thì chắc chắn đã có con vật lớn đi qua."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "外国人の私からすると、日本の電車はとても静かだ。",
+      "options": [
+       "Người Nhật nói với tôi rằng tàu điện rất yên tĩnh.",
+       "Nhìn từ góc độ của tôi, một người nước ngoài, tàu điện Nhật rất yên tĩnh.",
+       "Vì là người nước ngoài nên tôi phải giữ yên lặng trên tàu.",
+       "Tàu điện Nhật yên tĩnh hơn tàu điện nước ngoài."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N + からすると (xét từ lập trường): \"Nhìn từ góc độ của tôi, một người nước ngoài, tàu điện Nhật rất yên tĩnh.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の書いた文章からすると、日本語はかなり上手らしい。",
+       "社員からすれば、給料が上がるのはうれしいことだ。",
+       "この結果のからすると、計画は失敗だったようだ。",
+       "雲の動きからすると、台風が近づいているようだ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「この結果のからすると、計画は失敗だったようだ。」 sai: からすると gắn trực tiếp sau danh từ, không thêm の. Câu đúng: この結果からすると、計画は失敗だったようだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

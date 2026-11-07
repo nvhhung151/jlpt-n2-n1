@@ -1,279 +1,418 @@
 {
- "JG-8a99154124": {
+ "JG-3d5aec3c0e": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "百点を取った人が不合格になるなんて、そんなことはあり（　　）。",
-    "options": ["次第だ", "得ない", "かねる", "っぽい"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「得ない」: あり得ない = không thể có chuyện đó. 次第だ, かねる, っぽい không đi với あり theo nghĩa này. Nghĩa: Người được một trăm điểm mà lại bị đánh trượt, chuyện đó không thể có."
+    "prompt_ja": "この店の料理は本当においしい。さすが有名な店（　　）。",
+    "options": ["だけのことはある", "どころではない", "ことはない", "ほどではない"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「だけのことはある」: さすが〜だけのことはある = đúng là xứng với…, khen kết quả tốt. どころではない, ことはない, ほどではない không hợp với lời khen ở câu trước. Nghĩa: Đồ ăn quán này ngon thật. Đúng là quán nổi tiếng có khác."
    },
    {
     "type": "FILL",
-    "prompt_ja": "普通の人には想像し（　　）ほどの苦労を、彼は経験してきた。",
-    "options": ["得ない", "かけた", "がちな", "次第の"],
-    "answer_index": 0,
-    "explanation_vi": "Điền 「得ない」: 想像し得ない = không thể tưởng tượng nổi. かけた (làm dở), がちな (hay…), 次第の không hợp nghĩa. Nghĩa: Anh ấy đã trải qua những vất vả mà người bình thường không thể tưởng tượng nổi."
+    "prompt_ja": "十年もピアノを習っていた（　　）、彼女の演奏はすばらしい。",
+    "options": ["わりに", "くせに", "だけのことはあって", "ものの"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「だけのことはあって」: học piano mười năm thì tiếng đàn hay là xứng đáng. わりに, ものの chỉ kết quả trái ngược; くせに mang ý trách móc. Nghĩa: Đúng là xứng với mười năm học piano, cô ấy đàn tuyệt hay."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "＿＿ ＿＿ ★ ＿＿起きてしまった。",
-    "options": ["ことが", "得ない", "普通では", "あり"],
+    "prompt_ja": "このホテルは＿＿ ＿＿ ★ ＿＿。",
+    "options": ["最高だ", "サービスが", "高い", "だけのことはあって"],
     "answer_index": 1,
-    "explanation_vi": "Câu đúng: 普通ではあり得ないことが起きてしまった。 (Một chuyện bình thường không thể có đã xảy ra.). Mảnh ở ô ★ là 「得ない」."
+    "explanation_vi": "Câu đúng: このホテルは高いだけのことはあってサービスが最高だ。 (Khách sạn này đúng là đắt xứng đáng, dịch vụ tuyệt nhất.). Mảnh ở ô ★ là 「サービスが」."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "一日で＿＿ ＿＿ ★ ＿＿話だ。",
-    "options": ["話せるように", "あり得ない", "日本語が", "なるなんて"],
+    "prompt_ja": "さすがプロの＿＿ ＿＿ ★ ＿＿。",
+    "options": ["作った", "ある", "料理人が", "だけのことは"],
     "answer_index": 3,
-    "explanation_vi": "Câu đúng: 一日で日本語が話せるようになるなんてあり得ない話だ。 (Chỉ một ngày mà nói được tiếng Nhật là chuyện không thể có.). Mảnh ở ô ★ là 「なるなんて」."
+    "explanation_vi": "Câu đúng: さすがプロの料理人が作っただけのことはある。 (Đúng là món do đầu bếp chuyên nghiệp nấu có khác.). Mảnh ở ô ★ là 「だけのことは」."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "そんな高い値段で売れるなんて、あり得ない。",
+    "prompt_ja": "彼は一流大学を出ただけのことはあって、頭の回転が速い。",
     "options": [
-     "Không thể có chuyện bán được với giá cao như thế.",
-     "Đành phải bán với giá cao như thế.",
-     "Rất có thể sẽ bán được với giá cao như thế.",
-     "Không có cách nào để bán với giá cao như thế."
+     "Đúng là tốt nghiệp đại học hàng đầu có khác, anh ấy suy nghĩ rất nhanh.",
+     "Dù tốt nghiệp đại học hàng đầu nhưng anh ấy suy nghĩ chậm.",
+     "Chỉ có việc tốt nghiệp đại học hàng đầu là đáng kể, còn lại thì không.",
+     "Anh ấy suy nghĩ nhanh nên đã vào được đại học hàng đầu."
     ],
     "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu あり得ない (không thể có, không thể xảy ra): \"Không thể có chuyện bán được với giá cao như thế.\""
+    "explanation_vi": "Câu dùng mẫu 〜だけのことはあって (đúng là xứng với…): \"Đúng là tốt nghiệp đại học hàng đầu có khác, anh ấy suy nghĩ rất nhanh.\""
    },
    {
     "type": "MEANING",
-    "prompt_ja": "この結果は、私たちには予想し得ないものだった。",
+    "prompt_ja": "長い時間並んだだけのことはあった。このラーメンは最高だ。",
     "options": [
-     "Kết quả này là điều chúng tôi đã dự đoán từ trước.",
-     "Kết quả này là điều chúng tôi đành phải dự đoán.",
-     "Kết quả này là điều chúng tôi không thể nào dự đoán được.",
-     "Kết quả này có thể dự đoán được dễ dàng."
+     "Xếp hàng lâu quá nên tôi không ăn được ramen.",
+     "Chỉ xếp hàng thôi chứ ramen thì không có gì đặc biệt.",
+     "Dù không xếp hàng, món ramen này vẫn ngon.",
+     "Xếp hàng lâu thật đáng công, món ramen này tuyệt nhất."
     ],
-    "answer_index": 2,
-    "explanation_vi": "Câu dùng mẫu Vます + 得ない (không thể…): \"Kết quả này là điều chúng tôi không thể nào dự đoán được.\""
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜だけのことはあった (thật xứng đáng với…): \"Xếp hàng lâu thật đáng công, món ramen này tuyệt nhất.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "そんなことは常識ではあり得ない。",
-     "彼が負けるなんて、誰も予想し得なかった。",
-     "雨が降ってきたので、試合を中止し得ない。",
-     "人の心は、他人には完全に理解し得ないものだ。"
+     "さすがベテランの先生だけのことはあって、説明が分かりやすい。",
+     "高いだけのことはあって、すぐに壊れてしまった。",
+     "何度も練習しただけのことはあって、発表はうまくいった。",
+     "この旅館は人気があるだけのことはある。料理もお風呂もすばらしい。"
     ],
-    "answer_index": 2,
-    "explanation_vi": "「雨が降ってきたので、試合を中止し得ない。」 sai: ý 'trời mưa nên đành phải hủy' phải dùng ざるを得ない; 得ない nghĩa là 'không thể'. Câu đúng: 雨が降ってきたので、試合を中止せざるを得ない。"
+    "answer_index": 1,
+    "explanation_vi": "「高いだけのことはあって、すぐに壊れてしまった。」 sai: だけのことはある dùng để khen kết quả tốt xứng đáng, không dùng cho kết quả xấu. Câu đúng: 高かったのに、すぐに壊れてしまった。"
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "この町でそんな事件が起こるなんて、あり得ない。",
-     "この計画は、あり得ないほど早く進んだ。",
-     "そんなことは考えるえない。",
-     "言葉では表し得ない美しさだった。"
+     "さすが十年も日本に住んでいただけのことはある。日本語がぺらぺらだ。",
+     "このレストランは有名だだけのことはあって、味がいい。",
+     "毎日走っているだけのことはあって、彼はマラソンで優勝した。",
+     "苦労して作っただけのことはある。いいものができた。"
     ],
-    "answer_index": 2,
-    "explanation_vi": "「そんなことは考えるえない。」 sai: 得ない gắn sau thể ます bỏ ます, không gắn sau thể từ điển. Câu đúng: そんなことは考え得ない。"
+    "answer_index": 1,
+    "explanation_vi": "「このレストランは有名だだけのことはあって、味がいい。」 sai: tính từ な đi với だけのことはある phải dùng dạng な (有名な). Câu đúng: このレストランは有名なだけのことはあって、味がいい。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["あり", "ことだ。", "得ない", "普通なら"],
-    "answer_order": [3, 0, 2, 1],
-    "translation_vi": "Bình thường thì đó là chuyện không thể có."
+    "pieces": ["だけのことは", "ある。", "さすが", "プロ"],
+    "answer_order": [2, 3, 0, 1],
+    "translation_vi": "Đúng là dân chuyên nghiệp có khác."
    },
    {
-    "pieces": ["得ない", "説明し", "不思議な出来事だった。", "科学では"],
-    "answer_order": [3, 1, 0, 2],
-    "translation_vi": "Đó là một sự việc kỳ lạ mà khoa học không thể giải thích."
+    "pieces": ["だけのことはあって、", "このスープは", "時間をかけて作った", "深い味がする。"],
+    "answer_order": [1, 2, 0, 3],
+    "translation_vi": "Món súp này đúng là xứng với công nấu lâu, vị rất đậm đà."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "親が子どもの幸せを願わないなんて、あり＿＿。",
-    "answer": "得ない",
-    "accept": ["えない", "得ません"],
-    "translation_vi": "Bố mẹ mà không mong con hạnh phúc thì không thể có chuyện đó."
+    "sentence_ja": "彼の日本語は本当に上手だ。十年も日本で働いていた＿＿。",
+    "answer": "だけのことはある",
+    "accept": ["だけのことはあります", "だけある"],
+    "translation_vi": "Tiếng Nhật của anh ấy giỏi thật. Đúng là xứng với mười năm làm việc ở Nhật."
    },
    {
-    "sentence_ja": "この問題は、一人の力では解決し＿＿。",
-    "answer": "得ない",
-    "accept": ["えない", "得ません"],
-    "translation_vi": "Vấn đề này không thể giải quyết bằng sức của một người."
+    "sentence_ja": "一か月かけて準備した＿＿、パーティーは大成功だった。",
+    "answer": "だけのことはあって",
+    "accept": ["だけあって"],
+    "translation_vi": "Đúng là xứng với một tháng chuẩn bị, bữa tiệc đã thành công rực rỡ."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "人間が空を自由に飛ぶことは、今の技術では実現し（　　）。",
-    "options": ["がちだ", "っぽい", "得ない", "次第だ"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「得ない」: 実現し得ない = không thể thực hiện được. がちだ (hay…), っぽい, 次第だ không hợp nghĩa. Nghĩa: Với công nghệ hiện nay, việc con người tự do bay lượn trên trời là không thể thực hiện."
+    "prompt_ja": "何回も書き直した（　　）、いいレポートになった。",
+    "options": ["ばかりに", "どころか", "とたんに", "だけのことはあって"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「だけのことはあって」: viết lại nhiều lần nên bản báo cáo hay là xứng đáng. ばかりに (chỉ vì… mà gặp chuyện xấu), どころか, とたんに không hợp nghĩa. Nghĩa: Đúng là xứng với việc viết đi viết lại nhiều lần, bản báo cáo đã rất tốt."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "彼がそんなミスをするなんて、考え得ないことだ。",
+    "prompt_ja": "さすが人気の店だけのことはある。いつ来てもおいしい。",
     "options": [
-     "Anh ấy đành phải mắc lỗi như vậy.",
-     "Không thể nghĩ được rằng anh ấy lại mắc lỗi như vậy.",
-     "Rất có thể anh ấy sẽ mắc lỗi như vậy.",
-     "Anh ấy không có cách nào để sửa lỗi đó."
+     "Quán này đông khách nhưng không ngon lắm.",
+     "Đúng là quán được yêu thích có khác, lúc nào đến cũng ngon.",
+     "Vì là quán được yêu thích nên lúc nào cũng phải xếp hàng.",
+     "Chỉ có quán này là nổi tiếng, các quán khác không ngon."
     ],
     "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu 考え得ない (không thể nghĩ tới): \"Không thể nghĩ được rằng anh ấy lại mắc lỗi như vậy.\""
+    "explanation_vi": "Câu dùng mẫu さすが〜だけのことはある (đúng là xứng với…): \"Đúng là quán được yêu thích có khác, lúc nào đến cũng ngon.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "そんな偶然はあり得ないと思う。",
-     "子どもには理解し得ない難しい話だった。",
-     "熱があるので、今日は学校に行き得ない。",
-     "彼の成功は、努力なしにはあり得なかった。"
+     "有名な画家の絵だけのことはあって、とても美しい。",
+     "一生懸命勉強しただけのことはあって、試験に落ちた。",
+     "この車は値段が高いだけのことはあって、乗り心地がいい。",
+     "さすが元選手だけのことはあって、今でも足が速い。"
     ],
-    "answer_index": 2,
-    "explanation_vi": "「熱があるので、今日は学校に行き得ない。」 sai: 得ない là văn viết, nói việc không thể xảy ra về lý lẽ, không dùng cho việc cá nhân không làm được hằng ngày. Câu đúng: 熱があるので、今日は学校に行けない。"
+    "answer_index": 1,
+    "explanation_vi": "「一生懸命勉強しただけのことはあって、試験に落ちた。」 sai: vế sau phải là kết quả tốt xứng đáng; thi trượt là kết quả trái ngược. Câu đúng: 一生懸命勉強しただけのことはあって、試験に合格した。"
    }
   ]
  },
- "JG-248bff19fa": {
+ "JG-7fd1a327d3": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "この店は値段が高い（　　）、サービスがよくない。",
-    "options": ["割に", "だけに", "ついでに", "とおりに"],
-    "answer_index": 0,
-    "explanation_vi": "Điền 「割に」: so với giá cao thì dịch vụ lại kém, trái với kỳ vọng. だけに (kết quả đúng như lý do), ついでに, とおりに không hợp nghĩa. Nghĩa: Quán này giá đắt mà dịch vụ lại không tốt."
+    "prompt_ja": "毎日遅くまで働いている父（　　）、休みの日くらいゆっくり寝たいだろう。",
+    "options": ["にかけては", "に沿って", "にしたら", "にわたって"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にしたら」: N + にしたら = đứng ở lập trường của người đó thì…, vế sau là cảm nghĩ của họ. にかけては (về khoản…), に沿って (theo), にわたって (suốt) không hợp nghĩa. Nghĩa: Bố tôi ngày nào cũng làm đến khuya, đứng ở lập trường bố thì ngày nghỉ chắc muốn ngủ thong thả."
    },
    {
     "type": "FILL",
-    "prompt_ja": "あの子は小学生の（　　）、難しい漢字をたくさん知っている。",
-    "options": ["最中に", "あまり", "割に", "たびに"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「割に」: N の + 割に = so với… thì lại…. 最中に (đang giữa lúc), あまり (vì quá…), たびに (mỗi lần) không hợp nghĩa. Nghĩa: Đứa bé đó mới học tiểu học mà đã biết rất nhiều chữ Hán khó."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "この料理は＿＿ ＿＿ ★ ＿＿。",
-    "options": ["おいしい", "簡単に", "作れる", "割に"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: この料理は簡単に作れる割においしい。 (Món này làm dễ vậy mà lại ngon.). Mảnh ở ô ★ là 「割に」."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。",
-    "options": ["やせている", "割には", "たくさん", "食べる"],
-    "answer_index": 1,
-    "explanation_vi": "Câu đúng: 彼はたくさん食べる割にはやせている。 (Anh ấy ăn nhiều vậy mà lại gầy.). Mảnh ở ô ★ là 「割には」."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "このかばんは大きい割に軽い。",
-    "options": [
-     "Cái túi này vì to nên nặng.",
-     "Cái túi này vừa to vừa nặng.",
-     "Cái túi này to vậy mà lại nhẹ.",
-     "Cái túi này nhỏ nhưng nặng."
-    ],
-    "answer_index": 2,
-    "explanation_vi": "Câu dùng mẫu 〜割に (so với… thì lại…): \"Cái túi này to vậy mà lại nhẹ.\""
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "この映画は評判の割にはおもしろくなかった。",
-    "options": [
-     "Bộ phim này không hay như lời người ta khen.",
-     "Bộ phim này đúng như lời đồn, rất hay.",
-     "Vì có tiếng nên bộ phim này rất hay.",
-     "Bộ phim này chưa có ai đánh giá nên không hay."
-    ],
+    "prompt_ja": "私には簡単な問題でも、初めて習う子ども（　　）難しいだろう。",
+    "options": ["にすれば", "につき", "に先立って", "をめぐって"],
     "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu N の + 割には (so với… thì lại…): \"Bộ phim này không hay như lời người ta khen.\""
+    "explanation_vi": "Điền 「にすれば」: N + にすれば = xét từ lập trường của N. につき, に先立って, をめぐって không hợp nghĩa. Nghĩa: Bài dù dễ với tôi, nhưng với đứa trẻ mới học lần đầu thì chắc là khó."
    },
    {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "type": "ORDER_STAR",
+    "prompt_ja": "夜中の工事は、＿＿ ＿＿ ★ ＿＿だろう。",
+    "options": ["迷惑", "にしたら", "住む人", "近所に"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 夜中の工事は、近所に住む人にしたら迷惑だろう。 (Thi công giữa đêm thì với người sống gần đó chắc là phiền.). Mảnh ở ô ★ là 「にしたら」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "会社の決定は、＿＿ ＿＿ ★ ＿＿ないだろう。",
+    "options": ["にすれば", "でき", "社員", "納得"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 会社の決定は、社員にすれば納得できないだろう。 (Quyết định của công ty, đứng ở lập trường nhân viên thì chắc không thể chấp nhận.). Mảnh ở ô ★ là 「納得」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "店にしたら、客が少ない雨の日は困るだろう。",
     "options": [
-     "この部屋は駅から近い割に、家賃が安い。",
-     "よく勉強した割に、試験に合格した。",
-     "兄は体が大きい割に、力が弱い。",
-     "この時計は値段の割に、品質がいい。"
+     "Đối với khách thì những ngày mưa vắng người rất dễ chịu.",
+     "Đứng ở lập trường cửa hàng thì ngày mưa vắng khách chắc là khó khăn.",
+     "Cửa hàng quyết định đóng cửa vào những ngày mưa.",
+     "Nếu là cửa hàng thì sẽ có nhiều khách vào ngày mưa."
     ],
     "answer_index": 1,
-    "explanation_vi": "「よく勉強した割に、試験に合格した。」 sai: 割に cần kết quả trái với kỳ vọng; học chăm rồi đỗ là đúng như kỳ vọng. Câu đúng: よく勉強したので、試験に合格した。"
+    "explanation_vi": "Câu dùng mẫu N + にしたら (đứng ở lập trường của…): \"Đứng ở lập trường cửa hàng thì ngày mưa vắng khách chắc là khó khăn.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "親にすれば、子どもはいくつになっても子どもだ。",
+    "options": [
+     "Nếu có bố mẹ thì con cái sẽ mãi là trẻ con.",
+     "Con cái lớn rồi thì không cần bố mẹ nữa.",
+     "Bố mẹ muốn con cái mãi mãi không lớn.",
+     "Đứng ở lập trường bố mẹ thì con cái dù bao nhiêu tuổi vẫn là con."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + にすれば (đứng ở lập trường của…): \"Đứng ở lập trường bố mẹ thì con cái dù bao nhiêu tuổi vẫn là con.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "山田さんは若い割に、落ち着いている。",
-     "このパソコンは古い割に、よく動く。",
-     "彼は子どもな割に、しっかりしている。",
-     "この町は静かな割に、店が多くて便利だ。"
+     "学生にしたら、テストは少ないほうがいいだろう。",
+     "この薬にしたら、子どもにも安全だ。",
+     "祖母にしたら、毎日の買い物は楽しみの一つなのだろう。",
+     "社長にすれば、社員の健康も大切な問題だ。"
     ],
-    "answer_index": 2,
-    "explanation_vi": "「彼は子どもな割に、しっかりしている。」 sai: danh từ đi với の割に, không dùng な (な chỉ dùng với tính từ な). Câu đúng: 彼は子どもの割に、しっかりしている。"
+    "answer_index": 1,
+    "explanation_vi": "「この薬にしたら、子どもにも安全だ。」 sai: N của にしたら phải là người hay tổ chức có suy nghĩ, cảm nhận; thuốc không có lập trường. Câu đúng: この薬は、子どもにも安全だ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "先生にしたら、遅刻する学生は困った存在だろう。",
+     "私にしたら、明日は早く来てください。",
+     "子どもにすれば、毎日の塾は大変だろう。",
+     "お客さんにしても、待たされるのは嫌なはずだ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「私にしたら、明日は早く来てください。」 sai: vế sau của にしたら là suy nghĩ, cảm nhận từ lập trường đó, không dùng lời nhờ vả. Câu đúng: 私にしたら、明日早く来てもらえると助かる。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["割には", "よくできた。", "初めての"],
-    "answer_order": [2, 0, 1],
-    "translation_vi": "So với lần đầu thì làm khá tốt."
+    "pieces": ["にしたら", "うれしい", "社員", "制度だ。"],
+    "answer_order": [2, 0, 1, 3],
+    "translation_vi": "Đó là chế độ mà đứng ở lập trường nhân viên thì rất đáng mừng."
    },
    {
-    "pieces": ["割に", "値段の", "量が多い。"],
-    "answer_order": [1, 0, 2],
-    "translation_vi": "So với giá tiền thì lượng đồ ăn nhiều."
+    "pieces": ["困る", "にすれば", "話だ。", "店"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Đó là chuyện mà đứng ở phía cửa hàng thì thật khó xử."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "このカメラは小さい＿＿、きれいな写真が撮れる。",
-    "answer": "割に",
-    "accept": ["割には", "わりに", "わりには"],
-    "translation_vi": "Chiếc máy ảnh này nhỏ vậy mà chụp được ảnh đẹp."
+    "sentence_ja": "母＿＿、私が一人で海外に住むのは心配なのだろう。",
+    "answer": "にしたら",
+    "accept": ["にすれば", "にしてみれば", "にしてみたら", "にとっては"],
+    "translation_vi": "Đứng ở lập trường mẹ thì việc tôi sống một mình ở nước ngoài chắc là đáng lo."
    },
    {
-    "sentence_ja": "彼は練習しなかった＿＿、試合でよく頑張った。",
-    "answer": "割に",
-    "accept": ["割には", "わりに", "わりには", "のに"],
-    "translation_vi": "Anh ấy không luyện tập mấy mà vẫn thi đấu rất cố gắng."
+    "sentence_ja": "部下＿＿、毎日違うことを言う上司は困るだろう。",
+    "answer": "にしたら",
+    "accept": ["にすれば", "にしてみれば", "にしてみたら", "にとっては"],
+    "translation_vi": "Đứng ở lập trường cấp dưới thì cấp trên mỗi ngày nói một kiểu chắc là khó chịu."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "彼は日本に長く住んでいる（　　）、日本語があまり上手ではない。",
-    "options": ["だけに", "割に", "おかげで", "ばかりか"],
+    "prompt_ja": "店員（　　）、閉店直前に来る客は少し困るだろう。",
+    "options": ["にこたえて", "にしたら", "にともなって", "に加えて"],
     "answer_index": 1,
-    "explanation_vi": "Điền 「割に」: sống lâu ở Nhật mà tiếng Nhật không giỏi lắm, trái với kỳ vọng. だけに, おかげで chỉ kết quả đúng như lý do; ばかりか (không những… mà còn) không hợp. Nghĩa: Anh ấy sống ở Nhật lâu vậy mà tiếng Nhật không giỏi lắm."
+    "explanation_vi": "Điền 「にしたら」: đứng ở lập trường nhân viên cửa hàng mà nói cảm nhận của họ. にこたえて, にともなって, に加えて không hợp nghĩa. Nghĩa: Đứng ở lập trường nhân viên thì khách đến ngay trước giờ đóng cửa chắc hơi phiền."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "祖母は八十歳の割に、よく歩く。",
+    "prompt_ja": "若い人にしたら、この曲は古く感じるだろう。",
     "options": [
-     "Bà tôi 80 tuổi nên đi bộ chậm.",
-     "Bà tôi 80 tuổi rồi mà vẫn đi bộ nhiều.",
-     "Bà tôi đi bộ nhiều nên sống đến 80 tuổi.",
-     "Bà tôi đã 80 tuổi nên không đi bộ nữa."
+     "Bài hát này dành cho người trẻ nên có vẻ mới mẻ.",
+     "Nếu là người trẻ thì nên nghe bài hát cũ này.",
+     "Đứng ở lập trường người trẻ thì bài hát này có lẽ nghe cũ.",
+     "Người trẻ đã sáng tác bài hát cũ này."
     ],
-    "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu N の + 割に (so với… thì lại…): \"Bà tôi 80 tuổi rồi mà vẫn đi bộ nhiều.\""
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N + にしたら (đứng ở lập trường của…): \"Đứng ở lập trường người trẻ thì bài hát này có lẽ nghe cũ.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
     "options": [
-     "このりんごは小さい割に、甘い。",
-     "この店は人気がある割に、いつも混んでいる。",
-     "彼は忙しい割に、よく本を読んでいる。",
-     "このかばんは安い割に、丈夫だ。"
+     "観光客にしたら、駅の案内が英語だと助かるだろう。",
+     "お年寄りしたら、この階段は大変だろう。",
+     "店長にしても、客が少ないのは困るだろう。",
+     "彼にしても、わざと失敗したわけではない。"
     ],
     "answer_index": 1,
-    "explanation_vi": "「この店は人気がある割に、いつも混んでいる。」 sai: quán được yêu thích thì đông là đúng như kỳ vọng, không dùng 割に. Câu đúng: この店は人気があるので、いつも混んでいる。"
+    "explanation_vi": "「お年寄りしたら、この階段は大変だろう。」 sai: phải có に giữa danh từ và したら (N + にしたら). Câu đúng: お年寄りにしたら、この階段は大変だろう。"
+   }
+  ]
+ },
+ "JG-0c3c3e8eee": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "楽しみにしていた子ども（　　）、遠足の中止は本当に残念だっただろう。",
+    "options": ["にかけては", "に沿って", "に反して", "にしてみれば"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「にしてみれば」: thử đặt mình vào vị trí của bọn trẻ để đoán cảm xúc. にかけては, に沿って, に反して không hợp nghĩa. Nghĩa: Với bọn trẻ đã mong chờ thì việc chuyến dã ngoại bị hủy chắc là đáng tiếc lắm."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "私には小さなことでも、彼（　　）大きな問題なのかもしれない。",
+    "options": ["にしてみれば", "次第で", "をこめて", "に先立って"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「にしてみれば」: đứng vào vị trí của anh ấy thì có thể là chuyện lớn, đối lập với 私には. 次第で, をこめて, に先立って không hợp nghĩa. Nghĩa: Với tôi là chuyện nhỏ, nhưng với anh ấy có khi lại là vấn đề lớn."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "急に仕事を頼まれた＿＿ ＿＿ ★ ＿＿。",
+    "options": ["話だ", "迷惑な", "にしてみれば", "山田さん"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 急に仕事を頼まれた山田さんにしてみれば迷惑な話だ。 (Với anh Yamada bị nhờ việc đột ngột thì đó là chuyện phiền phức.). Mảnh ở ô ★ là 「迷惑な」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "毎日料理を作る＿＿ ＿＿ ★ ＿＿うれしいものだ。",
+    "options": ["母", "一番", "にしてみれば", "「おいしい」と言われるのが"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 毎日料理を作る母にしてみれば「おいしい」と言われるのが一番うれしいものだ。 (Với mẹ ngày nào cũng nấu ăn thì được khen 'ngon' là vui nhất.). Mảnh ở ô ★ là 「「おいしい」と言われるのが」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "客にしてみれば、待たされる十分はとても長く感じる。",
+    "options": [
+     "Đối với khách, mười phút phải chờ đợi có cảm giác rất dài.",
+     "Khách hàng đã chờ mười phút rồi bỏ về.",
+     "Nếu là khách thì nên chờ mười phút.",
+     "Thử làm khách mới biết mười phút trôi qua rất nhanh."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + にしてみれば (đứng vào vị trí của…): \"Đối với khách, mười phút phải chờ đợi có cảm giác rất dài.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "先生にしてみれば、学生のためを思って厳しくしているのだろう。",
+    "options": [
+     "Thầy giáo thử nghiêm khắc với học sinh một lần.",
+     "Học sinh nghĩ thầy giáo quá nghiêm khắc.",
+     "Nếu là thầy giáo thì không nên nghiêm khắc.",
+     "Đứng ở vị trí thầy giáo thì chắc thầy nghiêm khắc là vì nghĩ cho học sinh."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + にしてみれば (đứng vào vị trí của…): \"Đứng ở vị trí thầy giáo thì chắc thầy nghiêm khắc là vì nghĩ cho học sinh.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "弟にしてみれば、兄と比べられるのは嫌なのだろう。",
+     "この古い家にしてみれば、修理が必要だ。",
+     "留学生にしてみれば、日本の生活は分からないことばかりだろう。",
+     "家族にしてみれば、父の転勤は大きな問題だった。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「この古い家にしてみれば、修理が必要だ。」 sai: N của にしてみれば phải là người hay tổ chức có cảm nhận; ngôi nhà không có lập trường. Câu đúng: この古い家は、修理が必要だ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "彼にしてみれば、冗談のつもりだったのだろう。",
+     "子どもにしてみたら、大人の話はつまらないものだ。",
+     "私にしてみれば、明日は早く起きよう。",
+     "新入社員にしてみれば、初めての会議は緊張するだろう。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「私にしてみれば、明日は早く起きよう。」 sai: vế sau của にしてみれば là suy nghĩ, cảm nhận từ vị trí đó, không dùng ý chí 〜よう. Câu đúng: 私にしてみれば、明日早く起きるのは大変だ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["にしてみれば", "うれしい", "ニュースだ。", "ファン"],
+    "answer_order": [3, 0, 1, 2],
+    "translation_vi": "Đối với người hâm mộ thì đó là tin vui."
+   },
+   {
+    "pieces": ["当然の", "にしてみれば", "要求だ。", "働く人"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Đứng ở vị trí người lao động thì đó là yêu cầu đương nhiên."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "祖父＿＿、新しい機械の使い方を覚えるのは大変なのだろう。",
+    "answer": "にしてみれば",
+    "accept": ["にしてみたら", "にしたら", "にすれば", "にとっては"],
+    "translation_vi": "Đối với ông tôi thì việc nhớ cách dùng máy móc mới chắc là vất vả."
+   },
+   {
+    "sentence_ja": "体が小さい子ども＿＿、この机は高すぎるだろう。",
+    "answer": "にしてみれば",
+    "accept": ["にしてみたら", "にしたら", "にすれば", "にとっては"],
+    "translation_vi": "Với đứa trẻ người nhỏ thì cái bàn này chắc là quá cao."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "何も聞かされていなかった部下（　　）、突然の発表は驚きだっただろう。",
+    "options": ["をきっかけに", "にともなって", "にしてみれば", "に比べて"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にしてみれば」: đặt mình vào vị trí cấp dưới không được báo trước để đoán cảm xúc. をきっかけに, にともなって, に比べて không hợp nghĩa. Nghĩa: Với cấp dưới chẳng được báo gì thì thông báo đột ngột đó chắc là bất ngờ."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "本人にしてみれば、一生懸命やった結果なのだろう。",
+    "options": [
+     "Thử để chính người đó làm thì kết quả sẽ tốt hơn.",
+     "Đối với chính người đó thì có lẽ đó là kết quả của việc đã cố gắng hết sức.",
+     "Người đó không hề cố gắng nên kết quả không tốt.",
+     "Chính tôi đã cố gắng hết sức nên có kết quả này."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + にしてみれば (đứng vào vị trí của…): \"Đối với chính người đó thì có lẽ đó là kết quả của việc đã cố gắng hết sức.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "社長にしてみれば、会社を守るための決定だった。",
+     "お客様してみれば、説明が足りないと感じるだろう。",
+     "母にしてみれば、私はいつまでも子どもなのだ。",
+     "選手にしてみれば、負けた試合のことは早く忘れたいだろう。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「お客様してみれば、説明が足りないと感じるだろう。」 sai: phải có に sau danh từ (N + にしてみれば). Câu đúng: お客様にしてみれば、説明が足りないと感じるだろう。"
    }
   ]
  }

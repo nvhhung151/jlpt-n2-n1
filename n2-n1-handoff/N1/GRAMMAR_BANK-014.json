@@ -638,7 +638,194 @@
    "id": "JG-5a9d864924"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "息子は私が作った料理を食べ（　　）で、部屋に戻ってしまった。",
+      "options": [
+       "かねない",
+       "もしない",
+       "っこない",
+       "がたい"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「もしない」: Vます bỏ ます + もしないで = chẳng thèm làm dù chỉ một chút, kèm ý trách. Các phương án khác không nối với で để làm vế 'mà không' được. Nghĩa: Con trai tôi chẳng thèm ăn món tôi nấu mà đi về phòng luôn."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は私が書いた企画書を読み（　　）、やり直せと言った。",
+      "options": [
+       "もせずに",
+       "ことなく",
+       "つつあり",
+       "っこなく"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「もせずに」: 読み + もせずに = chẳng thèm đọc mà đã... ことなく phải đi sau Vる (読むことなく), つつあり, っこなく không hợp nghĩa. Nghĩa: Anh ta chẳng thèm đọc bản kế hoạch tôi viết mà đã bảo làm lại."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "弟は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "ばかりいる",
+       "遊んで",
+       "宿題を",
+       "やりもしないで"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 弟は宿題をやりもしないで遊んでばかりいる。 (Em trai tôi chẳng thèm làm bài tập, chỉ toàn đi chơi.). Mảnh ở ô ★ là 「遊んで」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿、私の意見を批判した。",
+      "options": [
+       "資料を",
+       "もしないで",
+       "渡した",
+       "読み"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼は渡した資料を読みもしないで、私の意見を批判した。 (Anh ta chẳng thèm đọc tài liệu tôi đưa mà đã phê phán ý kiến của tôi.). Mảnh ở ô ★ là 「読み」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "田中さんは私の顔を見もしないで、挨拶をした。",
+      "options": [
+       "Anh Tanaka nhìn thẳng vào mặt tôi và chào.",
+       "Anh Tanaka muốn gặp tôi để chào hỏi.",
+       "Tôi chào anh Tanaka mà không nhìn mặt anh ấy.",
+       "Anh Tanaka chào tôi mà chẳng thèm nhìn mặt tôi."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vます + もしない (chẳng thèm làm): \"Anh Tanaka chào tôi mà chẳng thèm nhìn mặt tôi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの店員は客に呼ばれても、振り向きもしない。",
+      "options": [
+       "Nhân viên đó luôn quay lại ngay khi khách gọi.",
+       "Khách gọi mãi mà nhân viên đó không nghe thấy.",
+       "Nhân viên đó dù bị khách gọi cũng chẳng thèm quay lại.",
+       "Nhân viên đó gọi khách nhưng khách không quay lại."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Vます + もしない (chẳng thèm làm): \"Nhân viên đó dù bị khách gọi cũng chẳng thèm quay lại.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は約束の時間に来もしないで、連絡もよこさない。",
+       "母は私の話を聞くもしないで、出かけてしまった。",
+       "課長は報告書に目を通しもしないで、印を押した。",
+       "娘は礼を言いもしないで、お土産を受け取った。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「母は私の話を聞くもしないで、出かけてしまった。」 sai: もしない đi sau Vます bỏ ます, không đi sau thể từ điển. Câu đúng: 母は私の話を聞きもしないで、出かけてしまった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "夫は電話が鳴っても、取りもしない。",
+       "あの人は会議に出もしないのに、決まったことに反対する。",
+       "兄は手紙を読んでもしないで、ごみ箱に捨てた。",
+       "彼女は値段を見もしないで、高い服を買った。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「兄は手紙を読んでもしないで、ごみ箱に捨てた。」 sai: không dùng thể て trước もしない; phải là Vます bỏ ます. Câu đúng: 兄は手紙を読みもしないで、ごみ箱に捨てた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "私の話を聞き",
+       "断った。",
+       "部長は",
+       "もしないで"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Trưởng phòng chẳng thèm nghe tôi nói mà đã từ chối."
+     },
+     {
+      "pieces": [
+       "去っていった。",
+       "振り返り",
+       "彼女は",
+       "もせず"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Cô ấy bỏ đi mà chẳng thèm ngoái lại."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼は人の意見を聞き＿＿で、自分の考えを押し通した。",
+      "answer": "もしない",
+      "accept": [
+       "さえしない"
+      ],
+      "translation_vi": "Anh ta chẳng thèm nghe ý kiến người khác mà cứ khăng khăng theo ý mình."
+     },
+     {
+      "sentence_ja": "新人なのに、彼はマニュアルを開き＿＿で質問ばかりしてくる。",
+      "answer": "もしない",
+      "accept": [
+       "さえしない"
+      ],
+      "translation_vi": "Là người mới mà cậu ta chẳng thèm mở sách hướng dẫn, chỉ toàn đến hỏi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は医者の忠告を聞き（　　）、毎晩お酒を飲み続けている。",
+      "options": [
+       "ものの",
+       "ゆえに",
+       "もせず",
+       "ことなく"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「もせず」: 聞き + もせず = chẳng thèm nghe. ものの, ゆえに, ことなく không đi sau Vます bỏ ます. Nghĩa: Anh ấy chẳng thèm nghe lời khuyên của bác sĩ, tối nào cũng tiếp tục uống rượu."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "部長は私の提案に目を通しもせず、却下した。",
+      "options": [
+       "Trưởng phòng đọc kỹ đề xuất của tôi rồi mới bác bỏ.",
+       "Trưởng phòng bác bỏ đề xuất của tôi mà chẳng thèm xem qua.",
+       "Trưởng phòng chưa có thời gian xem đề xuất của tôi.",
+       "Tôi bác bỏ đề xuất của trưởng phòng mà không đọc."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Vます + もしない (chẳng thèm làm): \"Trưởng phòng bác bỏ đề xuất của tôi mà chẳng thèm xem qua.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は答えを見直しもせずに、答案を出した。",
+       "妹は人の話を最後まで聞きもしないで、怒り出した。",
+       "店員は商品を確かめもしないで、袋に入れた。",
+       "彼は一度も休むもしないで、働き続けた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「彼は一度も休むもしないで、働き続けた。」 sai: もしない đi sau Vます bỏ ます (休み), không đi sau thể từ điển. Câu đúng: 彼は一度も休みもしないで、働き続けた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -661,7 +848,194 @@
    "id": "JG-2c841c0cac"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "医者（　　）、患者の秘密を他人に話してはならない。",
+      "options": [
+       "ならでは",
+       "たるもの",
+       "ながらに",
+       "なりに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「たるもの」: N (nghề nghiệp, địa vị) + たるもの + vế bổn phận 'đã là... thì phải/không được'. ならでは là 'chỉ riêng N mới có', なりに là 'theo cách của N', ながらに không hợp nghĩa. Nghĩa: Đã là bác sĩ thì không được kể bí mật của bệnh nhân cho người khác."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "指導者（　　）、自ら手本を示さなければならない。",
+      "options": [
+       "ずくめ",
+       "まみれ",
+       "極まりなく",
+       "たるもの"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「たるもの」: vế sau là bổn phận なければならない nên dùng N + たるもの. ずくめ, まみれ chỉ trạng thái toàn là/dính đầy, 極まりなく không đi sau danh từ người. Nghĩa: Đã là người lãnh đạo thì phải tự mình làm gương."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿べきだ。",
+      "options": [
+       "耳を傾ける",
+       "声に",
+       "経営者たるもの",
+       "社員の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 経営者たるもの社員の声に耳を傾けるべきだ。 (Đã là người điều hành doanh nghiệp thì nên lắng nghe tiếng nói của nhân viên.). Mảnh ở ô ★ là 「声に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿はならない。",
+      "options": [
+       "個人の感情で",
+       "判断して",
+       "たるもの、",
+       "裁判官"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 裁判官たるもの、個人の感情で判断してはならない。 (Đã là thẩm phán thì không được phán xét theo cảm xúc cá nhân.). Mảnh ở ô ★ là 「たるもの、」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "教師たるもの、生徒を公平に扱うべきだ。",
+      "options": [
+       "Giáo viên nào cũng đối xử công bằng với học sinh.",
+       "Học sinh phải đối xử công bằng với giáo viên.",
+       "Chỉ có giáo viên giỏi mới đối xử công bằng với học sinh.",
+       "Đã là giáo viên thì phải đối xử công bằng với học sinh."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜たるもの (đã là... thì phải): \"Đã là giáo viên thì phải đối xử công bằng với học sinh.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "プロ選手たるもの、体調管理を怠ってはならない。",
+      "options": [
+       "Đã là vận động viên chuyên nghiệp thì không được lơ là việc giữ gìn thể trạng.",
+       "Vận động viên chuyên nghiệp thường không quan tâm đến thể trạng.",
+       "Muốn thành vận động viên chuyên nghiệp thì phải có thể trạng tốt bẩm sinh.",
+       "Vận động viên chuyên nghiệp được phép nghỉ khi mệt."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜たるもの (đã là... thì phải): \"Đã là vận động viên chuyên nghiệp thì không được lơ là việc giữ gìn thể trạng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "弁護士たるもの、依頼人の利益を守らなければならない。",
+       "親たるもの、子どもの手本となるよう心がけるべきだ。",
+       "この机たるもの、丈夫でなければならない。",
+       "社長たるもの、会社の危機から逃げてはならない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「この机たるもの、丈夫でなければならない。」 sai: たるもの chỉ đi sau danh từ chỉ người có vai trò, địa vị đáng kính, không dùng cho đồ vật. Câu đúng: 机は丈夫でなければならない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "学者たるもの、データを偽ってはならない。",
+       "記者たるもの、事実を正確に伝えるべきだ。",
+       "リーダーたるもの、部下の失敗の責任を取る覚悟が必要だ。",
+       "教師たるもの、昨日は学校を休んだ。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「教師たるもの、昨日は学校を休んだ。」 sai: vế sau của たるもの phải là bổn phận, điều nên làm, không phải sự việc đã xảy ra. Câu đúng: 教師たるもの、軽々しく学校を休むべきではない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "たるもの、",
+       "嘘をついてはならない。",
+       "政治家",
+       "国民に"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Đã là chính trị gia thì không được nói dối nhân dân."
+     },
+     {
+      "pieces": [
+       "約束を守るべきだ。",
+       "たるもの、",
+       "商人",
+       "客との"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Đã là người buôn bán thì phải giữ lời hứa với khách hàng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "看護師＿＿、患者の小さな変化も見逃してはならない。",
+      "answer": "たるもの",
+      "accept": [
+       "たる者"
+      ],
+      "translation_vi": "Đã là y tá thì không được bỏ qua dù là thay đổi nhỏ nhất của bệnh nhân."
+     },
+     {
+      "sentence_ja": "警察官＿＿、自ら法律を守る手本でなければならない。",
+      "answer": "たるもの",
+      "accept": [
+       "たる者"
+      ],
+      "translation_vi": "Đã là cảnh sát thì phải là tấm gương tự mình tuân thủ pháp luật."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "学生（　　）、勉強を本分とすべきだ。",
+      "options": [
+       "ぐるみ",
+       "たるもの",
+       "だらけ",
+       "がらみ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「たるもの」: N + たるもの + べきだ = đã là N thì phải. ぐるみ, だらけ, がらみ không mang nghĩa bổn phận theo vai trò. Nghĩa: Đã là học sinh thì việc học phải là bổn phận chính."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿ことを忘れてはならない。",
+      "options": [
+       "奉仕する",
+       "公務員",
+       "国民に",
+       "たるもの、"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 公務員たるもの、国民に奉仕することを忘れてはならない。 (Đã là công chức thì không được quên việc phục vụ nhân dân.). Mảnh ở ô ★ là 「国民に」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "親たるもの、子どもの前で人の悪口を言うべきではない。",
+      "options": [
+       "Cha mẹ thường hay nói xấu người khác trước mặt con.",
+       "Con cái không nên nói xấu cha mẹ.",
+       "Đã là cha mẹ thì không nên nói xấu người khác trước mặt con cái.",
+       "Trước mặt con cái, cha mẹ nên khen người khác thật nhiều."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜たるもの (đã là... thì phải): \"Đã là cha mẹ thì không nên nói xấu người khác trước mặt con cái.\""
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -684,7 +1058,194 @@
    "id": "JG-64fc6ad3a4"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "このまま工事を続けると、住民の安全に（　　）問題になる。",
+      "options": [
+       "沿った",
+       "先立つ",
+       "関わる",
+       "即した"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「関わる」: N + に関わる + N = ảnh hưởng nghiêm trọng đến điều quan trọng (安全). に沿った, に即した là 'theo, phù hợp với', に先立つ là 'trước khi', không hợp nghĩa. Nghĩa: Nếu cứ tiếp tục thi công thế này, sẽ thành vấn đề ảnh hưởng đến an toàn của cư dân."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "ただの風邪だと思っても、高齢者の場合は命に（　　）こともある。",
+      "options": [
+       "越した",
+       "めぐる",
+       "伴う",
+       "関わる"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「関わる」: 命に関わる = nguy hiểm đến tính mạng. に越した chỉ dùng trong に越したことはない, めぐる đi với を, に伴う là 'kéo theo'. Nghĩa: Dù nghĩ chỉ là cảm thường, với người cao tuổi đôi khi cũng nguy đến tính mạng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿だから、慎重に決めよう。",
+      "options": [
+       "重要な問題",
+       "関わる",
+       "これは",
+       "会社の将来に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: これは会社の将来に関わる重要な問題だから、慎重に決めよう。 (Đây là vấn đề quan trọng ảnh hưởng đến tương lai công ty, nên hãy quyết định thận trọng.). Mảnh ở ô ★ là 「関わる」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、早めに対処すべきだ。",
+      "options": [
+       "なので",
+       "問題",
+       "関わる",
+       "店の信用に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 店の信用に関わる問題なので、早めに対処すべきだ。 (Đây là vấn đề ảnh hưởng đến uy tín của cửa hàng, nên cần xử lý sớm.). Mảnh ở ô ★ là 「関わる」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "食品の表示ミスは、消費者の健康に関わる重大な問題だ。",
+      "options": [
+       "Lỗi ghi nhãn thực phẩm không ảnh hưởng gì đến người tiêu dùng.",
+       "Lỗi ghi nhãn thực phẩm là vấn đề nghiêm trọng ảnh hưởng đến sức khỏe người tiêu dùng.",
+       "Người tiêu dùng nên tự kiểm tra sức khỏe trước khi mua thực phẩm.",
+       "Vấn đề sức khỏe khiến việc ghi nhãn thực phẩm bị sai."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に関わる (ảnh hưởng nghiêm trọng đến): \"Lỗi ghi nhãn thực phẩm là vấn đề nghiêm trọng ảnh hưởng đến sức khỏe người tiêu dùng.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "そんな噂が広まったら、私の名誉に関わる。",
+      "options": [
+       "Tôi đã lan truyền tin đồn đó để bảo vệ danh dự.",
+       "Tin đồn đó chẳng liên quan gì đến tôi.",
+       "Nhờ tin đồn đó mà tôi trở nên nổi tiếng.",
+       "Nếu tin đồn đó lan ra thì danh dự của tôi sẽ bị ảnh hưởng nghiêm trọng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に関わる (ảnh hưởng nghiêm trọng đến): \"Nếu tin đồn đó lan ra thì danh dự của tôi sẽ bị ảnh hưởng nghiêm trọng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この判断ミスは、会社の信用に関わる。",
+       "試験の結果が将来に関わるので、彼は必死に勉強した。",
+       "その件は会社の名誉を関わる問題だ。",
+       "ブレーキの故障は、乗客の命に関わる事故につながる。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「その件は会社の名誉を関わる問題だ。」 sai: 関わる đi với trợ từ に, không dùng を. Câu đúng: その件は会社の名誉に関わる問題だ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "健康に関わって問題なので、医者に相談した。",
+       "水道の汚染は、町全体の生活に関わる。",
+       "この契約は会社の将来に関わる重要なものだ。",
+       "ちょっとしたミスが、人の命に関わることもある。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「健康に関わって問題なので、医者に相談した。」 sai: khi bổ nghĩa cho danh từ phải dùng 関わる + N, không dùng thể て. Câu đúng: 健康に関わる問題なので、医者に相談した。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "問題なので、",
+       "関わる",
+       "会社の評判に",
+       "よく話し合おう。"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0,
+       3
+      ],
+      "translation_vi": "Đây là vấn đề ảnh hưởng đến danh tiếng của công ty nên hãy bàn bạc kỹ."
+     },
+     {
+      "pieces": [
+       "関わる",
+       "命に",
+       "軽く考えてはいけない。",
+       "病気だから、"
+      ],
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "translation_vi": "Đây là căn bệnh có thể nguy đến tính mạng nên không được xem nhẹ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "運転中の携帯電話の使用は、命に＿＿危険な行為だ。",
+      "answer": "関わる",
+      "accept": [
+       "かかわる"
+      ],
+      "translation_vi": "Dùng điện thoại khi lái xe là hành vi nguy hiểm có thể đe dọa tính mạng."
+     },
+     {
+      "sentence_ja": "工場の排水は、地域の人々の健康に＿＿問題だ。",
+      "answer": "関わる",
+      "accept": [
+       "かかわる"
+      ],
+      "translation_vi": "Nước thải của nhà máy là vấn đề ảnh hưởng đến sức khỏe người dân trong vùng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "個人情報の流出は、会社の信用に（　　）重大な事態だ。",
+      "options": [
+       "足る",
+       "関わる",
+       "至る",
+       "堪えない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「関わる」: 信用に関わる = ảnh hưởng nghiêm trọng đến uy tín. に足る là 'đáng để', に堪えない là 'không chịu nổi', に至る là 'đi đến', đều không hợp nghĩa. Nghĩa: Rò rỉ thông tin cá nhân là sự việc nghiêm trọng ảnh hưởng đến uy tín công ty."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿は、すぐに報告してください。",
+      "options": [
+       "あった場合",
+       "乗客の安全に",
+       "ことが",
+       "関わる"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 乗客の安全に関わることがあった場合は、すぐに報告してください。 (Khi có việc gì ảnh hưởng đến an toàn của hành khách thì hãy báo cáo ngay.). Mảnh ở ô ★ là 「ことが」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この薬の量を間違えると、命に関わるおそれがある。",
+      "options": [
+       "Nếu nhầm liều thuốc này thì có thể nguy hiểm đến tính mạng.",
+       "Liều thuốc này được tính toán để kéo dài tuổi thọ.",
+       "Uống thuốc này đúng liều thì không có tác dụng gì.",
+       "Nhầm liều thuốc này cũng không sao cả."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜に関わる (ảnh hưởng nghiêm trọng đến): \"Nếu nhầm liều thuốc này thì có thể nguy hiểm đến tính mạng.\""
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -707,7 +1268,191 @@
    "id": "JG-2f40a5dc7a"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "暑い日が続いておりますが、皆様にはお変わりなくお過ごしの（　　）。",
+      "options": [
+       "ことにします",
+       "ことがあります",
+       "ことと存じます",
+       "ことになります"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ことと存じます」: お過ごしのことと存じます là câu chào trong thư, lịch sự phỏng đoán tình hình tốt đẹp của người nhận. Các phương án khác chỉ quyết định, kinh nghiệm hay kết quả nên không hợp. Nghĩa: Trời vẫn nóng kéo dài, chắc hẳn quý vị vẫn mạnh khỏe như thường."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "新年度を迎え、何かとお忙しい（　　）存じます。",
+      "options": [
+       "ことに",
+       "ことで",
+       "ことを",
+       "ことと"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ことと」: mẫu cố định là 普通形 + ことと存じます (trợ từ と chỉ nội dung suy nghĩ). Nghĩa: Bước vào năm tài chính mới, chắc hẳn anh chị đang bận rộn nhiều việc."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "存じます",
+       "ことと",
+       "皆様には",
+       "ますますご健勝の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 皆様にはますますご健勝のことと存じます。 (Tôi tin rằng quý vị ngày càng mạnh khỏe.). Mảnh ở ô ★ là 「ことと」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "お子様も＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ことと",
+       "存じます",
+       "なられた",
+       "大きく"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: お子様も大きくなられたことと存じます。 (Chắc hẳn cháu nhà anh chị cũng đã lớn lắm rồi.). Mảnh ở ô ★ là 「なられた」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ご家族の皆様もお元気でお過ごしのことと存じます。",
+      "options": [
+       "Gia đình tôi vẫn khỏe mạnh, xin anh chị yên tâm.",
+       "Tôi tin rằng cả gia đình anh chị đều đang mạnh khỏe.",
+       "Tôi lo rằng gia đình anh chị đang gặp chuyện không hay.",
+       "Xin anh chị hãy giữ gìn sức khỏe cho gia đình."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ことと存じます (lịch sự phỏng đoán về đối phương): \"Tôi tin rằng cả gia đình anh chị đều đang mạnh khỏe.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お忙しい毎日をお過ごしのことと存じますが、ぜひご出席ください。",
+      "options": [
+       "Vì anh chị bận rộn nên không cần đến dự đâu.",
+       "Tôi bận rộn mỗi ngày nên không thể đến dự.",
+       "Anh chị đã đến dự dù rất bận, xin cảm ơn.",
+       "Chắc hẳn anh chị đang trải qua những ngày bận rộn, nhưng rất mong anh chị đến dự."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ことと存じます (lịch sự phỏng đoán về đối phương): \"Chắc hẳn anh chị đang trải qua những ngày bận rộn, nhưng rất mong anh chị đến dự.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "私も元気に過ごしていることと存じます。",
+       "先生におかれましては、ますますご活躍のことと存じます。",
+       "新しいお住まいにも慣れたことと存じます。",
+       "春の訪れとともに、お忙しくお過ごしのことと存じます。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「私も元気に過ごしていることと存じます。」 sai: ことと存じます dùng để phỏng đoán tình hình của đối phương, không dùng cho việc của chính mình. Câu đúng: 私も元気に過ごしております。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ご多忙の日々をお送りのことと存じます。",
+       "皆様にはお変わりなくお過ごしことと存じます。",
+       "入学式を終え、お子様も新しい生活を始められたことと存じます。",
+       "すでにご存じのことと存じますが、来月から料金が変わります。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「皆様にはお変わりなくお過ごしことと存じます。」 sai: danh từ お過ごし phải nối với こと bằng の. Câu đúng: 皆様にはお変わりなくお過ごしのことと存じます。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ことと存じます。",
+       "寒さも",
+       "厳しくなり、",
+       "お忙しくお過ごしの"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Trời đã lạnh hơn, chắc hẳn anh chị đang rất bận rộn."
+     },
+     {
+      "pieces": [
+       "ことと存じます。",
+       "喜びも",
+       "ひとしおの",
+       "ご卒業を迎えられ、"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Cháu đã tốt nghiệp, chắc hẳn anh chị vui mừng bội phần."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "皆様にはお元気でお過ごしの＿＿。",
+      "answer": "ことと存じます",
+      "accept": [
+       "ことと思います"
+      ],
+      "translation_vi": "Tôi tin rằng quý vị vẫn mạnh khỏe."
+     },
+     {
+      "sentence_ja": "ご家族の皆様も新しい年を健やかにお迎えになった＿＿存じます。",
+      "answer": "ことと",
+      "translation_vi": "Tôi tin rằng cả gia đình anh chị đã đón năm mới an lành."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "梅雨に入り、うっとうしい日が続いている（　　）存じます。",
+      "options": [
+       "ことさえ",
+       "ことと",
+       "ことばかり",
+       "ことまで"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ことと」: 普通形 + ことと存じます là cách phỏng đoán lịch sự trong thư. ことさえ, ことばかり, ことまで không đi với 存じます theo cách này. Nghĩa: Đã vào mùa mưa, chắc hẳn bên anh chị những ngày ẩm ướt khó chịu vẫn đang kéo dài."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿が、どうぞお体を大切になさってください。",
+      "options": [
+       "多い",
+       "ことと存じます",
+       "寒い日が続き、",
+       "何かとご苦労も"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 寒い日が続き、何かとご苦労も多いことと存じますが、どうぞお体を大切になさってください。 (Trời lạnh kéo dài, chắc hẳn anh chị cũng vất vả nhiều bề, xin hãy giữ gìn sức khỏe.). Mảnh ở ô ★ là 「何かとご苦労も」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お引っ越しの片付けもようやく落ち着かれたことと存じます。",
+      "options": [
+       "Chắc hẳn việc dọn dẹp sau khi chuyển nhà của anh chị cuối cùng cũng đã xong xuôi.",
+       "Tôi vẫn chưa dọn dẹp xong sau khi chuyển nhà.",
+       "Xin anh chị hãy giúp tôi dọn dẹp nhà mới.",
+       "Anh chị không nên chuyển nhà vào lúc này."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ことと存じます (lịch sự phỏng đoán về đối phương): \"Chắc hẳn việc dọn dẹp sau khi chuyển nhà của anh chị cuối cùng cũng đã xong xuôi.\""
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -730,7 +1475,196 @@
    "id": "JG-8174e26f3f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "新しい監督の（　　）、チームは見違えるほど強くなった。",
+      "options": [
+       "うえで",
+       "すえに",
+       "もとで",
+       "あげく"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「もとで」: N (người chỉ đạo) + のもとで = dưới sự dẫn dắt của N. うえで là 'sau khi/trên phương diện', すえに, あげく là 'kết cục sau một quá trình', không đi sau người. Nghĩa: Dưới sự dẫn dắt của huấn luyện viên mới, đội bóng mạnh lên trông thấy."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "両親の同意の（　　）、留学の手続きを進めた。",
+      "options": [
+       "もとに",
+       "かたわら",
+       "ついでに",
+       "ままに"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「もとに」: 同意のもとに = với sự đồng ý làm điều kiện. かたわら là 'bên cạnh việc chính', ついでに là 'nhân tiện', ままに là 'theo như', không hợp nghĩa. Nghĩa: Được bố mẹ đồng ý, tôi tiến hành thủ tục du học."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "私は＿＿ ＿＿ ★ ＿＿続けている。",
+      "options": [
+       "修業を",
+       "陶芸の",
+       "もとで",
+       "祖父の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 私は祖父のもとで陶芸の修業を続けている。 (Tôi đang tiếp tục học nghề gốm dưới sự chỉ dạy của ông.). Mảnh ở ô ★ là 「陶芸の」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "式典は＿＿ ★ ＿＿ ＿＿行われた。",
+      "options": [
+       "警備の",
+       "もとで",
+       "警察官による",
+       "大勢の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 式典は大勢の警察官による警備のもとで行われた。 (Buổi lễ được tổ chức dưới sự canh gác của đông đảo cảnh sát.). Mảnh ở ô ★ là 「警察官による」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもたちは豊かな自然のもとで、のびのびと育った。",
+      "options": [
+       "Bọn trẻ muốn đến nơi có thiên nhiên phong phú.",
+       "Thiên nhiên phong phú bị bọn trẻ phá hoại.",
+       "Bọn trẻ lớn lên vô tư trong vòng tay của thiên nhiên phong phú.",
+       "Bọn trẻ lớn lên ở thành phố nên ít tiếp xúc với thiên nhiên."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜のもとで (dưới sự, trong điều kiện của): \"Bọn trẻ lớn lên vô tư trong vòng tay của thiên nhiên phong phú.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この調査は、本人の了解のもとに行われた。",
+      "options": [
+       "Cuộc điều tra này được tiến hành khi chưa có sự đồng ý của người đó.",
+       "Cuộc điều tra này được tiến hành với sự chấp thuận của chính người đó.",
+       "Người đó đã tự mình tiến hành cuộc điều tra.",
+       "Cuộc điều tra này nhằm tìm hiểu ý kiến của người đó."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜のもとに (dưới sự, với điều kiện là): \"Cuộc điều tra này được tiến hành với sự chấp thuận của chính người đó.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "経験豊かな先輩のもとで、仕事の基本を学んだ。",
+       "平和の名のもとに、多くの戦争が行われてきた。",
+       "医師の指導のもとで、リハビリを続けている。",
+       "駅のもとで友だちを待っている。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「駅のもとで友だちを待っている。」 sai: のもとで chỉ sự chỉ đạo, ảnh hưởng hay điều kiện, không dùng cho địa điểm thông thường. Câu đúng: 駅の前で友だちを待っている。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "新しい社長のもとで、会社は大きく変わった。",
+       "この映画は実話のもとに作られた。",
+       "青空のもとで、運動会が開かれた。",
+       "厳しい監督のもとで練習を重ね、優勝できた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この映画は実話のもとに作られた。」 sai: 'dựa trên tư liệu' phải dùng 〜をもとに, không phải 〜のもとに. Câu đúng: この映画は実話をもとに作られた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "もとで",
+       "働くことに",
+       "有名なシェフの",
+       "なった。"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1,
+       3
+      ],
+      "translation_vi": "Tôi được làm việc dưới trướng một đầu bếp nổi tiếng."
+     },
+     {
+      "pieces": [
+       "もとに",
+       "試合は公平な",
+       "行われた。",
+       "ルールの"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Trận đấu được tiến hành theo luật lệ công bằng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼は厳しい父親の＿＿で育てられた。",
+      "answer": "もと",
+      "accept": [
+       "下"
+      ],
+      "translation_vi": "Anh ấy được nuôi dạy dưới sự nghiêm khắc của người cha."
+     },
+     {
+      "sentence_ja": "国の支援の＿＿、新しい研究所が建設された。",
+      "answer": "もとに",
+      "accept": [
+       "もとで",
+       "下に",
+       "下で"
+      ],
+      "translation_vi": "Với sự hỗ trợ của nhà nước, một viện nghiên cứu mới đã được xây dựng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "医師の管理の（　　）、新しい薬の試験が行われた。",
+      "options": [
+       "あまり",
+       "もとで",
+       "すえ",
+       "かぎり"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「もとで」: 管理のもとで = dưới sự quản lý của bác sĩ. あまり là 'quá... đến nỗi', すえ là 'sau cùng', かぎり là 'trong phạm vi', không hợp nghĩa. Nghĩa: Việc thử nghiệm thuốc mới được tiến hành dưới sự quản lý của bác sĩ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿を受け、技術を身につけた。",
+      "options": [
+       "職人の",
+       "厳しい指導",
+       "腕のいい",
+       "もとで"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 腕のいい職人のもとで厳しい指導を受け、技術を身につけた。 (Được người thợ lành nghề hướng dẫn nghiêm khắc, tôi đã thành thạo kỹ thuật.). Mảnh ở ô ★ là 「もとで」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は国の厳しい監視のもとで暮らしていた。",
+      "options": [
+       "Cô ấy đã sống dưới sự giám sát nghiêm ngặt của nhà nước.",
+       "Cô ấy là người giám sát nghiêm ngặt của nhà nước.",
+       "Cô ấy đã trốn khỏi sự giám sát của nhà nước.",
+       "Cô ấy sống tự do không bị ai giám sát."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜のもとで (dưới sự, trong điều kiện của): \"Cô ấy đã sống dưới sự giám sát nghiêm ngặt của nhà nước.\""
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

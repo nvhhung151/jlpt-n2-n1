@@ -1,77 +1,1885 @@
 {
- "JG-94da15f04c": {
+ "JG-3a8712710c": {
   "check_bank": [
-   {"type": "FILL", "prompt_ja": "日本で生活する（　　）、日本語は欠かせない。", "options": ["ついでに", "とたん", "上で", "以来"], "answer_index": 2, "explanation_vi": "Điền 「上で」: Vる + 上で: 'trong việc sống ở Nhật' thì tiếng Nhật không thể thiếu. とたん cần Vた, 以来 cần V-て, ついでに (nhân tiện) không hợp nghĩa. Nghĩa: Trong cuộc sống ở Nhật, tiếng Nhật là thứ không thể thiếu."},
-   {"type": "FILL", "prompt_ja": "車を運転する（　　）注意を、いくつか説明します。", "options": ["上に", "上での", "上は", "上から"], "answer_index": 1, "explanation_vi": "Điền 「上での」: muốn bổ nghĩa cho danh từ 注意 phải dùng 上での (những lưu ý khi lái xe). 上に (hơn nữa), 上は (một khi đã), 上から không hợp. Nghĩa: Tôi sẽ giải thích vài điều cần lưu ý khi lái xe."},
-   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、話し合いが必要だ。", "options": ["問題について", "上での", "計画を", "進める"], "answer_index": 1, "explanation_vi": "Câu đúng: 計画を進める上での問題について、話し合いが必要だ。 (Cần thảo luận về những vấn đề trong quá trình triển khai kế hoạch.). Mảnh ở ô ★ là 「上での」."},
-   {"type": "ORDER_STAR", "prompt_ja": "留学生活を＿＿ ★ ＿＿ ＿＿。", "options": ["お金のことだ", "不安は", "送る", "上での"], "answer_index": 3, "explanation_vi": "Câu đúng: 留学生活を送る上での不安はお金のことだ。 (Nỗi lo trong cuộc sống du học là chuyện tiền bạc.). Mảnh ở ô ★ là 「上での」."},
-   {"type": "MEANING", "prompt_ja": "子どもを育てる上での悩みを、友だちに相談した。", "options": ["Nuôi con xong, tôi kể với bạn về nỗi buồn của mình.", "Bạn tôi đã giúp tôi nuôi con.", "Tôi lo lắng vì bạn tôi không có con.", "Tôi đã tâm sự với bạn về những trăn trở trong việc nuôi dạy con."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vる + 上での + N (điều nảy sinh trong quá trình làm gì): \"Tôi đã tâm sự với bạn về những trăn trở trong việc nuôi dạy con.\""},
-   {"type": "MEANING", "prompt_ja": "外国語を学ぶ上で大切なのは、毎日続けることだ。", "options": ["Học ngoại ngữ thì mỗi ngày học một chút là đủ, không cần gì khác.", "Điều quan trọng trong việc học ngoại ngữ là duy trì đều đặn mỗi ngày.", "Học ngoại ngữ xong thì nên tiếp tục mỗi ngày.", "Vì học ngoại ngữ nên tôi không có thời gian mỗi ngày."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vる + 上で (trong việc làm gì thì…): \"Điều quan trọng trong việc học ngoại ngữ là duy trì đều đặn mỗi ngày.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["仕事をする上での悩みを先輩に話した。", "この資料は、旅行する上での注意をまとめたものだ。", "パソコンを使って上での注意点を読んでください。", "日本で働く上で、敬語は大切だ。"], "answer_index": 2, "explanation_vi": "「パソコンを使って上での注意点を読んでください。」 sai: 上での đi sau Vる hoặc N の, không đi sau thể て. Câu đúng: パソコンを使う上での注意点を読んでください。"},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["研究を進める上での問題は、時間が足りないことだ。", "昨日、駅へ行く上で財布を落とした。", "チームで働く上での基本は、報告と連絡だ。", "これは料理を作る上で、とても役に立つ本だ。"], "answer_index": 1, "explanation_vi": "「昨日、駅へ行く上で財布を落とした。」 sai: 上で/上での nói về lĩnh vực, quá trình nói chung, không dùng cho một hành động cụ thể đã xảy ra trên đường đi. Câu đúng: 昨日、駅へ行く途中で財布を落とした。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "チームのキャプテンとしてのプライド（　　）、この試合は負けられない。",
+    "options": [
+     "にかけては",
+     "に限って",
+     "にかけても",
+     "に反して"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にかけても」: lấy lòng tự trọng của đội trưởng ra bảo đảm, vế sau là quyết tâm không thua. にかけては dùng để khen sở trường ('về khoản… thì không ai bằng'); に限って, に反して không hợp nghĩa. Nghĩa: Dù phải đặt cả lòng tự trọng của đội trưởng vào, trận này tôi không thể thua."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "祖父との約束（　　）、この店は絶対に守ってみせる。",
+    "options": [
+     "を除いて",
+     "にかけても",
+     "に限って",
+     "以来"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「にかけても」: lấy lời hứa với ông ra bảo đảm, vế sau là ý chí mạnh (守ってみせる). を除いて, に限って không hợp nghĩa; 以来 không đi với ý chí hướng tới tương lai. Nghĩa: Dù phải lấy lời hứa với ông ra đảm bảo, tôi nhất định sẽ giữ được cửa hàng này."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、必ずこの仕事を成功させる。",
+    "options": [
+     "かけても",
+     "会社の",
+     "に",
+     "信用"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 会社の信用にかけても、必ずこの仕事を成功させる。 (Dù phải đặt cả uy tín của công ty vào, tôi nhất định sẽ làm công việc này thành công.). Mảnh ở ô ★ là 「に」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この約束は＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "守ります",
+     "にかけても",
+     "私の",
+     "命"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この約束は私の命にかけても守ります。 (Lời hứa này dù phải đánh đổi mạng sống tôi cũng sẽ giữ.). Mảnh ở ô ★ là 「にかけても」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "料理人のプライドにかけても、まずい料理は出さない。",
+    "options": [
+     "Vì là đầu bếp có lòng tự trọng nên đôi khi tôi vẫn dọn ra món dở.",
+     "Dù phải đặt cả lòng tự trọng của người đầu bếp, tôi quyết không dọn ra món ăn dở.",
+     "Về khoản nấu ăn thì không ai qua được tôi.",
+     "Người đầu bếp mất lòng tự trọng vì đã dọn ra món dở."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + にかけても (lấy điều quý giá ra bảo đảm cho quyết tâm): \"Dù phải đặt cả lòng tự trọng của người đầu bếp, tôi quyết không dọn ra món ăn dở.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "家族の名にかけても、借りたお金は必ず返します。",
+    "options": [
+     "Tôi đã vay tiền dưới tên của gia đình.",
+     "Gia đình tôi nổi tiếng vì luôn trả nợ đúng hạn.",
+     "Nếu gia đình đồng ý thì tôi sẽ trả số tiền đã vay.",
+     "Tôi xin lấy danh dự gia đình ra đảm bảo rằng nhất định sẽ trả số tiền đã vay."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + にかけても (thề nguyện, lấy danh dự ra bảo đảm): \"Tôi xin lấy danh dự gia đình ra đảm bảo rằng nhất định sẽ trả số tiền đã vay.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "父の名にかけても、この店をつぶしはしない。",
+     "彼は料理にかけても、誰にも負けない。",
+     "プロとしての誇りにかけても、仕事の手は抜かない。",
+     "命にかけても、この子を守ってみせる。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「彼は料理にかけても、誰にも負けない。」 sai: khen sở trường 'về khoản nấu ăn thì không thua ai' phải dùng にかけては; にかけても là thề lấy điều quý giá ra bảo đảm. Câu đúng: 彼は料理にかけては、誰にも負けない。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "先生との約束にかけても、必ず合格してみせる。",
+     "店の信用にかけても、古い材料は使いません。",
+     "会社の名にかけても、この計画は成功させる。",
+     "明日の天気にかけても、雨が降るだろう。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「明日の天気にかけても、雨が降るだろう。」 sai: にかけても cần danh từ là thứ quý giá (danh dự, mạng sống, lời hứa) và vế sau là quyết tâm của người nói, không phải phỏng đoán. Câu đúng: 明日は雨が降るだろう。"
+   }
   ],
   "order_items": [
-   {"pieces": ["上での", "海外で暮らす", "不安が", "大きくなった。"], "answer_order": [1, 0, 2, 3], "translation_vi": "Nỗi bất an khi sống ở nước ngoài đã lớn dần lên."},
-   {"pieces": ["上で", "大切なことは", "仕事をする", "時間を守ることだ。"], "answer_order": [2, 0, 1, 3], "translation_vi": "Điều quan trọng trong công việc là đúng giờ."}
+   {
+    "pieces": [
+     "かけても",
+     "約束は必ず守る。",
+     "命に"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1
+    ],
+    "translation_vi": "Dù phải đánh đổi cả mạng sống, tôi nhất định giữ lời hứa."
+   },
+   {
+    "pieces": [
+     "店の",
+     "かけても、",
+     "信用に",
+     "いい加減な仕事はしない。"
+    ],
+    "answer_order": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "translation_vi": "Dù phải đặt cả uy tín của cửa hàng vào, tôi không làm việc qua loa."
+   }
   ],
   "fill_items": [
-   {"sentence_ja": "新しい家を選ぶ＿＿ポイントを教えてください。", "answer": "上での", "accept": ["うえでの"], "translation_vi": "Hãy chỉ cho tôi những điểm cần chú ý khi chọn nhà mới."},
-   {"sentence_ja": "スポーツを続ける＿＿、けがには気をつけなければならない。", "answer": "上で", "accept": ["うえで"], "translation_vi": "Trong việc duy trì chơi thể thao, phải chú ý đến chấn thương."}
+   {
+    "sentence_ja": "医者としての誇り＿＿、最後まで治療を続けます。",
+    "answer": "にかけても",
+    "accept": [
+     "にかけて"
+    ],
+    "translation_vi": "Dù phải đặt cả niềm tự hào của người bác sĩ vào, tôi sẽ tiếp tục điều trị đến cùng."
+   },
+   {
+    "sentence_ja": "この命＿＿、あなたとの約束は守ります。",
+    "answer": "にかけても",
+    "accept": [
+     "にかけて"
+    ],
+    "translation_vi": "Dù phải đánh đổi mạng sống này, tôi sẽ giữ lời hứa với bạn."
+   }
   ],
   "extra_practice": [
-   {"type": "FILL", "prompt_ja": "会社を経営する（　　）、いちばん難しいのは人を育てることだ。", "options": ["以来", "上で", "ばかりか", "次第"], "answer_index": 1, "explanation_vi": "Điền 「上で」: Vる + 上で: trong việc điều hành công ty thì khó nhất là đào tạo người. 以来 cần V-て, 次第 cần V bỏ ます, ばかりか (không những) không hợp. Nghĩa: Trong việc kinh doanh công ty, khó nhất là đào tạo con người."},
-   {"type": "MEANING", "prompt_ja": "日本語を教える上での経験を、本にまとめた。", "options": ["Viết sách xong, tôi bắt đầu dạy tiếng Nhật.", "Tôi dạy tiếng Nhật bằng một cuốn sách hay.", "Tôi đã viết thành sách những kinh nghiệm trong quá trình dạy tiếng Nhật.", "Tôi không có kinh nghiệm dạy tiếng Nhật nên đọc sách."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Vる + 上での + N (kinh nghiệm có được trong quá trình làm gì): \"Tôi đã viết thành sách những kinh nghiệm trong quá trình dạy tiếng Nhật.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["この地図は、町を歩くの上で便利だ。", "外国人が日本で暮らす上での問題を調べた。", "試験に合格する上で、大事なのは過去の問題を解くことだ。", "人と付き合う上で、気をつけていることがある。"], "answer_index": 0, "explanation_vi": "「この地図は、町を歩くの上で便利だ。」 sai: động từ nối thẳng với 上で (Vる + 上で), không thêm の; の chỉ dùng sau danh từ. Câu đúng: この地図は、町を歩く上で便利だ。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "（　　）にかけても、二度と同じミスはしません。",
+    "options": [
+     "私の予定",
+     "私の得意",
+     "私のプライド",
+     "私の失敗"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「私のプライド」: trước にかけても là thứ quý giá được đem ra bảo đảm (lòng tự trọng); kế hoạch, sở trường, thất bại không phải thứ để thề. Nghĩa: Dù phải đặt cả lòng tự trọng của mình vào, tôi sẽ không mắc lại lỗi giống thế lần nữa."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "親の名にかけても、この店を守ってみせる。",
+    "options": [
+     "Dù phải đặt cả danh dự của cha mẹ vào, tôi nhất định sẽ giữ được cửa hàng này.",
+     "Vì cha mẹ đặt tên cho cửa hàng nên tôi giữ nó.",
+     "Về khoản giữ cửa hàng thì cha mẹ tôi giỏi nhất.",
+     "Cha mẹ nhờ tôi đặt tên cho cửa hàng này."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + にかけても (lấy danh dự ra bảo đảm cho quyết tâm): \"Dù phải đặt cả danh dự của cha mẹ vào, tôi nhất định sẽ giữ được cửa hàng này.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "プライドにかけても、途中でやめたりしない。",
+     "父との約束にかけても、この夢は必ずかなえる。",
+     "自分の名前にかけても、いい加減な物は作らない。",
+     "数学にかけても、彼はクラスでいちばんだ。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「数学にかけても、彼はクラスでいちばんだ。」 sai: nói 'về môn toán thì giỏi nhất lớp' phải dùng にかけては. Câu đúng: 数学にかけては、彼はクラスでいちばんだ。"
+   }
+  ]
+ },
+ "JG-c6c7acbe5b": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "詳しいことが（　　）次第、お知らせします。",
+    "options": [
+     "わかる",
+     "わかって",
+     "わかり",
+     "わかった"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「わかり」: 次第 đi sau động từ thể ます bỏ ます (わかり次第). Nghĩa: Ngay khi biết rõ chi tiết, chúng tôi sẽ thông báo."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "会議が終わり（　　）、すぐにそちらへ向かいます。",
+    "options": [
+     "以来",
+     "次第",
+     "反面",
+     "上で"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「次第」: V bỏ ます + 次第: họp xong là đi ngay. 以来 cần V-て, 上で cần Vた, 反面 nêu hai mặt đối lập nên không nối với 終わり. Nghĩa: Ngay khi cuộc họp kết thúc, tôi sẽ đến chỗ anh/chị ngay."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 出発しましょう。",
+    "options": [
+     "すぐに",
+     "次第、",
+     "全員が",
+     "そろい"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 全員がそろい次第、すぐに出発しましょう。 (Ngay khi mọi người đến đủ, chúng ta xuất phát luôn nhé.). Mảnh ở ô ★ là 「次第、」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿。",
+    "options": [
+     "ご連絡します",
+     "次第",
+     "入り",
+     "新しい商品が"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 新しい商品が入り次第ご連絡します。 (Ngay khi có hàng mới về, chúng tôi sẽ liên lạc.). Mảnh ở ô ★ là 「入り」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "部長が戻り次第、会議を始めます。",
+    "options": [
+     "Trưởng phòng vừa về thì cuộc họp đã kết thúc.",
+     "Tùy trưởng phòng mà cuộc họp có thể bắt đầu.",
+     "Ngay khi trưởng phòng quay lại, chúng ta sẽ bắt đầu họp.",
+     "Trưởng phòng đã quay lại sau khi cuộc họp bắt đầu."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu V bỏ ます + 次第 (ngay khi xong việc A thì làm B): \"Ngay khi trưởng phòng quay lại, chúng ta sẽ bắt đầu họp.\" Nghĩa 'tùy theo' là N + 次第, khác mẫu này."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "結果が出次第、メールでお伝えします。",
+    "options": [
+     "Ngay khi có kết quả, tôi sẽ báo cho anh/chị qua email.",
+     "Tùy vào kết quả mà tôi có thể gửi email hoặc không.",
+     "Tôi đã báo kết quả qua email rồi.",
+     "Trước khi có kết quả, tôi sẽ gửi email cho anh/chị."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu V bỏ ます + 次第 (出る → 出次第): \"Ngay khi có kết quả, tôi sẽ báo cho anh/chị qua email.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "資料がそろい次第、お送りします。",
+     "雨がやみ次第、試合を再開します。",
+     "家に着き次第、すぐに寝てしまった。",
+     "空港に着き次第、電話してください。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「家に着き次第、すぐに寝てしまった。」 sai: vế sau của 〜次第 là hành động theo ý chí sẽ làm, không dùng cho việc đã xảy ra trong quá khứ. Câu đúng: 家に着くとすぐに寝てしまった。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "仕事が終わる次第、飲みに行こう。",
+     "品物が届き次第、代金をお支払いします。",
+     "場所が決まり次第、皆さんにお知らせします。",
+     "熱が下がり次第、退院できますよ。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「仕事が終わる次第、飲みに行こう。」 sai: 次第 đi sau động từ bỏ ます, không đi sau Vる. Câu đúng: 仕事が終わり次第、飲みに行こう。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "次第、",
+     "お返事",
+     "確認でき",
+     "いたします。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Ngay khi xác nhận được, tôi sẽ hồi âm."
+   },
+   {
+    "pieces": [
+     "決まり",
+     "会議の日時が",
+     "次第",
+     "連絡してください。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "translation_vi": "Ngay khi quyết định được ngày giờ họp, hãy liên lạc cho tôi."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "お客様の荷物が届き＿＿、すぐにご連絡いたします。",
+    "answer": "次第",
+    "accept": [
+     "しだい"
+    ],
+    "translation_vi": "Ngay khi hành lý của quý khách đến, chúng tôi sẽ liên lạc ngay."
+   },
+   {
+    "sentence_ja": "旅行の予定が＿＿次第、ホテルを予約するつもりだ。",
+    "answer": "決まり",
+    "translation_vi": "Ngay khi lịch du lịch được quyết định, tôi định đặt khách sạn."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "データの入力が終わり（　　）、報告書を書き始めてください。",
+    "options": [
+     "ものの",
+     "以来",
+     "次第",
+     "とたん"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「次第」: nhập dữ liệu xong là bắt đầu viết báo cáo ngay. ものの, とたん không đi sau V bỏ ます; 以来 cần V-て. Nghĩa: Ngay khi nhập dữ liệu xong, hãy bắt đầu viết báo cáo."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "天気が回復し次第、山に登る予定です。",
+    "options": [
+     "Tùy thời tiết mà chúng tôi có thể không leo núi.",
+     "Chúng tôi đã leo núi trước khi thời tiết xấu đi.",
+     "Vì thời tiết xấu nên kế hoạch leo núi bị hủy.",
+     "Ngay khi thời tiết tốt trở lại, chúng tôi dự định leo núi."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu V bỏ ます + 次第 (回復する → 回復し次第): \"Ngay khi thời tiết tốt trở lại, chúng tôi dự định leo núi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "メールを読み次第、返信してください。",
+     "テストに合格し次第、とてもうれしかった。",
+     "工事が終わり次第、この道は通れるようになります。",
+     "担当者が来次第、ご案内します。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「テストに合格し次第、とてもうれしかった。」 sai: vế sau của 〜次第 phải là hành động sẽ làm, không phải cảm xúc hay việc đã qua. Câu đúng: テストに合格して、とてもうれしかった。"
+   }
+  ]
+ },
+ "JG-be19eef3a1": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "両親と相談した（　　）、進路を決めます。",
+    "options": [
+     "以来",
+     "反面",
+     "次第",
+     "上で"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「上で」: Vた + 上で: bàn bạc với bố mẹ xong rồi mới quyết định hướng đi. 以来 cần V-て, 次第 cần V bỏ ます, 反面 nêu hai mặt đối lập. Nghĩa: Tôi sẽ bàn với bố mẹ rồi mới quyết định con đường sau này."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "よく（　　）上で、お申し込みください。",
+    "options": [
+     "考える",
+     "考えた",
+     "考え",
+     "考えて"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「考えた」: mẫu 'sau khi… rồi mới' dùng Vた + 上で. Vる + 上で mang nghĩa 'trong việc…', không hợp ở đây. Nghĩa: Xin hãy suy nghĩ kỹ rồi mới đăng ký."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、購入してください。",
+    "options": [
+     "上で",
+     "読んだ",
+     "商品の",
+     "説明を"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 商品の説明を読んだ上で、購入してください。 (Hãy đọc phần giới thiệu sản phẩm rồi mới mua.). Mảnh ở ô ★ là 「読んだ」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この件は＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "報告した",
+     "決めます",
+     "社長に",
+     "上で"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: この件は社長に報告した上で決めます。 (Việc này tôi sẽ báo cáo giám đốc rồi mới quyết định.). Mảnh ở ô ★ là 「上で」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "家族の意見を聞いた上で、引っ越すかどうか決めます。",
+    "options": [
+     "Tôi đã quyết định chuyển nhà mà không hỏi ý kiến gia đình.",
+     "Trong khi chuyển nhà, tôi sẽ nghe ý kiến gia đình.",
+     "Tôi sẽ nghe ý kiến gia đình rồi mới quyết định có chuyển nhà hay không.",
+     "Gia đình tôi đã quyết định chuyển nhà thay cho tôi."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu Vた + 上で (làm xong bước quan trọng rồi mới làm bước sau): \"Tôi sẽ nghe ý kiến gia đình rồi mới quyết định có chuyển nhà hay không.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "料金をお支払いいただいた上で、商品をお送りします。",
+    "options": [
+     "Chúng tôi sẽ gửi hàng trước, sau đó quý khách thanh toán.",
+     "Sau khi quý khách thanh toán xong, chúng tôi mới gửi hàng.",
+     "Quý khách được miễn phí nếu nhận hàng tại cửa hàng.",
+     "Trong lúc thanh toán, quý khách có thể chọn hàng."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vた + 上で (bước trước là điều kiện để làm bước sau): \"Sau khi quý khách thanh toán xong, chúng tôi mới gửi hàng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "医者と話した上で、手術を受けることにした。",
+     "事情を聞いた上で、判断します。",
+     "よく相談する上で、留学を決めた。",
+     "実際に部屋を見た上で、借りるかどうか決めた。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「よく相談する上で、留学を決めた。」 sai: nghĩa 'sau khi… rồi mới' phải dùng Vた + 上で. Câu đúng: よく相談した上で、留学を決めた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "申込書に記入して上で、窓口に出してください。",
+     "十分に話し合った上で、結論を出しましょう。",
+     "条件をよく読んだ上で、契約してください。",
+     "メンバーと相談した上で、またご連絡します。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「申込書に記入して上で、窓口に出してください。」 sai: 上で không đi sau thể て. Câu đúng: 申込書に記入した上で、窓口に出してください。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "上で",
+     "結論を出した。",
+     "十分話し合った"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1
+    ],
+    "translation_vi": "Chúng tôi đã bàn bạc kỹ rồi mới đưa ra kết luận."
+   },
+   {
+    "pieces": [
+     "上で",
+     "値段を",
+     "比べた",
+     "買う店を決めた。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3
+    ],
+    "translation_vi": "Tôi so sánh giá cả rồi mới quyết định cửa hàng để mua."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "先生の意見を聞いた＿＿、テーマを決めるつもりです。",
+    "answer": "上で",
+    "accept": [
+     "うえで"
+    ],
+    "translation_vi": "Tôi định nghe ý kiến của thầy rồi mới quyết định đề tài."
+   },
+   {
+    "sentence_ja": "契約の内容をよく＿＿上で、はんこを押してください。",
+    "answer": "確認した",
+    "accept": [
+     "読んだ",
+     "確かめた"
+    ],
+    "translation_vi": "Hãy xác nhận kỹ nội dung hợp đồng rồi mới đóng dấu."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "会員登録をした（　　）、ご利用ください。",
+    "options": [
+     "上で",
+     "とたん",
+     "くせに",
+     "ばかりに"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「上で」: đăng ký hội viên xong rồi mới sử dụng. とたん chỉ việc bất ngờ xảy ra ngay sau đó, không đi với lời yêu cầu; くせに, ばかりに không hợp nghĩa. Nghĩa: Xin hãy đăng ký hội viên rồi mới sử dụng."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "一度試着した上で、買うかどうか決めたい。",
+    "options": [
+     "Tôi đã mua mà không mặc thử.",
+     "Vì đã mặc thử nên tôi không mua nữa.",
+     "Tôi muốn mua trước rồi mới mặc thử.",
+     "Tôi muốn mặc thử một lần rồi mới quyết định có mua hay không."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vた + 上で (làm bước trước rồi mới quyết định): \"Tôi muốn mặc thử một lần rồi mới quyết định có mua hay không.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "ルールを理解した上で、試合に参加してください。",
+     "説明書を読む上で、この機械を使ってください。",
+     "状況をよく調べた上で、対応を考えます。",
+     "親の許可を得た上で、アルバイトを始めた。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「説明書を読む上で、この機械を使ってください。」 sai: muốn nói 'đọc hướng dẫn rồi mới dùng' phải là Vた + 上で. Câu đúng: 説明書を読んだ上で、この機械を使ってください。"
+   }
+  ]
+ },
+ "JG-94da15f04c": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "日本で生活する（　　）、日本語は欠かせない。",
+    "options": [
+     "ついでに",
+     "とたん",
+     "上で",
+     "以来"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「上で」: Vる + 上で: 'trong việc sống ở Nhật' thì tiếng Nhật không thể thiếu. とたん cần Vた, 以来 cần V-て, ついでに (nhân tiện) không hợp nghĩa. Nghĩa: Trong cuộc sống ở Nhật, tiếng Nhật là thứ không thể thiếu."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "車を運転する（　　）注意を、いくつか説明します。",
+    "options": [
+     "上に",
+     "上での",
+     "上は",
+     "上から"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「上での」: muốn bổ nghĩa cho danh từ 注意 phải dùng 上での (những lưu ý khi lái xe). 上に (hơn nữa), 上は (một khi đã), 上から không hợp. Nghĩa: Tôi sẽ giải thích vài điều cần lưu ý khi lái xe."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、話し合いが必要だ。",
+    "options": [
+     "問題について",
+     "上での",
+     "計画を",
+     "進める"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 計画を進める上での問題について、話し合いが必要だ。 (Cần thảo luận về những vấn đề trong quá trình triển khai kế hoạch.). Mảnh ở ô ★ là 「上での」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "留学生活を＿＿ ★ ＿＿ ＿＿。",
+    "options": [
+     "お金のことだ",
+     "不安は",
+     "送る",
+     "上での"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 留学生活を送る上での不安はお金のことだ。 (Nỗi lo trong cuộc sống du học là chuyện tiền bạc.). Mảnh ở ô ★ là 「上での」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "子どもを育てる上での悩みを、友だちに相談した。",
+    "options": [
+     "Nuôi con xong, tôi kể với bạn về nỗi buồn của mình.",
+     "Bạn tôi đã giúp tôi nuôi con.",
+     "Tôi lo lắng vì bạn tôi không có con.",
+     "Tôi đã tâm sự với bạn về những trăn trở trong việc nuôi dạy con."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vる + 上での + N (điều nảy sinh trong quá trình làm gì): \"Tôi đã tâm sự với bạn về những trăn trở trong việc nuôi dạy con.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "外国語を学ぶ上で大切なのは、毎日続けることだ。",
+    "options": [
+     "Học ngoại ngữ thì mỗi ngày học một chút là đủ, không cần gì khác.",
+     "Điều quan trọng trong việc học ngoại ngữ là duy trì đều đặn mỗi ngày.",
+     "Học ngoại ngữ xong thì nên tiếp tục mỗi ngày.",
+     "Vì học ngoại ngữ nên tôi không có thời gian mỗi ngày."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vる + 上で (trong việc làm gì thì…): \"Điều quan trọng trong việc học ngoại ngữ là duy trì đều đặn mỗi ngày.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "仕事をする上での悩みを先輩に話した。",
+     "この資料は、旅行する上での注意をまとめたものだ。",
+     "パソコンを使って上での注意点を読んでください。",
+     "日本で働く上で、敬語は大切だ。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「パソコンを使って上での注意点を読んでください。」 sai: 上での đi sau Vる hoặc N の, không đi sau thể て. Câu đúng: パソコンを使う上での注意点を読んでください。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "研究を進める上での問題は、時間が足りないことだ。",
+     "昨日、駅へ行く上で財布を落とした。",
+     "チームで働く上での基本は、報告と連絡だ。",
+     "これは料理を作る上で、とても役に立つ本だ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「昨日、駅へ行く上で財布を落とした。」 sai: 上で/上での nói về lĩnh vực, quá trình nói chung, không dùng cho một hành động cụ thể đã xảy ra trên đường đi. Câu đúng: 昨日、駅へ行く途中で財布を落とした。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "上での",
+     "海外で暮らす",
+     "不安が",
+     "大きくなった。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "translation_vi": "Nỗi bất an khi sống ở nước ngoài đã lớn dần lên."
+   },
+   {
+    "pieces": [
+     "上で",
+     "大切なことは",
+     "仕事をする",
+     "時間を守ることだ。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Điều quan trọng trong công việc là đúng giờ."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "新しい家を選ぶ＿＿ポイントを教えてください。",
+    "answer": "上での",
+    "accept": [
+     "うえでの"
+    ],
+    "translation_vi": "Hãy chỉ cho tôi những điểm cần chú ý khi chọn nhà mới."
+   },
+   {
+    "sentence_ja": "スポーツを続ける＿＿、けがには気をつけなければならない。",
+    "answer": "上で",
+    "accept": [
+     "うえで"
+    ],
+    "translation_vi": "Trong việc duy trì chơi thể thao, phải chú ý đến chấn thương."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "会社を経営する（　　）、いちばん難しいのは人を育てることだ。",
+    "options": [
+     "以来",
+     "上で",
+     "ばかりか",
+     "次第"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「上で」: Vる + 上で: trong việc điều hành công ty thì khó nhất là đào tạo người. 以来 cần V-て, 次第 cần V bỏ ます, ばかりか (không những) không hợp. Nghĩa: Trong việc kinh doanh công ty, khó nhất là đào tạo con người."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "日本語を教える上での経験を、本にまとめた。",
+    "options": [
+     "Viết sách xong, tôi bắt đầu dạy tiếng Nhật.",
+     "Tôi dạy tiếng Nhật bằng một cuốn sách hay.",
+     "Tôi đã viết thành sách những kinh nghiệm trong quá trình dạy tiếng Nhật.",
+     "Tôi không có kinh nghiệm dạy tiếng Nhật nên đọc sách."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu Vる + 上での + N (kinh nghiệm có được trong quá trình làm gì): \"Tôi đã viết thành sách những kinh nghiệm trong quá trình dạy tiếng Nhật.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "この地図は、町を歩くの上で便利だ。",
+     "外国人が日本で暮らす上での問題を調べた。",
+     "試験に合格する上で、大事なのは過去の問題を解くことだ。",
+     "人と付き合う上で、気をつけていることがある。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「この地図は、町を歩くの上で便利だ。」 sai: động từ nối thẳng với 上で (Vる + 上で), không thêm の; の chỉ dùng sau danh từ. Câu đúng: この地図は、町を歩く上で便利だ。"
+   }
   ]
  },
  "JG-7b69d2b044": {
   "check_bank": [
-   {"type": "FILL", "prompt_ja": "すみません、目覚まし時計が鳴らなかった（　　）、遅くなりました。", "options": ["ものなら", "ものですか", "ものですから", "ものでしょう"], "answer_index": 2, "explanation_vi": "Điền 「ものですから」: lịch sự giải thích lý do (đồng hồ báo thức không kêu) để xin lỗi vì đến muộn. ものなら (nếu mà), ものですか (làm gì có chuyện), ものでしょう không hợp. Nghĩa: Xin lỗi, vì đồng hồ báo thức không kêu nên tôi đến muộn."},
-   {"type": "FILL", "prompt_ja": "初めての町で道がよくわからなかった（　　）、約束の時間に遅れてしまいました。", "options": ["くせに", "ものですから", "わりに", "ついでに"], "answer_index": 1, "explanation_vi": "Điền 「ものですから」: nêu lý do mang tính biện minh cho kết quả ngoài ý muốn (đến muộn). くせに (vậy mà), わりに (so với), ついでに (nhân tiện) không hợp. Nghĩa: Vì ở thị trấn lạ không rành đường nên tôi đã trễ giờ hẹn."},
-   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、お先に失礼します。", "options": ["ものですから", "出した", "熱を", "子どもが"], "answer_index": 1, "explanation_vi": "Câu đúng: 子どもが熱を出したものですから、お先に失礼します。 (Vì con tôi bị sốt nên tôi xin phép về trước.). Mảnh ở ô ★ là 「出した」."},
-   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、つい買いすぎてしまいました。", "options": ["ものですから", "セールで", "あまりに", "安かった"], "answer_index": 3, "explanation_vi": "Câu đúng: セールであまりに安かったものですから、つい買いすぎてしまいました。 (Vì đợt giảm giá rẻ quá nên tôi lỡ mua nhiều quá.). Mảnh ở ô ★ là 「安かった」."},
-   {"type": "MEANING", "prompt_ja": "電車が止まってしまったものですから、会議に間に合いませんでした。", "options": ["Dù tàu điện bị dừng, tôi vẫn kịp cuộc họp.", "Vì tàu điện bị dừng nên tôi đã không kịp cuộc họp.", "Tôi đã dừng tàu điện để kịp cuộc họp.", "Cuộc họp bị hoãn vì tàu điện dừng chạy."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜ものですから (lịch sự giải thích lý do, biện minh): \"Vì tàu điện bị dừng nên tôi đã không kịp cuộc họp.\""},
-   {"type": "MEANING", "prompt_ja": "昨日は疲れていたものですから、メールの返事ができませんでした。すみません。", "options": ["Hôm qua tôi mệt nhưng vẫn trả lời email.", "Hôm qua tôi không mệt nên đã trả lời email ngay.", "Hôm qua vì mệt quá nên tôi đã không trả lời email được, xin lỗi.", "Hôm qua tôi mệt vì phải trả lời quá nhiều email."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜ものですから (nêu lý do để xin lỗi): \"Hôm qua vì mệt quá nên tôi đã không trả lời email được, xin lỗi.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["バスがなかなか来なかったものですから、タクシーで来ました。", "あまりにおいしかったものですから、全部食べてしまいました。", "急に用事ができたものですから、今日は早退させていただきます。", "もうすぐ雨が降るものですから、傘を持って行きなさい。"], "answer_index": 3, "explanation_vi": "「もうすぐ雨が降るものですから、傘を持って行きなさい。」 sai: ものですから là lời biện minh của người nói, vế sau không dùng mệnh lệnh hay yêu cầu. Câu đúng: もうすぐ雨が降るから、傘を持って行きなさい。"},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["初めてなものですから、よくわからなくて。", "静かものですから、この部屋で勉強しています。", "暇なものですから、つい長電話をしてしまって。", "父が入院したものですから、しばらく休みます。"], "answer_index": 1, "explanation_vi": "「静かものですから、この部屋で勉強しています。」 sai: tính từ な phải giữ な trước ものですから. Câu đúng: 静かなものですから、この部屋で勉強しています。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "すみません、目覚まし時計が鳴らなかった（　　）、遅くなりました。",
+    "options": [
+     "ものなら",
+     "ものですか",
+     "ものですから",
+     "ものでしょう"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「ものですから」: lịch sự giải thích lý do (đồng hồ báo thức không kêu) để xin lỗi vì đến muộn. ものなら (nếu mà), ものですか (làm gì có chuyện), ものでしょう không hợp. Nghĩa: Xin lỗi, vì đồng hồ báo thức không kêu nên tôi đến muộn."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "初めての町で道がよくわからなかった（　　）、約束の時間に遅れてしまいました。",
+    "options": [
+     "くせに",
+     "ものですから",
+     "わりに",
+     "ついでに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「ものですから」: nêu lý do mang tính biện minh cho kết quả ngoài ý muốn (đến muộn). くせに (vậy mà), わりに (so với), ついでに (nhân tiện) không hợp. Nghĩa: Vì ở thị trấn lạ không rành đường nên tôi đã trễ giờ hẹn."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、お先に失礼します。",
+    "options": [
+     "ものですから",
+     "出した",
+     "熱を",
+     "子どもが"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 子どもが熱を出したものですから、お先に失礼します。 (Vì con tôi bị sốt nên tôi xin phép về trước.). Mảnh ở ô ★ là 「出した」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、つい買いすぎてしまいました。",
+    "options": [
+     "ものですから",
+     "セールで",
+     "あまりに",
+     "安かった"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: セールであまりに安かったものですから、つい買いすぎてしまいました。 (Vì đợt giảm giá rẻ quá nên tôi lỡ mua nhiều quá.). Mảnh ở ô ★ là 「安かった」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "電車が止まってしまったものですから、会議に間に合いませんでした。",
+    "options": [
+     "Dù tàu điện bị dừng, tôi vẫn kịp cuộc họp.",
+     "Vì tàu điện bị dừng nên tôi đã không kịp cuộc họp.",
+     "Tôi đã dừng tàu điện để kịp cuộc họp.",
+     "Cuộc họp bị hoãn vì tàu điện dừng chạy."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜ものですから (lịch sự giải thích lý do, biện minh): \"Vì tàu điện bị dừng nên tôi đã không kịp cuộc họp.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "昨日は疲れていたものですから、メールの返事ができませんでした。すみません。",
+    "options": [
+     "Hôm qua tôi mệt nhưng vẫn trả lời email.",
+     "Hôm qua tôi không mệt nên đã trả lời email ngay.",
+     "Hôm qua vì mệt quá nên tôi đã không trả lời email được, xin lỗi.",
+     "Hôm qua tôi mệt vì phải trả lời quá nhiều email."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜ものですから (nêu lý do để xin lỗi): \"Hôm qua vì mệt quá nên tôi đã không trả lời email được, xin lỗi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "バスがなかなか来なかったものですから、タクシーで来ました。",
+     "あまりにおいしかったものですから、全部食べてしまいました。",
+     "急に用事ができたものですから、今日は早退させていただきます。",
+     "もうすぐ雨が降るものですから、傘を持って行きなさい。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「もうすぐ雨が降るものですから、傘を持って行きなさい。」 sai: ものですから là lời biện minh của người nói, vế sau không dùng mệnh lệnh hay yêu cầu. Câu đúng: もうすぐ雨が降るから、傘を持って行きなさい。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "初めてなものですから、よくわからなくて。",
+     "静かものですから、この部屋で勉強しています。",
+     "暇なものですから、つい長電話をしてしまって。",
+     "父が入院したものですから、しばらく休みます。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「静かものですから、この部屋で勉強しています。」 sai: tính từ な phải giữ な trước ものですから. Câu đúng: 静かなものですから、この部屋で勉強しています。"
+   }
   ],
   "order_items": [
-   {"pieces": ["ものですから、", "遅れてしまいました。", "道に", "迷った"], "answer_order": [2, 3, 0, 1], "translation_vi": "Vì tôi bị lạc đường nên đã đến muộn."},
-   {"pieces": ["ものですから、", "慣れていない", "まだ仕事に", "時間がかかってしまって。"], "answer_order": [2, 1, 0, 3], "translation_vi": "Vì tôi vẫn chưa quen việc nên mất nhiều thời gian."}
+   {
+    "pieces": [
+     "ものですから、",
+     "遅れてしまいました。",
+     "道に",
+     "迷った"
+    ],
+    "answer_order": [
+     2,
+     3,
+     0,
+     1
+    ],
+    "translation_vi": "Vì tôi bị lạc đường nên đã đến muộn."
+   },
+   {
+    "pieces": [
+     "ものですから、",
+     "慣れていない",
+     "まだ仕事に",
+     "時間がかかってしまって。"
+    ],
+    "answer_order": [
+     2,
+     1,
+     0,
+     3
+    ],
+    "translation_vi": "Vì tôi vẫn chưa quen việc nên mất nhiều thời gian."
+   }
   ],
   "fill_items": [
-   {"sentence_ja": "急に雨が降ってきた＿＿、洗濯物がぬれてしまいました。", "answer": "ものですから", "accept": ["ものだから", "もので", "ので", "から"], "translation_vi": "Vì trời đột nhiên đổ mưa nên quần áo phơi bị ướt hết."},
-   {"sentence_ja": "この辺りは初めてな＿＿、少し迷ってしまいました。", "answer": "ものですから", "accept": ["ものだから", "もので", "ので"], "translation_vi": "Vì đây là lần đầu tôi đến khu này nên đã bị lạc một chút."}
+   {
+    "sentence_ja": "急に雨が降ってきた＿＿、洗濯物がぬれてしまいました。",
+    "answer": "ものですから",
+    "accept": [
+     "ものだから",
+     "もので",
+     "ので",
+     "から"
+    ],
+    "translation_vi": "Vì trời đột nhiên đổ mưa nên quần áo phơi bị ướt hết."
+   },
+   {
+    "sentence_ja": "この辺りは初めてな＿＿、少し迷ってしまいました。",
+    "answer": "ものですから",
+    "accept": [
+     "ものだから",
+     "もので",
+     "ので"
+    ],
+    "translation_vi": "Vì đây là lần đầu tôi đến khu này nên đã bị lạc một chút."
+   }
   ],
   "extra_practice": [
-   {"type": "FILL", "prompt_ja": "あまりに暑かった（　　）、エアコンをつけたまま寝てしまいました。", "options": ["ものの", "ものなら", "ものか", "ものですから"], "answer_index": 3, "explanation_vi": "Điền 「ものですから」: nêu lý do (nóng quá) cho việc lỡ để điều hòa chạy suốt đêm. ものの (tuy… nhưng), ものなら (nếu mà), ものか (làm gì có) không hợp nghĩa. Nghĩa: Vì trời nóng quá nên tôi đã lỡ ngủ quên mà vẫn bật điều hòa."},
-   {"type": "MEANING", "prompt_ja": "まだ慣れていないものですから、ご迷惑をおかけしてすみません。", "options": ["Vì tôi vẫn chưa quen nên đã làm phiền anh/chị, xin lỗi.", "Tôi đã quen rồi nên không làm phiền ai.", "Tôi chưa quen nhưng không làm phiền ai cả.", "Anh/chị chưa quen nên làm phiền tôi."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜ものですから (giải thích lý do một cách khiêm tốn để xin lỗi): \"Vì tôi vẫn chưa quen nên đã làm phiền anh/chị, xin lỗi.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["声が小さかったものですから、よく聞こえませんでした。", "駅から遠いものですから、いつも自転車で来ています。", "熱があるものですから、早く病院へ行ってください。", "子どもが寝ていたものですから、電話に出られませんでした。"], "answer_index": 2, "explanation_vi": "「熱があるものですから、早く病院へ行ってください。」 sai: ものですから dùng để biện minh cho việc của mình, vế sau không phải lời yêu cầu người khác. Câu đúng: 熱があるなら、早く病院へ行ってください。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "あまりに暑かった（　　）、エアコンをつけたまま寝てしまいました。",
+    "options": [
+     "ものの",
+     "ものなら",
+     "ものか",
+     "ものですから"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「ものですから」: nêu lý do (nóng quá) cho việc lỡ để điều hòa chạy suốt đêm. ものの (tuy… nhưng), ものなら (nếu mà), ものか (làm gì có) không hợp nghĩa. Nghĩa: Vì trời nóng quá nên tôi đã lỡ ngủ quên mà vẫn bật điều hòa."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "まだ慣れていないものですから、ご迷惑をおかけしてすみません。",
+    "options": [
+     "Vì tôi vẫn chưa quen nên đã làm phiền anh/chị, xin lỗi.",
+     "Tôi đã quen rồi nên không làm phiền ai.",
+     "Tôi chưa quen nhưng không làm phiền ai cả.",
+     "Anh/chị chưa quen nên làm phiền tôi."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜ものですから (giải thích lý do một cách khiêm tốn để xin lỗi): \"Vì tôi vẫn chưa quen nên đã làm phiền anh/chị, xin lỗi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "声が小さかったものですから、よく聞こえませんでした。",
+     "駅から遠いものですから、いつも自転車で来ています。",
+     "熱があるものですから、早く病院へ行ってください。",
+     "子どもが寝ていたものですから、電話に出られませんでした。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「熱があるものですから、早く病院へ行ってください。」 sai: ものですから dùng để biện minh cho việc của mình, vế sau không phải lời yêu cầu người khác. Câu đúng: 熱があるなら、早く病院へ行ってください。"
+   }
   ]
  },
  "JG-e3638c550a": {
   "check_bank": [
-   {"type": "FILL", "prompt_ja": "この映画は、実際にあった事件（　　）作られた。", "options": ["のもとで", "をもとに", "に反して", "に限って"], "answer_index": 1, "explanation_vi": "Điền 「をもとに」: lấy vụ việc có thật làm chất liệu để làm phim. のもとで là 'dưới sự…', に反して (trái với), に限って (đúng lúc) không hợp. Nghĩa: Bộ phim này được làm dựa trên một vụ việc có thật."},
-   {"type": "FILL", "prompt_ja": "集めたデータ（　　）、グラフを作った。", "options": ["のもとで", "にかけても", "を除いて", "をもとに"], "answer_index": 3, "explanation_vi": "Điền 「をもとに」: dữ liệu thu thập là nguồn để tạo biểu đồ. のもとで (dưới sự…), にかけても (thề), を除いて (ngoại trừ) không hợp. Nghĩa: Tôi đã lập biểu đồ dựa trên dữ liệu thu thập được."},
-   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、新しいメニューを考えた。", "options": ["もとに", "声", "を", "お客様の"], "answer_index": 2, "explanation_vi": "Câu đúng: お客様の声をもとに、新しいメニューを考えた。 (Dựa trên ý kiến của khách hàng, chúng tôi đã nghĩ ra thực đơn mới.). Mảnh ở ô ★ là 「を」."},
-   {"type": "ORDER_STAR", "prompt_ja": "この歌は＿＿ ★ ＿＿ ＿＿。", "options": ["作られた", "経験を", "作者の", "もとにして"], "answer_index": 1, "explanation_vi": "Câu đúng: この歌は作者の経験をもとにして作られた。 (Bài hát này được sáng tác dựa trên trải nghiệm của tác giả.). Mảnh ở ô ★ là 「経験を」."},
-   {"type": "MEANING", "prompt_ja": "昔話をもとにしたアニメが人気だ。", "options": ["Ngày xưa phim hoạt hình rất được yêu thích.", "Truyện cổ tích được làm lại vì phim hoạt hình nổi tiếng.", "Phim hoạt hình dựa trên truyện cổ tích đang được yêu thích.", "Phim hoạt hình được làm dưới sự chỉ đạo của người kể chuyện."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu N + をもとにした + N (lấy N làm chất liệu): \"Phim hoạt hình dựa trên truyện cổ tích đang được yêu thích.\""},
-   {"type": "MEANING", "prompt_ja": "売り上げのデータをもとに、来年の計画を立てた。", "options": ["Chúng tôi lập kế hoạch năm sau dựa trên số liệu doanh thu.", "Doanh thu năm sau đã tăng nhờ kế hoạch tốt.", "Chúng tôi lập kế hoạch mà không cần xem số liệu.", "Số liệu doanh thu được thu thập theo kế hoạch."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu N + をもとに (lấy N làm cơ sở để tạo ra điều mới): \"Chúng tôi lập kế hoạch năm sau dựa trên số liệu doanh thu.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["祖母の話をもとに、家族の歴史を調べた。", "社長をもとに、社員は一生懸命働いている。", "この料理は、昔の料理本をもとに作りました。", "調査の結果をもとにして、報告書を書いた。"], "answer_index": 1, "explanation_vi": "「社長をもとに、社員は一生懸命働いている。」 sai: をもとに cần danh từ là tư liệu, nguồn; 'dưới sự lãnh đạo của giám đốc' phải dùng のもとで. Câu đúng: 社長のもとで、社員は一生懸命働いている。"},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["みんなの意見をもとに、旅行の行き先を決めた。", "この絵は写真をもとにして描かれた。", "過去のデータをもとにした予測が外れた。", "実話にもとに書かれた小説を読んだ。"], "answer_index": 3, "explanation_vi": "「実話にもとに書かれた小説を読んだ。」 sai: trợ từ phải là を (N + をもとに), không dùng に. Câu đúng: 実話をもとに書かれた小説を読んだ。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "この映画は、実際にあった事件（　　）作られた。",
+    "options": [
+     "のもとで",
+     "をもとに",
+     "に反して",
+     "に限って"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「をもとに」: lấy vụ việc có thật làm chất liệu để làm phim. のもとで là 'dưới sự…', に反して (trái với), に限って (đúng lúc) không hợp. Nghĩa: Bộ phim này được làm dựa trên một vụ việc có thật."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "集めたデータ（　　）、グラフを作った。",
+    "options": [
+     "のもとで",
+     "にかけても",
+     "を除いて",
+     "をもとに"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「をもとに」: dữ liệu thu thập là nguồn để tạo biểu đồ. のもとで (dưới sự…), にかけても (thề), を除いて (ngoại trừ) không hợp. Nghĩa: Tôi đã lập biểu đồ dựa trên dữ liệu thu thập được."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、新しいメニューを考えた。",
+    "options": [
+     "もとに",
+     "声",
+     "を",
+     "お客様の"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: お客様の声をもとに、新しいメニューを考えた。 (Dựa trên ý kiến của khách hàng, chúng tôi đã nghĩ ra thực đơn mới.). Mảnh ở ô ★ là 「を」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この歌は＿＿ ★ ＿＿ ＿＿。",
+    "options": [
+     "作られた",
+     "経験を",
+     "作者の",
+     "もとにして"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この歌は作者の経験をもとにして作られた。 (Bài hát này được sáng tác dựa trên trải nghiệm của tác giả.). Mảnh ở ô ★ là 「経験を」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "昔話をもとにしたアニメが人気だ。",
+    "options": [
+     "Ngày xưa phim hoạt hình rất được yêu thích.",
+     "Truyện cổ tích được làm lại vì phim hoạt hình nổi tiếng.",
+     "Phim hoạt hình dựa trên truyện cổ tích đang được yêu thích.",
+     "Phim hoạt hình được làm dưới sự chỉ đạo của người kể chuyện."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N + をもとにした + N (lấy N làm chất liệu): \"Phim hoạt hình dựa trên truyện cổ tích đang được yêu thích.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "売り上げのデータをもとに、来年の計画を立てた。",
+    "options": [
+     "Chúng tôi lập kế hoạch năm sau dựa trên số liệu doanh thu.",
+     "Doanh thu năm sau đã tăng nhờ kế hoạch tốt.",
+     "Chúng tôi lập kế hoạch mà không cần xem số liệu.",
+     "Số liệu doanh thu được thu thập theo kế hoạch."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + をもとに (lấy N làm cơ sở để tạo ra điều mới): \"Chúng tôi lập kế hoạch năm sau dựa trên số liệu doanh thu.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "祖母の話をもとに、家族の歴史を調べた。",
+     "社長をもとに、社員は一生懸命働いている。",
+     "この料理は、昔の料理本をもとに作りました。",
+     "調査の結果をもとにして、報告書を書いた。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「社長をもとに、社員は一生懸命働いている。」 sai: をもとに cần danh từ là tư liệu, nguồn; 'dưới sự lãnh đạo của giám đốc' phải dùng のもとで. Câu đúng: 社長のもとで、社員は一生懸命働いている。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "みんなの意見をもとに、旅行の行き先を決めた。",
+     "この絵は写真をもとにして描かれた。",
+     "過去のデータをもとにした予測が外れた。",
+     "実話にもとに書かれた小説を読んだ。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「実話にもとに書かれた小説を読んだ。」 sai: trợ từ phải là を (N + をもとに), không dùng に. Câu đúng: 実話をもとに書かれた小説を読んだ。"
+   }
   ],
   "order_items": [
-   {"pieces": ["もとに", "ドラマが", "作られた。", "この小説を"], "answer_order": [3, 0, 1, 2], "translation_vi": "Bộ phim truyền hình đã được làm dựa trên cuốn tiểu thuyết này."},
-   {"pieces": ["映画を", "見た。", "をもとにした", "本当の話"], "answer_order": [3, 2, 0, 1], "translation_vi": "Tôi đã xem một bộ phim dựa trên chuyện có thật."}
+   {
+    "pieces": [
+     "もとに",
+     "ドラマが作られた。",
+     "この小説を"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1
+    ],
+    "translation_vi": "Bộ phim truyền hình đã được làm dựa trên cuốn tiểu thuyết này."
+   },
+   {
+    "pieces": [
+     "映画を",
+     "見た。",
+     "をもとにした",
+     "本当の話"
+    ],
+    "answer_order": [
+     3,
+     2,
+     0,
+     1
+    ],
+    "translation_vi": "Tôi đã xem một bộ phim dựa trên chuyện có thật."
+   }
   ],
   "fill_items": [
-   {"sentence_ja": "この料理は、母のレシピ＿＿作りました。", "answer": "をもとに", "accept": ["をもとにして"], "translation_vi": "Món này tôi nấu dựa theo công thức của mẹ."},
-   {"sentence_ja": "学生のアンケート＿＿、授業の内容を変えた。", "answer": "をもとに", "accept": ["をもとにして", "に基づいて"], "translation_vi": "Dựa trên phiếu khảo sát của sinh viên, chúng tôi đã thay đổi nội dung giờ học."}
+   {
+    "sentence_ja": "この料理は、母のレシピ＿＿作りました。",
+    "answer": "をもとに",
+    "accept": [
+     "をもとにして"
+    ],
+    "translation_vi": "Món này tôi nấu dựa theo công thức của mẹ."
+   },
+   {
+    "sentence_ja": "学生のアンケート＿＿、授業の内容を変えた。",
+    "answer": "をもとに",
+    "accept": [
+     "をもとにして",
+     "に基づいて"
+    ],
+    "translation_vi": "Dựa trên phiếu khảo sát của sinh viên, chúng tôi đã thay đổi nội dung giờ học."
+   }
   ],
   "extra_practice": [
-   {"type": "FILL", "prompt_ja": "この服は、昔の着物のデザイン（　　）作られている。", "options": ["のもとで", "次第で", "をもとに", "以外に"], "answer_index": 2, "explanation_vi": "Điền 「をもとに」: thiết kế kimono xưa là chất liệu để tạo ra bộ quần áo. のもとで (dưới sự…), 次第で (tùy theo), 以外に (ngoài ra) không hợp. Nghĩa: Bộ quần áo này được may dựa trên thiết kế kimono ngày xưa."},
-   {"type": "MEANING", "prompt_ja": "これは実際の事件をもとに書かれた小説だ。", "options": ["Đây là cuốn tiểu thuyết kể về một nhà văn nổi tiếng.", "Đây là cuốn tiểu thuyết được viết dựa trên một vụ việc có thật.", "Vụ việc có thật này xảy ra sau khi cuốn tiểu thuyết được viết.", "Cuốn tiểu thuyết này không liên quan gì đến chuyện thật."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu N + をもとに (lấy N làm chất liệu sáng tác): \"Đây là cuốn tiểu thuyết được viết dựa trên một vụ việc có thật.\""},
-   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["地元の野菜をもとに、新しいお菓子を作った。", "利用者の声をもとに、アプリを改善した。", "古い写真をもとに、昔の町の地図を作った。", "新しい監督をもとに、チームは強くなった。"], "answer_index": 3, "explanation_vi": "「新しい監督をもとに、チームは強くなった。」 sai: người đứng đầu không phải là 'chất liệu'; 'dưới sự dẫn dắt của huấn luyện viên' phải dùng のもとで. Câu đúng: 新しい監督のもとで、チームは強くなった。"}
+   {
+    "type": "FILL",
+    "prompt_ja": "この服は、昔の着物のデザイン（　　）作られている。",
+    "options": [
+     "のもとで",
+     "次第で",
+     "をもとに",
+     "以外に"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「をもとに」: thiết kế kimono xưa là chất liệu để tạo ra bộ quần áo. のもとで (dưới sự…), 次第で (tùy theo), 以外に (ngoài ra) không hợp. Nghĩa: Bộ quần áo này được may dựa trên thiết kế kimono ngày xưa."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "これは実際の事件をもとに書かれた小説だ。",
+    "options": [
+     "Đây là cuốn tiểu thuyết kể về một nhà văn nổi tiếng.",
+     "Đây là cuốn tiểu thuyết được viết dựa trên một vụ việc có thật.",
+     "Vụ việc có thật này xảy ra sau khi cuốn tiểu thuyết được viết.",
+     "Cuốn tiểu thuyết này không liên quan gì đến chuyện thật."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + をもとに (lấy N làm chất liệu sáng tác): \"Đây là cuốn tiểu thuyết được viết dựa trên một vụ việc có thật.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "地元の野菜をもとに、新しいお菓子を作った。",
+     "利用者の声をもとに、アプリを改善した。",
+     "古い写真をもとに、昔の町の地図を作った。",
+     "新しい監督をもとに、チームは強くなった。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「新しい監督をもとに、チームは強くなった。」 sai: người đứng đầu không phải là 'chất liệu'; 'dưới sự dẫn dắt của huấn luyện viên' phải dùng のもとで. Câu đúng: 新しい監督のもとで、チームは強くなった。"
+   }
+  ]
+ },
+ "JG-4e40720b25": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "簡単な手術ですから、心配する（　　）。",
+    "options": [
+     "に違いありません",
+     "には及びません",
+     "ことにしました",
+     "わけにはいきません"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「には及びません」: ca mổ đơn giản nên không cần phải lo, lời trấn an người nghe. に違いありません (chắc chắn), ことにしました (đã quyết định), わけにはいきません (không thể) trái với ý an ủi. Nghĩa: Đây là ca mổ đơn giản nên anh/chị không cần phải lo đâu."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "お礼（　　）。困った時はお互い様ですから。",
+    "options": [
+     "にすぎません",
+     "に限ります",
+     "にかけても",
+     "には及びません"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「には及びません」: từ chối nhẹ lời cảm ơn, 'không cần cảm ơn đâu'. にすぎません (chỉ là), に限ります (là tốt nhất), にかけても (thề) không hợp. Nghĩa: Không cần cảm ơn đâu. Lúc khó khăn thì giúp nhau là chuyện thường mà."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この程度の雨なら、＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "及ばない",
+     "には",
+     "中止する",
+     "試合を"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この程度の雨なら、試合を中止するには及ばない。 (Mưa cỡ này thì không cần phải hủy trận đấu.). Mảnh ở ô ★ là 「には」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "わざわざ＿＿ ★ ＿＿ ＿＿ 、メールで送りますから。",
+    "options": [
+     "には",
+     "及びません",
+     "来る",
+     "取りに"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: わざわざ取りに来るには及びません、メールで送りますから。 (Không cần cất công đến lấy đâu, tôi sẽ gửi qua email.). Mảnh ở ô ★ là 「来る」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "わざわざ謝りに来るには及ばないよ。",
+    "options": [
+     "Đáng lẽ cậu phải đến tận nơi xin lỗi.",
+     "Cậu xin lỗi cũng không bằng người khác.",
+     "Cậu không đến kịp để xin lỗi.",
+     "Không cần phải cất công đến xin lỗi đâu."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vる + には及ばない (không cần phải làm đến mức đó): \"Không cần phải cất công đến xin lỗi đâu.\" Đừng nhầm với に及ばない (không bằng)."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "その程度のことなら、上司に報告するには及ばない。",
+    "options": [
+     "Chuyện cỡ đó thì phải báo cáo cấp trên ngay.",
+     "Chuyện cỡ đó thì không cần phải báo cáo cấp trên.",
+     "Chuyện cỡ đó thì cấp trên làm không bằng tôi.",
+     "Chuyện cỡ đó thì cấp trên đã biết rồi."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vる + には及ばない (việc nhỏ nên không cần làm đến mức đó): \"Chuyện cỡ đó thì không cần phải báo cáo cấp trên.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "この程度の熱なら、病院に行くには及ばない。",
+     "心配には及びません。すぐに治りますよ。",
+     "わざわざ来てには及びません。",
+     "急ぐには及びませんから、ゆっくりやってください。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「わざわざ来てには及びません。」 sai: には及ばない đi sau Vる hoặc danh từ, không đi sau thể て. Câu đúng: わざわざ来るには及びません。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "全部読んだには及びませんよ。",
+     "お返事には及びません。",
+     "それには及びませんよ。私が後で届けますから。",
+     "一人で十分できますから、手伝いには及びません。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「全部読んだには及びませんよ。」 sai: động từ trước には及ばない phải ở thể Vる, không dùng Vた. Câu đúng: 全部読むには及びませんよ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "には",
+     "わざわざ",
+     "及びません。",
+     "来る"
+    ],
+    "answer_order": [
+     1,
+     3,
+     0,
+     2
+    ],
+    "translation_vi": "Không cần phải cất công đến đâu."
+   },
+   {
+    "pieces": [
+     "心配する",
+     "には",
+     "こんな小さなけがなら",
+     "及ばない。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Vết thương nhỏ thế này thì không cần phải lo."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "わざわざ駅まで迎えに来る＿＿。タクシーで行きますから。",
+    "answer": "には及びません",
+    "accept": [
+     "には及ばない",
+     "ことはありません",
+     "必要はありません"
+    ],
+    "translation_vi": "Không cần phải cất công ra ga đón đâu. Tôi sẽ đi taxi."
+   },
+   {
+    "sentence_ja": "この程度の故障なら、新しいのを買う＿＿。",
+    "answer": "には及ばない",
+    "accept": [
+     "には及びません",
+     "ことはない",
+     "必要はない"
+    ],
+    "translation_vi": "Hỏng cỡ này thì không cần phải mua cái mới."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "これくらいのことで、お礼を言われる（　　）。",
+    "options": [
+     "しかありません",
+     "ところです",
+     "には及びません",
+     "ばかりです"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「には及びません」: việc nhỏ nên không cần được cảm ơn, cách nói khiêm tốn. しかありません (chỉ còn cách), ところです (sắp), ばかりです (toàn là) không hợp. Nghĩa: Chuyện cỡ này thì không cần cảm ơn tôi đâu."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "資料はメールで送りますので、お返事には及びません。",
+    "options": [
+     "Tôi sẽ gửi tài liệu qua email, anh/chị không cần trả lời đâu ạ.",
+     "Tôi sẽ gửi tài liệu qua email, mong anh/chị trả lời sớm.",
+     "Tài liệu không bằng bản trả lời của anh/chị.",
+     "Anh/chị đã trả lời email rồi nên tôi gửi tài liệu."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + には及ばない (không cần phải làm việc đó): \"Tôi sẽ gửi tài liệu qua email, anh/chị không cần trả lời đâu ạ.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "そんなに急ぐには及びませんよ。",
+     "心配しには及びません。",
+     "この程度なら、医者に診てもらうには及ばないでしょう。",
+     "お見送りには及びません。ここで失礼します。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「心配しには及びません。」 sai: には及ばない đi sau Vる hoặc danh từ, không đi sau V bỏ ます. Câu đúng: 心配するには及びません。 hoặc ご心配には及びません。"
+   }
+  ]
+ },
+ "JG-dfcbabddef": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "電車が急に止まった（　　）、前の人にぶつかってしまった。",
+    "options": [
+     "ついでに",
+     "はずみで",
+     "うちに",
+     "くせに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「はずみで」: do đà tàu dừng đột ngột mà lỡ va vào người phía trước. ついでに (nhân tiện), くせに (vậy mà) không hợp; うちに không đi sau Vた. Nghĩa: Do tàu dừng đột ngột, tôi lỡ va vào người phía trước."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "くしゃみをした（　　）、持っていたコップを落としてしまった。",
+    "options": [
+     "以来",
+     "上で",
+     "反面",
+     "はずみで"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「はずみで」: cái hắt hơi bất chợt khiến lỡ tay làm rơi cốc. 以来 cần V-て, 上で là 'sau khi… rồi mới', 反面 nêu hai mặt đối lập nên không hợp. Nghĩa: Do hắt hơi, tôi lỡ làm rơi chiếc cốc đang cầm."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ スマホが落ちた。",
+    "options": [
+     "ポケットから",
+     "はずみで、",
+     "転んだ",
+     "自転車で"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 自転車で転んだはずみで、ポケットからスマホが落ちた。 (Do ngã xe đạp, điện thoại văng ra khỏi túi.). Mảnh ở ô ★ là 「はずみで、」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、ボタンが取れてしまった。",
+    "options": [
+     "はずみで",
+     "服が",
+     "ドアに",
+     "引っかかった"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 服がドアに引っかかったはずみで、ボタンが取れてしまった。 (Do áo bị mắc vào cửa, chiếc cúc bị bung ra.). Mảnh ở ô ★ là 「引っかかった」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "立ち上がったはずみで、机の上のお茶をこぼしてしまった。",
+    "options": [
+     "Tôi đứng dậy để lau chỗ trà bị đổ trên bàn.",
+     "Tôi cố tình làm đổ trà rồi đứng dậy.",
+     "Lúc đứng dậy, tôi lỡ đà làm đổ trà trên bàn.",
+     "Vì trà bị đổ nên tôi không đứng dậy được."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu Vた + はずみで (do đà của một động tác mà việc ngoài ý muốn xảy ra): \"Lúc đứng dậy, tôi lỡ đà làm đổ trà trên bàn.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "ボールをけったはずみで、靴が飛んでいった。",
+    "options": [
+     "Tôi đá bóng bằng chiếc giày mới.",
+     "Do đà khi đá bóng, chiếc giày đã văng đi.",
+     "Tôi ném giày đi để đá bóng cho dễ.",
+     "Quả bóng bay đi vì giày bị rơi."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vた + はずみで (hậu quả bất ngờ do một động tác): \"Do đà khi đá bóng, chiếc giày đã văng đi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "ぶつかったはずみで、メガネが落ちた。",
+     "毎日のはずみで、日本語を勉強している。",
+     "車が急に曲がったはずみで、荷物が倒れた。",
+     "転んだはずみで、ひざをけがした。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「毎日のはずみで、日本語を勉強している。」 sai: はずみで chỉ việc ngoài ý muốn do một động tác bất chợt, không dùng cho hành động có chủ ý, lặp lại. Câu đúng: 毎日、日本語を勉強している。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "地震で揺れたはずみで、棚から本が落ちた。",
+     "何かのはずみで、パソコンの電源が切れた。",
+     "ドアを強く閉めたはずみで、壁の絵が落ちた。",
+     "合格するはずみで、毎晩遅くまで勉強した。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「合格するはずみで、毎晩遅くまで勉強した。」 sai: はずみで không diễn đạt mục đích; muốn nói 'để đỗ' phải dùng ために. Câu đúng: 合格するために、毎晩遅くまで勉強した。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "はずみで",
+     "バスが",
+     "急に止まった",
+     "転んでしまった。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3
+    ],
+    "translation_vi": "Do xe buýt dừng đột ngột, tôi bị ngã."
+   },
+   {
+    "pieces": [
+     "はずみで",
+     "ペンが",
+     "立ち上がった",
+     "床に落ちた。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Lúc tôi đứng dậy, cây bút rơi xuống sàn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "人とぶつかった＿＿、持っていたかばんを落とした。",
+    "answer": "はずみで",
+    "accept": [
+     "拍子に"
+    ],
+    "translation_vi": "Do va phải người khác, tôi làm rơi chiếc cặp đang cầm."
+   },
+   {
+    "sentence_ja": "何かの＿＿、ドアのかぎが開いてしまったらしい。",
+    "answer": "はずみで",
+    "translation_vi": "Hình như do một cú va chạm nào đó mà khóa cửa bị bật ra."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "急にブレーキをかけた（　　）、頭を窓にぶつけた。",
+    "options": [
+     "はずみで",
+     "ように",
+     "ことなく",
+     "からには"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「はずみで」: do phanh gấp mà lỡ đập đầu vào cửa kính. ように không hợp nghĩa; ことなく cần Vる; からには (một khi đã) không hợp. Nghĩa: Do phanh gấp, tôi đập đầu vào cửa kính."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "振り向いたはずみで、隣の人のコーヒーにひじが当たった。",
+    "options": [
+     "Tôi quay lại để xin lỗi người bên cạnh.",
+     "Người bên cạnh cố tình làm đổ cà phê của tôi.",
+     "Tôi quay lại để gọi thêm cà phê.",
+     "Lúc quay lại, tôi lỡ chạm khuỷu tay vào cốc cà phê của người bên cạnh."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vた + はずみで (việc ngoài ý muốn do một động tác bất chợt): \"Lúc quay lại, tôi lỡ chạm khuỷu tay vào cốc cà phê của người bên cạnh.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "階段から落ちたはずみで、腕の骨を折った。",
+     "宿題をするはずみで、図書館に行った。",
+     "強い風が吹いたはずみで、看板が倒れた。",
+     "くしゃみのはずみで、メガネがずれた。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「宿題をするはずみで、図書館に行った。」 sai: はずみで không chỉ mục đích hay hành động có chủ ý. Câu đúng: 宿題をするために、図書館に行った。"
+   }
+  ]
+ },
+ "JG-bb43bfae7b": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "安全（　　）の理由から、ここでは火を使わないでください。",
+    "options": [
+     "中",
+     "上",
+     "下",
+     "的"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「上」: N + 上(じょう) nghĩa là 'về mặt N'; 安全上の理由 là lý do về mặt an toàn. 中, 下, 的 không tạo nghĩa này. Nghĩa: Vì lý do an toàn, xin đừng dùng lửa ở đây."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "仕事（　　）、いろいろな国の人と会う機会が多い。",
+    "options": [
+     "以来",
+     "次第",
+     "上",
+     "に限って"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「上」: 仕事上 nghĩa là 'do tính chất công việc, về mặt công việc'. 以来 (kể từ), 次第 (tùy theo/ngay khi), に限って (đúng lúc) không hợp. Nghĩa: Do công việc, tôi có nhiều dịp gặp người từ nhiều nước."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "父は＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "退職した",
+     "理由で",
+     "健康",
+     "上の"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 父は健康上の理由で退職した。 (Bố tôi đã nghỉ việc vì lý do sức khỏe.). Mảnh ở ô ★ là 「理由で」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "申し訳ありませんが、＿＿ ★ ＿＿ ＿＿。",
+    "options": [
+     "できません",
+     "お答え",
+     "上",
+     "立場"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 申し訳ありませんが、立場上お答えできません。 (Xin lỗi, vì vị trí của mình nên tôi không thể trả lời.). Mảnh ở ô ★ là 「上」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この薬は、法律上、医者の許可がないと買えない。",
+    "options": [
+     "Thuốc này được bán trên tầng có văn phòng luật sư.",
+     "Về mặt pháp luật, thuốc này không mua được nếu không có sự cho phép của bác sĩ.",
+     "Thuốc này mua được dễ dàng mà không cần bác sĩ.",
+     "Bác sĩ đã ra luật cấm bán thuốc này."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + 上(じょう) (xét về mặt N): \"Về mặt pháp luật, thuốc này không mua được nếu không có sự cho phép của bác sĩ.\" 上 ở đây đọc là じょう, không phải 'phía trên'."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "教育上、子どもにこの映画を見せるのはよくない。",
+    "options": [
+     "Bộ phim này được chiếu ở trường học cho trẻ em.",
+     "Trẻ em thích xem bộ phim này hơn người lớn.",
+     "Học xong thì trẻ em được xem bộ phim này.",
+     "Về mặt giáo dục, cho trẻ em xem bộ phim này là không tốt."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + 上 (xét trên phương diện giáo dục): \"Về mặt giáo dục, cho trẻ em xem bộ phim này là không tốt.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "仕事上の悩みを、先輩に相談した。",
+     "ケーキ上に、いちごがのっている。",
+     "この計画には、予算上の問題がある。",
+     "歴史上、最も有名な人物の一人だ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「ケーキ上に、いちごがのっている。」 sai: N + 上(じょう) chỉ phương diện, lĩnh vực, không chỉ vị trí 'phía trên' của đồ vật. Câu đúng: ケーキの上に、いちごがのっている。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "安全上、この窓は開かないようになっている。",
+     "立場上、そのことは話せない。",
+     "忙しい上の理由で、旅行に行けなかった。",
+     "計算上は、明日までに終わるはずだ。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「忙しい上の理由で、旅行に行けなかった。」 sai: 上(じょう) chỉ gắn sau danh từ chỉ lĩnh vực, không gắn sau tính từ. Câu đúng: 仕事上の理由で、旅行に行けなかった。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "この計画は予算",
+     "問題で",
+     "上の",
+     "中止になった。"
+    ],
+    "answer_order": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "translation_vi": "Kế hoạch này đã bị hủy vì vấn đề về ngân sách."
+   },
+   {
+    "pieces": [
+     "私は立場",
+     "何も言えない。",
+     "上、"
+    ],
+    "answer_order": [
+     0,
+     2,
+     1
+    ],
+    "translation_vi": "Vì vị trí của mình, tôi không thể nói gì."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "健康＿＿の理由で、お酒はやめました。",
+    "answer": "上",
+    "accept": [
+     "じょう"
+    ],
+    "translation_vi": "Vì lý do sức khỏe, tôi đã bỏ rượu."
+   },
+   {
+    "sentence_ja": "この建物は、安全＿＿問題があるので、使えなくなった。",
+    "answer": "上",
+    "accept": [
+     "上の",
+     "じょう"
+    ],
+    "translation_vi": "Tòa nhà này có vấn đề về mặt an toàn nên đã không dùng được nữa."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この本は、教育（　　）とても役に立つ。",
+    "options": [
+     "中",
+     "下",
+     "内",
+     "上"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「上」: 教育上 nghĩa là 'về mặt giáo dục'. 中, 下, 内 không mang nghĩa phương diện. Nghĩa: Cuốn sách này rất có ích về mặt giáo dục."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "仕事上の付き合いで、週に一度は飲みに行く。",
+    "options": [
+     "Vì quan hệ trong công việc, mỗi tuần tôi đi uống một lần.",
+     "Sau giờ làm, tôi đi uống một mình mỗi tuần.",
+     "Tôi được cấp trên mời đi uống vì làm việc giỏi.",
+     "Tôi không đi uống vì bận việc."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + 上の + N (quan hệ xét về mặt công việc): \"Vì quan hệ trong công việc, mỗi tuần tôi đi uống một lần.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "表面上は元気そうだが、実は疲れている。",
+     "経験上、この時間は道が混む。",
+     "屋根上に猫がいる。",
+     "計算上、この材料で十分足りる。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「屋根上に猫がいる。」 sai: vị trí 'trên mái nhà' phải dùng の上に; N + 上(じょう) chỉ phương diện. Câu đúng: 屋根の上に猫がいる。"
+   }
+  ]
+ },
+ "JG-4f77441a6c": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "理由が何（　　）、約束を守らなかったのはよくない。",
+    "options": [
+     "にとって",
+     "にせよ",
+     "にかけて",
+     "に沿って"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「にせよ」: 何にせよ 'dù lý do là gì đi nữa', vế sau là nhận định không đổi. にとって, にかけて, に沿って không mang nghĩa nhượng bộ. Nghĩa: Dù lý do là gì đi nữa, việc không giữ lời hứa là không tốt."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "たとえ冗談（　　）、人を傷つけることを言ってはいけない。",
+    "options": [
+     "として",
+     "によって",
+     "にせよ",
+     "にかけて"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にせよ」: たとえ〜にせよ 'cho dù là… đi nữa'. として, によって, にかけて không đi với たとえ để nhượng bộ. Nghĩa: Cho dù là nói đùa đi nữa cũng không được nói điều làm tổn thương người khác."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、飲みすぎは体に悪い。",
+    "options": [
+     "にせよ",
+     "いくら",
+     "好き",
+     "お酒が"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: いくらお酒が好きにせよ、飲みすぎは体に悪い。 (Dù thích rượu đến đâu đi nữa, uống quá nhiều vẫn hại sức khỏe.). Mảnh ở ô ★ là 「好き」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿ 、事前に知らせるべきだ。",
+    "options": [
+     "事情が",
+     "あった",
+     "にしろ",
+     "どんな"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: どんな事情があったにしろ、事前に知らせるべきだ。 (Dù có lý do gì đi nữa thì cũng nên báo trước.). Mảnh ở ô ★ là 「事情が」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "冗談にせよ、そんなことを言うべきではない。",
+    "options": [
+     "Vì là đùa nên nói vậy cũng được.",
+     "Dù chỉ là đùa thì cũng không nên nói như vậy.",
+     "Nếu không phải đùa thì có thể nói như vậy.",
+     "Anh ấy hay nói đùa như vậy."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + にせよ (dù là N đi nữa thì nhận định vẫn vậy): \"Dù chỉ là đùa thì cũng không nên nói như vậy.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "買うにしろ買わないにしろ、一度見ておいたほうがいい。",
+    "options": [
+     "Vì sẽ mua nên hãy xem trước một lần.",
+     "Không mua thì không cần xem.",
+     "Dù mua hay không mua thì cũng nên xem qua một lần.",
+     "Mua rồi thì xem lại một lần cũng được."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜にしろ〜にしろ (dù A hay B thì cũng…): \"Dù mua hay không mua thì cũng nên xem qua một lần.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "どんな結果にせよ、最後まで頑張ることが大切だ。",
+     "雨が降るにせよ、昨日は家にいた。",
+     "忙しいにしろ、食事はきちんととるべきだ。",
+     "行くにせよ行かないにせよ、早めに決めてください。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「雨が降るにせよ、昨日は家にいた。」 sai: vế sau của にせよ phải là phán đoán hay yêu cầu đúng bất kể điều kiện, không phải một sự việc đã xảy ra. Câu đúng: 雨が降っていたので、昨日は家にいた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "子どもにせよ大人にせよ、ルールは守るべきだ。",
+     "冗談にしろ、言っていいことと悪いことがある。",
+     "たとえ少しにしろ、彼が手伝ってくれたのはありがたい。",
+     "学生だにせよ、ルールは守らなければならない。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「学生だにせよ、ルールは守らなければならない。」 sai: danh từ nối thẳng với にせよ, bỏ だ. Câu đúng: 学生にせよ、ルールは守らなければならない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "後悔しないようにしよう。",
+     "選ぶ",
+     "にせよ、",
+     "どちらを"
+    ],
+    "answer_order": [
+     3,
+     1,
+     2,
+     0
+    ],
+    "translation_vi": "Dù chọn cái nào đi nữa, hãy cố đừng hối hận."
+   },
+   {
+    "pieces": [
+     "忙しい",
+     "連絡ぐらいはしてほしい。",
+     "にしろ、",
+     "いくら"
+    ],
+    "answer_order": [
+     3,
+     0,
+     2,
+     1
+    ],
+    "translation_vi": "Dù bận đến đâu đi nữa, tôi cũng muốn bạn ít ra liên lạc một chút."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "どんな理由がある＿＿、暴力はいけない。",
+    "answer": "にせよ",
+    "accept": [
+     "にしろ",
+     "にしても",
+     "としても"
+    ],
+    "translation_vi": "Dù có lý do gì đi nữa, bạo lực là không được."
+   },
+   {
+    "sentence_ja": "たとえ小さなミス＿＿、お客様に迷惑をかけたことに変わりはない。",
+    "answer": "にしろ",
+    "accept": [
+     "にせよ",
+     "にしても",
+     "だとしても",
+     "でも"
+    ],
+    "translation_vi": "Cho dù chỉ là lỗi nhỏ, việc đã gây phiền cho khách hàng vẫn không thay đổi."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "どちらに（　　）、早く決めたほうがいい。",
+    "options": [
+     "よって",
+     "とって",
+     "せよ",
+     "かけて"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「せよ」: どちらにせよ 'dù thế nào đi nữa', vế sau là lời khuyên. によって, にとって, にかけて không tạo nghĩa nhượng bộ. Nghĩa: Dù thế nào đi nữa thì cũng nên quyết định sớm."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "どんな仕事にせよ、楽な仕事はない。",
+    "options": [
+     "Có những công việc nhàn hơn công việc khác.",
+     "Công việc nhàn thì ai cũng thích.",
+     "Tôi không biết làm công việc gì cho nhàn.",
+     "Dù là công việc gì thì cũng không có việc nào nhàn cả."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu どんな N にせよ (dù là N nào đi nữa): \"Dù là công việc gì thì cũng không có việc nào nhàn cả.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "たとえ失敗するにせよ、やってみる価値はある。",
+     "明日は晴れるにせよ、とてもうれしい。",
+     "誰がやるにしろ、責任は私が取ります。",
+     "本当にせようそにせよ、確かめる必要がある。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「明日は晴れるにせよ、とてもうれしい。」 sai: にせよ là nhượng bộ 'dù… đi nữa', vế sau phải là nhận định vẫn đúng bất chấp điều đó, không nối với cảm xúc vui mừng do chính điều đó. Câu đúng: 明日は晴れるそうで、とてもうれしい。"
+   }
   ]
  }
 }
