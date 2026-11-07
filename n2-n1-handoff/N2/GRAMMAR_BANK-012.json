@@ -1674,7 +1674,192 @@
    "id": "JG-a1275b8738"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "料理が嫌いな（　　）が、忙しくて作る時間がない。",
+      "options": [
+       "わけにはいかない",
+       "ことにする",
+       "わけではない",
+       "ばかりだ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「わけではない」: Aな + な + わけではない = không hẳn là…, phủ nhận điều người nghe dễ suy ra. わけにはいかない, ことにする, ばかりだ không đi với 嫌いな để tạo nghĩa này. Nghĩa: Không phải tôi ghét nấu ăn, chỉ là bận quá không có thời gian nấu."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "お金があれば幸せという（　　）ではない。",
+      "options": [
+       "はず",
+       "わけ",
+       "ため",
+       "まま"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「わけ」: 〜というわけではない = không hẳn là như vậy. はずではない, ためではない, ままではない không tạo nghĩa phủ định một phần ở đây. Nghĩa: Không phải cứ có tiền là hạnh phúc."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "日本人だからといって、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "読み方を",
+       "わけではない",
+       "全部知っている",
+       "漢字の"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 日本人だからといって、漢字の読み方を全部知っているわけではない。 (Dù là người Nhật cũng không hẳn là biết hết cách đọc chữ Hán.). Mảnh ở ô ★ là 「全部知っている」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ＿＿ ★ が、今日は都合が悪い。",
+      "options": [
+       "ない",
+       "わけではない",
+       "パーティーに",
+       "行きたく"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: パーティーに行きたくないわけではないが、今日は都合が悪い。 (Không phải tôi không muốn đi tiệc, chỉ là hôm nay không tiện.). Mảnh ở ô ★ là 「わけではない」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の意見に全部賛成しているわけではない。",
+      "options": [
+       "Tôi hoàn toàn không tán thành ý kiến của anh ấy.",
+       "Tôi tán thành toàn bộ ý kiến của anh ấy.",
+       "Không thể nào tôi tán thành ý kiến của anh ấy.",
+       "Không phải tôi tán thành tất cả ý kiến của anh ấy."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu わけではない (phủ định một phần, không hẳn là…): \"Không phải tôi tán thành tất cả ý kiến của anh ấy.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "甘い物が嫌いなわけではないが、今はダイエット中なんです。",
+      "options": [
+       "Không phải tôi ghét đồ ngọt, chỉ là bây giờ đang ăn kiêng.",
+       "Tôi ghét đồ ngọt nên đang ăn kiêng.",
+       "Không thể nào tôi ghét đồ ngọt, vì đang ăn kiêng.",
+       "Đang ăn kiêng nên tôi không được phép ghét đồ ngọt."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Aな + わけではない (không hẳn là…): \"Không phải tôi ghét đồ ngọt, chỉ là bây giờ đang ăn kiêng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "毎日運動しているわけではないが、体は丈夫だ。",
+       "彼はこの店の店員わけではない。",
+       "全員が賛成したわけではない。",
+       "お金がないわけではないが、無駄遣いはしたくない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼はこの店の店員わけではない。」 sai: danh từ không nối thẳng với わけ; phải có な hoặc という. Câu đúng: 彼はこの店の店員というわけではない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "高いからといって、品質がいいわけではない。",
+       "仕事が嫌でやめたわけではありません。",
+       "納豆が嫌いだわけではないが、毎日は食べない。",
+       "一人暮らしが寂しいわけではないが、たまに家族に会いたくなる。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「納豆が嫌いだわけではないが、毎日は食べない。」 sai: tính từ な đứng trước わけ phải dùng な, không dùng だ. Câu đúng: 納豆が嫌いなわけではないが、毎日は食べない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "全員",
+       "わけではない。",
+       "この会社の社員が",
+       "残業している"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Không phải toàn bộ nhân viên công ty này đều làm thêm giờ."
+     },
+     {
+      "pieces": [
+       "働いている",
+       "わけではない。",
+       "欲しくて",
+       "お金が"
+      ],
+      "answer_order": [
+       3,
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Không phải tôi làm việc vì muốn có tiền."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "読書が好きだといっても、どんな本でも読む＿＿ではない。",
+      "answer": "わけ",
+      "translation_vi": "Nói là thích đọc sách nhưng không phải sách nào tôi cũng đọc."
+     },
+     {
+      "sentence_ja": "体が弱い＿＿が、よく風邪をひく。",
+      "answer": "わけではない",
+      "accept": [
+       "わけではありません",
+       "わけじゃない"
+      ],
+      "translation_vi": "Không phải tôi yếu, nhưng tôi hay bị cảm."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "有名な大学を出た人が、必ずしも仕事ができる（　　）。",
+      "options": [
+       "ことにしている",
+       "ものがある",
+       "ようにする",
+       "わけではない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「わけではない」: 必ずしも luôn đi với cách phủ định một phần như わけではない. ことにしている, ものがある, ようにする không đi với 必ずしも. Nghĩa: Người tốt nghiệp đại học nổi tiếng không hẳn là làm việc giỏi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本語を勉強しているが、日本で働きたいわけではない。",
+      "options": [
+       "Tôi học tiếng Nhật vì nhất định muốn làm việc ở Nhật.",
+       "Tôi học tiếng Nhật nhưng không hẳn là muốn làm việc ở Nhật.",
+       "Tôi học tiếng Nhật nhưng không thể làm việc ở Nhật.",
+       "Tôi học tiếng Nhật nên phải làm việc ở Nhật."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu わけではない (không hẳn là…): \"Tôi học tiếng Nhật nhưng không hẳn là muốn làm việc ở Nhật.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あんなに練習したのだから、負けるわけではない。",
+       "嫌いなわけではないが、辛い料理はあまり食べない。",
+       "みんなが同じ意見だというわけではない。",
+       "彼の言うことがすべて正しいわけではない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「あんなに練習したのだから、負けるわけではない。」 sai: muốn nói 'không thể nào thua' phải dùng わけがない; わけではない chỉ phủ định một phần. Câu đúng: あんなに練習したのだから、負けるわけがない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1697,7 +1882,195 @@
    "id": "JG-bf5dd7803d"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもたちは、公園で楽し（　　）に遊んでいる。",
+      "options": [
+       "さ",
+       "げ",
+       "く",
+       "み"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「げ」: Aい bỏ い + げ = trông có vẻ…; 楽しげに = với vẻ vui vẻ. 楽しさに, 楽しくに, 楽しみに không bổ nghĩa cho 遊んでいる theo cách này. Nghĩa: Bọn trẻ đang chơi đùa vui vẻ trong công viên."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "試験の結果を聞いた彼は、自信あり（　　）な顔をしていた。",
+      "options": [
+       "がち",
+       "気味",
+       "さ",
+       "げ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「げ」: 自信ありげ = có vẻ tự tin, tả vẻ mặt người khác. がち (hay bị), 気味 (hơi bị), さ (danh từ hóa) không gắn sau 自信あり. Nghĩa: Nghe kết quả thi, anh ấy có vẻ mặt đầy tự tin."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 窓の外を見ていた。",
+      "options": [
+       "顔で",
+       "言いたげな",
+       "彼女は",
+       "何か"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼女は何か言いたげな顔で窓の外を見ていた。 (Cô ấy nhìn ra ngoài cửa sổ với vẻ mặt như muốn nói điều gì.). Mảnh ở ô ★ là 「言いたげな」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "息子が出発した後、母は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "して",
+       "いた",
+       "顔を",
+       "寂しげな"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 息子が出発した後、母は寂しげな顔をしていた。 (Sau khi con trai lên đường, mẹ mang vẻ mặt buồn bã.). Mảnh ở ô ★ là 「顔を」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は得意げに自分の作品を説明した。",
+      "options": [
+       "Anh ấy giải thích tác phẩm của mình một cách lúng túng.",
+       "Anh ấy rất giỏi giải thích tác phẩm của mình.",
+       "Anh ấy giải thích tác phẩm của mình với vẻ đắc ý.",
+       "Anh ấy muốn giải thích tác phẩm của mình."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜げ (trông có vẻ, ra vẻ…): 得意げに = với vẻ đắc ý. Nghĩa: \"Anh ấy giải thích tác phẩm của mình với vẻ đắc ý.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "少女は悲しげな目で、遠くの海を見つめていた。",
+      "options": [
+       "Cô bé nhìn chăm chú ra biển xa với đôi mắt buồn bã.",
+       "Cô bé nhìn ra biển xa với đôi mắt vui vẻ.",
+       "Biển xa khiến cô bé buồn nên cô không nhìn nữa.",
+       "Cô bé nói rằng mình buồn khi nhìn ra biển."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu Aい bỏ い + げ (vẻ cảm xúc nhìn thấy bên ngoài): \"Cô bé nhìn chăm chú ra biển xa với đôi mắt buồn bã.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "父は満足げにうなずいた。",
+       "彼女は不安げな表情で結果を待っていた。",
+       "子どもは得意げに賞状を見せてくれた。",
+       "私は今、とても楽しげです。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「私は今、とても楽しげです。」 sai: げ tả vẻ cảm xúc mà người khác nhìn thấy, không dùng để nói cảm xúc của chính mình. Câu đúng: 私は今、とても楽しいです。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "隣の席の人は、眠たげに目をこすっていた。",
+       "彼は悲しいげな声で話した。",
+       "弟は自慢げに新しいゲームを見せた。",
+       "母は心配げに私の顔を見た。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は悲しいげな声で話した。」 sai: tính từ い phải bỏ い rồi mới thêm げ. Câu đúng: 彼は悲しげな声で話した。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "笑っていた。",
+       "合格した",
+       "うれしげに",
+       "友だちは"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Người bạn thi đỗ đang cười với vẻ vui sướng."
+     },
+     {
+      "pieces": [
+       "笑顔を",
+       "意味ありげな",
+       "見せた。",
+       "その男の人は"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Người đàn ông đó nở một nụ cười đầy ẩn ý."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "合格の知らせを聞いて、妹は得意＿＿な顔をしていた。",
+      "answer": "げ",
+      "accept": [
+       "気"
+      ],
+      "translation_vi": "Nghe tin thi đỗ, em gái tôi mang vẻ mặt đắc ý."
+     },
+     {
+      "sentence_ja": "先生は何か言いた＿＿に私を見た。",
+      "answer": "げ",
+      "accept": [
+       "気",
+       "そう"
+      ],
+      "translation_vi": "Thầy nhìn tôi với vẻ như muốn nói điều gì đó."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "雨の中、捨てられた子犬が寂し（　　）に鳴いていた。",
+      "options": [
+       "がり",
+       "ぶり",
+       "げ",
+       "らしく"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「げ」: 寂しげに = với vẻ cô đơn, tả dáng vẻ bên ngoài. 寂しがりに, 寂しぶりに, 寂しらしくに đều không đúng hình thức. Nghĩa: Giữa trời mưa, chú chó con bị bỏ rơi kêu lên đầy vẻ cô đơn."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "部長は満足げに報告書を読んでいた。",
+      "options": [
+       "Trưởng phòng đọc bản báo cáo với vẻ không hài lòng.",
+       "Trưởng phòng nói rằng mình hài lòng với bản báo cáo.",
+       "Trưởng phòng vẫn chưa đọc bản báo cáo.",
+       "Trưởng phòng đọc bản báo cáo với vẻ hài lòng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜げ (vẻ cảm xúc thấy từ bên ngoài): 満足げに = với vẻ hài lòng. Nghĩa: \"Trưởng phòng đọc bản báo cáo với vẻ hài lòng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この箱は重げだ。",
+       "客は不満げに店を出て行った。",
+       "彼女は楽しげに昔の話をした。",
+       "祖父は懐かしげに古い写真を眺めていた。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「この箱は重げだ。」 sai: げ dùng tả vẻ cảm xúc của con người, không dùng cho tính chất của đồ vật; với đồ vật dùng そう. Câu đúng: この箱は重そうだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

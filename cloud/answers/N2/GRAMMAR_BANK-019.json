@@ -1,0 +1,77 @@
+{
+ "JG-e7a86f086c": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "授業が終わる（　　）、学生たちは帰り始めた。", "options": ["か終わったかのうちに", "か終わらないかのうちに", "か終わるかのうちに", "か終わらなかったかのうちに"], "answer_index": 1, "explanation_vi": "Điền 「か終わらないかのうちに」: mẫu lặp cùng một động từ, Vる + か + Vない + かのうちに. Các dạng 終わった, 終わる, 終わらなかった không đúng khuôn. Nghĩa: Giờ học vừa sắp kết thúc thì sinh viên đã bắt đầu ra về."},
+   {"type": "FILL", "prompt_ja": "電車のドアが開くか開かないか（　　）、乗客が降りてきた。", "options": ["のために", "のくせに", "のうちに", "のあいだに"], "answer_index": 2, "explanation_vi": "Điền 「のうちに」: khuôn cố định là 〜か〜ないかのうちに. のために, のくせに, のあいだに không ghép với khuôn này. Nghĩa: Cửa tàu vừa mới mở là hành khách đã bước xuống."},
+   {"type": "ORDER_STAR", "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿。", "options": ["席を立った", "終わらないかのうちに", "食事が", "終わるか"], "answer_index": 1, "explanation_vi": "Câu đúng: 彼は食事が終わるか終わらないかのうちに席を立った。 (Bữa ăn vừa sắp xong là anh ấy đã đứng dậy rời chỗ.). Mảnh ở ô ★ là 「終わらないかのうちに」."},
+   {"type": "ORDER_STAR", "prompt_ja": "目覚まし時計が＿＿ ★ ＿＿ ＿＿。", "options": ["飛び起きた", "弟は", "鳴らないかのうちに", "鳴るか"], "answer_index": 2, "explanation_vi": "Câu đúng: 目覚まし時計が鳴るか鳴らないかのうちに弟は飛び起きた。 (Đồng hồ báo thức vừa mới reo là em trai tôi đã bật dậy.). Mảnh ở ô ★ là 「鳴らないかのうちに」."},
+   {"type": "MEANING", "prompt_ja": "母は私が話し終わるか終わらないかのうちに、怒り出した。", "options": ["Mẹ đợi tôi nói hết rồi mới nổi giận.", "Mẹ không biết tôi đã nói xong hay chưa.", "Dù tôi nói mãi, mẹ vẫn không giận.", "Tôi vừa nói chưa dứt lời thì mẹ đã nổi giận."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vる + か + Vない + かのうちに (việc trước chưa dứt thì việc sau đã xảy ra): \"Tôi vừa nói chưa dứt lời thì mẹ đã nổi giận.\""},
+   {"type": "MEANING", "prompt_ja": "雨がやむかやまないかのうちに、子どもたちは外へ飛び出した。", "options": ["Mưa vừa mới ngớt là bọn trẻ đã lao ra ngoài.", "Bọn trẻ đợi mưa tạnh hẳn rồi mới ra ngoài.", "Không biết mưa đã tạnh chưa nên bọn trẻ ở trong nhà.", "Bọn trẻ ra ngoài từ trước khi trời mưa."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu Vる + か + Vない + かのうちに (vừa mới… thì đã…): \"Mưa vừa mới ngớt là bọn trẻ đã lao ra ngoài.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["店が開くか開かないかのうちに、客が入ってきた。", "ベルが鳴るか止まらないかのうちに、生徒が走り出した。", "布団に入るか入らないかのうちに、寝てしまった。", "信号が変わるか変わらないかのうちに、車が動き出した。"], "answer_index": 1, "explanation_vi": "「ベルが鳴るか止まらないかのうちに、生徒が走り出した。」 sai: phải lặp lại cùng một động từ (鳴る / 鳴らない), không dùng hai động từ khác nhau. Câu đúng: ベルが鳴るか鳴らないかのうちに、生徒が走り出した。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼は試合が始まるか始まらないかのうちに、ゴールを決めた。", "春になるかならないかのうちに、花が咲き始めた。", "料理が出るか出ないかのうちに、彼は食べ始めた。", "家に着くか着かないかのうちに、電話してください。"], "answer_index": 3, "explanation_vi": "「家に着くか着かないかのうちに、電話してください。」 sai: vế sau của mẫu này là việc đã xảy ra, không dùng mệnh lệnh hay nhờ vả. Câu đúng (dùng mẫu khác): 家に着いたら、すぐ電話してください。"}
+  ],
+  "order_items": [
+   {"pieces": ["父は出かけた。", "明けないかのうちに、", "夜が明けるか"], "answer_order": [2, 1, 0], "translation_vi": "Trời vừa tờ mờ sáng là bố tôi đã ra khỏi nhà."},
+   {"pieces": ["客が立ち上がった。", "映画が", "終わらないかのうちに、", "終わるか"], "answer_order": [1, 3, 2, 0], "translation_vi": "Bộ phim vừa sắp hết là khán giả đã đứng dậy."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "ご飯を食べ終わるか食べ終わらない＿＿、弟は遊びに行った。", "answer": "かのうちに", "translation_vi": "Em trai tôi vừa ăn cơm chưa xong đã chạy đi chơi."},
+   {"sentence_ja": "空港に着くか＿＿のうちに、雨が降り出した。", "answer": "着かないか", "translation_vi": "Vừa mới đến sân bay thì trời đổ mưa."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "始業のベルが鳴るか（　　）かのうちに、先生が教室に入ってきた。", "options": ["鳴った", "鳴る", "鳴らなかった", "鳴らない"], "answer_index": 3, "explanation_vi": "Điền 「鳴らない」: khuôn là Vる + か + Vない + かのうちに, vế sau dùng thể ない của cùng động từ. Nghĩa: Chuông vào học vừa mới reo là thầy giáo đã bước vào lớp."},
+   {"type": "MEANING", "prompt_ja": "姉は電話を切るか切らないかのうちに、また別の人に電話をかけ始めた。", "options": ["Chị tôi không biết nên cúp máy hay không.", "Chị tôi nói chuyện điện thoại rất lâu rồi mới gọi cho người khác.", "Chị tôi vừa cúp máy là đã lại gọi cho người khác.", "Chị tôi định cúp máy rồi gọi lại sau."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Vる + か + Vない + かのうちに (vừa mới… thì đã…): \"Chị tôi vừa cúp máy là đã lại gọi cho người khác.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["太陽が沈むか沈まないかのうちに、空が暗くなった。", "ふたを開けるか開けないかのうちに、子どもが手を伸ばした。", "明日、仕事が終わるか終わらないかのうちに、映画を見に行くつもりだ。", "私が座るか座らないかのうちに、バスが発車した。"], "answer_index": 2, "explanation_vi": "「明日、仕事が終わるか終わらないかのうちに、映画を見に行くつもりだ。」 sai: mẫu này kể việc đã xảy ra gần như đồng thời, không dùng cho dự định, ý chí của người nói. Câu đúng (dùng mẫu khác): 明日、仕事が終わったらすぐ、映画を見に行くつもりだ。"}
+  ]
+ },
+ "JG-95ee052f8f": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "実際に着てみ（　　）、似合うかどうか分からない。", "options": ["ないうちに", "ないことはない", "ないばかりか", "ないことには"], "answer_index": 3, "explanation_vi": "Điền 「ないことには」: nếu không mặc thử thì không biết có hợp hay không (vế sau phủ định). ないうちに (trước khi), ないことはない (không phải là không), ないばかりか (không những không) không hợp. Nghĩa: Nếu không mặc thử thì không biết có hợp hay không."},
+   {"type": "FILL", "prompt_ja": "全員の意見を聞か（　　）、何も決められない。", "options": ["ないわけには", "ないことには", "ないながら", "ないほうが"], "answer_index": 1, "explanation_vi": "Điền 「ないことには」: nếu không nghe ý kiến mọi người thì không quyết được gì. ないわけには cần 〜いかない, ないながら và ないほうが không hợp nghĩa. Nghĩa: Nếu không nghe ý kiến của tất cả mọi người thì không thể quyết định được gì."},
+   {"type": "ORDER_STAR", "prompt_ja": "この仕事は、＿＿ ＿＿ ★ ＿＿。", "options": ["大変さが分からない", "ことには", "実際に", "やってみない"], "answer_index": 1, "explanation_vi": "Câu đúng: この仕事は、実際にやってみないことには大変さが分からない。 (Công việc này nếu không làm thử thì không hiểu được sự vất vả.). Mảnh ở ô ★ là 「ことには」."},
+   {"type": "ORDER_STAR", "prompt_ja": "熱が＿＿ ＿＿ ★ ＿＿。", "options": ["行けない", "下がらない", "旅行には", "ことには"], "answer_index": 2, "explanation_vi": "Câu đúng: 熱が下がらないことには旅行には行けない。 (Nếu không hạ sốt thì không thể đi du lịch.). Mảnh ở ô ★ là 「旅行には」."},
+   {"type": "MEANING", "prompt_ja": "本人に聞いてみないことには、本当の理由は分からない。", "options": ["Dù hỏi chính người đó cũng không biết được lý do thật.", "Không cần hỏi chính người đó cũng biết lý do thật.", "Nếu không hỏi thử chính người đó thì không biết được lý do thật.", "Không phải là không biết lý do thật."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Vない + ことには (nếu không… thì không…): \"Nếu không hỏi thử chính người đó thì không biết được lý do thật.\""},
+   {"type": "MEANING", "prompt_ja": "お金が貯まらないことには、留学はできない。", "options": ["Nếu không để dành được tiền thì không thể đi du học.", "Vì không đi du học nên tiền dành dụm được.", "Dù không có tiền vẫn có thể đi du học.", "Không phải là không thể đi du học."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu Vない + ことには (nếu không… thì không…): \"Nếu không để dành được tiền thì không thể đi du học.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["準備ができないことには、出発できない。", "健康でないことには、いい仕事はできない。", "練習しないことには、上手になる。", "相手の話を聞かないことには、何も始まらない。"], "answer_index": 2, "explanation_vi": "「練習しないことには、上手になる。」 sai: vế sau của ないことには phải là phủ định hay tiêu cực. Câu đúng: 練習しないことには、上手にならない。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["宿題が終わらないことには、早く寝なさい。", "パスポートがないことには、海外へ行けない。", "社長の許可が出ないことには、話を進められない。", "一度会わないことには、どんな人か判断できない。"], "answer_index": 0, "explanation_vi": "「宿題が終わらないことには、早く寝なさい。」 sai: vế sau phải là 'không thể…', không dùng mệnh lệnh. Câu đúng: 宿題が終わらないことには、寝られない。"}
+  ],
+  "order_items": [
+   {"pieces": ["味は", "食べてみない", "分からない。", "ことには、"], "answer_order": [1, 3, 0, 2], "translation_vi": "Nếu không ăn thử thì không biết mùi vị."},
+   {"pieces": ["出発できない。", "ことには、", "天気がよくならない"], "answer_order": [2, 1, 0], "translation_vi": "Nếu thời tiết không tốt lên thì không thể khởi hành."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "この目で見＿＿、信じられない。", "answer": "ないことには", "accept": ["ないと", "なければ"], "translation_vi": "Nếu không tận mắt nhìn thấy thì tôi không thể tin."},
+   {"sentence_ja": "申し込み用紙を出さ＿＿、試験は受けられない。", "answer": "ないことには", "accept": ["ないと", "なければ"], "translation_vi": "Nếu không nộp đơn đăng ký thì không được dự thi."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "原因が分から（　　）、対策は立てられない。", "options": ["ないくせに", "ないことはなく", "ないことには", "ないついでに"], "answer_index": 2, "explanation_vi": "Điền 「ないことには」: nếu chưa biết nguyên nhân thì không thể đề ra biện pháp. ないくせに (vậy mà), ないことはなく (không phải không), ないついでに không hợp. Nghĩa: Nếu không biết nguyên nhân thì không thể đưa ra biện pháp đối phó."},
+   {"type": "MEANING", "prompt_ja": "実物を見ないことには、買うかどうか決められない。", "options": ["Không cần xem hàng thật tôi cũng quyết định mua.", "Nếu không xem tận mắt hàng thật thì không thể quyết định có mua hay không.", "Vì đã xem hàng thật nên tôi quyết định không mua.", "Không phải là tôi không muốn xem hàng thật."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vない + ことには (nếu không… thì không…): \"Nếu không xem tận mắt hàng thật thì không thể quyết định có mua hay không.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["社長がいないことには、決められない。", "日本語ができないことには、この仕事は続けられない。", "予約しないことには、あの店には入れない。", "最後まで読むことには、内容が分からない。"], "answer_index": 3, "explanation_vi": "「最後まで読むことには、内容が分からない。」 sai: mẫu này gắn với thể ない (Vない + ことには). Câu đúng: 最後まで読まないことには、内容が分からない。"}
+  ]
+ },
+ "JG-b6b1ffdabc": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "私が「おやすみ」と言うか言わない（　　）、息子は寝てしまった。", "options": ["うちに", "かどうか", "かのうちに", "かわりに"], "answer_index": 2, "explanation_vi": "Điền 「かのうちに」: khuôn 〜か〜ないかのうちに, lời chúc ngủ ngon chưa nói dứt thì con đã ngủ. うちに, かどうか, かわりに không ghép đúng khuôn. Nghĩa: Tôi vừa nói 'chúc ngủ ngon' chưa dứt lời thì con trai đã ngủ mất."},
+   {"type": "FILL", "prompt_ja": "バスが止まるか（　　）かのうちに、乗客は席を立ち始めた。", "options": ["止まらない", "止まった", "止まって", "止まらなかった"], "answer_index": 0, "explanation_vi": "Điền 「止まらない」: phải là thể ない của cùng động từ, Vる + か + Vない + かのうちに. Nghĩa: Xe buýt vừa mới dừng là hành khách đã bắt đầu đứng dậy."},
+   {"type": "ORDER_STAR", "prompt_ja": "店のシャッターが＿＿ ＿＿ ★ ＿＿。", "options": ["客が", "入ってきた", "上がるか", "上がらないかのうちに"], "answer_index": 0, "explanation_vi": "Câu đúng: 店のシャッターが上がるか上がらないかのうちに客が入ってきた。 (Cửa cuốn của tiệm vừa mới kéo lên là khách đã bước vào.). Mảnh ở ô ★ là 「客が」."},
+   {"type": "ORDER_STAR", "prompt_ja": "息子は＿＿ ★ ＿＿ ＿＿。", "options": ["入らないかのうちに", "おなかがすいたと言った", "入るか", "家に"], "answer_index": 2, "explanation_vi": "Câu đúng: 息子は家に入るか入らないかのうちにおなかがすいたと言った。 (Con trai tôi vừa bước vào nhà đã kêu đói bụng.). Mảnh ở ô ★ là 「入るか」."},
+   {"type": "MEANING", "prompt_ja": "試合が始まるか始まらないかのうちに、相手チームが点を入れた。", "options": ["Trận đấu đã diễn ra rất lâu rồi đội đối phương mới ghi điểm.", "Trận đấu vừa mới bắt đầu thì đội đối phương đã ghi điểm.", "Không rõ trận đấu có diễn ra hay không vì đội đối phương chưa đến.", "Trận đấu kết thúc mà đội đối phương vẫn chưa ghi điểm."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vる + か + Vない + かのうちに (vừa mới… thì đã…): \"Trận đấu vừa mới bắt đầu thì đội đối phương đã ghi điểm.\""},
+   {"type": "MEANING", "prompt_ja": "給料が出るか出ないかのうちに、兄は新しいゲームを買ってしまった。", "options": ["Anh tôi để dành lương mấy tháng mới mua trò chơi mới.", "Anh tôi không biết có được trả lương hay không.", "Vì đã mua trò chơi mới nên anh tôi hết lương.", "Lương vừa mới được trả là anh tôi đã mua ngay trò chơi mới."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vる + か + Vない + かのうちに (vừa mới… thì đã…): \"Lương vừa mới được trả là anh tôi đã mua ngay trò chơi mới.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["電話を切るか切らないかのうちに、またベルが鳴った。", "ベッドに入るかのうちに、眠ってしまった。", "窓を開けるか開けないかのうちに、虫が入ってきた。", "料理を出すか出さないかのうちに、皿が空になった。"], "answer_index": 1, "explanation_vi": "「ベッドに入るかのうちに、眠ってしまった。」 sai: thiếu phần phủ định; phải là Vる + か + Vない + かのうちに. Câu đúng: ベッドに入るか入らないかのうちに、眠ってしまった。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["映画が始まるか始まらないかのうちに、彼は寝てしまった。", "子どもは家に着くか着かないかのうちに、遊びに出かけた。", "来週、仕事が終わるか終わらないかのうちに、旅行に出かけよう。", "夏休みが始まるか始まらないかのうちに、宿題を全部終わらせた。"], "answer_index": 2, "explanation_vi": "「来週、仕事が終わるか終わらないかのうちに、旅行に出かけよう。」 sai: vế sau là việc đã xảy ra, không dùng lời rủ rê hay dự định. Câu đúng (dùng mẫu khác): 来週、仕事が終わったらすぐ、旅行に出かけよう。"}
+  ],
+  "order_items": [
+   {"pieces": ["朝ご飯を食べ始めた。", "洗わないかのうちに、", "顔を洗うか"], "answer_order": [2, 1, 0], "translation_vi": "Vừa rửa mặt chưa xong đã bắt đầu ăn sáng."},
+   {"pieces": ["返事が来た。", "送るか", "メールを", "送らないかのうちに、"], "answer_order": [2, 1, 3, 0], "translation_vi": "Email vừa mới gửi đi là đã có hồi âm."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "部屋に入るか入らない＿＿、電話が鳴った。", "answer": "かのうちに", "translation_vi": "Vừa mới bước vào phòng thì điện thoại reo."},
+   {"sentence_ja": "店に着くか＿＿かのうちに、雨が強くなった。", "answer": "着かない", "translation_vi": "Vừa mới đến cửa hàng thì mưa nặng hạt hơn."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "番組が終わるか終わらないかのうちに、父はテレビを（　　）。", "options": ["消そう", "消してください", "消した", "消すつもりだ"], "answer_index": 2, "explanation_vi": "Điền 「消した」: vế sau của 〜か〜ないかのうちに là việc đã xảy ra, không dùng ý chí (消そう, 消すつもりだ) hay nhờ vả (消してください). Nghĩa: Chương trình vừa sắp hết là bố tôi đã tắt tivi."},
+   {"type": "MEANING", "prompt_ja": "雪が降るか降らないかのうちに、道が白くなり始めた。", "options": ["Tuyết vừa mới rơi là con đường đã bắt đầu trắng xóa.", "Tuyết rơi suốt mấy ngày, con đường mới trắng xóa.", "Không biết tuyết có rơi không nhưng con đường vẫn trắng.", "Con đường trắng xóa từ trước khi tuyết rơi."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu Vる + か + Vない + かのうちに (vừa mới… thì đã…): \"Tuyết vừa mới rơi là con đường đã bắt đầu trắng xóa.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["駅に着くか着かないかのうちに、電車が出てしまった。", "彼は座るか座らないかのうちに、いびきをかき始めた。", "年が明けるか明けないかのうちに、仕事が忙しくなった。", "ドアが開くか閉まらないかのうちに、犬が走ってきた。"], "answer_index": 3, "explanation_vi": "「ドアが開くか閉まらないかのうちに、犬が走ってきた。」 sai: phải lặp lại cùng một động từ (開く / 開かない). Câu đúng: ドアが開くか開かないかのうちに、犬が走ってきた。"}
+  ]
+ }
+}

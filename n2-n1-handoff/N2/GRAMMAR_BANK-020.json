@@ -1727,7 +1727,188 @@
    "id": "JG-8a0ba93ab4"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "おどろいた（　　）、十年ぶりに会った友だちは全然変わっていなかった。",
+      "options": [
+       "ことで",
+       "ことに",
+       "ことか",
+       "ことから"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ことに」: おどろいたことに nêu cảm xúc ngạc nhiên của người nói trước, rồi mới kể sự việc. ことで (bằng việc), ことか (biết bao), ことから (từ căn cứ) không dùng để mở đầu bằng cảm xúc. Nghĩa: Thật ngạc nhiên là người bạn mười năm mới gặp lại chẳng thay đổi gì cả."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "残念な（　　）、彼女は来月国へ帰ってしまう。",
+      "options": [
+       "ことだし",
+       "ばかりに",
+       "わりに",
+       "ことに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ことに」: Aな + な + ことに = thật đáng tiếc là… ことだし (vì cũng…), ばかりに (chỉ vì), わりに (so với) không hợp nghĩa. Nghĩa: Thật đáng tiếc là tháng sau cô ấy sẽ về nước."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "行きたかった大学に合格した",
+       "息子が",
+       "うれしい",
+       "ことに、"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: うれしいことに、息子が行きたかった大学に合格した。 (Thật vui là con trai tôi đã đỗ vào trường đại học nó mong muốn.). Mảnh ở ô ★ là 「息子が」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "ありがたい＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "人が荷物を",
+       "受け取ってくれた",
+       "ことに、",
+       "近所の"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: ありがたいことに、近所の人が荷物を受け取ってくれた。 (Thật may là người hàng xóm đã nhận hàng giúp tôi.). Mảnh ở ô ★ là 「近所の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "不思議なことに、その日のことは何も覚えていない。",
+      "options": [
+       "Thật kỳ lạ là tôi không nhớ gì về ngày hôm đó.",
+       "Vì ngày hôm đó có chuyện kỳ lạ nên tôi nhớ mãi.",
+       "Tôi không nhớ gì cả, nhưng không thấy có gì lạ.",
+       "Điều kỳ lạ của ngày hôm đó là ai cũng nhớ rõ."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ことに (nêu cảm xúc của người nói trước sự việc): \"Thật kỳ lạ là tôi không nhớ gì về ngày hôm đó.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "悲しいことに、子どものころよく遊んだ公園がなくなった。",
+      "options": [
+       "Hồi nhỏ, mỗi khi buồn tôi lại ra công viên chơi.",
+       "Công viên đã mất nên lũ trẻ không còn chỗ chơi, thật đáng mừng.",
+       "Buồn thay, công viên hồi nhỏ tôi hay chơi đã không còn nữa.",
+       "Dù công viên không còn, tôi không thấy buồn."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ことに (thật là…, nêu cảm xúc trước): \"Buồn thay, công viên hồi nhỏ tôi hay chơi đã không còn nữa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "おどろいたことに、社長が自分で電話に出た。",
+       "困ったことに、財布を家に忘れてきた。",
+       "幸いなことに、けがをした人は一人もいなかった。",
+       "おいしいことに、このラーメンを食べてください。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「おいしいことに、このラーメンを食べてください。」 sai: ことに đi với từ chỉ cảm xúc của người nói (うれしい, 残念な, おどろいた…) và vế sau là sự việc thật, không phải lời nhờ. Câu đúng: このラーメンはおいしいので、食べてみてください。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "うれしいことに、来週から給料が上がる。",
+       "高いことに、このかばんは十万円もする。",
+       "あきれたことに、彼はまた約束を忘れた。",
+       "残念なことに、雨で花火大会が中止になった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「高いことに、このかばんは十万円もする。」 sai: 高い không phải từ chỉ cảm xúc nên không dùng với ことに. Câu đúng: おどろいたことに、このかばんは十万円もする。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ことに、",
+       "合格した。",
+       "おどろいた",
+       "全員が"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Thật bất ngờ là tất cả mọi người đều đỗ."
+     },
+     {
+      "pieces": [
+       "忘れていた。",
+       "困った",
+       "会議の資料を",
+       "ことに、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Khổ nỗi là tôi đã quên tài liệu cho cuộc họp."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "うれしい＿＿、母の病気がすっかり治った。",
+      "answer": "ことに",
+      "translation_vi": "Thật vui là bệnh của mẹ đã khỏi hẳn."
+     },
+     {
+      "sentence_ja": "残念な＿＿、私の好きな店が閉店してしまった。",
+      "answer": "ことに",
+      "translation_vi": "Thật đáng tiếc là cửa hàng tôi thích đã đóng cửa."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あきれた（　　）、彼はまだ宿題を始めていないらしい。",
+      "options": [
+       "ものなら",
+       "からには",
+       "ことに",
+       "うえは"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ことに」: あきれたことに nêu cảm xúc ngán ngẩm của người nói trước rồi kể sự việc. ものなら (nếu mà), からには (một khi đã), うえは (đã… thì) không hợp nghĩa. Nghĩa: Thật hết nói nổi, nghe nói cậu ấy vẫn chưa bắt đầu làm bài tập."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ありがたいことに、たくさんの人が手伝いに来てくれた。",
+      "options": [
+       "Tôi đã cảm ơn từng người đến giúp.",
+       "Vì muốn cảm ơn nên tôi đã đến giúp nhiều người.",
+       "Dù được cảm ơn, không ai đến giúp cả.",
+       "Thật đáng quý là rất nhiều người đã đến giúp."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ことに (nêu cảm xúc biết ơn trước sự việc): \"Thật đáng quý là rất nhiều người đã đến giúp.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "寒いことに、コートを着ていこう。",
+       "うれしいことに、友だちが誕生日を覚えていてくれた。",
+       "困ったことに、エアコンが壊れてしまった。",
+       "意外なことに、彼は料理が得意だった。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「寒いことに、コートを着ていこう。」 sai: 寒い không phải cảm xúc và vế sau ことに phải là sự việc thật, không phải ý chí. Câu đúng: 寒いので、コートを着ていこう。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -1750,7 +1931,195 @@
    "id": "JG-0668d251f9"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "海外に引っ越す（　　）、いろいろな手続きが必要になる。",
+      "options": [
+       "ところで",
+       "となると",
+       "ばかりか",
+       "とたんに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「となると」: nếu thật sự đến mức chuyển ra nước ngoài thì kéo theo nhiều thủ tục. ところで (nhân tiện / dù có), ばかりか (không chỉ), とたんに (vừa… thì) không hợp. Nghĩa: Nếu chuyển ra nước ngoài thì sẽ cần nhiều loại thủ tục."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "彼は普段は静かだが、野球の話（　　）止まらなくなる。",
+      "options": [
+       "にとって",
+       "について",
+       "にしては",
+       "となると"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「となると」: N + となると = cứ hễ đến chuyện… thì thay đổi hẳn. にとって (đối với), について (về), にしては (so với) không diễn tả sự thay đổi này. Nghĩa: Anh ấy bình thường ít nói, nhưng hễ nói đến bóng chày là không dừng lại được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "部長が＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "延期するしかない",
+       "会議は",
+       "来られない",
+       "となると、"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 部長が来られないとなると、会議は延期するしかない。 (Nếu trưởng phòng không đến được thì chỉ còn cách hoãn cuộc họp.). Mảnh ở ô ★ là 「会議は」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "なると、",
+       "やはり迷ってしまう",
+       "いざ",
+       "結婚と"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: いざ結婚となると、やはり迷ってしまう。 (Đến khi thật sự tính chuyện kết hôn thì quả nhiên tôi lại phân vân.). Mảnh ở ô ★ là 「結婚と」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "毎日二時間かけて通うとなると、かなり大変だ。",
+      "options": [
+       "Nếu mà mỗi ngày phải mất hai tiếng để đi lại thì khá vất vả.",
+       "Vì đã quen đi lại hai tiếng mỗi ngày nên không thấy vất vả.",
+       "Dù mỗi ngày phải đi hai tiếng, tôi vẫn không thấy vất vả.",
+       "Mỗi ngày tôi mất hai tiếng để làm một việc rất vất vả."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜となると (nếu thật sự trở thành tình huống đó thì…): \"Nếu mà mỗi ngày phải mất hai tiếng để đi lại thì khá vất vả.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "自分で店を開くとなると、お金がたくさん必要だ。",
+      "options": [
+       "Vì có nhiều tiền nên tôi đã tự mở cửa hàng.",
+       "Sau khi mở cửa hàng, tôi đã kiếm được nhiều tiền.",
+       "Nếu thật sự tự mình mở cửa hàng thì cần rất nhiều tiền.",
+       "Cửa hàng đó mở cửa mà không cần nhiều tiền."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜となると (khi đi đến tình huống… thì có thể suy ra): \"Nếu thật sự tự mình mở cửa hàng thì cần rất nhiều tiền.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "試験が来週となると、もう遊んでいられない。",
+       "春になるとなると、毎年花が咲く。",
+       "彼が辞めるとなると、仕事の担当を決め直さなければならない。",
+       "家を買うとなると、お金のことをよく考えないと。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「春になるとなると、毎年花が咲く。」 sai: となると không dùng cho quy luật tự nhiên lặp lại hằng năm; trường hợp này dùng と đơn thuần. Câu đúng: 春になると、毎年花が咲く。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "駅に着いたとなると、電話をください。",
+       "旅行に行くとなると、準備が大変だ。",
+       "雨が降るとなると、試合は中止だろう。",
+       "スポーツの話となると、父は急に元気になる。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「駅に着いたとなると、電話をください。」 sai: vế sau となると là nhận định hay sự thay đổi, không dùng cho lời nhờ vả đơn giản. Câu đúng: 駅に着いたら、電話をください。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "となると、",
+       "かなり大変だ。",
+       "一人で全部の部屋を掃除する"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Nếu phải tự mình dọn tất cả các phòng thì khá vất vả."
+     },
+     {
+      "pieces": [
+       "なると、",
+       "話が",
+       "別だ。",
+       "お金のことと"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Nhưng hễ đụng đến chuyện tiền bạc thì lại là chuyện khác."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "社長が来る＿＿、もっときちんと準備しなければならない。",
+      "answer": "となると",
+      "accept": [
+       "となれば",
+       "とすると",
+       "とすれば",
+       "なら"
+      ],
+      "translation_vi": "Nếu giám đốc đến thì phải chuẩn bị chu đáo hơn nữa."
+     },
+     {
+      "sentence_ja": "田中さんは料理の話＿＿、急に話が長くなる。",
+      "answer": "となると",
+      "accept": [
+       "になると"
+      ],
+      "translation_vi": "Anh Tanaka hễ nói đến chuyện nấu ăn là đột nhiên nói dài hẳn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "いよいよ明日が本番（　　）、さすがにどきどきしてきた。",
+      "options": [
+       "どころか",
+       "ばかりに",
+       "ものの",
+       "となると"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「となると」: đến khi ngày mai thật sự là buổi chính thức thì cảm xúc thay đổi (bắt đầu thấy hồi hộp). どころか (chẳng những không), ばかりに (chỉ vì), ものの (tuy) không hợp. Nghĩa: Ngày mai cuối cùng đã là buổi chính thức nên tôi bắt đầu thấy hồi hộp thật sự."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "仕事を辞めて留学するとなると、家族にも相談しなければ。",
+      "options": [
+       "Vì gia đình đã đồng ý nên tôi nghỉ việc đi du học.",
+       "Nếu thật sự nghỉ việc để đi du học thì phải bàn với cả gia đình.",
+       "Gia đình khuyên tôi đừng nghỉ việc.",
+       "Sau khi du học về, tôi sẽ bàn với gia đình chuyện công việc."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜となると (nếu đi đến tình huống đó thì…): \"Nếu thật sự nghỉ việc để đi du học thì phải bàn với cả gia đình.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "東京に住むとなると、家賃が高くて大変だ。",
+       "ゲームの話となると、弟は夢中になって話す。",
+       "毎朝起きるとなると、顔を洗う。",
+       "明日までに全部終わらせるとなると、今夜は寝られないだろう。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「毎朝起きるとなると、顔を洗う。」 sai: となると không dùng cho thói quen lặp lại hằng ngày. Câu đúng: 毎朝起きると、顔を洗う。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

@@ -1,328 +1,328 @@
 {
- "JG-c9497d34a5": {
+ "JG-a4bf823751": {
   "check_bank": [
    {
     "type": "FILL",
-    "prompt_ja": "最近、運動不足で少し太り（　　）だ。",
-    "options": ["げ", "らしい", "気味", "ような"],
+    "prompt_ja": "こんな簡単な問題が解けない（　　）、合格は無理だ。",
+    "options": ["ように", "ような", "ようでは", "ようにも"],
     "answer_index": 2,
-    "explanation_vi": "Điền 「気味」: V bỏ ます + 気味 diễn tả hơi có xu hướng xấu (hơi béo lên). げ không gắn sau gốc động từ 太り, らしい và ような không nối được với dạng 太り. Nghĩa: Dạo này vì ít vận động nên tôi hơi béo lên."
+    "explanation_vi": "Điền 「ようでは」: nếu cứ ở tình trạng không tốt (bài dễ cũng không giải được) thì kết quả xấu (không thể đỗ). ように, ような, ようにも không tạo được ý điều kiện dẫn tới đánh giá tiêu cực. Nghĩa: Nếu bài dễ thế này mà cũng không giải được thì đỗ là không thể."
    },
    {
     "type": "FILL",
-    "prompt_ja": "今週は仕事が多くて、疲れ（　　）です。",
-    "options": ["ぶり", "気味", "ほど", "向き"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「気味」: 疲れ気味 là 'hơi mệt', cảm giác nhẹ theo hướng không tốt. ぶり chỉ cách làm hay khoảng thời gian, ほど là 'mức độ' và cần の hay する phía trước, 向き là 'hợp với', đều không đi với 疲れ theo nghĩa này. Nghĩa: Tuần này nhiều việc nên tôi hơi mệt."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "朝から＿＿ ★ ＿＿ ＿＿早めに寝た。",
-    "options": ["薬を飲んで", "風邪", "だったので", "気味"],
+    "prompt_ja": "毎朝遅刻している（　　）、信用されなくなるよ。",
+    "options": ["わりに", "くせに", "とたん", "ようでは"],
     "answer_index": 3,
-    "explanation_vi": "Câu đúng: 朝から風邪気味だったので薬を飲んで早めに寝た。 (Từ sáng tôi đã hơi cảm nên uống thuốc rồi đi ngủ sớm.). Mảnh ở ô ★ là 「気味」."
+    "explanation_vi": "Điền 「ようでは」: cảnh báo nếu cứ đi muộn mỗi sáng thì sẽ mất lòng tin. わりに (so với), くせに (vậy mà), とたん (vừa... thì) đều không nối được với lời cảnh báo này. Nghĩa: Nếu sáng nào cũng đi muộn như vậy thì sẽ không được tin tưởng nữa đâu."
    },
    {
     "type": "ORDER_STAR",
-    "prompt_ja": "計画は＿＿ ★ ＿＿ ＿＿。",
-    "options": ["気味", "なので急ごう", "遅れ", "予定より"],
+    "prompt_ja": "そんなに＿＿ ＿＿ ★ ＿＿なれないよ。",
+    "options": ["上手に", "ようでは", "文句ばかり", "言っている"],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: そんなに文句ばかり言っているようでは上手になれないよ。 (Nếu cứ than phiền suốt như vậy thì không thể giỏi lên được đâu.). Mảnh ở ô ★ là 「ようでは」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "人の話を＿＿ ＿＿ ★ ＿＿。",
+    "options": ["やっていけない", "聞かない", "社会に出て", "ようでは"],
     "answer_index": 2,
-    "explanation_vi": "Câu đúng: 計画は予定より遅れ気味なので急ごう。 (Kế hoạch đang hơi chậm so với dự kiến nên hãy khẩn trương lên.). Mảnh ở ô ★ là 「遅れ」."
+    "explanation_vi": "Câu đúng: 人の話を聞かないようでは社会に出てやっていけない。 (Nếu không chịu nghe người khác nói thì ra xã hội sẽ không trụ được.). Mảnh ở ô ★ là 「社会に出て」."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "最近、寝不足気味で、授業中に眠くなる。",
-    "options": ["Dạo này tôi ngủ quá nhiều nên trong giờ học không buồn ngủ.", "Dạo này tôi hoàn toàn không ngủ được nên đã nghỉ học.", "Dạo này tôi thiếu ngủ trầm trọng nên phải đi viện.", "Dạo này tôi hơi thiếu ngủ nên trong giờ học hay buồn ngủ."],
-    "answer_index": 3,
-    "explanation_vi": "Câu dùng mẫu 〜気味 (hơi có xu hướng, ở mức nhẹ): \"Dạo này tôi hơi thiếu ngủ nên trong giờ học hay buồn ngủ.\""
+    "prompt_ja": "この程度で疲れるようでは、山登りは無理だよ。",
+    "options": ["Vì chừng này không thấy mệt nên leo núi được.", "Có vẻ mệt chừng này là do leo núi.", "Nếu mới chừng này đã mệt thì leo núi là không thể đâu.", "Dù có mệt chừng này thì leo núi vẫn được."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜ようでは (nếu cứ ở tình trạng không tốt đó thì kết quả sẽ xấu): \"Nếu mới chừng này đã mệt thì leo núi là không thể đâu.\""
    },
    {
     "type": "MEANING",
-    "prompt_ja": "ここ数日、食欲がなくて、少しやせ気味だ。",
-    "options": ["Mấy ngày nay tôi ăn không ngon miệng nên hơi gầy đi.", "Mấy ngày nay tôi ăn nhiều nên béo lên.", "Mấy ngày nay tôi gầy rộc hẳn, phải đi viện.", "Mấy ngày nay tôi ăn ngon và khỏe mạnh."],
+    "prompt_ja": "上司の指示を待っているようでは、いい仕事はできない。",
+    "options": ["Nếu cứ ngồi chờ chỉ thị của cấp trên thì không thể làm được việc tốt.", "Có vẻ như đang chờ chỉ thị của cấp trên nên công việc tốt.", "Phải chờ chỉ thị của cấp trên thì mới làm tốt được.", "Dù chờ chỉ thị của cấp trên, công việc vẫn tốt."],
     "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu 〜気味 (hơi nghiêng về trạng thái không tốt): \"Mấy ngày nay tôi ăn không ngon miệng nên hơi gầy đi.\""
+    "explanation_vi": "Câu dùng mẫu 〜ようでは (phê phán tình trạng đang tiếp diễn và kết quả xấu của nó): \"Nếu cứ ngồi chờ chỉ thị của cấp trên thì không thể làm được việc tốt.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["風邪気味なので、マスクをしています。", "最近ちょっと疲れ気味だ。", "仕事が遅れ気味で、残業が続いている。", "合格して、元気気味です。"],
-    "answer_index": 3,
-    "explanation_vi": "「合格して、元気気味です。」 sai: 気味 dùng cho trạng thái hơi xấu, không dùng với trạng thái tốt như 元気. Câu đúng: 合格して、元気いっぱいです。"
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["あの時計は少し遅れ気味だ。", "最近、太る気味だ。", "兄は最近、仕事がたまり気味らしい。", "寒くなって、母は風邪気味だ。"],
+    "options": ["朝起きられないようでは、旅行は無理だ。", "毎日練習するようでは、きっと上手になる。", "こんなミスをするようでは、任せられない。", "人のせいにしているようでは、成長しない。"],
     "answer_index": 1,
-    "explanation_vi": "「最近、太る気味だ。」 sai: 気味 gắn sau gốc động từ (bỏ ます), không gắn sau thể từ điển. Câu đúng: 最近、太り気味だ。"
+    "explanation_vi": "「毎日練習するようでは、きっと上手になる。」 sai: vế sau của ようでは luôn là đánh giá tiêu cực, không dùng cho kết quả tốt. Câu đúng: 毎日練習すれば、きっと上手になる。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["宿題を忘れるようでは困る。", "すぐやめるようでは、何も身につかない。", "約束を守らないようでは、信用されない。", "そんなに休みようでは、卒業できない。"],
+    "answer_index": 3,
+    "explanation_vi": "「そんなに休みようでは、卒業できない。」 sai: ようでは đi sau thể thường (Vる, Vない, Vている), không đi sau gốc động từ. Câu đúng: そんなに休むようでは、卒業できない。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["元気がない。", "疲れ気味で", "母は最近、"],
-    "answer_order": [2, 1, 0],
-    "translation_vi": "Dạo này mẹ tôi hơi mệt nên không được khỏe khoắn."
-   },
-   {
-    "pieces": ["してください。", "風邪気味の人は", "マスクを"],
-    "answer_order": [1, 2, 0],
-    "translation_vi": "Người nào hơi bị cảm thì hãy đeo khẩu trang."
-   }
-  ],
-  "fill_items": [
-   {
-    "sentence_ja": "今日はちょっと風邪＿＿なので、早く帰ります。",
-    "answer": "気味",
-    "accept": ["ぎみ"],
-    "translation_vi": "Hôm nay tôi hơi bị cảm nên sẽ về sớm."
-   },
-   {
-    "sentence_ja": "最近、仕事が遅れ＿＿で、残業が多い。",
-    "answer": "気味",
-    "accept": ["ぎみ", "がち"],
-    "translation_vi": "Dạo này công việc hơi chậm nên tôi phải làm thêm giờ nhiều."
-   }
-  ],
-  "extra_practice": [
-   {
-    "type": "FILL",
-    "prompt_ja": "朝から熱っぽくて、風邪（　　）なので病院に行った。",
-    "options": ["気味", "らしく", "かけ", "だらけ"],
-    "answer_index": 0,
-    "explanation_vi": "Điền 「気味」: N + 気味, 風邪気味 là 'hơi bị cảm'. らしく không đi với なので, かけ cần gốc động từ, だらけ là 'đầy những', đều sai. Nghĩa: Từ sáng tôi thấy hơi sốt, có vẻ hơi bị cảm nên đã đi bệnh viện."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "このところ、売り上げが下がり気味だ。",
-    "options": ["Dạo gần đây doanh thu tăng mạnh.", "Dạo gần đây doanh thu có xu hướng hơi giảm.", "Dạo gần đây doanh thu đã giảm hẳn về không.", "Dạo gần đây doanh thu không thay đổi gì."],
-    "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu 〜気味 (hơi có xu hướng không tốt): \"Dạo gần đây doanh thu có xu hướng hơi giảm.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["彼はうれし気味に笑った。", "息子は少し風邪気味だった。", "最近、体重が増え気味だ。", "疲れ気味の時は早く寝たほうがいい。"],
-    "answer_index": 0,
-    "explanation_vi": "「彼はうれし気味に笑った。」 sai: 気味 chỉ trạng thái hơi xấu và không gắn vào gốc tính từ い để tả cảm xúc vui. Câu đúng: 彼はうれしそうに笑った。"
-   }
-  ]
- },
- "JG-0b9f6dacde": {
-  "check_bank": [
-   {
-    "type": "FILL",
-    "prompt_ja": "苦しかったが、マラソンを最後まで走り（　　）。",
-    "options": ["かけた", "出した", "抜いた", "始めた"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「抜いた」: 走り抜く là chạy đến cùng dù vất vả, hợp với 最後まで. 〜かける (dở dang), 〜出す và 〜始める (bắt đầu) đều mâu thuẫn với 最後まで. Nghĩa: Tuy vất vả nhưng tôi đã chạy marathon đến tận cùng."
-   },
-   {
-    "type": "FILL",
-    "prompt_ja": "この問題について、何日も考え（　　）結果、答えが出た。",
-    "options": ["かけた", "忘れた", "始めた", "抜いた"],
-    "answer_index": 3,
-    "explanation_vi": "Điền 「抜いた」: 考え抜く là suy nghĩ thấu đáo đến cùng, nên mới có kết quả là tìm ra câu trả lời. 〜かけた là dở dang, 〜始めた là mới bắt đầu, 考え忘れる không có. Nghĩa: Sau khi suy nghĩ thấu đáo nhiều ngày về vấn đề này, tôi đã tìm ra câu trả lời."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "どんなに＿＿ ＿＿ ★ ＿＿つもりだ。",
-    "options": ["抜く", "やり", "最後まで", "苦しくても"],
-    "answer_index": 1,
-    "explanation_vi": "Câu đúng: どんなに苦しくても最後までやり抜くつもりだ。 (Dù vất vả đến đâu, tôi cũng định làm đến cùng.). Mảnh ở ô ★ là 「やり」."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "彼は＿＿ ★ ＿＿ ＿＿。",
-    "options": ["やり抜いて", "優勝した", "つらい練習を", "三年間の"],
-    "answer_index": 2,
-    "explanation_vi": "Câu đúng: 彼は三年間のつらい練習をやり抜いて優勝した。 (Anh ấy đã kiên trì luyện tập gian khổ suốt ba năm đến cùng và giành chức vô địch.). Mảnh ở ô ★ là 「つらい練習を」."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "彼女は体調が悪い中、プロジェクトをやり抜いた。",
-    "options": ["Vì sức khỏe không tốt nên cô ấy đã bỏ dở dự án.", "Cô ấy rút khỏi dự án vì sức khỏe không tốt.", "Dù sức khỏe không tốt, cô ấy vẫn làm dự án đến nơi đến chốn.", "Cô ấy suýt hoàn thành dự án thì bị ốm."],
-    "answer_index": 2,
-    "explanation_vi": "Câu dùng mẫu 〜抜く (làm đến cùng, vượt qua khó khăn): \"Dù sức khỏe không tốt, cô ấy vẫn làm dự án đến nơi đến chốn.\""
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "百キロの道を三日かけて歩き抜いた。",
-    "options": ["Tôi đã đi bộ hết quãng đường một trăm cây số trong ba ngày.", "Tôi định đi một trăm cây số nhưng bỏ cuộc sau ba ngày.", "Tôi đã vượt qua người khác trên quãng đường một trăm cây số.", "Tôi mất ba ngày mới đi được một nửa quãng đường."],
-    "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu 〜抜く (làm trọn vẹn đến cùng): \"Tôi đã đi bộ hết quãng đường một trăm cây số trong ba ngày.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["彼は大変な仕事を最後までやり抜いた。", "ケーキを一口で食べ抜いた。", "最後まで戦い抜いた選手たちはすばらしかった。", "考え抜いて出した答えだから、自信がある。"],
-    "answer_index": 1,
-    "explanation_vi": "「ケーキを一口で食べ抜いた。」 sai: 抜く dùng cho việc khó, cần kiên trì lâu dài; ăn một miếng là xong ngay nên không dùng. Câu đúng: ケーキを一口で食べてしまった。"
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["三日間考え抜いた末、引っ越すことにした。", "寒い冬を生き抜いた。", "彼女は難しい試験勉強をやり抜いた。", "最後まで頑張る抜いた。"],
-    "answer_index": 3,
-    "explanation_vi": "「最後まで頑張る抜いた。」 sai: 抜く gắn sau gốc động từ (bỏ ます), không gắn sau thể từ điển. Câu đúng: 最後まで頑張り抜いた。"
-   }
-  ],
-  "order_items": [
-   {
-    "pieces": ["やり抜く", "一度決めたことは", "べきだ。", "最後まで"],
-    "answer_order": [1, 3, 0, 2],
-    "translation_vi": "Việc gì đã quyết định thì nên làm đến cùng."
-   },
-   {
-    "pieces": ["走り抜いた。", "一度も休まずに", "彼は四十二キロを"],
-    "answer_order": [2, 1, 0],
-    "translation_vi": "Anh ấy đã chạy hết bốn mươi hai cây số mà không nghỉ lần nào."
-   }
-  ],
-  "fill_items": [
-   {
-    "sentence_ja": "最後までがんばり＿＿ことが大切だ。",
-    "answer": "抜く",
-    "accept": ["ぬく"],
-    "translation_vi": "Điều quan trọng là cố gắng đến cùng."
-   },
-   {
-    "sentence_ja": "最後まで戦い＿＿たチームに、みんなが感動した。",
-    "answer": "抜い",
-    "accept": ["ぬい", "きっ"],
-    "translation_vi": "Mọi người đều cảm động trước đội bóng đã chiến đấu đến cùng."
-   }
-  ],
-  "extra_practice": [
-   {
-    "type": "FILL",
-    "prompt_ja": "どんなに反対されても、自分の考えを守り（　　）つもりだ。",
-    "options": ["出す", "抜く", "かける", "合う"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「抜く」: 守り抜く là bảo vệ đến cùng dù bị phản đối. 〜出す, 〜かける không hợp nghĩa, 守り合う là bảo vệ lẫn nhau, không dùng với 自分の考え. Nghĩa: Dù bị phản đối thế nào, tôi cũng định giữ vững suy nghĩ của mình đến cùng."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "このチームは苦しい試合を最後まで戦い抜いた。",
-    "options": ["Đội này đã bỏ cuộc giữa chừng trận đấu gian khổ.", "Đội này đã bị loại khỏi trận đấu.", "Đội này thắng trận một cách dễ dàng.", "Đội này đã chiến đấu đến cùng trong trận đấu gian khổ."],
-    "answer_index": 3,
-    "explanation_vi": "Câu dùng mẫu 〜抜く (kiên trì đến cùng): \"Đội này đã chiến đấu đến cùng trong trận đấu gian khổ.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["彼は会社を守り抜いた。", "困難な時代を生き抜いた人々の話を聞いた。", "このジュースはすぐ飲み抜いた。", "やり抜く力が大切だ。"],
-    "answer_index": 2,
-    "explanation_vi": "「このジュースはすぐ飲み抜いた。」 sai: uống nước ngọt là việc nhẹ, xong ngay, không cần nỗ lực nên không dùng 抜く. Câu đúng: このジュースはすぐ飲んでしまった。"
-   }
-  ]
- },
- "JG-c9419a4141": {
-  "check_bank": [
-   {
-    "type": "FILL",
-    "prompt_ja": "何を言われても、私は謝る（　　）。",
-    "options": ["ところだ", "つもりはない", "そうだ", "らしい"],
-    "answer_index": 1,
-    "explanation_vi": "Điền 「つもりはない」: Vる + つもりはない nói dứt khoát người nói hoàn toàn không có ý định xin lỗi. ところだ là 'sắp', そうだ và らしい là nghe nói, suy đoán, không dùng cho ý định của chính mình. Nghĩa: Dù bị nói gì đi nữa, tôi cũng không có ý định xin lỗi."
-   },
-   {
-    "type": "FILL",
-    "prompt_ja": "彼と結婚する（　　）ありません。ただの友だちです。",
-    "options": ["ばかりは", "ものは", "つもりは", "ついでは"],
-    "answer_index": 2,
-    "explanation_vi": "Điền 「つもりは」: つもりはありません là 'không có ý định', hợp với câu sau 'chỉ là bạn thôi'. ばかりは, ものは, ついでは không tạo được nghĩa phủ định ý định. Nghĩa: Tôi không có ý định kết hôn với anh ấy. Chỉ là bạn bè thôi."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "私は＿＿ ＿＿ ★ ＿＿。",
-    "options": ["つもりは", "ない", "賛成する", "その意見に"],
-    "answer_index": 0,
-    "explanation_vi": "Câu đúng: 私はその意見に賛成するつもりはない。 (Tôi không có ý định tán thành ý kiến đó.). Mảnh ở ô ★ là 「つもりは」."
-   },
-   {
-    "type": "ORDER_STAR",
-    "prompt_ja": "あなたを＿＿ ★ ＿＿ ＿＿。",
-    "options": ["なかった", "んです", "怒らせる", "つもりは"],
-    "answer_index": 3,
-    "explanation_vi": "Câu đúng: あなたを怒らせるつもりはなかったんです。 (Tôi không hề có ý làm bạn giận đâu.). Mảnh ở ô ★ là 「つもりは」."
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "悲しませるつもりはなかったんです。",
-    "options": ["Tôi không hề có ý làm bạn buồn.", "Tôi đã cố ý làm bạn buồn.", "Tôi định sẽ không làm bạn buồn nữa.", "Tôi không biết bạn đã buồn."],
-    "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu 〜つもりはなかった (lúc đó hoàn toàn không có ý định, hay dùng khi xin lỗi): \"Tôi không hề có ý làm bạn buồn.\""
-   },
-   {
-    "type": "MEANING",
-    "prompt_ja": "まだ国に帰るつもりはない。",
-    "options": ["Tôi đã quyết định về nước rồi.", "Tôi vẫn chưa có ý định về nước.", "Tôi muốn về nước nhưng không về được.", "Tôi định về nước sớm."],
-    "answer_index": 1,
-    "explanation_vi": "Câu dùng mẫu 〜つもりはない (không có ý định làm gì): \"Tôi vẫn chưa có ý định về nước.\""
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["結婚するのつもりはない。", "まだ帰るつもりはない。", "お金を借りるつもりはありません。", "嘘をつくつもりはなかった。"],
-    "answer_index": 0,
-    "explanation_vi": "「結婚するのつもりはない。」 sai: つもり gắn trực tiếp sau Vる, không chen の vào giữa. Câu đúng: 結婚するつもりはない。"
-   },
-   {
-    "type": "ERROR",
-    "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["今さら謝るつもりはない。", "あなたを責めるつもりはありません。", "負けつもりはない。", "一人で全部決めるつもりはないよ。"],
-    "answer_index": 2,
-    "explanation_vi": "「負けつもりはない。」 sai: つもり đi sau thể từ điển Vる, không đi sau gốc động từ. Câu đúng: 負けるつもりはない。"
-   }
-  ],
-  "order_items": [
-   {
-    "pieces": ["つもりは", "家を買う", "ありません。", "今すぐ"],
-    "answer_order": [3, 1, 0, 2],
-    "translation_vi": "Tôi không có ý định mua nhà ngay bây giờ."
-   },
-   {
-    "pieces": ["なかった。", "反対する", "あなたの計画に", "つもりは"],
+    "pieces": ["なれない。", "やめるようでは、", "これくらいで", "プロには"],
     "answer_order": [2, 1, 3, 0],
-    "translation_vi": "Tôi đã không hề có ý phản đối kế hoạch của bạn."
+    "translation_vi": "Nếu mới chừng này đã bỏ cuộc thì không thể trở thành người chuyên nghiệp."
+   },
+   {
+    "pieces": ["上達しない。", "ようでは、", "自分で調べようと", "しない"],
+    "answer_order": [2, 3, 1, 0],
+    "translation_vi": "Nếu không chịu tự mình tìm hiểu thì sẽ không tiến bộ."
    }
   ],
   "fill_items": [
    {
-    "sentence_ja": "何度頼まれても、お金を貸す＿＿はありません。",
-    "answer": "つもり",
-    "accept": ["気"],
-    "translation_vi": "Dù bị nhờ bao nhiêu lần, tôi cũng không có ý định cho vay tiền."
+    "sentence_ja": "こんなことで怒る＿＿、リーダーにはなれない。",
+    "answer": "ようでは",
+    "accept": ["ようじゃ"],
+    "translation_vi": "Nếu chuyện thế này mà cũng nổi giận thì không thể làm người lãnh đạo."
    },
    {
-    "sentence_ja": "彼女を困らせる＿＿はなかったが、結果的に怒らせてしまった。",
-    "answer": "つもり",
-    "accept": ["気"],
-    "translation_vi": "Tôi không có ý làm khó cô ấy, nhưng kết cục lại làm cô ấy giận."
+    "sentence_ja": "毎日遊んでばかりいる＿＿、試験に落ちるよ。",
+    "answer": "ようでは",
+    "accept": ["ようじゃ", "ようなら"],
+    "translation_vi": "Nếu ngày nào cũng chỉ chơi thì sẽ trượt kỳ thi đấy."
    }
   ],
   "extra_practice": [
    {
     "type": "FILL",
-    "prompt_ja": "今年は海外旅行に行く（　　）。お金をためたいから。",
-    "options": ["ほかない", "にちがいない", "べきだ", "つもりはない"],
-    "answer_index": 3,
-    "explanation_vi": "Điền 「つもりはない」: vì muốn để dành tiền nên năm nay không có ý định đi du lịch nước ngoài. ほかない (đành phải), にちがいない (chắc chắn), べきだ (nên) đều mâu thuẫn với lý do phía sau. Nghĩa: Năm nay tôi không có ý định đi du lịch nước ngoài. Vì tôi muốn để dành tiền."
+    "prompt_ja": "朝ご飯も自分で作れない（　　）、一人暮らしは大変だよ。",
+    "options": ["ついでに", "ようでは", "ものの", "とおりに"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「ようでは」: nếu đến bữa sáng cũng không tự nấu được thì sống một mình sẽ vất vả. ついでに (nhân tiện), ものの (tuy... nhưng), とおりに (theo đúng như) đều không hợp. Nghĩa: Nếu đến bữa sáng cũng không tự nấu được thì sống một mình vất vả lắm đấy."
    },
    {
     "type": "MEANING",
-    "prompt_ja": "あなたを責めるつもりはないけど、次は気をつけてね。",
-    "options": ["Tôi không có ý trách bạn đâu, nhưng lần sau cẩn thận nhé.", "Tôi phải trách bạn, lần sau cẩn thận nhé.", "Tôi không trách bạn được vì bạn đã cẩn thận.", "Tôi định trách bạn nên lần sau đừng làm vậy."],
-    "answer_index": 0,
-    "explanation_vi": "Câu dùng mẫu 〜つもりはない (không có ý định làm gì): \"Tôi không có ý trách bạn đâu, nhưng lần sau cẩn thận nhé.\""
+    "prompt_ja": "そんな言い方をするようでは、友だちができないよ。",
+    "options": ["Có vẻ bạn nói kiểu đó để có bạn.", "Dù ăn nói kiểu đó vẫn có bạn.", "Nói kiểu đó thì bạn bè sẽ đông hơn.", "Nếu cứ ăn nói kiểu đó thì sẽ không có bạn đâu."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜ようでは (nếu cứ như thế thì kết quả xấu): \"Nếu cứ ăn nói kiểu đó thì sẽ không có bạn đâu.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["まだ寝るつもりはない。", "帰るつもりはないでした。", "彼に任せるつもりはありません。", "仕事を変えるつもりはないです。"],
+    "options": ["昨日遅刻したようでは、先生に叱られた。", "そんな気持ちでいるようでは、だれも手伝ってくれない。", "小さなことで悩むようでは、疲れてしまう。", "時間を守れないようでは、仕事は任せられない。"],
+    "answer_index": 0,
+    "explanation_vi": "「昨日遅刻したようでは、先生に叱られた。」 sai: ようでは nói về tình trạng còn tiếp diễn và kết quả xấu có thể xảy ra, không dùng để kể một việc đã xảy ra. Câu đúng: 昨日遅刻したので、先生に叱られた。"
+   }
+  ]
+ },
+ "JG-5b89028992": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "あまりにおかしくて、笑わ（　　）いられなかった。",
+    "options": ["なくては", "ずには", "ないでも", "ずにも"],
     "answer_index": 1,
-    "explanation_vi": "「帰るつもりはないでした。」 sai: quá khứ của ない là なかった, không phải ないでした. Câu đúng: 帰るつもりはありませんでした。 hoặc 帰るつもりはなかった。"
+    "explanation_vi": "Điền 「ずには」: Vない bỏ ない + ずにはいられない là 'không nhịn được mà...'. なくては, ないでも, ずにも không ghép với いられない theo nghĩa này. Nghĩa: Buồn cười quá nên tôi không thể nhịn cười được."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "その映画のラストシーンには、感動（　　）。",
+    "options": ["しずにはいられなかった", "しないにはいられなかった", "せずにはいなかった", "せずにはいられなかった"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「せずにはいられなかった」: する chuyển thành せず, nên 感動する thành 感動せずにはいられない. しずに, しないには là dạng sai; せずにはいなかった là mẫu khác, không nói về cảm xúc của chính mình. Nghĩa: Trước cảnh cuối của bộ phim, tôi không thể không cảm động."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "彼の失礼な言葉に、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["言わ", "いられなかった", "一言", "ずには"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 彼の失礼な言葉に、一言言わずにはいられなかった。 (Trước lời nói thất lễ của anh ta, tôi không thể không nói lại một câu.). Mảnh ở ô ★ là 「ずには」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "道に迷っている＿＿ ★ ＿＿ ＿＿。",
+    "options": ["声をかけ", "ずにはいられなかった", "どうしても", "子どもを見ると"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 道に迷っている子どもを見ると、どうしても声をかけずにはいられなかった。 (Thấy đứa trẻ bị lạc đường, tôi không sao kìm được mà phải lên tiếng hỏi.). Mảnh ở ô ★ là 「どうしても」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "その話を聞いて、腹を立てずにはいられなかった。",
+    "options": ["Nghe chuyện đó, tôi đã cố không nổi giận.", "Nghe chuyện đó, tôi bị buộc phải giả vờ giận.", "Nghe chuyện đó, tôi không thể không nổi giận.", "Nghe chuyện đó, tôi chẳng giận chút nào."],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (không kìm được cảm xúc, hành động tự bật ra): \"Nghe chuyện đó, tôi không thể không nổi giận.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "甘いものを見ると、食べずにはいられない。",
+    "options": ["Hễ thấy đồ ngọt là tôi không nhịn được mà ăn.", "Hễ thấy đồ ngọt là tôi không ăn.", "Thấy đồ ngọt thì tôi không được phép ăn.", "Tôi không thể ăn đồ ngọt dù rất muốn."],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (không nhịn được mà làm): \"Hễ thấy đồ ngọt là tôi không nhịn được mà ăn.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["結果が気になって、確かめずにはいられなかった。", "その映画を見て、笑わずにはいられなかった。", "あまりにかわいくて、写真を撮らずにはいられない。", "その話を聞いて、心配しずにはいられない。"],
+    "answer_index": 3,
+    "explanation_vi": "「その話を聞いて、心配しずにはいられない。」 sai: する chuyển thành せず, không phải しず. Câu đúng: その話を聞いて、心配せずにはいられない。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["会社の命令なので、出張に行かずにはいられない。", "ひどいニュースを聞いて、怒らずにはいられなかった。", "おいしそうなケーキを見ると、買わないではいられない。", "おもしろい本は、最後まで読まずにはいられない。"],
+    "answer_index": 0,
+    "explanation_vi": "「会社の命令なので、出張に行かずにはいられない。」 sai: bị hoàn cảnh, mệnh lệnh ép phải làm thì dùng ざるを得ない; ずにはいられない là tự mình không kìm được. Câu đúng: 会社の命令なので、出張に行かざるを得ない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["感動せずには", "この本を読むと、", "いられないだろう。", "だれでも"],
+    "answer_order": [1, 3, 0, 2],
+    "translation_vi": "Đọc cuốn sách này thì ai cũng sẽ không thể không cảm động."
+   },
+   {
+    "pieces": ["いられなかった。", "電話をかけずには", "母の手紙を読んで、すぐ"],
+    "answer_order": [2, 1, 0],
+    "translation_vi": "Đọc thư của mẹ xong, tôi không kìm được mà gọi điện ngay."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "あまりにも不公平で、文句を言わ＿＿いられなかった。",
+    "answer": "ずには",
+    "accept": ["ないでは", "ずに"],
+    "translation_vi": "Bất công quá nên tôi không thể không phàn nàn."
+   },
+   {
+    "sentence_ja": "そのニュースを聞いて、心配せ＿＿いられない。",
+    "answer": "ずには",
+    "accept": ["ずに"],
+    "translation_vi": "Nghe tin đó, tôi không thể không lo lắng."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼のことが気になって、電話をかけ（　　）。",
+    "options": ["てはいられなかった", "ずにはいられなかった", "ないにはいられなかった", "ずにはいなかった"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「ずにはいられなかった」: lo cho anh ấy nên không kìm được mà gọi điện. てはいられなかった là 'không thể cứ thế mà...', ないには là dạng sai, ずにはいなかった là mẫu khác. Nghĩa: Lo cho anh ấy quá nên tôi không thể không gọi điện."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "困っている友だちを見て、手伝わずにはいられなかった。",
+    "options": ["Thấy bạn gặp khó khăn, tôi buộc phải giúp vì thầy bảo.", "Thấy bạn gặp khó khăn, tôi không giúp được.", "Thấy bạn gặp khó khăn, tôi đã kìm lại không giúp.", "Thấy bạn gặp khó khăn, tôi không thể không giúp."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜ずにはいられない (tự mình không kìm được mà làm): \"Thấy bạn gặp khó khăn, tôi không thể không giúp.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["雨の中で待っている彼女を見て、傘を貸さずにはいられなかった。", "おかしくて、笑わないではいられなかった。", "その絵を見ると、触らずにはいらない。", "疑問に思ったら、聞かずにはいられない性格だ。"],
+    "answer_index": 2,
+    "explanation_vi": "「その絵を見ると、触らずにはいらない。」 sai: phần cuối của mẫu là いられない (thể khả năng của いる), không phải いらない. Câu đúng: その絵を見ると、触らずにはいられない。"
+   }
+  ]
+ },
+ "JG-389dda7559": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼女は悲し（　　）な目で窓の外を見ていた。",
+    "options": ["さ", "み", "げ", "らしい"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「げ」: Aい bỏ い + げ, 悲しげな là 'trông buồn bã', vẻ ngoài người nói nhìn thấy. 悲しさ, 悲しみ là danh từ nên không đi với な, 悲しらしい không có. Nghĩa: Cô ấy nhìn ra ngoài cửa sổ với đôi mắt buồn bã."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "子どもたちは楽し（　　）に遊んでいる。",
+    "options": ["げ", "く", "そうな", "ような"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「げ」: 楽しげに là 'một cách vui vẻ' theo vẻ ngoài. 楽しくに, 楽しそうなに, 楽しようなに đều sai hình thức. Nghĩa: Bọn trẻ đang chơi đùa trông rất vui vẻ."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿部屋を出ていった。",
+    "options": ["顔を", "して", "不満", "げな"],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 彼は不満げな顔をして部屋を出ていった。 (Anh ấy rời khỏi phòng với vẻ mặt bất mãn.). Mảnh ở ô ★ là 「顔を」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "おばあさんは孫の写真を＿＿ ★ ＿＿ ＿＿。",
+    "options": ["くれた", "見せて", "げに", "うれし"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: おばあさんは孫の写真をうれしげに見せてくれた。 (Bà cụ cho tôi xem ảnh cháu với vẻ vui mừng.). Mảnh ở ô ★ là 「げに」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "その犬は悲しげな声で鳴いていた。",
+    "options": ["Con chó kêu to vì vui.", "Con chó kêu với giọng nghe có vẻ buồn bã.", "Con chó kêu khiến tôi buồn.", "Con chó không kêu nữa vì buồn."],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜げ (vẻ ngoài của cảm xúc mà người nói thấy được): \"Con chó kêu với giọng nghe có vẻ buồn bã.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "母は心配げに私の顔を見た。",
+    "options": ["Mẹ nhìn mặt tôi và khiến tôi lo lắng.", "Mẹ không lo lắng gì khi nhìn tôi.", "Mẹ nhìn tôi rồi bảo tôi đừng lo.", "Mẹ nhìn mặt tôi với vẻ lo lắng."],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜げ (trông có vẻ, lộ ra bên ngoài): \"Mẹ nhìn mặt tôi với vẻ lo lắng.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼女は不安げな表情を見せた。", "少年は得意げにテストを見せた。", "このビルは高げだ。", "おじいさんは寂しげに笑った。"],
+    "answer_index": 2,
+    "explanation_vi": "「このビルは高げだ。」 sai: げ dùng cho cảm xúc, tâm trạng lộ ra bên ngoài, không dùng cho tính chất vật lý như 高い. Câu đúng: このビルは高そうだ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["悲しいげな目で私を見た。", "子どもは眠たげな目をしていた。", "彼は自信ありげに答えた。", "田中さんは何か言いたげだった。"],
+    "answer_index": 0,
+    "explanation_vi": "「悲しいげな目で私を見た。」 sai: tính từ い phải bỏ い rồi mới thêm げ. Câu đúng: 悲しげな目で私を見た。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["うなずいた。", "満足", "げに", "彼女は"],
+    "answer_order": [3, 1, 2, 0],
+    "translation_vi": "Cô ấy gật đầu với vẻ hài lòng."
+   },
+   {
+    "pieces": ["見ていた。", "その子は", "目で母親を", "寂しげな"],
+    "answer_order": [1, 3, 2, 0],
+    "translation_vi": "Đứa bé nhìn mẹ bằng ánh mắt buồn bã."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "彼は得意＿＿に新しい車を見せてくれた。",
+    "answer": "げ",
+    "accept": ["そう"],
+    "translation_vi": "Anh ấy khoe chiếc xe mới với tôi bằng vẻ đắc ý."
+   },
+   {
+    "sentence_ja": "少女は恥ずかし＿＿に下を向いた。",
+    "answer": "げ",
+    "accept": ["そう"],
+    "translation_vi": "Cô bé cúi mặt xuống với vẻ ngượng ngùng."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "父は満足（　　）に笑った。",
+    "options": ["っぽ", "げ", "気味", "がち"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「げ」: 満足げに là 'với vẻ hài lòng'. 気味 chỉ xu hướng không tốt, がち là 'hay bị', っぽに không có, đều không hợp với cảm xúc tích cực. Nghĩa: Bố tôi cười với vẻ hài lòng."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼は言いたげな顔をしていたが、何も言わなかった。",
+    "options": ["Anh ấy có vẻ mặt như muốn nói gì đó nhưng đã không nói gì.", "Anh ấy đã nói hết những gì muốn nói.", "Anh ấy không muốn nói nên quay mặt đi.", "Anh ấy định nói nhưng bị ngắt lời."],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜げ (V bỏ ます + げ, trông như muốn): \"Anh ấy có vẻ mặt như muốn nói gì đó nhưng đã không nói gì.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": ["彼女は不安げに時計を見た。", "私は今、とても寂しげだ。", "その子は恥ずかしげに母の後ろに立っていた。", "先生は満足げな様子だった。"],
+    "answer_index": 1,
+    "explanation_vi": "「私は今、とても寂しげだ。」 sai: げ tả vẻ ngoài của người khác mà người nói nhìn thấy, không dùng để nói cảm xúc của chính mình. Câu đúng: 私は今、とても寂しい。"
    }
   ]
  }

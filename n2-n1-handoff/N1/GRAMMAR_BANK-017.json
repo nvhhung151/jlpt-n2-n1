@@ -4,7 +4,194 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この店の客は、平日だとせいぜい二十人（　　）。",
+      "options": [
+       "にほかならない",
+       "に越したことはない",
+       "といったところだ",
+       "ずにはおかない"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「といったところだ」: số lượng + といったところだ nói mức độ cùng lắm chỉ khoảng đó, thường đi với せいぜい. Nghĩa: Ngày thường, khách của quán này cùng lắm cũng chỉ khoảng hai mươi người."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "新しいアプリの評価は、まあまあ（　　）。",
+      "options": [
+       "きらいがある",
+       "といったところだ",
+       "までもない",
+       "にたえない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「といったところだ」: まあまあといったところだ chốt lại mức đánh giá vừa phải 'đại khái là tạm được'. Nghĩa: Đánh giá về ứng dụng mới đại khái là tạm được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "夏休みといっても、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "といったところだ",
+       "三日",
+       "休めるのは",
+       "せいぜい"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 夏休みといっても、休めるのはせいぜい三日といったところだ。 (Gọi là nghỉ hè nhưng cùng lắm chỉ nghỉ được khoảng ba ngày.). Mảnh ở ô ★ là 「三日」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿です。",
+      "options": [
+       "できる",
+       "といったところ",
+       "私の日本語は",
+       "日常会話が"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 私の日本語は日常会話ができるといったところです。 (Tiếng Nhật của tôi đại khái ở mức nói chuyện hằng ngày được.). Mảnh ở ô ★ là 「日常会話が」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "今年のボーナスは、去年より少し多いといったところだ。",
+      "options": [
+       "Tiền thưởng năm nay đại khái chỉ nhiều hơn năm ngoái một chút.",
+       "Tiền thưởng năm nay nhiều hơn năm ngoái rất nhiều.",
+       "Tiền thưởng năm nay ít hơn năm ngoái một chút.",
+       "Năm nay không có tiền thưởng như năm ngoái."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜といったところだ (cùng lắm cũng chỉ khoảng): \"Tiền thưởng năm nay đại khái chỉ nhiều hơn năm ngoái một chút.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "工事の進み具合は、全体の半分といったところです。",
+      "options": [
+       "Công trình đã hoàn thành toàn bộ.",
+       "Công trình vẫn chưa bắt đầu.",
+       "Tiến độ công trình đại khái mới được khoảng một nửa.",
+       "Một nửa số công nhân đã nghỉ việc."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜といったところだ (đại khái chỉ khoảng): \"Tiến độ công trình đại khái mới được khoảng một nửa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "休日の過ごし方は、読書と散歩といったところだ。",
+       "試験の結果は、正確に八十二点といったところだ。",
+       "新人の実力は、まだ半人前といったところだ。",
+       "会場までは、車で三十分といったところです。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「試験の結果は、正確に八十二点といったところだ。」 sai: といったところだ nói mức độ đại khái, không đi với con số chính xác (正確に). Câu đúng: 試験の結果は、正確に言うと八十二点だ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "今日の気温は、二十度といったところだろう。",
+       "参加者は五十人なといったところだ。",
+       "料理の腕前は、ようやく人並みといったところだ。",
+       "完成までは、あと一歩といったところです。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「参加者は五十人なといったところだ。」 sai: danh từ, số lượng nối thẳng với といったところだ, không thêm な. Câu đúng: 参加者は五十人といったところだ。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "といったところだ。",
+       "せいぜい",
+       "この仕事の時給は",
+       "千円"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Lương theo giờ của công việc này cùng lắm cũng chỉ khoảng một nghìn yên."
+     },
+     {
+      "pieces": [
+       "といったところです。",
+       "八割",
+       "準備は",
+       "ほぼ"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Việc chuẩn bị đại khái đã xong khoảng tám phần."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "駅から会場までは、歩いて十分＿＿ところだ。",
+      "answer": "といった",
+      "accept": [
+       "という"
+      ],
+      "translation_vi": "Từ ga đến hội trường đi bộ chừng mười phút."
+     },
+     {
+      "sentence_ja": "今回の試験の出来は、六十点といった＿＿だ。",
+      "answer": "ところ",
+      "accept": [
+       "所"
+      ],
+      "translation_vi": "Bài thi lần này đại khái làm được khoảng sáu mươi điểm."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この町の人口は、多く見積もっても一万人（　　）。",
+      "options": [
+       "ならではだ",
+       "ずくめだ",
+       "しまつだ",
+       "といったところだ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「といったところだ」: 多く見積もっても (ước tính cao nhất) + といったところだ nói mức cùng lắm chỉ khoảng đó. Nghĩa: Dân số thị trấn này ước tính cao lắm cũng chỉ khoảng một vạn người."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "私のピアノの腕前は、簡単な曲が弾ける程度といったところです。",
+      "options": [
+       "Tôi chơi piano giỏi đến mức biểu diễn được.",
+       "Trình độ piano của tôi đại khái chỉ ở mức chơi được vài bài đơn giản.",
+       "Tôi không biết chơi piano chút nào.",
+       "Tôi chỉ thích nghe những bài piano đơn giản."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜といったところだ (đại khái chỉ ở mức): \"Trình độ piano của tôi đại khái chỉ ở mức chơi được vài bài đơn giản.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "今月の残業は、せいぜい十時間といったところだ。",
+       "この映画の評判は、まずまずといったところだ。",
+       "台風が来るので、明日は絶対に休校といったところだ。",
+       "旅行の費用は、一人五万円といったところだろう。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「台風が来るので、明日は絶対に休校といったところだ。」 sai: といったところだ chỉ mức độ đại khái, không dùng để khẳng định chắc chắn (絶対に). Câu đúng: 台風が来るので、明日は休校になるだろう。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -27,7 +214,200 @@
    "id": "JG-8192a13504"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "まだ使えるおもちゃなので、捨てる（　　）。",
+      "options": [
+       "に堪える",
+       "にかたくない",
+       "に忍びない",
+       "きらいがある"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に忍びない」: Vる + に忍びない nghĩa là không nỡ làm vì thương tiếc. に堪える (đáng để), にかたくない (dễ hình dung), きらいがある (có khuynh hướng) không hợp nghĩa. Nghĩa: Đồ chơi vẫn còn dùng được nên tôi không nỡ vứt đi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "育ててくれた祖母の家を売る（　　）、まだ決められずにいる。",
+      "options": [
+       "に限って",
+       "にかまけて",
+       "に堪えて",
+       "に忍びなく"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に忍びなく」: Vる + に忍びなく (thể nối) nói vì không nỡ nên chưa quyết được. Nghĩa: Không nỡ bán ngôi nhà của người bà đã nuôi mình lớn, tôi vẫn chưa quyết được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、毎日えさをやっている。",
+      "options": [
+       "忍びなくて",
+       "見捨てるに",
+       "弱った",
+       "野良猫を"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 弱った野良猫を見捨てるに忍びなくて、毎日えさをやっている。 (Không nỡ bỏ mặc con mèo hoang yếu ớt nên ngày nào tôi cũng cho nó ăn.). Mảnh ở ô ★ là 「見捨てるに」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、そっと部屋を出た。",
+      "options": [
+       "起こすに",
+       "忍びず",
+       "ぐっすり",
+       "眠っている母を"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: ぐっすり眠っている母を起こすに忍びず、そっと部屋を出た。 (Không nỡ đánh thức mẹ đang ngủ say, tôi lặng lẽ ra khỏi phòng.). Mảnh ở ô ★ là 「眠っている母を」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "被災地の様子は、見るに忍びないものだった。",
+      "options": [
+       "Cảnh vùng thiên tai đã được khôi phục, rất đáng xem.",
+       "Tôi không được phép nhìn cảnh vùng thiên tai.",
+       "Cảnh vùng thiên tai đau lòng đến mức không nỡ nhìn.",
+       "Tôi đã không có thời gian đi xem vùng thiên tai."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜に忍びない (không nỡ): \"Cảnh vùng thiên tai đau lòng đến mức không nỡ nhìn.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "友人の手作りのプレゼントなので、使うに忍びなくて飾ってある。",
+      "options": [
+       "Món quà bạn tự tay làm nên tôi không nỡ dùng mà đem trưng lên.",
+       "Món quà bạn làm không dùng được nên tôi đem trưng lên.",
+       "Tôi dùng món quà bạn làm hằng ngày.",
+       "Tôi tự làm quà để tặng bạn."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜に忍びない (không nỡ): \"Món quà bạn tự tay làm nên tôi không nỡ dùng mà đem trưng lên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の落ち込んだ姿は、見るに忍びなかった。",
+       "辛い料理は苦手なので、食べるに忍びない。",
+       "祖父の形見なので、売るに忍びない。",
+       "家族同然の犬を手放すに忍びず、引っ越し先にも連れて行った。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「辛い料理は苦手なので、食べるに忍びない。」 sai: に忍びない xuất phát từ lòng thương cảm, áy náy, không dùng cho việc mình không thích; ý đó nói 食べられない. Câu đúng: 辛い料理は苦手なので、食べられない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "苦しむ患者の姿は、見るに忍びない。",
+       "長年使った机を処分するに忍びない。",
+       "子どもたちの悲しむ顔を見るに忍びず、本当のことは言えなかった。",
+       "思い出の写真を捨てたに忍びない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「思い出の写真を捨てたに忍びない。」 sai: trước に忍びない là động từ thể từ điển, không dùng thể た. Câu đúng: 思い出の写真を捨てるに忍びない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "忍びない。",
+       "まだ咲いている",
+       "切るに",
+       "花を"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Tôi không nỡ cắt những bông hoa vẫn đang nở."
+     },
+     {
+      "pieces": [
+       "忍びず、",
+       "断るに",
+       "頼みを",
+       "友人の必死の",
+       "引き受けた。"
+      ],
+      "answer_order": [
+       3,
+       2,
+       1,
+       0,
+       4
+      ],
+      "translation_vi": "Không nỡ từ chối lời nhờ vả khẩn thiết của bạn, tôi đã nhận lời."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "傷ついた鳥を放っておくに＿＿、家に連れて帰った。",
+      "answer": "忍びず",
+      "accept": [
+       "忍びなく",
+       "忍びなくて",
+       "しのびず"
+      ],
+      "translation_vi": "Không nỡ bỏ mặc con chim bị thương, tôi đã mang nó về nhà."
+     },
+     {
+      "sentence_ja": "祖母が編んでくれたセーターは、古くなっても捨てるに＿＿。",
+      "answer": "忍びない",
+      "accept": [
+       "しのびない",
+       "忍びません",
+       "捨てられない"
+      ],
+      "translation_vi": "Chiếc áo len bà đan cho, dù đã cũ tôi vẫn không nỡ vứt đi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "試合に負けて泣いている後輩を、これ以上責める（　　）。",
+      "options": [
+       "にすぎない",
+       "に忍びない",
+       "ずくめだ",
+       "にかたくない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に忍びない」: thấy đàn em đang khóc vì thua nên không nỡ trách thêm. Nghĩa: Tôi không nỡ trách thêm đàn em đang khóc vì thua trận."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "病気の母に本当のことを告げるに忍びなかった。",
+      "options": [
+       "Tôi không được phép nói sự thật cho mẹ.",
+       "Mẹ tôi đang bệnh nên không muốn nghe sự thật.",
+       "Tôi đã nói hết sự thật cho người mẹ đang bệnh.",
+       "Tôi không nỡ nói sự thật cho người mẹ đang bệnh."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に忍びない (không nỡ): \"Tôi không nỡ nói sự thật cho người mẹ đang bệnh.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "親友の頼みを断るに忍びず、保証人になった。",
+       "疲れているので、今日は出かけるに忍びない。",
+       "苦労している後輩を見放すに忍びない。",
+       "亡き父の書斎を片付けるに忍びず、そのままにしている。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「疲れているので、今日は出かけるに忍びない。」 sai: に忍びない nói không nỡ vì thương cảm người, vật khác, không dùng cho việc mình mệt không muốn làm. Câu đúng: 疲れているので、今日は出かけたくない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

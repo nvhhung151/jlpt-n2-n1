@@ -4,7 +4,194 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この町には、有名な寺（　　）、多くの観光名所がある。",
+      "options": [
+       "をおいて",
+       "をはじめ",
+       "を経て",
+       "とて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「をはじめ」: nêu ngôi chùa nổi tiếng làm đại diện tiêu biểu, rồi hàm ý còn nhiều danh lam khác. Nghĩa: Thị trấn này có nhiều điểm tham quan, tiêu biểu là ngôi chùa nổi tiếng."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "東京（　　）、全国の主要都市で大雨が降った。",
+      "options": [
+       "にかかわらず",
+       "をおいて",
+       "に値して",
+       "をはじめ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「をはじめ」: Tokyo là đại diện, vế sau là nhóm bao gồm cả Tokyo (các thành phố lớn trên cả nước). Nghĩa: Mưa lớn đã đổ xuống các thành phố lớn trên cả nước, trước hết là Tokyo."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "会議には、＿＿ ＿＿ ★ ＿＿出席した。",
+      "options": [
+       "代表者が",
+       "各部署の",
+       "をはじめ",
+       "部長"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 会議には、部長をはじめ各部署の代表者が出席した。 (Đại diện các phòng ban, đứng đầu là trưởng phòng, đã dự cuộc họp.). Mảnh ở ô ★ là 「各部署の」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この店では、＿＿ ★ ＿＿ ＿＿味わえる。",
+      "options": [
+       "をはじめとする",
+       "様々な日本料理が",
+       "すし",
+       "新鮮な"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この店では、新鮮なすしをはじめとする様々な日本料理が味わえる。 (Ở quán này có thể thưởng thức nhiều món Nhật, tiêu biểu là sushi tươi.). Mảnh ở ô ★ là 「すし」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "祖父をはじめ、家族全員が私の留学に賛成してくれた。",
+      "options": [
+       "Chỉ có ông tôi là phản đối việc tôi đi du học.",
+       "Ông tôi bắt đầu đi du học trước cả gia đình.",
+       "Cả gia đình, mà trước hết là ông tôi, đều ủng hộ việc tôi đi du học.",
+       "Cả gia đình ủng hộ tôi du học, trừ ông tôi."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu N + をはじめ (trước hết là, đứng đầu là): 'Cả gia đình, mà trước hết là ông tôi, đều ủng hộ việc tôi đi du học.'"
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本をはじめとするアジア各国で、高齢化が進んでいる。",
+      "options": [
+       "Ở các nước châu Á, tiêu biểu là Nhật Bản, tình trạng già hóa dân số đang tiến triển.",
+       "Nhật Bản là nước duy nhất ở châu Á đang già hóa dân số.",
+       "Già hóa dân số bắt đầu từ các nước châu Á rồi mới lan sang Nhật Bản.",
+       "Ngoại trừ Nhật Bản, các nước châu Á đều đang già hóa dân số."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu N + をはじめとする + N (tiêu biểu là): 'Ở các nước châu Á, tiêu biểu là Nhật Bản, tình trạng già hóa dân số đang tiến triển.'"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "社長をはじめ、全社員が参加した。",
+       "この町には、有名な寺をはじめ、多くの観光名所がある。",
+       "会議には、部長をはじめ各部署の代表者が出席した。",
+       "朝ご飯をはじめ、歯を磨いた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「朝ご飯をはじめ、歯を磨いた。」 sai: をはじめ nêu đại diện của một nhóm, không dùng để nói thứ tự 'trước tiên làm A rồi làm B'. Câu đúng: 朝ご飯を食べてから、歯を磨いた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "日本をはじめとするアジア各国で、高齢化が進んでいる。",
+       "私をはじめ、田中さんが一人で旅行に行った。",
+       "東京をはじめ、全国の主要都市で大雨が降った。",
+       "祖父をはじめ、家族全員が私の留学に賛成してくれた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私をはじめ、田中さんが一人で旅行に行った。」 sai: vế sau của をはじめ phải là một nhóm bao gồm cả N đã nêu, không phải một người riêng lẻ khác. Câu đúng: 私をはじめ、クラスの皆が旅行に参加した。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "多くの参加者が",
+       "をはじめ",
+       "集まった。",
+       "市長"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Nhiều người tham dự đã tập trung về, đứng đầu là ông thị trưởng."
+     },
+     {
+      "pieces": [
+       "として",
+       "サッカーをはじめ",
+       "人気がある。",
+       "様々なスポーツが"
+      ],
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "translation_vi": "Nhiều môn thể thao, tiêu biểu là bóng đá, đều được ưa chuộng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "京都＿＿、日本各地の古い町を旅したい。",
+      "answer": "をはじめ",
+      "accept": [
+       "をはじめとして"
+      ],
+      "translation_vi": "Tôi muốn đi du lịch những thị trấn cổ khắp Nhật Bản, trước hết là Kyoto."
+     },
+     {
+      "sentence_ja": "この病院には、内科を＿＿、様々な診療科がある。",
+      "answer": "はじめ",
+      "accept": [
+       "はじめとして"
+      ],
+      "translation_vi": "Bệnh viện này có nhiều khoa khám chữa bệnh, tiêu biểu là khoa nội."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "先生（　　）クラス全員が、彼の合格を喜んだ。",
+      "options": [
+       "とて",
+       "をおいて",
+       "をはじめ",
+       "に即して"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「をはじめ」: thầy giáo là đại diện, vế sau là cả lớp (bao gồm thầy). Nghĩa: Cả lớp, đứng đầu là thầy giáo, đều vui mừng vì cậu ấy thi đỗ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この本は、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "をはじめ",
+       "広く読まれている",
+       "世界中で",
+       "日本"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この本は、日本をはじめ世界中で広く読まれている。 (Cuốn sách này được đọc rộng rãi khắp thế giới, trước hết là ở Nhật Bản.). Mảnh ở ô ★ là 「世界中で」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "会長をはじめとする役員たちが、記者会見に臨んだ。",
+      "options": [
+       "Chủ tịch một mình ra họp báo, không có ban lãnh đạo.",
+       "Chủ tịch bắt đầu buổi họp báo trước khi ban lãnh đạo đến.",
+       "Ban lãnh đạo ra họp báo thay cho chủ tịch.",
+       "Các thành viên ban lãnh đạo, đứng đầu là chủ tịch, đã ra dự họp báo."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N + をはじめとする + N (đứng đầu là): 'Các thành viên ban lãnh đạo, đứng đầu là chủ tịch, đã ra dự họp báo.'"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -27,7 +214,190 @@
    "id": "JG-c72e625510"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "厳しい審査（　　）、彼の作品が入賞に選ばれた。",
+      "options": [
+       "を経て",
+       "をはじめ",
+       "とて",
+       "をおいて"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「を経て」: trải qua quá trình thẩm định nghiêm ngặt rồi mới đến kết quả được chọn. Nghĩa: Trải qua vòng thẩm định khắt khe, tác phẩm của anh ấy đã được chọn đoạt giải."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "長い議論を（　　）、ようやく新しい制度が決まった。",
+      "options": [
+       "おいて",
+       "禁じ得ず",
+       "値して",
+       "経て"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「経て」: N + を経て, trải qua cuộc thảo luận dài rồi mới quyết định. 値する đi với に, 禁じ得ない chỉ đi với cảm xúc. Nghĩa: Sau một cuộc thảo luận dài, cuối cùng chế độ mới đã được quyết định."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は、＿＿ ＿＿ ★ ＿＿社長に就任した。",
+      "options": [
+       "経て",
+       "役職を",
+       "副社長などの",
+       "営業部長や"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼は、営業部長や副社長などの役職を経て社長に就任した。 (Anh ấy đã trải qua các chức vụ như trưởng phòng kinh doanh, phó giám đốc rồi mới nhậm chức giám đốc.). Mảnh ở ô ★ là 「役職を」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "新製品は、＿＿ ★ ＿＿ ＿＿完成した。",
+      "options": [
+       "試作を",
+       "経て",
+       "わたる",
+       "二年に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 新製品は、二年にわたる試作を経て完成した。 (Sản phẩm mới đã hoàn thành sau hai năm làm thử.). Mảnh ở ô ★ là 「わたる」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼女は大学院での研究を経て、製薬会社に就職した。",
+      "options": [
+       "Cô ấy bỏ dở nghiên cứu ở cao học để vào làm công ty dược.",
+       "Cô ấy vào làm ở công ty dược sau khi trải qua quá trình nghiên cứu ở cao học.",
+       "Cô ấy vừa làm ở công ty dược vừa học cao học.",
+       "Cô ấy vào công ty dược rồi mới học cao học."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N + を経て (trải qua rồi mới): 'Cô ấy vào làm ở công ty dược sau khi trải qua quá trình nghiên cứu ở cao học.'"
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この法案は、国会での審議を経て成立した。",
+      "options": [
+       "Dự luật này được thông qua mà không cần thẩm nghị tại Quốc hội.",
+       "Dự luật này bị Quốc hội bác bỏ sau khi thẩm nghị.",
+       "Dự luật này đang chờ Quốc hội thẩm nghị.",
+       "Dự luật này đã được thông qua sau khi trải qua quá trình thẩm nghị tại Quốc hội."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu N + を経て (trải qua rồi mới): 'Dự luật này đã được thông qua sau khi trải qua quá trình thẩm nghị tại Quốc hội.'"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "三年の準備期間を経て開店した。",
+       "厳しい審査を経て、彼の作品が入賞に選ばれた。",
+       "昨日の午後三時を経て、友だちに電話した。",
+       "この法案は、国会での審議を経て成立した。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「昨日の午後三時を経て、友だちに電話した。」 sai: を経て cần danh từ chỉ quá trình, giai đoạn, không dùng với một thời điểm đơn giản. Câu đúng: 昨日の午後三時過ぎに、友だちに電話した。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "長い議論に経て、ようやく新しい制度が決まった。",
+       "彼は、営業部長や副社長などの役職を経て社長に就任した。",
+       "新製品は、二年にわたる試作を経て完成した。",
+       "彼女は大学院での研究を経て、製薬会社に就職した。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「長い議論に経て、ようやく新しい制度が決まった。」 sai: 経る đi với trợ từ を, không dùng に. Câu đúng: 長い議論を経て、ようやく新しい制度が決まった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "十年の",
+       "帰国した。",
+       "海外生活を",
+       "経て"
+      ],
+      "answer_order": [
+       0,
+       2,
+       3,
+       1
+      ],
+      "translation_vi": "Tôi đã về nước sau mười năm sống ở nước ngoài."
+     },
+     {
+      "pieces": [
+       "結婚した。",
+       "数々の困難を",
+       "経て"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Họ đã kết hôn sau khi vượt qua bao khó khăn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "予選＿＿、決勝に進んだのは八チームだった。",
+      "answer": "を経て",
+      "accept": [],
+      "translation_vi": "Trải qua vòng loại, có tám đội vào được chung kết."
+     },
+     {
+      "sentence_ja": "半年間の研修を＿＿、正式に配属が決まった。",
+      "answer": "経て",
+      "accept": [
+       "終えて"
+      ],
+      "translation_vi": "Sau sáu tháng đào tạo, việc phân công chính thức đã được quyết định."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "試行錯誤（　　）、ようやく満足できる味になった。",
+      "options": [
+       "をおいて",
+       "とて",
+       "を経て",
+       "に照らして"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「を経て」: trải qua quá trình thử và sai rồi mới đạt được hương vị ưng ý. Nghĩa: Sau bao lần thử nghiệm, cuối cùng cũng ra được hương vị ưng ý."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "十年の歳月を経て、町はすっかり変わった。",
+      "options": [
+       "Chỉ sau một năm, thị trấn đã thay đổi hoàn toàn.",
+       "Trải qua mười năm, thị trấn đã thay đổi hoàn toàn.",
+       "Dù mười năm trôi qua, thị trấn vẫn không thay đổi.",
+       "Thị trấn mất mười năm để trở lại như cũ."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu N + を経て (trải qua): 'Trải qua mười năm, thị trấn đã thay đổi hoàn toàn.'"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "明日の朝を経て、出発します。",
+       "十年の海外生活を経て帰国した。",
+       "予選を経て、決勝に進んだのは八チームだった。",
+       "半年間の研修を経て、正式に配属が決まった。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「明日の朝を経て、出発します。」 sai: を経て không dùng với một thời điểm, mà với quá trình, giai đoạn hay nơi trung gian. Câu đúng: 明日の朝、出発します。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -50,7 +420,193 @@
    "id": "JG-76f74074ab"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもの頃の写真を見る（　　）、亡くなった祖母のことが思い出される。",
+      "options": [
+       "を経て",
+       "をはじめ",
+       "とて",
+       "につけ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「につけ」: Vる + につけ, mỗi khi nhìn thấy thì cảm xúc, ký ức lại tự nhiên dâng lên. Nghĩa: Mỗi khi xem ảnh hồi nhỏ, tôi lại nhớ đến người bà đã mất."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "最近の事件のニュースを聞く（　　）、社会の将来が心配になる。",
+      "options": [
+       "に値して",
+       "につけても",
+       "をおいて",
+       "にかかわらず"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「につけても」: mỗi lần nghe tin thì nỗi lo lại dâng lên. にかかわらず cần yếu tố có hai mặt đối lập. Nghĩa: Mỗi khi nghe tin về các vụ việc gần đây, tôi lại lo cho tương lai của xã hội."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "母からの＿＿ ＿＿ ★ ＿＿なる。",
+      "options": [
+       "恋しく",
+       "故郷が",
+       "読むにつけ",
+       "手紙を"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 母からの手紙を読むにつけ、故郷が恋しくなる。 (Mỗi lần đọc thư mẹ gửi, tôi lại nhớ quê da diết.). Mảnh ở ô ★ là 「故郷が」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼の活躍を＿＿ ★ ＿＿ ＿＿気持ちになる。",
+      "options": [
+       "私も",
+       "誇らしい",
+       "につけ",
+       "聞く"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼の活躍を聞くにつけ、私も誇らしい気持ちになる。 (Mỗi lần nghe về thành tích của anh ấy, tôi cũng thấy tự hào.). Mảnh ở ô ★ là 「につけ」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "雨の音を聞くにつけ、あの日の別れを思い出す。",
+      "options": [
+       "Chỉ một lần nghe tiếng mưa, tôi đã quên cuộc chia tay ngày hôm ấy.",
+       "Dù nghe tiếng mưa, tôi cũng không nhớ gì về cuộc chia tay.",
+       "Vào ngày chia tay hôm ấy, trời đã mưa rất to.",
+       "Mỗi lần nghe tiếng mưa, tôi lại nhớ đến cuộc chia tay ngày hôm ấy."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vる + につけ (mỗi khi... lại): 'Mỗi lần nghe tiếng mưa, tôi lại nhớ đến cuộc chia tay ngày hôm ấy.'"
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "被災地の映像を見るにつけても、胸が痛む。",
+      "options": [
+       "Tôi đã cố tình xem hình ảnh vùng thiên tai để tìm hiểu.",
+       "Dù xem hình ảnh vùng thiên tai, tôi cũng chẳng cảm thấy gì.",
+       "Mỗi khi xem hình ảnh vùng bị thiên tai, lòng tôi lại đau xót.",
+       "Tôi bị đau ngực nên không xem được hình ảnh vùng thiên tai."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu Vる + につけても (mỗi khi... lại): 'Mỗi khi xem hình ảnh vùng bị thiên tai, lòng tôi lại đau xót.'"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "それにつけても彼のことが思い出される。",
+       "母からの手紙を読むにつけ、故郷が恋しくなる。",
+       "駅に着くにつけ、すぐに電話をかけた。",
+       "雨の音を聞くにつけ、あの日の別れを思い出す。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「駅に着くにつけ、すぐに電話をかけた。」 sai: vế sau của につけ là cảm xúc, suy nghĩ tự nhiên dâng lên, không dùng cho hành động có chủ ý xảy ra một lần. Câu đúng: 駅に着くとすぐに、電話をかけた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼の活躍を聞くにつけ、私も誇らしい気持ちになる。",
+       "子どもの頃の写真を見るにつけ、亡くなった祖母のことが思い出される。",
+       "最近の事件のニュースを聞くにつけても、社会の将来が心配になる。",
+       "会議の資料を読むにつけ、明日までに提出しなさい。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「会議の資料を読むにつけ、明日までに提出しなさい。」 sai: につけ không đi với vế sau là mệnh lệnh, yêu cầu. Câu đúng: 会議の資料を読んだら、明日までに提出しなさい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "悩むにつけ",
+       "身にしみる。",
+       "子育てに",
+       "両親の苦労が"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Mỗi lần trăn trở chuyện nuôi con, tôi lại thấm thía nỗi vất vả của bố mẹ."
+     },
+     {
+      "pieces": [
+       "ふるさとの山を思い出す。",
+       "見るにつけ",
+       "この景色を"
+      ],
+      "answer_order": [
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Mỗi lần nhìn cảnh này, tôi lại nhớ núi non quê nhà."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼女の成長した姿を見る＿＿、時の流れの速さを感じる。",
+      "answer": "につけ",
+      "accept": [
+       "につけても",
+       "たびに"
+      ],
+      "translation_vi": "Mỗi lần thấy cô ấy đã trưởng thành, tôi lại cảm nhận thời gian trôi thật nhanh."
+     },
+     {
+      "sentence_ja": "祖父の話を思い出すに＿＿、戦争の悲惨さを考えさせられる。",
+      "answer": "つけ",
+      "accept": [
+       "つけても"
+      ],
+      "translation_vi": "Mỗi khi nhớ lại câu chuyện của ông, tôi lại phải suy nghĩ về sự thảm khốc của chiến tranh."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この曲を聞く（　　）、学生時代を思い出す。",
+      "options": [
+       "につけ",
+       "とて",
+       "をおいて",
+       "に照らして"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「につけ」: mỗi khi nghe bài hát này thì ký ức thời sinh viên lại hiện về. Nghĩa: Mỗi lần nghe bài hát này, tôi lại nhớ thời sinh viên."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼の苦労話を聞くにつけ、自分の甘さを思い知らされる。",
+      "options": [
+       "Nghe chuyện vất vả của anh ấy, tôi thấy mình giỏi hơn.",
+       "Tôi kể chuyện vất vả của mình cho anh ấy nghe.",
+       "Tôi không muốn nghe chuyện vất vả của anh ấy nữa.",
+       "Mỗi lần nghe chuyện vất vả của anh ấy, tôi lại thấm thía sự non nớt của bản thân."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vる + につけ (mỗi khi... lại): 'Mỗi lần nghe chuyện vất vả của anh ấy, tôi lại thấm thía sự non nớt của bản thân.'"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この曲を聞くにつけ、学生時代を思い出す。",
+       "雨の日につけ、傘を持って出かけてください。",
+       "彼女の成長した姿を見るにつけ、時の流れの速さを感じる。",
+       "子育てに悩むにつけ、両親の苦労が身にしみる。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「雨の日につけ、傘を持って出かけてください。」 sai: につけ nói cảm xúc, suy nghĩ tự nhiên dâng lên, không đi với vế sau là lời nhờ, yêu cầu. Câu đúng: 雨の日は、傘を持って出かけてください。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

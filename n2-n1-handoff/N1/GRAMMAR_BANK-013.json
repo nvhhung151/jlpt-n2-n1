@@ -4,7 +4,188 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "試合に勝った選手たちは、飛び上がら（　　）に喜んだ。",
+      "options": [
+       "ないばかり",
+       "んがため",
+       "んばかり",
+       "ずじまい"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「んばかり」: Vない bỏ ない + んばかりに tả dáng vẻ như sắp làm việc đó. Nghĩa: Các cầu thủ thắng trận vui mừng như muốn nhảy cẫng lên."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "店員は早く帰れと言わ（　　）の態度で、私たちを見ていた。",
+      "options": [
+       "ずにはおかない",
+       "んばかり",
+       "んがため",
+       "ないまで"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「んばかり」: と言わんばかりの + N = như thể muốn nói, dù thực tế không nói ra. Nghĩa: Nhân viên nhìn chúng tôi với thái độ như muốn nói 'về nhanh đi'."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "母は私を＿＿ ＿＿ ★ ＿＿見つめていた。",
+      "options": [
+       "顔で",
+       "ばかりの",
+       "今にも",
+       "泣き出さん"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 母は私を今にも泣き出さんばかりの顔で見つめていた。 (Mẹ nhìn tôi với gương mặt như sắp bật khóc.). Mảnh ở ô ★ là 「ばかりの」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿起こった。",
+      "options": [
+       "拍手が",
+       "ばかりの",
+       "観客からは",
+       "割れん"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 観客からは割れんばかりの拍手が起こった。 (Khán giả vỗ tay vang dội như muốn vỡ tung.). Mảnh ở ô ★ là 「割れん」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "部長は、あきれたと言わんばかりにため息をついた。",
+      "options": [
+       "Trưởng phòng nói thẳng rằng ông ấy chán ngán rồi thở dài.",
+       "Trưởng phòng không thở dài dù đã rất chán ngán.",
+       "Trưởng phòng thở dài như thể muốn nói rằng ông ấy đã chán ngán lắm rồi.",
+       "Trưởng phòng thở dài vì không nói được gì."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜んばかり (như thể sắp…, dù thực tế chưa làm): \"Trưởng phòng thở dài như thể muốn nói rằng ông ấy đã chán ngán lắm rồi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "空港で再会した二人は、抱き合わんばかりに喜んだ。",
+      "options": [
+       "Hai người gặp lại nhau ở sân bay mừng rỡ như thể sắp ôm chầm lấy nhau.",
+       "Hai người gặp lại ở sân bay nhưng không vui lắm.",
+       "Hai người ôm nhau rất lâu rồi mới chia tay.",
+       "Hai người định ôm nhau nhưng bị người khác ngăn lại."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜んばかり (như thể sắp…, dù thực tế chưa làm): \"Hai người gặp lại nhau ở sân bay mừng rỡ như thể sắp ôm chầm lấy nhau.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "子どもは今にも泣き出さんばかりだった。",
+       "社長は怒らんばかりの勢いで部屋に入ってきた。",
+       "あふれんばかりの笑顔で迎えてくれた。",
+       "彼女は泣かないんばかりの顔をしていた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「彼女は泣かないんばかりの顔をしていた。」 sai: phải bỏ ない rồi mới thêm んばかり. Câu đúng: 彼女は泣かんばかりの顔をしていた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は土下座せんばかりに頼み込んできた。",
+       "彼は今にも出発するんばかりに荷物をまとめていた。",
+       "桜の花が、こぼれんばかりに咲いている。",
+       "弟は飛び上がらんばかりに喜んだ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「彼は今にも出発するんばかりに荷物をまとめていた。」 sai: する phải đổi thành せん trước ばかり. Câu đúng: 彼は今にも出発せんばかりに荷物をまとめていた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "たまっていた。",
+       "あふれんばかりに",
+       "涙が",
+       "彼女の目には"
+      ],
+      "answer_order": [
+       3,
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Trong mắt cô ấy, nước mắt đọng lại như sắp trào ra."
+     },
+     {
+      "pieces": [
+       "彼は背を向けた。",
+       "もう話しかけるな",
+       "と言わん",
+       "ばかりに、"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Anh ấy quay lưng lại như thể muốn nói 'đừng bắt chuyện với tôi nữa'."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "彼は殴りかから＿＿の勢いで、相手に詰め寄った。",
+      "answer": "んばかり",
+      "translation_vi": "Anh ta xông tới đối phương với khí thế như sắp lao vào đánh."
+     },
+     {
+      "sentence_ja": "彼女は、あなたのせいだと言わ＿＿の目で私をにらんだ。",
+      "answer": "んばかり",
+      "translation_vi": "Cô ấy lườm tôi bằng ánh mắt như muốn nói 'tại anh đấy'."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "店の前には、道にあふれ（　　）の人が並んでいた。",
+      "options": [
+       "んばかり",
+       "ずじまい",
+       "まいと",
+       "がたい"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「んばかり」: あふれ (Vない bỏ ない) + んばかりの tả cảnh đông như muốn tràn ra. Nghĩa: Trước cửa hàng, người xếp hàng đông như sắp tràn ra đường."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼は、自分こそ正しいと言わんばかりの顔で反論した。",
+      "options": [
+       "Anh ta nói rõ rằng mình đúng rồi im lặng.",
+       "Anh ta thừa nhận mình sai và không phản bác nữa.",
+       "Anh ta phản bác nhưng không chắc mình đúng.",
+       "Anh ta phản bác với vẻ mặt như thể muốn nói chỉ mình mới đúng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜んばかり (như thể sắp…, dù thực tế chưa làm): \"Anh ta phản bác với vẻ mặt như thể muốn nói chỉ mình mới đúng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼は今にも怒鳴らんばかりの顔つきだった。",
+       "少女は泣き出さんばかりの声で助けを求めた。",
+       "天気予報によると、明日は雪が降らんばかりだ。",
+       "胸が張り裂けんばかりの悲しみに襲われた。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「天気予報によると、明日は雪が降らんばかりだ。」 sai: んばかり là so sánh tả dáng vẻ trước mắt, không dùng để truyền đạt hay dự đoán việc sẽ xảy ra. Câu đúng: 天気予報によると、明日は雪が降るそうだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -29,7 +210,194 @@
    "id": "JG-cccef551a3"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "引っ越しの費用は、安い（　　）。",
+      "options": [
+       "までもない",
+       "にあたらない",
+       "に越したことはない",
+       "ばかりだ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に越したことはない」: Aい + に越したことはない nghĩa là 'được vậy thì tốt nhất' theo lẽ thường. Nghĩa: Chi phí chuyển nhà thì càng rẻ càng tốt."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "地震に備えて、水や食料を用意しておく（　　）。",
+      "options": [
+       "しまつだ",
+       "に越したことはない",
+       "きらいがある",
+       "べからず"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に越したことはない」: việc phòng xa, chuẩn bị trước là tốt nhất dù không bắt buộc. Nghĩa: Để phòng động đất, chuẩn bị sẵn nước và thức ăn vẫn là tốt nhất."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "面接の前に＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "越したことはない",
+       "調べておくに",
+       "会社の",
+       "情報を"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 面接の前に会社の情報を調べておくに越したことはない。 (Trước buổi phỏng vấn, tìm hiểu thông tin về công ty vẫn là tốt nhất.). Mảnh ở ô ★ là 「調べておくに」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿が、話せなくても問題はない。",
+      "options": [
+       "ことはない",
+       "越した",
+       "英語が",
+       "話せるに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 英語が話せるに越したことはないが、話せなくても問題はない。 (Nói được tiếng Anh thì tốt hơn, nhưng không nói được cũng không sao.). Mảnh ở ô ★ là 「話せるに」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お金はあるに越したことはないが、それだけで幸せになれるわけではない。",
+      "options": [
+       "Có tiền là điều bắt buộc để được hạnh phúc.",
+       "Tiền không cần thiết nên không nên có nhiều.",
+       "Có tiền thì tốt hơn cả, nhưng chỉ vậy thôi chưa chắc đã hạnh phúc.",
+       "Có tiền vượt quá mức thì không thể hạnh phúc."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜に越したことはない (được vậy là tốt nhất, dù không bắt buộc): \"Có tiền thì tốt hơn cả, nhưng chỉ vậy thôi chưa chắc đã hạnh phúc.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "体調が悪いときは、早めに病院へ行くに越したことはない。",
+      "options": [
+       "Khi không khỏe, bắt buộc phải đến bệnh viện ngay lập tức.",
+       "Khi không khỏe, không cần đi bệnh viện sớm.",
+       "Khi không khỏe, đi bệnh viện quá sớm cũng không có ích.",
+       "Khi không khỏe thì đi bệnh viện sớm là tốt nhất."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に越したことはない (được vậy là tốt nhất, dù không bắt buộc): \"Khi không khỏe thì đi bệnh viện sớm là tốt nhất.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "準備は早めに始めるに越したことはない。",
+       "このレストランの料理は、まずいに越したことはない。",
+       "家は駅から近いに越したことはない。",
+       "何をするにも、健康に越したことはない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「このレストランの料理は、まずいに越したことはない。」 sai: に越したことはない chỉ nói điều đáng mong muốn là tốt nhất; まずい là điều xấu nên không dùng được. Câu đúng: このレストランの料理は、おいしいに越したことはない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "出かける前に、戸締まりを確認してに越したことはない。",
+       "薬は飲まないで済むに越したことはない。",
+       "貯金は多いに越したことはない。",
+       "通勤時間は短いに越したことはない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「出かける前に、戸締まりを確認してに越したことはない。」 sai: trước に越したことはない dùng thể thường (Vる), không dùng thể て. Câu đúng: 出かける前に、戸締まりを確認するに越したことはない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "越したことはない。",
+       "保険に",
+       "念のため、",
+       "入っておくに"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Để phòng xa, tham gia bảo hiểm sẵn vẫn là tốt nhất."
+     },
+     {
+      "pieces": [
+       "越したことはないが、",
+       "なくても大丈夫だ。",
+       "経験は",
+       "あるに"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Có kinh nghiệm thì tốt hơn, nhưng không có cũng không sao."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "パソコンのデータは、こまめに保存しておくに＿＿。",
+      "answer": "越したことはない",
+      "accept": [
+       "こしたことはない"
+      ],
+      "translation_vi": "Dữ liệu máy tính thì lưu thường xuyên vẫn là tốt nhất."
+     },
+     {
+      "sentence_ja": "旅行の荷物は軽いに＿＿ことはない。",
+      "answer": "越した",
+      "accept": [
+       "こした"
+      ],
+      "translation_vi": "Hành lý đi du lịch thì càng nhẹ càng tốt."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "事故を防ぐためには、注意する（　　）。",
+      "options": [
+       "わけがない",
+       "ものか",
+       "ずにはいられない",
+       "に越したことはない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「に越したことはない」: Vる + に越したことはない nêu điều tốt nhất nên làm theo lẽ thường. Nghĩa: Để phòng tai nạn thì cẩn thận vẫn là tốt nhất."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "就職活動では、資格を持っているに越したことはない。",
+      "options": [
+       "Khi tìm việc, có chứng chỉ thì vẫn tốt hơn.",
+       "Khi tìm việc, có chứng chỉ cũng chẳng giúp ích gì.",
+       "Khi tìm việc, chứng chỉ là điều kiện bắt buộc.",
+       "Khi tìm việc, có quá nhiều chứng chỉ sẽ bị đánh giá thấp."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜に越したことはない (được vậy là tốt nhất, dù không bắt buộc): \"Khi tìm việc, có chứng chỉ thì vẫn tốt hơn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "引っ越すなら、職場に近いに越したことはない。",
+       "傘は持っていくに越したことはない。",
+       "彼の失敗が大きいに越したことはない。",
+       "睡眠は十分にとるに越したことはない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「彼の失敗が大きいに越したことはない。」 sai: に越したことはない dùng cho điều đáng mong muốn; thất bại lớn không phải điều tốt. Câu đúng: 失敗は小さいに越したことはない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -52,7 +420,192 @@
    "id": "JG-9191cc0ad4"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "ご迷惑でなければ、少し（　　）お話を伺えないでしょうか。",
+      "options": [
+       "たりとも",
+       "こそ",
+       "なりとも",
+       "ばかりか"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「なりとも」: 少しなりとも = dù chỉ một chút, dùng khiêm nhường khi nhờ vả. たりとも chỉ đi với phủ định. Nghĩa: Nếu không phiền, tôi có thể nghe anh chị nói chuyện dù chỉ một chút được không?"
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "一日（　　）早く、被災地に物資を届けたい。",
+      "options": [
+       "たりとも",
+       "なりとも",
+       "ずくめ",
+       "まみれ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「なりとも」: 一日なりとも早く = dù chỉ sớm một ngày, đi với nguyện vọng たい. Nghĩa: Tôi muốn đưa hàng cứu trợ tới vùng thiên tai sớm hơn, dù chỉ một ngày."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "入院中の母に＿＿ ＿＿ ★ ＿＿と思った。",
+      "options": [
+       "会いたい",
+       "なりとも",
+       "せめて",
+       "一目"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 入院中の母にせめて一目なりとも会いたいと思った。 (Tôi đã nghĩ ít nhất cũng muốn gặp người mẹ đang nằm viện, dù chỉ một lần.). Mảnh ở ô ★ là 「なりとも」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿いただけませんか。",
+      "options": [
+       "させて",
+       "少し",
+       "お手伝い",
+       "なりとも"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 少しなりともお手伝いさせていただけませんか。 (Xin cho phép tôi giúp một tay, dù chỉ một chút.). Mảnh ở ô ★ là 「お手伝い」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "わずかなりとも、売り上げの一部を寄付するつもりだ。",
+      "options": [
+       "Vì doanh thu quá ít nên tôi không thể quyên góp.",
+       "Tôi định quyên góp toàn bộ doanh thu.",
+       "Một chút doanh thu cũng không được phép quyên góp.",
+       "Dù chỉ ít ỏi, tôi cũng định quyên góp một phần doanh thu."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜なりとも (dù chỉ một chút cũng được): \"Dù chỉ ít ỏi, tôi cũng định quyên góp một phần doanh thu.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "せめて半日なりとも、子どもと一緒に過ごす時間を作りたい。",
+      "options": [
+       "Ít nhất dù chỉ nửa ngày, tôi cũng muốn dành thời gian ở bên con.",
+       "Tôi chỉ có thể ở bên con nửa ngày mỗi tuần.",
+       "Nửa ngày cũng không có thời gian ở bên con.",
+       "Tôi muốn dành cả ngày ở bên con thay vì nửa ngày."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜なりとも (dù chỉ một chút cũng được): \"Ít nhất dù chỉ nửa ngày, tôi cũng muốn dành thời gian ở bên con.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "多少なりとも経験があれば、応募できます。",
+       "少しなりとも休んだほうがいい。",
+       "一円なりとも無駄にはできない。",
+       "一目なりとも、故郷の景色を見たい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「一円なりとも無駄にはできない。」 sai: ý phủ định mạnh 'dù một yên cũng không' phải dùng たりとも; なりとも đi với nguyện vọng, nhờ vả. Câu đúng: 一円たりとも無駄にはできない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "大量なりとも、資料を送っていただけますか。",
+       "多少なりとも力になれればうれしい。",
+       "一部なりとも、費用を負担させてください。",
+       "一時間なりとも眠れれば、だいぶ楽になる。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「大量なりとも、資料を送っていただけますか。」 sai: なりとも đi với lượng nhỏ (少し, 多少, 一言), không đi với 大量. Câu đúng: 少しなりとも、資料を送っていただけますか。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "と願っております。",
+       "少しなりとも",
+       "被災された方々の力になれれば"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Tôi mong rằng dù chỉ một chút cũng có thể giúp sức cho những người bị thiên tai."
+     },
+     {
+      "pieces": [
+       "顔を見せてほしい。",
+       "なりとも",
+       "せめて",
+       "一日"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Ít nhất dù chỉ một ngày, mong con ghé về cho bố mẹ gặp mặt."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "わずか＿＿、お見舞いの気持ちをお受け取りください。",
+      "answer": "なりとも",
+      "accept": [
+       "ながら"
+      ],
+      "translation_vi": "Dù chỉ chút ít, xin hãy nhận tấm lòng thăm hỏi của tôi."
+     },
+     {
+      "sentence_ja": "多少＿＿、家計の足しになればと思ってアルバイトを始めた。",
+      "answer": "なりとも",
+      "accept": [
+       "でも"
+      ],
+      "translation_vi": "Tôi bắt đầu làm thêm với mong muốn dù chỉ một chút cũng phụ thêm vào chi tiêu gia đình."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "お忙しいとは存じますが、五分（　　）お時間をいただけませんか。",
+      "options": [
+       "たりとも",
+       "ずくめ",
+       "ばかりか",
+       "なりとも"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「なりとも」: 五分なりとも = dù chỉ năm phút, dùng khi nhờ vả khiêm nhường. Nghĩa: Tôi biết anh chị bận, nhưng xin cho tôi chút thời gian dù chỉ năm phút được không?"
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "多少なりとも経験のある方を優先して採用します。",
+      "options": [
+       "Chúng tôi chỉ tuyển người có nhiều năm kinh nghiệm.",
+       "Chúng tôi ưu tiên tuyển người có kinh nghiệm, dù chỉ một chút.",
+       "Người không có kinh nghiệm được ưu tiên tuyển dụng.",
+       "Chúng tôi không xét kinh nghiệm khi tuyển dụng."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜なりとも (dù chỉ một chút cũng được): \"Chúng tôi ưu tiên tuyển người có kinh nghiệm, dù chỉ một chút.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "少しなりとも、ご期待に添えればと思います。",
+       "一瞬なりとも気を抜いてはいけない。",
+       "一口なりとも召し上がってください。",
+       "せめて一行なりとも、返事を書いてほしかった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「一瞬なりとも気を抜いてはいけない。」 sai: câu cấm đoán, phủ định mạnh 'dù một giây cũng không' phải dùng たりとも. Câu đúng: 一瞬たりとも気を抜いてはいけない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
