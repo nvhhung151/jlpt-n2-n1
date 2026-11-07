@@ -1,0 +1,77 @@
+{
+"JG-30182cd916": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "この店は小さい（　　）、味は町で一番だと評判だ。", "options": ["をよそに", "ながらも", "ことなく", "にひきかえ"], "answer_index": 1, "explanation_vi": "Điền 「ながらも」: Aい + ながらも nối hai vế tương phản 'tuy nhỏ nhưng vẫn'. をよそに, にひきかえ cần danh từ đứng trước, ことなく cần động từ. Nghĩa: Quán này tuy nhỏ nhưng nổi tiếng là ngon nhất thị trấn."},
+  {"type": "FILL", "prompt_ja": "父は文句を言い（　　）、毎朝私を駅まで送ってくれる。", "options": ["ようものなら", "っこなく", "ながらも", "んばかりに"], "answer_index": 2, "explanation_vi": "Điền 「ながらも」: Vます bỏ ます + ながらも nói 'dù làm A nhưng vẫn làm B'. ようものなら, んばかりに không nối với 言い, còn っこなく (làm gì có chuyện) không hợp nghĩa. Nghĩa: Bố tôi tuy hay cằn nhằn nhưng sáng nào cũng đưa tôi ra ga."},
+  {"type": "ORDER_STAR", "prompt_ja": "田中さんは＿＿ ＿＿ ★ ＿＿を最後までやり遂げた。", "options": ["熱が", "任された仕事", "あり", "ながらも"], "answer_index": 3, "explanation_vi": "Câu đúng: 田中さんは熱がありながらも任された仕事を最後までやり遂げた。 (Anh Tanaka dù bị sốt vẫn hoàn thành đến cùng công việc được giao.). Mảnh ở ô ★ là 「ながらも」."},
+  {"type": "ORDER_STAR", "prompt_ja": "祖母は＿＿ ★ ＿＿ ＿＿を続けている。", "options": ["不自由", "ながらも", "足が", "毎朝庭の手入れ"], "answer_index": 0, "explanation_vi": "Câu đúng: 祖母は足が不自由ながらも毎朝庭の手入れを続けている。 (Bà tôi tuy chân đi lại khó khăn nhưng sáng nào cũng chăm sóc khu vườn.). Mảnh ở ô ★ là 「不自由」."},
+  {"type": "MEANING", "prompt_ja": "彼は貧しいながらも、子どもたちに十分な教育を受けさせた。", "options": ["Vì nghèo nên anh ấy không thể cho các con học hành đầy đủ.", "Tuy nghèo nhưng anh ấy vẫn cho các con được học hành đầy đủ.", "Anh ấy vừa nghèo vừa phải nuôi các con ăn học.", "Nếu không nghèo thì anh ấy đã cho các con học hành đầy đủ."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜ながらも (tuy... nhưng vẫn): \"Tuy nghèo nhưng anh ấy vẫn cho các con được học hành đầy đủ.\""},
+  {"type": "MEANING", "prompt_ja": "狭いながらも、日当たりのいい部屋が見つかった。", "options": ["Phòng vừa hẹp vừa thiếu nắng nên tôi không thuê.", "Tôi vừa đi tìm phòng vừa tắm nắng.", "Tôi đã tìm được một căn phòng rộng và nhiều nắng.", "Tôi đã tìm được căn phòng tuy hẹp nhưng nhiều nắng."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜ながらも (tuy... nhưng vẫn): \"Tôi đã tìm được căn phòng tuy hẹp nhưng nhiều nắng.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["この店は値段が安いながらも、料理の質が高い。", "彼女は若いながらも、しっかりした考えを持っている。", "テレビを見ながらも、ご飯を食べましょう。", "悪いと知りながらも、つい嘘をついてしまった。"], "answer_index": 2, "explanation_vi": "「テレビを見ながらも、ご飯を食べましょう。」 sai: ながらも luôn mang nghĩa tương phản 'tuy... nhưng', không dùng cho hai việc làm cùng lúc và không đi với lời rủ rê. Câu đúng: テレビを見ながらご飯を食べましょう。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["小さいながらも、自分の店を持つことができた。", "この部屋は静かなながらも、駅から遠い。", "彼は子どもながらも、大人顔負けの知識がある。", "迷いながらも、私は留学することに決めた。"], "answer_index": 1, "explanation_vi": "「この部屋は静かなながらも、駅から遠い。」 sai: tính từ な nối với ながらも bằng gốc từ, không thêm な. Câu đúng: この部屋は静かながらも、駅から遠い。"}
+ ],
+ "order_items": [
+  {"pieces": ["ながらも、", "弟は体が", "力は誰にも負けない。", "小さい"], "answer_order": [1, 3, 0, 2], "translation_vi": "Em trai tôi tuy người nhỏ nhưng sức thì không thua ai."},
+  {"pieces": ["ながらも、仕事を", "部長は文句を言い", "引き受けてくれた。"], "answer_order": [1, 0, 2], "translation_vi": "Trưởng phòng tuy cằn nhằn nhưng vẫn nhận làm công việc đó."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "この時計は安い＿＿、もう十年も壊れずに動いている。", "answer": "ながらも", "accept": ["ながら"], "translation_vi": "Chiếc đồng hồ này tuy rẻ nhưng đã chạy suốt mười năm không hỏng."},
+  {"sentence_ja": "失敗するかもしれないと思い＿＿、彼は挑戦を続けた。", "answer": "ながらも", "accept": ["ながら", "つつも"], "translation_vi": "Dù nghĩ có thể sẽ thất bại, anh ấy vẫn tiếp tục thử thách."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "彼女は無理だと分かり（　　）、最後まで努力を続けた。", "options": ["次第", "かけの", "ながらも", "まいと"], "answer_index": 2, "explanation_vi": "Điền 「ながらも」: Vます bỏ ます + ながらも = 'dù biết vậy nhưng vẫn'. 次第 là 'ngay sau khi', かけの cần danh từ theo sau, まいと không nối với 分かり. Nghĩa: Dù biết là không thể, cô ấy vẫn cố gắng đến cùng."},
+  {"type": "MEANING", "prompt_ja": "この町は不便ながらも、住民同士の助け合いが盛んだ。", "options": ["Thị trấn này tuy bất tiện nhưng người dân giúp đỡ nhau rất nhiều.", "Thị trấn này bất tiện nên người dân buộc phải giúp đỡ nhau.", "Thị trấn này vừa tiện lợi vừa có tình làng nghĩa xóm.", "Vì người dân không giúp nhau nên thị trấn ngày càng bất tiện."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu 〜ながらも (tuy... nhưng vẫn): \"Thị trấn này tuy bất tiện nhưng người dân giúp đỡ nhau rất nhiều.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼は新人ながらも、大きな契約を取ってきた。", "歩きながらも、スマホを見るのは危ない。", "彼女は泣きながらも、最後まで話を続けた。", "狭いながらも、庭付きの家を買った。"], "answer_index": 1, "explanation_vi": "「歩きながらも、スマホを見るのは危ない。」 sai: đây là hai việc làm cùng lúc, không có ý tương phản nên phải dùng ながら. Câu đúng: 歩きながらスマホを見るのは危ない。"}
+ ]
+},
+"JG-0d541f4f87": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "一流ホテルで三日間何もせずに過ごすなんて、贅沢の（　　）だ。", "options": ["次第", "あまり", "極み", "一方"], "answer_index": 2, "explanation_vi": "Điền 「極み」: N + の極みだ nói trạng thái đã lên tới tột đỉnh. 次第, あまり, 一方 không đứng sau の để làm vị ngữ như vậy. Nghĩa: Ba ngày ở khách sạn hạng sang không phải làm gì, thật là xa xỉ tột bậc."},
+  {"type": "FILL", "prompt_ja": "連休中、休みなく働き続けた店員たちは疲労の（　　）にあった。", "options": ["至り", "ばかり", "限り", "極み"], "answer_index": 3, "explanation_vi": "Điền 「極み」: 疲労の極みにある = mệt mỏi đến cực điểm. の至り chỉ dùng với vài danh từ cảm xúc lễ nghi (光栄, 恐縮), không dùng cho 疲労. Nghĩa: Các nhân viên làm việc không nghỉ suốt kỳ nghỉ dài đã mệt đến cực điểm."},
+  {"type": "ORDER_STAR", "prompt_ja": "長年の夢がかない、＿＿ ＿＿ ★ ＿＿。", "options": ["ある", "極みに", "今の私は", "幸福の"], "answer_index": 1, "explanation_vi": "Câu đúng: 長年の夢がかない、今の私は幸福の極みにある。 (Ước mơ bao năm đã thành hiện thực, giờ đây tôi hạnh phúc tột cùng.). Mảnh ở ô ★ là 「極みに」."},
+  {"type": "ORDER_STAR", "prompt_ja": "約束に＿＿ ＿＿ ★ ＿＿だ。", "options": ["謝らないとは", "極み", "二時間も遅れて", "失礼の"], "answer_index": 3, "explanation_vi": "Câu đúng: 約束に二時間も遅れて謝らないとは失礼の極みだ。 (Trễ hẹn tận hai tiếng mà không xin lỗi thì thật là vô lễ hết mức.). Mảnh ở ô ★ là 「失礼の」."},
+  {"type": "MEANING", "prompt_ja": "あの名画を目の前で見られるとは、感動の極みだった。", "options": ["Tôi không xúc động lắm khi xem bức danh họa ấy.", "Bức danh họa ấy được treo ở vị trí cao nhất.", "Được tận mắt ngắm bức danh họa ấy, tôi xúc động tột cùng.", "Tôi muốn được xem bức danh họa ấy một lần trong đời."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu 〜の極み (tột đỉnh của trạng thái): \"Được tận mắt ngắm bức danh họa ấy, tôi xúc động tột cùng.\""},
+  {"type": "MEANING", "prompt_ja": "会議中に居眠りをするなど、怠慢の極みだ。", "options": ["Ngủ gật trong cuộc họp đôi khi cũng khó tránh.", "Vì quá mệt nên anh ấy ngủ gật trong cuộc họp.", "Cuộc họp kéo dài đến mức ai cũng buồn ngủ.", "Ngủ gật trong cuộc họp thì thật là chểnh mảng hết mức."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu 〜の極み (tột đỉnh của trạng thái): \"Ngủ gật trong cuộc họp thì thật là chểnh mảng hết mức.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["最高級の食材ばかりを使った、贅沢の極みとも言える料理だ。", "この料理はおいしいの極みだ。", "一晩中泣き続け、彼女は悲しみの極みにあった。", "優勝の瞬間、選手たちは喜びの極みに達した。"], "answer_index": 1, "explanation_vi": "「この料理はおいしいの極みだ。」 sai: の極み chỉ đứng sau danh từ, không đứng sau tính từ い. Câu đúng: この料理は美味の極みだ。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["彼の発言は無礼極みだ。", "豪華客船での世界一周は、まさに贅沢の極みだ。", "恩人を裏切るとは、恥知らずの極みだ。", "大切な試合に負け、選手たちは悔しさの極みにあった。"], "answer_index": 0, "explanation_vi": "「彼の発言は無礼極みだ。」 sai: thiếu の; mẫu là N + の極み. Câu đúng: 彼の発言は無礼の極みだ。"}
+ ],
+ "order_items": [
+  {"pieces": ["極みだ。", "人の話を最後まで", "聞かずに怒り出すとは、", "無礼の"], "answer_order": [1, 2, 3, 0], "translation_vi": "Không nghe người khác nói hết đã nổi giận thì thật là vô lễ hết mức."},
+  {"pieces": ["優勝が決まった瞬間、選手たちは", "喜びの", "達した。", "極みに"], "answer_order": [0, 1, 3, 2], "translation_vi": "Khoảnh khắc chức vô địch được định đoạt, các tuyển thủ vui sướng tột cùng."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "毎日最高級の料理を食べるなんて、贅沢の＿＿だ。", "answer": "極み", "accept": ["きわみ"], "translation_vi": "Ngày nào cũng ăn những món cao cấp nhất thì thật là xa xỉ tột bậc."},
+  {"sentence_ja": "親友に裏切られ、彼は絶望の＿＿にあった。", "answer": "極み", "accept": ["きわみ"], "translation_vi": "Bị bạn thân phản bội, anh ấy tuyệt vọng tột cùng."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "満開の桜の下で家族と食事をするのは、幸せの（　　）だ。", "options": ["あげく", "すえ", "極み", "かぎりなく"], "answer_index": 2, "explanation_vi": "Điền 「極み」: 幸せの極みだ = hạnh phúc tột cùng. あげく, すえ chỉ kết cục sau một quá trình, かぎりなく là phó từ nên không làm vị ngữ với だ. Nghĩa: Được ăn cùng gia đình dưới tán hoa anh đào nở rộ là hạnh phúc tột cùng."},
+  {"type": "ORDER_STAR", "prompt_ja": "一流の＿＿ ★ ＿＿ ＿＿と言える。", "options": ["美の", "極み", "この器は", "職人が作った"], "answer_index": 2, "explanation_vi": "Câu đúng: 一流の職人が作ったこの器は美の極みと言える。 (Chiếc bát do người thợ hàng đầu làm ra này có thể nói là đỉnh cao của cái đẹp.). Mảnh ở ô ★ là 「この器は」."},
+  {"type": "MEANING", "prompt_ja": "何の連絡もなく三日も会社を休むとは、無責任の極みだ。", "options": ["Nghỉ ba ngày có báo trước thì không sao cả.", "Nghỉ làm ba ngày liền mà không báo gì thì thật là vô trách nhiệm hết mức.", "Anh ấy có trách nhiệm đến mức không nghỉ ngày nào.", "Vì quá mệt nên anh ấy nghỉ làm ba ngày."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜の極み (tột đỉnh của trạng thái): \"Nghỉ làm ba ngày liền mà không báo gì thì thật là vô trách nhiệm hết mức.\""}
+ ]
+},
+"JG-5a9d864924": {
+ "check_bank": [
+  {"type": "FILL", "prompt_ja": "このような名誉ある賞をいただき、光栄の（　　）です。", "options": ["次第", "まま", "至り", "たび"], "answer_index": 2, "explanation_vi": "Điền 「至り」: 光栄の至りです là lời nói trang trọng, cảm xúc vinh dự lên đến mức cao nhất. Nghĩa: Được nhận giải thưởng danh giá như thế này, tôi vô cùng vinh dự."},
+  {"type": "FILL", "prompt_ja": "若気の（　　）で、上司にずいぶん失礼なことを言ってしまった。", "options": ["極み", "ところ", "うち", "至り"], "answer_index": 3, "explanation_vi": "Điền 「至り」: 若気の至り là cách nói cố định 'do tuổi trẻ bồng bột'; không nói 若気の極み. Nghĩa: Vì tuổi trẻ bồng bột, tôi đã lỡ nói những điều rất thất lễ với cấp trên."},
+  {"type": "ORDER_STAR", "prompt_ja": "皆様にこのように＿＿ ＿＿ ★ ＿＿。", "options": ["迎えていただき、", "感激の", "温かく", "至りです"], "answer_index": 1, "explanation_vi": "Câu đúng: 皆様にこのように温かく迎えていただき、感激の至りです。 (Được mọi người đón tiếp nồng hậu thế này, tôi vô cùng xúc động.). Mảnh ở ô ★ là 「感激の」."},
+  {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿でございます。", "options": ["お越しいただくとは", "社長自ら", "恐縮の", "至り"], "answer_index": 0, "explanation_vi": "Câu đúng: 社長自らお越しいただくとは恐縮の至りでございます。 (Được chính giám đốc đích thân đến, tôi thật vô cùng cảm kích và áy náy.). Mảnh ở ô ★ là 「お越しいただくとは」."},
+  {"type": "MEANING", "prompt_ja": "本日は盛大な会を開いていただき、感激の至りです。", "options": ["Tôi rất tiếc vì không thể tham dự buổi tiệc hôm nay.", "Hôm nay được mọi người tổ chức buổi tiệc long trọng, tôi vô cùng xúc động.", "Buổi tiệc hôm nay được tổ chức theo đề nghị của tôi.", "Tôi đã đến nơi tổ chức buổi tiệc từ rất sớm."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜の至り (vô cùng, cảm xúc lên đến cực điểm): \"Hôm nay được mọi người tổ chức buổi tiệc long trọng, tôi vô cùng xúc động.\""},
+  {"type": "MEANING", "prompt_ja": "学生時代の失敗は、今思えば若気の至りだった。", "options": ["Thời sinh viên tôi chưa từng thất bại lần nào.", "Tôi vẫn còn trẻ nên chưa hiểu thất bại là gì.", "Những thất bại thời sinh viên, giờ nghĩ lại là do tuổi trẻ bồng bột.", "Thất bại thời sinh viên đã khiến tôi mất hết tự tin."], "answer_index": 2, "explanation_vi": "Câu dùng cách nói cố định 若気の至り (do tuổi trẻ bồng bột): \"Những thất bại thời sinh viên, giờ nghĩ lại là do tuổi trẻ bồng bột.\""},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["先生から直接お褒めの言葉をいただき、光栄の至りです。", "皆様の前でこのような失敗をして、赤面の至りです。", "昨日の映画はおもしろいの至りだった。", "お忙しい中ご出席いただき、恐縮の至りに存じます。"], "answer_index": 2, "explanation_vi": "「昨日の映画はおもしろいの至りだった。」 sai: の至り chỉ đi sau một số danh từ cảm xúc lễ nghi (光栄, 感激, 恐縮, 赤面), không đi sau tính từ い. Câu đúng: 昨日の映画はとてもおもしろかった。"},
+  {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["お招きいただき、光栄な至りでございます。", "憧れの先生にお会いでき、感激の至りです。", "若気の至りとはいえ、ご迷惑をおかけしました。", "身に余るお言葉をいただき、恐縮の至りでございます。"], "answer_index": 0, "explanation_vi": "「お招きいただき、光栄な至りでございます。」 sai: 光栄 nối với 至り bằng の, không dùng な. Câu đúng: お招きいただき、光栄の至りでございます。"}
+ ],
+ "order_items": [
+  {"pieces": ["光栄の", "このような席に", "至りです。", "お招きいただき、"], "answer_order": [1, 3, 0, 2], "translation_vi": "Được mời đến dự một buổi như thế này, tôi vô cùng vinh dự."},
+  {"pieces": ["至りです。", "大きな失敗をしてしまい、", "人前で", "赤面の"], "answer_order": [2, 1, 3, 0], "translation_vi": "Mắc lỗi lớn trước mặt mọi người, tôi thật vô cùng xấu hổ."}
+ ],
+ "fill_items": [
+  {"sentence_ja": "憧れの作家に直接お会いでき、感激の＿＿です。", "answer": "至り", "accept": ["いたり", "極み"], "translation_vi": "Được gặp trực tiếp nhà văn mình ngưỡng mộ, tôi vô cùng xúc động."},
+  {"sentence_ja": "あの頃は若気の＿＿で、親によく反抗したものだ。", "answer": "至り", "accept": ["いたり"], "translation_vi": "Hồi đó vì tuổi trẻ bồng bột mà tôi hay cãi lời bố mẹ."}
+ ],
+ "extra_practice": [
+  {"type": "FILL", "prompt_ja": "皆様にご心配をおかけし、恐縮の（　　）でございます。", "options": ["上", "ほど", "末", "至り"], "answer_index": 3, "explanation_vi": "Điền 「至り」: 恐縮の至りでございます là lời nói khiêm nhường rất trang trọng, 'vô cùng áy náy'. Nghĩa: Đã làm mọi người lo lắng, tôi thật vô cùng áy náy."},
+  {"type": "ORDER_STAR", "prompt_ja": "あの時の＿＿ ★ ＿＿ ＿＿許してほしい。", "options": ["至りだと", "思って", "若気の", "失礼な発言は"], "answer_index": 2, "explanation_vi": "Câu đúng: あの時の失礼な発言は若気の至りだと思って許してほしい。 (Mong anh coi những lời thất lễ khi ấy là do tuổi trẻ bồng bột mà bỏ qua cho.). Mảnh ở ô ★ là 「若気の」."},
+  {"type": "MEANING", "prompt_ja": "社長から直々にお電話をいただき、恐縮の至りです。", "options": ["Tôi đã gọi điện trực tiếp cho giám đốc để xin lỗi.", "Được chính giám đốc gọi điện cho, tôi vô cùng cảm kích và áy náy.", "Giám đốc gọi điện mắng tôi nên tôi rất sợ.", "Tôi chưa nhận được cuộc gọi nào từ giám đốc."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu 〜の至り (vô cùng, cảm xúc lên đến cực điểm): \"Được chính giám đốc gọi điện cho, tôi vô cùng cảm kích và áy náy.\""}
+ ]
+}
+}

@@ -4,69 +4,127 @@
    {
     "type": "FILL",
     "prompt_ja": "係員の案内（　　）、順番にお入りください。",
-    "options": ["について", "に比べて", "にしたがって", "にとって"],
+    "options": [
+     "について",
+     "に比べて",
+     "にしたがって",
+     "にとって"
+    ],
     "answer_index": 2,
     "explanation_vi": "Điền 「にしたがって」: N + にしたがって là làm theo chỉ dẫn, quy tắc. について (về), に比べて (so với), にとって (đối với) không hợp nghĩa. Nghĩa: Xin hãy vào lần lượt theo hướng dẫn của nhân viên."
    },
    {
     "type": "FILL",
     "prompt_ja": "山を高く登る（　　）、景色がきれいになってきた。",
-    "options": ["にしたがう", "をしたがって", "にしたがった", "にしたがって"],
+    "options": [
+     "にしたがう",
+     "をしたがって",
+     "にしたがった",
+     "にしたがって"
+    ],
     "answer_index": 3,
     "explanation_vi": "Điền 「にしたがって」: Vる + にしたがって diễn tả biến đổi song song (càng lên cao, cảnh càng đẹp); にしたがう, にしたがった không nối vế câu, を sai trợ từ. Nghĩa: Càng leo lên cao, phong cảnh càng đẹp."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "＿＿ ＿＿ ★ ＿＿、進んでください。",
-    "options": ["にしたがって", "地図に", "順番", "書いてある"],
+    "options": [
+     "にしたがって",
+     "地図に",
+     "順番",
+     "書いてある"
+    ],
     "answer_index": 2,
     "explanation_vi": "Câu đúng: 地図に書いてある順番にしたがって、進んでください。 (Hãy đi theo thứ tự được ghi trên bản đồ.). Mảnh ở ô ★ là 「順番」."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "薬は ＿＿ ★ ＿＿ ＿＿ ください。",
-    "options": ["飲んで", "にしたがって", "医者の", "指示"],
+    "options": [
+     "飲んで",
+     "にしたがって",
+     "医者の",
+     "指示"
+    ],
     "answer_index": 3,
     "explanation_vi": "Câu đúng: 薬は医者の指示にしたがって飲んでください。 (Hãy uống thuốc theo chỉ dẫn của bác sĩ.). Mảnh ở ô ★ là 「指示」."
    },
    {
     "type": "MEANING",
     "prompt_ja": "駅に近づくにしたがって、人が多くなってきた。",
-    "options": ["Càng đến gần nhà ga, người càng đông.", "Vì nhà ga ở gần nên lúc nào cũng đông người.", "Người ta đi theo nhau đến nhà ga.", "Đến gần nhà ga thì người bỗng vắng hẳn."],
+    "options": [
+     "Càng đến gần nhà ga, người càng đông.",
+     "Vì nhà ga ở gần nên lúc nào cũng đông người.",
+     "Người ta đi theo nhau đến nhà ga.",
+     "Đến gần nhà ga thì người bỗng vắng hẳn."
+    ],
     "answer_index": 0,
     "explanation_vi": "Câu dùng mẫu 〜にしたがって (càng… càng…, biến đổi song song): \"Càng đến gần nhà ga, người càng đông.\""
    },
    {
     "type": "MEANING",
     "prompt_ja": "会社のルールにしたがって、毎週報告書を出している。",
-    "options": ["Dù trái quy định của công ty, tôi vẫn nộp báo cáo mỗi tuần.", "Công ty vừa thay đổi quy định về báo cáo hằng tuần.", "Theo quy định của công ty, tôi nộp báo cáo mỗi tuần.", "Vì quy định của công ty nên tôi không cần nộp báo cáo."],
+    "options": [
+     "Dù trái quy định của công ty, tôi vẫn nộp báo cáo mỗi tuần.",
+     "Công ty vừa thay đổi quy định về báo cáo hằng tuần.",
+     "Theo quy định của công ty, tôi nộp báo cáo mỗi tuần.",
+     "Vì quy định của công ty nên tôi không cần nộp báo cáo."
+    ],
     "answer_index": 2,
     "explanation_vi": "Câu dùng mẫu 〜にしたがって (làm theo quy tắc): \"Theo quy định của công ty, tôi nộp báo cáo mỗi tuần.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["係員の指示にしたがって、外に出た。", "明日は雨が降るにしたがって、傘を持っていこう。", "暖かくなるにしたがって、花が咲き始めた。", "練習を重ねるにしたがって、上手になってきた。"],
+    "options": [
+     "係員の指示にしたがって、外に出た。",
+     "明日は雨が降るにしたがって、傘を持っていこう。",
+     "暖かくなるにしたがって、花が咲き始めた。",
+     "練習を重ねるにしたがって、上手になってきた。"
+    ],
     "answer_index": 1,
     "explanation_vi": "「明日は雨が降るにしたがって、傘を持っていこう。」 sai: không có biến đổi song song và cũng không phải làm theo chỉ dẫn; vế sau lại là ý chí. Câu đúng: 明日は雨が降るそうだから、傘を持っていこう。"
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["説明書にしたがって、機械を動かした。", "店が有名になるにしたがって、客も増えた。", "上に行くにしたがって、道が細くなる。", "年をとったにしたがって、目が悪くなった。"],
+    "options": [
+     "説明書にしたがって、機械を動かした。",
+     "店が有名になるにしたがって、客も増えた。",
+     "上に行くにしたがって、道が細くなる。",
+     "年をとったにしたがって、目が悪くなった。"
+    ],
     "answer_index": 3,
     "explanation_vi": "「年をとったにしたがって」 sai: にしたがって đi với Vる (thể từ điển), không đi với Vた. Câu đúng: 年をとるにしたがって、目が悪くなった。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["したがって", "矢印に", "進んでください。"],
-    "answer_order": [1, 0, 2],
+    "pieces": [
+     "したがって",
+     "矢印に",
+     "進んでください。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2
+    ],
     "translation_vi": "Hãy đi theo mũi tên."
    },
    {
-    "pieces": ["花が咲き始めた。", "なるに", "暖かく", "したがって"],
-    "answer_order": [2, 1, 3, 0],
+    "pieces": [
+     "花が咲き始めた。",
+     "なるに",
+     "暖かく",
+     "したがって"
+    ],
+    "answer_order": [
+     2,
+     1,
+     3,
+     0
+    ],
     "translation_vi": "Trời càng ấm thì hoa càng bắt đầu nở."
    }
   ],
@@ -74,13 +132,23 @@
    {
     "sentence_ja": "説明書の手順に＿＿、組み立ててください。",
     "answer": "したがって",
-    "accept": ["沿って", "そって"],
+    "accept": [
+     "沿って",
+     "そって"
+    ],
     "translation_vi": "Hãy lắp ráp theo các bước trong sách hướng dẫn."
    },
    {
     "sentence_ja": "人口が増える＿＿、住む家が足りなくなった。",
     "answer": "にしたがって",
-    "accept": ["にしたがい", "につれて", "につれ", "に伴って", "にともなって", "とともに"],
+    "accept": [
+     "にしたがい",
+     "につれて",
+     "につれ",
+     "に伴って",
+     "にともなって",
+     "とともに"
+    ],
     "translation_vi": "Dân số càng tăng thì nhà ở càng thiếu."
    }
   ],
@@ -88,21 +156,36 @@
    {
     "type": "FILL",
     "prompt_ja": "町のルール（　　）、ごみは決められた日に出してください。",
-    "options": ["に対して", "について", "にとって", "にしたがって"],
+    "options": [
+     "に対して",
+     "について",
+     "にとって",
+     "にしたがって"
+    ],
     "answer_index": 3,
     "explanation_vi": "Điền 「にしたがって」: làm theo quy tắc của khu phố. に対して (đối với), について (về), にとって (đối với ai) không mang nghĩa 'tuân theo'. Nghĩa: Hãy bỏ rác vào đúng ngày quy định theo quy tắc của khu phố."
    },
    {
     "type": "MEANING",
     "prompt_ja": "国が豊かになるにしたがって、人々の生活も変わっていった。",
-    "options": ["Dù đất nước giàu lên, cuộc sống người dân vẫn không đổi.", "Người dân đã thay đổi cuộc sống để làm đất nước giàu lên.", "Đất nước giàu lên trước khi cuộc sống người dân thay đổi.", "Đất nước càng giàu lên thì cuộc sống người dân cũng thay đổi theo."],
+    "options": [
+     "Dù đất nước giàu lên, cuộc sống người dân vẫn không đổi.",
+     "Người dân đã thay đổi cuộc sống để làm đất nước giàu lên.",
+     "Đất nước giàu lên trước khi cuộc sống người dân thay đổi.",
+     "Đất nước càng giàu lên thì cuộc sống người dân cũng thay đổi theo."
+    ],
     "answer_index": 3,
     "explanation_vi": "Câu dùng mẫu 〜にしたがって (biến đổi song song): \"Đất nước càng giàu lên thì cuộc sống người dân cũng thay đổi theo.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["父のアドバイスをしたがって、仕事を決めた。", "ガイドの説明にしたがって、町を歩いた。", "経験が増えるにしたがって、自信がついてきた。", "南へ行くにしたがって、気温が高くなる。"],
+    "options": [
+     "父のアドバイスをしたがって、仕事を決めた。",
+     "ガイドの説明にしたがって、町を歩いた。",
+     "経験が増えるにしたがって、自信がついてきた。",
+     "南へ行くにしたがって、気温が高くなる。"
+    ],
     "answer_index": 0,
     "explanation_vi": "「父のアドバイスをしたがって」 sai: したがう đi với trợ từ に. Câu đúng: 父のアドバイスにしたがって、仕事を決めた。"
    }
@@ -113,69 +196,129 @@
    {
     "type": "FILL",
     "prompt_ja": "台風が近づく（　　）、雨も強くなってきた。",
-    "options": ["に伴う", "を伴って", "に伴って", "に伴った"],
+    "options": [
+     "に伴う",
+     "を伴って",
+     "に伴って",
+     "に伴った"
+    ],
     "answer_index": 2,
     "explanation_vi": "Điền 「に伴って」: Vる + に伴って nối hai vế, chỉ thay đổi này kéo theo thay đổi kia; に伴う, に伴った chỉ đứng trước danh từ, を sai trợ từ. Nghĩa: Bão càng đến gần thì mưa cũng càng mạnh lên."
    },
    {
     "type": "FILL",
     "prompt_ja": "結婚（　　）、名前が変わりました。",
-    "options": ["に伴う", "に伴い", "を伴い", "に伴った"],
+    "options": [
+     "に伴う",
+     "に伴い",
+     "を伴い",
+     "に伴った"
+    ],
     "answer_index": 1,
     "explanation_vi": "Điền 「に伴い」: N + に伴い (= に伴って) nối với vế sau; に伴う, に伴った phải đi với danh từ. Nghĩa: Do kết hôn nên tên tôi đã thay đổi."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "＿＿ ＿＿ ★ ＿＿、ごみの量も増えている。",
-    "options": ["に伴って", "人口", "の増加", "町の"],
+    "options": [
+     "に伴って",
+     "人口",
+     "の増加",
+     "町の"
+    ],
     "answer_index": 2,
     "explanation_vi": "Câu đúng: 町の人口の増加に伴って、ごみの量も増えている。 (Cùng với sự gia tăng dân số của thị trấn, lượng rác cũng đang tăng.). Mảnh ở ô ★ là 「の増加」."
    },
    {
     "type": "ORDER_STAR",
     "prompt_ja": "この店は ＿＿ ★ ＿＿ ＿＿ 増やした。",
-    "options": ["に伴って", "客の", "店員を", "増加"],
+    "options": [
+     "に伴って",
+     "客の",
+     "店員を",
+     "増加"
+    ],
     "answer_index": 3,
     "explanation_vi": "Câu đúng: この店は客の増加に伴って店員を増やした。 (Cùng với lượng khách tăng, cửa hàng này đã tăng thêm nhân viên.). Mảnh ở ô ★ là 「増加」."
    },
    {
     "type": "MEANING",
     "prompt_ja": "気温が上がるに伴って、エアコンがよく売れるようになった。",
-    "options": ["Dù nhiệt độ tăng, máy điều hòa vẫn bán chậm.", "Cùng với việc nhiệt độ tăng lên, máy điều hòa bán chạy hơn.", "Máy điều hòa bán chạy làm nhiệt độ tăng lên.", "Nhiệt độ đã tăng trước khi máy điều hòa được bán."],
+    "options": [
+     "Dù nhiệt độ tăng, máy điều hòa vẫn bán chậm.",
+     "Cùng với việc nhiệt độ tăng lên, máy điều hòa bán chạy hơn.",
+     "Máy điều hòa bán chạy làm nhiệt độ tăng lên.",
+     "Nhiệt độ đã tăng trước khi máy điều hòa được bán."
+    ],
     "answer_index": 1,
     "explanation_vi": "Câu dùng mẫu 〜に伴って (thay đổi này kéo theo thay đổi kia): \"Cùng với việc nhiệt độ tăng lên, máy điều hòa bán chạy hơn.\""
    },
    {
     "type": "MEANING",
     "prompt_ja": "駅の工事に伴い、北口は来月から使えなくなります。",
-    "options": ["Sau khi thi công nhà ga xong, cửa Bắc sẽ mở từ tháng sau.", "Cửa Bắc của nhà ga đang được thi công từ tháng trước.", "Dù có thi công, cửa Bắc vẫn sử dụng được.", "Do thi công nhà ga, từ tháng sau sẽ không sử dụng được cửa Bắc."],
+    "options": [
+     "Sau khi thi công nhà ga xong, cửa Bắc sẽ mở từ tháng sau.",
+     "Cửa Bắc của nhà ga đang được thi công từ tháng trước.",
+     "Dù có thi công, cửa Bắc vẫn sử dụng được.",
+     "Do thi công nhà ga, từ tháng sau sẽ không sử dụng được cửa Bắc."
+    ],
     "answer_index": 3,
     "explanation_vi": "Câu dùng mẫu 〜に伴い (kéo theo, đi kèm với): \"Do thi công nhà ga, từ tháng sau sẽ không sử dụng được cửa Bắc.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["社会の変化に伴って、家族の形も変わってきた。", "私は朝ご飯を食べるに伴って、コーヒーを飲んだ。", "円の価値が下がるに伴い、海外旅行の費用が高くなった。", "人口の減少に伴って、学校の数も減っている。"],
+    "options": [
+     "社会の変化に伴って、家族の形も変わってきた。",
+     "私は朝ご飯を食べるに伴って、コーヒーを飲んだ。",
+     "円の価値が下がるに伴い、海外旅行の費用が高くなった。",
+     "人口の減少に伴って、学校の数も減っている。"
+    ],
     "answer_index": 1,
     "explanation_vi": "「朝ご飯を食べるに伴って、コーヒーを飲んだ。」 sai: に伴って nói thay đổi có quy mô kéo theo thay đổi khác, không dùng cho hai hành động nhỏ hằng ngày. Câu đúng: 朝ご飯を食べながら、コーヒーを飲んだ。"
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["店の移動に伴い、電話番号が変わります。", "季節の変化に伴って、店の商品も変わる。", "会社の成長伴って、社員の数も増えた。", "技術の進歩に伴い、生活が便利になった。"],
+    "options": [
+     "店の移動に伴い、電話番号が変わります。",
+     "季節の変化に伴って、店の商品も変わる。",
+     "会社の成長伴って、社員の数も増えた。",
+     "技術の進歩に伴い、生活が便利になった。"
+    ],
     "answer_index": 2,
     "explanation_vi": "「会社の成長伴って」 sai: trước 伴って phải có trợ từ に. Câu đúng: 会社の成長に伴って、社員の数も増えた。"
    }
   ],
   "order_items": [
    {
-    "pieces": ["に伴って", "社会の", "変化", "働き方も変わってきた。"],
-    "answer_order": [1, 2, 0, 3],
+    "pieces": [
+     "に伴って",
+     "社会の",
+     "変化",
+     "働き方も変わってきた。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3
+    ],
     "translation_vi": "Cùng với sự thay đổi của xã hội, cách làm việc cũng đã thay đổi."
    },
    {
-    "pieces": ["伴い", "変わります。", "季節の変化に", "営業時間が"],
-    "answer_order": [2, 0, 3, 1],
+    "pieces": [
+     "伴い",
+     "変わります。",
+     "季節の変化に",
+     "営業時間が"
+    ],
+    "answer_order": [
+     2,
+     0,
+     3,
+     1
+    ],
     "translation_vi": "Theo sự thay đổi của mùa, giờ mở cửa sẽ thay đổi."
    }
   ],
@@ -183,13 +326,19 @@
    {
     "sentence_ja": "大学への入学に＿＿、一人暮らしを始めた。",
     "answer": "伴って",
-    "accept": ["伴い", "ともなって", "ともない"],
+    "accept": [
+     "伴い",
+     "ともなって",
+     "ともない"
+    ],
     "translation_vi": "Cùng với việc vào đại học, tôi bắt đầu sống một mình."
    },
    {
     "sentence_ja": "引っ越しに＿＿手続きは、早めに済ませましょう。",
     "answer": "伴う",
-    "accept": ["ともなう"],
+    "accept": [
+     "ともなう"
+    ],
     "translation_vi": "Hãy làm sớm các thủ tục đi kèm việc chuyển nhà."
    }
   ],
@@ -197,23 +346,425 @@
    {
     "type": "FILL",
     "prompt_ja": "季節の変化（　　）、体調が悪くなる人が多い。",
-    "options": ["にとって", "に伴って", "について", "に対して"],
+    "options": [
+     "にとって",
+     "に伴って",
+     "について",
+     "に対して"
+    ],
     "answer_index": 1,
     "explanation_vi": "Điền 「に伴って」: sự thay đổi của mùa kéo theo nhiều người bị mệt. にとって (đối với), について (về), に対して (đối với) không diễn tả thay đổi đi kèm. Nghĩa: Khi mùa thay đổi, nhiều người bị ốm mệt."
    },
    {
     "type": "MEANING",
     "prompt_ja": "店の工事に伴い、しばらく休ませていただきます。",
-    "options": ["Vì cửa hàng nghỉ nên chúng tôi sẽ tiến hành sửa chữa.", "Do sửa chữa cửa hàng, chúng tôi xin phép tạm nghỉ một thời gian.", "Dù sửa chữa, cửa hàng vẫn mở cửa như bình thường.", "Cửa hàng đã sửa xong nên sẽ mở cửa trở lại."],
+    "options": [
+     "Vì cửa hàng nghỉ nên chúng tôi sẽ tiến hành sửa chữa.",
+     "Do sửa chữa cửa hàng, chúng tôi xin phép tạm nghỉ một thời gian.",
+     "Dù sửa chữa, cửa hàng vẫn mở cửa như bình thường.",
+     "Cửa hàng đã sửa xong nên sẽ mở cửa trở lại."
+    ],
     "answer_index": 1,
     "explanation_vi": "Câu dùng mẫu 〜に伴い (đi kèm với, do): \"Do sửa chữa cửa hàng, chúng tôi xin phép tạm nghỉ một thời gian.\""
    },
    {
     "type": "ERROR",
     "prompt_ja": "Câu nào dùng sai mẫu?",
-    "options": ["給料が上がるに伴って、新しい車を買おう。", "仕事が増えるに伴い、残業も多くなった。", "町の開発に伴って、自然が少なくなった。", "子どもの数が減るに伴い、学校がなくなっている。"],
+    "options": [
+     "給料が上がるに伴って、新しい車を買おう。",
+     "仕事が増えるに伴い、残業も多くなった。",
+     "町の開発に伴って、自然が少なくなった。",
+     "子どもの数が減るに伴い、学校がなくなっている。"
+    ],
     "answer_index": 0,
     "explanation_vi": "「給料が上がるに伴って、新しい車を買おう。」 sai: vế sau của に伴って là sự thay đổi đi kèm, không dùng ý chí như 〜よう. Câu đúng: 給料が上がったら、新しい車を買おう。"
+   }
+  ]
+ },
+ "JG-06a468d591": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "友だち（　　）、駅前に小さなカフェを開いた。",
+    "options": [
+     "にとって",
+     "をめぐって",
+     "とともに",
+     "に対して"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「とともに」: N chỉ người + とともに nghĩa là 'cùng với ai' làm việc gì. にとって (đối với), をめぐって (xoay quanh), に対して (đối với, nhắm vào) không hợp với 開いた. Nghĩa: Tôi đã cùng bạn mở một quán cà phê nhỏ trước ga."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "インターネットが広がる（　　）、新聞を読む人が減ってきた。",
+    "options": [
+     "について",
+     "をこめて",
+     "にくらべて",
+     "とともに"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「とともに」: Vる + とともに nói hai sự thay đổi diễn ra cùng nhau. について, をこめて, にくらべて chỉ đi sau danh từ (hoặc の), không gắn thẳng sau 広がる. Nghĩa: Cùng với việc Internet phổ biến, người đọc báo đã giảm đi."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "経済の＿＿ ＿＿ ★ ＿＿変わってきた。",
+    "options": [
+     "生活も",
+     "人々の",
+     "とともに",
+     "発展"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 経済の発展とともに人々の生活も変わってきた。 (Cùng với sự phát triển kinh tế, cuộc sống của mọi người cũng đã thay đổi.). Mảnh ở ô ★ là 「人々の」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿、町に人が戻ってきた。",
+    "options": [
+     "来る",
+     "とともに",
+     "季節が",
+     "祭りの"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 祭りの季節が来るとともに、町に人が戻ってきた。 (Mùa lễ hội đến thì người ta cũng quay về thị trấn.). Mảnh ở ô ★ là 「季節が」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "父とともに、山へ星を見に行った。",
+    "options": [
+     "Bố đã thay tôi lên núi ngắm sao.",
+     "Tôi đã lên núi ngắm sao mà không có bố.",
+     "Bố bảo tôi lên núi để ngắm sao.",
+     "Tôi đã cùng bố lên núi ngắm sao."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + とともに (cùng với ai): \"Tôi đã cùng bố lên núi ngắm sao.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "日が暮れるとともに、急に寒くなった。",
+    "options": [
+     "Cùng lúc trời tối, trời bỗng trở lạnh.",
+     "Dù trời đã tối nhưng vẫn không lạnh.",
+     "Trời trở lạnh từ trước khi tối.",
+     "Vì trời lạnh nên trời tối sớm."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vる + とともに (cùng lúc với, đồng thời): \"Cùng lúc trời tối, trời bỗng trở lạnh.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "卒業とともに、国へ帰るつもりだ。",
+     "春になったとともに、桜が咲き始めた。",
+     "家族とともに、新しい町へ引っ越した。",
+     "人口が減るとともに、店も少なくなった。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「春になったとともに」 sai: とともに đi sau Vる (thể từ điển), không đi sau thể た. Câu đúng: 春になるとともに、桜が咲き始めた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "技術の進歩とともに、生活は便利になった。",
+     "ベルが鳴るとともに、生徒たちは教室を出た。",
+     "社長は社員とともに、工場を見学した。",
+     "仲間のとともに、大会で優勝した。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「仲間のとともに」 sai: とともに gắn thẳng sau danh từ, không chen の. Câu đúng: 仲間とともに、大会で優勝した。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "大きな",
+     "とともに、",
+     "音",
+     "家が激しく揺れた。"
+    ],
+    "answer_order": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "translation_vi": "Cùng với một tiếng động lớn, ngôi nhà rung lắc dữ dội."
+   },
+   {
+    "pieces": [
+     "とともに",
+     "母",
+     "台所に立つのが",
+     "好きです。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "translation_vi": "Tôi thích cùng mẹ vào bếp nấu ăn."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "駅の完成＿＿、この辺りに人が集まるようになった。",
+    "answer": "とともに",
+    "accept": [
+     "と共に",
+     "に伴って",
+     "に伴い"
+    ],
+    "translation_vi": "Cùng với việc nhà ga được xây xong, người ta bắt đầu tụ về khu này."
+   },
+   {
+    "sentence_ja": "私は友だち＿＿、ボランティア活動に参加した。",
+    "answer": "とともに",
+    "accept": [
+     "と共に",
+     "と一緒に",
+     "といっしょに",
+     "と"
+    ],
+    "translation_vi": "Tôi đã cùng bạn tham gia hoạt động tình nguyện."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "チャイムが鳴る（　　）、学生たちは教室を飛び出した。",
+    "options": [
+     "に対して",
+     "とともに",
+     "をもとに",
+     "にとって"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「とともに」: Vる + とともに nói hai việc xảy ra cùng một lúc (chuông vừa reo là chạy ra). に対して, をもとに, にとって chỉ đi sau danh từ, không gắn sau 鳴る. Nghĩa: Chuông vừa reo, học sinh đã lao ra khỏi lớp."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この町は工業の発展とともに、人口が増えてきた。",
+    "options": [
+     "Dù công nghiệp phát triển, dân số thị trấn này vẫn giảm.",
+     "Vì dân số tăng nên công nghiệp thị trấn này chậm lại.",
+     "Cùng với sự phát triển công nghiệp, dân số thị trấn này đã tăng lên.",
+     "Thị trấn này phát triển công nghiệp mà không cần thêm người."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N + とともに (cùng với sự thay đổi của N): \"Cùng với sự phát triển công nghiệp, dân số thị trấn này đã tăng lên.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "部長とともに、取引先を訪問した。",
+     "夏休みが始まるとともに、海は人でいっぱいになった。",
+     "日本語の勉強にとともに、日本の文化も学んでいる。",
+     "経験を積むとともに、自信もついてきた。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「日本語の勉強にとともに」 sai: mẫu là N + とともに, không có に phía trước. Câu đúng: 日本語の勉強とともに、日本の文化も学んでいる。"
+   }
+  ]
+ },
+ "JG-0d2b9dbee5": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "お客様のご予算（　　）、プランをお選びいただけます。",
+    "options": [
+     "に比べて",
+     "について",
+     "によると",
+     "に応じて"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「に応じて」: chọn gói dịch vụ tương ứng với ngân sách của khách. に比べて (so với), について (về), によると (theo nguồn tin) không hợp nghĩa. Nghĩa: Quý khách có thể chọn gói dịch vụ tùy theo ngân sách của mình."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "自分の体力（　　）、運動の量を調整してください。",
+    "options": [
+     "にとって",
+     "に応じて",
+     "に反して",
+     "に加えて"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「に応じて」: lượng vận động thay đổi cho tương ứng với thể lực. にとって (đối với), に反して (trái với), に加えて (thêm vào) không hợp nghĩa. Nghĩa: Hãy điều chỉnh lượng vận động cho phù hợp với thể lực của mình."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この店では、＿＿ ＿＿ ★ ＿＿を選べます。",
+    "options": [
+     "応じて",
+     "ご飯の量",
+     "客の",
+     "好みに"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: この店では、客の好みに応じてご飯の量を選べます。 (Ở quán này có thể chọn lượng cơm tùy theo khẩu vị của khách.). Mảnh ở ô ★ là 「応じて」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "料金は＿＿ ＿＿ ★ ＿＿決まります。",
+    "options": [
+     "荷物の",
+     "応じて",
+     "重さに",
+     "送る"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 料金は送る荷物の重さに応じて決まります。 (Phí được quyết định tùy theo cân nặng của hàng gửi.). Mảnh ở ô ★ là 「重さに」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "季節に応じて、店に並べる商品を変えている。",
+    "options": [
+     "Bất kể mùa nào, hàng bày trong cửa hàng vẫn như nhau.",
+     "Chúng tôi thay đổi hàng bày trong cửa hàng tùy theo mùa.",
+     "Vì đổi mùa nên cửa hàng tạm đóng cửa.",
+     "Chúng tôi chỉ bày hàng mà khách quen đặt trước."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + に応じて (tương ứng với, tùy theo): \"Chúng tôi thay đổi hàng bày trong cửa hàng tùy theo mùa.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "参加者の人数に応じて、部屋の大きさを決めます。",
+    "options": [
+     "Dù số người tham gia là bao nhiêu, phòng vẫn cố định.",
+     "Số người tham gia được quyết định theo kích thước phòng.",
+     "Vì phòng nhỏ nên phải giảm số người tham gia.",
+     "Chúng tôi quyết định kích thước phòng tùy theo số người tham gia."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + に応じて (tùy theo mức độ của N mà thay đổi): \"Chúng tôi quyết định kích thước phòng tùy theo số người tham gia.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "年齢に応じて、料金が違います。",
+     "必要に応じて、資料をコピーしてください。",
+     "先生の期待に応じて、毎日一生懸命勉強した。",
+     "その日の天気に応じて、着る服を選ぶ。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「先生の期待に応じて」 sai: đáp lại kỳ vọng, mong muốn của người khác phải dùng に応えて; に応じて là 'tương ứng với' một thứ có mức độ thay đổi. Câu đúng: 先生の期待に応えて、毎日一生懸命勉強した。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "レベルに応じたクラスで勉強できます。",
+     "収入を応じて、税金の額が決まる。",
+     "客の数に応じて、店員を増やす。",
+     "目的に応じて、使う道具を変える。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「収入を応じて」 sai: trợ từ của mẫu là に (N + に応じて), không dùng を. Câu đúng: 収入に応じて、税金の額が決まる。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "応じて",
+     "子どもの",
+     "年齢に",
+     "おもちゃを選ぶ。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3
+    ],
+    "translation_vi": "Chọn đồ chơi tùy theo độ tuổi của trẻ."
+   },
+   {
+    "pieces": [
+     "に応じた",
+     "仕事を",
+     "能力",
+     "任せる。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Giao công việc phù hợp với năng lực."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "問題の大きさ＿＿、対応の方法を変える必要がある。",
+    "answer": "に応じて",
+    "accept": [
+     "に応じ",
+     "におうじて",
+     "によって"
+    ],
+    "translation_vi": "Cần thay đổi cách xử lý tùy theo mức độ lớn nhỏ của vấn đề."
+   },
+   {
+    "sentence_ja": "お客様のご希望に＿＿、色やサイズを変更いたします。",
+    "answer": "応じて",
+    "accept": [
+     "応じ",
+     "おうじて",
+     "沿って",
+     "そって",
+     "合わせて"
+    ],
+    "translation_vi": "Chúng tôi sẽ đổi màu và kích cỡ theo mong muốn của quý khách."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "売り上げ（　　）、ボーナスの額が決まる。",
+    "options": [
+     "に応じて",
+     "をめぐって",
+     "に限って",
+     "に先立って"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「に応じて」: tiền thưởng được quyết định tương ứng với doanh thu. をめぐって (xoay quanh), に限って (riêng lúc đó), に先立って (trước khi) không hợp nghĩa. Nghĩa: Số tiền thưởng được quyết định tùy theo doanh thu."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "このホテルでは、＿＿ ★ ＿＿ ＿＿用意している。",
+    "options": [
+     "応じた",
+     "部屋を",
+     "目的に",
+     "客の"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: このホテルでは、客の目的に応じた部屋を用意している。 (Khách sạn này chuẩn bị phòng phù hợp với mục đích của khách.). Mảnh ở ô ★ là 「目的に」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "痛みの程度に応じて、薬の量を変えます。",
+    "options": [
+     "Dù đau thế nào cũng uống cùng một lượng thuốc.",
+     "Lượng thuốc được thay đổi tùy theo mức độ đau.",
+     "Uống nhiều thuốc thì sẽ đỡ đau hơn.",
+     "Vì hết thuốc nên cơn đau nặng hơn."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + に応じて (tùy theo mức độ của N): \"Lượng thuốc được thay đổi tùy theo mức độ đau.\""
    }
   ]
  }

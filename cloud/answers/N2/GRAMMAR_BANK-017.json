@@ -1,0 +1,77 @@
+{
+ "JG-3a8712710c": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "チームのキャプテンとしてのプライド（　　）、この試合は負けられない。", "options": ["にかけては", "に限って", "にかけても", "に反して"], "answer_index": 2, "explanation_vi": "Điền 「にかけても」: lấy lòng tự trọng của đội trưởng ra bảo đảm, vế sau là quyết tâm không thua. にかけては dùng để khen sở trường ('về khoản… thì không ai bằng'); に限って, に反して không hợp nghĩa. Nghĩa: Dù phải đặt cả lòng tự trọng của đội trưởng vào, trận này tôi không thể thua."},
+   {"type": "FILL", "prompt_ja": "祖父との約束（　　）、この店は絶対に守ってみせる。", "options": ["を除いて", "にかけても", "に限って", "以来"], "answer_index": 1, "explanation_vi": "Điền 「にかけても」: lấy lời hứa với ông ra bảo đảm, vế sau là ý chí mạnh (守ってみせる). を除いて, に限って không hợp nghĩa; 以来 không đi với ý chí hướng tới tương lai. Nghĩa: Dù phải lấy lời hứa với ông ra đảm bảo, tôi nhất định sẽ giữ được cửa hàng này."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、必ずこの仕事を成功させる。", "options": ["かけても", "会社の", "に", "信用"], "answer_index": 2, "explanation_vi": "Câu đúng: 会社の信用にかけても、必ずこの仕事を成功させる。 (Dù phải đặt cả uy tín của công ty vào, tôi nhất định sẽ làm công việc này thành công.). Mảnh ở ô ★ là 「に」."},
+   {"type": "ORDER_STAR", "prompt_ja": "この約束は＿＿ ＿＿ ★ ＿＿。", "options": ["守ります", "にかけても", "私の", "命"], "answer_index": 1, "explanation_vi": "Câu đúng: この約束は私の命にかけても守ります。 (Lời hứa này dù phải đánh đổi mạng sống tôi cũng sẽ giữ.). Mảnh ở ô ★ là 「にかけても」."},
+   {"type": "MEANING", "prompt_ja": "料理人のプライドにかけても、まずい料理は出さない。", "options": ["Vì là đầu bếp có lòng tự trọng nên đôi khi tôi vẫn dọn ra món dở.", "Dù phải đặt cả lòng tự trọng của người đầu bếp, tôi quyết không dọn ra món ăn dở.", "Về khoản nấu ăn thì không ai qua được tôi.", "Người đầu bếp mất lòng tự trọng vì đã dọn ra món dở."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu N + にかけても (lấy điều quý giá ra bảo đảm cho quyết tâm): \"Dù phải đặt cả lòng tự trọng của người đầu bếp, tôi quyết không dọn ra món ăn dở.\""},
+   {"type": "MEANING", "prompt_ja": "家族の名にかけても、借りたお金は必ず返します。", "options": ["Tôi đã vay tiền dưới tên của gia đình.", "Gia đình tôi nổi tiếng vì luôn trả nợ đúng hạn.", "Nếu gia đình đồng ý thì tôi sẽ trả số tiền đã vay.", "Tôi xin lấy danh dự gia đình ra đảm bảo rằng nhất định sẽ trả số tiền đã vay."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu N + にかけても (thề nguyện, lấy danh dự ra bảo đảm): \"Tôi xin lấy danh dự gia đình ra đảm bảo rằng nhất định sẽ trả số tiền đã vay.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["父の名にかけても、この店をつぶしはしない。", "彼は料理にかけても、誰にも負けない。", "プロとしての誇りにかけても、仕事の手は抜かない。", "命にかけても、この子を守ってみせる。"], "answer_index": 1, "explanation_vi": "「彼は料理にかけても、誰にも負けない。」 sai: khen sở trường 'về khoản nấu ăn thì không thua ai' phải dùng にかけては; にかけても là thề lấy điều quý giá ra bảo đảm. Câu đúng: 彼は料理にかけては、誰にも負けない。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["先生との約束にかけても、必ず合格してみせる。", "店の信用にかけても、古い材料は使いません。", "会社の名にかけても、この計画は成功させる。", "明日の天気にかけても、雨が降るだろう。"], "answer_index": 3, "explanation_vi": "「明日の天気にかけても、雨が降るだろう。」 sai: にかけても cần danh từ là thứ quý giá (danh dự, mạng sống, lời hứa) và vế sau là quyết tâm của người nói, không phải phỏng đoán. Câu đúng: 明日は雨が降るだろう。"}
+  ],
+  "order_items": [
+   {"pieces": ["かけても", "約束は必ず守る。", "命に"], "answer_order": [2, 0, 1], "translation_vi": "Dù phải đánh đổi cả mạng sống, tôi nhất định giữ lời hứa."},
+   {"pieces": ["店の", "かけても、", "信用に", "いい加減な仕事はしない。"], "answer_order": [0, 2, 1, 3], "translation_vi": "Dù phải đặt cả uy tín của cửa hàng vào, tôi không làm việc qua loa."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "医者としての誇り＿＿、最後まで治療を続けます。", "answer": "にかけても", "accept": ["にかけて"], "translation_vi": "Dù phải đặt cả niềm tự hào của người bác sĩ vào, tôi sẽ tiếp tục điều trị đến cùng."},
+   {"sentence_ja": "この命＿＿、あなたとの約束は守ります。", "answer": "にかけても", "accept": ["にかけて"], "translation_vi": "Dù phải đánh đổi mạng sống này, tôi sẽ giữ lời hứa với bạn."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "（　　）にかけても、二度と同じミスはしません。", "options": ["私の予定", "私の得意", "私のプライド", "私の失敗"], "answer_index": 2, "explanation_vi": "Điền 「私のプライド」: trước にかけても là thứ quý giá được đem ra bảo đảm (lòng tự trọng); kế hoạch, sở trường, thất bại không phải thứ để thề. Nghĩa: Dù phải đặt cả lòng tự trọng của mình vào, tôi sẽ không mắc lại lỗi giống thế lần nữa."},
+   {"type": "MEANING", "prompt_ja": "親の名にかけても、この店を守ってみせる。", "options": ["Dù phải đặt cả danh dự của cha mẹ vào, tôi nhất định sẽ giữ được cửa hàng này.", "Vì cha mẹ đặt tên cho cửa hàng nên tôi giữ nó.", "Về khoản giữ cửa hàng thì cha mẹ tôi giỏi nhất.", "Cha mẹ nhờ tôi đặt tên cho cửa hàng này."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu N + にかけても (lấy danh dự ra bảo đảm cho quyết tâm): \"Dù phải đặt cả danh dự của cha mẹ vào, tôi nhất định sẽ giữ được cửa hàng này.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["プライドにかけても、途中でやめたりしない。", "父との約束にかけても、この夢は必ずかなえる。", "自分の名前にかけても、いい加減な物は作らない。", "数学にかけても、彼はクラスでいちばんだ。"], "answer_index": 3, "explanation_vi": "「数学にかけても、彼はクラスでいちばんだ。」 sai: nói 'về môn toán thì giỏi nhất lớp' phải dùng にかけては. Câu đúng: 数学にかけては、彼はクラスでいちばんだ。"}
+  ]
+ },
+ "JG-c6c7acbe5b": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "詳しいことが（　　）次第、お知らせします。", "options": ["わかる", "わかって", "わかり", "わかった"], "answer_index": 2, "explanation_vi": "Điền 「わかり」: 次第 đi sau động từ thể ます bỏ ます (わかり次第). Nghĩa: Ngay khi biết rõ chi tiết, chúng tôi sẽ thông báo."},
+   {"type": "FILL", "prompt_ja": "会議が終わり（　　）、すぐにそちらへ向かいます。", "options": ["以来", "次第", "反面", "上で"], "answer_index": 1, "explanation_vi": "Điền 「次第」: V bỏ ます + 次第: họp xong là đi ngay. 以来 cần V-て, 上で cần Vた, 反面 nêu hai mặt đối lập nên không nối với 終わり. Nghĩa: Ngay khi cuộc họp kết thúc, tôi sẽ đến chỗ anh/chị ngay."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 出発しましょう。", "options": ["すぐに", "次第、", "全員が", "そろい"], "answer_index": 1, "explanation_vi": "Câu đúng: 全員がそろい次第、すぐに出発しましょう。 (Ngay khi mọi người đến đủ, chúng ta xuất phát luôn nhé.). Mảnh ở ô ★ là 「次第、」."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ★ ＿＿ ＿＿。", "options": ["ご連絡します", "次第", "入り", "新しい商品が"], "answer_index": 2, "explanation_vi": "Câu đúng: 新しい商品が入り次第ご連絡します。 (Ngay khi có hàng mới về, chúng tôi sẽ liên lạc.). Mảnh ở ô ★ là 「入り」."},
+   {"type": "MEANING", "prompt_ja": "部長が戻り次第、会議を始めます。", "options": ["Trưởng phòng vừa về thì cuộc họp đã kết thúc.", "Tùy trưởng phòng mà cuộc họp có thể bắt đầu.", "Ngay khi trưởng phòng quay lại, chúng ta sẽ bắt đầu họp.", "Trưởng phòng đã quay lại sau khi cuộc họp bắt đầu."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu V bỏ ます + 次第 (ngay khi xong việc A thì làm B): \"Ngay khi trưởng phòng quay lại, chúng ta sẽ bắt đầu họp.\" Nghĩa 'tùy theo' là N + 次第, khác mẫu này."},
+   {"type": "MEANING", "prompt_ja": "結果が出次第、メールでお伝えします。", "options": ["Ngay khi có kết quả, tôi sẽ báo cho anh/chị qua email.", "Tùy vào kết quả mà tôi có thể gửi email hoặc không.", "Tôi đã báo kết quả qua email rồi.", "Trước khi có kết quả, tôi sẽ gửi email cho anh/chị."], "answer_index": 0, "explanation_vi": "Câu dùng mẫu V bỏ ます + 次第 (出る → 出次第): \"Ngay khi có kết quả, tôi sẽ báo cho anh/chị qua email.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["資料がそろい次第、お送りします。", "雨がやみ次第、試合を再開します。", "家に着き次第、すぐに寝てしまった。", "空港に着き次第、電話してください。"], "answer_index": 2, "explanation_vi": "「家に着き次第、すぐに寝てしまった。」 sai: vế sau của 〜次第 là hành động theo ý chí sẽ làm, không dùng cho việc đã xảy ra trong quá khứ. Câu đúng: 家に着くとすぐに寝てしまった。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["仕事が終わる次第、飲みに行こう。", "品物が届き次第、代金をお支払いします。", "場所が決まり次第、皆さんにお知らせします。", "熱が下がり次第、退院できますよ。"], "answer_index": 0, "explanation_vi": "「仕事が終わる次第、飲みに行こう。」 sai: 次第 đi sau động từ bỏ ます, không đi sau Vる. Câu đúng: 仕事が終わり次第、飲みに行こう。"}
+  ],
+  "order_items": [
+   {"pieces": ["次第、", "お返事", "確認でき", "いたします。"], "answer_order": [2, 0, 1, 3], "translation_vi": "Ngay khi xác nhận được, tôi sẽ hồi âm."},
+   {"pieces": ["決まり", "会議の日時が", "次第", "連絡してください。"], "answer_order": [1, 0, 2, 3], "translation_vi": "Ngay khi quyết định được ngày giờ họp, hãy liên lạc cho tôi."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "お客様の荷物が届き＿＿、すぐにご連絡いたします。", "answer": "次第", "accept": ["しだい"], "translation_vi": "Ngay khi hành lý của quý khách đến, chúng tôi sẽ liên lạc ngay."},
+   {"sentence_ja": "旅行の予定が＿＿次第、ホテルを予約するつもりだ。", "answer": "決まり", "translation_vi": "Ngay khi lịch du lịch được quyết định, tôi định đặt khách sạn."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "データの入力が終わり（　　）、報告書を書き始めてください。", "options": ["ものの", "以来", "次第", "とたん"], "answer_index": 2, "explanation_vi": "Điền 「次第」: nhập dữ liệu xong là bắt đầu viết báo cáo ngay. ものの, とたん không đi sau V bỏ ます; 以来 cần V-て. Nghĩa: Ngay khi nhập dữ liệu xong, hãy bắt đầu viết báo cáo."},
+   {"type": "MEANING", "prompt_ja": "天気が回復し次第、山に登る予定です。", "options": ["Tùy thời tiết mà chúng tôi có thể không leo núi.", "Chúng tôi đã leo núi trước khi thời tiết xấu đi.", "Vì thời tiết xấu nên kế hoạch leo núi bị hủy.", "Ngay khi thời tiết tốt trở lại, chúng tôi dự định leo núi."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu V bỏ ます + 次第 (回復する → 回復し次第): \"Ngay khi thời tiết tốt trở lại, chúng tôi dự định leo núi.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["メールを読み次第、返信してください。", "テストに合格し次第、とてもうれしかった。", "工事が終わり次第、この道は通れるようになります。", "担当者が来次第、ご案内します。"], "answer_index": 1, "explanation_vi": "「テストに合格し次第、とてもうれしかった。」 sai: vế sau của 〜次第 phải là hành động sẽ làm, không phải cảm xúc hay việc đã qua. Câu đúng: テストに合格して、とてもうれしかった。"}
+  ]
+ },
+ "JG-be19eef3a1": {
+  "check_bank": [
+   {"type": "FILL", "prompt_ja": "両親と相談した（　　）、進路を決めます。", "options": ["以来", "反面", "次第", "上で"], "answer_index": 3, "explanation_vi": "Điền 「上で」: Vた + 上で: bàn bạc với bố mẹ xong rồi mới quyết định hướng đi. 以来 cần V-て, 次第 cần V bỏ ます, 反面 nêu hai mặt đối lập. Nghĩa: Tôi sẽ bàn với bố mẹ rồi mới quyết định con đường sau này."},
+   {"type": "FILL", "prompt_ja": "よく（　　）上で、お申し込みください。", "options": ["考える", "考えた", "考え", "考えて"], "answer_index": 1, "explanation_vi": "Điền 「考えた」: mẫu 'sau khi… rồi mới' dùng Vた + 上で. Vる + 上で mang nghĩa 'trong việc…', không hợp ở đây. Nghĩa: Xin hãy suy nghĩ kỹ rồi mới đăng ký."},
+   {"type": "ORDER_STAR", "prompt_ja": "＿＿ ＿＿ ★ ＿＿ 、購入してください。", "options": ["上で", "読んだ", "商品の", "説明を"], "answer_index": 1, "explanation_vi": "Câu đúng: 商品の説明を読んだ上で、購入してください。 (Hãy đọc phần giới thiệu sản phẩm rồi mới mua.). Mảnh ở ô ★ là 「読んだ」."},
+   {"type": "ORDER_STAR", "prompt_ja": "この件は＿＿ ＿＿ ★ ＿＿。", "options": ["報告した", "決めます", "社長に", "上で"], "answer_index": 3, "explanation_vi": "Câu đúng: この件は社長に報告した上で決めます。 (Việc này tôi sẽ báo cáo giám đốc rồi mới quyết định.). Mảnh ở ô ★ là 「上で」."},
+   {"type": "MEANING", "prompt_ja": "家族の意見を聞いた上で、引っ越すかどうか決めます。", "options": ["Tôi đã quyết định chuyển nhà mà không hỏi ý kiến gia đình.", "Trong khi chuyển nhà, tôi sẽ nghe ý kiến gia đình.", "Tôi sẽ nghe ý kiến gia đình rồi mới quyết định có chuyển nhà hay không.", "Gia đình tôi đã quyết định chuyển nhà thay cho tôi."], "answer_index": 2, "explanation_vi": "Câu dùng mẫu Vた + 上で (làm xong bước quan trọng rồi mới làm bước sau): \"Tôi sẽ nghe ý kiến gia đình rồi mới quyết định có chuyển nhà hay không.\""},
+   {"type": "MEANING", "prompt_ja": "料金をお支払いいただいた上で、商品をお送りします。", "options": ["Chúng tôi sẽ gửi hàng trước, sau đó quý khách thanh toán.", "Sau khi quý khách thanh toán xong, chúng tôi mới gửi hàng.", "Quý khách được miễn phí nếu nhận hàng tại cửa hàng.", "Trong lúc thanh toán, quý khách có thể chọn hàng."], "answer_index": 1, "explanation_vi": "Câu dùng mẫu Vた + 上で (bước trước là điều kiện để làm bước sau): \"Sau khi quý khách thanh toán xong, chúng tôi mới gửi hàng.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["医者と話した上で、手術を受けることにした。", "事情を聞いた上で、判断します。", "よく相談する上で、留学を決めた。", "実際に部屋を見た上で、借りるかどうか決めた。"], "answer_index": 2, "explanation_vi": "「よく相談する上で、留学を決めた。」 sai: nghĩa 'sau khi… rồi mới' phải dùng Vた + 上で. Câu đúng: よく相談した上で、留学を決めた。"},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["申込書に記入して上で、窓口に出してください。", "十分に話し合った上で、結論を出しましょう。", "条件をよく読んだ上で、契約してください。", "メンバーと相談した上で、またご連絡します。"], "answer_index": 0, "explanation_vi": "「申込書に記入して上で、窓口に出してください。」 sai: 上で không đi sau thể て. Câu đúng: 申込書に記入した上で、窓口に出してください。"}
+  ],
+  "order_items": [
+   {"pieces": ["上で", "結論を出した。", "十分話し合った"], "answer_order": [2, 0, 1], "translation_vi": "Chúng tôi đã bàn bạc kỹ rồi mới đưa ra kết luận."},
+   {"pieces": ["上で", "値段を", "比べた", "買う店を決めた。"], "answer_order": [1, 2, 0, 3], "translation_vi": "Tôi so sánh giá cả rồi mới quyết định cửa hàng để mua."}
+  ],
+  "fill_items": [
+   {"sentence_ja": "先生の意見を聞いた＿＿、テーマを決めるつもりです。", "answer": "上で", "accept": ["うえで"], "translation_vi": "Tôi định nghe ý kiến của thầy rồi mới quyết định đề tài."},
+   {"sentence_ja": "契約の内容をよく＿＿上で、はんこを押してください。", "answer": "確認した", "accept": ["読んだ", "確かめた"], "translation_vi": "Hãy xác nhận kỹ nội dung hợp đồng rồi mới đóng dấu."}
+  ],
+  "extra_practice": [
+   {"type": "FILL", "prompt_ja": "会員登録をした（　　）、ご利用ください。", "options": ["上で", "とたん", "くせに", "ばかりに"], "answer_index": 0, "explanation_vi": "Điền 「上で」: đăng ký hội viên xong rồi mới sử dụng. とたん chỉ việc bất ngờ xảy ra ngay sau đó, không đi với lời yêu cầu; くせに, ばかりに không hợp nghĩa. Nghĩa: Xin hãy đăng ký hội viên rồi mới sử dụng."},
+   {"type": "MEANING", "prompt_ja": "一度試着した上で、買うかどうか決めたい。", "options": ["Tôi đã mua mà không mặc thử.", "Vì đã mặc thử nên tôi không mua nữa.", "Tôi muốn mua trước rồi mới mặc thử.", "Tôi muốn mặc thử một lần rồi mới quyết định có mua hay không."], "answer_index": 3, "explanation_vi": "Câu dùng mẫu Vた + 上で (làm bước trước rồi mới quyết định): \"Tôi muốn mặc thử một lần rồi mới quyết định có mua hay không.\""},
+   {"type": "ERROR", "prompt_ja": "Câu nào dùng sai mẫu?", "options": ["ルールを理解した上で、試合に参加してください。", "説明書を読む上で、この機械を使ってください。", "状況をよく調べた上で、対応を考えます。", "親の許可を得た上で、アルバイトを始めた。"], "answer_index": 1, "explanation_vi": "「説明書を読む上で、この機械を使ってください。」 sai: muốn nói 'đọc hướng dẫn rồi mới dùng' phải là Vた + 上で. Câu đúng: 説明書を読んだ上で、この機械を使ってください。"}
+  ]
+ }
+}

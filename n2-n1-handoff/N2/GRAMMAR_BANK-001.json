@@ -4,7 +4,192 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この映画はタイトル（　　）怖そうだから、見たくない。",
+      "options": [
+       "最中に",
+       "からして",
+       "に当たって",
+       "際に"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「からして」: N + からして lấy một chi tiết dễ thấy (cái tên) để đánh giá cả bộ phim. 最中に, 際に cần の trước danh từ; に当たって dùng cho dịp bắt đầu việc quan trọng. Nghĩa: Bộ phim này ngay từ cái tên đã thấy đáng sợ nên tôi không muốn xem."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "あの店は店員の態度（　　）失礼で、二度と行きたくない。",
+      "options": [
+       "に際して",
+       "の最中に",
+       "からして",
+       "の際に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「からして」: ngay từ thái độ của nhân viên đã bất lịch sự, nên đánh giá cả cửa hàng là tệ. Các lựa chọn còn lại chỉ thời điểm, không hợp với 態度. Nghĩa: Cửa hàng đó ngay từ thái độ của nhân viên đã bất lịch sự, tôi không muốn đến lần nữa."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "あの人は＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "好きになれない",
+       "偉そうで",
+       "話し方",
+       "からして"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: あの人は話し方からして偉そうで好きになれない。 (Người đó ngay từ cách nói chuyện đã ra vẻ ta đây nên tôi không thể thích được.). Mảnh ở ô ★ là 「偉そうで」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このレストランは＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "高そうな",
+       "雰囲気だ",
+       "からして",
+       "メニュー"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: このレストランはメニューからして高そうな雰囲気だ。 (Nhà hàng này ngay từ thực đơn đã toát lên vẻ đắt tiền.). Mảnh ở ô ★ là 「からして」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この報告書はタイトルからして間違っている。",
+      "options": [
+       "Bản báo cáo này chỉ sai mỗi tiêu đề.",
+       "So với tiêu đề thì nội dung bản báo cáo này sai nhiều hơn.",
+       "Bản báo cáo này bị sai vì đã đổi tiêu đề.",
+       "Bản báo cáo này ngay cả tiêu đề cũng đã sai rồi."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜からして (ngay từ chi tiết đầu tiên đã…, huống chi phần còn lại): \"Bản báo cáo này ngay cả tiêu đề cũng đã sai rồi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "兄は朝起きる時間からして私とは違う。",
+      "options": [
+       "Anh trai tôi dậy sớm hơn tôi là nhờ đồng hồ báo thức.",
+       "Anh trai tôi ngay cả giờ ngủ dậy buổi sáng cũng đã khác tôi.",
+       "Anh trai tôi chỉ khác tôi ở giờ ngủ dậy buổi sáng.",
+       "Kể từ giờ ngủ dậy buổi sáng, anh trai tôi lúc nào cũng ở cạnh tôi."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜からして (lấy một chi tiết tiêu biểu để nói cả con người khác biệt): \"Anh trai tôi ngay cả giờ ngủ dậy buổi sáng cũng đã khác tôi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この料理は見た目からしておいしそうだ。",
+       "彼は服装からしてまじめそうだ。",
+       "明日からして新しい仕事が始まる。",
+       "あのチームは選手の体の大きさからして強そうだ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「明日からして新しい仕事が始まる。」 sai: からして dùng để lấy một chi tiết làm căn cứ đánh giá, không chỉ mốc thời gian bắt đầu. Câu đúng: 明日から新しい仕事が始まる。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "部長は話し方からして厳しそうな人だ。",
+       "この公園は子どもからして大人まで楽しめる。",
+       "この本は表紙からして難しそうだ。",
+       "彼女は歩き方からして普通の人とは違う。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この公園は子どもからして大人まで楽しめる。」 sai: phạm vi 'từ… đến…' phải dùng 〜から〜まで, không dùng からして. Câu đúng: この公園は子どもから大人まで楽しめる。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "からして",
+       "この旅館は",
+       "違う。",
+       "部屋の広さ"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Nhà trọ kiểu Nhật này ngay từ độ rộng của phòng đã khác hẳn."
+     },
+     {
+      "pieces": [
+       "態度からして",
+       "感じられない。",
+       "やる気が",
+       "あの学生は"
+      ],
+      "answer_order": [
+       3,
+       0,
+       2,
+       1
+      ],
+      "translation_vi": "Cậu sinh viên đó ngay từ thái độ đã chẳng thấy chút hăng hái nào."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この料理はにおい＿＿おいしそうで、早く食べたい。",
+      "answer": "からして",
+      "translation_vi": "Món này ngay từ mùi đã thấy ngon, tôi muốn ăn ngay."
+     },
+     {
+      "sentence_ja": "あの会社は社長＿＿時間を守らないのだから、社員が遅れるのも当然だ。",
+      "answer": "からして",
+      "accept": [
+       "でさえ",
+       "さえ"
+      ],
+      "translation_vi": "Công ty đó ngay cả giám đốc cũng không đúng giờ, nên nhân viên đến muộn cũng là đương nhiên."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "彼の作文は字（　　）丁寧で、まじめな性格がよく分かる。",
+      "options": [
+       "からして",
+       "ないうちに",
+       "てでも",
+       "た途端に"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「からして」: N + からして, lấy nét chữ làm chi tiết tiêu biểu để thấy tính cách. Các mẫu còn lại không gắn trực tiếp sau danh từ. Nghĩa: Bài văn của cậu ấy ngay từ nét chữ đã cẩn thận, nhìn là biết tính cách nghiêm túc."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この店は名前からしておしゃれだ。",
+      "options": [
+       "Cửa hàng này đổi tên nên trở nên sành điệu hơn.",
+       "Cửa hàng này chỉ có cái tên là sành điệu.",
+       "Cửa hàng này ngay từ cái tên đã thấy sành điệu rồi.",
+       "So với cái tên thì cửa hàng này sành điệu hơn nhiều."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜からして (ngay từ chi tiết đầu tiên đã thấy…): \"Cửa hàng này ngay từ cái tên đã thấy sành điệu rồi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼女は声からして元気そうだった。",
+       "この問題は問題文からして難しい。",
+       "あの家は門からして立派だ。",
+       "駅からして歩いて十分のところに住んでいる。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「駅からして歩いて十分のところに住んでいる。」 sai: chỉ điểm xuất phát về khoảng cách thì dùng から, không dùng からして. Câu đúng: 駅から歩いて十分のところに住んでいる。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -33,7 +218,201 @@
    "id": "JG-c0cb0dc65c"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "図書館の本を借りる（　　）、学生証が必要です。",
+      "options": [
+       "最中に",
+       "際に",
+       "ないうちに",
+       "からして"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「際に」: Vる + 際に nói thời điểm làm một thủ tục, cách nói trang trọng của とき. 最中に cần Vている, ないうちに cần Vない, からして đi sau danh từ. Nghĩa: Khi mượn sách thư viện thì cần thẻ sinh viên."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "日本を（　　）際に、お世話になった先生にあいさつに行った。",
+      "options": [
+       "出る",
+       "出て",
+       "出ない",
+       "出よう"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「出る」: 際に đi sau Vる hoặc Vた, không đi sau thể て, thể phủ định hay thể ý chí. Nghĩa: Lúc rời Nhật, tôi đã đến chào thầy giáo người đã giúp đỡ mình."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿持ってきてください。",
+      "options": [
+       "写真を",
+       "際には",
+       "申請する",
+       "パスポートを"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: パスポートを申請する際には写真を持ってきてください。 (Khi xin cấp hộ chiếu, xin hãy mang theo ảnh.). Mảnh ở ô ★ là 「際には」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "これは＿＿ ＿＿ ★ ＿＿です。",
+      "options": [
+       "お土産",
+       "買った",
+       "際に",
+       "大阪へ出張した"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: これは大阪へ出張した際に買ったお土産です。 (Đây là quà tôi mua lúc đi công tác Osaka.). Mảnh ở ô ★ là 「買った」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "地震の際には、エレベーターを使わないでください。",
+      "options": [
+       "Ngay sau trận động đất, thang máy đã ngừng hoạt động.",
+       "Vì có động đất nên thang máy không dùng được.",
+       "Khi có động đất, xin đừng sử dụng thang máy.",
+       "Trước khi động đất xảy ra, hãy đi thang máy xuống."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜際に (vào lúc, khi — cách nói trang trọng trong thông báo): \"Khi có động đất, xin đừng sử dụng thang máy.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "前回お会いした際に、この話をしましたね。",
+      "options": [
+       "Lần sau gặp nhau, chúng ta hãy nói chuyện này nhé.",
+       "Vì đã gặp nhau lần trước nên không cần nói chuyện này nữa.",
+       "Lần trước gặp nhau, chúng ta chưa nói chuyện này.",
+       "Lần trước khi gặp nhau, chúng ta đã nói chuyện này rồi nhỉ."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu Vた + 際に (vào lúc đã làm gì): \"Lần trước khi gặp nhau, chúng ta đã nói chuyện này rồi nhỉ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ご利用の際は、カードを見せてください。",
+       "子どもの際に、よく川で泳いだ。",
+       "先日神戸を訪れた際に、港を見学した。",
+       "お帰りの際は、忘れ物にご注意ください。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「子どもの際に、よく川で泳いだ。」 sai: 際に chỉ thời điểm của một hành động cụ thể, không dùng cho một giai đoạn kéo dài như tuổi thơ. Câu đúng: 子どものころ、よく川で泳いだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "空港に着き際に、電話をください。",
+       "書類を提出する際に、はんこが必要です。",
+       "火事の際は、階段を使ってください。",
+       "退院した際に、看護師さんにお礼を言った。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「空港に着き際に、電話をください。」 sai: 際に đi sau Vる/Vた hoặc Nの, không đi sau thể ます bỏ ます. Câu đúng: 空港に着いた際に、電話をください。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "際に、",
+       "ホテルを",
+       "予約する",
+       "カードの番号が必要だ。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Khi đặt phòng khách sạn thì cần có số thẻ."
+     },
+     {
+      "pieces": [
+       "運転する",
+       "スマホを使ってはいけない。",
+       "際は、",
+       "車を"
+      ],
+      "answer_order": [
+       3,
+       0,
+       2,
+       1
+      ],
+      "translation_vi": "Khi lái xe ô tô thì không được dùng điện thoại."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "お申し込みの＿＿、身分証明書をお持ちください。",
+      "answer": "際に",
+      "accept": [
+       "際は",
+       "際には",
+       "さいに",
+       "時に",
+       "ときに"
+      ],
+      "translation_vi": "Khi đăng ký, xin quý khách mang theo giấy tờ tùy thân."
+     },
+     {
+      "sentence_ja": "先月北海道へ旅行した＿＿、有名な温泉に寄った。",
+      "answer": "際に",
+      "accept": [
+       "際",
+       "さいに",
+       "時に",
+       "ときに"
+      ],
+      "translation_vi": "Lúc đi du lịch Hokkaido tháng trước, tôi đã ghé một suối nước nóng nổi tiếng."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "何か問題が起きた（　　）、すぐに担当者に連絡してください。",
+      "options": [
+       "からして",
+       "一方で",
+       "際に",
+       "最中に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「際に」: Vた + 際に, nói vào lúc sự việc xảy ra thì hãy làm gì, hay dùng trong hướng dẫn. 最中に cần Vている, からして đi sau danh từ, 一方で không hợp nghĩa. Nghĩa: Khi có vấn đề gì xảy ra, xin hãy liên lạc ngay với người phụ trách."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お支払いの際に、ポイントカードをお出しください。",
+      "options": [
+       "Sau khi thanh toán xong, thẻ tích điểm sẽ được gửi đến.",
+       "Khi thanh toán, xin quý khách xuất trình thẻ tích điểm.",
+       "Nếu không có thẻ tích điểm thì không thể thanh toán.",
+       "Trong lúc đang thanh toán thì thẻ tích điểm bị mất."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu Nの + 際に (khi làm việc gì — lời hướng dẫn lịch sự): \"Khi thanh toán, xin quý khách xuất trình thẻ tích điểm.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "卒業の際に、記念写真を撮った。",
+       "部屋を借りる際は、契約書をよく読もう。",
+       "お問い合わせの際は、番号をお知らせください。",
+       "高校生の際に、アメリカに留学した。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「高校生の際に、アメリカに留学した。」 sai: 際に không đi với danh từ chỉ một giai đoạn kéo dài như 高校生. Câu đúng: 高校生のときに、アメリカに留学した。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -51,7 +430,205 @@
    "id": "JG-bf620ebf50"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "工事の開始（　　）、近所の皆様にご説明いたします。",
+      "options": [
+       "からして",
+       "に際して",
+       "ないうちに",
+       "かと思うと"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に際して」: N + に際して chỉ dịp quan trọng khi bắt đầu một việc lớn, theo sau là lời thông báo trang trọng. ないうちに, かと思うと không gắn sau danh từ; からして là lấy chi tiết để đánh giá. Nghĩa: Nhân dịp khởi công, chúng tôi xin giải thích với bà con hàng xóm."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "留学する（　　）、たくさんの人にお世話になった。",
+      "options": [
+       "を際して",
+       "の際して",
+       "に際して",
+       "で際して"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に際して」: mẫu cố định là Vる/N + に際して, trợ từ phải là に. Nghĩa: Khi đi du học, tôi đã được rất nhiều người giúp đỡ."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、社長があいさつをした。",
+      "options": [
+       "に際して",
+       "完成",
+       "新しい",
+       "工場の"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 新しい工場の完成に際して、社長があいさつをした。 (Nhân dịp nhà máy mới hoàn thành, giám đốc đã phát biểu chào mừng.). Mảnh ở ô ★ là 「完成」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿注意してください。",
+      "options": [
+       "期限に",
+       "パスポートの",
+       "海外旅行",
+       "に際して、"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 海外旅行に際して、パスポートの期限に注意してください。 (Khi đi du lịch nước ngoài, xin hãy chú ý thời hạn hộ chiếu.). Mảnh ở ô ★ là 「に際して、」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "入学に際して、必要な書類を準備してください。",
+      "options": [
+       "Sau khi nhập học xong mới cần chuẩn bị giấy tờ.",
+       "Vì đã nhập học nên không cần chuẩn bị giấy tờ nữa.",
+       "Nhân dịp nhập học, xin hãy chuẩn bị các giấy tờ cần thiết.",
+       "Dù đã nhập học nhưng giấy tờ vẫn chưa đủ."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜に際して (nhân dịp, khi bắt đầu một việc quan trọng): \"Nhân dịp nhập học, xin hãy chuẩn bị các giấy tờ cần thiết.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "退職に際して、部長から花束をもらった。",
+      "options": [
+       "Vì được tặng hoa nên tôi quyết định nghỉ việc.",
+       "Nhân dịp nghỉ việc, tôi được trưởng phòng tặng một bó hoa.",
+       "Trước khi nghỉ việc, tôi đã tặng hoa cho trưởng phòng.",
+       "Dù nghỉ việc nhưng tôi không nhận được bó hoa nào."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に際して (nhân dịp một sự kiện quan trọng): \"Nhân dịp nghỉ việc, tôi được trưởng phòng tặng một bó hoa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "試験に際して、注意することを説明します。",
+       "毎朝顔を洗うに際して、鏡を見る。",
+       "開会に際して、市長があいさつをした。",
+       "引っ越しに際して、いろいろな手続きをした。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「毎朝顔を洗うに際して、鏡を見る。」 sai: に際して chỉ dùng cho dịp đặc biệt, quan trọng, không dùng cho việc lặp lại hằng ngày. Câu đúng: 毎朝顔を洗うとき、鏡を見る。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "出発に際して、皆さんに注意があります。",
+       "契約を結ぶに際して、内容をよく確認した。",
+       "就職に際して、新しいスーツを買った。",
+       "会議の際して、資料を配った。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「会議の際して、資料を配った。」 sai: mẫu là N + に際して (không có の), hoặc dùng Nの + 際に. Câu đúng: 会議に際して、資料を配った。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "校長先生が",
+       "に際して、",
+       "あいさつをした。",
+       "卒業式の開始"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Nhân dịp khai mạc lễ tốt nghiệp, thầy hiệu trưởng đã phát biểu."
+     },
+     {
+      "pieces": [
+       "プレゼントを用意しました。",
+       "オープン",
+       "に際して、",
+       "お店の"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Nhân dịp khai trương cửa hàng, chúng tôi đã chuẩn bị quà tặng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "新しいシステムを使い始める＿＿、社員向けの説明会を開いた。",
+      "answer": "に際して",
+      "accept": [
+       "に際し",
+       "に当たって",
+       "にあたって",
+       "に当たり",
+       "にあたり"
+      ],
+      "translation_vi": "Nhân dịp bắt đầu dùng hệ thống mới, công ty đã tổ chức buổi giới thiệu cho nhân viên."
+     },
+     {
+      "sentence_ja": "日本で働く＿＿、ビザの手続きが必要になる。",
+      "answer": "に際して",
+      "accept": [
+       "に際し",
+       "に当たって",
+       "にあたって",
+       "に当たり",
+       "にあたり",
+       "際に",
+       "際には",
+       "際は"
+      ],
+      "translation_vi": "Khi làm việc ở Nhật thì cần làm thủ tục thị thực."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "手術を受ける（　　）、医者から詳しい説明があった。",
+      "options": [
+       "からして",
+       "ないうちに",
+       "に際して",
+       "てでも"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に際して」: Vる + に際して, nói vào dịp quan trọng (phẫu thuật) thì có việc gì. ないうちに cần Vない, てでも cần thể て, からして đi sau danh từ. Nghĩa: Khi phẫu thuật, bác sĩ đã giải thích cặn kẽ."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "帰国に際して、お世話になった方々にお礼の手紙を書いた。",
+      "options": [
+       "Sau khi về nước, tôi nhận được thư cảm ơn từ mọi người.",
+       "Vì phải viết thư cảm ơn nên tôi hoãn việc về nước.",
+       "Dù sắp về nước nhưng tôi chưa viết thư cảm ơn ai.",
+       "Nhân dịp về nước, tôi đã viết thư cảm ơn những người đã giúp đỡ mình."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に際して (nhân dịp một việc quan trọng): \"Nhân dịp về nước, tôi đã viết thư cảm ơn những người đã giúp đỡ mình.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "大会の開始に際して、選手たちが入場した。",
+       "お昼ご飯を食べるに際して、手を洗った。",
+       "新しい規則を始めるに際して、説明会が開かれた。",
+       "入社に際して、健康診断を受けた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「お昼ご飯を食べるに際して、手を洗った。」 sai: ăn trưa là việc thường ngày, không phải dịp quan trọng nên không dùng に際して. Câu đúng: お昼ご飯を食べる前に、手を洗った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -77,7 +654,193 @@
    "id": "JG-73d7edfcf0"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "新しい店を開く（　　）、地域の人たちにあいさつをして回った。",
+      "options": [
+       "にかけては",
+       "をめぐって",
+       "に当たって",
+       "ないうちに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「に当たって」: Vる + に当たって nói lúc chuẩn bị bắt đầu một việc lớn như mở cửa hàng. にかけては, をめぐって chỉ đi sau danh từ; ないうちに cần thể ない. Nghĩa: Trước khi mở cửa hàng mới, tôi đã đi chào hỏi khắp người dân trong khu vực."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "新しい生活を始める（　　）、家具をいくつか買いそろえた。",
+      "options": [
+       "を当たって",
+       "に当たって",
+       "が当たって",
+       "に当たった"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に当たって」: mẫu cố định là Vる/N + に当たって, trợ từ phải là に và giữa câu dùng thể て. Nghĩa: Trước khi bắt đầu cuộc sống mới, tôi đã mua sắm đủ vài món đồ nội thất."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿を説明します。",
+      "options": [
+       "受ける",
+       "に当たって、",
+       "入学試験を",
+       "注意すること"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 入学試験を受けるに当たって、注意することを説明します。 (Tôi xin giải thích những điều cần lưu ý trước khi dự thi tuyển sinh.). Mảnh ở ô ★ là 「受ける」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、市場をよく調べた。",
+      "options": [
+       "支店を",
+       "海外に",
+       "当たって",
+       "出すに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 海外に支店を出すに当たって、市場をよく調べた。 (Trước khi mở chi nhánh ở nước ngoài, chúng tôi đã khảo sát kỹ thị trường.). Mảnh ở ô ★ là 「出すに」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "引っ越すに当たって、古い家具を全部捨てた。",
+      "options": [
+       "Vừa chuyển nhà xong thì đồ đạc cũ bị hỏng hết.",
+       "Vì đồ đạc cũ đã hỏng hết nên tôi chuyển nhà.",
+       "Dù đã chuyển nhà nhưng tôi vẫn giữ lại đồ đạc cũ.",
+       "Trước khi chuyển nhà, tôi đã vứt hết đồ đạc cũ."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜に当たって (trước khi bắt đầu một việc lớn): \"Trước khi chuyển nhà, tôi đã vứt hết đồ đạc cũ.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "式を始めるに当たって、一言ごあいさつ申し上げます。",
+      "options": [
+       "Sau khi buổi lễ kết thúc, tôi xin nói vài lời cảm ơn.",
+       "Nhân dịp bắt đầu buổi lễ, tôi xin có đôi lời chào mừng.",
+       "Vì buổi lễ bắt đầu muộn nên tôi xin lỗi mọi người.",
+       "Buổi lễ vừa bắt đầu thì mọi người đã ra về."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜に当たって (nhân dịp bắt đầu một việc trang trọng), vế sau là lời chào: \"Nhân dịp bắt đầu buổi lễ, tôi xin có đôi lời chào mừng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "新しい仕事を始めるに当たって、スーツを買った。",
+       "留学に当たって、パスポートを申し込んだ。",
+       "昼ご飯を食べるに当たって、手を洗った。",
+       "工事を始めるに当たって、近所の人に説明した。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「昼ご飯を食べるに当たって、手を洗った。」 sai: に当たって chỉ dùng cho việc lớn, quan trọng, không dùng cho việc nhỏ hằng ngày như ăn trưa. Câu đúng: 昼ご飯を食べる前に、手を洗った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "大会を開くに当たって、多くの人が協力してくれた。",
+       "結婚に当たって、二人で将来のことを話し合った。",
+       "新しい会社に入るに当たって、髪を短く切った。",
+       "開店を当たって、特別セールを行います。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「開店を当たって、特別セールを行います。」 sai: trợ từ trước 当たって phải là に. Câu đúng: 開店に当たって、特別セールを行います。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "部長に相談した。",
+       "会社を",
+       "辞める",
+       "に当たって、"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Trước khi nghỉ việc ở công ty, tôi đã bàn bạc với trưởng phòng."
+     },
+     {
+      "pieces": [
+       "に当たって、",
+       "アンケートを行った。",
+       "新しいサービスを",
+       "始める"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Trước khi bắt đầu dịch vụ mới, chúng tôi đã tiến hành khảo sát."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "大学に入学するに＿＿、新しいパソコンを買った。",
+      "answer": "当たって",
+      "accept": [
+       "あたって",
+       "当たり",
+       "あたり"
+      ],
+      "translation_vi": "Trước khi vào đại học, tôi đã mua một chiếc máy tính mới."
+     },
+     {
+      "sentence_ja": "引っ越し＿＿当たって、いらない物を片付けた。",
+      "answer": "に",
+      "translation_vi": "Trước khi chuyển nhà, tôi đã dọn dẹp bớt những thứ không cần đến."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "店を閉める（　　）、長い間通ってくれたお客様に手紙を書いた。",
+      "options": [
+       "最中に",
+       "に当たって",
+       "たとたんに",
+       "にかけては"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「に当たって」: Vる + に当たって, nói việc làm trước một bước ngoặt lớn là đóng cửa hàng. 最中に cần Vている/Nの; たとたんに cần Vた; にかけては đi sau danh từ. Nghĩa: Trước khi đóng cửa hàng, tôi đã viết thư cho những vị khách đã ghé suốt bao năm."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "新しい学校に通うに当たって、制服を準備した。",
+      "options": [
+       "Tôi đã chuẩn bị đồng phục trước khi bắt đầu đi học ở trường mới.",
+       "Vì không có đồng phục nên tôi không thể đến trường mới.",
+       "Vừa đến trường mới thì tôi bị mất đồng phục.",
+       "Ở trường mới, học sinh không cần mặc đồng phục."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜に当たって (khi chuẩn bị bắt đầu một việc mới): \"Tôi đã chuẩn bị đồng phục trước khi bắt đầu đi học ở trường mới.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "会社を作るに当たって、銀行からお金を借りた。",
+       "子どものころに当たって、よく川で遊んだ。",
+       "発表に当たって、資料を何度も確認した。",
+       "一人暮らしを始めるに当たって、料理を習った。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「子どものころに当たって、よく川で遊んだ。」 sai: に当たって đi với việc lớn sắp bắt đầu, không đi với danh từ chỉ một quãng thời gian như 子どものころ. Câu đúng: 子どものころ、よく川で遊んだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -104,7 +867,193 @@
    "id": "JG-a515679c9f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "窓を開けた（　　）、強い風が入ってきた。",
+      "options": [
+       "最中に",
+       "途端に",
+       "うちに",
+       "に当たって"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「途端に」: Vた + 途端に nói vừa làm xong việc trước thì việc bất ngờ xảy ra ngay. 最中に cần Vている; うちに, に当たって không đi sau Vた như vậy. Nghĩa: Tôi vừa mở cửa sổ thì gió mạnh thổi vào."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "家に（　　）途端、雨が降り出した。",
+      "options": [
+       "着く",
+       "着いた",
+       "着いて",
+       "着かない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「着いた」: trước 途端 động từ phải ở thể た. Nghĩa: Tôi vừa về đến nhà thì trời đổ mưa."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、顔が赤くなった。",
+      "options": [
+       "一口",
+       "途端に",
+       "ビールを",
+       "飲んだ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: ビールを一口飲んだ途端に、顔が赤くなった。 (Vừa uống một ngụm bia là mặt đỏ lên.). Mảnh ở ô ★ là 「飲んだ」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、学生たちは静かになった。",
+      "options": [
+       "途端",
+       "入って",
+       "先生が教室に",
+       "きた"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 先生が教室に入ってきた途端、学生たちは静かになった。 (Thầy giáo vừa bước vào lớp thì học sinh im phăng phắc.). Mảnh ở ô ★ là 「入って」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "家を出た途端に、忘れ物に気がついた。",
+      "options": [
+       "Trước khi ra khỏi nhà, tôi đã kiểm tra kỹ đồ đạc.",
+       "Vì để quên đồ nên tôi không ra khỏi nhà nữa.",
+       "Vừa ra khỏi nhà thì tôi nhận ra mình để quên đồ.",
+       "Ra khỏi nhà được một lúc lâu tôi mới nhớ ra đồ bỏ quên."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜た途端に (vừa làm xong thì ngay lập tức xảy ra việc khác): \"Vừa ra khỏi nhà thì tôi nhận ra mình để quên đồ.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "試験が終わった途端、急におなかが空いてきた。",
+      "options": [
+       "Bài thi vừa kết thúc thì tôi bỗng thấy đói bụng.",
+       "Trong lúc làm bài thi, tôi đói bụng suốt.",
+       "Trước khi thi xong, tôi đã ăn cơm rồi.",
+       "Thi xong rồi mà tôi vẫn không thấy đói."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜た途端 (ngay khi việc trước vừa xong): \"Bài thi vừa kết thúc thì tôi bỗng thấy đói bụng.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "空が暗くなった途端、雨が降り出した。",
+       "ボタンを押した途端、機械が止まった。",
+       "いすに座った途端、寝てしまった。",
+       "駅に着いた途端に、電話してください。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「駅に着いた途端に、電話してください。」 sai: vế sau của 途端 là việc bất ngờ đã xảy ra, không dùng nhờ vả, mệnh lệnh. Câu đúng: 駅に着いたら、すぐに電話してください。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "窓を開けた途端に、虫が入ってきた。",
+       "家に帰る途端に、雨が降り出した。",
+       "立ち上がった途端、頭が痛くなった。",
+       "薬を飲んだ途端、気分がよくなった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「家に帰る途端に、雨が降り出した。」 sai: trước 途端 phải là thể た. Câu đúng: 家に帰った途端に、雨が降り出した。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "猫が外へ飛び出した。",
+       "途端に、",
+       "ドアを開けた",
+       "私が"
+      ],
+      "answer_order": [
+       3,
+       2,
+       1,
+       0
+      ],
+      "translation_vi": "Tôi vừa mở cửa thì con mèo phóng vọt ra ngoài."
+     },
+     {
+      "pieces": [
+       "部長から電話がかかってきた。",
+       "会社を",
+       "途端に、",
+       "出た"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Tôi vừa ra khỏi công ty thì trưởng phòng gọi điện tới."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "お風呂に入った＿＿、電話が鳴った。",
+      "answer": "途端に",
+      "accept": [
+       "途端",
+       "とたんに",
+       "とたん"
+      ],
+      "translation_vi": "Tôi vừa vào bồn tắm thì điện thoại reo."
+     },
+     {
+      "sentence_ja": "席に着い＿＿途端、授業が始まった。",
+      "answer": "た",
+      "translation_vi": "Tôi vừa ngồi vào chỗ thì giờ học bắt đầu."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "信号が青に変わった（　　）、子どもが走り出した。",
+      "options": [
+       "途端",
+       "最中",
+       "ないうちに",
+       "に当たって"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「途端」: Vた + 途端 nói đèn vừa chuyển xanh thì đứa trẻ chạy ngay. 最中 cần Vている/Nの; ないうちに cần thể ない; に当たって cần Vる/N. Nghĩa: Đèn giao thông vừa chuyển sang xanh thì đứa trẻ chạy vụt đi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "帽子をかぶって外に出た途端、風で飛ばされた。",
+      "options": [
+       "Vì gió to nên tôi đội mũ rồi mới ra ngoài.",
+       "Tôi vừa đội mũ bước ra ngoài thì mũ bị gió thổi bay.",
+       "Trong lúc tôi ở ngoài, mũ vẫn nằm yên trên đầu.",
+       "Trước khi ra ngoài, tôi đã cất mũ đi vì sợ gió."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜た途端 (vừa làm xong thì việc ngoài dự đoán xảy ra): \"Tôi vừa đội mũ bước ra ngoài thì mũ bị gió thổi bay.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "電気を消した途端、犬がほえ出した。",
+       "テレビをつけた途端、地震のニュースが流れた。",
+       "明日、仕事が終わった途端に、会いに行くつもりだ。",
+       "お酒を飲んだ途端、眠くなってしまった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「明日、仕事が終わった途端に、会いに行くつもりだ。」 sai: 途端 dùng cho việc bất ngờ đã xảy ra, vế sau không là ý định của người nói. Câu đúng: 明日、仕事が終わったらすぐに、会いに行くつもりだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -122,7 +1071,197 @@
    "id": "JG-aea8d1a828"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "弟は今帰ってきた（　　）、またすぐ遊びに出かけた。",
+      "options": [
+       "に当たって",
+       "最中に",
+       "かと思うと",
+       "ないうちに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「かと思うと」: Vた + かと思うと tả người khác vừa làm A thì đã làm ngay B khác hẳn. に当たって cần Vる/N; 最中に cần Vている/Nの; ないうちに cần thể ない. Nghĩa: Em trai tôi vừa mới về nhà đã lại đi chơi ngay."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "空が急に暗くなった（　　）、強い雨が降ってきた。",
+      "options": [
+       "かに思うと",
+       "かと思うと",
+       "かを思うと",
+       "かと思わず"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「かと思うと」: dạng cố định là Vた + か + と思うと, trợ từ trích dẫn phải là と. Nghĩa: Trời vừa tối sầm lại thì mưa to đã đổ xuống."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "妹は＿＿ ＿＿ ★ ＿＿怒り出した。",
+      "options": [
+       "急に",
+       "かと思うと、",
+       "さっきまで",
+       "笑っていた"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 妹はさっきまで笑っていたかと思うと、急に怒り出した。 (Em gái tôi mới cười đó mà đã bỗng nổi giận.). Mảnh ở ô ★ là 「かと思うと、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿降り始めた。",
+      "options": [
+       "また",
+       "雪が",
+       "かと思うと、",
+       "やんだ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 雪がやんだかと思うと、また降り始めた。 (Tuyết vừa ngừng rơi thì đã lại bắt đầu rơi.). Mảnh ở ô ★ là 「やんだ」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "息子は部屋に入ったかと思うと、すぐに出てきた。",
+      "options": [
+       "Con trai tôi định vào phòng nhưng rồi lại thôi.",
+       "Vì con trai không ra khỏi phòng nên tôi lo lắng.",
+       "Con trai tôi ở trong phòng suốt cả ngày.",
+       "Con trai tôi vừa vào phòng đã đi ra ngay."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜かと思うと (vừa A thì đã B ngay, thay đổi rất nhanh): \"Con trai tôi vừa vào phòng đã đi ra ngay.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "電車が止まったかと思うと、すぐにまた動き出した。",
+      "options": [
+       "Tàu điện dừng lại rất lâu rồi mới chạy tiếp.",
+       "Tôi cứ tưởng tàu dừng, nhưng thật ra nó vẫn chạy.",
+       "Tàu điện vừa dừng lại thì đã chạy tiếp ngay.",
+       "Vì tàu điện dừng lại nên tôi xuống đi bộ."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜かと思うと (vừa xảy ra A thì ngay lập tức B): \"Tàu điện vừa dừng lại thì đã chạy tiếp ngay.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "兄は起きたかと思うと、また寝てしまった。",
+       "私は家に帰ったかと思うと、すぐにまた出かけた。",
+       "晴れたかと思うと、急に雨が降り出した。",
+       "犬はえさを食べたかと思うと、もう眠っていた。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私は家に帰ったかと思うと、すぐにまた出かけた。」 sai: かと思うと là người nói quan sát người khác hay sự vật, không tả hành động của chính mình. Câu đúng: 私は家に帰って、すぐにまた出かけた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "雨がやんだかと思うと、すぐに出かけましょう。",
+       "部長は会議室に入ったかと思うと、すぐに出てきた。",
+       "電気がついたかと思うと、また消えた。",
+       "娘は宿題を始めたかと思うと、もうテレビを見ている。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「雨がやんだかと思うと、すぐに出かけましょう。」 sai: vế sau của かと思うと là việc người nói chứng kiến, không dùng rủ rê, ý chí. Câu đúng: 雨がやんだら、すぐに出かけましょう。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "すぐにまた出かけた。",
+       "兄は",
+       "かと思うと、",
+       "帰ってきた"
+      ],
+      "answer_order": [
+       1,
+       3,
+       2,
+       0
+      ],
+      "translation_vi": "Anh trai tôi vừa về đến nhà đã lại đi ra ngoài ngay."
+     },
+     {
+      "pieces": [
+       "大きな音がした。",
+       "光った",
+       "空が",
+       "かと思うと、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Bầu trời vừa lóe sáng thì đã có tiếng động lớn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "弟は勉強を始めた＿＿、もうゲームをしている。",
+      "answer": "かと思うと",
+      "accept": [
+       "かと思ったら",
+       "と思ったら",
+       "かと思えば"
+      ],
+      "translation_vi": "Em trai tôi vừa mới bắt đầu học mà giờ đã chơi game rồi."
+     },
+     {
+      "sentence_ja": "風がやんだかと＿＿、また強く吹き始めた。",
+      "answer": "思うと",
+      "accept": [
+       "思ったら",
+       "思えば"
+      ],
+      "translation_vi": "Gió vừa lặng thì lại bắt đầu thổi mạnh."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもたちは静かになった（　　）、また大きな声で話し始めた。",
+      "options": [
+       "最中に",
+       "かと思うと",
+       "に当たって",
+       "ないうちに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「かと思うと」: Vた + かと思うと, bọn trẻ vừa im lặng thì đã nói to trở lại. Ba mẫu còn lại không đi sau Vた. Nghĩa: Bọn trẻ vừa im lặng xong lại bắt đầu nói chuyện ầm ĩ."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "母は買い物に出かけたかと思うと、財布を取りに戻ってきた。",
+      "options": [
+       "Mẹ tôi đi mua sắm cả buổi rồi mới về lấy ví.",
+       "Vì quên ví nên mẹ tôi không đi mua sắm nữa.",
+       "Mẹ tôi tưởng mình mang ví nhưng thật ra đã để quên.",
+       "Mẹ tôi vừa ra ngoài đi mua sắm thì đã quay về lấy ví."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜かと思うと (vừa A thì đã B ngay): \"Mẹ tôi vừa ra ngoài đi mua sắm thì đã quay về lấy ví.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿消えてしまった。",
+      "options": [
+       "ついた",
+       "急に",
+       "テレビが",
+       "かと思うと、"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: テレビがついたかと思うと、急に消えてしまった。 (Ti vi vừa bật lên thì đã đột nhiên tắt mất.). Mảnh ở ô ★ là 「かと思うと、」."
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -151,7 +1290,191 @@
    "id": "JG-1703b7bb03"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "ベルが鳴る（　　）、学生たちは教室を出ていった。",
+      "options": [
+       "か鳴ったかのうちに",
+       "か鳴らないかのために",
+       "か鳴らないかのうちに",
+       "か鳴らないかの最中に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「か鳴らないかのうちに」: mẫu là Vる + か + Vない + かのうちに, lặp cùng động từ ở khẳng định và phủ định. Nghĩa: Chuông vừa reo, gần như chưa dứt, thì học sinh đã ra khỏi lớp."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "父は布団に入るか入らない（　　）、いびきをかき始めた。",
+      "options": [
+       "かの間に",
+       "かのとたんに",
+       "かの最中に",
+       "かのうちに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「かのうちに」: phần cuối cố định của mẫu là 〜かのうちに, không thay bằng 間に, とたんに hay 最中に. Nghĩa: Bố tôi vừa chui vào chăn, chưa kịp nằm hẳn, thì đã bắt đầu ngáy."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "電車のドアが＿＿ ＿＿ ★ ＿＿、電車は動き出した。",
+      "options": [
+       "うちに",
+       "閉まらない",
+       "かの",
+       "閉まるか"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 電車のドアが閉まるか閉まらないかのうちに、電車は動き出した。 (Cửa tàu vừa đóng, gần như chưa kịp đóng hẳn, thì tàu đã chuyển bánh.). Mảnh ở ô ★ là 「かの」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、子どもたちは食べ始めた。",
+      "options": [
+       "出ないか",
+       "のうちに",
+       "料理が",
+       "出るか"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 料理が出るか出ないかのうちに、子どもたちは食べ始めた。 (Món ăn vừa được mang ra, gần như chưa kịp đặt xuống, thì bọn trẻ đã ăn.). Mảnh ở ô ★ là 「出るか」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "電話を切るか切らないかのうちに、また電話がかかってきた。",
+      "options": [
+       "Tôi không biết có nên cúp máy hay không.",
+       "Tôi vừa cúp máy, gần như chưa kịp cúp, thì điện thoại lại reo.",
+       "Cúp máy được một lúc lâu thì điện thoại mới reo lại.",
+       "Vì điện thoại reo liên tục nên tôi không cúp máy."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜か〜ないかのうちに (việc sau xảy ra ngay khi việc trước gần như chưa xong): \"Tôi vừa cúp máy, gần như chưa kịp cúp, thì điện thoại lại reo.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "試合が始まるか始まらないかのうちに、雨が降り出した。",
+      "options": [
+       "Không biết trận đấu có bắt đầu hay không vì trời mưa.",
+       "Trận đấu kết thúc rồi trời mới đổ mưa.",
+       "Trận đấu vừa mới bắt đầu thì trời đã đổ mưa.",
+       "Vì trời mưa nên trận đấu bị hoãn lại."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜か〜ないかのうちに (gần như cùng lúc, việc trước chưa kịp xong): \"Trận đấu vừa mới bắt đầu thì trời đã đổ mưa.\" Mẫu này không mang nghĩa 'có hay không'."
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "授業が終わるか終わらないかのうちに、学生たちは立ち上がった。",
+       "夜が明けるか明けないかのうちに、父は出かけた。",
+       "席に着くか着かないかのうちに、映画が始まった。",
+       "ドアが開くか閉まらないかのうちに、客が入ってきた。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「ドアが開くか閉まらないかのうちに、客が入ってきた。」 sai: phải lặp lại cùng một động từ ở dạng khẳng định và phủ định. Câu đúng: ドアが開くか開かないかのうちに、客が入ってきた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "家に帰るか帰らないかのうちに、雨が降ってきた。",
+       "駅に着くか着かないかのうちに、電話をください。",
+       "ご飯を食べ終わるか終わらないかのうちに、弟は遊びに行った。",
+       "目を閉じるか閉じないかのうちに、眠ってしまった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「駅に着くか着かないかのうちに、電話をください。」 sai: vế sau của mẫu này là việc đã xảy ra, không dùng nhờ vả hay mệnh lệnh. Câu đúng: 駅に着いたら、すぐに電話をください。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "雨が降り出した。",
+       "出ないかの",
+       "家を出るか",
+       "うちに、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Tôi vừa bước ra khỏi nhà, gần như chưa kịp ra, thì trời đổ mưa."
+     },
+     {
+      "pieces": [
+       "鳴らないかのうちに、",
+       "チャイムが",
+       "生徒たちは席を立った。",
+       "鳴るか"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Chuông vừa reo, gần như chưa kịp dứt, thì học sinh đã đứng dậy khỏi chỗ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "電車に乗るか乗らない＿＿、ドアが閉まった。",
+      "answer": "かのうちに",
+      "accept": [
+       "かの内に"
+      ],
+      "translation_vi": "Tôi vừa bước lên tàu, gần như chưa kịp lên hẳn, thì cửa đã đóng lại."
+     },
+     {
+      "sentence_ja": "ボールを投げるか＿＿かのうちに、犬は走り出した。",
+      "answer": "投げない",
+      "translation_vi": "Tôi vừa ném bóng, gần như chưa kịp ném, thì con chó đã chạy vụt đi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "先生の話が終わるか（　　）かのうちに、学生たちは質問を始めた。",
+      "options": [
+       "終わった",
+       "終わらない",
+       "終わる",
+       "終わって"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「終わらない」: sau Vる + か phải là thể ない của cùng động từ rồi mới đến かのうちに. Nghĩa: Thầy vừa nói xong, gần như chưa dứt lời, thì học sinh đã bắt đầu hỏi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "赤ちゃんはミルクを飲み終わるか終わらないかのうちに、寝てしまった。",
+      "options": [
+       "Em bé vừa uống xong sữa, gần như chưa kịp xong, thì đã ngủ mất.",
+       "Em bé ngủ dậy rồi mới uống sữa.",
+       "Em bé không chịu uống sữa nên không ngủ được.",
+       "Không biết em bé đã uống xong sữa hay chưa."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜か〜ないかのうちに (việc sau xảy ra gần như cùng lúc việc trước): \"Em bé vừa uống xong sữa, gần như chưa kịp xong, thì đã ngủ mất.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "店が開くか開かないかのうちに、客が入ってきた。",
+       "外に出るか出ないかのうちに、雪が降り始めた。",
+       "店が開くか開くかのうちに、客が入ってきた。",
+       "ベッドに入るか入らないかのうちに、眠ってしまった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「店が開くか開くかのうちに、客が入ってきた。」 sai: vế thứ hai phải là thể phủ định ない của cùng động từ. Câu đúng: 店が開くか開かないかのうちに、客が入ってきた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -180,7 +1503,188 @@
    "id": "JG-d46e3e0d3d"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "電車が止まったら、歩い（　　）会社に行くつもりだ。",
+      "options": [
+       "たとたんに",
+       "たかと思うと",
+       "てでも",
+       "ている最中に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「てでも」: V-て + でも nêu cách làm vất vả mà người nói sẵn sàng chấp nhận, vế sau là ý định つもりだ. たとたんに, たかと思うと, 最中に đều không đi với vế sau là ý định. Nghĩa: Nếu tàu ngừng chạy thì dù phải đi bộ tôi cũng sẽ đến công ty."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "無理を（　　）、今日中にこの仕事を終わらせなければならない。",
+      "options": [
+       "するでも",
+       "してでも",
+       "したでも",
+       "しでも"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「してでも」: でも phải gắn sau thể て của động từ (する → して). Nghĩa: Dù có phải cố quá sức, tôi cũng phải làm xong việc này trong hôm nay."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "あの映画は、＿＿ ＿＿ ★ ＿＿行きたい。",
+      "options": [
+       "見に",
+       "でも",
+       "会社を",
+       "休んで"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: あの映画は、会社を休んででも見に行きたい。 (Bộ phim đó thì dù phải nghỉ làm tôi cũng muốn đi xem.). Mảnh ở ô ★ là 「でも」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿かなえたい。",
+      "options": [
+       "でも、",
+       "夢を",
+       "して",
+       "どんなことを"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: どんなことをしてでも、夢をかなえたい。 (Dù phải làm bất cứ điều gì, tôi cũng muốn biến ước mơ thành hiện thực.). Mảnh ở ô ★ là 「して」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "寝る時間を減らしてでも、試験に合格したい。",
+      "options": [
+       "Vì ngủ quá ít nên tôi đã thi trượt.",
+       "Tôi sẽ ngủ đủ giấc để thi cho tốt.",
+       "Dù đã thi đỗ nhưng tôi vẫn không ngủ được.",
+       "Dù phải bớt thời gian ngủ, tôi vẫn muốn thi đỗ."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜てでも (dù phải làm đến mức đó cũng muốn đạt mục đích): \"Dù phải bớt thời gian ngủ, tôi vẫn muốn thi đỗ.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "並んででも、あの店のラーメンが食べたい。",
+      "options": [
+       "Vì phải xếp hàng nên tôi không ăn mì ở quán đó nữa.",
+       "Dù phải xếp hàng, tôi vẫn muốn ăn mì ramen ở quán đó.",
+       "Tôi vừa xếp hàng vừa ăn mì ramen.",
+       "Quán mì đó lúc nào cũng vắng khách."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜てでも (chấp nhận việc vất vả để đạt điều mình muốn): \"Dù phải xếp hàng, tôi vẫn muốn ăn mì ramen ở quán đó.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "お金を借りてでも、留学したい。",
+       "どんなことをしてでも、家族を守るつもりだ。",
+       "雨が降ってでも、試合は中止になった。",
+       "電車が止まったら、タクシーに乗ってでも行かなければならない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「雨が降ってでも、試合は中止になった。」 sai: 〜てでも nêu biện pháp người nói chủ động chấp nhận để đạt mục đích, vế sau là ý muốn, không phải kết quả khách quan. Câu đúng: 雨が降ったので、試合は中止になった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "夜遅くまで練習してでも、大会で勝ちたい。",
+       "少し無理をしてでも、今月中に引っ越したい。",
+       "自分で働いてでも、大学に行きたい。",
+       "仕事を休むでも、子どもの運動会に行きたい。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「仕事を休むでも、子どもの運動会に行きたい。」 sai: でも phải đi sau thể て. Câu đúng: 仕事を休んででも、子どもの運動会に行きたい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "世界中を旅行したい。",
+       "辞めて",
+       "会社を",
+       "でも、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Dù phải nghỉ việc ở công ty, tôi vẫn muốn đi du lịch khắp thế giới."
+     },
+     {
+      "pieces": [
+       "今日中に荷物を届けなければならない。",
+       "頼んで",
+       "でも、",
+       "人に"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Dù phải nhờ người khác, tôi cũng phải giao hàng trong hôm nay."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "どんなことをし＿＿、この仕事は最後までやりとげたい。",
+      "answer": "てでも",
+      "translation_vi": "Dù phải làm bất cứ điều gì, tôi cũng muốn làm trọn công việc này đến cùng."
+     },
+     {
+      "sentence_ja": "電車がなければ、歩いて＿＿行くつもりだ。",
+      "answer": "でも",
+      "translation_vi": "Nếu không có tàu thì dù phải đi bộ tôi cũng sẽ đi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもの病気を治すためなら、家を（　　）お金を作るつもりだ。",
+      "options": [
+       "売るうちに",
+       "売ったとたんに",
+       "売ってでも",
+       "売る最中に"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「売ってでも」: V-て + でも nêu hy sinh lớn người nói sẵn sàng chấp nhận, vế sau là ý định. Các lựa chọn khác sai hình thức (最中に cần Vている) hoặc không đi với ý định. Nghĩa: Nếu là để chữa bệnh cho con, dù phải bán nhà tôi cũng sẽ lo đủ tiền."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "休みの日に出勤してでも、このプロジェクトを期限までに終わらせたい。",
+      "options": [
+       "Vì là ngày nghỉ nên tôi không đi làm.",
+       "Dự án xong sớm nên tôi được nghỉ thêm một ngày.",
+       "Dù phải đi làm cả vào ngày nghỉ, tôi vẫn muốn hoàn thành dự án này đúng hạn.",
+       "Tôi đã đi làm vào ngày nghỉ nhưng dự án vẫn bị trễ hạn."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜てでも (dù phải làm đến mức đó cũng muốn đạt mục đích): \"Dù phải đi làm cả vào ngày nghỉ, tôi vẫn muốn hoàn thành dự án này đúng hạn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "電車が遅れてでも、会議に間に合った。",
+       "会社を休んででも、母の手術の日には病院に行きたい。",
+       "人に頭を下げてでも、お金を集めなければならない。",
+       "朝早く起きてでも、毎日運動を続けるつもりだ。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「電車が遅れてでも、会議に間に合った。」 sai: 〜てでも không dùng cho sự việc khách quan đã xảy ra; vế sau phải là ý muốn hay quyết tâm. Câu đúng: 電車が遅れたが、会議に間に合った。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -207,7 +1711,191 @@
    "id": "JG-d3569a6699"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "料理をしている（　　）、ドアのチャイムが鳴った。",
+      "options": [
+       "とたんに",
+       "に当たって",
+       "ないうちに",
+       "最中に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「最中に」: Vている + 最中に nói đúng lúc việc đang diễn ra thì có việc xen vào. とたんに cần Vた; に当たって cần Vる/N; ないうちに cần thể ない. Nghĩa: Đúng lúc tôi đang nấu ăn thì chuông cửa reo."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "試験（　　）最中に、気分が悪くなった学生がいた。",
+      "options": [
+       "の",
+       "が",
+       "を",
+       "に"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「の」: danh từ nối với 最中に bằng の (N の最中に). Nghĩa: Đang giữa giờ thi thì có học sinh thấy khó chịu trong người."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿、電話がかかってきた。",
+      "options": [
+       "いる",
+       "最中に",
+       "浴びて",
+       "シャワーを"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: シャワーを浴びている最中に、電話がかかってきた。 (Đúng lúc tôi đang tắm vòi sen thì có điện thoại gọi đến.). Mảnh ở ô ★ là 「浴びて」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、マイクが壊れてしまった。",
+      "options": [
+       "発表の",
+       "部長の",
+       "大事な",
+       "最中に"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 部長の大事な発表の最中に、マイクが壊れてしまった。 (Đang giữa buổi thuyết trình quan trọng của trưởng phòng thì micro bị hỏng mất.). Mảnh ở ô ★ là 「発表の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "授業の最中に、地震が起きた。",
+      "options": [
+       "Trước giờ học đã xảy ra động đất.",
+       "Đang giữa giờ học thì xảy ra động đất.",
+       "Vì có động đất nên giờ học bị hủy.",
+       "Sau giờ học, chúng tôi luyện tập phòng chống động đất."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜の最中に (đúng lúc đang diễn ra việc gì thì việc khác xảy ra): \"Đang giữa giờ học thì xảy ra động đất.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "引っ越しの準備をしている最中に、友だちが手伝いに来てくれた。",
+      "options": [
+       "Chuẩn bị chuyển nhà xong rồi bạn tôi mới đến.",
+       "Vì bạn không đến giúp nên tôi tự chuẩn bị chuyển nhà.",
+       "Đúng lúc tôi đang chuẩn bị chuyển nhà thì bạn đến giúp.",
+       "Trước khi chuẩn bị chuyển nhà, tôi đã nhờ bạn giúp."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ている最中に (đúng lúc đang làm dở việc gì): \"Đúng lúc tôi đang chuẩn bị chuyển nhà thì bạn đến giúp.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "朝の最中に、コーヒーを飲んだ。",
+       "スピーチの最中に、電話が鳴ってしまった。",
+       "食事の最中に、停電した。",
+       "運転している最中に、眠くなって困った。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「朝の最中に、コーヒーを飲んだ。」 sai: 最中に đi với hoạt động đang diễn ra, không đi với danh từ chỉ thời điểm như 朝. Câu đúng: 朝、コーヒーを飲んだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "試合の最中に、雨が降り出した。",
+       "掃除をしている最中に、なくした指輪が見つかった。",
+       "会議をする最中に、部長が入ってきた。",
+       "話している最中に、電話が切れた。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「会議をする最中に、部長が入ってきた。」 sai: trước 最中に động từ phải ở dạng Vている (hoặc dùng N の). Câu đúng: 会議をしている最中に、部長が入ってきた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "おなかが痛くなった。",
+       "最中に、",
+       "テストを",
+       "受けている"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Đang làm bài kiểm tra thì tôi bị đau bụng."
+     },
+     {
+      "pieces": [
+       "急に電気が消えた。",
+       "の",
+       "パーティー",
+       "最中に、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Đang giữa bữa tiệc thì điện đột nhiên tắt."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "寝ている＿＿に、大きな音で目が覚めた。",
+      "answer": "最中",
+      "accept": [
+       "さいちゅう"
+      ],
+      "translation_vi": "Đang ngủ say thì tôi bị đánh thức bởi một tiếng động lớn."
+     },
+     {
+      "sentence_ja": "会議の最中＿＿、電話が鳴った。",
+      "answer": "に",
+      "translation_vi": "Đang giữa cuộc họp thì điện thoại reo."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "ゲームをしている（　　）、母に呼ばれた。",
+      "options": [
+       "に当たって",
+       "最中に",
+       "とたんに",
+       "ないうちに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「最中に」: Vている + 最中に, đang chơi dở thì bị mẹ gọi. に当たって, とたんに, ないうちに không đi sau Vている. Nghĩa: Đang chơi game dở thì tôi bị mẹ gọi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "発表している最中に、資料が足りないことに気がついた。",
+      "options": [
+       "Đúng lúc đang thuyết trình, tôi nhận ra tài liệu bị thiếu.",
+       "Trước khi thuyết trình, tôi đã kiểm tra đủ tài liệu.",
+       "Vì thiếu tài liệu nên tôi đã hủy buổi thuyết trình.",
+       "Thuyết trình xong tôi mới in thêm tài liệu."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ている最中に (đúng lúc đang làm dở việc gì thì có việc khác xảy ra): \"Đúng lúc đang thuyết trình, tôi nhận ra tài liệu bị thiếu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "お風呂に入っている最中に、宅配便が来た。",
+       "結婚式の最中に、子どもが急に歌い出した。",
+       "テストの最中に、鉛筆が折れてしまった。",
+       "食事の最中に、買い物に行こう。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「食事の最中に、買い物に行こう。」 sai: vế sau của 最中に là việc bất ngờ xen vào, không phải ý định hay rủ rê của chính mình. Câu đúng: 食事が終わったら、買い物に行こう。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -225,7 +1913,191 @@
    "id": "JG-5231e44ea7"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "暗くなら（　　）、家に帰りましょう。",
+      "options": [
+       "ない最中に",
+       "ないとたんに",
+       "ないうちに",
+       "ないに当たって"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ないうちに」: Vない + うちに là tranh thủ làm trước khi tình trạng đổi khác (trời tối). 最中に, とたんに, に当たって không đi sau thể ない. Nghĩa: Mình về nhà khi trời còn chưa tối đi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "電池が（　　）うちに、大事なメールを送っておいた。",
+      "options": [
+       "切れる",
+       "切れない",
+       "切れた",
+       "切れて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「切れない」: mẫu là Vない + うちに, tranh thủ trước khi pin hết. Nghĩa: Nhân lúc pin chưa hết, tôi đã gửi trước email quan trọng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿買っておこう。",
+      "options": [
+       "うちに",
+       "売り切れない",
+       "人気の",
+       "商品が"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 人気の商品が売り切れないうちに買っておこう。 (Mua trước món hàng được ưa chuộng khi nó còn chưa bán hết đi.). Mảnh ở ô ★ là 「売り切れない」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿掃除を済ませた。",
+      "options": [
+       "起きない",
+       "うちに、",
+       "まだ",
+       "子どもが"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 子どもがまだ起きないうちに、掃除を済ませた。 (Nhân lúc con còn chưa dậy, tôi đã dọn dẹp xong.). Mảnh ở ô ★ là 「起きない」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "暗くならないうちに、山を下りよう。",
+      "options": [
+       "Đợi trời tối rồi hãy xuống núi.",
+       "Vì trời đã tối nên chúng ta không xuống núi được.",
+       "Trong lúc xuống núi thì trời tối mất.",
+       "Hãy xuống núi khi trời còn chưa tối."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ないうちに (tranh thủ làm trước khi tình trạng thay đổi): \"Hãy xuống núi khi trời còn chưa tối.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "熱が上がらないうちに、薬を飲んで寝たほうがいい。",
+      "options": [
+       "Nên uống thuốc rồi đi ngủ trước khi sốt cao lên.",
+       "Vì sốt không hạ nên tôi đã uống thuốc.",
+       "Đợi sốt cao rồi hẵng uống thuốc.",
+       "Dù không sốt cũng không nên đi ngủ sớm."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ないうちに (làm trước khi tình trạng xấu đi): \"Nên uống thuốc rồi đi ngủ trước khi sốt cao lên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "店が閉まらないうちに、パンを買いに行こう。",
+       "道が混まないうちに、出発しよう。",
+       "アイスがとけないうちに、早く食べて。",
+       "暗くなるないうちに、家に帰ろう。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「暗くなるないうちに、家に帰ろう。」 sai: trước うちに phải là thể ない của động từ (なる → ならない). Câu đúng: 暗くならないうちに、家に帰ろう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "子どもが寝ないうちに、絵本を読んであげよう。",
+       "雨が降らなかったうちに、洗濯物を入れた。",
+       "人が来ないうちに、部屋を片付けよう。",
+       "お湯が冷めないうちに、お風呂に入りなさい。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「雨が降らなかったうちに、洗濯物を入れた。」 sai: ないうちに luôn dùng thể ない hiện tại, kể cả khi câu nói về quá khứ. Câu đúng: 雨が降らないうちに、洗濯物を入れた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "早く帰ろう。",
+       "ならない",
+       "暗く",
+       "うちに、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Mình mau về khi trời còn chưa tối đi."
+     },
+     {
+      "pieces": [
+       "切符を買っておこう。",
+       "うちに、",
+       "電車が",
+       "来ない"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Nhân lúc tàu chưa đến, mình mua vé trước đi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "道が混ま＿＿うちに、早めに出発しよう。",
+      "answer": "ない",
+      "translation_vi": "Mình xuất phát sớm khi đường còn chưa đông đi."
+     },
+     {
+      "sentence_ja": "お茶が冷めない＿＿、どうぞ飲んでください。",
+      "answer": "うちに",
+      "accept": [
+       "内に"
+      ],
+      "translation_vi": "Xin mời uống trà khi còn chưa nguội."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "母が帰ってこ（　　）、プレゼントを部屋に置いておこう。",
+      "options": [
+       "なかったうちに",
+       "ないうちを",
+       "ないうちで",
+       "ないうちに"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ないうちに」: dạng cố định là Vない + うちに (thể ない hiện tại, trợ từ に). Nghĩa: Nhân lúc mẹ chưa về, mình để sẵn quà trong phòng đi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "値段が上がらないうちに、新しいパソコンを買うつもりだ。",
+      "options": [
+       "Tôi định đợi giá tăng rồi mới mua máy tính mới.",
+       "Tôi định mua máy tính mới khi giá còn chưa tăng.",
+       "Vì giá đã tăng nên tôi không mua máy tính mới nữa.",
+       "Dù giá không tăng, tôi cũng không mua máy tính mới."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ないうちに (tranh thủ trước khi tình trạng thay đổi): \"Tôi định mua máy tính mới khi giá còn chưa tăng.\""
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、早く病院に行ったほうがいい。",
+      "options": [
+       "ひどく",
+       "うちに",
+       "けがが",
+       "ならない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: けががひどくならないうちに、早く病院に行ったほうがいい。 (Nên đi bệnh viện sớm khi vết thương còn chưa nặng thêm.). Mảnh ở ô ★ là 「ならない」."
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,

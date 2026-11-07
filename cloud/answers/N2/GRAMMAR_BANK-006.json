@@ -1,0 +1,1874 @@
+{
+ "JG-3a3cd2583d": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "頭が痛いやら熱が出る（　　）で、昨日は一日中寝ていた。",
+    "options": [
+     "ほど",
+     "やら",
+     "だけ",
+     "ばかり"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「やら」: やら phải đi thành cặp 〜やら〜やら để liệt kê 'nào là… nào là…'; đã có 痛いやら nên vế sau cũng là やら. ほど, だけ, ばかり không ghép cặp với やら. Nghĩa: Nào là đau đầu, nào là sốt, hôm qua tôi nằm cả ngày."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "財布をなくす（　　）電車に乗り遅れるやらで、ひどい一日だった。",
+    "options": [
+     "ので",
+     "から",
+     "やら",
+     "のに"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「やら」: vế sau đã có 乗り遅れるやら nên vế trước cũng phải là やら để thành cặp liệt kê. ので, から, のに là liên từ nối nguyên nhân, đối lập, không ghép với やら. Nghĩa: Nào là mất ví, nào là lỡ tàu, đúng là một ngày tệ hại."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "週末は＿＿ ＿＿ ★ ＿＿で、全然休めなかった。",
+    "options": [
+     "行く",
+     "洗濯をするやら",
+     "やら",
+     "買い物に"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 週末は洗濯をするやら買い物に行くやらで、全然休めなかった。 (Cuối tuần nào là giặt giũ, nào là đi mua sắm, chẳng nghỉ được chút nào.). Mảnh ở ô ★ là 「行く」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "パーティーの前は、料理を＿＿ ★ ＿＿ ＿＿で大変だった。",
+    "options": [
+     "やら",
+     "飾る",
+     "部屋を",
+     "作るやら"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: パーティーの前は、料理を作るやら部屋を飾るやらで大変だった。 (Trước bữa tiệc, nào là nấu ăn, nào là trang trí phòng, thật vất vả.). Mảnh ở ô ★ là 「部屋を」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "子どもが熱を出すやら夫が出張するやらで、今週は本当に忙しかった。",
+    "options": [
+     "Con không sốt, chồng cũng không đi công tác nên tuần này khá rảnh.",
+     "Tuần này nào là con bị sốt, nào là chồng đi công tác, thật sự bận rộn.",
+     "Vì con bị sốt nên chồng đã hủy chuyến công tác tuần này.",
+     "Dù con bị sốt hay chồng đi công tác thì tuần này cũng sẽ bận."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜やら〜やら (nào là… nào là…, hàm ý bận rộn, vất vả): \"Tuần này nào là con bị sốt, nào là chồng đi công tác, thật sự bận rộn.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "みんなの前でほめられて、うれしいやら恥ずかしいやらで顔が赤くなった。",
+    "options": [
+     "Bị chê trước mặt mọi người nên tôi xấu hổ đỏ cả mặt.",
+     "Được khen nhưng tôi chẳng thấy vui chút nào.",
+     "Tôi khen mọi người nên ai cũng vui vẻ.",
+     "Được khen trước mặt mọi người, tôi vừa vui vừa ngượng nên đỏ mặt."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜やら〜やら với hai cảm xúc lẫn lộn: \"Được khen trước mặt mọi người, tôi vừa vui vừa ngượng nên đỏ mặt.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "入学の前は、制服を買うやら書類を書くやらで忙しかった。",
+     "台風で、窓が割れるやら停電するやらで大騒ぎだった。",
+     "財布をなくすやら傘を忘れるやらで、今日はついていない。",
+     "コーヒーやら紅茶やら、どちらか一つ選んでください。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「コーヒーやら紅茶やら、どちらか一つ選んでください。」 sai: 〜やら〜やら dùng để liệt kê nhiều việc lộn xộn, không dùng để chọn một trong hai; chọn lựa phải dùng か〜か. Câu đúng: コーヒーか紅茶か、どちらか一つ選んでください。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "宿題が多いやら、テストがあるで、遊ぶ時間がない。",
+     "結婚式の準備で、招待状を送るやら会場を決めるやらで毎日忙しい。",
+     "会場は、拍手するやら叫ぶやらで大騒ぎになった。",
+     "家の中は、犬がほえるやら赤ちゃんが泣くやらでうるさかった。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「宿題が多いやら、テストがあるで」 sai: やら phải đi thành cặp, vế thứ hai cũng cần やら trước で. Câu đúng: 宿題が多いやら、テストがあるやらで、遊ぶ時間がない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "騒ぐ",
+     "子どもが泣くやら",
+     "電車の中は大変だった。",
+     "やらで、"
+    ],
+    "answer_order": [
+     1,
+     0,
+     3,
+     2
+    ],
+    "translation_vi": "Nào là trẻ con khóc, nào là làm ầm ĩ, trên tàu thật mệt."
+   },
+   {
+    "pieces": [
+     "鍵を",
+     "今朝は大変だった。",
+     "寝坊するやら",
+     "忘れるやらで、"
+    ],
+    "answer_order": [
+     2,
+     0,
+     3,
+     1
+    ],
+    "translation_vi": "Nào là ngủ quên, nào là quên chìa khóa, sáng nay thật vất vả."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "レポートを書く＿＿資料を集めるやらで、今週は寝る時間もない。",
+    "answer": "やら",
+    "translation_vi": "Nào là viết báo cáo, nào là thu thập tài liệu, tuần này đến thời gian ngủ cũng không có."
+   },
+   {
+    "sentence_ja": "試合に負けて、悲しい＿＿腹が立つやらで、その夜は眠れなかった。",
+    "answer": "やら",
+    "translation_vi": "Thua trận, tôi vừa buồn vừa bực, đêm đó không ngủ được."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "急に客が来て、お茶を出す（　　）部屋を片付けるやらで慌てた。",
+    "options": [
+     "ので",
+     "やら",
+     "けど",
+     "まで"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「やら」: vế sau có 片付けるやら nên vế trước cũng phải là やら để thành cặp liệt kê. ので, けど, まで không ghép được với やら. Nghĩa: Khách đến bất ngờ, nào là pha trà mời, nào là dọn phòng, tôi cuống cả lên."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "新しい仕事は、覚えることが多いやら残業が続くやらで、毎日疲れている。",
+    "options": [
+     "Công việc mới ít việc phải nhớ và không phải làm thêm giờ.",
+     "Công việc mới thú vị nên dù làm thêm tôi cũng không mệt.",
+     "Nếu nhớ được nhiều thì sẽ không phải làm thêm giờ.",
+     "Công việc mới nào là nhiều thứ phải nhớ, nào là làm thêm giờ liên tục, ngày nào tôi cũng mệt."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜やら〜やら (nào là… nào là…, dẫn tới tình trạng vất vả): \"Công việc mới nào là nhiều thứ phải nhớ, nào là làm thêm giờ liên tục, ngày nào tôi cũng mệt.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "旅行の前は、切符を買うやら荷物を準備するやらで忙しい。",
+     "雨が降ったり風が吹くやらで、ひどい天気だった。",
+     "引っ越しでは、箱を運ぶやら近所にあいさつするやらで疲れた。",
+     "母の誕生日は、ケーキを焼くやら花を買うやらで朝から大変だった。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「雨が降ったり風が吹くやらで」 sai: không trộn たり với やら; hai vế phải cùng dùng やら. Câu đúng: 雨が降るやら風が吹くやらで、ひどい天気だった。"
+   }
+  ]
+ },
+ "JG-e3ad9c21ab": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "賛成する（　　）反対するにしても、理由をはっきり言ってください。",
+    "options": [
+     "ばかりか",
+     "からして",
+     "にしても",
+     "にとって"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にしても」: vế sau đã có 反対するにしても nên vế trước cũng là にしても, thành cặp 'dù A hay B'. ばかりか (không chỉ… mà còn), からして (ngay cả), にとって (đối với) không ghép cặp được. Nghĩa: Dù tán thành hay phản đối, xin hãy nói rõ lý do."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "ビール（　　）ワインにしても、飲みすぎは体に悪い。",
+    "options": [
+     "にしても",
+     "さえ",
+     "ほど",
+     "まで"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「にしても」: N + にしても + N + にしても nêu hai trường hợp cùng loại để nói kết luận chung. さえ, ほど, まで không ghép cặp với ワインにしても. Nghĩa: Dù là bia hay rượu vang, uống quá nhiều đều có hại cho sức khỏe."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿大切だ。",
+    "options": [
+     "練習することが",
+     "ギターにしても",
+     "毎日",
+     "ピアノにしても"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: ピアノにしてもギターにしても毎日練習することが大切だ。 (Dù là piano hay guitar thì việc luyện tập mỗi ngày đều quan trọng.). Hai mảnh にしても có thể đổi chỗ, nhưng mảnh ở ô ★ luôn là 「毎日」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "野菜にしても＿＿ ★ ＿＿ ＿＿よく見て選ぼう。",
+    "options": [
+     "買うときは",
+     "果物",
+     "色を",
+     "にしても、"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 野菜にしても果物にしても、買うときは色をよく見て選ぼう。 (Dù là rau hay trái cây, khi mua hãy nhìn kỹ màu sắc để chọn.). Mảnh ở ô ★ là 「にしても、」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "勝つにしても負けるにしても、最後まで全力でプレーしよう。",
+    "options": [
+     "Nếu thắng thì hãy chơi hết sức, còn thua thì thôi.",
+     "Vì chắc chắn sẽ thua nên không cần cố hết sức.",
+     "Dù thắng hay thua, hãy chơi hết sức đến phút cuối.",
+     "Thắng hay thua đã được quyết định từ đầu rồi."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜にしても〜にしても (dù A hay B thì cũng…): \"Dù thắng hay thua, hãy chơi hết sức đến phút cuối.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "兄にしても姉にしても、家族はみんな料理が得意だ。",
+    "options": [
+     "Cả anh trai lẫn chị gái, nhà tôi ai cũng nấu ăn giỏi.",
+     "Anh trai thì nấu ăn giỏi nhưng chị gái thì không.",
+     "Anh trai và chị gái hay nhờ cả nhà nấu ăn.",
+     "Vì anh chị nấu ăn giỏi nên tôi không cần nấu."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜にしても〜にしても (dù là A hay B đều như nhau): \"Cả anh trai lẫn chị gái, nhà tôi ai cũng nấu ăn giỏi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "夏にしても冬にしても、この部屋は快適だ。",
+     "バスで行くにしても電車で行くにしても、一時間はかかる。",
+     "学生だにしても社会人だにしても、ルールは守るべきだ。",
+     "日本語にしても英語にしても、毎日使わないと忘れてしまう。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「学生だにしても社会人だにしても」 sai: danh từ gắn thẳng にしても, không thêm だ. Câu đúng: 学生にしても社会人にしても、ルールは守るべきだ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "出席するにしても欠席するにしても、返事は金曜日までにお願いします。",
+     "男性にしても女性にしても、働きやすい職場が必要だ。",
+     "電話にしてもメールにしても、連絡は早いほうがいい。",
+     "来てにしても来なくてにしても、知らせてください。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「来てにしても来なくてにしても」 sai: にしても đi sau Vる/Vない (thể thường), không đi sau thể て. Câu đúng: 来るにしても来ないにしても、知らせてください。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "しないにしても、",
+     "留学するにしても",
+     "準備は早く始めたほうがいい。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2
+    ],
+    "translation_vi": "Dù có đi du học hay không, nên bắt đầu chuẩn bị sớm."
+   },
+   {
+    "pieces": [
+     "この店は",
+     "にしても",
+     "値段",
+     "量にしても満足できる。"
+    ],
+    "answer_order": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "translation_vi": "Quán này dù là giá cả hay lượng đồ ăn đều làm tôi hài lòng."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "冬＿＿夏にしても、この地方の天気は変わりやすい。",
+    "answer": "にしても",
+    "accept": [
+     "にしろ",
+     "にせよ"
+    ],
+    "translation_vi": "Dù là mùa đông hay mùa hè, thời tiết vùng này đều dễ thay đổi."
+   },
+   {
+    "sentence_ja": "手紙にしても電話に＿＿、早く連絡したほうがいい。",
+    "answer": "しても",
+    "accept": [
+     "しろ",
+     "せよ"
+    ],
+    "translation_vi": "Dù bằng thư hay điện thoại, nên liên lạc sớm thì hơn."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "急ぐ（　　）急がないにしても、駅までの時間を調べておこう。",
+    "options": [
+     "からして",
+     "にしても",
+     "ばかりか",
+     "につき"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「にしても」: hai vế đối lập 急ぐ / 急がない đều dùng にしても để nói 'dù có vội hay không'. からして, ばかりか, につき không ghép cặp với 急がないにしても. Nghĩa: Dù có vội hay không, hãy tra trước thời gian đi đến ga."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "賛成にしても反対にしても、自分の意見を持つことが大事だ。",
+    "options": [
+     "Dù tán thành hay phản đối, điều quan trọng là có ý kiến của riêng mình.",
+     "Vì đã tán thành nên không cần có ý kiến riêng.",
+     "Nếu phản đối thì nhất định phải nói ra ý kiến.",
+     "Tán thành hay phản đối thì nên làm theo ý kiến số đông."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜にしても〜にしても (dù A hay B thì kết luận vẫn vậy): \"Dù tán thành hay phản đối, điều quan trọng là có ý kiến của riêng mình.\""
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿は早めに出してください。",
+    "options": [
+     "出席するにしても",
+     "返事の",
+     "欠席するにしても",
+     "はがき"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 出席するにしても欠席するにしても返事のはがきは早めに出してください。 (Dù tham dự hay vắng mặt, xin hãy gửi bưu thiếp hồi âm sớm.). Hai mảnh にしても có thể đổi chỗ, nhưng mảnh ở ô ★ luôn là 「返事の」."
+   }
+  ]
+ },
+ "JG-305014dc7a": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "肉にしろ野菜（　　）、安いうちに買っておこう。",
+    "options": [
+     "さえ",
+     "にしろ",
+     "ほど",
+     "しか"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「にしろ」: vế trước đã có 肉にしろ nên vế sau cũng là にしろ, thành cặp 'dù là A hay B'. さえ, ほど, しか không ghép cặp với にしろ. Nghĩa: Dù là thịt hay rau, hãy mua sẵn khi còn rẻ."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "来る（　　）来ないにしろ、前の日までに知らせてください。",
+    "options": [
+     "ばかりか",
+     "からして",
+     "とおりに",
+     "にしろ"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「にしろ」: 来る / 来ない là hai trường hợp đối lập, đều đi với にしろ để nói 'dù đến hay không'. ばかりか, からして, とおりに không ghép cặp được. Nghĩa: Dù đến hay không đến, xin hãy báo trước một ngày."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿は守らなければならない。",
+    "options": [
+     "社長にしろ",
+     "新入社員にしろ",
+     "会社の",
+     "ルール"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 社長にしろ新入社員にしろ会社のルールは守らなければならない。 (Dù là giám đốc hay nhân viên mới đều phải tuân thủ quy định công ty.). Hai mảnh にしろ có thể đổi chỗ, nhưng mảnh ở ô ★ luôn là 「会社の」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "引っ越す＿＿ ★ ＿＿ ＿＿相談したい。",
+    "options": [
+     "家族と",
+     "よく",
+     "引っ越さないにしろ、",
+     "にしろ"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 引っ越すにしろ引っ越さないにしろ、家族とよく相談したい。 (Dù chuyển nhà hay không, tôi muốn bàn kỹ với gia đình.). Mảnh ở ô ★ là 「引っ越さないにしろ、」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "旅行にしろ買い物にしろ、お金の使いすぎには気をつけたい。",
+    "options": [
+     "Tôi chỉ tiêu nhiều tiền khi du lịch, còn mua sắm thì không.",
+     "Vì du lịch tốn tiền nên tôi không đi mua sắm.",
+     "Du lịch hay mua sắm thì cũng nên tiêu thật nhiều tiền.",
+     "Dù là du lịch hay mua sắm, tôi muốn cẩn thận đừng tiêu quá nhiều tiền."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜にしろ〜にしろ (dù là A hay B thì cũng…): \"Dù là du lịch hay mua sắm, tôi muốn cẩn thận đừng tiêu quá nhiều tiền.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "休むにしろ続けるにしろ、まず医者に相談しなさい。",
+    "options": [
+     "Hãy nghỉ ngơi rồi tiếp tục đi khám bác sĩ.",
+     "Nếu bác sĩ cho phép thì hãy tiếp tục.",
+     "Dù nghỉ hay tiếp tục, trước hết hãy hỏi ý kiến bác sĩ.",
+     "Vì đã hỏi bác sĩ rồi nên có thể nghỉ."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜にしろ〜にしろ (dù A hay B, lời khuyên ở vế sau vẫn không đổi): \"Dù nghỉ hay tiếp tục, trước hết hãy hỏi ý kiến bác sĩ.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "コーヒーにしろ紅茶にしろ、どちらが好きですか。",
+     "大人にしろ子どもにしろ、ルールは同じだ。",
+     "勝つにしろ負けるにしろ、いい経験になるだろう。",
+     "和食にしろ洋食にしろ、この店の料理はおいしい。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「コーヒーにしろ紅茶にしろ、どちらが好きですか。」 sai: 〜にしろ〜にしろ nói 'dù A hay B thì cũng như nhau', không dùng để hỏi chọn cái nào. Câu đúng: コーヒーと紅茶と、どちらが好きですか。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "ペンにしろ鉛筆にしろ、書くものを持ってきてください。",
+     "行きにしろ行かないにしろ、早めに決めてください。",
+     "晴れにしろ雨にしろ、運動会は行います。",
+     "電話するにしろメールするにしろ、一言お礼を言うべきだ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「行きにしろ」 sai: động từ trước にしろ để ở thể thường (Vる/Vない), không dùng dạng ます bỏ ます. Câu đúng: 行くにしろ行かないにしろ、早めに決めてください。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "買わないにしろ、",
+     "実物を一度見ておきたい。",
+     "買うにしろ"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1
+    ],
+    "translation_vi": "Dù mua hay không, tôi cũng muốn xem tận mắt hàng thật một lần."
+   },
+   {
+    "pieces": [
+     "自分の",
+     "責任を",
+     "成功するにしろ失敗するにしろ、",
+     "持つべきだ。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Dù thành công hay thất bại, mình cũng nên chịu trách nhiệm về việc của mình."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "冗談に＿＿本気にしろ、そんなことを言ってはいけない。",
+    "answer": "しろ",
+    "accept": [
+     "しても",
+     "せよ"
+    ],
+    "translation_vi": "Dù là nói đùa hay nói thật, cũng không được nói những điều như vậy."
+   },
+   {
+    "sentence_ja": "男性＿＿女性にしろ、能力のある人を採用したい。",
+    "answer": "にしろ",
+    "accept": [
+     "にしても",
+     "にせよ"
+    ],
+    "translation_vi": "Dù là nam hay nữ, tôi muốn tuyển người có năng lực."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "進学（　　）就職にしろ、自分でよく考えて決めなさい。",
+    "options": [
+     "ほど",
+     "さえ",
+     "にしろ",
+     "だけ"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にしろ」: 進学 / 就職 là hai lựa chọn, đều đi với にしろ để nói 'dù là học tiếp hay đi làm'. ほど, さえ, だけ không ghép cặp với 就職にしろ. Nghĩa: Dù học lên hay đi làm, hãy tự suy nghĩ kỹ rồi quyết định."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "雨にしろ雪にしろ、明日の工事は予定どおり行う。",
+    "options": [
+     "Nếu trời mưa thì công trình ngày mai sẽ hoãn.",
+     "Dù mưa hay tuyết, công trình ngày mai vẫn làm theo kế hoạch.",
+     "Công trình ngày mai chỉ làm khi trời không mưa, không tuyết.",
+     "Vì có tuyết nên công trình ngày mai đã bị hoãn."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜にしろ〜にしろ (dù A hay B thì cũng vậy): \"Dù mưa hay tuyết, công trình ngày mai vẫn làm theo kế hoạch.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "日本人にしろ外国人にしろ、このルールは守ってください。",
+     "バスにしろタクシーにしろ、空港まで一時間はかかる。",
+     "受けるにしろ受けないにしろ、試験の申し込みは今日までだ。",
+     "寒いにしろ暑いにしろで、エアコンは必要だ。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「寒いにしろ暑いにしろで」 sai: sau cặp 〜にしろ〜にしろ nối thẳng vào vế sau, không thêm で. Câu đúng: 寒いにしろ暑いにしろ、エアコンは必要だ。"
+   }
+  ]
+ },
+ "JG-ec9c4a56a1": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この店では、ラーメンやうどん（　　）めん類が人気だ。",
+    "options": [
+     "にとって",
+     "として",
+     "といった",
+     "によって"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「といった」: N1 や N2 + といった + N nêu vài ví dụ tiêu biểu rồi gọi tên cả nhóm (めん類). にとって, として, によって không gắn thẳng trước danh từ mà không có の. Nghĩa: Ở quán này, các món mì như ramen hay udon được ưa chuộng."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "日本語の勉強には、漢字や敬語（　　）難しい点がたくさんある。",
+    "options": [
+     "について",
+     "に対して",
+     "によると",
+     "といった"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「といった」: nêu ví dụ 漢字, 敬語 rồi nói chung 難しい点. について, に対して cần の trước danh từ; によると là nguồn tin, không bổ nghĩa cho danh từ. Nghĩa: Học tiếng Nhật có nhiều điểm khó như chữ Hán hay kính ngữ."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この大学には、＿＿ ＿＿ ★ ＿＿たくさんいる。",
+    "options": [
+     "アジアからの留学生が",
+     "といった",
+     "中国や",
+     "韓国"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この大学には、中国や韓国といったアジアからの留学生がたくさんいる。 (Trường đại học này có nhiều du học sinh đến từ châu Á như Trung Quốc hay Hàn Quốc.). Mảnh ở ô ★ là 「といった」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "姉は＿＿ ★ ＿＿ ＿＿が得意だ。",
+    "options": [
+     "といった",
+     "お菓子作り",
+     "クッキー",
+     "ケーキや"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 姉はケーキやクッキーといったお菓子作りが得意だ。 (Chị tôi giỏi làm các loại bánh như bánh kem hay bánh quy.). Mảnh ở ô ★ là 「クッキー」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "地震や台風といった自然災害に備えて、水を用意しておこう。",
+    "options": [
+     "Hãy chuẩn bị nước vì sắp có động đất và bão.",
+     "Chỉ có động đất và bão mới được gọi là thiên tai.",
+     "Sau động đất và bão, nước đã bị cắt.",
+     "Hãy chuẩn bị sẵn nước để phòng thiên tai như động đất hay bão."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜といった (như là…, nêu ví dụ tiêu biểu cho cả nhóm): \"Hãy chuẩn bị sẵn nước để phòng thiên tai như động đất hay bão.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この町には、美術館や図書館といった施設が多い。",
+    "options": [
+     "Thị trấn này có nhiều cơ sở như bảo tàng mỹ thuật hay thư viện.",
+     "Thị trấn này chỉ có đúng bảo tàng mỹ thuật và thư viện.",
+     "Thị trấn này không có bảo tàng mỹ thuật hay thư viện.",
+     "Bảo tàng mỹ thuật của thị trấn này nằm cạnh thư viện."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜といった (nêu ví dụ, không liệt kê hết): \"Thị trấn này có nhiều cơ sở như bảo tàng mỹ thuật hay thư viện.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "りんごやみかんといった果物をよく食べる。",
+     "父は野球やゴルフといった好きだ。",
+     "京都や奈良といった古い町を旅行したい。",
+     "パンやケーキといった甘いものが好きだ。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「父は野球やゴルフといった好きだ。」 sai: sau といった phải có danh từ chỉ cả nhóm. Câu đúng: 父は野球やゴルフといったスポーツが好きだ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "ピアノやバイオリンといった楽器を習っている。",
+     "医者や看護師といった仕事は大変だ。",
+     "赤や青といったの色がきれいだ。",
+     "テニスや水泳といったスポーツが好きだ。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「赤や青といったの色」 sai: といった gắn thẳng vào danh từ phía sau, không chen の. Câu đúng: 赤や青といった色がきれいだ。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "といった",
+     "電気代や",
+     "ガス代",
+     "生活費が上がっている。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3
+    ],
+    "translation_vi": "Các khoản sinh hoạt phí như tiền điện, tiền ga đang tăng lên."
+   },
+   {
+    "pieces": [
+     "野菜を",
+     "トマトや",
+     "毎日食べている。",
+     "キャベツといった"
+    ],
+    "answer_order": [
+     1,
+     3,
+     0,
+     2
+    ],
+    "translation_vi": "Ngày nào tôi cũng ăn các loại rau như cà chua hay bắp cải."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "すしや天ぷら＿＿日本料理は、外国人に人気がある。",
+    "answer": "といった",
+    "accept": [
+     "などの",
+     "のような"
+    ],
+    "translation_vi": "Những món Nhật như sushi hay tempura được người nước ngoài ưa chuộng."
+   },
+   {
+    "sentence_ja": "サッカーや野球と＿＿スポーツは、子どもたちに人気だ。",
+    "answer": "いった",
+    "translation_vi": "Các môn thể thao như bóng đá hay bóng chày được trẻ em yêu thích."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この店では、時計や指輪（　　）高い品物も売っている。",
+    "options": [
+     "によって",
+     "といった",
+     "に関して",
+     "にとって"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「といった」: nêu ví dụ 時計, 指輪 rồi nói chung 高い品物. によって, に関して, にとって không gắn thẳng trước danh từ. Nghĩa: Cửa hàng này cũng bán những món đắt tiền như đồng hồ hay nhẫn."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "パソコンやスマホといった機械は、使い方を覚えるのが大変だ。",
+    "options": [
+     "Học cách dùng máy tính dễ hơn điện thoại thông minh.",
+     "Tôi không có máy tính cũng không có điện thoại thông minh.",
+     "Những thiết bị như máy tính hay điện thoại thông minh thì học cách dùng rất vất vả.",
+     "Ngoài máy tính và điện thoại thông minh, máy móc khác đều khó dùng."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜といった (như là…): \"Những thiết bị như máy tính hay điện thoại thông minh thì học cách dùng rất vất vả.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "日本の夏といった、暑くて大変だ。",
+     "犬や猫といったペットを飼う人が増えた。",
+     "東京や大阪といった大都市は家賃が高い。",
+     "バスや電車といった交通機関を使ってください。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「日本の夏といった、暑くて大変だ。」 sai: といった dùng để nêu ví dụ trước danh từ chỉ nhóm, không dùng để nêu chủ đề; muốn nói 'nhắc đến hè Nhật Bản' phải dùng といえば. Câu đúng: 日本の夏といえば、暑くて大変だ。"
+   }
+  ]
+ },
+ "JG-6dbab8dc1a": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "このアルバイトは、経験（　　）だれでも応募できます。",
+    "options": [
+     "をめぐって",
+     "を問わず",
+     "をもとに",
+     "に沿って"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「を問わず」: bất kể có kinh nghiệm hay không, ai cũng ứng tuyển được. をめぐって (xoay quanh), をもとに (dựa trên), に沿って (theo đúng) không hợp nghĩa. Nghĩa: Công việc làm thêm này ai cũng có thể ứng tuyển, không cần kinh nghiệm."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "男女（　　）、だれでも参加できる料理教室です。",
+    "options": [
+     "にとって",
+     "をこめて",
+     "に対して",
+     "を問わず"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「を問わず」: N chỉ phạm vi hai phía (男女) + を問わず = không phân biệt nam hay nữ. にとって (đối với), をこめて (gửi gắm), に対して (đối với, nhắm vào) không hợp nghĩa. Nghĩa: Đây là lớp nấu ăn mà ai cũng tham gia được, không phân biệt nam nữ."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この教室には、＿＿ ＿＿ ★ ＿＿が集まっている。",
+    "options": [
+     "人",
+     "好きな",
+     "年齢を問わず",
+     "料理が"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この教室には、年齢を問わず料理が好きな人が集まっている。 (Lớp học này tập hợp những người thích nấu ăn, không phân biệt tuổi tác.). Mảnh ở ô ★ là 「好きな」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "このお寺には、季節＿＿ ★ ＿＿ ＿＿が訪れる。",
+    "options": [
+     "観光客",
+     "を問わず",
+     "外国人",
+     "多くの"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: このお寺には、季節を問わず多くの外国人観光客が訪れる。 (Ngôi chùa này có nhiều du khách nước ngoài đến thăm, bất kể mùa nào.). Mảnh ở ô ★ là 「多くの」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "このコンテストは、プロかアマチュアかを問わず参加できる。",
+    "options": [
+     "Cuộc thi này chỉ dành cho người chuyên nghiệp.",
+     "Cuộc thi này ai cũng tham gia được, bất kể là chuyên nghiệp hay nghiệp dư.",
+     "Người nghiệp dư phải hỏi trước khi tham gia cuộc thi này.",
+     "Cuộc thi này sẽ hỏi xem bạn là chuyên nghiệp hay nghiệp dư."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + を問わず (bất kể, không phân biệt): \"Cuộc thi này ai cũng tham gia được, bất kể là chuyên nghiệp hay nghiệp dư.\" Ở đây 問わず không có nghĩa 'hỏi'."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この薬は、大人、子どもを問わず使えます。",
+    "options": [
+     "Thuốc này chỉ dành cho người lớn, trẻ em không dùng được.",
+     "Trước khi dùng thuốc này, hãy hỏi người lớn.",
+     "Người lớn dùng được thuốc này, còn trẻ em phải hỏi bác sĩ.",
+     "Thuốc này dùng được cho cả người lớn lẫn trẻ em."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + を問わず (không phân biệt N): \"Thuốc này dùng được cho cả người lớn lẫn trẻ em.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "経験を問わず、やる気のある人を募集しています。",
+     "田中さんを問わず、みんな参加します。",
+     "この店は曜日を問わず、朝十時から開いている。",
+     "性別を問わず、だれでも応募できます。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「田中さんを問わず」 sai: N trước を問わず phải là danh từ có thể chia thành nhiều loại (年齢, 性別, 曜日...), không dùng cho tên một người cụ thể. Câu đúng: 田中さんだけでなく、みんな参加します。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "国籍を問わず、留学生を受け入れている。",
+     "天候を問わず、試合は行われます。",
+     "学歴を問わず、能力で評価する会社だ。",
+     "年齢に問わず、だれでも参加できます。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「年齢に問わず」 sai: trợ từ của mẫu là を (N + を問わず), không dùng に. Câu đúng: 年齢を問わず、だれでも参加できます。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "を問わず",
+     "楽しめる",
+     "年齢",
+     "ゲームです。"
+    ],
+    "answer_order": [
+     2,
+     0,
+     1,
+     3
+    ],
+    "translation_vi": "Đây là trò chơi ai cũng vui được, không phân biệt tuổi tác."
+   },
+   {
+    "pieces": [
+     "使われている。",
+     "多くの人に",
+     "を問わず",
+     "世代"
+    ],
+    "answer_order": [
+     3,
+     2,
+     1,
+     0
+    ],
+    "translation_vi": "Được nhiều người sử dụng, bất kể thế hệ nào."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "このマラソン大会は、性別や年齢を＿＿、だれでも参加できる。",
+    "answer": "問わず",
+    "accept": [
+     "とわず"
+    ],
+    "translation_vi": "Giải chạy marathon này ai cũng tham gia được, không phân biệt giới tính hay tuổi tác."
+   },
+   {
+    "sentence_ja": "当店は、曜日＿＿夜十時まで営業しています。",
+    "answer": "を問わず",
+    "accept": [
+     "をとわず",
+     "にかかわらず",
+     "に関わらず",
+     "に関係なく"
+    ],
+    "translation_vi": "Cửa hàng chúng tôi mở cửa đến mười giờ tối, bất kể ngày nào trong tuần."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "このサークルは、学部や学年（　　）、だれでも入れます。",
+    "options": [
+     "を問わず",
+     "をめぐって",
+     "にこたえて",
+     "に沿って"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「を問わず」: không phân biệt khoa hay năm học, ai cũng vào được. をめぐって (xoay quanh), にこたえて (đáp lại), に沿って (theo đúng) không hợp nghĩa. Nghĩa: Câu lạc bộ này ai cũng vào được, không phân biệt khoa hay năm học."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "この仕事は、経験の長さを問わず、同じ給料です。",
+    "options": [
+     "Công việc này trả lương theo số năm kinh nghiệm.",
+     "Chỉ người có nhiều năm kinh nghiệm mới được nhận việc này.",
+     "Công việc này sẽ hỏi số năm kinh nghiệm trước khi trả lương.",
+     "Công việc này lương như nhau, bất kể kinh nghiệm dài hay ngắn."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + を問わず (bất kể N thế nào): \"Công việc này lương như nhau, bất kể kinh nghiệm dài hay ngắn.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "この図書館は、年齢を問わず利用できる。",
+     "季節を問わず、この山は登山客が多い。",
+     "参加するを問わず、連絡してください。",
+     "男女を問わず、人気のある歌手だ。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「参加するを問わず」 sai: を問わず chỉ đi sau danh từ; với động từ phải nói 参加するかしないかを問わず (hoặc dùng にかかわらず). Câu đúng: 参加するかしないかを問わず、連絡してください。"
+   }
+  ]
+ },
+ "JG-e2dfa20f95": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "雨が降るか降らないか（　　）、試合は予定どおり行います。",
+    "options": [
+     "にもかかわらず",
+     "にかかわらず",
+     "からといって",
+     "ばかりに"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「にかかわらず」: Vる か Vない か + にかかわらず = bất kể mưa hay không. にもかかわらず là 'mặc dù' (nói sự thật đã xảy ra), からといって (chỉ vì… mà), ばかりに (chỉ tại) không đi sau cặp か〜か. Nghĩa: Dù trời mưa hay không, trận đấu vẫn diễn ra theo kế hoạch."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "金額の大小（　　）、カードで支払えます。",
+    "options": [
+     "にとって",
+     "につれて",
+     "にかかわらず",
+     "に比べて"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「にかかわらず」: bất kể số tiền lớn hay nhỏ đều trả bằng thẻ được. にとって (đối với), につれて (càng… càng), に比べて (so với) không hợp nghĩa. Nghĩa: Dù số tiền lớn hay nhỏ, bạn đều có thể thanh toán bằng thẻ."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この店は＿＿ ＿＿ ★ ＿＿で届けてくれる。",
+    "options": [
+     "無料",
+     "にかかわらず",
+     "量",
+     "注文の"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この店は注文の量にかかわらず無料で届けてくれる。 (Cửa hàng này giao hàng miễn phí bất kể đặt nhiều hay ít.). Mảnh ở ô ★ là 「にかかわらず」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿、毎月一回会議を開きます。",
+    "options": [
+     "ないか",
+     "にかかわらず",
+     "問題が",
+     "あるか"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 問題があるかないかにかかわらず、毎月一回会議を開きます。 (Dù có vấn đề hay không, mỗi tháng chúng tôi đều họp một lần.). Mảnh ở ô ★ là 「あるか」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "経験のあるなしにかかわらず、だれでも応募できます。",
+    "options": [
+     "Mặc dù có kinh nghiệm nhưng vẫn không ứng tuyển được.",
+     "Chỉ người có kinh nghiệm mới được ứng tuyển.",
+     "Bất kể có kinh nghiệm hay không, ai cũng có thể ứng tuyển.",
+     "Vì không có kinh nghiệm nên không thể ứng tuyển."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu 〜にかかわらず (bất kể, không liên quan đến): \"Bất kể có kinh nghiệm hay không, ai cũng có thể ứng tuyển.\" Không nhầm với にもかかわらず (mặc dù)."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "好き嫌いにかかわらず、野菜も食べなさい。",
+    "options": [
+     "Dù thích hay không, con cũng phải ăn cả rau nữa.",
+     "Vì con thích rau nên hãy ăn nhiều vào.",
+     "Mặc dù ghét rau nhưng con vẫn ăn.",
+     "Nếu không thích thì không cần ăn rau."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu 〜にかかわらず với cặp đối lập 好き嫌い: \"Dù thích hay không, con cũng phải ăn cả rau nữa.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "熱があるにかかわらず、彼は会社に来た。",
+     "天気にかかわらず、イベントは行われます。",
+     "年齢にかかわらず、だれでも利用できます。",
+     "成功するかどうかにかかわらず、やってみる価値はある。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「熱があるにかかわらず、彼は会社に来た。」 sai: ý 'mặc dù bị sốt vẫn đi làm' phải dùng にもかかわらず; にかかわらず là 'bất kể'. Câu đúng: 熱があるにもかかわらず、彼は会社に来た。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "結果にかかわらず、努力したことが大切だ。",
+     "曜日にかかわらず、この店は込んでいる。",
+     "好きかどうかをかかわらず、全部食べなさい。",
+     "参加者の多少にかかわらず、会は予定どおり開く。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「好きかどうかをかかわらず」 sai: trợ từ của mẫu là に (〜にかかわらず), không dùng を. Câu đúng: 好きかどうかにかかわらず、全部食べなさい。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "散歩している。",
+     "にかかわらず、毎朝",
+     "晴れか雨か"
+    ],
+    "answer_order": [
+     2,
+     1,
+     0
+    ],
+    "translation_vi": "Dù trời nắng hay mưa, sáng nào tôi cũng đi dạo."
+   },
+   {
+    "pieces": [
+     "かどうか",
+     "合格する",
+     "にかかわらず、",
+     "最後まで頑張りたい。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "translation_vi": "Dù có đỗ hay không, tôi cũng muốn cố gắng đến cùng."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "参加者の人数＿＿、会は予定どおり開きます。",
+    "answer": "にかかわらず",
+    "accept": [
+     "に関わらず",
+     "に関係なく",
+     "を問わず"
+    ],
+    "translation_vi": "Bất kể số người tham gia bao nhiêu, buổi họp vẫn diễn ra theo kế hoạch."
+   },
+   {
+    "sentence_ja": "経験が＿＿かないかにかかわらず、研修を受けてもらいます。",
+    "answer": "ある",
+    "translation_vi": "Dù có kinh nghiệm hay không, mọi người đều phải tham gia khóa đào tạo."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "時間が早いか遅いか（　　）、着いたら電話してください。",
+    "options": [
+     "にかかわらず",
+     "にもかかわらず",
+     "ものの",
+     "からには"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「にかかわらず」: sau cặp 早いか遅いか dùng にかかわらず = dù sớm hay muộn. にもかかわらず (mặc dù), ものの (tuy… nhưng), からには (đã… thì) không đi sau cặp か〜か. Nghĩa: Dù sớm hay muộn, đến nơi thì hãy gọi điện cho tôi."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "このサービスは、利用回数にかかわらず料金が同じです。",
+    "options": [
+     "Dịch vụ này càng dùng nhiều thì càng đắt.",
+     "Mặc dù dùng nhiều lần nhưng giá vẫn rẻ.",
+     "Dịch vụ này tính tiền theo số lần sử dụng.",
+     "Dịch vụ này có giá như nhau, bất kể dùng bao nhiêu lần."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + にかかわらず (bất kể N): \"Dịch vụ này có giá như nhau, bất kể dùng bao nhiêu lần.\""
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿、報告書は金曜日までに出してください。",
+    "options": [
+     "どうか",
+     "にかかわらず",
+     "調査が",
+     "終わったか"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 調査が終わったかどうかにかかわらず、報告書は金曜日までに出してください。 (Dù cuộc khảo sát đã xong hay chưa, hãy nộp báo cáo trước thứ Sáu.). Mảnh ở ô ★ là 「どうか」."
+   }
+  ]
+ },
+ "JG-b5f7aacef7": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "彼女は服がぬれるの（　　）、雨の中を走って行った。",
+    "options": [
+     "をこめて",
+     "にとって",
+     "もかまわず",
+     "に沿って"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「もかまわず」: Vる + のもかまわず = mặc kệ việc lẽ ra phải bận tâm (bị ướt áo). をこめて (gửi gắm), にとって (đối với), に沿って (theo) không hợp nghĩa. Nghĩa: Cô ấy mặc kệ áo bị ướt, chạy đi trong mưa."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "その客は周りの迷惑（　　）、大声で電話をしていた。",
+    "options": [
+     "もかまわず",
+     "にこたえて",
+     "をもとに",
+     "に応じて"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「もかまわず」: N + もかまわず = chẳng màng đến phiền hà gây cho người xung quanh. にこたえて (đáp lại), をもとに (dựa trên), に応じて (tùy theo) không hợp nghĩa. Nghĩa: Vị khách đó chẳng màng làm phiền người xung quanh, cứ nói điện thoại oang oang."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "弟は＿＿ ＿＿ ★ ＿＿お菓子を食べ始めた。",
+    "options": [
+     "かまわず",
+     "いるのも",
+     "手が",
+     "汚れて"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 弟は手が汚れているのもかまわずお菓子を食べ始めた。 (Em trai tôi mặc kệ tay đang bẩn, bắt đầu ăn bánh kẹo.). Mảnh ở ô ★ là 「いるのも」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿、その子は泣き続けた。",
+    "options": [
+     "いるのも",
+     "かまわず",
+     "困って",
+     "母親が"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 母親が困っているのもかまわず、その子は泣き続けた。 (Mặc cho mẹ đang khổ sở, đứa bé vẫn khóc mãi.). Mảnh ở ô ★ là 「困って」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼は値段もかまわず、高いワインを何本も注文した。",
+    "options": [
+     "Vì giá rẻ nên anh ta gọi nhiều chai rượu vang.",
+     "Anh ta chẳng màng đến giá cả, gọi liền mấy chai rượu vang đắt tiền.",
+     "Anh ta hỏi giá trước rồi mới gọi rượu vang.",
+     "Anh ta không gọi rượu vang vì quá đắt."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + もかまわず (chẳng màng, mặc kệ): \"Anh ta chẳng màng đến giá cả, gọi liền mấy chai rượu vang đắt tiền.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "父は疲れているのもかまわず、私の宿題を手伝ってくれた。",
+    "options": [
+     "Vì bố mệt nên tôi tự làm bài tập.",
+     "Bố mệt nên không giúp tôi làm bài tập được.",
+     "Tôi giúp bố làm việc vì bố đang mệt.",
+     "Bố mặc kệ mình đang mệt, vẫn giúp tôi làm bài tập."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vている + のもかまわず (mặc kệ tình trạng của bản thân): \"Bố mặc kệ mình đang mệt, vẫn giúp tôi làm bài tập.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "彼は周りの目もかまわず、駅で泣き出した。",
+     "雨が降るもかまわず、彼は出かけた。",
+     "子どもたちは服が汚れるのもかまわず、外で遊んでいる。",
+     "彼女は夜遅いのもかまわず、友だちに電話をかけた。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「雨が降るもかまわず」 sai: động từ phải danh từ hóa bằng の trước もかまわず (Vる + のもかまわず). Câu đúng: 雨が降るのもかまわず、彼は出かけた。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "彼は医者の注意もかまわず、お酒を飲み続けた。",
+     "弟は足をけがしているのもかまわず、試合に出た。",
+     "祖母は自分の体もかまわず、毎日畑で働いている。",
+     "彼はお金がないのもかまわず、いつも節約している。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「お金がないのもかまわず、いつも節約している」 sai: もかまわず dùng khi phớt lờ điều lẽ ra phải để ý rồi làm việc không nên làm; không có tiền mà tiết kiệm là chuyện bình thường. Câu đúng: 彼はお金がないのもかまわず、高い物ばかり買っている。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "降っている",
+     "雪が",
+     "のもかまわず、",
+     "子どもたちは外で遊んでいる。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "translation_vi": "Mặc kệ tuyết đang rơi, bọn trẻ vẫn chơi ngoài trời."
+   },
+   {
+    "pieces": [
+     "かまわず",
+     "化粧が",
+     "落ちるのも",
+     "彼女は泣いた。"
+    ],
+    "answer_order": [
+     1,
+     2,
+     0,
+     3
+    ],
+    "translation_vi": "Mặc kệ lớp trang điểm bị trôi, cô ấy cứ khóc."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "彼は人に笑われるの＿＿、大きな声で歌い続けた。",
+    "answer": "もかまわず",
+    "accept": [
+     "も構わず"
+    ],
+    "translation_vi": "Anh ấy mặc kệ bị người ta cười, vẫn tiếp tục hát to."
+   },
+   {
+    "sentence_ja": "部長は自分の体調も＿＿、毎晩遅くまで働いている。",
+    "answer": "かまわず",
+    "accept": [
+     "構わず"
+    ],
+    "translation_vi": "Trưởng phòng chẳng màng đến sức khỏe của mình, tối nào cũng làm việc đến khuya."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "あの人は道が込んでいるの（　　）、車を止めて写真を撮っている。",
+    "options": [
+     "にくらべて",
+     "もかまわず",
+     "をめぐって",
+     "にとって"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「もかまわず」: mặc kệ đường đang đông vẫn dừng xe chụp ảnh. にくらべて (so với), をめぐって (xoay quanh), にとって (đối với) không hợp nghĩa. Nghĩa: Người kia mặc kệ đường đang đông, dừng xe lại chụp ảnh."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "子どもは母親が止めるのもかまわず、川に飛び込んだ。",
+    "options": [
+     "Mặc cho mẹ ngăn cản, đứa trẻ vẫn nhảy xuống sông.",
+     "Vì mẹ ngăn nên đứa trẻ không nhảy xuống sông.",
+     "Người mẹ đã nhảy xuống sông để cứu đứa trẻ.",
+     "Đứa trẻ đợi mẹ cho phép rồi mới nhảy xuống sông."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu Vる + のもかまわず (mặc kệ điều đó mà vẫn làm): \"Mặc cho mẹ ngăn cản, đứa trẻ vẫn nhảy xuống sông.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "彼は危ないのもかまわず、川に入って子どもを助けた。",
+     "妹は口の周りが汚れるのもかまわず、アイスを食べている。",
+     "天気がいいのもかまわず、ピクニックに行った。",
+     "その男は周りの迷惑もかまわず、たばこを吸い始めた。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「天気がいいのもかまわず、ピクニックに行った」 sai: trước もかまわず phải là điều lẽ ra khiến người ta e ngại; trời đẹp thì đi dã ngoại là bình thường. Câu đúng: 天気がいいので、ピクニックに行った。"
+   }
+  ]
+ },
+ "JG-e9ce7dc234": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "見た目（　　）、このケーキはとてもおいしい。",
+    "options": [
+     "にとって",
+     "はともかく",
+     "に対して",
+     "によって"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「はともかく」: tạm gác hình thức sang một bên, điều đáng nói là vị ngon. にとって (đối với), に対して (đối với), によって (tùy theo, do) không hợp nghĩa. Nghĩa: Hình thức thì chưa bàn, chiếc bánh này rất ngon."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "場所（　　）、まず日にちを決めましょう。",
+    "options": [
+     "にくらべて",
+     "をこめて",
+     "はともかく",
+     "に対して"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「はともかく」: tạm để chuyện địa điểm lại, việc cần làm trước là chọn ngày. にくらべて (so với), をこめて (gửi gắm), に対して (đối với) không hợp nghĩa. Nghĩa: Địa điểm thì tính sau, trước hết hãy chọn ngày đã."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "この部屋は＿＿ ＿＿ ★ ＿＿。",
+    "options": [
+     "近くて便利だ",
+     "駅から",
+     "ともかく",
+     "広さは"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: この部屋は広さはともかく駅から近くて便利だ。 (Căn phòng này rộng hẹp thì chưa nói, nhưng gần ga nên tiện.). Mảnh ở ô ★ là 「駅から」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿、この映画は音楽がすばらしい。",
+    "options": [
+     "として",
+     "ともかく",
+     "内容は",
+     "話の"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: 話の内容はともかくとして、この映画は音楽がすばらしい。 (Nội dung câu chuyện thì tạm không bàn, âm nhạc của bộ phim này tuyệt vời.). Mảnh ở ô ★ là 「内容は」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "上手か下手かはともかく、私は歌うことが好きだ。",
+    "options": [
+     "Vì hát hay nên tôi rất thích hát.",
+     "Tôi hát dở nên không thích hát.",
+     "Hát hay hay dở là điều quan trọng nhất.",
+     "Hát hay hay dở thì chưa bàn, tôi thích hát."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu 〜はともかく (tạm gác chuyện đó sang một bên): \"Hát hay hay dở thì chưa bàn, tôi thích hát.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "冗談はともかく、本当にどうするつもりなの？",
+    "options": [
+     "Đừng đùa nữa, tôi không muốn làm gì cả.",
+     "Đùa thì để sau, thực sự cậu định làm thế nào?",
+     "Vì chỉ là chuyện đùa nên không cần làm gì.",
+     "Cậu định đùa đến bao giờ nữa?"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu N + はともかく (gác N lại để nói chuyện quan trọng hơn): \"Đùa thì để sau, thực sự cậu định làm thế nào?\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "費用はともかく、計画には賛成です。",
+     "値段はともかくとして、品質がいい。",
+     "デザインをともかく、使いやすいかばんだ。",
+     "字のきれいさはともかく、内容はよく書けている。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「デザインをともかく」 sai: mẫu là N + はともかく, không dùng を. Câu đúng: デザインはともかく、使いやすいかばんだ。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "形はともかく、このカップは使いやすい。",
+     "行くはともかく、チケットだけは買っておこう。",
+     "上手下手はともかく、毎日練習することが大切だ。",
+     "見た目はともかく、この車はよく走る。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「行くはともかく」 sai: はともかく đi sau danh từ; với động từ phải danh từ hóa, ví dụ 行くかどうかはともかく. Câu đúng: 行くかどうかはともかく、チケットだけは買っておこう。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "ともかく、",
+     "成績は",
+     "息子は毎日元気に学校へ行っている。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2
+    ],
+    "translation_vi": "Thành tích thì chưa nói, con trai tôi ngày nào cũng vui vẻ đến trường."
+   },
+   {
+    "pieces": [
+     "着やすい服だ。",
+     "はともかく、",
+     "色",
+     "とても"
+    ],
+    "answer_order": [
+     2,
+     1,
+     3,
+     0
+    ],
+    "translation_vi": "Màu sắc thì chưa bàn, đây là bộ quần áo rất dễ mặc."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "細かいこと＿＿、まずは全体の流れを説明します。",
+    "answer": "はともかく",
+    "accept": [
+     "はともかくとして",
+     "はさておき"
+    ],
+    "translation_vi": "Chi tiết thì để sau, trước hết tôi xin giải thích tổng quan."
+   },
+   {
+    "sentence_ja": "デザインは＿＿、このパソコンは軽くて使いやすい。",
+    "answer": "ともかく",
+    "accept": [
+     "ともかくとして",
+     "さておき"
+    ],
+    "translation_vi": "Thiết kế thì chưa bàn, chiếc máy tính này nhẹ và dễ dùng."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "できるかどうか（　　）、一度やってみよう。",
+    "options": [
+     "にとって",
+     "はともかく",
+     "に対して",
+     "をこめて"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「はともかく」: 〜かどうか + はともかく = làm được hay không thì chưa bàn. にとって, に対して, をこめて không hợp nghĩa. Nghĩa: Làm được hay không thì tính sau, cứ thử một lần xem."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "他の人はともかく、私はその意見に反対です。",
+    "options": [
+     "Tôi cũng như mọi người, tán thành ý kiến đó.",
+     "Vì người khác phản đối nên tôi cũng phản đối.",
+     "Người khác thì tôi không bàn, riêng tôi phản đối ý kiến đó.",
+     "Mọi người đều phản đối, chỉ trừ tôi."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N + はともかく (N thì chưa bàn, vế sau mới là trọng tâm): \"Người khác thì tôi không bàn, riêng tôi phản đối ý kiến đó.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "値段がともかく、品質はいい。",
+     "理由はともかく、約束を破るのはよくない。",
+     "勝ち負けはともかく、楽しい試合だった。",
+     "店の雰囲気はともかく、料理はおいしい。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「値段がともかく」 sai: trợ từ của mẫu là は (N + はともかく), không dùng が. Câu đúng: 値段はともかく、品質はいい。"
+   }
+  ]
+ },
+ "JG-fcc35b2c34": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "冗談（　　）、そろそろ会議を始めましょう。",
+    "options": [
+     "にこたえて",
+     "はさておき",
+     "にとって",
+     "に沿って"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「はさておき」: tạm gác chuyện đùa lại để chuyển sang việc chính. にこたえて (đáp lại), にとって (đối với), に沿って (theo đúng) không hợp nghĩa. Nghĩa: Đùa thì tạm gác lại, chúng ta bắt đầu cuộc họp thôi."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "私のこと（　　）、あなたは最近元気なの？",
+    "options": [
+     "によると",
+     "から見て",
+     "を通して",
+     "はさておき"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「はさておき」: gác chuyện của mình sang một bên để hỏi chuyện người kia. によると (theo nguồn tin), から見て (nhìn từ), を通して (thông qua) không hợp nghĩa. Nghĩa: Chuyện của tôi để sau, dạo này bạn có khỏe không?"
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ＿＿ ★ ＿＿を片付けよう。",
+    "options": [
+     "部屋",
+     "さておき",
+     "準備は",
+     "食事の"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 食事の準備はさておき部屋を片付けよう。 (Việc chuẩn bị bữa ăn tạm để đó, hãy dọn phòng đã.). Mảnh ở ô ★ là 「さておき」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "旅行の話は＿＿ ★ ＿＿ ＿＿を決めよう。",
+    "options": [
+     "日程",
+     "会議の",
+     "さておき、",
+     "来週の"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 旅行の話はさておき、来週の会議の日程を決めよう。 (Chuyện du lịch tạm gác lại, hãy chốt lịch cuộc họp tuần sau.). Mảnh ở ô ★ là 「来週の」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "勝ち負けはさておき、今日はみんなで楽しもう。",
+    "options": [
+     "Hôm nay nhất định phải thắng thì mới vui được.",
+     "Vì thua rồi nên hôm nay chẳng ai vui.",
+     "Thắng thua tạm gác lại, hôm nay mọi người cùng vui nhé.",
+     "Hãy phân định thắng thua trước rồi mới vui chơi."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng mẫu N + はさておき (tạm gác N sang một bên): \"Thắng thua tạm gác lại, hôm nay mọi người cùng vui nhé.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "費用の問題はさておき、まずやりたいことを全部書き出してみよう。",
+    "options": [
+     "Chuyện chi phí tạm để đó, trước hết hãy thử viết ra hết những việc muốn làm.",
+     "Trước hết hãy tính chi phí rồi mới viết ra những việc muốn làm.",
+     "Vì chi phí quá cao nên hãy bỏ hết những việc muốn làm.",
+     "Hãy viết ra hết các vấn đề về chi phí."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + はさておき (tạm không bàn N để làm việc cần làm trước): \"Chuyện chi phí tạm để đó, trước hết hãy thử viết ra hết những việc muốn làm.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "できるはさておき、まず挑戦してみよう。",
+     "理由はさておき、早く謝ったほうがいい。",
+     "値段はさておき、このかばんはデザインがいい。",
+     "私の話はさておき、みなさんの意見を聞かせてください。"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "「できるはさておき」 sai: はさておき đi sau danh từ; với động từ phải danh từ hóa, ví dụ できるかどうかはさておき. Câu đúng: できるかどうかはさておき、まず挑戦してみよう。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "結果はさておき、よく頑張ったね。",
+     "味はさておき、栄養のバランスはいい。",
+     "天気がさておき、出かける準備をしよう。",
+     "難しい話はさておき、まずは乾杯しましょう。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「天気がさておき」 sai: trợ từ của mẫu là は (N + はさておき), không dùng が. Câu đúng: 天気はさておき、出かける準備をしよう。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "はさておき、",
+     "お金のこと",
+     "まず健康を大切にしよう。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2
+    ],
+    "translation_vi": "Chuyện tiền bạc tạm để đó, trước hết hãy giữ gìn sức khỏe."
+   },
+   {
+    "pieces": [
+     "さておき、",
+     "事故の原因は",
+     "けが人を",
+     "助けるのが先だ。"
+    ],
+    "answer_order": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "translation_vi": "Nguyên nhân tai nạn tạm gác lại, cứu người bị thương là việc trước tiên."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "難しい理論は＿＿、まず実際にやってみましょう。",
+    "answer": "さておき",
+    "accept": [
+     "ともかく",
+     "ともかくとして",
+     "別として"
+    ],
+    "translation_vi": "Lý thuyết khó tạm gác lại, trước hết hãy thử làm thực tế."
+   },
+   {
+    "sentence_ja": "仕事の話＿＿、今夜は楽しく飲みましょう。",
+    "answer": "はさておき",
+    "accept": [
+     "はともかく",
+     "はともかくとして",
+     "は別として"
+    ],
+    "translation_vi": "Chuyện công việc tạm để đó, tối nay hãy uống thật vui nhé."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "誰が悪いかは（　　）、今は問題を解決することが大事だ。",
+    "options": [
+     "ともに",
+     "さておき",
+     "ほどに",
+     "かけて"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「さておき」: 〜かは + さておき = chuyện ai sai tạm gác lại, giải quyết vấn đề mới là việc quan trọng. ともに, ほどに, かけて không tạo được nghĩa 'tạm gác lại'. Nghĩa: Ai sai thì tạm chưa bàn, bây giờ giải quyết vấn đề mới là quan trọng."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "自分のことはさておき、彼はいつも人の心配ばかりしている。",
+    "options": [
+     "Anh ấy chỉ lo cho bản thân, không để ý đến người khác.",
+     "Vì phải lo cho mình nên anh ấy không giúp được ai.",
+     "Người khác lúc nào cũng lo lắng cho anh ấy.",
+     "Anh ấy gác chuyện của mình sang một bên, lúc nào cũng chỉ lo cho người khác."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu N + はさておき (để N sang một bên): \"Anh ấy gác chuyện của mình sang một bên, lúc nào cũng chỉ lo cho người khác.\""
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "細かいルールは＿＿ ＿＿ ★ ＿＿決めよう。",
+    "options": [
+     "予定を",
+     "来月の",
+     "さておき、",
+     "練習の"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 細かいルールはさておき、来月の練習の予定を決めよう。 (Luật lệ chi tiết tạm gác lại, hãy quyết định lịch tập tháng sau.). Mảnh ở ô ★ là 「練習の」."
+   }
+  ]
+ },
+ "JG-9d942cb4a7": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "ダイエットを始めたが、やせる（　　）、かえって太ってしまった。",
+    "options": [
+     "ばかりか",
+     "うえに",
+     "どころか",
+     "だけでなく"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「どころか」: phủ định hẳn điều mong đợi (gầy đi) và nói kết quả ngược lại (béo lên). ばかりか, うえに, だけでなく là 'không chỉ… mà còn', cộng thêm cùng chiều nên mâu thuẫn với かえって. Nghĩa: Tôi bắt đầu ăn kiêng, nhưng gầy đâu chẳng thấy, ngược lại còn béo lên."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "薬を飲んだのに、熱は下がる（　　）、ますます上がってきた。",
+    "options": [
+     "どころか",
+     "わりに",
+     "とともに",
+     "ことから"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「どころか」: sốt không hạ mà còn tăng, trái hẳn với kỳ vọng. わりに (so với… thì), とともに (cùng với), ことから (vì) không diễn tả được ý ngược lại này. Nghĩa: Đã uống thuốc rồi mà sốt chẳng những không hạ, lại càng lúc càng cao."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿書けない。",
+    "options": [
+     "ひらがなも",
+     "どころか",
+     "漢字",
+     "難しい"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu đúng: 彼は難しい漢字どころかひらがなも書けない。 (Anh ấy chữ Hán khó thì khỏi nói, đến chữ hiragana cũng không viết được.). Mảnh ở ô ★ là 「どころか」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "＿＿ ★ ＿＿ ＿＿、雪まで降ってきた。",
+    "options": [
+     "やむ",
+     "どころか",
+     "外は",
+     "雨が"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 外は雨がやむどころか、雪まで降ってきた。 (Bên ngoài mưa chẳng những không tạnh mà tuyết còn rơi nữa.). Mảnh ở ô ★ là 「雨が」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼は謝るどころか、私に文句を言ってきた。",
+    "options": [
+     "Anh ta đã xin lỗi rồi còn phàn nàn thêm.",
+     "Anh ta chẳng những không xin lỗi, mà còn quay sang phàn nàn tôi.",
+     "Vì tôi phàn nàn nên anh ta đã xin lỗi.",
+     "Anh ta không xin lỗi nhưng cũng không phàn nàn gì."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜どころか (chẳng những không… mà ngược lại…): \"Anh ta chẳng những không xin lỗi, mà còn quay sang phàn nàn tôi.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "貯金どころか、今月の家賃も払えない。",
+    "options": [
+     "Tiết kiệm gì nổi, đến tiền nhà tháng này còn không trả được.",
+     "Tôi vừa tiết kiệm được tiền vừa trả được tiền nhà.",
+     "Vì đã tiết kiệm nên tôi trả được tiền nhà.",
+     "Tôi tiết kiệm để trả tiền nhà tháng sau."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu dùng mẫu N + どころか (A thì khỏi nói, đến B cũng không): \"Tiết kiệm gì nổi, đến tiền nhà tháng này còn không trả được.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "休むどころか、昼ご飯を食べる時間もない。",
+     "彼女は喜ぶどころか、怒り出した。",
+     "この辺りは静かだどころか、とてもうるさい。",
+     "雨は弱くなるどころか、ますます強くなった。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「静かだどころか」 sai: tính từ な đứng trước どころか dùng dạng 静かな hoặc 静か, không giữ だ. Câu đúng: この辺りは静かなどころか、とてもうるさい。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "彼は料理どころか、お湯も沸かせない。",
+     "忙しくて、旅行どころかだ。",
+     "店は客が増えるどころか、減る一方だ。",
+     "一万円どころか、千円も持っていない。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「旅行どころかだ」 sai: どころか phải nối sang vế sau; ý 'bận quá, không còn tâm trí đi du lịch' phải dùng どころではない. Câu đúng: 忙しくて、旅行どころではない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": [
+     "毎日",
+     "どころか、",
+     "休み",
+     "残業している。"
+    ],
+    "answer_order": [
+     2,
+     1,
+     0,
+     3
+    ],
+    "translation_vi": "Nghỉ ngơi gì đâu, ngày nào tôi cũng làm thêm giờ."
+   },
+   {
+    "pieces": [
+     "一点も",
+     "勝つ",
+     "取れなかった。",
+     "どころか"
+    ],
+    "answer_order": [
+     1,
+     3,
+     0,
+     2
+    ],
+    "translation_vi": "Thắng gì chứ, đến một điểm cũng không ghi được."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "病気は良くなる＿＿、だんだん悪くなっている。",
+    "answer": "どころか",
+    "translation_vi": "Bệnh chẳng những không đỡ mà ngày càng nặng hơn."
+   },
+   {
+    "sentence_ja": "彼女は料理が苦手で、カレー＿＿ご飯も炊けない。",
+    "answer": "どころか",
+    "accept": [
+     "ばかりか",
+     "はもちろん"
+    ],
+    "translation_vi": "Cô ấy nấu ăn kém, cà ri thì khỏi nói, đến cơm cũng không nấu được."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この店は安い（　　）、ほかの店より二倍も高い。",
+    "options": [
+     "うえに",
+     "ばかりか",
+     "だけあって",
+     "どころか"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「どころか」: phủ định 'rẻ' và nói điều ngược lại 'đắt gấp đôi'. うえに, ばかりか (không chỉ… mà còn) cộng thêm cùng chiều, だけあって (quả không hổ là) đều mâu thuẫn với vế sau. Nghĩa: Cửa hàng này rẻ đâu mà rẻ, còn đắt gấp đôi các cửa hàng khác."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "彼女は怒るどころか、笑って許してくれた。",
+    "options": [
+     "Cô ấy giận đến mức không cười nổi.",
+     "Cô ấy chẳng những không giận mà còn cười và tha thứ cho tôi.",
+     "Cô ấy vừa giận vừa cười.",
+     "Vì tôi cười nên cô ấy đã nổi giận."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu 〜どころか (không những không… mà ngược lại…): \"Cô ấy chẳng những không giận mà còn cười và tha thứ cho tôi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "感謝されるどころか、怒られてしまった。",
+     "彼は貯金どころか、借金がある。",
+     "風邪は治るどころか、ひどくなった。",
+     "彼は十キロどころか、百メートルも走れる。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「十キロどころか、百メートルも走れる」 sai: với どころか〜も (khẳng định), vế sau phải ở mức cao hơn vế trước; 100 mét thấp hơn 10 km nên không hợp lý. Câu đúng: 彼は百メートルどころか、十キロも走れる。"
+   }
+  ]
+ }
+}

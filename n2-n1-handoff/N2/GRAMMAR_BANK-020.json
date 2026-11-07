@@ -4,7 +4,193 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この歌を聞く（　　）、学生時代のことをなつかしく思い出す。",
+      "options": [
+       "にしては",
+       "について",
+       "につけ",
+       "にかけて"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「につけ」: Vる + につけ diễn tả mỗi lần nghe bài hát thì cảm xúc nhớ nhung lại trào lên. にしては (so với), について (về), にかけて (trải suốt) không đi sau 聞く theo nghĩa này. Nghĩa: Mỗi lần nghe bài hát này, tôi lại bồi hồi nhớ về thời sinh viên."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "何か（　　）、母は私のことを心配して電話をくれる。",
+      "options": [
+       "にとって",
+       "につけ",
+       "にしても",
+       "に比べて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「につけ」: 何かにつけ là cách nói cố định 'hễ có chuyện gì là…'. Các lựa chọn khác không ghép được với 何か thành nghĩa hợp lý. Nghĩa: Hễ có chuyện gì là mẹ lại lo cho tôi và gọi điện."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "ふるさとの＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "会いたくなる",
+       "家族に",
+       "写真を",
+       "見るにつけ、"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: ふるさとの写真を見るにつけ、家族に会いたくなる。 (Mỗi lần xem ảnh quê nhà, tôi lại muốn gặp gia đình.). Mảnh ở ô ★ là 「家族に」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "祖母は＿＿ ★ ＿＿ ＿＿くれた。",
+      "options": [
+       "私の",
+       "ことを気にかけて",
+       "つけ",
+       "何かに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 祖母は何かにつけ私のことを気にかけてくれた。 (Bà tôi hễ có chuyện gì là lại quan tâm đến tôi.). Mảnh ở ô ★ là 「つけ」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもが大きくなったのを見るにつけ、時間がたつのは早いと感じる。",
+      "options": [
+       "Chỉ cần nhìn con lớn lên một lần là tôi hiểu thời gian quý giá.",
+       "Dù thấy con lớn lên, tôi vẫn không cảm thấy thời gian trôi nhanh.",
+       "Để được thấy con lớn lên, tôi đã dành nhiều thời gian hơn.",
+       "Mỗi lần thấy con lớn lên, tôi lại cảm thấy thời gian trôi thật nhanh."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜につけ (mỗi khi… thì lại nảy sinh cảm xúc): \"Mỗi lần thấy con lớn lên, tôi lại cảm thấy thời gian trôi thật nhanh.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの事故のニュースを聞くにつけ、運転には気をつけようと思う。",
+      "options": [
+       "Mỗi khi nghe tin về vụ tai nạn đó, tôi lại tự nhủ phải cẩn thận khi lái xe.",
+       "Vì đã nghe tin về vụ tai nạn đó nên tôi không lái xe nữa.",
+       "Ngay cả khi nghe tin tai nạn, tôi cũng không bận tâm đến việc lái xe.",
+       "Trước khi nghe tin tai nạn, tôi đã luôn lái xe cẩn thận."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜につけ (mỗi lần nghe… thì lại nghĩ…): \"Mỗi khi nghe tin về vụ tai nạn đó, tôi lại tự nhủ phải cẩn thận khi lái xe.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "昔の手紙を読むにつけ、友だちのことを思い出す。",
+       "この町の変化を見るにつけ、寂しい気持ちになる。",
+       "明日、駅に着くにつけ、電話してください。",
+       "何かにつけ、父は昔の話をしたがる。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「明日、駅に着くにつけ、電話してください。」 sai: につけ nói việc lặp lại kéo theo cảm xúc, suy nghĩ tự nhiên; không dùng cho việc một lần trong tương lai kèm lời nhờ. Câu đúng: 明日、駅に着いたら電話してください。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "テレビで戦争のニュースを見るにつけ、平和の大切さを感じる。",
+       "昨日、田中さんに会うにつけ、本を返した。",
+       "その話を聞くにつけ、胸が痛くなる。",
+       "ふるさとの料理を食べるにつけ、母の味を思い出す。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「昨日、田中さんに会うにつけ、本を返した。」 sai: vế sau につけ phải là cảm xúc hay suy nghĩ nảy sinh, không phải một hành động có chủ ý xảy ra một lần. Câu đúng: 昨日、田中さんに会ったときに本を返した。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "思い出す。",
+       "この曲を",
+       "聞くにつけ、",
+       "昔のことを"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Mỗi lần nghe bản nhạc này, tôi lại nhớ về chuyện ngày xưa."
+     },
+     {
+      "pieces": [
+       "しかられた。",
+       "子どものころは",
+       "何かにつけ父に"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Hồi nhỏ, hễ có chuyện gì là tôi lại bị bố mắng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "家族の写真を見る＿＿、早く国へ帰りたくなる。",
+      "answer": "につけ",
+      "accept": [
+       "につけても",
+       "たびに"
+      ],
+      "translation_vi": "Mỗi lần xem ảnh gia đình, tôi lại muốn sớm về nước."
+     },
+     {
+      "sentence_ja": "何か＿＿不満を言う人とは、一緒に働きたくない。",
+      "answer": "につけ",
+      "accept": [
+       "につけて"
+      ],
+      "translation_vi": "Tôi không muốn làm việc cùng người hễ có chuyện gì là kêu ca bất mãn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "この町の古い建物を見る（　　）、昔の暮らしが想像される。",
+      "options": [
+       "につけ",
+       "ばかりに",
+       "ものの",
+       "くせに"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「につけ」: mỗi lần nhìn những tòa nhà cũ thì hình ảnh cuộc sống xưa lại tự hiện lên. ばかりに (chỉ vì), ものの (tuy), くせに (vậy mà) không hợp nghĩa. Nghĩa: Mỗi lần nhìn những tòa nhà cũ của thị trấn này, tôi lại hình dung ra cuộc sống ngày xưa."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "うれしいにつけ悲しいにつけ、いつも友だちがそばにいてくれた。",
+      "options": [
+       "Chỉ khi tôi vui, bạn bè mới ở bên cạnh tôi.",
+       "Vì vui buồn lẫn lộn nên tôi muốn ở một mình.",
+       "Dù vui hay buồn, lúc nào bạn bè cũng ở bên cạnh tôi.",
+       "Mỗi lần bạn bè ở bên cạnh, tôi lại thấy buồn."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng dạng cố định 〜につけ〜につけ (dù… hay… thì cũng): \"Dù vui hay buồn, lúc nào bạn bè cũng ở bên cạnh tôi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "父の手紙を読むにつけ、涙が出る。",
+       "この町を歩くにつけ、子どものころを思い出す。",
+       "何かにつけて、彼は人のせいにする。",
+       "仕事が終わるにつけ、飲みに行こう。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「仕事が終わるにつけ、飲みに行こう。」 sai: vế sau につけ không phải lời rủ rê hay ý chí. Câu đúng: 仕事が終わったら、飲みに行こう。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -33,7 +219,197 @@
    "id": "JG-283fac2c9c"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "今さら謝った（　　）、彼女は許してくれないだろう。",
+      "options": [
+       "ところに",
+       "ところで",
+       "おかげで",
+       "ところを"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ところで」: Vた + ところで nghĩa là dù có làm… thì cũng không có kết quả; vế sau là 許してくれないだろう. ところに, ところを chỉ thời điểm; おかげで (nhờ) mâu thuẫn với vế sau. Nghĩa: Bây giờ có xin lỗi thì chắc cô ấy cũng không tha thứ đâu."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "いくら説明し（　　）、子どもにはまだ分からないと思う。",
+      "options": [
+       "たとたん",
+       "たきり",
+       "たところで",
+       "たあげく"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「たところで」: いくら〜たところで = dù có… bao nhiêu thì cũng không. たとたん (vừa… thì), たきり (rồi cứ thế), たあげく (sau một hồi… rốt cuộc) không đi với いくら và vế sau phủ định này. Nghĩa: Dù có giải thích bao nhiêu, tôi nghĩ đứa trẻ vẫn chưa hiểu được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "今から＿＿ ＿＿ ★ ＿＿だろう。",
+      "options": [
+       "間に合わない",
+       "ところで、",
+       "タクシーで",
+       "行った"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 今からタクシーで行ったところで、間に合わないだろう。 (Bây giờ có đi taxi thì chắc cũng không kịp.). Mảnh ở ô ★ là 「ところで、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ところで、",
+       "何も解決しない",
+       "悩んだ",
+       "一人で"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 一人で悩んだところで、何も解決しない。 (Dù có một mình phiền muộn thì cũng chẳng giải quyết được gì.). Mảnh ở ô ★ là 「悩んだ」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "どんなに急いだところで、最終バスにはもう間に合わない。",
+      "options": [
+       "Vì đã vội nên tôi kịp chuyến xe buýt cuối.",
+       "Đúng lúc tôi đang vội thì chuyến xe buýt cuối đến.",
+       "Nếu vội thì vẫn còn kịp chuyến xe buýt cuối.",
+       "Dù có vội đến đâu thì cũng không kịp chuyến xe buýt cuối nữa."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜たところで (dù có… cũng không): \"Dù có vội đến đâu thì cũng không kịp chuyến xe buýt cuối nữa.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "不満を言ったところで、規則は変わらない。",
+      "options": [
+       "Dù có phàn nàn thì quy định cũng không thay đổi.",
+       "Nhờ phàn nàn mà quy định đã được thay đổi.",
+       "Vừa phàn nàn xong thì quy định thay đổi.",
+       "Nhân tiện phàn nàn, tôi muốn hỏi về quy định."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜たところで (dù có làm thì cũng vô ích): \"Dù có phàn nàn thì quy định cũng không thay đổi.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "今から勉強したところで、合格は難しいだろう。",
+       "高い薬を飲んだところで、すぐには治らない。",
+       "毎日練習したところで、上手になった。",
+       "いまさらあわてたところで、どうにもならない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「毎日練習したところで、上手になった。」 sai: vế sau たところで phải là kết quả phủ định, vô ích; không dùng để kể kết quả tốt đã xảy ra. Câu đúng: 毎日練習したので、上手になった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "急ぐところで、電車には間に合わない。",
+       "彼に相談したところで、いい答えは返ってこないだろう。",
+       "いくら頼んだところで、部長は許可しないと思う。",
+       "そんなに心配したところで、結果は同じだ。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「急ぐところで、電車には間に合わない。」 sai: mẫu này dùng thể た trước ところで. Câu đúng: 急いだところで、電車には間に合わない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "変わらない。",
+       "ところで、",
+       "今さら",
+       "結果は",
+       "怒った"
+      ],
+      "answer_order": [
+       2,
+       4,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Bây giờ có nổi giận thì kết quả cũng không thay đổi."
+     },
+     {
+      "pieces": [
+       "無理だろう。",
+       "練習したところで、",
+       "一週間",
+       "試合に勝つのは"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Dù có luyện tập một tuần thì chắc cũng không thể thắng trận đấu."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "今から走った＿＿、もう間に合わないよ。",
+      "answer": "ところで",
+      "accept": [
+       "って"
+      ],
+      "translation_vi": "Bây giờ có chạy thì cũng không kịp nữa đâu."
+     },
+     {
+      "sentence_ja": "彼にお願いし＿＿、手伝ってはくれないだろう。",
+      "answer": "たところで",
+      "accept": [
+       "ても",
+       "たって"
+      ],
+      "translation_vi": "Dù có nhờ anh ấy thì chắc anh ấy cũng không giúp đâu."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "たとえ私が反対した（　　）、父の考えは変わらないだろう。",
+      "options": [
+       "ところへ",
+       "ところで",
+       "とたん",
+       "うえで"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ところで」: たとえ〜たところで = cho dù có… thì cũng không. ところへ (đúng lúc), とたん (vừa… thì), うえで (sau khi) không hợp với たとえ và vế sau phủ định. Nghĩa: Cho dù tôi có phản đối thì chắc suy nghĩ của bố cũng không thay đổi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "今さら言ったところで仕方がない。",
+      "options": [
+       "Bây giờ nói ra thì mọi việc sẽ được giải quyết.",
+       "Nhân tiện, bây giờ tôi muốn nói một chuyện.",
+       "Bây giờ có nói ra thì cũng chẳng ích gì.",
+       "Tôi không nói ra được vì không có cơ hội."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜たところで (dù có… cũng vô ích): \"Bây giờ có nói ra thì cũng chẳng ích gì.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ここで休んだところで、疲れは取れない。",
+       "このまま待ったところで、彼は来ないと思う。",
+       "どんなに説明したところで、みんなすぐに分かってくれた。",
+       "今さら急いだところで無駄だ。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「どんなに説明したところで、みんなすぐに分かってくれた。」 sai: どんなに〜たところで đòi hỏi vế sau là kết quả phủ định, không phải việc tốt đã xảy ra. Câu đúng: 説明したら、みんなすぐに分かってくれた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -60,7 +436,195 @@
    "id": "JG-b4fd2bd83f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "お休みの（　　）、お電話してすみません。",
+      "options": [
+       "くせに",
+       "わりに",
+       "ことに",
+       "ところを"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ところを」: N の + ところを đi với lời xin lỗi, thể hiện ngại làm phiền người khác đúng lúc họ đang nghỉ. くせに (vậy mà), わりに (so với), ことに (thật là) không đi với lời xin lỗi này. Nghĩa: Xin lỗi đã gọi điện lúc anh/chị đang nghỉ."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "お忙しい（　　）、わざわざ来てくださってありがとうございます。",
+      "options": [
+       "ばかりに",
+       "ところを",
+       "ところが",
+       "ものを"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ところを」: Aい + ところを + lời cảm ơn = đang lúc bận mà vẫn…, cảm ơn. ところが (thế nhưng), ものを (tiếc là), ばかりに (chỉ vì) không hợp với lời cảm ơn. Nghĩa: Cảm ơn anh/chị đang lúc bận rộn mà vẫn cất công đến."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿ありがとうございました。",
+      "options": [
+       "いただき、",
+       "わざわざ来て",
+       "遠い",
+       "ところを"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 遠いところをわざわざ来ていただき、ありがとうございました。 (Cảm ơn anh/chị đã cất công đến từ nơi xa.). Mảnh ở ô ★ là 「わざわざ来て」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "先生、＿＿ ★ ＿＿ ＿＿が、少し質問してもよろしいでしょうか。",
+      "options": [
+       "ところを",
+       "すみません",
+       "お食事",
+       "中の"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 先生、お食事中のところをすみませんが、少し質問してもよろしいでしょうか。 (Thưa thầy, xin lỗi đã làm phiền lúc thầy đang dùng bữa, em hỏi một chút được không ạ?). Mảnh ở ô ★ là 「中の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お疲れのところを手伝ってくれて、本当に助かりました。",
+      "options": [
+       "Vì bạn mệt nên tôi đã tự làm một mình.",
+       "Tôi đã giúp bạn đúng lúc tôi đang mệt.",
+       "Cảm ơn bạn đã giúp tôi dù đang mệt, thật sự đỡ cho tôi rất nhiều.",
+       "Nhân lúc bạn nghỉ mệt, tôi đã làm giúp phần việc đó."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ところを (đang lúc… mà vẫn…, kèm lời cảm ơn): \"Cảm ơn bạn đã giúp tôi dù đang mệt, thật sự đỡ cho tôi rất nhiều.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "寝ているところを起こしてしまって、ごめんなさい。",
+      "options": [
+       "Xin lỗi vì tôi đã ngủ quên không dậy được.",
+       "Xin lỗi vì đã đánh thức bạn khi bạn đang ngủ.",
+       "Xin lỗi, tôi định đánh thức bạn nhưng bạn đã dậy rồi.",
+       "Xin lỗi vì đã làm ồn trước khi bạn đi ngủ."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ところを (đúng lúc người khác đang…, kèm lời xin lỗi): \"Xin lỗi vì đã đánh thức bạn khi bạn đang ngủ.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "お急ぎのところを失礼しました。",
+       "雨の中、遠いところをありがとうございました。",
+       "お忙しいところを、私は昼ご飯を食べました。",
+       "お休みのところをすみません、少しよろしいですか。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「お忙しいところを、私は昼ご飯を食べました。」 sai: sau ところを phải là lời cảm ơn, xin lỗi, nhờ vả (hoặc việc bị bắt gặp), không phải kể việc mình làm. Câu đúng: お忙しいところをすみません、少しお時間をいただけますか。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "授業中に寝ているところを先生に見られた。",
+       "お話し中のところを失礼します。",
+       "お疲れのところを来ていただき、ありがとうございます。",
+       "お忙しいところでありがとうございます。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「お忙しいところでありがとうございます。」 sai: lời cảm ơn khi người khác đang bận dùng ところを, không dùng ところで (nhân tiện, chuyển ý). Câu đúng: お忙しいところをありがとうございます。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ところを",
+       "お休みの",
+       "すみません。",
+       "お電話して"
+      ],
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "translation_vi": "Xin lỗi đã gọi điện lúc anh/chị đang nghỉ."
+     },
+     {
+      "pieces": [
+       "ところを",
+       "見られて",
+       "恥ずかしかった。",
+       "歌っている"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Tôi bị người khác nhìn thấy lúc đang hát nên thấy xấu hổ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "お忙しい＿＿、ご連絡いただきありがとうございます。",
+      "answer": "ところを",
+      "accept": [
+       "ところ",
+       "中"
+      ],
+      "translation_vi": "Cảm ơn anh/chị đã liên lạc dù đang bận."
+     },
+     {
+      "sentence_ja": "お食事中の＿＿失礼します。",
+      "answer": "ところを",
+      "accept": [
+       "ところ"
+      ],
+      "translation_vi": "Xin thất lễ vì làm phiền lúc anh/chị đang dùng bữa."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "雨の中、遠い（　　）お越しいただき、ありがとうございます。",
+      "options": [
+       "せいで",
+       "ところを",
+       "ばかりか",
+       "ものの"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ところを」: 遠いところを + lời cảm ơn = cảm ơn vì đã đến từ nơi xa xôi. せいで (tại vì), ばかりか (không chỉ), ものの (tuy) không đi với lời cảm ơn. Nghĩa: Cảm ơn anh/chị đã đến từ nơi xa giữa trời mưa."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "お取り込み中のところを失礼いたします。",
+      "options": [
+       "Xin lỗi, tôi đang bận nên không thể tiếp anh/chị.",
+       "Tôi xin phép về trước vì đang có việc gấp.",
+       "Nhân lúc anh/chị đang rảnh, tôi xin hỏi một chút.",
+       "Xin thất lễ vì làm phiền đúng lúc anh/chị đang bận việc."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ところを (đang lúc người khác bận mà làm phiền, xin lỗi): \"Xin thất lễ vì làm phiền đúng lúc anh/chị đang bận việc.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "お疲れのところを、ありがとうございました。",
+       "楽しいところを、テレビを見ました。",
+       "お休みのところを失礼いたします。",
+       "こっそりお菓子を食べているところを母に見つかった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「楽しいところを、テレビを見ました。」 sai: vế sau ところを phải là lời cảm ơn, xin lỗi, nhờ vả hoặc việc bị bắt gặp; không dùng để kể hành động của mình. Câu đúng: 楽しかったので、テレビを見ました。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -87,7 +651,198 @@
    "id": "JG-74fc007f88"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "日本のアニメ（　　）、日本語の勉強を始めた。",
+      "options": [
+       "にかわって",
+       "をきっかけに",
+       "にそって",
+       "に比べて"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「をきっかけに」: anime Nhật là điểm khởi đầu để bắt đầu học tiếng Nhật. にかわって (thay cho), にそって (theo), に比べて (so với) không hợp nghĩa. Nghĩa: Nhờ anime Nhật mà tôi bắt đầu học tiếng Nhật."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "入院した（　　）、たばこをやめることにした。",
+      "options": [
+       "のにかわって",
+       "のをもとに",
+       "のをきっかけに",
+       "のに対して"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「のをきっかけに」: Vた + の + をきっかけに, việc nhập viện trở thành điểm khởi đầu cho quyết định bỏ thuốc. をもとに (dựa trên), に対して (đối với), にかわって (thay cho) không hợp. Nghĩa: Nhân dịp nhập viện, tôi quyết định bỏ thuốc lá."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿なった。",
+      "options": [
+       "料理をするように",
+       "のを",
+       "子どもが生まれた",
+       "きっかけに、"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 子どもが生まれたのをきっかけに、料理をするようになった。 (Từ khi có con, tôi bắt đầu nấu ăn.). Mảnh ở ô ★ là 「きっかけに、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ★ ＿＿ ＿＿を始めた。",
+      "options": [
+       "一人暮らし",
+       "きっかけに",
+       "大学に",
+       "入ったのを"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 彼は大学に入ったのをきっかけに一人暮らしを始めた。 (Nhân dịp vào đại học, anh ấy bắt đầu sống một mình.). Mảnh ở ô ★ là 「入ったのを」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "友だちの一言をきっかけに、仕事を変える決心をした。",
+      "options": [
+       "Nhân một câu nói của bạn, tôi đã quyết tâm đổi việc.",
+       "Vì bạn không nói gì nên tôi quyết định giữ công việc hiện tại.",
+       "Thay cho bạn, tôi đã nói lời quyết tâm đổi việc.",
+       "Tôi đổi việc xong rồi mới nói một lời với bạn."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜をきっかけに (nhân việc… mà bắt đầu thay đổi): \"Nhân một câu nói của bạn, tôi đã quyết tâm đổi việc.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの試合をきっかけに、サッカーが好きになった。",
+      "options": [
+       "Tôi đã thích bóng đá từ trước trận đấu đó.",
+       "Vì thích bóng đá nên tôi đã đi xem trận đấu đó.",
+       "Dù đã xem trận đấu đó, tôi vẫn không thích bóng đá.",
+       "Từ trận đấu đó, tôi bắt đầu thích bóng đá."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜をきっかけに (một sự việc trở thành điểm khởi đầu): \"Từ trận đấu đó, tôi bắt đầu thích bóng đá.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "旅行をきっかけに、写真を撮るようになった。",
+       "雨をきっかけに、傘を持って行った。",
+       "病気をきっかけに、生活を見直した。",
+       "転勤をきっかけに、家族で引っ越した。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「雨をきっかけに、傘を持って行った。」 sai: をきっかけに dùng khi một sự việc mở ra thay đổi hay khởi đầu mới, không dùng cho lý do thông thường hằng ngày. Câu đúng: 雨だったので、傘を持って行った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "結婚したをきっかけに、家を買った。",
+       "留学したのをきっかけに、自分の国の文化を考えるようになった。",
+       "この本を読んだのをきっかけに、料理を始めた。",
+       "けがをきっかけに、無理をしないようになった。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「結婚したをきっかけに、家を買った。」 sai: sau động từ phải có の trước をきっかけに (Vた + のをきっかけに), hoặc dùng danh từ 結婚. Câu đúng: 結婚したのをきっかけに、家を買った。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "友だちが増えた。",
+       "をきっかけに、",
+       "サークル",
+       "に入ったの"
+      ],
+      "answer_order": [
+       2,
+       3,
+       1,
+       0
+      ],
+      "translation_vi": "Nhờ tham gia câu lạc bộ mà tôi có thêm nhiều bạn."
+     },
+     {
+      "pieces": [
+       "をきっかけに",
+       "始めた。",
+       "医者のアドバイス",
+       "ジョギングを"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Nhân lời khuyên của bác sĩ, tôi bắt đầu chạy bộ."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "日本への旅行を＿＿、日本の料理が好きになった。",
+      "answer": "きっかけに",
+      "accept": [
+       "きっかけにして",
+       "きっかけとして",
+       "契機に"
+      ],
+      "translation_vi": "Nhân chuyến du lịch Nhật Bản, tôi trở nên thích món ăn Nhật."
+     },
+     {
+      "sentence_ja": "子どもが生まれたのを＿＿、家族で広い家に引っ越した。",
+      "answer": "きっかけに",
+      "accept": [
+       "きっかけにして",
+       "きっかけとして",
+       "契機に"
+      ],
+      "translation_vi": "Nhân dịp có con, cả gia đình đã chuyển đến một ngôi nhà rộng hơn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "先生にほめられたこと（　　）、絵をかくのが好きになった。",
+      "options": [
+       "にとって",
+       "について",
+       "をきっかけに",
+       "によると"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「をきっかけに」: việc được thầy khen là điểm khởi đầu khiến tôi thích vẽ. にとって (đối với), について (về), によると (theo như) không hợp nghĩa. Nghĩa: Từ lần được thầy khen, tôi trở nên thích vẽ tranh."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "引っ越しをきっかけに、近所の人とあいさつするようになった。",
+      "options": [
+       "Vì hàng xóm không chào nên tôi đã chuyển nhà.",
+       "Nhân dịp chuyển nhà, tôi bắt đầu chào hỏi hàng xóm.",
+       "Trước khi chuyển nhà, tôi đã chào tạm biệt hàng xóm.",
+       "Dù đã chuyển nhà, tôi vẫn chưa chào hỏi hàng xóm."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜をきっかけに (nhân dịp… mà bắt đầu): \"Nhân dịp chuyển nhà, tôi bắt đầu chào hỏi hàng xóm.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "地震をきっかけに、水や食料を用意するようになった。",
+       "毎日をきっかけに、朝ご飯を食べている。",
+       "退職をきっかけに、海の近くで暮らし始めた。",
+       "その映画をきっかけに、歴史が好きになった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「毎日をきっかけに、朝ご飯を食べている。」 sai: をきっかけに cần một sự việc cụ thể làm điểm khởi đầu; 毎日 không phải sự kiện. Câu đúng: 毎日、朝ご飯を食べている。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -110,7 +865,198 @@
    "id": "JG-fcc107604f"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "私が社長である（　　）、この会社は誰にも売らない。",
+      "options": [
+       "かぎりでは",
+       "ばかりに",
+       "かぎり",
+       "くせに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「かぎり」: chừng nào tôi còn là giám đốc thì quyết tâm ở vế sau vẫn giữ. かぎりでは chỉ đi với động từ nhận thức (知る, 聞く…); ばかりに (chỉ vì), くせに (vậy mà) không hợp nghĩa. Nghĩa: Chừng nào tôi còn là giám đốc, công ty này sẽ không bán cho ai cả."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "練習を続けない（　　）、上手にはならない。",
+      "options": [
+       "かぎり",
+       "ほど",
+       "とおり",
+       "うえに"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「かぎり」: Vない + かぎり = chừng nào còn chưa…, thì vế sau không xảy ra. ほど (đến mức), とおり (đúng như), うえに (hơn nữa) không tạo nghĩa điều kiện này. Nghĩa: Chừng nào còn không luyện tập liên tục thì sẽ không giỏi lên được."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿たい。",
+      "options": [
+       "仕事を続け",
+       "かぎり、",
+       "体が",
+       "元気な"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 体が元気なかぎり、仕事を続けたい。 (Chừng nào cơ thể còn khỏe, tôi muốn tiếp tục làm việc.). Mảnh ở ô ★ là 「かぎり、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "かぎり、",
+       "試合は始まらない",
+       "やまない",
+       "雨が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この雨がやまないかぎり、試合は始まらない。 (Chừng nào cơn mưa này chưa tạnh thì trận đấu sẽ không bắt đầu.). Mảnh ở ô ★ là 「やまない」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "本人が反対しているかぎり、この話は進められない。",
+      "options": [
+       "Dù người đó phản đối, chuyện này vẫn được tiến hành.",
+       "Chừng nào người đó còn phản đối thì chuyện này không thể tiến hành.",
+       "Theo như tôi biết, người đó không phản đối chuyện này.",
+       "Vì người đó đã đồng ý nên chuyện này được tiến hành."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜かぎり (chừng nào trạng thái còn duy trì): \"Chừng nào người đó còn phản đối thì chuyện này không thể tiến hành.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "日本にいるかぎりは、日本のルールを守るべきだ。",
+      "options": [
+       "Theo những gì tôi thấy ở Nhật, người ta rất tuân thủ quy tắc.",
+       "Chỉ những người sống lâu ở Nhật mới phải tuân thủ quy tắc.",
+       "Trước khi đến Nhật, nên tìm hiểu quy tắc của Nhật.",
+       "Chừng nào còn ở Nhật thì nên tuân thủ quy tắc của Nhật."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜かぎりは (chừng nào còn…): \"Chừng nào còn ở Nhật thì nên tuân thủ quy tắc của Nhật.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "昨日駅に着いたかぎり、雨が降り出した。",
+       "私が生きているかぎり、あなたを守る。",
+       "安全が確認されないかぎり、工事は再開できない。",
+       "時間がある限り、手伝います。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「昨日駅に着いたかぎり、雨が降り出した。」 sai: かぎり nói về điều kiện, trạng thái còn kéo dài, không dùng cho một sự việc xảy ra một lần trong quá khứ. Câu đúng: 昨日駅に着いたとき、雨が降り出した。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "学生であるかぎり、勉強が一番大切だ。",
+       "あきらめないかぎり、チャンスはある。",
+       "この薬を飲んでいるかぎり、お酒は飲めません。",
+       "子どもなかぎり、夜一人で出かけてはいけない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「子どもなかぎり、夜一人で出かけてはいけない。」 sai: danh từ phải đi với である hoặc の trước かぎり, không dùng な. Câu đúng: 子どもであるかぎり、夜一人で出かけてはいけない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "かぎり、",
+       "ない。",
+       "心配は",
+       "この方法を守る"
+      ],
+      "answer_order": [
+       3,
+       0,
+       2,
+       1
+      ],
+      "translation_vi": "Chừng nào còn làm đúng cách này thì không có gì phải lo."
+     },
+     {
+      "pieces": [
+       "店は",
+       "お客さんが",
+       "開けておく。",
+       "いるかぎり、"
+      ],
+      "answer_order": [
+       1,
+       3,
+       0,
+       2
+      ],
+      "translation_vi": "Chừng nào còn khách thì cửa hàng vẫn mở."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "あきらめない＿＿、夢はきっとかなう。",
+      "answer": "かぎり",
+      "accept": [
+       "限り",
+       "かぎりは",
+       "限りは"
+      ],
+      "translation_vi": "Chừng nào còn không bỏ cuộc thì ước mơ nhất định sẽ thành hiện thực."
+     },
+     {
+      "sentence_ja": "この雪がやまない＿＿、飛行機は飛べないだろう。",
+      "answer": "かぎり",
+      "accept": [
+       "限り",
+       "かぎりは",
+       "限りは"
+      ],
+      "translation_vi": "Chừng nào trận tuyết này chưa ngừng thì chắc máy bay không cất cánh được."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "体が動く（　　）、山登りを続けるつもりだ。",
+      "options": [
+       "くせに",
+       "わりに",
+       "ものの",
+       "かぎり"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「かぎり」: chừng nào cơ thể còn cử động được thì tôi vẫn tiếp tục leo núi. くせに (vậy mà), わりに (so với), ものの (tuy) không hợp nghĩa. Nghĩa: Chừng nào cơ thể còn cử động được, tôi định tiếp tục leo núi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "契約が続くかぎり、この部屋に住める。",
+      "options": [
+       "Chừng nào hợp đồng còn hiệu lực thì có thể ở căn phòng này.",
+       "Hợp đồng chỉ có hiệu lực khi có người ở căn phòng này.",
+       "Theo như hợp đồng tôi đã đọc, căn phòng này rộng.",
+       "Sau khi hợp đồng hết hạn, tôi sẽ chuyển vào căn phòng này."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜かぎり (chừng nào điều kiện còn duy trì): \"Chừng nào hợp đồng còn hiệu lực thì có thể ở căn phòng này.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "雨が降らないかぎり、毎朝散歩する。",
+       "先生が許可しないかぎり、教室には入れない。",
+       "おなかがすいたかぎり、パンを一つ食べた。",
+       "この店がある限り、通い続けたい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「おなかがすいたかぎり、パンを一つ食べた。」 sai: かぎり không dùng cho một việc xảy ra một lần rồi kết thúc. Câu đúng: おなかがすいたので、パンを一つ食べた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -133,7 +1079,200 @@
    "id": "JG-b7b621bc09"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "オリンピック（　　）、多くの道路が新しく作られた。",
+      "options": [
+       "をはじめ",
+       "を契機に",
+       "を問わず",
+       "をめぐって"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「を契機に」: Thế vận hội là bước ngoặt dẫn đến thay đổi lớn (nhiều con đường mới được làm). をはじめ (tiêu biểu là), を問わず (bất kể), をめぐって (xoay quanh) không hợp nghĩa. Nghĩa: Lấy Thế vận hội làm bước ngoặt, nhiều con đường mới đã được làm."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "社長の交代（　　）、会社の方針が大きく変わった。",
+      "options": [
+       "にかけて",
+       "について",
+       "に限って",
+       "を契機に"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「を契機に」: việc thay giám đốc là bước ngoặt làm phương châm công ty thay đổi lớn. にかけて (trải suốt), について (về), に限って (riêng…) không hợp nghĩa. Nghĩa: Lấy việc thay giám đốc làm bước ngoặt, phương châm của công ty đã thay đổi lớn."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "きびしくなった",
+       "契機に、",
+       "安全の確認が",
+       "工場の事故を"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 工場の事故を契機に、安全の確認がきびしくなった。 (Lấy vụ tai nạn ở nhà máy làm bước ngoặt, việc kiểm tra an toàn đã trở nên nghiêm ngặt hơn.). Mảnh ở ô ★ là 「安全の確認が」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "その＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "新しい研究が",
+       "次々に始まった",
+       "契機として、",
+       "発見を"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: その発見を契機として、新しい研究が次々に始まった。 (Lấy phát hiện đó làm bước ngoặt, các nghiên cứu mới lần lượt được bắt đầu.). Mảnh ở ô ★ là 「契機として、」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "父の病気を契機に、家族で話し合う時間が増えた。",
+      "options": [
+       "Vì cả nhà không trò chuyện với nhau nên bố bị bệnh.",
+       "Dù bố bị bệnh, cả nhà vẫn ít trò chuyện với nhau.",
+       "Lấy việc bố bị bệnh làm bước ngoặt, thời gian cả nhà trò chuyện với nhau đã tăng lên.",
+       "Cả nhà đã trò chuyện về bệnh của bố trong thời gian dài."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜を契機に (lấy sự việc làm bước ngoặt cho thay đổi): \"Lấy việc bố bị bệnh làm bước ngoặt, thời gian cả nhà trò chuyện với nhau đã tăng lên.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "大きな地震を契機として、町の人たちのつながりが強くなった。",
+      "options": [
+       "Lấy trận động đất lớn làm bước ngoặt, mối gắn kết giữa người dân thị trấn đã trở nên bền chặt hơn.",
+       "Vì người dân thị trấn ít gắn kết nên thiệt hại do động đất rất lớn.",
+       "Trước trận động đất lớn, người dân thị trấn đã rất gắn kết.",
+       "Dù có động đất lớn, mối gắn kết của người dân thị trấn vẫn không thay đổi."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜を契機として (lấy sự kiện lớn làm bước ngoặt): \"Lấy trận động đất lớn làm bước ngoặt, mối gắn kết giữa người dân thị trấn đã trở nên bền chặt hơn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "入社を契機に、一人暮らしを始めた。",
+       "おなかがすいたのを契機に、お菓子を食べた。",
+       "大会が開かれたのを契機に、町に外国人観光客が増えた。",
+       "法律の改正を契機に、働き方が変わった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「おなかがすいたのを契機に、お菓子を食べた。」 sai: を契機に là cách nói trang trọng cho sự kiện đủ lớn dẫn đến thay đổi quan trọng, không dùng cho việc vặt hằng ngày. Câu đúng: おなかがすいたので、お菓子を食べた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "この事件を契機として、制度が改められた。",
+       "工場の移転を契機に、町の人口が減った。",
+       "百周年を契機に、学校の建物が新しくなった。",
+       "国際会議の契機に、町の名前が世界に知られるようになった。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「国際会議の契機に、町の名前が世界に知られるようになった。」 sai: trợ từ đứng trước 契機に phải là を, không dùng の. Câu đúng: 国際会議を契機に、町の名前が世界に知られるようになった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "を契機に、",
+       "消費税の引き上げ",
+       "節約を始めた。",
+       "多くの家庭が"
+      ],
+      "answer_order": [
+       1,
+       0,
+       3,
+       2
+      ],
+      "translation_vi": "Lấy việc tăng thuế tiêu dùng làm bước ngoặt, nhiều gia đình đã bắt đầu tiết kiệm."
+     },
+     {
+      "pieces": [
+       "見直された。",
+       "を契機として、",
+       "大きな事故",
+       "交通のルールが"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Lấy vụ tai nạn lớn làm bước ngoặt, các quy tắc giao thông đã được xem xét lại."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "国際大会が開かれたのを＿＿、町に新しい駅ができた。",
+      "answer": "契機に",
+      "accept": [
+       "契機として",
+       "契機にして",
+       "きっかけに",
+       "きっかけとして"
+      ],
+      "translation_vi": "Lấy việc tổ chức giải đấu quốc tế làm bước ngoặt, thị trấn đã có nhà ga mới."
+     },
+     {
+      "sentence_ja": "社長が代わったのを＿＿、会社の雰囲気が明るくなった。",
+      "answer": "契機に",
+      "accept": [
+       "契機として",
+       "契機にして",
+       "きっかけに",
+       "きっかけとして"
+      ],
+      "translation_vi": "Nhân việc thay giám đốc, bầu không khí công ty trở nên tươi vui hơn."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "会社の五十周年（　　）、新しいマークが作られた。",
+      "options": [
+       "を契機に",
+       "にもかかわらず",
+       "をこめて",
+       "にわたって"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「を契機に」: dịp kỷ niệm 50 năm là bước ngoặt để làm biểu tượng mới. にもかかわらず (mặc dù), をこめて (gửi gắm), にわたって (suốt) không hợp nghĩa. Nghĩa: Nhân dịp kỷ niệm 50 năm thành lập công ty, biểu tượng mới đã được tạo ra."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "留学を契機に、彼は将来の進路を考え直した。",
+      "options": [
+       "Vì đã quyết định con đường tương lai nên anh ấy đi du học.",
+       "Dù đã du học, anh ấy vẫn không nghĩ đến tương lai.",
+       "Anh ấy đã từ bỏ việc du học để suy nghĩ về tương lai.",
+       "Lấy việc du học làm bước ngoặt, anh ấy đã suy nghĩ lại về con đường tương lai."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜を契機に (sự kiện trở thành bước ngoặt): \"Lấy việc du học làm bước ngoặt, anh ấy đã suy nghĩ lại về con đường tương lai.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "オリンピックを契機に、町の交通が便利になった。",
+       "経済の悪化を契機に、政府は新しい対策を始めた。",
+       "あくびを契機に、窓を開けた。",
+       "退院を契機に、食生活を見直した。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「あくびを契機に、窓を開けた。」 sai: を契機に chỉ dùng cho sự kiện đủ lớn dẫn tới thay đổi quan trọng; một cái ngáp chỉ là việc nhỏ. Câu đúng: 眠くなったので、窓を開けた。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -158,7 +1297,198 @@
    "id": "JG-2b9520bd6c"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "部屋の電気がついている（　　）、彼はもう帰ってきたと思われる。",
+      "options": [
+       "ことに",
+       "ことから",
+       "ことなく",
+       "ことか"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ことから」: việc đèn phòng đang bật là căn cứ để suy ra anh ấy đã về. ことに (thật là, nêu cảm xúc), ことなく (mà không), ことか (biết bao) không nêu căn cứ. Nghĩa: Từ việc đèn trong phòng đang bật, có thể nghĩ là anh ấy đã về rồi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この島は形が魚に似ている（　　）、「魚島」と呼ばれている。",
+      "options": [
+       "わりに",
+       "ものの",
+       "くせに",
+       "ことから"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「ことから」: nêu lý do của tên gọi (hình dáng giống con cá). わりに (so với), ものの (tuy), くせに (vậy mà) không dùng để giải thích tên gọi. Nghĩa: Hòn đảo này có hình giống con cá nên được gọi là 'đảo Cá'."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "道がぬれている＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "分かる",
+       "降ったと",
+       "ことから、",
+       "夜のうちに雨が"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 道がぬれていることから、夜のうちに雨が降ったと分かる。 (Từ việc đường bị ướt, có thể biết trong đêm trời đã mưa.). Mảnh ở ô ★ là 「降ったと」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "この坂は＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "ことから",
+       "「海見坂」と呼ばれている",
+       "見える",
+       "海が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この坂は海が見えることから「海見坂」と呼ばれている。 (Con dốc này nhìn thấy biển nên được gọi là 'dốc Ngắm Biển'.). Mảnh ở ô ★ là 「見える」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "声がよく似ていることから、二人は兄弟だと分かった。",
+      "options": [
+       "Vì là anh em nên giọng nói của hai người giống nhau.",
+       "Dù giọng nói giống nhau, hai người không phải anh em.",
+       "Từ việc giọng nói rất giống nhau, người ta nhận ra hai người là anh em.",
+       "Hai anh em đã cố nói giọng cho giống nhau."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ことから (từ căn cứ… mà suy ra): \"Từ việc giọng nói rất giống nhau, người ta nhận ra hai người là anh em.\" Giọng giống là căn cứ, 'là anh em' là kết luận."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "星の形をしていることから、この花は「星の花」と呼ばれる。",
+      "options": [
+       "Vì có hình ngôi sao nên loài hoa này được gọi là 'hoa sao'.",
+       "Loài hoa này chỉ nở khi có sao trên trời.",
+       "Người ta trồng loài hoa này thành hình ngôi sao.",
+       "Dù có hình ngôi sao, loài hoa này không được gọi là 'hoa sao'."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ことから (nêu nguồn gốc của tên gọi): \"Vì có hình ngôi sao nên loài hoa này được gọi là 'hoa sao'.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "足あとがあることから、犬が通ったと分かった。",
+       "顔が赤いことから、熱があると思った。",
+       "この町は温泉が多いことから、「湯の町」と呼ばれている。",
+       "おなかがすいたことから、レストランに行こう。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「おなかがすいたことから、レストランに行こう。」 sai: ことから nêu căn cứ cho suy luận, nhận định hay tên gọi; vế sau không phải lời rủ rê, ý chí. Câu đúng: おなかがすいたから、レストランに行こう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "かさに名前が書いてあったことから、持ち主が分かった。",
+       "明日は休みだことから、旅行に行く。",
+       "彼が何も言わないことから、怒っていると思った。",
+       "道が混んでいることから、事故があったと考えられる。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「明日は休みだことから、旅行に行く。」 sai: danh từ đi với ことから phải ở dạng であること (không dùng だこと), và vế sau là hành động có ý chí chứ không phải suy luận. Câu đúng: 明日は休みなので、旅行に行く。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "と分かった。",
+       "返事がない",
+       "ことから、",
+       "留守だ"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Từ việc không có ai trả lời, tôi biết là nhà đang vắng người."
+     },
+     {
+      "pieces": [
+       "ことから、",
+       "呼ばれている。",
+       "この石は",
+       "「カエル石」と",
+       "形がカエルに似ている"
+      ],
+      "answer_order": [
+       2,
+       4,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Hòn đá này có hình giống con ếch nên được gọi là 'đá Ếch'."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "空が暗くなってきた＿＿、もうすぐ雨が降ると思う。",
+      "answer": "ことから",
+      "accept": [
+       "ので",
+       "から"
+      ],
+      "translation_vi": "Từ việc bầu trời tối dần, tôi nghĩ sắp mưa rồi."
+     },
+     {
+      "sentence_ja": "この町は古い橋が多い＿＿、「橋の町」と呼ばれている。",
+      "answer": "ことから",
+      "accept": [
+       "ので",
+       "から"
+      ],
+      "translation_vi": "Thị trấn này có nhiều cây cầu cổ nên được gọi là 'thị trấn của những cây cầu'."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "机の上にかばんがある（　　）、田中さんはまだ会社にいるようだ。",
+      "options": [
+       "ことさえ",
+       "ことには",
+       "ことから",
+       "ことなしに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ことから」: chiếc cặp trên bàn là căn cứ để suy ra anh Tanaka vẫn còn ở công ty. ことさえ (ngay cả), ことには (thì mới), ことなしに (mà không) không nêu căn cứ. Nghĩa: Từ việc còn chiếc cặp trên bàn, có vẻ anh Tanaka vẫn còn ở công ty."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "電話に出ないことから、母は忙しいのだろうと思った。",
+      "options": [
+       "Vì mẹ bận nên tôi đã không gọi điện.",
+       "Dù mẹ không nghe máy, tôi vẫn không lo.",
+       "Mẹ bận đến mức không gọi điện cho tôi được.",
+       "Từ việc mẹ không nghe máy, tôi nghĩ chắc mẹ đang bận."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ことから (từ căn cứ mà suy đoán): \"Từ việc mẹ không nghe máy, tôi nghĩ chắc mẹ đang bận.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "寒いことから、窓を閉めてください。",
+       "店の前に長い列ができていることから、人気の店だと分かる。",
+       "日本語が上手なことから、長く日本に住んでいると思った。",
+       "電気が消えていることから、もう寝たのだろう。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「寒いことから、窓を閉めてください。」 sai: vế sau ことから là suy luận hay nhận định, không phải lời nhờ vả. Câu đúng: 寒いので、窓を閉めてください。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -183,7 +1513,198 @@
    "id": "JG-217ba9f715"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "私が聞いた（　　）、その店は来月閉まるそうだ。",
+      "options": [
+       "ついでに",
+       "ばかりで",
+       "かぎりでは",
+       "どころか"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「かぎりでは」: giới hạn thông tin trong phạm vi những gì tôi đã nghe. ついでに (nhân tiện), ばかりで (chỉ toàn), どころか (chẳng những không) không hợp nghĩa. Nghĩa: Theo những gì tôi nghe được, cửa hàng đó tháng sau sẽ đóng cửa."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "天気予報を見た（　　）、週末は晴れるようだ。",
+      "options": [
+       "かぎりでは",
+       "おかげで",
+       "せいか",
+       "とたんに"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「かぎりでは」: nhận định trong phạm vi thông tin từ dự báo thời tiết. おかげで (nhờ), せいか (có lẽ tại), とたんに (vừa… thì) không hợp vì việc xem dự báo không làm trời nắng. Nghĩa: Theo dự báo thời tiết tôi xem, có vẻ cuối tuần trời nắng."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "この問題についての本はない",
+       "調べた",
+       "かぎりでは、",
+       "私が"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 私が調べたかぎりでは、この問題についての本はない。 (Theo những gì tôi đã tìm hiểu, không có cuốn sách nào về vấn đề này.). Mảnh ở ô ★ là 「かぎりでは、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "資料を＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "問題はなさそうだ",
+       "計画に大きな",
+       "読んだ",
+       "かぎりでは、"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 資料を読んだかぎりでは、計画に大きな問題はなさそうだ。 (Theo những gì tôi đọc trong tài liệu, kế hoạch có vẻ không có vấn đề gì lớn.). Mảnh ở ô ★ là 「計画に大きな」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "私の知るかぎりでは、彼は一度も遅刻したことがない。",
+      "options": [
+       "Chừng nào tôi còn ở đây, anh ấy sẽ không đi muộn.",
+       "Theo như tôi biết, anh ấy chưa từng đi muộn lần nào.",
+       "Tôi biết chắc chắn rằng anh ấy luôn đi muộn.",
+       "Chỉ mình tôi biết anh ấy đã đi muộn một lần."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜かぎりでは (theo phạm vi hiểu biết của người nói): \"Theo như tôi biết, anh ấy chưa từng đi muộn lần nào.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "ニュースで見たかぎりでは、けがをした人はいないようだ。",
+      "options": [
+       "Chừng nào còn xem thời sự thì sẽ không có người bị thương.",
+       "Vì đã xem thời sự nên tôi biết chắc có nhiều người bị thương.",
+       "Dù không xem thời sự, tôi biết không có người bị thương.",
+       "Theo những gì tôi xem trên thời sự, có vẻ không có ai bị thương."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜かぎりでは (nhận định trong phạm vi thông tin mình có): \"Theo những gì tôi xem trên thời sự, có vẻ không có ai bị thương.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "雨が降るかぎりでは、試合は中止だ。",
+       "私が見たかぎりでは、問題はなかった。",
+       "聞いたかぎりでは、彼は来月結婚するらしい。",
+       "このデータを見るかぎりでは、売り上げは伸びている。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「雨が降るかぎりでは、試合は中止だ。」 sai: かぎりでは chỉ đi với động từ nhận thức (見る, 聞く, 知る, 調べる) để giới hạn thông tin; điều kiện 'nếu mưa' phải dùng なら hoặc 場合は. Câu đúng: 雨が降ったら、試合は中止だ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "私が経験したかぎりでは、この方法が一番いい。",
+       "先生に聞いたかぎりでは、試験は難しくないそうだ。",
+       "元気なかぎりでは、ずっと働きたい。",
+       "インターネットで調べたかぎりでは、その店は安くておいしいらしい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「元気なかぎりでは、ずっと働きたい。」 sai: nghĩa 'chừng nào còn khỏe' phải dùng かぎり; かぎりでは chỉ dùng để giới hạn phạm vi thông tin. Câu đúng: 元気なかぎり、ずっと働きたい。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "かぎりでは、",
+       "来ていない。",
+       "私が知っている",
+       "連絡はまだ"
+      ],
+      "answer_order": [
+       2,
+       0,
+       3,
+       1
+      ],
+      "translation_vi": "Theo như tôi biết thì vẫn chưa có liên lạc."
+     },
+     {
+      "pieces": [
+       "満足しているようだ。",
+       "見たかぎりでは、",
+       "お客さんは",
+       "アンケートを"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Theo những gì tôi xem trong phiếu khảo sát, khách hàng có vẻ hài lòng."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "私が調べた＿＿、この薬に危険はないようだ。",
+      "answer": "かぎりでは",
+      "accept": [
+       "限りでは",
+       "かぎり",
+       "限り"
+      ],
+      "translation_vi": "Theo những gì tôi đã tìm hiểu, có vẻ loại thuốc này không nguy hiểm."
+     },
+     {
+      "sentence_ja": "話を聞いた＿＿、彼は悪くないと思う。",
+      "answer": "かぎりでは",
+      "accept": [
+       "限りでは",
+       "かぎり",
+       "限り"
+      ],
+      "translation_vi": "Theo những gì tôi đã nghe, tôi nghĩ anh ấy không có lỗi."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "私の見た（　　）、この町は住みやすそうだ。",
+      "options": [
+       "ばかりか",
+       "かぎりでは",
+       "あまり",
+       "うちに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「かぎりでは」: nhận định 'có vẻ dễ sống' trong phạm vi những gì tôi đã thấy. ばかりか (không chỉ), あまり (quá… nên), うちに (trong lúc) không hợp nghĩa. Nghĩa: Theo những gì tôi thấy, thị trấn này có vẻ dễ sống."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この写真を見るかぎりでは、旅行は楽しかったようだ。",
+      "options": [
+       "Chừng nào còn xem ảnh thì chuyến du lịch vẫn vui.",
+       "Chỉ có ảnh là vui, còn chuyến du lịch thì không.",
+       "Nhìn những bức ảnh này thì có vẻ chuyến du lịch đã rất vui.",
+       "Vì chuyến du lịch vui nên tôi đã chụp nhiều ảnh."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜かぎりでは (theo phạm vi những gì thấy được): \"Nhìn những bức ảnh này thì có vẻ chuyến du lịch đã rất vui.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "父の話を聞いたかぎりでは、昔はこの辺りに川があったそうだ。",
+       "お金があるかぎりでは、旅行を続けたい。",
+       "私が知るかぎりでは、この店は日曜日も開いている。",
+       "地図で調べたかぎりでは、駅から近いようだ。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「お金があるかぎりでは、旅行を続けたい。」 sai: 'chừng nào còn tiền' là điều kiện duy trì, phải dùng かぎり; かぎりでは chỉ giới hạn phạm vi thông tin. Câu đúng: お金があるかぎり、旅行を続けたい。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

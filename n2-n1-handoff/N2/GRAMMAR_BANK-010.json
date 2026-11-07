@@ -4,7 +4,191 @@
  },
  "items": [
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "友だちが止めてくれなかったら、危うく車にひかれる（　　）。",
+      "options": [
+       "ところで",
+       "ところを",
+       "ところだった",
+       "ところに"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ところだった」: Vる + ところだった = suýt nữa thì (việc xấu) đã xảy ra. ところで, ところを, ところに đều cần vế sau nên không kết câu được. Nghĩa: Nếu bạn không kéo lại thì suýt nữa tôi đã bị xe tông."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "メールを送る前に確認してよかった。違う人に送ってしまう（　　）。",
+      "options": [
+       "ばかりだ",
+       "ところだった",
+       "最中だ",
+       "ついでだ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ところだった」: việc gửi nhầm suýt xảy ra nhưng nhờ kiểm tra nên không xảy ra. ばかりだ, 最中だ, ついでだ không hợp nghĩa và cách nối. Nghĩa: May mà kiểm tra trước khi gửi email. Suýt nữa thì gửi nhầm người."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "ぼんやりしていて、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "だった",
+       "赤信号を",
+       "渡る",
+       "ところ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: ぼんやりしていて、赤信号を渡るところだった。 (Lơ đễnh nên suýt nữa tôi băng qua đường khi đèn đỏ.). Mảnh ở ô ★ là 「ところ」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "先輩が教えてくれなかったら、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "遅れる",
+       "ところだった",
+       "しめ切りに",
+       "申し込みの"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: 先輩が教えてくれなかったら、申し込みのしめ切りに遅れるところだった。 (Nếu đàn anh không nhắc thì suýt nữa tôi trễ hạn đăng ký.). Mảnh ở ô ★ là 「遅れる」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "危うく熱いお茶をこぼすところだった。",
+      "options": [
+       "Tôi đã làm đổ trà nóng.",
+       "Tôi đang định pha trà nóng.",
+       "Tôi vừa mới uống xong trà nóng.",
+       "Suýt nữa thì tôi làm đổ trà nóng."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 危うく〜ところだった (suýt nữa thì): \"Suýt nữa thì tôi làm đổ trà nóng.\" Thực tế trà chưa bị đổ."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "田中さんに声をかけられなかったら、乗る電車を間違えるところだった。",
+      "options": [
+       "Vì anh Tanaka gọi nên tôi đã lên nhầm tàu.",
+       "Nếu anh Tanaka không gọi thì suýt nữa tôi đã lên nhầm tàu.",
+       "Anh Tanaka vừa mới lên nhầm tàu.",
+       "Nếu anh Tanaka không gọi thì tôi sẽ lên tàu đúng giờ."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜たら〜ところだった (nếu không… thì suýt nữa đã…): \"Nếu anh Tanaka không gọi thì suýt nữa tôi đã lên nhầm tàu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "もう少しで約束の時間に遅れるところだった。",
+       "もう少しで道で転んだところだった。",
+       "危うく大切な書類を捨てるところだった。",
+       "急ブレーキをかけなかったら、自転車とぶつかるところだった。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「もう少しで道で転んだところだった。」 sai: nghĩa 'suýt nữa' phải dùng Vる + ところだった, không dùng Vた. Câu đúng: もう少しで道で転ぶところだった。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "駅で走って、もう少しで人にぶつかるところだった。",
+       "気づくのが遅かったら、魚をこがすところだった。",
+       "危うく火事になるのところだった。",
+       "うっかりして、パスワードを忘れるところだった。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「危うく火事になるのところだった。」 sai: ところだった nối thẳng sau Vる, không chen の. Câu đúng: 危うく火事になるところだった。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "ところだった。",
+       "起こしてくれなかったら、",
+       "バスを乗り過ごす",
+       "隣の人が"
+      ],
+      "answer_order": [
+       3,
+       1,
+       2,
+       0
+      ],
+      "translation_vi": "Nếu người ngồi bên không đánh thức thì suýt nữa tôi đã đi quá bến xe buýt."
+     },
+     {
+      "pieces": [
+       "寝坊して",
+       "ところだった。",
+       "飛行機に",
+       "乗り遅れる"
+      ],
+      "answer_order": [
+       0,
+       2,
+       3,
+       1
+      ],
+      "translation_vi": "Tôi ngủ quên nên suýt nữa thì lỡ chuyến bay."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "もう少しで大事な約束を忘れる＿＿。",
+      "answer": "ところだった",
+      "accept": [
+       "ところでした"
+      ],
+      "translation_vi": "Suýt nữa thì tôi quên mất một cuộc hẹn quan trọng."
+     },
+     {
+      "sentence_ja": "ブレーキが遅れていたら、前の車にぶつかる＿＿だった。",
+      "answer": "ところ",
+      "translation_vi": "Nếu đạp phanh chậm thì suýt nữa đã đâm vào xe phía trước."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "地図を確認しなかったら、反対方向のバスに乗る（　　）。",
+      "options": [
+       "ようにした",
+       "ことにした",
+       "ところだった",
+       "ばかりだった"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「ところだった」: vế 〜なかったら nêu điều kiện trái thực tế, vế sau là việc suýt xảy ra. ようにした, ことにした là quyết định có ý chí, ばかりだった không hợp nghĩa. Nghĩa: Nếu không xem bản đồ thì suýt nữa tôi đã lên xe buýt đi ngược chiều."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この書類、危うくシュレッダーにかけるところだった。",
+      "options": [
+       "Tôi đã cho tập tài liệu này vào máy hủy giấy rồi.",
+       "Suýt nữa thì tôi cho tập tài liệu này vào máy hủy giấy.",
+       "Tôi đang cho tập tài liệu này vào máy hủy giấy.",
+       "Tập tài liệu này không được cho vào máy hủy giấy."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 危うく〜ところだった (suýt nữa thì): \"Suýt nữa thì tôi cho tập tài liệu này vào máy hủy giấy.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "危うく電車にかばんを忘れるところだった。",
+       "あと一秒遅かったら、ボールが顔に当たるところだった。",
+       "メモを見なかったら、薬を飲み忘れるところだった。",
+       "もう少しで傘を忘れところだった。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「もう少しで傘を忘れところだった。」 sai: trước ところだった phải là thể từ điển (忘れる), không dùng gốc ます. Câu đúng: もう少しで傘を忘れるところだった。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -22,7 +206,194 @@
    "id": "JG-50f80c3ad9"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あの真面目な田中さんが会社を休む（　　）、信じられない。",
+      "options": [
+       "ために",
+       "なんて",
+       "ように",
+       "ばかりに"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「なんて」: thể thường + なんて diễn tả sự ngạc nhiên, vế sau là cảm xúc 信じられない. ために, ように, ばかりに chỉ mục đích/nguyên nhân, không hợp vế sau. Nghĩa: Anh Tanaka nghiêm túc như thế mà lại nghỉ làm, thật không tin nổi."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "十年ぶりに会った友だちが私の名前を覚えていた（　　）、びっくりした。",
+      "options": [
+       "ばかりか",
+       "ついでに",
+       "かわりに",
+       "とは"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「とは」: thể thường + とは diễn tả điều ngoài dự đoán, vế sau là びっくりした. ばかりか, ついでに, かわりに không nối được với vế cảm xúc này. Nghĩa: Không ngờ người bạn mười năm mới gặp lại vẫn nhớ tên tôi, tôi rất ngạc nhiên."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "子どもが＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "びっくりした",
+       "一人で",
+       "なんて、",
+       "料理を作る"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 子どもが一人で料理を作るなんて、びっくりした。 (Không ngờ đứa trẻ tự nấu ăn một mình, tôi rất bất ngờ.). Mảnh ở ô ★ là 「なんて、」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "あんなに練習した＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "負ける",
+       "とは",
+       "のに",
+       "一回戦で"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: あんなに練習したのに一回戦で負けるとは。 (Đã luyện tập nhiều thế mà không ngờ lại thua ngay vòng một.). Mảnh ở ô ★ là 「負ける」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この値段でこんなにおいしいランチが食べられるなんて。",
+      "options": [
+       "Không ngờ với giá này mà lại được ăn bữa trưa ngon đến thế.",
+       "Với giá này thì không thể ăn bữa trưa ngon như vậy.",
+       "Tôi muốn ăn bữa trưa ngon với giá này.",
+       "Bữa trưa ngon như thế này chắc phải đắt lắm."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜なんて (ngạc nhiên, bỏ lửng vế sau): \"Không ngờ với giá này mà lại được ăn bữa trưa ngon đến thế.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "試験の前の日に熱を出すとは、運が悪かった。",
+      "options": [
+       "Vì bị sốt trước ngày thi nên tôi đã không đi thi.",
+       "Nếu bị sốt trước ngày thi thì thật xui.",
+       "Không ngờ lại bị sốt đúng ngày trước kỳ thi, thật là xui.",
+       "Dù bị sốt trước ngày thi nhưng may mắn vẫn thi tốt."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜とは (không ngờ lại…): \"Không ngờ lại bị sốt đúng ngày trước kỳ thi, thật là xui.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "こんなところで先生に会うなんて、びっくりした。",
+       "あの店がもう閉店したとは知らなかった。",
+       "雨が降るなんて、かさを持っていきましょう。",
+       "彼がうそをついたなんて、信じたくない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「雨が降るなんて、かさを持っていきましょう。」 sai: なんて diễn tả ngạc nhiên/đánh giá, không dùng để nêu lý do rồi rủ rê. Câu đúng: 雨が降るそうだから、かさを持っていきましょう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "毎日練習しているなんて、上手になりました。",
+       "まさか彼女が優勝するとは。",
+       "一万円もするなんて、高すぎる。",
+       "こんなに簡単な問題を間違えたなんて、くやしい。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「毎日練習しているなんて、上手になりました。」 sai: vế sau なんて phải là cảm xúc, đánh giá, không phải kết quả khách quan. Câu đúng: 毎日練習しているので、上手になりました。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "売り切れる",
+       "なんて",
+       "一時間で",
+       "思わなかった。"
+      ],
+      "answer_order": [
+       2,
+       0,
+       1,
+       3
+      ],
+      "translation_vi": "Tôi không ngờ chỉ trong một tiếng mà đã bán hết."
+     },
+     {
+      "pieces": [
+       "とは",
+       "友だちが",
+       "引っ越す",
+       "知らなかった。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Tôi không hề biết là bạn mình sắp chuyển nhà."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "あの静かな山田さんがカラオケで歌う＿＿、意外だ。",
+      "answer": "なんて",
+      "accept": [
+       "とは"
+      ],
+      "translation_vi": "Anh Yamada trầm tính như thế mà lại hát karaoke, thật bất ngờ."
+     },
+     {
+      "sentence_ja": "まさか私が一位になる＿＿、自分でもびっくりしている。",
+      "answer": "とは",
+      "accept": [
+       "なんて"
+      ],
+      "translation_vi": "Không ngờ mình lại đứng nhất, chính tôi cũng đang ngạc nhiên."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "宿題を三十分で終わらせた（　　）、すごいね。",
+      "options": [
+       "ほど",
+       "うちに",
+       "ように",
+       "なんて"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「なんて」: なんて nêu việc khiến người nói bất ngờ, vế sau là đánh giá すごい. ほど, うちに, ように không hợp nghĩa. Nghĩa: Làm xong bài tập trong ba mươi phút, giỏi thật đấy."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あんなに仲がよかった二人が別れたなんて、うそみたいだ。",
+      "options": [
+       "Hai người thân nhau như vậy chắc chắn sẽ không chia tay.",
+       "Không thể tin hai người từng thân nhau như thế lại chia tay.",
+       "Hai người đó đã chia tay nên giờ không còn thân nhau.",
+       "Nghe nói hai người thân nhau đó sắp chia tay."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜なんて (ngạc nhiên): \"Không thể tin hai người từng thân nhau như thế lại chia tay.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "そんなことを言うなんて、ひどい。",
+       "安いなんて、たくさん買ってください。",
+       "五月に雪が降るとは、珍しい。",
+       "一日で百ページも読んだなんて、すごい。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「安いなんて、たくさん買ってください。」 sai: なんて không dùng như lý do để đưa ra lời đề nghị. Câu đúng: 安いので、たくさん買ってください。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -51,7 +422,191 @@
    "id": "JG-7f1f0796af"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "部長は朝からずっとにこにこしている。何かいいことがあった（　　）。",
+      "options": [
+       "に見える",
+       "を見える",
+       "と見える",
+       "と見せる"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「と見える」: thể thường + と見える = xem ra, có vẻ như (phán đoán từ điều quan sát). に見える chỉ đi sau N/Aな, を見える và と見せる sai cách nối. Nghĩa: Trưởng phòng cười tươi suốt từ sáng. Xem ra đã có chuyện gì vui."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "田中さんの机の上はきれいに片付いている。もう帰った（　　）。",
+      "options": [
+       "と見える",
+       "ことか",
+       "べきだ",
+       "まい"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「と見える」: nhìn bàn đã dọn gọn nên phán đoán anh Tanaka đã về. ことか, べきだ, まい không nối được sau Vた. Nghĩa: Bàn anh Tanaka đã được dọn gọn gàng. Có vẻ anh ấy đã về rồi."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "庭がぬれている。夜のうちに＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "見える",
+       "降った",
+       "雨が",
+       "と"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 庭がぬれている。夜のうちに雨が降ったと見える。 (Sân bị ướt. Xem ra nửa đêm đã có mưa.). Mảnh ở ô ★ là 「と」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼はさっきから何度も時計を見ている。＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "と見える",
+       "ある",
+       "急ぎの",
+       "用事が"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 彼はさっきから何度も時計を見ている。急ぎの用事があると見える。 (Anh ấy cứ nhìn đồng hồ mãi. Có vẻ có việc gấp.). Mảnh ở ô ★ là 「ある」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "子どもたちの声が聞こえない。もう寝たと見える。",
+      "options": [
+       "Không nghe thấy tiếng bọn trẻ. Tôi nhìn thấy chúng đang ngủ.",
+       "Không nghe thấy tiếng bọn trẻ. Hãy cho chúng đi ngủ.",
+       "Không nghe thấy tiếng bọn trẻ. Chắc chắn là chúng chưa ngủ.",
+       "Không nghe thấy tiếng bọn trẻ. Có vẻ như chúng đã ngủ rồi."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜と見える (có vẻ như, phán đoán qua dấu hiệu): \"Không nghe thấy tiếng bọn trẻ. Có vẻ như chúng đã ngủ rồi.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "彼はこの町の道にくわしい。長く住んでいると見える。",
+      "options": [
+       "Anh ấy thông thạo đường trong thị trấn này. Xem ra đã sống ở đây lâu.",
+       "Anh ấy thông thạo đường trong thị trấn này. Anh ấy nói định sống ở đây lâu.",
+       "Anh ấy thông thạo đường trong thị trấn này dù mới chuyển đến.",
+       "Anh ấy thông thạo đường nên hãy nhờ anh ấy dẫn đường."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜と見える (xem ra là): \"Anh ấy thông thạo đường trong thị trấn này. Xem ra đã sống ở đây lâu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "電気が消えている。もう出かけたと見える。",
+       "このレストランはいつも満員だ。人気があると見える。",
+       "犬がしっぽをふっている。うれしいと見える。",
+       "私はとても疲れたと見える。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「私はとても疲れたと見える。」 sai: と見える là phán đoán về người khác, sự vật qua quan sát, không dùng cho cảm giác của chính mình. Câu đúng: 私はとても疲れた。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "窓が開いている。誰かが入ったと見える。",
+       "空が暗い。もうすぐ雨が降るに見える。",
+       "彼は返事をしない。怒っていると見える。",
+       "この本はよく売れている。内容がおもしろいと見える。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「空が暗い。もうすぐ雨が降るに見える。」 sai: sau động từ phải dùng と見える (hoặc ように見える), に見える chỉ đi sau N/Aな. Câu đúng: もうすぐ雨が降ると見える。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "と見える。",
+       "声が",
+       "かれているから、",
+       "昨日歌いすぎた"
+      ],
+      "answer_order": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "translation_vi": "Giọng khàn thế này thì xem ra hôm qua đã hát quá nhiều."
+     },
+     {
+      "pieces": [
+       "苦手だ",
+       "と見える。",
+       "田中さんは辞書を何度も引いている。",
+       "漢字が"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Anh Tanaka cứ tra từ điển mãi. Xem ra anh ấy kém chữ Hán."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "部屋から笑い声が聞こえる。楽しい話をしていると＿＿。",
+      "answer": "見える",
+      "accept": [
+       "みえる"
+      ],
+      "translation_vi": "Từ trong phòng vọng ra tiếng cười. Có vẻ mọi người đang nói chuyện vui."
+     },
+     {
+      "sentence_ja": "妹は朝ご飯を半分残した。具合が悪い＿＿見える。",
+      "answer": "と",
+      "translation_vi": "Em gái tôi bỏ dở một nửa bữa sáng. Xem ra em ấy không được khỏe."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "駐車場に車がない。社長はもう出かけた（　　）。",
+      "options": [
+       "ように見る",
+       "と見せる",
+       "に見える",
+       "と見える"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「と見える」: không thấy xe nên phán đoán giám đốc đã ra ngoài. ように見る, と見せる sai cách dùng, に見える không đi sau Vた. Nghĩa: Bãi đỗ xe không có xe. Có vẻ giám đốc đã ra ngoài rồi."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この店はいつも行列ができている。よほどおいしいと見える。",
+      "options": [
+       "Quán này lúc nào cũng xếp hàng. Tôi đã thấy món ăn rất ngon.",
+       "Quán này lúc nào cũng xếp hàng nhưng món ăn không ngon lắm.",
+       "Quán này lúc nào cũng xếp hàng. Xem ra món ăn ngon lắm.",
+       "Quán này lúc nào cũng xếp hàng nên hãy đến quán khác."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜と見える (xem ra): \"Quán này lúc nào cũng xếp hàng. Xem ra món ăn ngon lắm.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "道が混んでいる。事故があったと見える。",
+       "私は日本料理が好きだと見える。",
+       "猫がご飯を食べない。おなかがすいていないと見える。",
+       "彼は毎日図書館に通っている。試験が近いと見える。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「私は日本料理が好きだと見える。」 sai: không dùng と見える để nói sở thích, cảm xúc của chính mình. Câu đúng: 私は日本料理が好きだ。"
+     }
+    ]
+   },
    "context": {
     "examples": [],
     "meaning_vi": null,
@@ -69,7 +624,191 @@
    "id": "JG-8bd4d36a97"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "スピードを出しすぎると、事故を起こし（　　）。",
+      "options": [
+       "かねる",
+       "かねない",
+       "がたい",
+       "っこない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「かねない」: Vます(bỏ ます) + かねない = có thể xảy ra việc xấu. かねる là 'khó mà làm được', がたい là 'khó', っこない là 'chắc chắn không', đều trái nghĩa câu. Nghĩa: Chạy quá tốc độ thì có thể gây tai nạn."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "そんなに無理をしていたら、体を壊し（　　）よ。",
+      "options": [
+       "たがらない",
+       "かけない",
+       "そうもない",
+       "かねない"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「かねない」: cảnh báo việc làm quá sức có thể dẫn tới hậu quả xấu. たがらない, かけない sai nghĩa, そうもない (không có vẻ sẽ) trái với ý cảnh báo. Nghĩa: Cứ cố quá sức như thế thì có thể hỏng sức khỏe đấy."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "このままでは＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "し",
+       "倒産",
+       "かねない",
+       "会社が"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu đúng: このままでは会社が倒産しかねない。 (Cứ thế này thì công ty có thể phá sản.). Mảnh ở ô ★ là 「し」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "軽い気持ちで言った＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "かねない",
+       "友だちを",
+       "一言が",
+       "怒らせ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 軽い気持ちで言った一言が友だちを怒らせかねない。 (Một câu nói buột miệng có thể làm bạn bè nổi giận.). Mảnh ở ô ★ là 「怒らせ」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "確認しないでメールを送ると、大きな問題になりかねない。",
+      "options": [
+       "Nếu gửi email mà không kiểm tra thì không thể trở thành vấn đề lớn.",
+       "Nếu gửi email mà không kiểm tra thì có thể trở thành vấn đề lớn.",
+       "Gửi email mà không kiểm tra cũng không thành vấn đề gì.",
+       "Vấn đề lớn đã xảy ra vì gửi email mà không kiểm tra."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜かねない (có thể dẫn đến việc xấu), không phải 'không thể': \"Nếu gửi email mà không kiểm tra thì có thể trở thành vấn đề lớn.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの人なら、そんなうそもつきかねない。",
+      "options": [
+       "Người đó thì không bao giờ nói dối kiểu đó.",
+       "Người đó khó mà nói dối kiểu đó được.",
+       "Người đó đã nói dối kiểu đó rồi.",
+       "Người đó thì có khi nói dối kiểu đó cũng nên."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜かねない (có thể làm điều xấu): \"Người đó thì có khi nói dối kiểu đó cũng nên.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "寝不足が続くと、病気になりかねない。",
+       "毎日練習すれば、試合に勝ちかねない。",
+       "そんな言い方をしたら、誤解されかねない。",
+       "子どもの手が届く所に薬を置くと、飲んでしまいかねない。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「毎日練習すれば、試合に勝ちかねない。」 sai: かねない chỉ dùng cho kết quả xấu, không dùng cho việc tốt như thắng trận. Câu đúng: 毎日練習すれば、試合に勝てるだろう。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "パスワードを簡単にすると、情報を盗まれかねない。",
+       "あの人は怒ると、物を投げかねない。",
+       "ゲームばかりしていると、成績が下がるかねない。",
+       "早く手を打たないと、問題が大きくなりかねない。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「ゲームばかりしていると、成績が下がるかねない。」 sai: かねない đi sau gốc ます, không đi sau thể từ điển. Câu đúng: 成績が下がりかねない。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "かねない。",
+       "火事に",
+       "ストーブの近くに服を置くと、",
+       "なり"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Để quần áo gần lò sưởi thì có thể gây ra hỏa hoạn."
+     },
+     {
+      "pieces": [
+       "かねない",
+       "よ。",
+       "誤解され",
+       "その言い方では"
+      ],
+      "answer_order": [
+       3,
+       2,
+       0,
+       1
+      ],
+      "translation_vi": "Nói kiểu đó thì có thể bị hiểu lầm đấy."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "部長に報告しないでおくと、後で大問題になり＿＿。",
+      "answer": "かねない",
+      "accept": [
+       "かねません"
+      ],
+      "translation_vi": "Không báo cáo với trưởng phòng thì sau này có thể thành chuyện lớn."
+     },
+     {
+      "sentence_ja": "ちゃんと寝ないと、体調を悪くし＿＿ませんよ。",
+      "answer": "かね",
+      "translation_vi": "Không ngủ đủ thì có thể sinh bệnh đấy."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "子どもを一人で留守番させると、危ない目にあい（　　）。",
+      "options": [
+       "かねます",
+       "かねない",
+       "っこない",
+       "ようがない"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「かねない」: lo ngại việc xấu có thể xảy ra với đứa trẻ. かねます (khó mà làm, từ chối lịch sự), っこない (chắc chắn không), ようがない (không có cách) đều sai nghĩa. Nghĩa: Để trẻ ở nhà một mình thì có thể gặp nguy hiểm."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この計画は、会社の信用を失うことにもなりかねない。",
+      "options": [
+       "Kế hoạch này có thể khiến công ty mất cả uy tín.",
+       "Kế hoạch này giúp công ty lấy lại uy tín.",
+       "Kế hoạch này không thể làm công ty mất uy tín.",
+       "Công ty đã mất uy tín vì kế hoạch này."
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Câu dùng mẫu 〜ことにもなりかねない (có thể dẫn đến cả việc xấu): \"Kế hoạch này có thể khiến công ty mất cả uy tín.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "よく勉強したから、合格しかねない。",
+       "このまま放っておくと、けがをしかねない。",
+       "連絡を忘れると、相手を怒らせかねない。",
+       "古い電気製品を使い続けると、火事を起こしかねない。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「よく勉強したから、合格しかねない。」 sai: thi đỗ là việc tốt nên không dùng かねない. Câu đúng: よく勉強したから、合格できるだろう。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -94,7 +833,194 @@
    "id": "JG-8ae98e3128"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "台風が近づいているため、明日は電車が止まる（　　）。",
+      "options": [
+       "ことにする",
+       "おそれがある",
+       "ようにする",
+       "つもりだ"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「おそれがある」: Vる + おそれがある = có nguy cơ xảy ra việc xấu. ことにする, ようにする, つもりだ diễn tả ý chí của người, không dùng với chủ ngữ 電車. Nghĩa: Vì bão đang đến gần nên ngày mai tàu điện có nguy cơ ngừng chạy."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "この薬は、飲みすぎると胃を悪くする（　　）があります。",
+      "options": [
+       "ばかり",
+       "ほど",
+       "まで",
+       "おそれ"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Điền 「おそれ」: 〜おそれがある cảnh báo khả năng xấu. ばかり, ほど, まで không đi với がある theo nghĩa này. Nghĩa: Thuốc này nếu uống quá liều có thể gây hại cho dạ dày."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "大雨で＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "あります",
+       "おそれが",
+       "川の水が",
+       "あふれる"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 大雨で川の水があふれるおそれがあります。 (Do mưa lớn, nước sông có nguy cơ tràn bờ.). Mảnh ở ô ★ là 「おそれが」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "大型の台風が近づいており、＿＿ ★ ＿＿ ＿＿。",
+      "options": [
+       "おそれが",
+       "明日は",
+       "あります",
+       "大雨の"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu đúng: 大型の台風が近づいており、明日は大雨のおそれがあります。 (Bão lớn đang đến gần, ngày mai có nguy cơ mưa to.). Mảnh ở ô ★ là 「大雨の」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この地域では、今夜から雪が積もるおそれがあります。",
+      "options": [
+       "Ở khu vực này, từ tối nay chắc chắn tuyết sẽ không rơi.",
+       "Ở khu vực này, tuyết đã phủ dày từ tối qua.",
+       "Ở khu vực này, từ tối nay có nguy cơ tuyết sẽ phủ dày.",
+       "Người dân khu vực này sợ tuyết rơi từ tối nay."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜おそれがある (có nguy cơ), không phải 'sợ': \"Ở khu vực này, từ tối nay có nguy cơ tuyết sẽ phủ dày.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "このままでは、計画が失敗するおそれがある。",
+      "options": [
+       "Cứ thế này thì kế hoạch chắc chắn thành công.",
+       "Cứ thế này thì kế hoạch có nguy cơ thất bại.",
+       "Tôi sợ phải lập kế hoạch như thế này.",
+       "Kế hoạch đã thất bại vì cứ để như thế."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜おそれがある (có nguy cơ xảy ra việc xấu): \"Cứ thế này thì kế hoạch có nguy cơ thất bại.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "強い風のため、木が倒れるおそれがあります。",
+       "この調子なら、試験に合格するおそれがある。",
+       "この橋は古いので、壊れるおそれがある。",
+       "火事のおそれがあるので、ここでたばこを吸わないでください。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「この調子なら、試験に合格するおそれがある。」 sai: おそれがある chỉ dùng cho điều xấu, thi đỗ là điều tốt. Câu đúng: この調子なら、試験に合格できそうだ。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "大雨のため、道路が通れなくなるおそれがあります。",
+       "今夜は地震おそれがあるので、注意してください。",
+       "この食品は、早く食べないと悪くなるおそれがある。",
+       "雪が降ると、バスが遅れるおそれがある。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「今夜は地震おそれがあるので、注意してください。」 sai: danh từ phải nối bằng の: N のおそれがある. Câu đúng: 今夜は地震のおそれがあるので、注意してください。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "おそれが",
+       "あります。",
+       "今夜は",
+       "大雪の"
+      ],
+      "answer_order": [
+       2,
+       3,
+       0,
+       1
+      ],
+      "translation_vi": "Tối nay có nguy cơ tuyết rơi dày."
+     },
+     {
+      "pieces": [
+       "荷物が",
+       "届かない",
+       "おそれがある。",
+       "住所が間違っていると、"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Nếu địa chỉ sai thì hàng có nguy cơ không đến được."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "この地域では、夕方から雷の＿＿があります。",
+      "answer": "おそれ",
+      "accept": [
+       "恐れ"
+      ],
+      "translation_vi": "Ở khu vực này, từ chiều tối có nguy cơ có sấm sét."
+     },
+     {
+      "sentence_ja": "薬の量を間違えると、副作用が出る＿＿がある。",
+      "answer": "おそれ",
+      "accept": [
+       "恐れ"
+      ],
+      "translation_vi": "Nếu dùng sai liều thuốc thì có nguy cơ bị tác dụng phụ."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "このまま雨が降り続くと、試合が中止になる（　　）がある。",
+      "options": [
+       "ほど",
+       "おそれ",
+       "はず",
+       "ため"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「おそれ」: 〜おそれがある = có nguy cơ (trận đấu bị hủy). ほど, はず, ため không dùng với がある theo nghĩa này. Nghĩa: Nếu mưa cứ kéo dài thế này thì trận đấu có nguy cơ bị hủy."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "古い建物は、大きな地震で倒れるおそれがある。",
+      "options": [
+       "Tòa nhà cũ chắc chắn không đổ dù có động đất lớn.",
+       "Người ta sợ đến gần tòa nhà cũ khi có động đất.",
+       "Tòa nhà cũ đã đổ trong trận động đất lớn.",
+       "Tòa nhà cũ có nguy cơ đổ khi có động đất lớn."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜おそれがある (có nguy cơ): \"Tòa nhà cũ có nguy cơ đổ khi có động đất lớn.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ガスをつけたままにすると、火事になるおそれがある。",
+       "道が凍っていて、すべるおそれがあります。",
+       "毎日運動すると、健康になるおそれがある。",
+       "強い雨のため、電車が遅れるおそれがあります。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「毎日運動すると、健康になるおそれがある。」 sai: khỏe mạnh là điều tốt nên không dùng おそれがある. Câu đúng: 毎日運動すると、健康になる。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
@@ -119,7 +1045,188 @@
    "id": "JG-cd49023dc1"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "あんなにまずい店には、もう二度と行く（　　）。",
+      "options": [
+       "べき",
+       "はず",
+       "まい",
+       "わけ"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「まい」: Vる + まい = quyết không làm (ý chí phủ định của người nói), hợp với もう二度と. べき, はず, わけ đứng một mình cuối câu không thành câu. Nghĩa: Quán dở như thế thì tôi quyết không bao giờ đến nữa."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "同じ失敗は二度とする（　　）と心に決めた。",
+      "options": [
+       "まい",
+       "ように",
+       "ことに",
+       "ため"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "Điền 「まい」: するまいと心に決めた = quyết tâm không làm. 二度と cần đi với phủ định nên ように, ことに, ため đều sai. Nghĩa: Tôi đã quyết trong lòng sẽ không bao giờ mắc lại sai lầm đó."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "お酒で失敗したので、＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+       "決めた",
+       "まいと",
+       "二度と",
+       "飲む"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: お酒で失敗したので、二度と飲むまいと決めた。 (Vì đã thất bại do rượu nên tôi quyết sẽ không bao giờ uống nữa.). Mảnh ở ô ★ là 「まいと」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "彼は＿＿ ＿＿ ★ ＿＿、静かに話を聞いていた。",
+      "options": [
+       "まいと",
+       "余計な",
+       "言う",
+       "ことは"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: 彼は余計なことは言うまいと、静かに話を聞いていた。 (Anh ấy quyết không nói điều thừa thãi nên lặng lẽ lắng nghe.). Mảnh ở ô ★ là 「言う」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "もう二度とうそはつくまい。",
+      "options": [
+       "Có lẽ tôi sẽ lại nói dối.",
+       "Tôi không thể không nói dối.",
+       "Tôi quyết sẽ không bao giờ nói dối nữa.",
+       "Tôi đã nói dối hai lần rồi."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜まい (quyết không): \"Tôi quyết sẽ không bao giờ nói dối nữa.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "この程度の雨なら、試合は中止にはなるまい。",
+      "options": [
+       "Mưa cỡ này thì trận đấu chắc chắn sẽ bị hủy.",
+       "Mưa cỡ này thì chắc trận đấu sẽ không bị hủy.",
+       "Mưa cỡ này thì không nên hủy trận đấu.",
+       "Vì mưa cỡ này nên trận đấu đã bị hủy."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜まい với nghĩa phỏng đoán phủ định (chắc là không): \"Mưa cỡ này thì chắc trận đấu sẽ không bị hủy.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "あの人にはもう何も頼むまい。",
+       "誰にも負けまいと、毎日練習した。",
+       "もう二度と遅刻しないまいと思った。",
+       "こんな寒い日には、誰も来るまい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「もう二度と遅刻しないまいと思った。」 sai: まい đã mang nghĩa phủ định nên không gắn sau しない. Câu đúng: もう二度と遅刻するまいと思った。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "彼はもうここには戻ってくるまい。",
+       "もう甘い物は食べたまいと決めた。",
+       "人の悪口は言うまいと決めている。",
+       "二度と同じ間違いはするまい。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「もう甘い物は食べたまいと決めた。」 sai: まい không đi sau thể た. Câu đúng: もう甘い物は食べまいと決めた。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "まいと",
+       "人前では",
+       "怒る",
+       "決めた。"
+      ],
+      "answer_order": [
+       1,
+       2,
+       0,
+       3
+      ],
+      "translation_vi": "Tôi đã quyết sẽ không nổi giận trước mặt người khác."
+     },
+     {
+      "pieces": [
+       "忘れ",
+       "まいと",
+       "メモに書いた。",
+       "約束の時間を"
+      ],
+      "answer_order": [
+       3,
+       0,
+       1,
+       2
+      ],
+      "translation_vi": "Tôi ghi vào giấy nhớ để quyết không quên giờ hẹn."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "二度とあんな店で買い物はする＿＿。",
+      "answer": "まい",
+      "translation_vi": "Tôi quyết sẽ không bao giờ mua sắm ở cửa hàng như thế nữa."
+     },
+     {
+      "sentence_ja": "この天気では、明日の花火大会は行われる＿＿。",
+      "answer": "まい",
+      "translation_vi": "Thời tiết thế này thì chắc lễ hội pháo hoa ngày mai sẽ không được tổ chức."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "もう二度と逃げ（　　）と思った。",
+      "options": [
+       "べき",
+       "ずに",
+       "まい",
+       "ながら"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「まい」: 逃げる là động từ nhóm II nên có thể dùng 逃げ + まい. 二度と cần phủ định, còn べき, ずに, ながら không kết với と思った được. Nghĩa: Tôi đã nghĩ sẽ không bao giờ trốn chạy nữa."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "あの真面目な田中さんが約束を破ることはあるまい。",
+      "options": [
+       "Không ngờ anh Tanaka lại thất hứa.",
+       "Anh Tanaka nghiêm túc như vậy chắc sẽ không có chuyện thất hứa.",
+       "Anh Tanaka nghiêm túc như vậy đã thất hứa rồi.",
+       "Anh Tanaka bảo tôi đừng thất hứa."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ことはあるまい (phỏng đoán: chắc không có chuyện): \"Anh Tanaka nghiêm túc như vậy chắc sẽ không có chuyện thất hứa.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "夜遅くにお菓子は食べまいと決めた。",
+       "あの人とはもう会うまい。",
+       "もう二度とたばこを吸いまい。",
+       "この空なら、雨はもう降るまい。"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "「もう二度とたばこを吸いまい。」 sai: 吸う là động từ nhóm I nên phải dùng thể từ điển + まい. Câu đúng: もう二度とたばこを吸うまい。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {

@@ -1,0 +1,4 @@
+{"id": "JG-d93f258ae0", "type": "CONTEXT_ERROR", "detail": "pattern là tiếng Việt 「Ngay cả...」, không có mẫu tiếng Nhật; meaning_vi quá dài, lẫn giải thích ngữ pháp và dấu ngoặc kép kiểu “”", "suggest": "pattern: N + ですら / N(+trợ từ) + すら; meaning_vi: Ngay cả — Nêu trường hợp cực đoan để nhấn mạnh, vế sau thường phủ định."}
+{"id": "JG-b33c37f6ec", "type": "CONTEXT_ERROR", "detail": "pattern 「N / V thể ば + こそ」 dễ hiểu nhầm là N + こそ trực tiếp; mẫu ばこそ cần thể điều kiện (Nであれば)", "suggest": "pattern: Vば / Aければ / Nであれば + こそ"}
+{"id": "JG-f137d9a329", "type": "CONTEXT_ERROR", "detail": "pattern 「Câu hỏi + であろうと」 không chính xác: đứng trước là từ nghi vấn hoặc danh từ, không phải cả câu hỏi", "suggest": "pattern: Từ nghi vấn / N + であろうと"}
+{"id": "JG-603137e58e", "type": "CONTEXT_ERROR", "detail": "pattern chỉ ghi 「V thể ます (bỏ ます) + こそすれ」 nhưng ví dụ có sẵn dùng danh từ (感謝こそすれ)", "suggest": "pattern: Vます (bỏ ます) / N + こそすれ"}

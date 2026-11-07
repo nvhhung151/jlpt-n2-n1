@@ -1,0 +1,279 @@
+{
+ "JG-aedcbdd728": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "病気の母を一人で家に置いていく（　　）。",
+    "options": ["ざるをえない", "ようがない", "わけにはいかない", "がちだ"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「わけにはいかない」: Vる + わけにはいかない = không thể làm vì đạo lý, hoàn cảnh. ざるをえない cần Vない bỏ ない, ようがない và がちだ cần Vます bỏ ます nên không đi sau 置いていく. Nghĩa: Tôi không thể để mẹ đang ốm ở nhà một mình."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "お世話になった先生の頼みなので、断る（　　）。",
+    "options": ["わけにはいかない", "ばかりだ", "一方だ", "おそれがある"],
+    "answer_index": 0,
+    "explanation_vi": "Điền 「わけにはいかない」: vì là lời nhờ của thầy đã giúp đỡ mình nên về đạo lý không thể từ chối. ばかりだ, 一方だ (ngày càng…), おそれがある (e là sẽ…) không hợp với lý do ở vế trước. Nghĩa: Vì là lời nhờ của thầy đã giúp đỡ tôi nên tôi không thể từ chối."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "明日は大切な面接があるので、＿＿ ＿＿ ★ ＿＿。",
+    "options": ["いかない", "寝坊する", "絶対に", "わけには"],
+    "answer_index": 3,
+    "explanation_vi": "Câu đúng: 明日は大切な面接があるので、絶対に寝坊するわけにはいかない。 (Ngày mai có buổi phỏng vấn quan trọng nên tuyệt đối không thể ngủ quên.). Mảnh ở ô ★ là 「わけには」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "みんなが残業しているのに、＿＿ ★ ＿＿ ＿＿。",
+    "options": ["わけには", "いかない", "帰る", "私だけ先に"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: みんなが残業しているのに、私だけ先に帰るわけにはいかない。 (Mọi người đều đang làm thêm giờ, tôi không thể về trước một mình.). Mảnh ở ô ★ là 「帰る」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "これは会社の大事な情報なので、友だちにも話すわけにはいかない。",
+    "options": [
+     "Đây là thông tin quan trọng nên tôi nhất định phải kể cho bạn.",
+     "Đây là thông tin quan trọng của công ty nên tôi không thể kể cho cả bạn bè.",
+     "Tôi không biết cách nào để kể thông tin này cho bạn bè.",
+     "Vì là thông tin quan trọng nên bạn bè đã kể cho tôi."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vる + わけにはいかない (không thể làm vì hoàn cảnh, trách nhiệm): \"Đây là thông tin quan trọng của công ty nên tôi không thể kể cho cả bạn bè.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "部長に呼ばれたら、行かないわけにはいかない。",
+    "options": [
+     "Nếu bị trưởng phòng gọi thì tôi không thể đi được.",
+     "Dù trưởng phòng gọi, tôi cũng không đi.",
+     "Trưởng phòng gọi nhưng tôi không có lý do để đi.",
+     "Nếu bị trưởng phòng gọi thì không thể không đi."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vない + わけにはいかない (không thể không làm = buộc phải làm): \"Nếu bị trưởng phòng gọi thì không thể không đi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "お客様を待たせるわけにはいかないので、急いで準備した。",
+     "子どもが見ているので、信号を無視するわけにはいかない。",
+     "この漢字は難しすぎて、読むわけにはいかない。",
+     "まだ仕事が残っているので、帰るわけにはいかない。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「この漢字は難しすぎて、読むわけにはいかない。」 sai: わけにはいかない là không thể vì hoàn cảnh, đạo lý; không đọc được vì khó là chuyện năng lực, phải dùng thể khả năng. Câu đúng: この漢字は難しすぎて、読めない。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "先輩にごちそうになったので、お礼を言わないわけにはいかない。",
+     "熱があっても、今日は休みわけにはいかない。",
+     "約束したのだから、今さらやめるわけにはいかない。",
+     "大切な友だちの結婚式なので、出席しないわけにはいかない。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「熱があっても、今日は休みわけにはいかない。」 sai: trước わけにはいかない dùng thể từ điển (休む), không dùng thể ます bỏ ます. Câu đúng: 熱があっても、今日は休むわけにはいかない。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["わけには", "休む", "いかない。", "大事な試合なので、"],
+    "answer_order": [3, 1, 0, 2],
+    "translation_vi": "Vì là trận đấu quan trọng nên tôi không thể nghỉ."
+   },
+   {
+    "pieces": ["言わない", "わけには", "いかない。", "先生には本当のことを"],
+    "answer_order": [3, 0, 1, 2],
+    "translation_vi": "Với thầy thì tôi không thể không nói sự thật."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "みんなが頑張っているので、私だけ休む＿＿。",
+    "answer": "わけにはいかない",
+    "accept": ["わけにはいきません"],
+    "translation_vi": "Mọi người đều đang cố gắng nên tôi không thể nghỉ một mình."
+   },
+   {
+    "sentence_ja": "先生が直接頼んできたので、引き受けない＿＿いかない。",
+    "answer": "わけには",
+    "accept": ["わけにも"],
+    "translation_vi": "Thầy đã trực tiếp nhờ nên tôi không thể không nhận."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "せっかく作ってくれた料理なので、残す（　　）。",
+    "options": ["つつある", "最中だ", "っぱなしだ", "わけにはいかない"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「わけにはいかない」: người ta đã cất công nấu nên về tình nghĩa không thể bỏ thừa. つつある, っぱなしだ cần Vます bỏ ます, 最中だ cần Vている, nên đều không đi sau 残す. Nghĩa: Là món người ta đã cất công nấu cho nên tôi không thể ăn bỏ thừa."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "お客様の前で、疲れた顔を見せるわけにはいかない。",
+    "options": [
+     "Trước mặt khách, tôi không có cách nào che vẻ mệt mỏi.",
+     "Trước mặt khách hàng thì không thể để lộ vẻ mặt mệt mỏi.",
+     "Trước mặt khách, tôi lỡ để lộ vẻ mặt mệt mỏi.",
+     "Khách hàng trông mệt mỏi nên tôi không gặp được."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vる + わけにはいかない (không thể làm vì hoàn cảnh, trách nhiệm): \"Trước mặt khách hàng thì không thể để lộ vẻ mặt mệt mỏi.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "社長が来るので、遅刻するわけにはいかない。",
+     "目が悪いので、遠くの字を見るわけにはいかない。",
+     "親に心配をかけるわけにはいかないので、毎週電話している。",
+     "みんなが待っているので、ここでやめるわけにはいかない。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「目が悪いので、遠くの字を見るわけにはいかない。」 sai: mắt kém nên không nhìn được là chuyện khả năng, không phải vì đạo lý hay hoàn cảnh xã hội. Câu đúng: 目が悪いので、遠くの字が見えない。"
+   }
+  ]
+ },
+ "JG-ce44d82e34": {
+  "check_bank": [
+   {
+    "type": "FILL",
+    "prompt_ja": "申し訳ございませんが、そのご質問にはお答えし（　　）。",
+    "options": ["がちです", "かねません", "かねます", "っぽいです"],
+    "answer_index": 2,
+    "explanation_vi": "Điền 「かねます」: Vます bỏ ます + かねます = khó có thể…, cách từ chối lịch sự. かねません (có thể xảy ra điều xấu), がちです (hay…), っぽいです không hợp nghĩa. Nghĩa: Thành thật xin lỗi, chúng tôi khó có thể trả lời câu hỏi đó."
+   },
+   {
+    "type": "FILL",
+    "prompt_ja": "その意見には賛成し（　　）が、もう少し話し合いましょう。",
+    "options": ["かねない", "次第です", "っぽいです", "かねます"],
+    "answer_index": 3,
+    "explanation_vi": "Điền 「かねます」: 賛成しかねます = khó có thể tán thành (từ chối nhẹ nhàng). かねない (e là sẽ…), 次第です, っぽいです không hợp nghĩa. Nghĩa: Tôi khó có thể tán thành ý kiến đó, nhưng chúng ta hãy bàn thêm một chút."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "お客様の＿＿ ＿＿ ★ ＿＿。",
+    "options": ["しかねます", "個人情報は", "お教え", "電話では"],
+    "answer_index": 2,
+    "explanation_vi": "Câu đúng: お客様の個人情報は電話ではお教えしかねます。 (Thông tin cá nhân của khách hàng thì chúng tôi khó có thể cho biết qua điện thoại.). Mảnh ở ô ★ là 「お教え」."
+   },
+   {
+    "type": "ORDER_STAR",
+    "prompt_ja": "彼の＿＿ ＿＿ ★ ＿＿注意してしまった。",
+    "options": ["かねて", "つい", "我慢し", "態度には"],
+    "answer_index": 0,
+    "explanation_vi": "Câu đúng: 彼の態度には我慢しかねてつい注意してしまった。 (Không chịu nổi thái độ của anh ta nên tôi lỡ nhắc nhở.). Mảnh ở ô ★ là 「かねて」."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "このような条件では、契約を結びかねます。",
+    "options": [
+     "Với điều kiện này, chúng tôi rất có thể sẽ ký hợp đồng.",
+     "Với điều kiện như thế này thì chúng tôi khó có thể ký hợp đồng.",
+     "Với điều kiện này, có lẽ hợp đồng sẽ bị hủy.",
+     "Chúng tôi vừa ký hợp đồng vừa xem xét điều kiện."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Câu dùng mẫu Vます + かねる (khó có thể…): \"Với điều kiện như thế này thì chúng tôi khó có thể ký hợp đồng.\""
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "あまりの痛みに耐えかねて、夜中に病院へ行った。",
+    "options": [
+     "Vì cơn đau có thể trở nặng nên tôi đến bệnh viện.",
+     "Dù rất đau nhưng tôi vẫn chịu được đến sáng.",
+     "Không chịu nổi cơn đau quá mức, tôi đã đến bệnh viện lúc nửa đêm.",
+     "Tôi đến bệnh viện lúc nửa đêm và đã hết đau."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Câu dùng 耐えかねる (không chịu nổi): \"Không chịu nổi cơn đau quá mức, tôi đã đến bệnh viện lúc nửa đêm.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "担当者がいないので、私にはお答えしかねます。",
+     "その案には、残念ですが賛成しかねます。",
+     "この荷物は重すぎて、一人では持ちかねる。",
+     "急なお申し込みは、お受けしかねます。"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "「この荷物は重すぎて、一人では持ちかねる。」 sai: かねる là khó làm vì lý do tâm lý hay quy định, không dùng cho việc không làm nổi về sức lực. Câu đúng: この荷物は重すぎて、一人では持てない。"
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "今の段階では、何とも申し上げかねます。",
+     "返品の理由によっては、お受けしかねる場合があります。",
+     "その条件は受け入れかねる。",
+     "この件については、私には判断するかねます。"
+    ],
+    "answer_index": 3,
+    "explanation_vi": "「この件については、私には判断するかねます。」 sai: かねる gắn sau thể ます bỏ ます, không gắn sau thể từ điển. Câu đúng: この件については、私には判断しかねます。"
+   }
+  ],
+  "order_items": [
+   {
+    "pieces": ["お受け", "かねます。", "予約の変更は", "し", "当日の"],
+    "answer_order": [4, 2, 0, 3, 1],
+    "translation_vi": "Việc đổi lịch hẹn trong ngày thì chúng tôi khó có thể nhận."
+   },
+   {
+    "pieces": ["見かねて", "手伝ってあげた。", "困っている友だちを"],
+    "answer_order": [2, 0, 1],
+    "translation_vi": "Không đành lòng nhìn bạn đang gặp khó khăn nên tôi đã giúp."
+   }
+  ],
+  "fill_items": [
+   {
+    "sentence_ja": "その件については、私の立場では申し上げ＿＿。",
+    "answer": "かねます",
+    "accept": ["かねる"],
+    "translation_vi": "Về việc đó, ở vị trí của tôi thì khó có thể nói ra."
+   },
+   {
+    "sentence_ja": "彼のわがままに耐え＿＿、ついに注意した。",
+    "answer": "かねて",
+    "translation_vi": "Không chịu nổi sự ích kỷ của anh ta, cuối cùng tôi đã nhắc nhở."
+   }
+  ],
+  "extra_practice": [
+   {
+    "type": "FILL",
+    "prompt_ja": "この問題については、すぐには決め（　　）ので、少し時間をください。",
+    "options": ["かねません", "かねます", "かけます", "がちです"],
+    "answer_index": 1,
+    "explanation_vi": "Điền 「かねます」: 決めかねます = khó có thể quyết định ngay. かねません (e là sẽ…), かけます (đang làm dở), がちです (hay…) không hợp với 'xin thêm thời gian'. Nghĩa: Về vấn đề này tôi khó có thể quyết định ngay, xin cho tôi thêm chút thời gian."
+   },
+   {
+    "type": "MEANING",
+    "prompt_ja": "お客様のご要望には、お応えしかねます。",
+    "options": [
+     "Chúng tôi rất có thể sẽ đáp ứng yêu cầu của quý khách.",
+     "Chúng tôi đã đáp ứng xong yêu cầu của quý khách.",
+     "Chúng tôi vừa đáp ứng vừa xin lỗi quý khách.",
+     "Chúng tôi khó có thể đáp ứng yêu cầu của quý khách."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Câu dùng mẫu Vます + かねる (khó có thể…, từ chối lịch sự): \"Chúng tôi khó có thể đáp ứng yêu cầu của quý khách.\""
+   },
+   {
+    "type": "ERROR",
+    "prompt_ja": "Câu nào dùng sai mẫu?",
+    "options": [
+     "カードでのお支払いはお受けしかねます。",
+     "このままでは事故が起こりかねる。",
+     "彼の考えは理解しかねる。",
+     "これ以上の値下げはいたしかねます。"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "「このままでは事故が起こりかねる。」 sai: ý 'e là có thể xảy ra điều xấu' phải dùng かねない; かねる nghĩa là 'khó có thể'. Câu đúng: このままでは事故が起こりかねない。"
+   }
+  ]
+ }
+}

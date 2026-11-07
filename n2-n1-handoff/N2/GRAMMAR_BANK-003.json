@@ -1903,7 +1903,191 @@
    "id": "JG-e31f878921"
   },
   {
-   "answer": null,
+   "answer": {
+    "check_bank": [
+     {
+      "type": "FILL",
+      "prompt_ja": "体が元気な（　　）、この仕事を続けたい。",
+      "options": [
+       "限りで",
+       "最中に",
+       "限り",
+       "に限って"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Điền 「限り」: Aな + 限り nêu điều kiện kéo dài 'chừng nào còn khỏe'. 最中に, に限って không đi sau Aな như vậy; 限りで không phải dạng đúng ở đây. Nghĩa: Chừng nào cơ thể còn khỏe, tôi muốn tiếp tục công việc này."
+     },
+     {
+      "type": "FILL",
+      "prompt_ja": "予約をし（　　）限り、このレストランには入れません。",
+      "options": [
+       "た",
+       "ない",
+       "ます",
+       "て"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「ない」: Vない + 限り nghĩa là 'trừ phi…, nếu không thì…'. Trước 限り không dùng thể ます hay thể て. Nghĩa: Trừ phi đặt chỗ trước, nếu không thì không vào được nhà hàng này."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ＿＿ ★ ＿＿、私はあきらめない。",
+      "options": [
+       "限り",
+       "ある",
+       "少しでも",
+       "可能性が"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu đúng: 少しでも可能性がある限り、私はあきらめない。 (Chừng nào còn dù chỉ một chút khả năng, tôi sẽ không bỏ cuộc.). Mảnh ở ô ★ là 「ある」."
+     },
+     {
+      "type": "ORDER_STAR",
+      "prompt_ja": "＿＿ ★ ＿＿ ＿＿会社のルールを守るべきだ。",
+      "options": [
+       "いる",
+       "限り、",
+       "働いて",
+       "この会社で"
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu đúng: この会社で働いている限り、会社のルールを守るべきだ。 (Chừng nào còn làm việc ở công ty này thì nên tuân thủ quy định của công ty.). Mảnh ở ô ★ là 「働いて」."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "練習を続けない限り、上手にはならない。",
+      "options": [
+       "Chừng nào còn luyện tập thì vẫn chưa giỏi được.",
+       "Dù không luyện tập cũng sẽ giỏi lên.",
+       "Nếu không tiếp tục luyện tập thì sẽ không giỏi lên được.",
+       "Vì đã giỏi rồi nên không cần luyện tập nữa."
+      ],
+      "answer_index": 2,
+      "explanation_vi": "Câu dùng mẫu 〜ない限り (trừ phi…, nếu không… thì không): \"Nếu không tiếp tục luyện tập thì sẽ không giỏi lên được.\""
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "雨が降っている限り、試合は始まらない。",
+      "options": [
+       "Ngay khi trời mưa, trận đấu bắt đầu.",
+       "Chừng nào trời còn mưa thì trận đấu sẽ không bắt đầu.",
+       "Dù trời mưa, trận đấu vẫn diễn ra.",
+       "Trận đấu kết thúc thì trời bắt đầu mưa."
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Câu dùng mẫu 〜ている限り (chừng nào tình trạng đó còn kéo dài): \"Chừng nào trời còn mưa thì trận đấu sẽ không bắt đầu.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "社員である限り、会社の規則を守るべきだ。",
+       "あきらめない限り、チャンスはある。",
+       "体が動く限り、畑で働きたい。",
+       "学生限り、勉強しなければならない。"
+      ],
+      "answer_index": 3,
+      "explanation_vi": "「学生限り、勉強しなければならない。」 sai: danh từ phải nối bằng である (N である限り). Câu đúng: 学生である限り、勉強しなければならない。"
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "明日駅に着く限り、電話します。",
+       "この薬を飲んでいる限り、痛みは出ないそうだ。",
+       "きちんと謝らない限り、許さないよ。",
+       "日本に住んでいる限り、日本語は必要だ。"
+      ],
+      "answer_index": 0,
+      "explanation_vi": "「明日駅に着く限り、電話します。」 sai: 限り nêu một tình trạng kéo dài, không dùng cho một việc xảy ra một lần. Câu đúng: 明日駅に着いたら、電話します。"
+     }
+    ],
+    "order_items": [
+     {
+      "pieces": [
+       "留学はできない。",
+       "反対している",
+       "親が",
+       "限り、"
+      ],
+      "answer_order": [
+       2,
+       1,
+       3,
+       0
+      ],
+      "translation_vi": "Chừng nào bố mẹ còn phản đối thì tôi không thể đi du học."
+     },
+     {
+      "pieces": [
+       "限り、",
+       "払わない",
+       "商品は送られません。",
+       "お金を"
+      ],
+      "answer_order": [
+       3,
+       1,
+       0,
+       2
+      ],
+      "translation_vi": "Trừ phi thanh toán tiền, nếu không hàng sẽ không được gửi đi."
+     }
+    ],
+    "fill_items": [
+     {
+      "sentence_ja": "私が生きている＿＿、この店を続けるつもりだ。",
+      "answer": "限り",
+      "accept": [
+       "かぎり"
+      ],
+      "translation_vi": "Chừng nào tôi còn sống, tôi sẽ tiếp tục giữ cửa hàng này."
+     },
+     {
+      "sentence_ja": "医者の許可が出＿＿限り、退院できません。",
+      "answer": "ない",
+      "translation_vi": "Trừ phi bác sĩ cho phép, nếu không thì không thể xuất viện."
+     }
+    ],
+    "extra_practice": [
+     {
+      "type": "FILL",
+      "prompt_ja": "日本に住む（　　）、日本の法律を守らなければならない。",
+      "options": [
+       "に限って",
+       "限り",
+       "最中に",
+       "かと思うと"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "Điền 「限り」: Vる + 限り, chừng nào còn sống ở Nhật thì phải tuân thủ luật. に限って đi sau danh từ; 最中に cần Vている; かと思うと cần Vた. Nghĩa: Chừng nào còn sống ở Nhật thì phải tuân thủ pháp luật Nhật."
+     },
+     {
+      "type": "MEANING",
+      "prompt_ja": "社長が許可しない限り、この部屋には入れない。",
+      "options": [
+       "Chỉ cần giám đốc có mặt là vào được phòng này.",
+       "Giám đốc đã cấm mọi người vào phòng này mãi mãi.",
+       "Vì giám đốc cho phép nên tôi đã vào phòng này.",
+       "Trừ phi giám đốc cho phép, nếu không thì không vào được phòng này."
+      ],
+      "answer_index": 3,
+      "explanation_vi": "Câu dùng mẫu 〜ない限り (trừ phi…, nếu không… thì không): \"Trừ phi giám đốc cho phép, nếu không thì không vào được phòng này.\""
+     },
+     {
+      "type": "ERROR",
+      "prompt_ja": "Câu nào dùng sai mẫu?",
+      "options": [
+       "ここにいる限り、安全です。",
+       "急がないの限り、間に合わない。",
+       "雨がやまない限り、出かけられない。",
+       "約束を守る限り、信じてあげる。"
+      ],
+      "answer_index": 1,
+      "explanation_vi": "「急がないの限り、間に合わない。」 sai: động từ nối thẳng với 限り, không thêm の. Câu đúng: 急がない限り、間に合わない。"
+     }
+    ]
+   },
    "context": {
     "examples": [
      {
